@@ -1,0 +1,18 @@
+{
+  "name": "trackerApi",
+  "version": "1.0.0",
+  "description": "Api based on data from DuckDuckGo tracker radar data",
+  "main": "index.js",
+  "repository": "https://github.com/LaurenceJJones/TrackerRadarApi",
+  "author": "Loz <laurence.jones@live.co.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^2.11.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
