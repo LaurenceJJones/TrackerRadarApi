@@ -1,6 +1,8 @@
 {
-    "name": "Applovin Corporation",
+    "name": "AppLovin Corporation",
+    "displayName": "AppLovin",
     "properties": [
-        "applovin.com"
+        "applovin.com",
+        "safedk.com"
     ]
 }

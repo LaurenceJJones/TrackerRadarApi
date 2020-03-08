@@ -1,9 +1,21 @@
 {
-    "name": "GROUPE ADEO",
+    "name": "Groupe Adeo",
+    "displayName": "Groupe Adeo",
     "properties": [
-        "leroymerlin.fr",
-        "leroymerlin.ru",
         "bricoman.fr",
-        "bricoman.it"
+        "bricoman.it",
+        "leroymerlin.cn",
+        "leroymerlin.co.za",
+        "leroymerlin.com.br",
+        "leroymerlin.es",
+        "leroymerlin.fr",
+        "leroymerlin.gr",
+        "leroymerlin.it",
+        "leroymerlin.pl",
+        "leroymerlin.pt",
+        "leroymerlin.ro",
+        "leroymerlin.ru",
+        "leroymerlin.ua",
+        "lmcdn.fr"
     ]
 }
