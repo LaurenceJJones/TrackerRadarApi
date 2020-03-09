@@ -1,4 +1,7 @@
 const express = require('express');
+const bodyParser = require('body-parser')
+const helmet = require('helmet')
+
 const {
     ApolloServer,
     gql
@@ -10,11 +13,54 @@ const {
     find,
     filter
 } = require('lodash');
-const readDir = require('./read');
+const {
+    init
+} = require('./read');
 const dirNames = ['./data/domains/', './data/entities/'];
 
-readDir.init(dirNames).then((value) => {
-
+init(dirNames).then((value) => {
+    REST = {
+        names() {
+            let arr = [];
+            for (let i = 0; i < value.entities.length; i++) {
+                const element = value.entities[i];
+                arr.push(element.name)
+            }
+            return arr;
+        },
+        findEntity(name) {
+            return find(value.entities, {
+                    name: name
+                }) ?
+                find(value.entities, {
+                    name: name
+                }) : {
+                    ERROR: `${name} not found`
+                }
+        },
+        findDomains(name) {
+            let arr = [];
+            let obj = find(value.entities, {
+                name: name
+            });
+            if (!obj) {
+                return {
+                    ERROR: `${name} not found`
+                }
+            }
+            obj.properties.forEach(element => {
+                find(value.domains, {
+                        domain: element
+                    }) ?
+                    arr.push(find(value.domains, {
+                        domain: element
+                    })) : arr.push({
+                        domain: element
+                    })
+            });
+            return arr;
+        }
+    }
     // Construct a schema, using GraphQL schema language
     const typeDefs = gql `
         scalar List
@@ -31,7 +77,7 @@ readDir.init(dirNames).then((value) => {
         }
         type Domain {
             domain : String
-            owner : Owner
+            owner : List
             source : List
             prevalence: Float
             sites: Int
@@ -40,10 +86,6 @@ readDir.init(dirNames).then((value) => {
             categories: List
             cookies : Float
             performance: Performance
-        }
-        type Owner {
-            name : String
-            displayName : String
         }
         type Resource {
             rule: String
@@ -62,6 +104,7 @@ readDir.init(dirNames).then((value) => {
         }
         type Query {
             entities : [Entity]
+            entity(name : String): [Entity]
         }
     `;
 
@@ -70,6 +113,15 @@ readDir.init(dirNames).then((value) => {
         List: GraphQLList,
         Query: {
             entities: () => value.entities,
+            entity: (parent, args, context, info) => {
+                let obj = find(value.entities, {
+                    name: args.name
+                });
+                if (!obj) {
+                    return null
+                }
+                return [obj]
+            }
         },
         Entity: {
             prevalence(arg) {
@@ -95,10 +147,7 @@ readDir.init(dirNames).then((value) => {
         },
         Domain: {
             owner(arg) {
-                return arg.owner ? arg.owner : {
-                    name: 'N/A',
-                    displayName: 'N/A'
-                }
+                return arg.owner ? [arg.owner] : []
             },
             source(arg) {
                 return arg.source ? arg.source : [];
@@ -140,11 +189,52 @@ readDir.init(dirNames).then((value) => {
     });
 
     const app = express();
+    app.use(bodyParser.urlencoded({
+        extended: true
+    }));
+    app.use(helmet());
     server.applyMiddleware({
-        app
+        app,
+        path: '/api/graphql'
     });
-    app.get('/', (req, res) => {
-        res.json(value)
+    app.get('/api/REST/', (req, res) => {
+        res.json({
+            "data": REST.names()
+        })
+    })
+    app.get('/api/REST/:name', (req, res) => {
+        let data = REST.findEntity(req.params.name);
+        if (data.ERROR) {
+            res.json(data)
+            return;
+        }
+        res.json({
+            "data": data
+        })
+    })
+    app.get('/api/REST/:name/domains', (req, res) => {
+        let data = REST.findDomains(req.params.name);
+        if (data.ERROR) {
+            res.json(data);
+            return;
+        }
+        res.json({
+            "data": data
+        })
+    })
+    app.get('/api/REST/:name/combine', (req, res) => {
+        let data = REST.findEntity(req.params.name);
+        if (data.ERROR) {
+            res.json(data);
+            return;
+        }
+        data.properties = REST.findDomains(req.params.name);
+        res.json({
+            "data": data
+        })
+    })
+    app.get('*', (req, res) => {
+        res.redirect('/api/rest')
     })
     app.listen({
             port: 4000
