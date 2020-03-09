@@ -13,7 +13,7 @@ Returns all entities with domain data
   }
 }
 ```
-#### *** GraphQL Filter Example ***
+#### ***GraphQL*** Filter Example
 Returns entity if found
 (You can use /api/rest in combination with this graphql endpoint to get names)
 ```
