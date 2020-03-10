@@ -2,6 +2,7 @@
 
 #### ***GraphQL*** Example Data
 Endpoint for all GraphQL /api/graphql
+
 Returns all entities with domain data
 ```
 {
