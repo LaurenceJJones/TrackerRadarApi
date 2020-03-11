@@ -1,6 +1,7 @@
 const express = require('express');
-const bodyParser = require('body-parser')
-const helmet = require('helmet')
+const path = require('path');
+const bodyParser = require('body-parser');
+const helmet = require('helmet');
 
 const {
     ApolloServer,
@@ -10,8 +11,7 @@ const {
     GraphQLList
 } = require('graphql');
 const {
-    find,
-    filter
+    find
 } = require('lodash');
 const {
     init
@@ -42,19 +42,18 @@ init(dirNames).then((value) => {
             let arr = [];
             let obj = find(value.entities, {
                 name: name
-            });
+            })
             if (!obj) {
                 return {
                     ERROR: `${name} not found`
                 }
             }
             obj.properties.forEach(element => {
-                find(value.domains, {
-                        domain: element
-                    }) ?
-                    arr.push(find(value.domains, {
-                        domain: element
-                    })) : arr.push({
+                let obj = find(value.domains, {
+                    domain: element
+                })
+                obj ?
+                    arr.push(obj) : arr.push({
                         domain: element
                     })
             });
@@ -213,7 +212,10 @@ init(dirNames).then((value) => {
         })
     })
     app.get('/api/REST/:name/domains', (req, res) => {
-        let data = REST.findDomains(req.params.name);
+        //Added spread operator since it was causing a bug
+        let data = {
+            ...REST.findDomains(req.params.name)
+        }
         if (data.ERROR) {
             res.json(data);
             return;
@@ -223,15 +225,21 @@ init(dirNames).then((value) => {
         })
     })
     app.get('/api/REST/:name/combine', (req, res) => {
-        let data = REST.findEntity(req.params.name);
+        //Added spread operator since it was causing a bug with the override data.properties down below
+        let data = {
+            ...REST.findEntity(req.params.name)
+        };
         if (data.ERROR) {
             res.json(data);
             return;
         }
-        data.properties = REST.findDomains(req.params.name);
+        data.properties = REST.findDomains(req.params.name)
         res.json({
             "data": data
         })
+    })
+    app.get('/', (req, res) => {
+        res.sendFile(path.join(__dirname + '/index.html'));
     })
     app.get('*', (req, res) => {
         res.redirect('/api/rest')

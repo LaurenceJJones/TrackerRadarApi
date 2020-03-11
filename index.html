@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/buefy/dist/buefy.min.css">
+</head>
+
+<body>
+    <div id="app">
+        <section>
+            <b-radio @click.native="name.length > 0 ? selectName(name) : null" v-model="checkOption" name="name"
+                native-value="None">
+                None
+            </b-radio>
+            <b-radio @click.native="name.length > 0 ? selectName(name) : null" v-model="checkOption" name="name"
+                native-value="Domains">
+                Domains
+            </b-radio>
+            <b-radio @click.native="name.length > 0 ? selectName(name) : null" v-model="checkOption" name="name"
+                native-value="Combine">
+                Combine
+            </b-radio>
+            {{fetchUrl}}
+            <b-field label="Find a tracker name">
+                <b-autocomplete rounded v-model="name" :data="filteredDataArray" :loading="loading" @typing="getNames"
+                    clearable @select="selectName">
+                    <template slot="empty">No results found</template>
+                </b-autocomplete>
+            </b-field>
+            {{selectData}}
+        </section>
+    </div>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://unpkg.com/buefy/dist/buefy.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script>
+        new Vue({
+            el: '#app',
+            data() {
+                return {
+                    data: [],
+                    loading: false,
+                    name: '',
+                    selectData: '',
+                    fetchUrl: '/api/rest/',
+                    checkOption: 'None'
+                }
+            },
+            methods: {
+                async getNames(name) {
+                    if (!name.length) {
+                        this.data = []
+                        return
+                    }
+                    this.loading = true;
+                    await axios.get('/api/rest').then((res) => {
+                            this.data = [];
+                            res.data.data.forEach(element => {
+                                this.data.push(element)
+                            });
+                        })
+                        .catch((error) => {
+                            console.error(error)
+                            this.data = []
+                            throw error
+                        })
+                        .finally(() => {
+                            this.isFetching = false
+                        })
+                },
+                selectName(option) {
+                    option = option.trim();
+                    if (!option.length) {
+                        return
+                    }
+                    this.fetchUrl =
+                        `/api/rest/${option}${this.checkOption === 'None' ? `` : `/${this.checkOption}`}`
+                    axios.get(this.fetchUrl)
+                        .then((res) => {
+                            console.dir(res)
+                            this.selectData = res.data.data;
+                            this.fetchUrl =
+                                `/api/rest/${option}${this.checkOption === 'None' ? `` : `/${this.checkOption}`}`
+                        })
+                        .catch((error) => {
+                            console.error(error)
+                            throw error
+                        })
+                        .finally(() => {})
+                }
+            },
+            computed: {
+                filteredDataArray() {
+                    return this.data.filter((option) => {
+                        return option
+                            .toString()
+                            .toLowerCase()
+                            .indexOf(this.name.toLowerCase()) >= 0
+                    })
+                }
+            },
+            created() {}
+        })
+    </script>
+</body>
+
+</html>
