@@ -212,10 +212,7 @@ init(dirNames).then((value) => {
         })
     })
     app.get('/api/REST/:name/domains', (req, res) => {
-        //Added spread operator since it was causing a bug
-        let data = {
-            ...REST.findDomains(req.params.name)
-        }
+        let data = REST.findDomains(req.params.name)
         if (data.ERROR) {
             res.json(data);
             return;
@@ -233,7 +230,7 @@ init(dirNames).then((value) => {
             res.json(data);
             return;
         }
-        data.properties = REST.findDomains(req.params.name)
+        data.properties = [...REST.findDomains(req.params.name)]
         res.json({
             "data": data
         })
