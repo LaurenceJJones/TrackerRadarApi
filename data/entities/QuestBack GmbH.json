@@ -1,7 +1,13 @@
 {
-    "name": "Questback GmbH",
-    "displayName": "Questback",
+    "name": "QuestBack GmbH",
+    "displayName": "QuestBack",
     "properties": [
+        "questback.com",
         "customervoice360.com"
-    ]
+    ],
+    "prevalence": {
+        "tracking": 0,
+        "nonTracking": 0.0000203,
+        "total": 0.0000203
+    }
 }

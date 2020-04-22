@@ -1,0 +1,13 @@
+{
+    "name": "State of Illinois: Department of Innovation and Technology",
+    "displayName": "State of Illinois: Department of Innovation and",
+    "properties": [
+        "il.gov",
+        "illinois.gov"
+    ],
+    "prevalence": {
+        "tracking": 0.0000203,
+        "nonTracking": 0.0000203,
+        "total": 0.0000406
+    }
+}
