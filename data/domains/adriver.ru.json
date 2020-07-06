@@ -9,89 +9,69 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0138,
-    "sites": 679,
+    "prevalence": 0.0123,
+    "sites": 902,
     "subdomains": [
         "ad",
         "ssl",
         "content",
         "ua"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "adriver\\.ru\\/cgi-bin\\/rle\\.cgi",
-            "cookies": 0.000651,
+            "cookies": 0.000438,
             "fingerprinting": 0,
             "subdomains": [
                 "ad",
                 "ssl"
             ],
             "apis": {},
-            "sites": 32,
-            "prevalence": 0.000651
+            "sites": 33,
+            "prevalence": 0.000452,
+            "cnames": []
         },
         {
             "rule": "adriver\\.ru\\/cgi-bin\\/erle\\.cgi",
-            "cookies": 0.000427,
+            "cookies": 0.00026,
             "fingerprinting": 0,
             "subdomains": [
                 "ad"
             ],
             "apis": {},
-            "sites": 21,
-            "prevalence": 0.000427
+            "sites": 20,
+            "prevalence": 0.000274,
+            "cnames": []
         },
         {
             "rule": "adriver\\.ru\\/banners\\/0002186\\/0002186173\\/0\\/l6\\.html",
-            "cookies": 0.000529,
+            "cookies": 0.000287,
             "fingerprinting": 1,
             "subdomains": [
                 "content"
             ],
             "apis": {
-                "Date.prototype.getTime": 26,
-                "Document.cookie setter": 26,
-                "Document.cookie getter": 26
+                "Date.prototype.getTime": 23,
+                "Document.cookie setter": 21,
+                "Document.cookie getter": 21
             },
-            "sites": 26,
-            "prevalence": 0.000529
+            "sites": 23,
+            "prevalence": 0.000315,
+            "cnames": []
         },
         {
-            "rule": "adriver\\.ru\\/banners\\/0002186\\/0002186173\\/0\\/a6\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "content"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 25
-            },
-            "sites": 26,
-            "prevalence": 0.000529
-        },
-        {
-            "rule": "adriver\\.ru\\/cgi-bin\\/erle\\.cgi",
-            "cookies": 0.0000407,
+            "rule": "adriver\\.ru\\/cgi-bin\\/rle\\.cgi",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "ad"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adriver\\.ru\\/cgi-bin\\/merle\\.cgi",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ad",
-                "ua"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adriver\\.ru\\/banners\\/0002186\\/0002186173\\/0\\/AV\\.js",
@@ -101,58 +81,76 @@
                 "content"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 8,
-                "Date.prototype.getTime": 8,
-                "Screen.prototype.width": 8,
-                "Screen.prototype.height": 8,
-                "Navigator.prototype.platform": 8
+                "Navigator.prototype.userAgent": 7,
+                "Date.prototype.getTime": 7,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7,
+                "Navigator.prototype.platform": 7
             },
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
             "rule": "adriver\\.ru\\/cgi-bin\\/event\\.cgi",
-            "cookies": 0.000163,
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
                 "ad"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "adriver\\.ru\\/cgi-bin\\/erle\\.cgi",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adriver\\.ru\\/cgi-bin\\/merle\\.cgi",
+            "cookies": 0.0000821,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad",
+                "ua"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "adriver\\.ru\\/cgi-bin\\/erle\\.cgi",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adriver\\.ru\\/cgi-bin\\/rle\\.cgi",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "ad"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adriver\\.ru\\/cgi-bin\\/erle\\.cgi",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ad"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adriver\\.ru\\/cgi-bin\\/erle\\.cgi",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ad"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -165,5 +163,11 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00116
+    "cookies": 0.000821,
+    "types": {
+        "Image": 42,
+        "Script": 33,
+        "Document": 27,
+        "XHR": 2
+    }
 }

@@ -7,42 +7,36 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000692,
-    "sites": 34,
+    "prevalence": 0.000301,
+    "sites": 22,
     "subdomains": [
         "sync"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "clickonometrics\\.pl\\/adform\\/set-cookie",
-            "cookies": 0.000346,
+            "cookies": 0.000205,
             "fingerprinting": 0,
             "subdomains": [
                 "sync"
             ],
             "apis": {},
-            "sites": 17,
-            "prevalence": 0.000346
-        },
-        {
-            "rule": "clickonometrics\\.pl\\/adocean\\/set-cookie",
-            "cookies": 0.000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 15,
+            "prevalence": 0.000205,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000692
+    "cookies": 0.000301,
+    "types": {
+        "Image": 15
+    }
 }

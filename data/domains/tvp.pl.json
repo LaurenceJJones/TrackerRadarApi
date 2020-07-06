@@ -7,16 +7,17 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000203,
+    "prevalence": 0.0000137,
     "sites": 1,
     "subdomains": [
         "s"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
             "rule": "tvp\\.pl\\/files\\/TVPlayer2\\/polyfills-for-browser\\/1\\.3\\.0\\/polyfills\\.min\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "s"
@@ -25,33 +26,12 @@
                 "Navigator.prototype.userAgent": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "tvp\\.pl\\/files\\/TVPlayer2\\/player2\\/1\\.18\\.0\\/player2\\.css",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "tvp\\.pl\\/files\\/TVPlayer2\\/player2-theme-default\\/1\\.13\\.0\\/theme\\.css",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "tvp\\.pl\\/files\\/TVPlayer2\\/player2\\/1\\.18\\.0\\/player2\\.js",
-            "cookies": 0.0000203,
+            "rule": "tvp\\.pl\\/files\\/TVPlayer2\\/player2\\/1\\.28\\.0\\/player2\\.js",
+            "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
                 "s"
@@ -67,11 +47,12 @@
                 "Document.cookie getter": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "tvp\\.pl\\/files\\/TVPlayer2\\/player2-theme-default\\/1\\.13\\.0\\/theme\\.js",
-            "cookies": 0.0000203,
+            "rule": "tvp\\.pl\\/files\\/TVPlayer2\\/player2-theme-default\\/1\\.16\\.1\\/theme\\.js",
+            "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "s"
@@ -80,48 +61,14 @@
                 "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "tvp\\.pl\\/files\\/TVPlayer2\\/player2-theme-default\\/1\\.13\\.0\\/images\\/parental-group-18\\.png",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "tvp\\.pl\\/files\\/TVPlayer2\\/player2-theme-default\\/1\\.13\\.0\\/images\\/sprites-controls\\.png",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "tvp\\.pl\\/files\\/player\\/video\\/material_niedostepny\\.mp4",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 1
-    },
-    "cookies": 0.0000203
+    "performance": {},
+    "cookies": 0.0000137,
+    "types": {
+        "Script": 6
+    }
 }

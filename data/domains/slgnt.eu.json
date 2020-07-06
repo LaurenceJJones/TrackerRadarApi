@@ -7,39 +7,50 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00104,
-    "sites": 51,
+    "prevalence": 0.000643,
+    "sites": 47,
     "subdomains": [
         "siteeuwest",
-        "puma",
+        "ti-media",
         "baldur",
         "qobuz",
         "unhcr",
-        "ti-media",
         "sitep",
-        "futureplc",
-        "ndc",
-        "offer"
+        "offer",
+        "futureplc"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "slgnt\\.eu\\/track",
-            "cookies": 0.000203,
+            "cookies": 0.000151,
             "fingerprinting": 0,
             "subdomains": [
                 "siteeuwest"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
+        },
+        {
+            "rule": "slgnt\\.eu\\/renderers\\/xml\\.ashx",
+            "cookies": 0.000192,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ti-media"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
         },
         {
             "rule": "slgnt\\.eu\\/optiext\\/webtracker\\.dll",
-            "cookies": 0.000061,
+            "cookies": 0.0000547,
             "fingerprinting": 1,
             "subdomains": [
-                "puma",
                 "baldur",
                 "qobuz",
                 "unhcr"
@@ -49,45 +60,36 @@
                 "Document.cookie setter": 3
             },
             "sites": 4,
-            "prevalence": 0.0000814
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "slgnt\\.eu\\/renderers\\/xml\\.ashx",
-            "cookies": 0.000244,
+            "rule": "slgnt\\.eu\\/track",
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [
-                "ti-media"
+                "siteeuwest"
             ],
             "apis": {},
-            "sites": 12,
-            "prevalence": 0.000244
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
             "rule": "slgnt\\.eu\\/api\\/track",
-            "cookies": 0.0000814,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sitep"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "slgnt\\.eu\\/optiext\\/optiextension\\.dll",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "futureplc",
-                "ndc"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "slgnt\\.eu\\/static\\/th\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "offer"
@@ -99,59 +101,94 @@
                 "Document.cookie setter": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "slgnt\\.eu\\/track",
-            "cookies": 0.000264,
+            "rule": "slgnt\\.eu\\/api\\/781223446343484fa1bfc4239f26927f\\/iv\\/aHR0cHM6Ly93d3cuZGhuZXQuYmUv",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "siteeuwest"
+                "offer"
             ],
             "apis": {},
-            "sites": 14,
-            "prevalence": 0.000285
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "slgnt\\.eu\\/optiext\\/optiextension\\.dll",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "futureplc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "slgnt\\.eu\\/api\\/781223446343484fa1bfc4239f26927f\\/iv\\/aHR0cHM6Ly93d3cubGFsaWJyZS5iZS8%3D",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "offer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "slgnt\\.eu\\/api\\/bd2f1ece37bf42a4a19b17e102680f5b\\/iv\\/aHR0cHM6Ly93d3cubGVzb2lyLmJlLw%3D%3D",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "offer"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "slgnt\\.eu\\/api\\/e2ced05681b84c54bcd6c56ba7a29b6c\\/iv\\/aHR0cHM6Ly93d3cubncuZGUv",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "offer"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "slgnt\\.eu\\/api\\/d2b510b55fa94ee68b0097fb917d3be6\\/iv\\/aHR0cHM6Ly93d3cucGxhbmV0LXNwb3J0cy5kZS8%3D",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "offer"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000997
+    "cookies": 0.000588,
+    "types": {
+        "XHR": 23,
+        "Fetch": 24,
+        "Script": 6,
+        "Document": 3
+    }
 }

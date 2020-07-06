@@ -4,36 +4,42 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000163,
-    "sites": 8,
+    "prevalence": 0.000178,
+    "sites": 13,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "utarget\\.ru\\/check_geo\\/",
-            "cookies": 0.0000407,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "utarget\\.ru\\/is_clickunder\\/",
-            "cookies": 0.0000814,
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 0,
+        "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.000142
+    "cookies": 0.000178,
+    "types": {
+        "Script": 12
+    }
 }

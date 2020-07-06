@@ -7,23 +7,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000231,
-    "sites": 1,
+    "prevalence": 0.0000274,
+    "sites": 2,
     "subdomains": [
         "image"
     ],
-    "fingerprinting": 0,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
-            "rule": "prntscr\\.com\\/image\\/19a0bc03a0fc4022b7dd6af6b5475967\\.png",
-            "cookies": 0.0000462,
+            "rule": "prntscr\\.com\\/image\\/395f9c2fed3b463e8bf81c7acb4a0b65\\.png",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "image"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000462
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -31,7 +33,10 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 0
+        "cache": 1
     },
-    "cookies": 0.0000231
+    "cookies": 0.0000274,
+    "types": {
+        "Image": 2
+    }
 }

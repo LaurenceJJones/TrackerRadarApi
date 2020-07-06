@@ -4,14 +4,19 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000468,
-    "sites": 23,
+    "prevalence": 0.000479,
+    "sites": 35,
     "subdomains": [
         "rf",
-        "rb",
         "ra",
-        "rh"
+        "rb",
+        "rc",
+        "rj",
+        "rh",
+        "jd",
+        "jf"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -20,14 +25,17 @@
             "fingerprinting": 1,
             "subdomains": [
                 "rf",
-                "rb"
+                "ra",
+                "rb",
+                "rc"
             ],
             "apis": {
-                "Date.prototype.getTime": 8,
-                "HTMLCanvasElement.prototype.constructor": 5
+                "Date.prototype.getTime": 10,
+                "HTMLCanvasElement.prototype.constructor": 7
             },
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
             "rule": "revolvermaps\\.com\\/w\\/7\\/a\\/a2\\.php",
@@ -35,31 +43,72 @@
             "fingerprinting": 1,
             "subdomains": [
                 "rf",
-                "rb"
+                "ra",
+                "rb",
+                "rc"
             ],
             "apis": {
+                "HTMLCanvasElement.prototype.constructor": 2,
+                "window.devicePixelRatio": 3,
+                "Date.prototype.getTime": 3,
+                "CanvasRenderingContext2D.prototype.getImageData": 3
+            },
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
+        },
+        {
+            "rule": "revolvermaps\\.com\\/5\\/f\\.php",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "rf"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
                 "HTMLCanvasElement.prototype.constructor": 1,
-                "window.devicePixelRatio": 1,
-                "Date.prototype.getTime": 1,
                 "CanvasRenderingContext2D.prototype.getImageData": 1
             },
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "revolvermaps\\.com\\/0\\/0\\/1\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
-                "rf"
+                "rf",
+                "rj"
             ],
             "apis": {
                 "Date.prototype.getTime": 2,
                 "WebGLRenderingContext.prototype.getShaderPrecisionFormat": 2,
                 "HTMLCanvasElement.prototype.constructor": 1
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "revolvermaps\\.com\\/w\\/1\\/a\\/a2\\.php",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "rf",
+                "rj"
+            ],
+            "apis": {
+                "HTMLCanvasElement.prototype.constructor": 1,
+                "window.devicePixelRatio": 1,
+                "CanvasRenderingContext2D.prototype.measureText": 1,
+                "CanvasRenderingContext2D.prototype.getImageData": 1,
+                "WebGLRenderingContext.prototype.getParameter": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "revolvermaps\\.com\\/0\\/0\\/8\\.js",
@@ -73,7 +122,28 @@
                 "Date.prototype.getTime": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "revolvermaps\\.com\\/w\\/8\\/a\\/a2\\.php",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "rf",
+                "ra"
+            ],
+            "apis": {
+                "HTMLCanvasElement.prototype.constructor": 1,
+                "window.devicePixelRatio": 1,
+                "WebGLRenderingContext.prototype.getParameter": 1,
+                "CanvasRenderingContext2D.prototype.measureText": 1,
+                "CanvasRenderingContext2D.prototype.getImageData": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "revolvermaps\\.com\\/0\\/0\\/6\\.js",
@@ -85,11 +155,12 @@
                 "ra"
             ],
             "apis": {
-                "Date.prototype.getTime": 5,
-                "window.devicePixelRatio": 5
+                "Date.prototype.getTime": 7,
+                "window.devicePixelRatio": 7
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
             "rule": "revolvermaps\\.com\\/w\\/6\\/a\\/a2\\.php",
@@ -101,15 +172,32 @@
                 "ra"
             ],
             "apis": {
-                "HTMLCanvasElement.prototype.constructor": 1,
-                "window.devicePixelRatio": 1,
-                "WebGLRenderingContext.prototype.getParameter": 1,
-                "CanvasRenderingContext2D.prototype.measureText": 1,
-                "CanvasRenderingContext2D.prototype.getImageData": 1,
-                "Date.prototype.getTime": 1
+                "HTMLCanvasElement.prototype.constructor": 2,
+                "window.devicePixelRatio": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "CanvasRenderingContext2D.prototype.measureText": 2,
+                "CanvasRenderingContext2D.prototype.getImageData": 2,
+                "Date.prototype.getTime": 2
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "revolvermaps\\.com\\/p\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jd",
+                "jf"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "revolvermaps\\.com\\/0\\/0\\/5\\.js",
@@ -122,24 +210,24 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "revolvermaps\\.com\\/w\\/5\\/a\\/a2\\.php",
             "cookies": 0,
-            "fingerprinting": 2,
+            "fingerprinting": 1,
             "subdomains": [
                 "rf"
             ],
             "apis": {
-                "HTMLCanvasElement.prototype.constructor": 2,
-                "WebGLRenderingContext.prototype.getParameter": 2,
                 "window.devicePixelRatio": 2,
                 "Date.prototype.getTime": 2,
                 "CanvasRenderingContext2D.prototype.getImageData": 2
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -149,5 +237,9 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 27,
+        "Document": 29
+    }
 }

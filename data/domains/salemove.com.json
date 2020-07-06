@@ -4,16 +4,28 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
-    "sites": 5,
+    "prevalence": 0.0000958,
+    "sites": 7,
     "subdomains": [
         "api",
         "assets",
-        "libs",
-        "io"
+        "libs"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
+        {
+            "rule": "salemove\\.com\\/visitor_config",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
         {
             "rule": "salemove\\.com\\/salemove_integration\\.js",
             "cookies": 0,
@@ -22,84 +34,66 @@
                 "api"
             ],
             "apis": {
-                "window.localStorage": 5,
-                "window.sessionStorage": 5,
-                "Navigator.prototype.userAgent": 4
+                "window.localStorage": 4,
+                "window.sessionStorage": 4,
+                "Navigator.prototype.userAgent": 3
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "salemove\\.com\\/visitor_config",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "salemove\\.com\\/s3\\/1bd1089cc\\/visitor\\/bootstrapper-1bd1089cc\\.js",
+            "rule": "salemove\\.com\\/s3\\/7f412a132\\/visitor\\/bootstrapper-7f412a132\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
                 "assets"
             ],
             "apis": {
-                "Navigator.prototype.platform": 3,
-                "Date.prototype.getTime": 3,
-                "window.localStorage": 3,
-                "Navigator.prototype.userAgent": 3,
-                "window.sessionStorage": 3,
-                "window.name": 3,
-                "Navigator.prototype.onLine": 3
+                "Navigator.prototype.platform": 5,
+                "Date.prototype.getTime": 5,
+                "window.localStorage": 5,
+                "Navigator.prototype.userAgent": 5,
+                "window.sessionStorage": 5,
+                "window.name": 5,
+                "Navigator.prototype.onLine": 5
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
-            "rule": "salemove\\.com\\/visitor-app\\.v2-dbf9346f\\.min\\.js",
+            "rule": "salemove\\.com\\/visitor-app\\.v2-d8ac48bf\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
                 "libs"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Date.prototype.getTime": 3,
-                "Navigator.prototype.product": 3,
-                "window.sessionStorage": 3,
-                "Navigator.prototype.appVersion": 3
+                "Navigator.prototype.userAgent": 5,
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.product": 5,
+                "window.sessionStorage": 5,
+                "Navigator.prototype.appVersion": 5
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
-            "rule": "salemove\\.com\\/s3\\/1bd1089cc\\/visitor\\/legacy_webcomponents-1bd1089cc\\.js",
+            "rule": "salemove\\.com\\/s3\\/7f412a132\\/visitor\\/legacy_webcomponents-7f412a132\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "assets"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Date.prototype.getTime": 3
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
             },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "salemove\\.com\\/socket\\.io\\/",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "io"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -107,7 +101,11 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 1
+        "cache": 0
     },
-    "cookies": 0.0000407
+    "cookies": 0.000041,
+    "types": {
+        "XHR": 7,
+        "Script": 16
+    }
 }

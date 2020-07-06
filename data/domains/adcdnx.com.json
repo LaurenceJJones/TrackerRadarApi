@@ -4,34 +4,39 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000183,
+    "prevalence": 0.000123,
     "sites": 9,
     "subdomains": [
         "cdn1"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "adcdnx\\.com\\/adp1v2\\.js",
-            "cookies": 0.000183,
+            "cookies": 0.000123,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn1"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 1,
-                "Navigator.prototype.mimeTypes": 1
+                "Navigator.prototype.userAgent": 9,
+                "Navigator.prototype.mimeTypes": 9
             },
             "sites": 9,
-            "prevalence": 0.000183
+            "prevalence": 0.000123,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 0,
-        "size": 0,
+        "time": 1,
+        "size": 1,
         "cpu": 0,
-        "cache": 0
+        "cache": 3
     },
-    "cookies": 0.000183
+    "cookies": 0.000123,
+    "types": {
+        "Script": 9
+    }
 }

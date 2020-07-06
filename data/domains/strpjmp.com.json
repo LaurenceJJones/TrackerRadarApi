@@ -4,212 +4,199 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000366,
-    "sites": 18,
+    "prevalence": 0.00026,
+    "sites": 19,
     "subdomains": [
-        "creative"
+        "creative",
+        "go"
     ],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "strpjmp\\.com\\/widgets\\/v4\\/Universal\\/",
-            "cookies": 0.000102,
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [
                 "creative"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
-            "rule": "strpjmp\\.com\\/widgets\\/v4\\/Universal\\/main\\.b3fe4bc0be5fce330173\\.css",
-            "cookies": 0.000142,
+            "rule": "strpjmp\\.com\\/widgets\\/v4\\/Universal\\/main\\.1e22619a1ab73725d4c6\\.css",
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [
                 "creative"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
-            "rule": "strpjmp\\.com\\/widgets\\/v4\\/Universal\\/main\\.b3fe4bc0be5fce330173\\.js",
-            "cookies": 0.000142,
+            "rule": "strpjmp\\.com\\/widgets\\/v4\\/Universal\\/main\\.1e22619a1ab73725d4c6\\.js",
+            "cookies": 0.0000821,
             "fingerprinting": 1,
             "subdomains": [
                 "creative"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.language": 3,
-                "Navigator.prototype.vendor": 3,
-                "MediaSource.isTypeSupported": 7,
-                "HTMLMediaElement.prototype.canPlayType": 7,
-                "HTMLCanvasElement.prototype.constructor": 3
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.language": 5,
+                "MediaSource.isTypeSupported": 6,
+                "HTMLMediaElement.prototype.canPlayType": 6,
+                "Navigator.prototype.vendor": 6,
+                "HTMLCanvasElement.prototype.constructor": 6
             },
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "strpjmp\\.com\\/widgets\\/v4\\/Universal\\/lang\\/en\\.json",
-            "cookies": 0.000142,
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [
                 "creative"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
-            "rule": "strpjmp\\.com\\/widgets\\/v4\\/MobileSlider",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "creative"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "strpjmp\\.com\\/widgets\\/v4\\/MobileSlider\\/main\\.57024f848bf55c33033b\\.css",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "creative"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "strpjmp\\.com\\/widgets\\/v4\\/MobileSlider\\/main\\.57024f848bf55c33033b\\.js",
-            "cookies": 0.000061,
+            "rule": "strpjmp\\.com\\/widgets\\/v3\\.html",
+            "cookies": 0.0000821,
             "fingerprinting": 1,
             "subdomains": [
                 "creative"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 1,
-                "Navigator.prototype.language": 1,
-                "Navigator.prototype.vendor": 1,
-                "MediaSource.isTypeSupported": 3,
-                "HTMLMediaElement.prototype.canPlayType": 3,
-                "HTMLCanvasElement.prototype.constructor": 2
+                "Navigator.prototype.userAgent": 6,
+                "HTMLCanvasElement.prototype.constructor": 6
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
-            "rule": "strpjmp\\.com\\/widgets\\/v4\\/MobileSlider\\/lang\\/en\\.json",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "creative"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "strpjmp\\.com\\/widgets\\/v3\\.html",
-            "cookies": 0.000102,
+            "rule": "strpjmp\\.com\\/widgets\\/impression\\.6ab4139fd05b7df16ec8\\.js",
+            "cookies": 0.0000821,
             "fingerprinting": 1,
             "subdomains": [
                 "creative"
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 5,
-                "HTMLCanvasElement.prototype.constructor": 5
+                "Navigator.prototype.vendor": 5
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
-            "rule": "strpjmp\\.com\\/widgets\\/impression\\.a8d65b78dad8b293a44e\\.js",
-            "cookies": 0.000102,
-            "fingerprinting": 1,
-            "subdomains": [
-                "creative"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "Navigator.prototype.vendor": 4
-            },
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "strpjmp\\.com\\/widgets\\/player\\.a8d65b78dad8b293a44e\\.js",
-            "cookies": 0.000102,
+            "rule": "strpjmp\\.com\\/widgets\\/player\\.6ab4139fd05b7df16ec8\\.js",
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [
                 "creative"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
-            "rule": "strpjmp\\.com\\/widgets\\/getConfig\\.a8d65b78dad8b293a44e\\.js",
-            "cookies": 0.000102,
+            "rule": "strpjmp\\.com\\/widgets\\/getConfig\\.6ab4139fd05b7df16ec8\\.js",
+            "cookies": 0.0000821,
             "fingerprinting": 1,
             "subdomains": [
                 "creative"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5
+                "Navigator.prototype.userAgent": 6
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
-            "rule": "strpjmp\\.com\\/widgets\\/BestThumbs\\.a8d65b78dad8b293a44e\\.js",
-            "cookies": 0.000102,
+            "rule": "strpjmp\\.com\\/widgets\\/BestThumbs\\.6ab4139fd05b7df16ec8\\.js",
+            "cookies": 0.0000821,
             "fingerprinting": 1,
             "subdomains": [
                 "creative"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5
+                "Navigator.prototype.userAgent": 6
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
-            "rule": "strpjmp\\.com\\/widgets\\/prefetch\\.a8d65b78dad8b293a44e\\.js",
-            "cookies": 0.000102,
+            "rule": "strpjmp\\.com\\/widgets\\/prefetch\\.6ab4139fd05b7df16ec8\\.js",
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [
                 "creative"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
-            "rule": "strpjmp\\.com\\/widgets\\/AdNetworkPixels\\.a8d65b78dad8b293a44e\\.js",
-            "cookies": 0.000102,
+            "rule": "strpjmp\\.com\\/widgets\\/AdNetworkPixels\\.6ab4139fd05b7df16ec8\\.js",
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [
                 "creative"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
-            "rule": "strpjmp\\.com\\/widgets\\/v4\\/Universal",
-            "cookies": 0.0000407,
+            "rule": "strpjmp\\.com\\/LPAkira\\/images\\/fb046a4df77dcf29ea311c48a52d1f1d-full\\.jpeg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "creative"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "strpjmp\\.com\\/smartpop\\/0c58240755c6bc74f29f7462eddaf02d44b2576e7142b398c3503b28722218db",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "go"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "strpjmp\\.com\\/smartpop\\/d07ae4cb7ec1725d299ffb93a1d34fac94019596c91641830621cde094ea0653",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "go"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -219,5 +206,12 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000325
+    "cookies": 0.000246,
+    "types": {
+        "Document": 16,
+        "Stylesheet": 6,
+        "Script": 42,
+        "Fetch": 6,
+        "Image": 2
+    }
 }

@@ -9,34 +9,37 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00437,
-    "sites": 215,
+    "prevalence": 0.00401,
+    "sites": 293,
     "subdomains": [
         "mc"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "webvisor\\.org\\/sync_cookie_image_check",
-            "cookies": 0.00437,
+            "cookies": 0.00397,
             "fingerprinting": 0,
             "subdomains": [
                 "mc"
             ],
             "apis": {},
-            "sites": 215,
-            "prevalence": 0.00437
+            "sites": 290,
+            "prevalence": 0.00397,
+            "cnames": []
         },
         {
             "rule": "webvisor\\.org\\/sync_cookie_image_decide",
-            "cookies": 0.00437,
+            "cookies": 0.00397,
             "fingerprinting": 0,
             "subdomains": [
                 "mc"
             ],
             "apis": {},
-            "sites": 215,
-            "prevalence": 0.00437
+            "sites": 290,
+            "prevalence": 0.00397,
+            "cnames": []
         }
     ],
     "categories": [
@@ -48,5 +51,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00437
+    "cookies": 0.00398,
+    "types": {
+        "Image": 580
+    }
 }

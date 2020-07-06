@@ -4,13 +4,14 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000142,
-    "sites": 7,
+    "prevalence": 0.0000821,
+    "sites": 6,
     "subdomains": [
         "publisher",
         "cdn2",
         "data"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -21,38 +22,42 @@
                 "publisher"
             ],
             "apis": {
-                "window.localStorage": 1,
-                "Date.prototype.getTime": 1
+                "Navigator.prototype.userAgent": 1,
+                "window.indexedDB": 1,
+                "window.localStorage": 1
             },
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
-            "rule": "caroda\\.io\\/videoPlayer\\/v\\/e1120bd60aed0f99d96377c88b6423d06361726f64612d323032302d30332d31335431393a30363a34322e3534315a\\/s\\/2\\/static\\.min\\.js",
+            "rule": "caroda\\.io\\/videoPlayer\\/v\\/e1120bd60aed0f99d96377c88b6423d06361726f64612d323032302d30362d31325431343a32383a33382e3536395a\\/s\\/2\\/static\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn2"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 7,
-                "window.localStorage": 7,
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6,
                 "URL.createObjectURL": 4,
                 "Navigator.prototype.vendor": 1
             },
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "caroda\\.io\\/api\\/hit\\.gif",
-            "cookies": 0.000061,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "data"
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.0000814
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -60,7 +65,11 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000061
+    "cookies": 0.0000547,
+    "types": {
+        "Script": 12,
+        "Image": 4
+    }
 }

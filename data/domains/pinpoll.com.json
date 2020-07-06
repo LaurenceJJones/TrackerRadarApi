@@ -4,13 +4,14 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000244,
-    "sites": 12,
+    "prevalence": 0.000192,
+    "sites": 14,
     "subdomains": [
         "tools",
         "cdn",
         "pa"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -22,37 +23,43 @@
                 "cdn"
             ],
             "apis": {
-                "window.localStorage": 11,
-                "Date.prototype.getTimezoneOffset": 11,
-                "Navigator.prototype.doNotTrack": 11,
-                "Navigator.prototype.cookieEnabled": 11,
-                "Navigator.prototype.userAgent": 11,
-                "Screen.prototype.width": 10,
-                "Screen.prototype.height": 10,
-                "Screen.prototype.colorDepth": 10,
-                "Screen.prototype.orientation": 10
+                "Navigator.prototype.userAgent": 12,
+                "window.localStorage": 12,
+                "Date.prototype.getTimezoneOffset": 12,
+                "Navigator.prototype.doNotTrack": 12,
+                "Navigator.prototype.cookieEnabled": 12,
+                "Screen.prototype.width": 12,
+                "Screen.prototype.height": 12,
+                "Screen.prototype.colorDepth": 12,
+                "Screen.prototype.orientation": 12
             },
             "sites": 12,
-            "prevalence": 0.000244
+            "prevalence": 0.000164,
+            "cnames": []
         },
         {
             "rule": "pinpoll\\.com\\/v1\\/",
-            "cookies": 0.000142,
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
                 "pa"
             ],
             "apis": {},
-            "sites": 12,
-            "prevalence": 0.000244
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000142
+    "cookies": 0.0000958,
+    "types": {
+        "Script": 12,
+        "Fetch": 14
+    }
 }

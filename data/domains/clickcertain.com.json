@@ -7,144 +7,169 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00321,
-    "sites": 158,
+    "prevalence": 0.0191,
+    "sites": 1396,
     "subdomains": [
         "a"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "clickcertain\\.com\\/px\\/img\\/bidswitch\\/",
-            "cookies": 0.00311,
+            "rule": "clickcertain\\.com\\/px\\/pid\\/s\\/",
+            "cookies": 0.0162,
             "fingerprinting": 0,
             "subdomains": [
                 "a"
             ],
             "apis": {},
-            "sites": 153,
-            "prevalence": 0.00311
-        },
-        {
-            "rule": "clickcertain\\.com\\/px\\/li\\/",
-            "cookies": 0.00309,
-            "fingerprinting": 0,
-            "subdomains": [
-                "a"
-            ],
-            "apis": {},
-            "sites": 152,
-            "prevalence": 0.00309
+            "sites": 1183,
+            "prevalence": 0.0162,
+            "cnames": []
         },
         {
             "rule": "clickcertain\\.com\\/px\\/smart\\/a\\/",
-            "cookies": 0.000122,
+            "cookies": 0.0163,
             "fingerprinting": 0,
             "subdomains": [
                 "a"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 1193,
+            "prevalence": 0.0163,
+            "cnames": []
         },
         {
             "rule": "clickcertain\\.com\\/px\\/iiq\\/",
-            "cookies": 0.000122,
+            "cookies": 0.00757,
             "fingerprinting": 0,
             "subdomains": [
                 "a"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 553,
+            "prevalence": 0.00757,
+            "cnames": []
         },
         {
             "rule": "clickcertain\\.com\\/px\\/",
-            "cookies": 0.000122,
+            "cookies": 0.00751,
             "fingerprinting": 0,
             "subdomains": [
                 "a"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 555,
+            "prevalence": 0.00759,
+            "cnames": []
         },
         {
             "rule": "clickcertain\\.com\\/px\\/cont\\/",
-            "cookies": 0.000122,
+            "cookies": 0.00512,
             "fingerprinting": 0,
             "subdomains": [
                 "a"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 376,
+            "prevalence": 0.00514,
+            "cnames": []
         },
         {
             "rule": "clickcertain\\.com\\/px\\/r\\/",
-            "cookies": 0.000122,
+            "cookies": 0.00365,
             "fingerprinting": 0,
             "subdomains": [
                 "a"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 288,
+            "prevalence": 0.00394,
+            "cnames": []
         },
         {
             "rule": "clickcertain\\.com\\/px\\/pid\\/c\\/",
-            "cookies": 0.000122,
+            "cookies": 0.00375,
             "fingerprinting": 0,
             "subdomains": [
                 "a"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "clickcertain\\.com\\/px\\/li\\/",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "a"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "clickcertain\\.com\\/px\\/img\\/g\\/",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "a"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 288,
+            "prevalence": 0.00394,
+            "cnames": []
         },
         {
             "rule": "clickcertain\\.com\\/px\\/pid\\/",
-            "cookies": 0.000122,
+            "cookies": 0.00238,
             "fingerprinting": 0,
             "subdomains": [
                 "a"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 208,
+            "prevalence": 0.00285,
+            "cnames": []
+        },
+        {
+            "rule": "clickcertain\\.com\\/px\\/li\\/",
+            "cookies": 0.00242,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 210,
+            "prevalence": 0.00287,
+            "cnames": []
+        },
+        {
+            "rule": "clickcertain\\.com\\/px\\/img\\/g\\/",
+            "cookies": 0.00182,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 136,
+            "prevalence": 0.00186,
+            "cnames": []
         },
         {
             "rule": "clickcertain\\.com\\/px\\/img\\/bidswitch\\/",
-            "cookies": 0.000122,
+            "cookies": 0.00177,
             "fingerprinting": 0,
             "subdomains": [
                 "a"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 133,
+            "prevalence": 0.00182,
+            "cnames": []
+        },
+        {
+            "rule": "clickcertain\\.com\\/px\\/img\\/bidswitch\\/",
+            "cookies": 0.00285,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 210,
+            "prevalence": 0.00287,
+            "cnames": []
+        },
+        {
+            "rule": "clickcertain\\.com\\/px\\/pid\\/",
+            "cookies": 0.000575,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 45,
+            "prevalence": 0.000616,
+            "cnames": []
         }
     ],
     "categories": [
@@ -155,8 +180,13 @@
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 0,
+        "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.00321
+    "cookies": 0.0191,
+    "types": {
+        "Script": 3484,
+        "Document": 631,
+        "Image": 1263
+    }
 }

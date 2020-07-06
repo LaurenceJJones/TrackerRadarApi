@@ -9,11 +9,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
-    "sites": 4,
+    "prevalence": 0.0000274,
+    "sites": 2,
     "subdomains": [
         "sdk"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -24,11 +25,11 @@
                 "sdk"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 1,
                 "Date.prototype.getTime": 1
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "accountkit\\.com\\/es_LA\\/sdk\\.js",
@@ -42,15 +43,19 @@
                 "Navigator.prototype.userAgent": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 1
+        "cache": 0
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 4
+    }
 }

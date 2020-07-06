@@ -7,7 +7,7 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000203,
+    "prevalence": 0.0000137,
     "sites": 1,
     "subdomains": [
         "sitesettingsapi",
@@ -16,22 +16,24 @@
         "www",
         "pricingapi"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "jabra\\.com\\/api\\/v1\\/settings",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sitesettingsapi"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "jabra\\.com\\/api\\/domaincookie\\/117579832",
-            "cookies": 0.0000407,
+            "rule": "jabra\\.com\\/api\\/domaincookie\\/1291346449",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www.it",
@@ -39,43 +41,52 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "jabra\\.com\\/\\/api\\/v1\\/settings",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sitesettingsapi"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "jabra\\.com\\/errorpages\\/error",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "jabra\\.com\\/\\/api\\/v1\\/settings",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sitesettingsapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "jabra\\.com\\/\\/v1\\/family",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "pricingapi"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000203
+    "cookies": 0.0000137,
+    "types": {
+        "XHR": 2,
+        "Image": 4,
+        "Fetch": 4
+    }
 }

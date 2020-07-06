@@ -4,39 +4,42 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000122,
-    "sites": 6,
+    "prevalence": 0.000178,
+    "sites": 13,
     "subdomains": [
         "w"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "uptolike\\.com\\/widgets\\/v1\\/uptolike\\.js",
-            "cookies": 0.0000814,
+            "cookies": 0.000164,
             "fingerprinting": 1,
             "subdomains": [
                 "w"
             ],
             "apis": {
-                "Date.prototype.getTime": 4,
-                "window.sessionStorage": 4,
-                "window.localStorage": 4,
-                "Navigator.prototype.userAgent": 2
+                "Date.prototype.getTime": 12,
+                "window.sessionStorage": 12,
+                "window.localStorage": 12,
+                "Navigator.prototype.userAgent": 12
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
         },
         {
             "rule": "uptolike\\.com\\/widgets\\/v1\\/version\\.js",
-            "cookies": 0.000122,
+            "cookies": 0.000164,
             "fingerprinting": 0,
             "subdomains": [
                 "w"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
         },
         {
             "rule": "uptolike\\.com\\/widgets\\/v1\\/widgetsModule\\.js",
@@ -46,13 +49,14 @@
                 "w"
             ],
             "apis": {
-                "window.localStorage": 4,
-                "Date.prototype.getTime": 4,
-                "window.sessionStorage": 4,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 12,
+                "window.localStorage": 12,
+                "Date.prototype.getTime": 12,
+                "window.sessionStorage": 12
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
         },
         {
             "rule": "uptolike\\.com\\/widgets\\/v1\\/share-counter\\.html",
@@ -62,23 +66,25 @@
                 "w"
             ],
             "apis": {
-                "Date.prototype.getTime": 4
+                "Date.prototype.getTime": 12
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
         },
         {
             "rule": "uptolike\\.com\\/widgets\\/v1\\/extra\\.js",
-            "cookies": 0.000122,
+            "cookies": 0.000164,
             "fingerprinting": 1,
             "subdomains": [
                 "w"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 6
+                "Navigator.prototype.userAgent": 12
             },
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
         },
         {
             "rule": "uptolike\\.com\\/widgets\\/v1\\/zp\\/support\\.html",
@@ -88,27 +94,11 @@
                 "w"
             ],
             "apis": {
-                "window.localStorage": 6
+                "window.localStorage": 12
             },
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "uptolike\\.com\\/widgets\\/v1\\/zp\\.js",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "w"
-            ],
-            "apis": {
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Navigator.prototype.mimeTypes": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -116,7 +106,11 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 1
+        "cache": 3
     },
-    "cookies": 0.000122
+    "cookies": 0.000178,
+    "types": {
+        "Script": 48,
+        "Document": 24
+    }
 }

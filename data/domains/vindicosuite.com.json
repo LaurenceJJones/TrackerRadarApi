@@ -7,114 +7,127 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00262,
-    "sites": 129,
+    "prevalence": 0.00272,
+    "sites": 199,
     "subdomains": [
-        "mpp",
-        "x"
+        "x",
+        "mpp"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "vindicosuite\\.com\\/mpp\\/",
-            "cookies": 0.000692,
-            "fingerprinting": 0,
-            "subdomains": [
-                "mpp"
-            ],
-            "apis": {},
-            "sites": 35,
-            "prevalence": 0.000712
-        },
-        {
-            "rule": "vindicosuite\\.com\\/imp\\/",
-            "cookies": 0.000163,
+            "rule": "vindicosuite\\.com\\/",
+            "cookies": 0.000465,
             "fingerprinting": 0,
             "subdomains": [
                 "x"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 34,
+            "prevalence": 0.000465,
+            "cnames": []
+        },
+        {
+            "rule": "vindicosuite\\.com\\/",
+            "cookies": 0.000753,
+            "fingerprinting": 0,
+            "subdomains": [
+                "x"
+            ],
+            "apis": {},
+            "sites": 55,
+            "prevalence": 0.000753,
+            "cnames": []
+        },
+        {
+            "rule": "vindicosuite\\.com\\/mpp\\/",
+            "cookies": 0.000616,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mpp"
+            ],
+            "apis": {},
+            "sites": 46,
+            "prevalence": 0.000629,
+            "cnames": []
+        },
+        {
+            "rule": "vindicosuite\\.com\\/conv\\/v=5;m=1;t=26002;ts=%3Ctimestamp_here%3E",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mpp"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "vindicosuite\\.com\\/imp\\/",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "x"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "vindicosuite\\.com\\/serve\\/",
-            "cookies": 0.000142,
-            "fingerprinting": 1,
+            "cookies": 0.0000547,
+            "fingerprinting": 2,
             "subdomains": [
                 "x"
             ],
             "apis": {
-                "Navigator.prototype.language": 6
+                "Navigator.prototype.language": 4,
+                "HTMLCanvasElement.prototype.constructor": 3,
+                "WebGLRenderingContext.prototype.getExtension": 3,
+                "WebGLRenderingContext.prototype.getParameter": 3
             },
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "vindicosuite\\.com\\/conv\\/v=5;m=1;t=22677;ts=%3Ctimestamp_here%3E",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mpp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vindicosuite\\.com\\/mpp\\/",
-            "cookies": 0.000102,
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [
                 "mpp"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
         },
         {
-            "rule": "vindicosuite\\.com\\/",
-            "cookies": 0.000142,
-            "fingerprinting": 0,
-            "subdomains": [
-                "x"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "vindicosuite\\.com\\/conv\\/v=5;m=1;t=27412;floridalottery_campaign=%3Chomepage%3E;ts=%3Ctimestamp_here%3E",
-            "cookies": 0.0000407,
+            "rule": "vindicosuite\\.com\\/conv\\/v=5;m=1;t=27611;ts=",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "mpp"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "vindicosuite\\.com\\/conv\\/v=5;m=1;t=26002;ts=%3Ctimestamp_here%20data-ps-id=1%20%3E",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "mpp"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "vindicosuite\\.com\\/event\\/",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "x"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "vindicosuite\\.com\\/event\\/",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "x"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -128,5 +141,11 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00203
+    "cookies": 0.00237,
+    "types": {
+        "Image": 88,
+        "XHR": 55,
+        "Script": 15,
+        "Document": 4
+    }
 }

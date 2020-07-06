@@ -1,69 +1,293 @@
 {
     "domain": "dwcdn.net",
-    "owner": {},
+    "owner": {
+        "name": "Datawrapper GmbH",
+        "displayName": "Datawrapper"
+    },
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000427,
-    "sites": 21,
+    "prevalence": 0.000465,
+    "sites": 34,
     "subdomains": [
         "datawrapper",
         "static"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
             "rule": "dwcdn\\.net\\/gtof5\\/1\\/",
-            "cookies": 0.000061,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "datawrapper"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "dwcdn\\.net\\/gtof5\\/41\\/",
-            "cookies": 0.000061,
+            "rule": "dwcdn\\.net\\/gtof5\\/65\\/",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "datawrapper"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "dwcdn\\.net\\/gtof5\\/42\\/",
-            "cookies": 0.000061,
+            "rule": "dwcdn\\.net\\/gtof5\\/67\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/custom\\/themes\\/associated-press\\/logo\\.svg",
+            "cookies": 0.000123,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/custom\\/themes\\/associated-press\\/goodcondbold\\.woff",
+            "cookies": 0.000123,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/custom\\/themes\\/associated-press\\/goodcondregular\\.woff",
+            "cookies": 0.000123,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/vendor\\/globalize\\.min\\.66aa7a35\\.js",
+            "cookies": 0.00026,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00026,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/vendor\\/globalize\\.culture\\.en-US\\.1ec61228\\.js",
+            "cookies": 0.000151,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/vendor\\/jquery\\.min\\.0f23f82b\\.js",
+            "cookies": 0.000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 25,
+            "prevalence": 0.000342,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/vendor\\/underscore\\.min\\.be3cacb1\\.js",
+            "cookies": 0.000424,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 31,
+            "prevalence": 0.000424,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/vendor\\/dw-2\\.0\\.min\\.8f6096ae\\.js",
+            "cookies": 0.000109,
             "fingerprinting": 1,
             "subdomains": [
                 "datawrapper"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Date.prototype.getTime": 3,
-                "Navigator.prototype.vendor": 3,
-                "Navigator.prototype.platform": 3
+                "Date.prototype.getTime": 5
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/vis\\/d3-maps-choropleth\\.348fd673\\.js",
+            "cookies": 0.000219,
+            "fingerprinting": 1,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 13,
+                "Navigator.prototype.maxTouchPoints": 12
+            },
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/main\\.acc54dde\\.js",
+            "cookies": 0.000109,
+            "fingerprinting": 1,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "Date.prototype.getTime": 6,
+                "Navigator.prototype.vendor": 5,
+                "Navigator.prototype.platform": 5
+            },
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
             "rule": "dwcdn\\.net\\/assets\\/underscore\\/1\\.8\\.3\\/underscore-min\\.js",
-            "cookies": 0.000427,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "datawrapper"
             ],
             "apis": {},
-            "sites": 21,
-            "prevalence": 0.000427
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "dwcdn\\.net\\/assets\\/globalize\\.min\\.js",
-            "cookies": 0.000244,
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/assets\\/jquery\\/1\\.11\\.1\\/jquery\\.min\\.js",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/chart-61e2c71412141871942c0de6c1051c69ca80e945\\.min\\.js",
+            "cookies": 0.0000684,
+            "fingerprinting": 1,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/css\\/roboto\\.css",
+            "cookies": 0.000246,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.000246,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/assets\\/polyfills\\/all\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/css\\/fonts\\/roboto\\/roboto_400\\.woff2",
+            "cookies": 0.000246,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.000246,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/main\\.dec6c5e9\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.platform": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/vendor\\/dw-2\\.0\\.min\\.8bd210dd\\.js",
+            "cookies": 0.0000547,
             "fingerprinting": 1,
             "subdomains": [
                 "datawrapper"
@@ -71,439 +295,898 @@
             "apis": {
                 "Date.prototype.getTime": 2
             },
-            "sites": 12,
-            "prevalence": 0.000244
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/main\\.d3bb36f9\\.js",
+            "cookies": 0.0000547,
+            "fingerprinting": 1,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.vendor": 4,
+                "Navigator.prototype.platform": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "dwcdn\\.net\\/assets\\/cultures\\/globalize\\.culture\\.en-US\\.js",
-            "cookies": 0.000183,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "datawrapper"
             ],
             "apis": {},
-            "sites": 9,
-            "prevalence": 0.000183
-        },
-        {
-            "rule": "dwcdn\\.net\\/assets\\/jquery\\/1\\.11\\.1\\/jquery\\.min\\.js",
-            "cookies": 0.000427,
-            "fingerprinting": 1,
-            "subdomains": [
-                "datawrapper"
-            ],
-            "apis": {
-                "Event.prototype.timeStamp": 14
-            },
-            "sites": 21,
-            "prevalence": 0.000427
-        },
-        {
-            "rule": "dwcdn\\.net\\/lib\\/vis\\/d3-maps-choropleth-bcb48b6d388f0073f84fe750927a577e\\.min\\.js",
-            "cookies": 0.000102,
-            "fingerprinting": 1,
-            "subdomains": [
-                "datawrapper"
-            ],
-            "apis": {
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 5,
-                "Navigator.prototype.maxTouchPoints": 5
-            },
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "dwcdn\\.net\\/lib\\/chart-61e2c71412141871942c0de6c1051c69ca80e945\\.min\\.js",
-            "cookies": 0.000427,
-            "fingerprinting": 1,
-            "subdomains": [
-                "datawrapper"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 21
-            },
-            "sites": 21,
-            "prevalence": 0.000427
-        },
-        {
-            "rule": "dwcdn\\.net\\/custom\\/themes\\/associated-press\\/logo\\.svg",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "dwcdn\\.net\\/assets\\/polyfills\\/all\\.js",
-            "cookies": 0.000264,
-            "fingerprinting": 0,
-            "subdomains": [
-                "datawrapper"
-            ],
-            "apis": {},
-            "sites": 21,
-            "prevalence": 0.000427
-        },
-        {
-            "rule": "dwcdn\\.net\\/custom\\/themes\\/associated-press\\/goodcondbold\\.woff",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "dwcdn\\.net\\/custom\\/themes\\/associated-press\\/goodcondregular\\.woff",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "dwcdn\\.net\\/custom\\/themes\\/associated-press\\/goodregularitalic\\.woff",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "dwcdn\\.net\\/css\\/roboto\\.css",
-            "cookies": 0.000183,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 9,
-            "prevalence": 0.000183
-        },
-        {
-            "rule": "dwcdn\\.net\\/css\\/fonts\\/roboto\\/roboto_400\\.woff2",
-            "cookies": 0.000183,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 9,
-            "prevalence": 0.000183
-        },
-        {
-            "rule": "dwcdn\\.net\\/lib\\/vis\\/tables-34b44a1ff4f719b822280acc1ecd760d\\.min\\.js",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "datawrapper"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 1
-            },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "dwcdn\\.net\\/css\\/fonts\\/roboto\\/roboto_400italic\\.woff2",
-            "cookies": 0.000142,
+            "rule": "dwcdn\\.net\\/lib\\/vendor\\/all\\.js",
+            "cookies": 0.00041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 30,
+            "prevalence": 0.00041,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/blocks\\/d3-maps\\.chart-blocks\\.c4ec9364\\.css",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/polyfills\\/all\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/vendor\\/dw-2\\.0\\.min\\.c33a759e\\.js",
+            "cookies": 0.000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 7
+            },
+            "sites": 15,
+            "prevalence": 0.000205,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/vis\\/tables\\.30a59351\\.js",
+            "cookies": 0.000109,
+            "fingerprinting": 1,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/main\\.1812e6c3\\.js",
+            "cookies": 0.000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 15,
+                "Date.prototype.getTime": 15,
+                "Navigator.prototype.vendor": 13,
+                "Navigator.prototype.platform": 14
+            },
+            "sites": 15,
+            "prevalence": 0.000205,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/blocks\\/subscriptions\\.chart-blocks\\.255d0b80\\.js",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/blocks\\/subscriptions\\.chart-blocks\\.c4ec9364\\.css",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/css\\/fonts\\/roboto\\/roboto_700\\.woff2",
+            "cookies": 0.000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.000205,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/custom\\/social-sharing\\/twitter\\.png",
+            "cookies": 0.0000684,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/JiVbH\\/7\\/",
+            "cookies": 0.0000684,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/JiVbH\\/80\\/",
+            "cookies": 0.0000958,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/JiVbH\\/86\\/",
+            "cookies": 0.0000958,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/vendor\\/dw-2\\.0\\.min\\.70771b59\\.js",
+            "cookies": 0.000164,
+            "fingerprinting": 1,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 12
+            },
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/main\\.ae6764d3\\.js",
+            "cookies": 0.000164,
+            "fingerprinting": 1,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 12,
+                "Date.prototype.getTime": 12,
+                "Navigator.prototype.vendor": 12,
+                "Navigator.prototype.platform": 12
+            },
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/data\\/JiVbH\\.csv",
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
                 "static"
             ],
             "apis": {},
             "sites": 7,
-            "prevalence": 0.000142
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
-            "rule": "dwcdn\\.net\\/css\\/fonts\\/roboto\\/roboto_700\\.woff2",
-            "cookies": 0.000163,
+            "rule": "dwcdn\\.net\\/custom\\/themes\\/associated-press\\/goodregularitalic\\.woff",
+            "cookies": 0.000109,
             "fingerprinting": 0,
             "subdomains": [
                 "static"
             ],
             "apis": {},
             "sites": 8,
-            "prevalence": 0.000163
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
-            "rule": "dwcdn\\.net\\/JiVbH\\/7\\/",
-            "cookies": 0.0000814,
+            "rule": "dwcdn\\.net\\/lib\\/blocks\\/team-custom-fields\\.chart-blocks\\.cf50a29e\\.js",
+            "cookies": 0.000109,
             "fingerprinting": 0,
             "subdomains": [
                 "datawrapper"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
-            "rule": "dwcdn\\.net\\/JiVbH\\/45\\/",
-            "cookies": 0.000102,
+            "rule": "dwcdn\\.net\\/lib\\/blocks\\/team-custom-fields\\.chart-blocks\\.c4ec9364\\.css",
+            "cookies": 0.000109,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/nRyaf\\/10\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/nRyaf\\/30\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/data\\/nRyaf\\.csv",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/56YbN\\/8\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/77Mxk\\/13\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/56YbN\\/63\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/77Mxk\\/75\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/56YbN\\/91\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/77Mxk\\/103\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/56YbN\\/119\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/77Mxk\\/131\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/56YbN\\/131\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/77Mxk\\/139\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/vis\\/d3-lines\\.443bc55d\\.js",
+            "cookies": 0.0000958,
+            "fingerprinting": 1,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 7,
+                "Date.prototype.getTimezoneOffset": 5
+            },
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/vendor\\/globalize\\.culture\\.de-DE\\.468355ef\\.js",
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "datawrapper"
             ],
             "apis": {},
             "sites": 5,
-            "prevalence": 0.000102
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
-            "rule": "dwcdn\\.net\\/JiVbH\\/46\\/",
-            "cookies": 0.000061,
-            "fingerprinting": 1,
-            "subdomains": [
-                "datawrapper"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Date.prototype.getTime": 3,
-                "Navigator.prototype.vendor": 3,
-                "Navigator.prototype.platform": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "dwcdn\\.net\\/JiVbH\\/47\\/",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "datawrapper"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.vendor": 2,
-                "Navigator.prototype.platform": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "dwcdn\\.net\\/lib\\/vis\\/d3-maps-choropleth-26b0e4d66806a14563e9ce197300a0b6\\.min\\.js",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "datawrapper"
-            ],
-            "apis": {
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 2,
-                "Navigator.prototype.maxTouchPoints": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "dwcdn\\.net\\/56YbN\\/8\\/",
-            "cookies": 0.0000407,
+            "rule": "dwcdn\\.net\\/4tAFE\\/",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "datawrapper"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "dwcdn\\.net\\/OSwaN\\/11\\/",
-            "cookies": 0.0000407,
+            "rule": "dwcdn\\.net\\/4tAFE\\/59\\/",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "datawrapper"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "dwcdn\\.net\\/77Mxk\\/13\\/",
-            "cookies": 0.0000407,
+            "rule": "dwcdn\\.net\\/css\\/fonts\\/roboto\\/roboto_400italic\\.woff2",
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [
-                "datawrapper"
+                "static"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "dwcdn\\.net\\/56YbN\\/11\\/",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "datawrapper"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.vendor": 2,
-                "Navigator.prototype.platform": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "dwcdn\\.net\\/77Mxk\\/15\\/",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "datawrapper"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.vendor": 2,
-                "Navigator.prototype.platform": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "dwcdn\\.net\\/OSwaN\\/12\\/",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "datawrapper"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.vendor": 2,
-                "Navigator.prototype.platform": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "dwcdn\\.net\\/lib\\/vis\\/d3-lines-b12b76e536151e58c26a9412ba3cfedd\\.min\\.js",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "datawrapper"
-            ],
-            "apis": {
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 2,
-                "Date.prototype.getTimezoneOffset": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "dwcdn\\.net\\/assets\\/cultures\\/globalize\\.culture\\.de-DE\\.js",
-            "cookies": 0.0000814,
+            "rule": "dwcdn\\.net\\/lib\\/blocks\\/social-sharing\\.chart-blocks\\.4851df61\\.js",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "datawrapper"
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.0000814
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "dwcdn\\.net\\/lib\\/vis\\/column-chart-1faaafb24448a67247b7983662779420\\.min\\.js",
-            "cookies": 0.0000407,
+            "rule": "dwcdn\\.net\\/lib\\/blocks\\/social-sharing\\.chart-blocks\\.32a348e9\\.css",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/SvaPz\\/30\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/303yJ\\/33\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/vis\\/tables\\.fa3be270\\.js",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/uOYUX\\/28\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/0q5Dx\\/9\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/vis\\/d3-lines\\.e93e9a23\\.js",
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "datawrapper"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.vendor": 2,
-                "Date.prototype.getTime": 2,
                 "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 2,
                 "Date.prototype.getTimezoneOffset": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "dwcdn\\.net\\/lib\\/vis\\/d3-maps-choropleth-64a71a1181886fc28851c4b38c01cfb6\\.min\\.js",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "datawrapper"
-            ],
-            "apis": {
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 2,
-                "Navigator.prototype.maxTouchPoints": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "dwcdn\\.net\\/EwZQl\\/30\\/",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "datawrapper"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.vendor": 2,
-                "Navigator.prototype.platform": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "dwcdn\\.net\\/lib\\/vis\\/d3-area-61bf97efafe10a6b207548f5ab5bb8a2\\.min\\.js",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "datawrapper"
-            ],
-            "apis": {
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 2,
-                "Date.prototype.getTimezoneOffset": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "dwcdn\\.net\\/lib\\/vis\\/d3-maps-choropleth-a9d27b73ad6bf2f56a3b13107109c555\\.min\\.js",
-            "cookies": 0.0000203,
-            "fingerprinting": 1,
-            "subdomains": [
-                "datawrapper"
-            ],
-            "apis": {
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 2,
-                "Navigator.prototype.maxTouchPoints": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "dwcdn\\.net\\/custom\\/social-sharing\\/twitter\\.png",
-            "cookies": 0.0000407,
+            "rule": "dwcdn\\.net\\/data\\/303yJ\\.csv",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "static"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/data\\/0q5Dx\\.csv",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/css\\/flag-icons\\/flags\\/4x3\\/us\\.svg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/css\\/flag-icons\\/flags\\/4x3\\/ru\\.svg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/css\\/flag-icons\\/flags\\/4x3\\/gb\\.svg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/css\\/flag-icons\\/flags\\/4x3\\/br\\.svg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/css\\/flag-icons\\/flags\\/4x3\\/fr\\.svg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/ih0uT\\/1\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/hL4r9\\/9\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/ih0uT\\/69\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/hL4r9\\/37\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/ih0uT\\/97\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/hL4r9\\/65\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/hL4r9\\/79\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/ih0uT\\/125\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/ih0uT\\/153\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/ih0uT\\/161\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/vendor\\/globalize\\.culture\\.de-CH\\.14e992f1\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/vis\\/d3-bars-stacked\\.a2e1bbaf\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/vis\\/d3-lines\\.f84446e0\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/css\\/fonts\\/roboto\\/roboto_700italic\\.woff2",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/lib\\/blocks\\/d3-maps\\.chart-blocks\\.e96b4934\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwcdn\\.net\\/JiVbH\\/6\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "datawrapper"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 0,
-        "size": 0,
+        "time": 1,
+        "size": 1,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000427
+    "cookies": 0.000465,
+    "types": {
+        "Document": 83,
+        "Image": 24,
+        "Font": 71,
+        "Script": 289,
+        "Stylesheet": 44,
+        "Fetch": 13
+    }
 }

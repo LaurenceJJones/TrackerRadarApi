@@ -4,31 +4,31 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
-    "sites": 5,
+    "prevalence": 0.0000547,
+    "sites": 4,
     "subdomains": [
         "toestemming"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "ndcmediagroep\\.nl\\/",
-            "cookies": 0.000061,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "toestemming"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 0
-    },
-    "cookies": 0.000061
+    "performance": {},
+    "cookies": 0.0000274,
+    "types": {
+        "Document": 2
+    }
 }

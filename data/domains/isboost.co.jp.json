@@ -7,39 +7,29 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000305,
-    "sites": 15,
+    "prevalence": 0.000192,
+    "sites": 14,
     "subdomains": [
         "js"
     ],
-    "fingerprinting": 2,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
-            "rule": "isboost\\.co\\.jp\\/j\\/inview\\.20190130\\.min\\.js",
+            "rule": "isboost\\.co\\.jp\\/t\\/455\\/061\\/a1455061\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 12
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
             },
-            "sites": 14,
-            "prevalence": 0.000285
-        },
-        {
-            "rule": "isboost\\.co\\.jp\\/j\\/rtct_adp_lib\\.20180606\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 6,
-                "Navigator.prototype.vendor": 6
-            },
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -49,5 +39,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 2
+    }
 }

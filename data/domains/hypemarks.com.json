@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000264,
-    "sites": 13,
+    "prevalence": 0.000233,
+    "sites": 17,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -19,15 +20,16 @@
                 "cdn"
             ],
             "apis": {
-                "HTMLCanvasElement.prototype.constructor": 10,
-                "window.indexedDB": 13,
-                "HTMLMediaElement.prototype.canPlayType": 10,
-                "window.localStorage": 13,
-                "window.sessionStorage": 13,
-                "Navigator.prototype.cookieEnabled": 13
+                "HTMLCanvasElement.prototype.constructor": 13,
+                "window.indexedDB": 17,
+                "HTMLMediaElement.prototype.canPlayType": 13,
+                "window.localStorage": 17,
+                "window.sessionStorage": 17,
+                "Navigator.prototype.cookieEnabled": 15
             },
-            "sites": 13,
-            "prevalence": 0.000264
+            "sites": 17,
+            "prevalence": 0.000233,
+            "cnames": []
         },
         {
             "rule": "hypemarks\\.com\\/pages\\/a5b5e5\\.js",
@@ -37,18 +39,22 @@
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3
+                "Navigator.prototype.userAgent": 10
             },
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 27
+    }
 }

@@ -7,25 +7,67 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
-    "sites": 4,
+    "prevalence": 0.0000684,
+    "sites": 5,
     "subdomains": [
-        "www",
-        "code"
+        "code",
+        "www"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "directadvert\\.ru\\/show\\.cgi",
-            "cookies": 0.0000407,
+            "rule": "directadvert\\.ru\\/data\\/3761353\\.js",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "www",
                 "code"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "directadvert\\.ru\\/show\\.cgi",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www",
+                "code"
+            ],
+            "apis": {
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.colorDepth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "directadvert\\.ru\\/data\\/32244\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "code"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "directadvert\\.ru\\/data\\/3719152\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "code"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -35,5 +77,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.0000814
+    "cookies": 0.0000684,
+    "types": {
+        "Script": 8
+    }
 }

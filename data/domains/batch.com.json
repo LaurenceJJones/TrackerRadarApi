@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000732,
-    "sites": 36,
+    "prevalence": 0.000438,
+    "sites": 32,
     "subdomains": [
         "via"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -19,18 +20,20 @@
                 "via"
             ],
             "apis": {
-                "window.localStorage": 31,
-                "window.indexedDB": 31,
-                "window.sessionStorage": 31,
-                "Navigator.prototype.language": 31,
-                "Navigator.prototype.permissions": 31,
-                "Navigator.prototype.userAgent": 31,
-                "Navigator.prototype.platform": 31,
-                "Intl.DateTimeFormat.prototype.resolvedOptions": 31,
-                "Date.prototype.getTimezoneOffset": 31
+                "window.localStorage": 26,
+                "window.indexedDB": 26,
+                "Navigator.prototype.language": 26,
+                "window.sessionStorage": 26,
+                "Notification.permission": 26,
+                "Navigator.prototype.permissions": 26,
+                "Navigator.prototype.userAgent": 26,
+                "Navigator.prototype.platform": 26,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 26,
+                "Date.prototype.getTimezoneOffset": 26
             },
-            "sites": 31,
-            "prevalence": 0.000631
+            "sites": 26,
+            "prevalence": 0.000356,
+            "cnames": []
         },
         {
             "rule": "batch\\.com\\/2\\.1\\.0\\/native\\.min\\.js",
@@ -40,36 +43,24 @@
                 "via"
             ],
             "apis": {
-                "window.localStorage": 28,
-                "Date.prototype.getTime": 28
+                "window.localStorage": 26,
+                "Date.prototype.getTime": 23,
+                "Notification.permission": 23
             },
-            "sites": 28,
-            "prevalence": 0.00057
-        },
-        {
-            "rule": "batch\\.com\\/2\\.1\\.0\\/alert\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "via"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.platform": 3,
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 3,
-                "window.localStorage": 1,
-                "Date.prototype.getTime": 1
-            },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 26,
+            "prevalence": 0.000356,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 52
+    }
 }

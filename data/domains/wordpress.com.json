@@ -9,42 +9,34 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00403,
-    "sites": 198,
+    "prevalence": 0.00405,
+    "sites": 296,
     "subdomains": [
         "public-api",
-        "stats",
         "jetpack",
-        "v0"
+        "stats",
+        "v0",
+        "abrilid"
+    ],
+    "cnames": [
+        {
+            "original": "id.abril.com.br",
+            "resolved": "abrilid.wordpress.com"
+        }
     ],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "wordpress\\.com\\/wp-admin\\/rest-proxy\\/",
-            "cookies": 0.000529,
-            "fingerprinting": 1,
+            "cookies": 0.000985,
+            "fingerprinting": 0,
             "subdomains": [
                 "public-api"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 1,
-                "Date.prototype.getTime": 1
-            },
-            "sites": 26,
-            "prevalence": 0.000529
-        },
-        {
-            "rule": "wordpress\\.com\\/e-202012\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "stats"
-            ],
-            "apis": {
-                "Navigator.prototype.appName": 7
-            },
-            "sites": 14,
-            "prevalence": 0.000285
+            "apis": {},
+            "sites": 72,
+            "prevalence": 0.000985,
+            "cnames": []
         },
         {
             "rule": "wordpress\\.com\\/jetpack-comment\\/",
@@ -54,11 +46,26 @@
                 "jetpack"
             ],
             "apis": {
-                "HTMLCanvasElement.prototype.constructor": 1,
-                "HTMLCanvasElement.prototype.toDataURL": 1
+                "HTMLCanvasElement.prototype.constructor": 3,
+                "HTMLCanvasElement.prototype.toDataURL": 3
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
+        },
+        {
+            "rule": "wordpress\\.com\\/e-202026\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "stats"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 11
+            },
+            "sites": 15,
+            "prevalence": 0.000205,
+            "cnames": []
         },
         {
             "rule": "wordpress\\.com\\/js\\/next\\/videopress-routes\\.js",
@@ -72,7 +79,39 @@
                 "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "wordpress\\.com\\/abrID",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "abrilid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "id.abril.com.br",
+                    "resolved": "abrilid.wordpress.com"
+                }
+            ]
+        },
+        {
+            "rule": "wordpress\\.com\\/e-201406\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "stats"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -85,5 +124,9 @@
         "cpu": 1,
         "cache": 1
     },
-    "cookies": 0.000529
+    "cookies": 0.00101,
+    "types": {
+        "Document": 80,
+        "Script": 21
+    }
 }

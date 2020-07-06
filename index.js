@@ -1,6 +1,5 @@
 const express = require('express');
 const path = require('path');
-const bodyParser = require('body-parser');
 const helmet = require('helmet');
 
 const {
@@ -188,9 +187,6 @@ init(dirNames).then((value) => {
     });
 
     const app = express();
-    app.use(bodyParser.urlencoded({
-        extended: true
-    }));
     app.use(helmet());
     server.applyMiddleware({
         app,
@@ -239,7 +235,7 @@ init(dirNames).then((value) => {
         res.sendFile(path.join(__dirname + '/index.html'));
     })
     app.get('*', (req, res) => {
-        res.redirect('/api/rest')
+        res.redirect('/')
     })
     app.listen({
             port: 4000

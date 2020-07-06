@@ -9,58 +9,62 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0116,
-    "sites": 569,
+    "prevalence": 0.00841,
+    "sites": 615,
     "subdomains": [
         "script",
         "de"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
             "rule": "ioam\\.de\\/iam\\.js",
-            "cookies": 0.00598,
+            "cookies": 0.00356,
             "fingerprinting": 2,
             "subdomains": [
                 "script"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 336,
-                "Navigator.prototype.plugins": 336,
-                "Navigator.prototype.mimeTypes": 336,
-                "Document.cookie getter": 369,
-                "Navigator.prototype.doNotTrack": 336,
-                "Date.prototype.getTime": 538,
-                "window.localStorage": 33,
-                "Document.cookie setter": 294,
-                "Screen.prototype.width": 203,
-                "Screen.prototype.height": 203,
-                "Screen.prototype.colorDepth": 203
+                "Screen.prototype.width": 470,
+                "Screen.prototype.height": 470,
+                "Screen.prototype.colorDepth": 470,
+                "Navigator.prototype.userAgent": 470,
+                "Navigator.prototype.plugins": 470,
+                "Navigator.prototype.mimeTypes": 470,
+                "Document.cookie getter": 319,
+                "Date.prototype.getTime": 475,
+                "Document.cookie setter": 260,
+                "Navigator.prototype.doNotTrack": 470,
+                "window.localStorage": 31
             },
-            "sites": 558,
-            "prevalence": 0.0114
+            "sites": 486,
+            "prevalence": 0.00665,
+            "cnames": []
         },
         {
             "rule": "ioam\\.de\\/tx\\.io",
-            "cookies": 0.0102,
+            "cookies": 0.00736,
             "fingerprinting": 0,
             "subdomains": [
                 "de"
             ],
             "apis": {},
-            "sites": 501,
-            "prevalence": 0.0102
+            "sites": 539,
+            "prevalence": 0.00738,
+            "cnames": []
         },
         {
             "rule": "ioam\\.de\\/tx\\.io",
-            "cookies": 0.00126,
+            "cookies": 0.00093,
             "fingerprinting": 0,
             "subdomains": [
                 "de"
             ],
             "apis": {},
-            "sites": 62,
-            "prevalence": 0.00126
+            "sites": 68,
+            "prevalence": 0.00093,
+            "cnames": []
         }
     ],
     "categories": [
@@ -72,5 +76,9 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.0114
+    "cookies": 0.00828,
+    "types": {
+        "Script": 1025,
+        "Image": 68
+    }
 }

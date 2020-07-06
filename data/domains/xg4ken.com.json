@@ -9,78 +9,41 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00681,
-    "sites": 335,
+    "prevalence": 0.00592,
+    "sites": 433,
     "subdomains": [
-        "resources",
         "services"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "xg4ken\\.com\\/js\\/v2\\/ktag\\.js",
-            "cookies": 0.000427,
-            "fingerprinting": 1,
-            "subdomains": [
-                "resources"
-            ],
-            "apis": {
-                "Document.cookie getter": 18,
-                "Date.prototype.getTime": 23,
-                "Document.cookie setter": 21
-            },
-            "sites": 325,
-            "prevalence": 0.00661
-        },
-        {
-            "rule": "xg4ken\\.com\\/kid",
-            "cookies": 0.000468,
-            "fingerprinting": 0,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {},
-            "sites": 23,
-            "prevalence": 0.000468
-        },
-        {
-            "rule": "xg4ken\\.com\\/js\\/v2\\/ktag\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "resources"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
             "rule": "xg4ken\\.com\\/js\\/kenshoo\\.js",
-            "cookies": 0.000163,
+            "cookies": 0.000109,
             "fingerprinting": 1,
             "subdomains": [
                 "services"
             ],
             "apis": {
-                "Document.cookie getter": 11,
+                "Document.cookie getter": 14,
                 "Date.prototype.getTime": 8,
                 "Document.cookie setter": 8
             },
-            "sites": 29,
-            "prevalence": 0.00059
+            "sites": 39,
+            "prevalence": 0.000534,
+            "cnames": []
         },
         {
             "rule": "xg4ken\\.com\\/kid",
-            "cookies": 0.0000407,
+            "cookies": 0.000109,
             "fingerprinting": 0,
             "subdomains": [
                 "services"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         }
     ],
     "categories": [
@@ -92,5 +55,9 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.000509
+    "cookies": 0.000109,
+    "types": {
+        "Script": 39,
+        "XHR": 8
+    }
 }

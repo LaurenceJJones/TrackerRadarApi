@@ -7,23 +7,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000142,
-    "sites": 7,
+    "prevalence": 0.000109,
+    "sites": 8,
     "subdomains": [
         "eu"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "battle\\.net\\/login\\/de\\/",
-            "cookies": 0.000061,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "eu"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -31,7 +33,10 @@
         "time": 1,
         "size": 1,
         "cpu": 0,
-        "cache": 1
+        "cache": 3
     },
-    "cookies": 0.0000814
+    "cookies": 0.0000547,
+    "types": {
+        "Image": 3
+    }
 }

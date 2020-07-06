@@ -4,32 +4,34 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000549,
-    "sites": 27,
+    "prevalence": 0.00041,
+    "sites": 30,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
             "rule": "moengage\\.com\\/webpush\\/moe_webSdk\\.min\\.latest\\.js",
-            "cookies": 0.0000814,
+            "cookies": 0.000369,
             "fingerprinting": 2,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "window.indexedDB": 25,
-                "Navigator.prototype.userAgent": 24,
-                "window.localStorage": 27,
-                "Date.prototype.getTime": 26,
-                "Navigator.prototype.permissions": 19,
-                "Date.prototype.getTimezoneOffset": 26,
-                "Document.cookie getter": 4,
-                "Document.cookie setter": 4
+                "window.indexedDB": 29,
+                "Navigator.prototype.userAgent": 29,
+                "window.localStorage": 29,
+                "Date.prototype.getTime": 28,
+                "Document.cookie getter": 27,
+                "Document.cookie setter": 27,
+                "Navigator.prototype.permissions": 24,
+                "Date.prototype.getTimezoneOffset": 28
             },
-            "sites": 27,
-            "prevalence": 0.000549
+            "sites": 29,
+            "prevalence": 0.000397,
+            "cnames": []
         },
         {
             "rule": "moengage\\.com\\/webpush\\/moe_webSdk_subd\\.min\\.latest\\.js",
@@ -40,11 +42,12 @@
             ],
             "apis": {
                 "window.indexedDB": 2,
-                "window.localStorage": 2,
-                "Navigator.prototype.userAgent": 1
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "moengage\\.com\\/webpush\\/modules\\/inapp\\.js",
@@ -54,14 +57,15 @@
                 "cdn"
             ],
             "apis": {
-                "window.indexedDB": 6,
-                "Navigator.prototype.userAgent": 6,
-                "window.localStorage": 6,
-                "Date.prototype.getTime": 6,
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 6
+                "window.indexedDB": 8,
+                "Navigator.prototype.userAgent": 8,
+                "window.localStorage": 8,
+                "Date.prototype.getTime": 8,
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 8
             },
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -71,5 +75,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0000814
+    "cookies": 0.000369,
+    "types": {
+        "Script": 39
+    }
 }

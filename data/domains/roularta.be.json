@@ -4,53 +4,33 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
-    "sites": 4,
+    "prevalence": 0.0000821,
+    "sites": 6,
     "subdomains": [
-        "sso",
-        "gdpr",
+        "myprivacy",
         "tr.aws"
     ],
-    "fingerprinting": 2,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
-            "rule": "roularta\\.be\\/auth",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sso"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "roularta\\.be\\/css\\/gdpr-onetrust\\.css",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gdpr"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "roularta\\.be\\/js\\/rmgOneTrust\\.js",
-            "cookies": 0.0000814,
+            "rule": "roularta\\.be\\/global-cookies\\.e3c920b8ad7bdad50c9e94ed11acea785a72ed14\\.html",
+            "cookies": 0.0000821,
             "fingerprinting": 1,
             "subdomains": [
-                "gdpr"
+                "myprivacy"
             ],
             "apis": {
-                "window.localStorage": 4
+                "window.localStorage": 6,
+                "Document.cookie setter": 6
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "roularta\\.be\\/js\\/tr\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 2,
             "subdomains": [
                 "tr.aws"
@@ -64,18 +44,20 @@
                 "Screen.prototype.availWidth": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "roularta\\.be\\/tr\\.png",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "tr.aws"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -83,7 +65,12 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.0000814
+    "cookies": 0.0000821,
+    "types": {
+        "Document": 6,
+        "Script": 2,
+        "Image": 2
+    }
 }

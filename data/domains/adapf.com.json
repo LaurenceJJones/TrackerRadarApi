@@ -7,34 +7,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000163,
-    "sites": 8,
+    "prevalence": 0.0000821,
+    "sites": 6,
     "subdomains": [
-        "rs"
+        "crs"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "adapf\\.com\\/fluct\\/csync",
-            "cookies": 0.000061,
+            "rule": "adapf\\.com\\/cirqua\\.js",
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
-                "rs"
+                "crs"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "adapf\\.com\\/geniee\\/csync",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "rs"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -42,7 +33,10 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000163
+    "cookies": 0.0000684,
+    "types": {
+        "Script": 5
+    }
 }

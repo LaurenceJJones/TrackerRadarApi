@@ -4,307 +4,791 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000692,
-    "sites": 34,
+    "prevalence": 0.000999,
+    "sites": 73,
     "subdomains": [
         "cdn",
         "pixel"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "runative-syndicate\\.com\\/sdk\\/v1\\/n\\.css",
-            "cookies": 0.00061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {},
-            "sites": 33,
-            "prevalence": 0.000671
-        },
-        {
-            "rule": "runative-syndicate\\.com\\/images\\/7\\/6\\/962ae2cf3c12342c65fa9eaec9b9c33ef51738\\/300x250\\.webp",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "runative-syndicate\\.com\\/api\\/v1\\/p\\/p\\.gif",
-            "cookies": 0.000529,
-            "fingerprinting": 0,
-            "subdomains": [
-                "pixel"
-            ],
-            "apis": {},
-            "sites": 26,
-            "prevalence": 0.000529
-        },
-        {
             "rule": "runative-syndicate\\.com\\/sdk\\/v1\\/n\\.js",
-            "cookies": 0.000468,
+            "cookies": 0.000479,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "window.devicePixelRatio": 21,
-                "Screen.prototype.width": 12,
-                "Screen.prototype.height": 12,
-                "Document.cookie getter": 6
+                "window.devicePixelRatio": 33,
+                "Screen.prototype.width": 28,
+                "Screen.prototype.height": 28,
+                "Document.cookie getter": 19
             },
-            "sites": 25,
-            "prevalence": 0.000509
+            "sites": 38,
+            "prevalence": 0.00052,
+            "cnames": []
         },
         {
-            "rule": "runative-syndicate\\.com\\/do2\\/a9683e6e5e82455a948623996e8451f7\\/dynamic",
-            "cookies": 0.0000407,
+            "rule": "runative-syndicate\\.com\\/sdk\\/v1\\/n\\.css",
+            "cookies": 0.000561,
             "fingerprinting": 0,
-            "subdomains": [],
+            "subdomains": [
+                "cdn"
+            ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 44,
+            "prevalence": 0.000602,
+            "cnames": []
         },
         {
-            "rule": "runative-syndicate\\.com\\/do2\\/aae54887ff6048228c38b262b68fce76\\/dynamic",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "runative-syndicate\\.com\\/do2\\/a47b29cbc1e0438aa07528c65e48cc8a\\/dynamic",
-            "cookies": 0.000061,
+            "rule": "runative-syndicate\\.com\\/do2\\/8c63310a867e4306b9d13f2bc958bda4\\/dynamic",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "runative-syndicate\\.com\\/images\\/c\\/5\\/99cc2fc677a9fef646b98cb19c6d8b1d8e1de2\\/300x250\\.webp",
-            "cookies": 0.0000203,
+            "rule": "runative-syndicate\\.com\\/images\\/8\\/1\\/c8b6cf3bfd2bbf159fde5f9d0e7a82d98a07a9\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "runative-syndicate\\.com\\/images\\/2\\/7\\/edd0f85cead60253bb28c576fea370100faa3b\\/main\\.webp",
-            "cookies": 0.0000203,
+            "rule": "runative-syndicate\\.com\\/api\\/v1\\/p\\/p\\.gif",
+            "cookies": 0.000493,
             "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 36,
+            "prevalence": 0.000493,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/sdk\\/v1\\/bi\\.js",
+            "cookies": 0.000109,
+            "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "window.devicePixelRatio": 9,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7
+            },
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         },
         {
-            "rule": "runative-syndicate\\.com\\/images\\/9\\/8\\/d55e5dbba579cb9c631e5171435ad70e5935ee\\/main\\.webp",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
+            "rule": "runative-syndicate\\.com\\/sdk\\/v1\\/b\\.b\\.js",
+            "cookies": 0.0000547,
+            "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.vendor": 6
+            },
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
         },
         {
-            "rule": "runative-syndicate\\.com\\/images\\/c\\/e\\/0e32bf2aa3e4a25472ed45f5361b6e0518be80\\/300x250\\.webp",
-            "cookies": 0.0000407,
+            "rule": "runative-syndicate\\.com\\/images\\/9\\/3\\/de9e5c64f8c2ed71a5cbd98d3401c7a11721c0\\.gif",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.0000814
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "runative-syndicate\\.com\\/images\\/6\\/8\\/d8591cf52d860e516061263448219b94e8a54c\\/300x250\\.webp",
-            "cookies": 0.0000203,
+            "rule": "runative-syndicate\\.com\\/images\\/d\\/9\\/54830cb2cff0b1c26b6889c144b1fda0a6fb87\\.jpg",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "runative-syndicate\\.com\\/images\\/a\\/e\\/3e5fbe80a28243dbeb26aa608b75a1a0e672a0\\/main\\.webp",
-            "cookies": 0.000061,
+            "rule": "runative-syndicate\\.com\\/api\\/v1\\/p\\/p\\.js",
+            "cookies": 0.000178,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/2\\/6\\/4758abb1aae17d1a3ea8b5a6507542c6f1a16e\\/300x250\\.jpg",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
-            "rule": "runative-syndicate\\.com\\/images\\/9\\/d\\/32dfc396f7fb48e49f498a267b12dd59911648\\/main\\.webp",
-            "cookies": 0.0000407,
+            "rule": "runative-syndicate\\.com\\/images\\/d\\/c\\/9b6b8bdccdf3bf6e0ff94365d9ae7d7ce0cd47\\/300x250\\.jpg",
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
             "apis": {},
             "sites": 6,
-            "prevalence": 0.000122
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
-            "rule": "runative-syndicate\\.com\\/images\\/5\\/4\\/0b3f8e06dca1bbb8c9b116a5f3d6a9b13562c7\\/300x250\\.webp",
-            "cookies": 0.0000203,
+            "rule": "runative-syndicate\\.com\\/sdk\\/v1\\/exit\\.popup\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/b\\/5\\/06148c20d782b5d7af7e5b2416eb50bd4b6b38\\/300x250\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "runative-syndicate\\.com\\/images\\/5\\/a\\/a66bbcc9160023f13741f9309d0ae702136efb\\/main\\.webp",
-            "cookies": 0.0000203,
+            "rule": "runative-syndicate\\.com\\/images\\/5\\/d\\/f4385f6dd0bb4c4179df6056db141e4da130c5\\/300x250\\.jpg",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/6\\/8\\/5eb0b98d238e9baf768bc98d95340495859cb9\\/300x250\\.jpg",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "runative-syndicate\\.com\\/images\\/a\\/7\\/4a5dcbfb32c474d1127f1175c482005ff865f1\\/main\\.webp",
-            "cookies": 0.0000203,
+            "rule": "runative-syndicate\\.com\\/images\\/2\\/a\\/35b5348f0522f4962542d540c0acf0dcab883d\\/300x250\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "runative-syndicate\\.com\\/images\\/7\\/1\\/42e29f4420c9c9078c6ed91bd6dd2e1cc258ee\\/main\\.webp",
-            "cookies": 0.0000203,
+            "rule": "runative-syndicate\\.com\\/images\\/1\\/e\\/c19f46bb36954c95a43eeeb48c5c5cb3fc3294\\/300x250\\.jpg",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/8\\/1\\/7282849627ed1fc96706d81844849dabaaf7ce\\/300x250\\.jpg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/sdk\\/v1\\/exit\\.popup\\.css",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/8\\/0\\/7ad2202dbc0ba6804ebcd9feb7a65179d4e6eb\\/300x250\\.jpg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/8\\/1\\/c8b6cf3bfd2bbf159fde5f9d0e7a82d98a07a9\\/main\\.jpg",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/4\\/8\\/83ce68e3d6d0f41cfd0bc5d69eab4334a3cfbd\\/300x250\\.jpg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/a\\/e\\/3e5fbe80a28243dbeb26aa608b75a1a0e672a0\\/main\\.jpg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/0\\/0\\/fcca0475a9127d78bb6616aec138401d6fa385\\/480x360\\.jpg",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/7\\/c\\/e9e712abf405edf18b0f66d4936b1d55efb866\\/480x360\\.jpg",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/1\\/5\\/ccddae89ddb138ca9ba19f4a3747b51ad244b1\\/480x360\\.jpg",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/5\\/a\\/7c0bf7551b2dad47040ab607d01e4ed08536e3\\/300x250\\.webp",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/0\\/3\\/221a614ad22b4567fedf1c8d6d8c65e2d44742\\/main\\.jpg",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/2\\/b\\/ef69e5a151fe01948055c9db76783981be475b\\/300x250\\.jpg",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/b\\/6\\/db7768fe7eee28ebb7f190662e8caed378836a\\/300x250\\.jpg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/7\\/c\\/e9e712abf405edf18b0f66d4936b1d55efb866\\/300x250\\.jpg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/8\\/9\\/b78123367616a91816210679825c8af200d587\\/300x250\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "runative-syndicate\\.com\\/images\\/b\\/2\\/a8c5b699bbcd3a59db28097ea454282be89520\\/main\\.webp",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "runative-syndicate\\.com\\/images\\/2\\/b\\/f68c4b3dd30323feaf417246b404286339664e\\/main\\.webp",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "runative-syndicate\\.com\\/images\\/a\\/f\\/e960676f461a492129b60bdf6c56e97e7c0894\\/main\\.webp",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "runative-syndicate\\.com\\/images\\/8\\/3\\/46d49f85f32f17f4e7d48a88098e2bac60a35a\\/main\\.webp",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "runative-syndicate\\.com\\/images\\/d\\/5\\/42b7c29962a0c590ac57af054d9eec8f755a10\\/300x250\\.webp",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "runative-syndicate\\.com\\/images\\/a\\/e\\/3e5fbe80a28243dbeb26aa608b75a1a0e672a0\\.png",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "runative-syndicate\\.com\\/images\\/f\\/5\\/94049e4293b0c945a72b2a12f6847e937a858b\\/300x250\\.jpg",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "runative-syndicate\\.com\\/do2\\/b83c8d30a15641e1adacd400a129e751\\/dynamic",
-            "cookies": 0.0000407,
+            "rule": "runative-syndicate\\.com\\/api\\/v1\\/retargeting\\/set\\/1a59e97d-a1c2-4718-89ea-5a19b9d400ea",
+            "cookies": 0.000164,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
         },
         {
-            "rule": "runative-syndicate\\.com\\/images\\/0\\/4\\/9882d77e994cd3fc1b2d1c657dee462a5a7a07\\/300x250\\.webp",
-            "cookies": 0.0000203,
+            "rule": "runative-syndicate\\.com\\/api\\/v1\\/retargeting\\/set\\/dedc7df9-c920-4b4b-a9e4-2a904ca2f8ef",
+            "cookies": 0.0000958,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/2\\/b\\/ef69e5a151fe01948055c9db76783981be475b\\/480x360\\.jpg",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/b\\/f\\/7edecaecf7fd5356d8e67788a947e2089c798e\\.png",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/0\\/3\\/221a614ad22b4567fedf1c8d6d8c65e2d44742\\/main\\.webp",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/d\\/9\\/f2bf33ed47ebcb8fbaed2870d9778173720fda\\/300x250\\.webp",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/8\\/1\\/c8b6cf3bfd2bbf159fde5f9d0e7a82d98a07a9\\/main\\.webp",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/f\\/4\\/fad6377ac062ec4158b9b9f2d5f5de33385e7f\\/300x250\\.webp",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/b\\/6\\/db7768fe7eee28ebb7f190662e8caed378836a\\/300x250\\.webp",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/f\\/b\\/059f2b8dd3b186d461b59e1cb2fcdef7400385\\/300x250\\.webp",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/3\\/7\\/7fadd0f75f1a7aa3f247aef064951b805ed754\\/300x250\\.webp",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/1\\/e\\/c19f46bb36954c95a43eeeb48c5c5cb3fc3294\\/300x250\\.webp",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/7\\/c\\/e9e712abf405edf18b0f66d4936b1d55efb866\\/300x250\\.webp",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/8\\/0\\/7ad2202dbc0ba6804ebcd9feb7a65179d4e6eb\\/300x250\\.webp",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/d\\/9\\/f2bf33ed47ebcb8fbaed2870d9778173720fda\\/300x250\\.jpg",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/8\\/8\\/c82e8deb2974fdf09b3c0c346c74077f2bb5ac\\/300x250\\.jpg",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/8\\/8\\/c82e8deb2974fdf09b3c0c346c74077f2bb5ac\\/300x250\\.webp",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/2\\/a\\/35b5348f0522f4962542d540c0acf0dcab883d\\/300x250\\.webp",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/5\\/d\\/f4385f6dd0bb4c4179df6056db141e4da130c5\\/300x250\\.webp",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/d\\/c\\/9b6b8bdccdf3bf6e0ff94365d9ae7d7ce0cd47\\/300x250\\.webp",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/c\\/b\\/691cfd62c1721258875e85ee9886109a6d15a4\\/main\\.webp",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/d\\/c\\/ea89a746f672a19427462a2f1c757b172f6b62\\/300x250\\.webp",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/a\\/3\\/b693d51c926a34048d1f87170f27164633dd01\\/300x250\\.webp",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/f\\/4\\/fad6377ac062ec4158b9b9f2d5f5de33385e7f\\/300x250\\.jpg",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/2\\/6\\/4758abb1aae17d1a3ea8b5a6507542c6f1a16e\\/300x250\\.webp",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/0\\/3\\/221a614ad22b4567fedf1c8d6d8c65e2d44742\\.jpg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/f\\/b\\/059f2b8dd3b186d461b59e1cb2fcdef7400385\\/300x250\\.jpg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/1\\/5\\/ccddae89ddb138ca9ba19f4a3747b51ad244b1\\/300x250\\.webp",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/8\\/8\\/d617cb7485852ce475d828df1c525a57f93925\\/300x250\\.webp",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/f\\/0\\/dd76651af88c0dd8c1d23cfa5b3eca80f87c6e\\/300x250\\.webp",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "runative-syndicate\\.com\\/images\\/7\\/9\\/6ead3591425f245856c18e05e5a32e06097e34\\/300x250\\.webp",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -314,5 +798,10 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.000692
+    "cookies": 0.000999,
+    "types": {
+        "Script": 78,
+        "Stylesheet": 46,
+        "Image": 205
+    }
 }

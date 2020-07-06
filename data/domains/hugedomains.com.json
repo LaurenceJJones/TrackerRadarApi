@@ -7,23 +7,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000203,
-    "sites": 10,
+    "prevalence": 0.000151,
+    "sites": 11,
     "subdomains": [
         "static"
     ],
-    "fingerprinting": 0,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "hugedomains\\.com\\/images\\/logo_huge_domains\\.gif",
-            "cookies": 0.000183,
+            "cookies": 0.000151,
             "fingerprinting": 0,
             "subdomains": [
                 "static"
             ],
             "apis": {},
-            "sites": 9,
-            "prevalence": 0.000183
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -33,5 +35,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000203
+    "cookies": 0.000151,
+    "types": {
+        "Image": 11
+    }
 }

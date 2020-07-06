@@ -7,36 +7,27 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
+    "prevalence": 0.0000684,
     "sites": 5,
     "subdomains": [
-        "kitco2.websol",
-        "valueline.websol"
+        "ragingbull.websol",
+        "kitco2.websol"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "barchart\\.com\\/",
-            "cookies": 0.000061,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "kitco2.websol",
-                "valueline.websol"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "barchart\\.com\\/",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "valueline.websol"
+                "ragingbull.websol",
+                "kitco2.websol"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -46,5 +37,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000061
+    "cookies": 0.0000274,
+    "types": {
+        "Script": 2
+    }
 }

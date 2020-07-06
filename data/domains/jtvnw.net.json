@@ -9,680 +9,1079 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00183,
-    "sites": 90,
+    "prevalence": 0.00135,
+    "sites": 95,
     "subdomains": [
         "static-cdn"
     ],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_kendinemuzisyen-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_montanablack88-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.0000428
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_evelone192-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_elraenn-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.0000428
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_destiny-320x180\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-cdn"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_healthygamer_gg-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_alexby11-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.0000428
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_allkeyshop_tv-320x180\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-cdn"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_jinnytty-320x180\\.jpg",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_sashagrey-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_lestream-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.0000428
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_jstinlive-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000428
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_bratishkinoff-320x180\\.jpg",
+            "cookies": 0.0000285,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000713
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_kitboga-320x180\\.jpg",
+            "cookies": 0.0000285,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000713
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_pimpeano-320x180\\.jpg",
+            "cookies": 0.0000285,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000713
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_itsmalbert-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000428
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_staiy-320x180\\.jpg",
+            "cookies": 0.0000285,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000713
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_jaimealtozano-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000428
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_orslok-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000428
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_modestal-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000428
         },
         {
             "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_manyrin-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.0000428
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_julienbam-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000428
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_allkeyshop_tv-320x180\\.jpg",
+            "cookies": 0.0000428,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000998
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_olyashaa-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000428
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_angelskimi-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000428
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_shuteye_orange-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000428
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_jinnytty-320x180\\.jpg",
+            "cookies": 0.0000285,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000057
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_zanuda-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000428
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_dianarice-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000428
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_evelone192-320x180\\.jpg",
+            "cookies": 0.0000285,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000057
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_alenenwooptv-320x180\\.jpg",
+            "cookies": 0.0000285,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000713
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_dekarldent-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000428
         },
         {
             "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_amouranth-320x180\\.jpg",
-            "cookies": 0.0000407,
+            "cookies": 0.0000285,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000713
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_beryl_lulu-320x180\\.jpg",
+            "cookies": 0.0000285,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000713
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_dinablin-320x180\\.jpg",
+            "cookies": 0.0000285,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.0000814
+            "prevalence": 0.000057
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_homyatol-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_demonzz1-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.0000428
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_conterstine-320x180\\.jpg",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_facubanzas-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_officialandypyro-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.0000428
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_cerbero_podcast-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_silphtv-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.0000428
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_alinity-320x180\\.jpg",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_joyca-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_altair-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.0000428
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_abo3abd_f16-320x180\\.jpg",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-cdn"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_kalathraslolweapon-320x180\\.jpg",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_paramaxil-320x180\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-cdn"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_rekileggy-320x180\\.jpg",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-cdn"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_kilkuts-320x180\\.jpg",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-cdn"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_mistafaker-320x180\\.jpg",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_2sekundovymato-320x180\\.jpg",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-cdn"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_gavrilka-320x180\\.jpg",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_insomniac_events-320x180\\.jpg",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_irwinshow-320x180\\.jpg",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-cdn"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_jaxstyle-320x180\\.jpg",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_yugwha0901-320x180\\.jpg",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-cdn"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_muse_tw-320x180\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-cdn"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "jtvnw\\.net\\/jtv_user_pictures\\/mutheadtv-profile_image-a9340f2a04ff4673-300x300\\.png",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "jtvnw\\.net\\/jtv_user_pictures\\/76d2e79cf9be08d9-profile_image-300x300\\.jpeg",
-            "cookies": 0.000102,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_killars-320x180\\.jpg",
+            "cookies": 0.0000428,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 6,
-            "prevalence": 0.000122
+            "prevalence": 0.0000856
         },
         {
-            "rule": "jtvnw\\.net\\/jtv_user_pictures\\/a28b0d37-81d0-415a-8ed8-1a1f998ea26d-profile_image-300x300\\.png",
-            "cookies": 0.000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-cdn"
-            ],
-            "apis": {},
-            "sites": 21,
-            "prevalence": 0.000427
-        },
-        {
-            "rule": "jtvnw\\.net\\/jtv_user_pictures\\/b0b0f685-b1c9-40d1-a972-8125e6aac952-profile_image-300x300\\.png",
-            "cookies": 0.000142,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static-cdn"
-            ],
-            "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
-        },
-        {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_therealknossi-320x180\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_brendonurie-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.0000428
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_kitboga-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_jamclub-320x180\\.jpg",
+            "cookies": 0.0000285,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000713
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_failverde-320x180\\.jpg",
+            "cookies": 0.0000285,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000713
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_sintica-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000428
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_thestockguy-320x180\\.jpg",
+            "cookies": 0.0000285,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000713
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_lobosjr-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000428
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_jinjalim-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000428
+        },
+        {
+            "rule": "jtvnw\\.net\\/ttv-static\\/404_preview-320x180\\.jpg",
+            "cookies": 0.0000285,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000713
+        },
+        {
+            "rule": "jtvnw\\.net\\/jtv_user_pictures\\/76d2e79cf9be08d9-profile_image-300x300\\.jpeg",
+            "cookies": 0.0000285,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000856
+        },
+        {
+            "rule": "jtvnw\\.net\\/jtv_user_pictures\\/a28b0d37-81d0-415a-8ed8-1a1f998ea26d-profile_image-300x300\\.png",
+            "cookies": 0.0002,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.000371
+        },
+        {
+            "rule": "jtvnw\\.net\\/jtv_user_pictures\\/b0b0f685-b1c9-40d1-a972-8125e6aac952-profile_image-300x300\\.png",
+            "cookies": 0.0000856,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.000171
+        },
+        {
+            "rule": "jtvnw\\.net\\/jtv_user_pictures\\/gamestop-profile_image-a1be3b0556e81814-300x300\\.png",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_sardoche-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_buster-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_jltomy-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_mckytv-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_kumikomii-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_exbc-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_berleezy-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_dda_ju-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_nubulswamp-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_iris522-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_mira-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_matteohs-320x180\\.jpg",
+            "cookies": 0.0000285,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000428
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_uselessmouth-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_domingo-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_tfue-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_pokimane-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_markiplier-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_inscope21tv-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_jacksepticeye-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_honeymad-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_anjuna-320x180\\.jpg",
+            "cookies": 0.0000285,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000428
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_kayazockt-320x180\\.jpg",
+            "cookies": 0.0000285,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000428
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_agraelus-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
         },
         {
             "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_jesusavgn-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "cookies": 0.0000285,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.0000428
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_elanur-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_hasanabi-320x180\\.jpg",
+            "cookies": 0.0000285,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.0000428
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_bouphe-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_dakotaz-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_9321207_-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_joridelli-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_pellek-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_bonjwa-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_dinablin-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_eliasn97-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_wombo420combo-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_alinity-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_creativemonkeyz-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_visshenka-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_lubatv-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_knekro-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_anas_off-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_kennybeats-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_russel-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_rkdwl12-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_twitchsasi-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_orangemorange-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_smallant1-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_cheatbanned-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_laraloft-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_wingz-320x180\\.jpg",
+            "cookies": 0.0000285,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.0000428
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_iamcristinini-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_bandsintown-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
-            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_letw1k3-320x180\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_alphagcup-320x180\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "jtvnw\\.net\\/previews-ttv\\/live_user_snailkicktm-320x180\\.jpg",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "jtvnw\\.net\\/jtv_user_pictures\\/c495b77e-7f47-4bc5-a216-3045d7545796-profile_image-300x300\\.png",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
         },
         {
             "rule": "jtvnw\\.net\\/jtv_user_pictures\\/1975b18f-fa7d-443f-b191-fba08f92f3a2-profile_image-300x300\\.jpeg",
-            "cookies": 0.0000203,
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
-            "rule": "jtvnw\\.net\\/jtv_user_pictures\\/200cea12142f2384-profile_image-300x300\\.png",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/jtv_user_pictures\\/ec898e4a-e0df-4dc0-a99d-7540c6dbe1e8-profile_image-300x300\\.png",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
-            "rule": "jtvnw\\.net\\/jtv_user_pictures\\/f3591dbe4ee3d94b-profile_image-300x300\\.png",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/jtv_user_pictures\\/457bdc9d-67ad-4f38-9bf5-6420bc746ad6-profile_image-300x300\\.png",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
-            "rule": "jtvnw\\.net\\/jtv_user_pictures\\/61f85a70-33e9-4144-b08a-bee144d444dc-profile_image-300x300\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/jtv_user_pictures\\/a2592e98-5ba6-4c9a-9d9e-cf036d6f64c2-profile_image-300x300\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
-            "rule": "jtvnw\\.net\\/jtv_user_pictures\\/xqcow-profile_image-9298dca608632101-300x300\\.jpeg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/jtv_user_pictures\\/e5275ba1-1903-4cd6-a066-3a80b87d22cf-profile_image-300x300\\.png",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
-            "rule": "jtvnw\\.net\\/jtv_user_pictures\\/timthetatman-profile_image-4cb867e7d0af1448-300x300\\.jpeg",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/jtv_user_pictures\\/dndbeyond-profile_image-635cbd33acae1108-300x300\\.png",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
-            "rule": "jtvnw\\.net\\/jtv_user_pictures\\/4bf37688-7b19-4d3f-9d56-11740ad38c4d-profile_image-300x300\\.png",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/emoticons\\/v1\\/25\\/1\\.0",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.0000428
         },
         {
-            "rule": "jtvnw\\.net\\/jtv_user_pictures\\/4eb7f589-d2a0-47cd-a933-92b3ca21a5c8-profile_image-300x300\\.png",
-            "cookies": 0.0000203,
+            "rule": "jtvnw\\.net\\/ttv-static\\/404_preview-440x248\\.jpg",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "static-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "jtvnw\\.net\\/emoticons\\/v1\\/74510\\/1\\.0",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "jtvnw\\.net\\/emoticons\\/v1\\/70433\\/1\\.0",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "jtvnw\\.net\\/emoticons\\/v1\\/1902\\/1\\.0",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "jtvnw\\.net\\/emoticons\\/v1\\/81248\\/1\\.0",
+            "cookies": 0.0000143,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 3,
+        "size": 2,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000753
+    "cookies": 0.000642,
+    "types": {
+        "Image": 310
+    }
 }

@@ -4,7 +4,7 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000224,
+    "prevalence": 0.000157,
     "sites": 11,
     "subdomains": [
         "js",
@@ -14,7 +14,7 @@
     "resources": [
         {
             "rule": "kctag\\.net\\/kias-medpexde\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000285,
             "fingerprinting": 3,
             "subdomains": [
                 "js"
@@ -54,26 +54,29 @@
                 "Navigator.prototype.presentation": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
             "rule": "kctag\\.net\\/live\\/ksid\\.js",
-            "cookies": 0.000224,
+            "cookies": 0.000143,
             "fingerprinting": 0,
             "subdomains": [
                 "ct"
             ],
             "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
+            "sites": 10,
+            "prevalence": 0.000143
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000224
+    "cookies": 0.000143,
+    "types": {
+        "Script": 12
+    }
 }

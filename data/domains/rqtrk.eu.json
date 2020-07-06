@@ -9,27 +9,40 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00244,
-    "sites": 120,
+    "prevalence": 0.00151,
+    "sites": 110,
     "subdomains": [
-        "ws",
         "ws1",
+        "ws3",
         "wt1",
         "ws2"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "rqtrk\\.eu\\/pull",
-            "cookies": 0.00222,
+            "cookies": 0.000342,
             "fingerprinting": 0,
             "subdomains": [
-                "ws",
                 "ws1"
             ],
             "apis": {},
-            "sites": 114,
-            "prevalence": 0.00232
+            "sites": 29,
+            "prevalence": 0.000397,
+            "cnames": []
+        },
+        {
+            "rule": "rqtrk\\.eu\\/pushpull",
+            "cookies": 0.00105,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws3"
+            ],
+            "apis": {},
+            "sites": 79,
+            "prevalence": 0.00108,
+            "cnames": []
         },
         {
             "rule": "rqtrk\\.eu\\/5f7d5aec-e283-4263-a50a-a4a7af4492b9-trk\\.js",
@@ -39,32 +52,35 @@
                 "wt1"
             ],
             "apis": {
-                "Date.prototype.getTime": 3
+                "Date.prototype.getTime": 2
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "rqtrk\\.eu\\/",
-            "cookies": 0.0000814,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "wt1"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "rqtrk\\.eu\\/push",
-            "cookies": 0.000102,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "ws2"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [
@@ -72,10 +88,14 @@
         "Advertising"
     ],
     "performance": {
-        "time": 0,
-        "size": 0,
+        "time": 1,
+        "size": 1,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00234
+    "cookies": 0.00144,
+    "types": {
+        "Image": 115,
+        "Script": 2
+    }
 }

@@ -4,12 +4,14 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000694,
-    "sites": 3,
+    "prevalence": 0.0000821,
+    "sites": 6,
     "subdomains": [
-        "cdn-5d30dec4f911c80ef4a2467d",
-        "cdn-5dee8c95f911cb0cdc3f2452"
+        "cdn-5dfc01e4f911c80fd0df4bf7",
+        "cdn-5e8974d4f911ca0ca0d28b47",
+        "cdn-5cc131b2f911c81690a1580c"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -17,15 +19,17 @@
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "cdn-5d30dec4f911c80ef4a2467d",
-                "cdn-5dee8c95f911cb0cdc3f2452"
+                "cdn-5dfc01e4f911c80fd0df4bf7",
+                "cdn-5e8974d4f911ca0ca0d28b47",
+                "cdn-5cc131b2f911c81690a1580c"
             ],
             "apis": {
                 "Element.prototype.getClientRects": 2,
                 "Event.prototype.timeStamp": 2
             },
-            "sites": 2,
-            "prevalence": 0.0000462
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -35,5 +39,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0
+    "cookies": 0.0000137,
+    "types": {
+        "Script": 3
+    }
 }

@@ -4,78 +4,85 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00153,
-    "sites": 75,
+    "prevalence": 0.00137,
+    "sites": 100,
     "subdomains": [
         "in"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "xspadvertising\\.com\\/ingest\\/sheknows\\.js",
-            "cookies": 0.00059,
+            "cookies": 0.000684,
             "fingerprinting": 0,
             "subdomains": [
                 "in"
             ],
             "apis": {},
-            "sites": 32,
-            "prevalence": 0.000651
+            "sites": 56,
+            "prevalence": 0.000766,
+            "cnames": []
         },
         {
             "rule": "xspadvertising\\.com\\/partner_store\\/ttd",
-            "cookies": 0.00134,
+            "cookies": 0.0013,
             "fingerprinting": 0,
             "subdomains": [
                 "in"
             ],
             "apis": {},
-            "sites": 66,
-            "prevalence": 0.00134
-        },
-        {
-            "rule": "xspadvertising\\.com\\/sync\\/bombora",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "in"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "xspadvertising\\.com\\/ingest\\/crosspixel\\.html",
-            "cookies": 0.000692,
-            "fingerprinting": 0,
-            "subdomains": [
-                "in"
-            ],
-            "apis": {},
-            "sites": 34,
-            "prevalence": 0.000692
+            "sites": 95,
+            "prevalence": 0.0013,
+            "cnames": []
         },
         {
             "rule": "xspadvertising\\.com\\/ingest\\/gourmetAds\\.html",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "in"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "xspadvertising\\.com\\/1\\/smart\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "in"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "xspadvertising\\.com\\/ingest\\/crosspixel\\.html",
+            "cookies": 0.000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 40,
+            "prevalence": 0.000547,
+            "cnames": []
+        },
+        {
+            "rule": "xspadvertising\\.com\\/ingest\\/gourmetAds\\.html",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "xspadvertising\\.com\\/1\\/smart\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -85,5 +92,10 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00153
+    "cookies": 0.00137,
+    "types": {
+        "Script": 60,
+        "Image": 95,
+        "Document": 43
+    }
 }

@@ -9,32 +9,14 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00696,
-    "sites": 342,
+    "prevalence": 0.00573,
+    "sites": 419,
     "subdomains": [
         "code"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
-        {
-            "rule": "createjs\\.com\\/createjs-2015\\.11\\.26\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "code"
-            ],
-            "apis": {
-                "HTMLCanvasElement.prototype.constructor": 159,
-                "Navigator.prototype.userAgent": 171,
-                "Date.prototype.getTime": 174,
-                "CanvasRenderingContext2D.prototype.getImageData": 26,
-                "CanvasRenderingContext2D.prototype.measureText": 21,
-                "window.devicePixelRatio": 1,
-                "HTMLMediaElement.prototype.canPlayType": 1
-            },
-            "sites": 218,
-            "prevalence": 0.00443
-        },
         {
             "rule": "createjs\\.com\\/1\\.0\\.0\\/createjs\\.min\\.js",
             "cookies": 0,
@@ -43,42 +25,35 @@
                 "code"
             ],
             "apis": {
-                "HTMLCanvasElement.prototype.constructor": 111,
-                "Navigator.prototype.userAgent": 112,
-                "Date.prototype.getTime": 120,
-                "URL.createObjectURL": 5,
-                "CanvasRenderingContext2D.prototype.getImageData": 9,
-                "CanvasRenderingContext2D.prototype.measureText": 1
+                "HTMLCanvasElement.prototype.constructor": 155,
+                "Navigator.prototype.userAgent": 157,
+                "Date.prototype.getTime": 166,
+                "CanvasRenderingContext2D.prototype.getImageData": 8,
+                "CanvasRenderingContext2D.prototype.measureText": 3
             },
-            "sites": 125,
-            "prevalence": 0.00254
+            "sites": 198,
+            "prevalence": 0.00271,
+            "cnames": []
         },
         {
-            "rule": "createjs\\.com\\/easeljs-0\\.7\\.1\\.min\\.js",
+            "rule": "createjs\\.com\\/createjs-2015\\.11\\.26\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "code"
             ],
             "apis": {
-                "Date.prototype.getTime": 3,
-                "HTMLCanvasElement.prototype.constructor": 3
+                "HTMLCanvasElement.prototype.constructor": 169,
+                "Navigator.prototype.userAgent": 185,
+                "Date.prototype.getTime": 182,
+                "CanvasRenderingContext2D.prototype.getImageData": 60,
+                "window.devicePixelRatio": 3,
+                "CanvasRenderingContext2D.prototype.measureText": 3,
+                "HTMLMediaElement.prototype.canPlayType": 1
             },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "createjs\\.com\\/preloadjs-0\\.4\\.1\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "code"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 232,
+            "prevalence": 0.00317,
+            "cnames": []
         }
     ],
     "categories": [
@@ -87,8 +62,11 @@
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 2,
+        "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 430
+    }
 }

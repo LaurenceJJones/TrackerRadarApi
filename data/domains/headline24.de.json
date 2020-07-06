@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
+    "prevalence": 0.0000274,
     "sites": 2,
     "subdomains": [
         "cni2"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -23,7 +24,8 @@
                 "PerformanceTiming.prototype.navigationStart": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "headline24\\.de\\/weather\\/js\\/vendor\\/jquery\\.js",
@@ -36,7 +38,8 @@
                 "Event.prototype.timeStamp": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "headline24\\.de\\/weather\\/js\\/vendor\\/foundation\\.js",
@@ -50,10 +53,15 @@
                 "window.matchMedia(\"prefers-reduced-motion\")": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Document": 2,
+        "Script": 4
+    }
 }

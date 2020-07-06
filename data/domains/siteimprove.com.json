@@ -9,41 +9,22 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00102,
-    "sites": 50,
+    "prevalence": 0.000794,
+    "sites": 58,
     "subdomains": [
         "us2",
-        "eu2",
-        "uk1",
-        "us5",
         "us1",
-        "us4",
         "ssl"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "siteimprove\\.com\\/image\\.aspx",
-            "cookies": 0.000264,
-            "fingerprinting": 0,
-            "subdomains": [
-                "us2",
-                "eu2",
-                "uk1",
-                "us5",
-                "us1",
-                "us4"
-            ],
-            "apis": {},
-            "sites": 13,
-            "prevalence": 0.000264
-        },
-        {
-            "rule": "siteimprove\\.com\\/js\\/siteanalyze_1908684\\.js",
-            "cookies": 0.0000407,
+            "rule": "siteimprove\\.com\\/js\\/siteanalyze_6015555\\.js",
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
-                "ssl"
+                "us2"
             ],
             "apis": {
                 "Screen.prototype.width": 2,
@@ -54,7 +35,40 @@
                 "Document.cookie setter": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "siteimprove\\.com\\/image\\.aspx",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us2",
+                "us1"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "siteimprove\\.com\\/js\\/siteanalyze_1908684\\.js",
+            "cookies": 0.000041,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ssl"
+            ],
+            "apis": {
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "PerformanceTiming.prototype.navigationStart": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [
@@ -66,5 +80,9 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.000793
+    "cookies": 0.000657,
+    "types": {
+        "Script": 5,
+        "Image": 4
+    }
 }

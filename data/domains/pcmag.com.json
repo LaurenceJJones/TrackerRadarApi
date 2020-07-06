@@ -7,25 +7,27 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00057,
-    "sites": 28,
+    "prevalence": 0.000424,
+    "sites": 31,
     "subdomains": [
         "g"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "pcmag\\.com\\/geocc\\.js",
-            "cookies": 0.000549,
+            "cookies": 0.000397,
             "fingerprinting": 1,
             "subdomains": [
                 "g"
             ],
             "apis": {
-                "Document.cookie setter": 27
+                "Document.cookie setter": 29
             },
-            "sites": 28,
-            "prevalence": 0.00057
+            "sites": 31,
+            "prevalence": 0.000424,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -35,5 +37,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000549
+    "cookies": 0.000397,
+    "types": {
+        "Script": 31
+    }
 }

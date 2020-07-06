@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000264,
-    "sites": 13,
+    "prevalence": 0.000246,
+    "sites": 18,
     "subdomains": [
         "widget"
     ],
+    "cnames": [],
     "fingerprinting": 3,
     "resources": [
         {
@@ -19,45 +20,50 @@
                 "widget"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 7
+                "Navigator.prototype.userAgent": 8
             },
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
-            "rule": "spreaker\\.com\\/player-base-edce4665ff3b878c4ca5\\.js",
+            "rule": "spreaker\\.com\\/player-base-ad2287fc955523c88376\\.js",
             "cookies": 0,
             "fingerprinting": 3,
             "subdomains": [
                 "widget"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 9,
-                "Navigator.prototype.product": 9,
-                "window.sessionStorage": 9,
-                "window.localStorage": 9,
-                "Navigator.prototype.plugins": 9,
-                "Navigator.prototype.languages": 9,
-                "HTMLMediaElement.prototype.canPlayType": 9,
-                "BroadcastChannel.prototype.constructor": 9,
-                "Date.prototype.getTime": 9,
-                "Date.prototype.getTimezoneOffset": 9,
-                "window.matchMedia(\"prefers-reduced-motion\")": 9,
-                "window.devicePixelRatio": 9,
-                "PerformanceTiming.prototype.navigationStart": 9,
-                "HTMLCanvasElement.prototype.constructor": 9,
-                "Event.prototype.timeStamp": 7
+                "Navigator.prototype.userAgent": 11,
+                "Navigator.prototype.product": 11,
+                "window.sessionStorage": 13,
+                "window.localStorage": 13,
+                "Navigator.prototype.plugins": 11,
+                "Navigator.prototype.languages": 11,
+                "HTMLMediaElement.prototype.canPlayType": 11,
+                "BroadcastChannel.prototype.constructor": 11,
+                "Date.prototype.getTime": 13,
+                "Date.prototype.getTimezoneOffset": 13,
+                "window.matchMedia(\"prefers-reduced-motion\")": 13,
+                "window.devicePixelRatio": 13,
+                "PerformanceTiming.prototype.navigationStart": 11,
+                "HTMLCanvasElement.prototype.constructor": 12,
+                "Event.prototype.timeStamp": 10
             },
-            "sites": 9,
-            "prevalence": 0.000183
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 21
+    }
 }

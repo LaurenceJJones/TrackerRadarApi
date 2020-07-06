@@ -7,34 +7,17 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000549,
-    "sites": 27,
+    "prevalence": 0.000561,
+    "sites": 41,
     "subdomains": [
-        "androidpcreview",
+        "static",
         "happyhealthymama",
-        "schieb",
         "thesurvivalgardener",
-        "static"
+        "my"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
-        {
-            "rule": "leadpages\\.net\\/leadbox-1584646251\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "androidpcreview",
-                "happyhealthymama",
-                "schieb",
-                "thesurvivalgardener"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "Navigator.prototype.platform": 4
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
         {
             "rule": "leadpages\\.net\\/leadboxes\\/current\\/embed\\.js",
             "cookies": 0,
@@ -43,13 +26,31 @@
                 "static"
             ],
             "apis": {
-                "Navigator.prototype.platform": 10,
-                "Navigator.prototype.userAgent": 10,
-                "window.localStorage": 14,
-                "Date.prototype.getTime": 3
+                "Navigator.prototype.platform": 25,
+                "Navigator.prototype.userAgent": 25,
+                "window.localStorage": 29,
+                "Date.prototype.getTime": 6
             },
-            "sites": 14,
-            "prevalence": 0.000285
+            "sites": 30,
+            "prevalence": 0.00041,
+            "cnames": []
+        },
+        {
+            "rule": "leadpages\\.net\\/leadbox-1592931851\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "happyhealthymama",
+                "thesurvivalgardener"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "leadpages\\.net\\/leadbars\\/current\\/embed\\.js",
@@ -59,20 +60,53 @@
                 "static"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
                 "window.localStorage": 3,
-                "Date.prototype.getTime": 2
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "leadpages\\.net\\/static\\/lp831\\/min\\/form\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "leadpages\\.net\\/static\\/lp831\\/min\\/css_browser_selector\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 2,
+        "cpu": 0,
         "cache": 1
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 39
+    }
 }

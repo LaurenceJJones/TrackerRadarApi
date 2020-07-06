@@ -7,45 +7,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
+    "prevalence": 0.0000274,
     "sites": 2,
     "subdomains": [
         "newrevive"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "detik\\.com\\/delivery\\/asyncjs\\.php",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "newrevive"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "detik\\.com\\/delivery\\/asyncspc\\.php",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "newrevive"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
             "rule": "detik\\.com\\/delivery\\/lg\\.php",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "newrevive"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -53,7 +33,10 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 1
+        "cache": 0
     },
-    "cookies": 0.0000203
+    "cookies": 0.0000137,
+    "types": {
+        "Image": 2
+    }
 }

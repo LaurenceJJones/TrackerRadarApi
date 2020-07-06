@@ -7,12 +7,13 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000925,
-    "sites": 4,
+    "prevalence": 0.0000821,
+    "sites": 6,
     "subdomains": [
         "player"
     ],
-    "fingerprinting": 2,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "blubrry\\.com\\/js\\/player\\.min\\.js",
@@ -30,7 +31,8 @@
                 "Event.prototype.timeStamp": 2
             },
             "sites": 2,
-            "prevalence": 0.0000462
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -40,5 +42,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 2
+    }
 }

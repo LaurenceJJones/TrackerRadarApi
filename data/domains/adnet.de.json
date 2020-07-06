@@ -7,41 +7,17 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000925,
+    "prevalence": 0.0000547,
     "sites": 4,
     "subdomains": [
-        "ad",
         "img"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "adnet\\.de\\/ad2\\.js",
-            "cookies": 0.0000462,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ad"
-            ],
-            "apis": {
-                "window.localStorage": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000462
-        },
-        {
-            "rule": "adnet\\.de\\/adj_async\\.php",
-            "cookies": 0.0000231,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ad"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000462
-        },
-        {
             "rule": "adnet\\.de\\/conv\\/function\\.js",
-            "cookies": 0.0000231,
+            "cookies": 0.0000137,
             "fingerprinting": 1,
             "subdomains": [
                 "img"
@@ -52,30 +28,25 @@
                 "window.sessionStorage": 2,
                 "Date.prototype.getTime": 2,
                 "Document.cookie setter": 1,
-                "Navigator.prototype.userAgent": 1,
-                "Navigator.prototype.language": 1
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
             },
             "sites": 2,
-            "prevalence": 0.0000462
-        },
-        {
-            "rule": "adnet\\.de\\/adi\\.php",
-            "cookies": 0.0000694,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ad"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.0000694
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.0000925
+    "cookies": 0.000041,
+    "types": {
+        "Script": 2
+    }
 }

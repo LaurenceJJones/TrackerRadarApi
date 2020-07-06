@@ -4,44 +4,50 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000305,
-    "sites": 15,
+    "prevalence": 0.000109,
+    "sites": 8,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "celeritascdn\\.com\\/script\\/compatibility\\.js",
-            "cookies": 0.000305,
+            "cookies": 0.000109,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Navigator.prototype.userAgent": 13,
-                "Date.prototype.getTime": 15,
-                "window.localStorage": 15,
-                "Document.cookie setter": 15
+                "Navigator.prototype.userAgent": 7,
+                "Date.prototype.getTime": 6,
+                "window.localStorage": 6,
+                "Document.cookie setter": 6
             },
-            "sites": 15,
-            "prevalence": 0.000305
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
             "rule": "celeritascdn\\.com\\/script\\/chrome\\.js",
-            "cookies": 0.000305,
+            "cookies": 0.0000821,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Navigator.prototype.userAgent": 15,
-                "Navigator.prototype.mimeTypes": 15
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.mimeTypes": 6
             },
-            "sites": 15,
-            "prevalence": 0.000305
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
-        "cpu": 1,
-        "cache": 3
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
     },
-    "cookies": 0.000305
+    "cookies": 0.000109,
+    "types": {
+        "Script": 14
+    }
 }

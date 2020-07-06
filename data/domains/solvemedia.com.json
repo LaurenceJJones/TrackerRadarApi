@@ -7,12 +7,14 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
-    "sites": 5,
+    "prevalence": 0.000109,
+    "sites": 8,
     "subdomains": [
         "api",
-        "api-secure"
+        "api-secure",
+        "pixel"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -24,25 +26,39 @@
                 "api-secure"
             ],
             "apis": {
-                "HTMLCanvasElement.prototype.constructor": 2,
-                "HTMLMediaElement.prototype.canPlayType": 2,
-                "Navigator.prototype.userAgent": 1,
-                "Navigator.prototype.plugins": 1,
-                "Date.prototype.getTime": 2
+                "HTMLCanvasElement.prototype.constructor": 5,
+                "HTMLMediaElement.prototype.canPlayType": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.plugins": 5,
+                "Date.prototype.getTime": 5
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
             "rule": "solvemedia\\.com\\/papi\\/_challenge\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "api"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "solvemedia\\.com\\/t",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -52,5 +68,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0000407
+    "cookies": 0.0000684,
+    "types": {
+        "Script": 13,
+        "Image": 3
+    }
 }

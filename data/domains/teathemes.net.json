@@ -4,35 +4,62 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000116,
-    "sites": 5,
+    "prevalence": 0.000109,
+    "sites": 8,
     "subdomains": [
         "fontify",
-        "api"
+        "partner"
     ],
-    "fingerprinting": 0,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "teathemes\\.net\\/js\\/fontify\\.js",
-            "cookies": 0.0000231,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "fontify"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000462
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "teathemes\\.net\\/instagram",
-            "cookies": 0.0000462,
+            "rule": "teathemes\\.net\\/shopify-assets\\/css\\/shopify-slider\\.css",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "api"
+                "partner"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000462
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "teathemes\\.net\\/shopify-assets\\/fonts\\/pe-icon-7-stroke\\/css\\/pe-icon-7-stroke\\.css",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "partner"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "teathemes\\.net\\/shopify-assets\\/fonts\\/font-awesome\\/css\\/font-awesome\\.min\\.css",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "partner"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -40,7 +67,11 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 1
+        "cache": 0
     },
-    "cookies": 0.0000925
+    "cookies": 0.0000821,
+    "types": {
+        "Script": 4,
+        "Stylesheet": 6
+    }
 }

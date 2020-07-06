@@ -7,13 +7,13 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000244,
-    "sites": 12,
+    "prevalence": 0.000123,
+    "sites": 9,
     "subdomains": [
-        "cdn",
-        "tunnus"
+        "cdn"
     ],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "almamedia\\.fi\\/script\\/alma-require\\/2\\.3\\.5\\/require\\.min\\.js",
@@ -23,11 +23,12 @@
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.platform": 11,
-                "Date.prototype.getTime": 11
+                "Navigator.prototype.platform": 7,
+                "Date.prototype.getTime": 8
             },
-            "sites": 11,
-            "prevalence": 0.000224
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
             "rule": "almamedia\\.fi\\/alma-amd\\/bows\\/1\\.6\\.0\\/bows\\.min\\.js",
@@ -37,30 +38,23 @@
                 "cdn"
             ],
             "apis": {
-                "window.localStorage": 7,
-                "Navigator.prototype.userAgent": 7
+                "window.localStorage": 5,
+                "Navigator.prototype.userAgent": 5
             },
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "almamedia\\.fi\\/authorize",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tunnus"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 1
+        "cache": 0
     },
-    "cookies": 0.000061
+    "cookies": 0,
+    "types": {
+        "Script": 13
+    }
 }

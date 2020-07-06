@@ -7,33 +7,55 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000509,
-    "sites": 25,
+    "prevalence": 0.000575,
+    "sites": 42,
     "subdomains": [
-        "widget"
+        "api"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "resellerratings\\.com\\/widget\\/javascript\\/review\\/Primary_Arms\\.js",
+            "rule": "resellerratings\\.com\\/assets\\/script\\/cdfcb2459e6bd542e205a4e036f1d15df",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "widget"
+                "api"
             ],
             "apis": {
-                "Date.prototype.getTime": 2
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Event.prototype.timeStamp": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "resellerratings\\.com\\/assets\\/script\\/e85c67235d91b2e4149770909e2f61d44",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 4
+    }
 }

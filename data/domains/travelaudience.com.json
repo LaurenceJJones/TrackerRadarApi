@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000224,
-    "sites": 11,
+    "prevalence": 0.000164,
+    "sites": 12,
     "subdomains": [
         "ads"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -19,40 +20,47 @@
                 "ads"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 10
+                "Navigator.prototype.userAgent": 12
             },
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
         },
         {
             "rule": "travelaudience\\.com\\/uuid\\.ashx",
-            "cookies": 0.000203,
+            "cookies": 0.000164,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
         },
         {
             "rule": "travelaudience\\.com\\/trg\\.gif",
-            "cookies": 0.000163,
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000224
+    "cookies": 0.000164,
+    "types": {
+        "Script": 24,
+        "Image": 6
+    }
 }

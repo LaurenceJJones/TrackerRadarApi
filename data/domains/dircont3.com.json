@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000142,
-    "sites": 7,
+    "prevalence": 0.000109,
+    "sites": 8,
     "subdomains": [
         "p1"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -19,14 +20,23 @@
                 "p1"
             ],
             "apis": {
-                "Date.prototype.getTime": 6,
-                "Navigator.prototype.userAgent": 6
+                "Date.prototype.getTime": 8,
+                "Navigator.prototype.userAgent": 7
             },
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {},
-    "cookies": 0
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 8
+    }
 }

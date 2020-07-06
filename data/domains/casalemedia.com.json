@@ -9,8 +9,8 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.211,
-    "sites": 10363,
+    "prevalence": 0.197,
+    "sites": 14366,
     "subdomains": [
         "dsum-sec",
         "dsum",
@@ -18,33 +18,56 @@
         "ssum-sec",
         "ssum",
         "as-sec",
+        "htlb",
         "as",
-        "a2970",
-        "a1580",
-        "a1467",
-        "a2995",
+        "a2919",
+        "a3448",
+        "a3498",
+        "a2753",
+        "a3445",
+        "a089",
+        "a3033",
+        "a3507",
         "a2684",
-        "a1695",
-        "a3105",
-        "a3034",
-        "a1640",
-        "a1629",
-        "a1548",
-        "a1470",
-        "a2767",
-        "a1472",
-        "a1538",
-        "a3029",
-        "a2683",
-        "a1660",
-        "a3594",
-        "a3086"
+        "a3077",
+        "a2932",
+        "a3806",
+        "a2848",
+        "a1653",
+        "a3798",
+        "a3492",
+        "a1577",
+        "a1576",
+        "a2698",
+        "a3041",
+        "a3824",
+        "a3474",
+        "a3104",
+        "a3848",
+        "a2697",
+        "a3515",
+        "a1504",
+        "a2917",
+        "amp"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
+            "rule": "casalemedia\\.com\\/rrum",
+            "cookies": 0.123,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dsum-sec"
+            ],
+            "apis": {},
+            "sites": 8986,
+            "prevalence": 0.123,
+            "cnames": []
+        },
+        {
             "rule": "casalemedia\\.com\\/rum",
-            "cookies": 0.135,
+            "cookies": 0.145,
             "fingerprinting": 0,
             "subdomains": [
                 "dsum-sec",
@@ -52,221 +75,237 @@
                 "r"
             ],
             "apis": {},
-            "sites": 6661,
-            "prevalence": 0.135
+            "sites": 10658,
+            "prevalence": 0.146,
+            "cnames": []
         },
         {
             "rule": "casalemedia\\.com\\/usermatchredir",
-            "cookies": 0.0894,
+            "cookies": 0.0917,
             "fingerprinting": 0,
             "subdomains": [
                 "ssum-sec",
                 "ssum"
             ],
             "apis": {},
-            "sites": 4464,
-            "prevalence": 0.0908
+            "sites": 7430,
+            "prevalence": 0.102,
+            "cnames": []
         },
         {
             "rule": "casalemedia\\.com\\/cygnus",
-            "cookies": 0.0884,
+            "cookies": 0.081,
             "fingerprinting": 0,
             "subdomains": [
                 "as-sec",
+                "htlb",
                 "as"
             ],
             "apis": {},
-            "sites": 4475,
-            "prevalence": 0.091
-        },
-        {
-            "rule": "casalemedia\\.com\\/cygnus",
-            "cookies": 0.00175,
-            "fingerprinting": 0,
-            "subdomains": [
-                "as-sec",
-                "as"
-            ],
-            "apis": {},
-            "sites": 94,
-            "prevalence": 0.00191
-        },
-        {
-            "rule": "casalemedia\\.com\\/usermatchredir",
-            "cookies": 0.0166,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ssum-sec"
-            ],
-            "apis": {},
-            "sites": 825,
-            "prevalence": 0.0168
+            "sites": 6093,
+            "prevalence": 0.0834,
+            "cnames": []
         },
         {
             "rule": "casalemedia\\.com\\/usermatch",
-            "cookies": 0.00828,
+            "cookies": 0.0604,
             "fingerprinting": 0,
             "subdomains": [
-                "ssum-sec",
-                "ssum"
+                "ssum",
+                "ssum-sec"
             ],
             "apis": {},
-            "sites": 409,
-            "prevalence": 0.00832
-        },
-        {
-            "rule": "casalemedia\\.com\\/headertag",
-            "cookies": 0.00061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "as-sec",
-                "as"
-            ],
-            "apis": {},
-            "sites": 31,
-            "prevalence": 0.000631
-        },
-        {
-            "rule": "casalemedia\\.com\\/rrum",
-            "cookies": 0.00382,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dsum-sec"
-            ],
-            "apis": {},
-            "sites": 188,
-            "prevalence": 0.00382
-        },
-        {
-            "rule": "casalemedia\\.com\\/ifnotify",
-            "cookies": 0.000631,
-            "fingerprinting": 0,
-            "subdomains": [
-                "a2970",
-                "a1580",
-                "a1467",
-                "a2995",
-                "a2684",
-                "a1695",
-                "a3105",
-                "a3034",
-                "a1640",
-                "a1629",
-                "a1548",
-                "a1470"
-            ],
-            "apis": {},
-            "sites": 106,
-            "prevalence": 0.00216
+            "sites": 4419,
+            "prevalence": 0.0605,
+            "cnames": []
         },
         {
             "rule": "casalemedia\\.com\\/crum",
-            "cookies": 0.00801,
+            "cookies": 0.0534,
             "fingerprinting": 0,
             "subdomains": [
                 "dsum-sec",
                 "dsum"
             ],
             "apis": {},
-            "sites": 396,
-            "prevalence": 0.00806
+            "sites": 3907,
+            "prevalence": 0.0535,
+            "cnames": []
         },
         {
-            "rule": "casalemedia\\.com\\/usermatch",
-            "cookies": 0.00293,
+            "rule": "casalemedia\\.com\\/cygnus",
+            "cookies": 0.00137,
             "fingerprinting": 0,
             "subdomains": [
+                "as-sec",
+                "as"
+            ],
+            "apis": {},
+            "sites": 109,
+            "prevalence": 0.00149,
+            "cnames": []
+        },
+        {
+            "rule": "casalemedia\\.com\\/usermatchredir",
+            "cookies": 0.0113,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssum-sec",
                 "ssum"
             ],
             "apis": {},
-            "sites": 144,
-            "prevalence": 0.00293
+            "sites": 829,
+            "prevalence": 0.0113,
+            "cnames": []
+        },
+        {
+            "rule": "casalemedia\\.com\\/ifnotify",
+            "cookies": 0.000629,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a2919",
+                "a3448",
+                "a3498",
+                "a2753",
+                "a3445",
+                "a089",
+                "a3033",
+                "a3507",
+                "a2684",
+                "a3077",
+                "a2932",
+                "a3806",
+                "a2848",
+                "a1653",
+                "a3798",
+                "a3492",
+                "a1577",
+                "a1576",
+                "a2698",
+                "a3041",
+                "a3824",
+                "a3474",
+                "a3104",
+                "a3848",
+                "a2697",
+                "a3515",
+                "a1504"
+            ],
+            "apis": {},
+            "sites": 109,
+            "prevalence": 0.00149,
+            "cnames": []
         },
         {
             "rule": "casalemedia\\.com\\/pcreative",
-            "cookies": 0.0000814,
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [
-                "a2970",
-                "a2767",
-                "a1472",
-                "a1538"
+                "a2919",
+                "a2917"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
         },
         {
             "rule": "casalemedia\\.com\\/rum",
-            "cookies": 0.000346,
+            "cookies": 0.00026,
             "fingerprinting": 0,
             "subdomains": [
                 "dsum-sec"
             ],
             "apis": {},
-            "sites": 17,
-            "prevalence": 0.000346
+            "sites": 19,
+            "prevalence": 0.00026,
+            "cnames": []
         },
         {
-            "rule": "casalemedia\\.com\\/playlist",
-            "cookies": 0.0000814,
+            "rule": "casalemedia\\.com\\/usermatch",
+            "cookies": 0.00204,
             "fingerprinting": 0,
             "subdomains": [
-                "as-sec"
+                "ssum",
+                "ssum-sec"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "casalemedia\\.com\\/pcreative",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "a2970",
-                "a3029",
-                "a2683",
-                "a1660",
-                "a3594"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "casalemedia\\.com\\/cygnus",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "as-sec"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 149,
+            "prevalence": 0.00204,
+            "cnames": []
         },
         {
             "rule": "casalemedia\\.com\\/usermatchredir",
-            "cookies": 0.000061,
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [
                 "ssum"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "casalemedia\\.com\\/vnotify",
-            "cookies": 0.0000407,
+            "rule": "casalemedia\\.com\\/playlist",
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
-                "a1472",
-                "a3086",
-                "a1538"
+                "as-sec"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "casalemedia\\.com\\/headertag",
+            "cookies": 0.0000684,
+            "fingerprinting": 0,
+            "subdomains": [
+                "as-sec",
+                "as"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "casalemedia\\.com\\/cygnus",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "as-sec"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "casalemedia\\.com\\/pcreative",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a2919"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "casalemedia\\.com\\/amprtc",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "amp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -280,5 +319,12 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.208
+    "cookies": 0.195,
+    "types": {
+        "Image": 31130,
+        "XHR": 6109,
+        "Document": 5376,
+        "Script": 126,
+        "Fetch": 5
+    }
 }

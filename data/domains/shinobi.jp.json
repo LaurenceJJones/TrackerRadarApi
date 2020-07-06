@@ -7,41 +7,18 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000651,
-    "sites": 32,
+    "prevalence": 0.000547,
+    "sites": 40,
     "subdomains": [
-        "adm",
-        "sync",
         "asumi",
         "x9",
-        "v2st"
+        "sync",
+        "adm",
+        "omt"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
-        {
-            "rule": "shinobi\\.jp\\/sync",
-            "cookies": 0.000244,
-            "fingerprinting": 0,
-            "subdomains": [
-                "adm"
-            ],
-            "apis": {},
-            "sites": 23,
-            "prevalence": 0.000468
-        },
-        {
-            "rule": "shinobi\\.jp\\/v2\\/sync\\/control",
-            "cookies": 0.000488,
-            "fingerprinting": 1,
-            "subdomains": [
-                "sync"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 24
-            },
-            "sites": 25,
-            "prevalence": 0.000509
-        },
         {
             "rule": "shinobi\\.jp\\/fire",
             "cookies": 0,
@@ -51,46 +28,39 @@
                 "x9"
             ],
             "apis": {
-                "Date.prototype.getTime": 4,
-                "window.localStorage": 4
+                "Date.prototype.getTime": 11,
+                "window.localStorage": 11,
+                "Navigator.prototype.userAgent": 1
             },
-            "sites": 17,
-            "prevalence": 0.000346
+            "sites": 22,
+            "prevalence": 0.000301,
+            "cnames": []
         },
         {
-            "rule": "shinobi\\.jp\\/bidswitch\\/cookiesync",
-            "cookies": 0.000224,
-            "fingerprinting": 0,
-            "subdomains": [
-                "adm"
-            ],
-            "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
-        },
-        {
-            "rule": "shinobi\\.jp\\/asumi\\/arms\\/1\\.17\\.46",
-            "cookies": 0,
+            "rule": "shinobi\\.jp\\/v2\\/sync\\/control",
+            "cookies": 0.000301,
             "fingerprinting": 1,
             "subdomains": [
-                "v2st"
+                "sync"
             ],
             "apis": {
-                "Date.prototype.getTime": 2
+                "Date.prototype.getTime": 21
             },
-            "sites": 15,
-            "prevalence": 0.000305
+            "sites": 28,
+            "prevalence": 0.000383,
+            "cnames": []
         },
         {
-            "rule": "shinobi\\.jp\\/bypass\\/sync",
-            "cookies": 0.000224,
+            "rule": "shinobi\\.jp\\/v2\\/sync\\/ne",
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
-                "adm"
+                "sync"
             ],
             "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
         },
         {
             "rule": "shinobi\\.jp\\/v2\\/sync\\/multi",
@@ -100,128 +70,181 @@
                 "sync"
             ],
             "apis": {
-                "Date.prototype.getTime": 14
+                "Date.prototype.getTime": 15
             },
-            "sites": 25,
-            "prevalence": 0.000509
-        },
-        {
-            "rule": "shinobi\\.jp\\/v2\\/sync\\/ne",
-            "cookies": 0.000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync"
-            ],
-            "apis": {},
-            "sites": 19,
-            "prevalence": 0.000386
+            "sites": 27,
+            "prevalence": 0.000369,
+            "cnames": []
         },
         {
             "rule": "shinobi\\.jp\\/v2\\/sync\\/multi\\/1001",
-            "cookies": 0.000285,
+            "cookies": 0.000205,
             "fingerprinting": 0,
             "subdomains": [
                 "sync"
             ],
             "apis": {},
-            "sites": 25,
-            "prevalence": 0.000509
+            "sites": 27,
+            "prevalence": 0.000369,
+            "cnames": []
         },
         {
             "rule": "shinobi\\.jp\\/v2\\/sync\\/multi\\/1762",
-            "cookies": 0.000285,
+            "cookies": 0.000205,
             "fingerprinting": 0,
             "subdomains": [
                 "sync"
             ],
             "apis": {},
-            "sites": 25,
-            "prevalence": 0.000509
+            "sites": 27,
+            "prevalence": 0.000369,
+            "cnames": []
         },
         {
             "rule": "shinobi\\.jp\\/v2\\/sync\\/multi\\/2736",
-            "cookies": 0.0000814,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sync"
             ],
             "apis": {},
-            "sites": 25,
-            "prevalence": 0.000509
-        },
-        {
-            "rule": "shinobi\\.jp\\/sync",
-            "cookies": 0.000305,
-            "fingerprinting": 0,
-            "subdomains": [
-                "asumi"
-            ],
-            "apis": {},
-            "sites": 15,
-            "prevalence": 0.000305
+            "sites": 27,
+            "prevalence": 0.000369,
+            "cnames": []
         },
         {
             "rule": "shinobi\\.jp\\/chikayo\\/cookiesync",
-            "cookies": 0.000509,
+            "cookies": 0.000369,
             "fingerprinting": 0,
             "subdomains": [
                 "adm"
             ],
             "apis": {},
-            "sites": 25,
-            "prevalence": 0.000509
+            "sites": 27,
+            "prevalence": 0.000369,
+            "cnames": []
         },
         {
-            "rule": "shinobi\\.jp\\/f",
-            "cookies": 0.000061,
+            "rule": "shinobi\\.jp\\/v2\\/sync\\/ne",
+            "cookies": 0.0000958,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "shinobi\\.jp\\/sync",
+            "cookies": 0.0000958,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adm"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00026,
+            "cnames": []
+        },
+        {
+            "rule": "shinobi\\.jp\\/bidswitch\\/cookiesync",
+            "cookies": 0.000192,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adm"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
+        },
+        {
+            "rule": "shinobi\\.jp\\/bypass\\/sync",
+            "cookies": 0.000192,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adm"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
+        },
+        {
+            "rule": "shinobi\\.jp\\/tsumugi",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "omt"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "shinobi\\.jp\\/t",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "adm"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "shinobi\\.jp\\/t",
-            "cookies": 0.0000407,
+            "rule": "shinobi\\.jp\\/freakout\\/cookiesync",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adm"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "shinobi\\.jp\\/s\\/004d54cbe4de02fe33a3168e4aa72310",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "adm"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "shinobi\\.jp\\/freakout\\/cookiesync",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
+            "rule": "shinobi\\.jp\\/js-util\\/v2\\/bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
             "subdomains": [
-                "adm"
+                "x9"
             ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "shinobi\\.jp\\/v2\\/sync\\/ne",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 2,
+        "time": 1,
         "size": 1,
-        "cpu": 0,
-        "cache": 1
+        "cpu": 1,
+        "cache": 3
     },
-    "cookies": 0.000631
+    "cookies": 0.000506,
+    "types": {
+        "Script": 120,
+        "Image": 147
+    }
 }

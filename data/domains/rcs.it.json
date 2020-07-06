@@ -7,23 +7,34 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000925,
-    "sites": 4,
+    "prevalence": 0.0000713,
+    "sites": 5,
     "subdomains": [
         "revi"
     ],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "rcs\\.it\\/lg\\.php",
-            "cookies": 0.0000462,
+            "rule": "rcs\\.it\\/api\\/zones",
+            "cookies": 0.0000285,
             "fingerprinting": 0,
             "subdomains": [
                 "revi"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000462
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "rcs\\.it\\/lg\\.php",
+            "cookies": 0.0000285,
+            "fingerprinting": 0,
+            "subdomains": [
+                "revi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000285
         }
     ],
     "categories": [],
@@ -33,5 +44,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0000231
+    "cookies": 0.0000143,
+    "types": {
+        "Fetch": 2,
+        "Image": 2
+    }
 }

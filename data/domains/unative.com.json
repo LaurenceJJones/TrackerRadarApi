@@ -4,28 +4,14 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
+    "prevalence": 0.0000274,
     "sites": 2,
     "subdomains": [
         "sdk"
     ],
+    "cnames": [],
     "fingerprinting": 3,
     "resources": [
-        {
-            "rule": "unative\\.com\\/UNativeSDK\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "sdk"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 2,
-                "Navigator.prototype.appVersion": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
         {
             "rule": "unative\\.com\\/UNativePageSDKES6\\.js",
             "cookies": 0,
@@ -40,10 +26,12 @@
                 "window.sessionStorage": 2,
                 "window.indexedDB": 2,
                 "Navigator.prototype.permissions": 2,
+                "Notification.permission": 2,
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -53,5 +41,8 @@
         "cpu": 0,
         "cache": 0
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 2
+    }
 }

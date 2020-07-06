@@ -4,50 +4,52 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000061,
-    "sites": 3,
+    "prevalence": 0.0000547,
+    "sites": 4,
     "subdomains": [
         "tag",
-        "t",
         "c"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "jabmo\\.app\\/tag",
-            "cookies": 0.000061,
+            "cookies": 0.0000547,
             "fingerprinting": 1,
             "subdomains": [
-                "tag",
-                "t"
+                "tag"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3
+                "Navigator.prototype.userAgent": 4
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "jabmo\\.app\\/com\\.snowplowanalytics\\.snowplow\\/tp2",
-            "cookies": 0.000061,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "c"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "jabmo\\.app\\/adjabmo",
-            "cookies": 0.000061,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "tag"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -55,7 +57,12 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000061
+    "cookies": 0.0000547,
+    "types": {
+        "Script": 4,
+        "XHR": 4,
+        "Image": 4
+    }
 }

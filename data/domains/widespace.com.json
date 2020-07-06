@@ -7,43 +7,45 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000264,
-    "sites": 13,
+    "prevalence": 0.0000958,
+    "sites": 7,
     "subdomains": [
-        "sync",
-        "engine"
+        "engine",
+        "sync"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "widespace\\.com\\/map\\/ext\\/api\\/trackingcallback\\/v1",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
             "rule": "widespace\\.com\\/map\\/engine\\/dynadreq",
-            "cookies": 0.000102,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "engine"
             ],
             "apis": {},
             "sites": 5,
-            "prevalence": 0.000102
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "widespace\\.com\\/map\\/ext\\/api\\/trackingcallback\\/v1",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 1,
-        "size": 1,
-        "cpu": 0,
-        "cache": 3
-    },
-    "cookies": 0.000142
+    "performance": {},
+    "cookies": 0.0000684,
+    "types": {
+        "XHR": 5,
+        "Image": 3
+    }
 }

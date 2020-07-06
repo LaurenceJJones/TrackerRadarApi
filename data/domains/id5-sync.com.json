@@ -9,1729 +9,1904 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0215,
-    "sites": 1055,
-    "subdomains": [],
-    "fingerprinting": 0,
+    "prevalence": 0.0246,
+    "sites": 1796,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "id5-sync\\.com\\/s\\/19\\/9\\.gif",
-            "cookies": 0.00543,
+            "cookies": 0.00408,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 268,
-            "prevalence": 0.00545
+            "sites": 358,
+            "prevalence": 0.0049,
+            "cnames": []
         },
         {
             "rule": "id5-sync\\.com\\/c\\/19\\/19\\/9\\/1\\.gif",
-            "cookies": 0.00539,
+            "cookies": 0.004,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 265,
-            "prevalence": 0.00539
+            "sites": 292,
+            "prevalence": 0.004,
+            "cnames": []
         },
         {
             "rule": "id5-sync\\.com\\/c\\/19\\/2\\/8\\/2\\.gif",
-            "cookies": 0.00539,
+            "cookies": 0.00402,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 265,
-            "prevalence": 0.00539
+            "sites": 295,
+            "prevalence": 0.00404,
+            "cnames": []
         },
         {
             "rule": "id5-sync\\.com\\/c\\/19\\/3\\/7\\/3\\.gif",
-            "cookies": 0.00537,
+            "cookies": 0.004,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 292,
+            "prevalence": 0.004,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/k\\/264\\.gif",
+            "cookies": 0.00727,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 539,
+            "prevalence": 0.00738,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/19\\/136\\/5\\/5\\.gif",
+            "cookies": 0.00395,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 289,
+            "prevalence": 0.00395,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/19\\/132\\/3\\/7\\.gif",
+            "cookies": 0.00391,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 286,
+            "prevalence": 0.00391,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/19\\/224\\/2\\/8\\.gif",
+            "cookies": 0.00389,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 285,
+            "prevalence": 0.0039,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/19\\/321\\/1\\/9\\.gif",
+            "cookies": 0.00361,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 264,
-            "prevalence": 0.00537
+            "prevalence": 0.00361,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/k\\/264\\.gif",
-            "cookies": 0.00903,
+            "rule": "id5-sync\\.com\\/s\\/359\\/9\\.gif",
+            "cookies": 0.00112,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 453,
-            "prevalence": 0.00921
+            "sites": 96,
+            "prevalence": 0.00131,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/19\\/136\\/5\\/5\\.gif",
-            "cookies": 0.00533,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 263,
-            "prevalence": 0.00535
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/19\\/132\\/3\\/7\\.gif",
-            "cookies": 0.00531,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 261,
-            "prevalence": 0.00531
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/19\\/224\\/2\\/8\\.gif",
-            "cookies": 0.00529,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 260,
-            "prevalence": 0.00529
-        },
-        {
-            "rule": "id5-sync\\.com\\/s\\/286\\/9\\.gif",
-            "cookies": 0.00238,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 119,
-            "prevalence": 0.00242
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/286\\/286\\/9\\/1\\.gif",
-            "cookies": 0.00155,
+            "rule": "id5-sync\\.com\\/c\\/359\\/359\\/9\\/1\\.gif",
+            "cookies": 0.00104,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 76,
-            "prevalence": 0.00155
+            "prevalence": 0.00104,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/286\\/2\\/8\\/2\\.gif",
-            "cookies": 0.00191,
+            "rule": "id5-sync\\.com\\/c\\/359\\/2\\/8\\/2\\.gif",
+            "cookies": 0.00111,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 95,
-            "prevalence": 0.00193
+            "sites": 81,
+            "prevalence": 0.00111,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/286\\/3\\/7\\/3\\.gif",
-            "cookies": 0.00183,
+            "rule": "id5-sync\\.com\\/c\\/359\\/3\\/7\\/3\\.gif",
+            "cookies": 0.00108,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 90,
-            "prevalence": 0.00183
+            "sites": 80,
+            "prevalence": 0.00109,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/286\\/19\\/6\\/4\\.gif",
-            "cookies": 0.00167,
+            "rule": "id5-sync\\.com\\/c\\/359\\/19\\/5\\/5\\.gif",
+            "cookies": 0.000958,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 82,
-            "prevalence": 0.00167
+            "sites": 70,
+            "prevalence": 0.000958,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/286\\/101\\/5\\/5\\.gif",
-            "cookies": 0.00132,
+            "rule": "id5-sync\\.com\\/g\\/v1\\/359\\.json",
+            "cookies": 0.00101,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 66,
-            "prevalence": 0.00134
+            "sites": 89,
+            "prevalence": 0.00122,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/359\\/101\\/4\\/6\\.gif",
+            "cookies": 0.000739,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 58,
+            "prevalence": 0.000794,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/359\\/104\\/3\\/7\\.gif",
+            "cookies": 0.00067,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 51,
+            "prevalence": 0.000698,
+            "cnames": []
         },
         {
             "rule": "id5-sync\\.com\\/g\\/v1\\/345\\.json",
-            "cookies": 0.000122,
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 6,
-            "prevalence": 0.000122
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/g\\/v1\\/367\\.json",
+            "cookies": 0.00493,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 424,
+            "prevalence": 0.0058,
+            "cnames": []
         },
         {
             "rule": "id5-sync\\.com\\/g\\/v1\\/212\\.json",
-            "cookies": 0.00256,
+            "cookies": 0.00144,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 128,
-            "prevalence": 0.0026
+            "sites": 129,
+            "prevalence": 0.00177,
+            "cnames": []
         },
         {
             "rule": "id5-sync\\.com\\/g\\/v1\\/364\\.json",
-            "cookies": 0.00112,
+            "cookies": 0.000575,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 55,
-            "prevalence": 0.00112
+            "sites": 48,
+            "prevalence": 0.000657,
+            "cnames": []
         },
         {
             "rule": "id5-sync\\.com\\/g\\/v1\\/301\\.json",
-            "cookies": 0.000325,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 16,
-            "prevalence": 0.000325
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/286\\/104\\/4\\/6\\.gif",
-            "cookies": 0.000203,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/286\\/123\\/3\\/7\\.gif",
-            "cookies": 0.000325,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 16,
-            "prevalence": 0.000325
-        },
-        {
-            "rule": "id5-sync\\.com\\/cq\\/286\\/124\\/2\\/8\\.gif",
-            "cookies": 0.000305,
+            "cookies": 0.000192,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 15,
-            "prevalence": 0.000305
+            "prevalence": 0.000205,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/s\\/359\\/9\\.gif",
-            "cookies": 0.00136,
+            "rule": "id5-sync\\.com\\/s\\/286\\/9\\.gif",
+            "cookies": 0.00125,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 104,
+            "prevalence": 0.00142,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/286\\/286\\/9\\/1\\.gif",
+            "cookies": 0.000917,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 68,
-            "prevalence": 0.00138
+            "prevalence": 0.00093,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/359\\/359\\/9\\/1\\.gif",
-            "cookies": 0.00132,
+            "rule": "id5-sync\\.com\\/c\\/286\\/2\\/8\\/2\\.gif",
+            "cookies": 0.00103,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 65,
-            "prevalence": 0.00132
+            "sites": 75,
+            "prevalence": 0.00103,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/359\\/2\\/8\\/2\\.gif",
-            "cookies": 0.00132,
+            "rule": "id5-sync\\.com\\/c\\/286\\/3\\/7\\/3\\.gif",
+            "cookies": 0.000903,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 65,
-            "prevalence": 0.00132
+            "sites": 67,
+            "prevalence": 0.000917,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/359\\/3\\/7\\/3\\.gif",
-            "cookies": 0.0013,
+            "rule": "id5-sync\\.com\\/c\\/286\\/19\\/6\\/4\\.gif",
+            "cookies": 0.00078,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 64,
-            "prevalence": 0.0013
+            "sites": 58,
+            "prevalence": 0.000794,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/125\\/125\\/9\\/1\\.gif",
-            "cookies": 0.0025,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 125,
-            "prevalence": 0.00254
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/125\\/2\\/8\\/2\\.gif",
-            "cookies": 0.00256,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 127,
-            "prevalence": 0.00258
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/125\\/3\\/7\\/3\\.gif",
-            "cookies": 0.00234,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 117,
-            "prevalence": 0.00238
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/125\\/19\\/5\\/5\\.gif",
-            "cookies": 0.00197,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 97,
-            "prevalence": 0.00197
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/125\\/101\\/4\\/6\\.gif",
-            "cookies": 0.00169,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 84,
-            "prevalence": 0.00171
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/125\\/104\\/3\\/7\\.gif",
-            "cookies": 0.00159,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 79,
-            "prevalence": 0.00161
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/125\\/123\\/2\\/8\\.gif",
-            "cookies": 0.00114,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 56,
-            "prevalence": 0.00114
-        },
-        {
-            "rule": "id5-sync\\.com\\/cq\\/125\\/124\\/1\\/9\\.gif",
-            "cookies": 0.00059,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 29,
-            "prevalence": 0.00059
-        },
-        {
-            "rule": "id5-sync\\.com\\/s\\/10\\/0\\.gif",
-            "cookies": 0.000834,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 41,
-            "prevalence": 0.000834
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/10\\/10\\/0\\/1\\.gif",
-            "cookies": 0.000834,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 41,
-            "prevalence": 0.000834
-        },
-        {
-            "rule": "id5-sync\\.com\\/i\\/12\\/9\\.gif",
-            "cookies": 0.000976,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 49,
-            "prevalence": 0.000997
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/12\\/0\\/9\\/1\\.gif",
-            "cookies": 0.000936,
+            "rule": "id5-sync\\.com\\/c\\/286\\/101\\/5\\/5\\.gif",
+            "cookies": 0.000629,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 46,
-            "prevalence": 0.000936
+            "prevalence": 0.000629,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/12\\/2\\/8\\/2\\.gif",
-            "cookies": 0.000854,
+            "rule": "id5-sync\\.com\\/i\\/12\\/9\\.gif",
+            "cookies": 0.000561,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 42,
-            "prevalence": 0.000854
+            "sites": 48,
+            "prevalence": 0.000657,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/12\\/19\\/7\\/3\\.gif",
-            "cookies": 0.000753,
+            "rule": "id5-sync\\.com\\/c\\/12\\/0\\/9\\/1\\.gif",
+            "cookies": 0.000506,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 37,
-            "prevalence": 0.000753
+            "prevalence": 0.000506,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/12\\/101\\/6\\/4\\.gif",
-            "cookies": 0.00057,
+            "rule": "id5-sync\\.com\\/c\\/12\\/2\\/8\\/2\\.gif",
+            "cookies": 0.000534,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 39,
+            "prevalence": 0.000534,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/12\\/3\\/7\\/3\\.gif",
+            "cookies": 0.000493,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 37,
+            "prevalence": 0.000506,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/12\\/19\\/5\\/5\\.gif",
+            "cookies": 0.000452,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 33,
+            "prevalence": 0.000452,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/12\\/101\\/4\\/6\\.gif",
+            "cookies": 0.000383,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 28,
-            "prevalence": 0.00057
+            "prevalence": 0.000383,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/12\\/104\\/5\\/5\\.gif",
-            "cookies": 0.000549,
+            "rule": "id5-sync\\.com\\/c\\/12\\/104\\/3\\/7\\.gif",
+            "cookies": 0.000383,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 28,
-            "prevalence": 0.00057
+            "prevalence": 0.000383,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/12\\/10\\/4\\/6\\.gif",
-            "cookies": 0.000488,
+            "rule": "id5-sync\\.com\\/c\\/12\\/123\\/2\\/8\\.gif",
+            "cookies": 0.000356,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 24,
-            "prevalence": 0.000488
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/12\\/112\\/3\\/7\\.gif",
-            "cookies": 0.000488,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 24,
-            "prevalence": 0.000488
+            "sites": 26,
+            "prevalence": 0.000356,
+            "cnames": []
         },
         {
             "rule": "id5-sync\\.com\\/g\\/v1\\/12\\.json",
-            "cookies": 0.000814,
+            "cookies": 0.00052,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 40,
-            "prevalence": 0.000814
+            "sites": 45,
+            "prevalence": 0.000616,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/g\\/v1\\/258\\.json",
-            "cookies": 0.000936,
+            "rule": "id5-sync\\.com\\/g\\/v1\\/386\\.json",
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 46,
-            "prevalence": 0.000936
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/286\\/125\\/1\\/9\\.gif",
-            "cookies": 0.000203,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/359\\/19\\/5\\/5\\.gif",
-            "cookies": 0.00106,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 53,
-            "prevalence": 0.00108
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/359\\/101\\/4\\/6\\.gif",
-            "cookies": 0.000895,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 44,
-            "prevalence": 0.000895
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/359\\/104\\/3\\/7\\.gif",
-            "cookies": 0.000753,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 38,
-            "prevalence": 0.000773
-        },
-        {
-            "rule": "id5-sync\\.com\\/g\\/v1\\/262\\.json",
-            "cookies": 0.000142,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "id5-sync\\.com\\/i\\/102\\/9\\.gif",
-            "cookies": 0.00112,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 55,
-            "prevalence": 0.00112
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/102\\/102\\/8\\/2\\.gif",
-            "cookies": 0.00106,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 54,
-            "prevalence": 0.0011
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/102\\/104\\/7\\/3\\.gif",
-            "cookies": 0.000224,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/102\\/10\\/6\\/4\\.gif",
-            "cookies": 0.000183,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
-        },
-        {
-            "rule": "id5-sync\\.com\\/k\\/155\\.gif",
-            "cookies": 0.000529,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 35,
-            "prevalence": 0.000712
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/286\\/19\\/4\\/6\\.gif",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/102\\/0\\/9\\/1\\.gif",
-            "cookies": 0.000732,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 36,
-            "prevalence": 0.000732
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/102\\/2\\/7\\/3\\.gif",
-            "cookies": 0.000773,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 38,
-            "prevalence": 0.000773
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/102\\/104\\/6\\/4\\.gif",
+            "rule": "id5-sync\\.com\\/s\\/10\\/0\\.gif",
             "cookies": 0.000712,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 36,
-            "prevalence": 0.000732
+            "sites": 67,
+            "prevalence": 0.000917,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/286\\/123\\/4\\/6\\.gif",
-            "cookies": 0.000142,
+            "rule": "id5-sync\\.com\\/g\\/v1\\/369\\.json",
+            "cookies": 0.00078,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "id5-sync\\.com\\/cq\\/286\\/124\\/3\\/7\\.gif",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/286\\/125\\/2\\/8\\.gif",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/286\\/136\\/1\\/9\\.gif",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/102\\/10\\/5\\/5\\.gif",
-            "cookies": 0.000549,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 27,
-            "prevalence": 0.000549
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/286\\/3\\/5\\/5\\.gif",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 68,
+            "prevalence": 0.00093,
+            "cnames": []
         },
         {
             "rule": "id5-sync\\.com\\/s\\/121\\/2\\.gif",
-            "cookies": 0.000224,
+            "cookies": 0.000287,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 14,
-            "prevalence": 0.000285
+            "sites": 28,
+            "prevalence": 0.000383,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/121\\/121\\/2\\/1\\.gif",
-            "cookies": 0.000203,
+            "rule": "id5-sync\\.com\\/g\\/v1\\/258\\.json",
+            "cookies": 0.000753,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
+            "sites": 69,
+            "prevalence": 0.000944,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/121\\/2\\/1\\/2\\.gif",
-            "cookies": 0.000183,
+            "rule": "id5-sync\\.com\\/g\\/v1\\/1\\.json",
+            "cookies": 0.000233,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 9,
-            "prevalence": 0.000183
+            "sites": 21,
+            "prevalence": 0.000287,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/121\\/3\\/0\\/3\\.gif",
-            "cookies": 0.000183,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 9,
-            "prevalence": 0.000183
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/286\\/3\\/8\\/2\\.gif",
-            "cookies": 0.000366,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 18,
-            "prevalence": 0.000366
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/286\\/101\\/7\\/3\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/286\\/123\\/8\\/2\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/cq\\/286\\/124\\/7\\/3\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/g\\/v1\\/304\\.json",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "id5-sync\\.com\\/g\\/v1\\/251\\.json",
-            "cookies": 0.000305,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 15,
-            "prevalence": 0.000305
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/102\\/104\\/4\\/6\\.gif",
-            "cookies": 0.000061,
+            "rule": "id5-sync\\.com\\/c\\/18\\/18\\/3\\/1\\.gif",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/18\\/2\\/2\\/2\\.gif",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/18\\/3\\/1\\/3\\.gif",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/18\\/123\\/0\\/4\\.gif",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/g\\/v1\\/255\\.json",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/g\\/v1\\/262\\.json",
+            "cookies": 0.000109,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/i\\/102\\/9\\.gif",
+            "cookies": 0.000766,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 72,
+            "prevalence": 0.000985,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/125\\/125\\/9\\/1\\.gif",
+            "cookies": 0.0016,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 118,
+            "prevalence": 0.00161,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/125\\/2\\/8\\/2\\.gif",
+            "cookies": 0.00151,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 112,
+            "prevalence": 0.00153,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/125\\/3\\/7\\/3\\.gif",
+            "cookies": 0.00145,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 107,
+            "prevalence": 0.00146,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/125\\/19\\/5\\/5\\.gif",
+            "cookies": 0.00133,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 97,
+            "prevalence": 0.00133,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/g\\/v1\\/392\\.json",
+            "cookies": 0.000246,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.000315,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/g\\/v1\\/313\\.json",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/102\\/102\\/8\\/2\\.gif",
+            "cookies": 0.000712,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 53,
+            "prevalence": 0.000725,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/102\\/3\\/7\\/3\\.gif",
+            "cookies": 0.000109,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/102\\/123\\/3\\/7\\.gif",
+            "cookies": 0.000123,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/102\\/10\\/2\\/8\\.gif",
+            "cookies": 0.000109,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/k\\/155\\.gif",
+            "cookies": 0.000164,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/102\\/163\\/0\\/10\\.gif",
+            "cookies": 0.0000684,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "id5-sync\\.com\\/g\\/v1\\/206\\.json",
-            "cookies": 0.000102,
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/g\\/v1\\/347\\.json",
-            "cookies": 0.000305,
+            "rule": "id5-sync\\.com\\/c\\/359\\/123\\/2\\/8\\.gif",
+            "cookies": 0.000233,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 15,
-            "prevalence": 0.000305
+            "sites": 17,
+            "prevalence": 0.000233,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/g\\/v1\\/292\\.json",
-            "cookies": 0.0000814,
+            "rule": "id5-sync\\.com\\/cq\\/359\\/124\\/1\\/9\\.gif",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/286\\/101\\/4\\/6\\.gif",
-            "cookies": 0.0000814,
+            "rule": "id5-sync\\.com\\/c\\/121\\/121\\/2\\/1\\.gif",
+            "cookies": 0.000178,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/125\\/136\\/0\\/10\\.gif",
-            "cookies": 0.000102,
+            "rule": "id5-sync\\.com\\/c\\/121\\/2\\/1\\/2\\.gif",
+            "cookies": 0.000178,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/s\\/123\\/9\\.gif",
-            "cookies": 0.000468,
+            "rule": "id5-sync\\.com\\/c\\/121\\/3\\/0\\/3\\.gif",
+            "cookies": 0.000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/102\\/0\\/9\\/1\\.gif",
+            "cookies": 0.000342,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 25,
-            "prevalence": 0.000509
+            "prevalence": 0.000342,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/123\\/123\\/9\\/1\\.gif",
-            "cookies": 0.000346,
+            "rule": "id5-sync\\.com\\/c\\/125\\/101\\/4\\/6\\.gif",
+            "cookies": 0.00115,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 19,
-            "prevalence": 0.000386
+            "sites": 84,
+            "prevalence": 0.00115,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/g\\/v1\\/1\\.json",
-            "cookies": 0.000285,
+            "rule": "id5-sync\\.com\\/c\\/125\\/104\\/3\\/7\\.gif",
+            "cookies": 0.00112,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 14,
-            "prevalence": 0.000285
+            "sites": 82,
+            "prevalence": 0.00112,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/g\\/v1\\/208\\.json",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/c\\/125\\/123\\/2\\/8\\.gif",
+            "cookies": 0.00109,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 80,
+            "prevalence": 0.00109,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/123\\/2\\/8\\/2\\.gif",
-            "cookies": 0.000305,
+            "rule": "id5-sync\\.com\\/cq\\/125\\/124\\/1\\/9\\.gif",
+            "cookies": 0.000452,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 15,
-            "prevalence": 0.000305
+            "sites": 34,
+            "prevalence": 0.000465,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/123\\/3\\/7\\/3\\.gif",
-            "cookies": 0.000224,
+            "rule": "id5-sync\\.com\\/c\\/102\\/2\\/7\\/3\\.gif",
+            "cookies": 0.000301,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/123\\/101\\/5\\/5\\.gif",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/123\\/104\\/4\\/6\\.gif",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "id5-sync\\.com\\/cq\\/123\\/124\\/3\\/7\\.gif",
-            "cookies": 0.000142,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/123\\/125\\/2\\/8\\.gif",
-            "cookies": 0.000142,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/123\\/136\\/1\\/9\\.gif",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "id5-sync\\.com\\/g\\/v1\\/255\\.json",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/359\\/123\\/2\\/8\\.gif",
-            "cookies": 0.000325,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 16,
-            "prevalence": 0.000325
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/12\\/102\\/1\\/9\\.gif",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/12\\/19\\/8\\/2\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/12\\/101\\/8\\/2\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/12\\/104\\/7\\/3\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/12\\/10\\/6\\/4\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/12\\/112\\/5\\/5\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/12\\/102\\/3\\/7\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/match",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/102\\/102\\/6\\/4\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/102\\/104\\/5\\/5\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/102\\/102\\/4\\/6\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/102\\/10\\/3\\/7\\.gif",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/101\\/101\\/1\\/1\\.gif",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/101\\/2\\/0\\/2\\.gif",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "id5-sync\\.com\\/s\\/160\\/9\\.gif",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/160\\/160\\/3\\/1\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/160\\/2\\/2\\/2\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/160\\/3\\/1\\/3\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 23,
+            "prevalence": 0.000315,
+            "cnames": []
         },
         {
             "rule": "id5-sync\\.com\\/g\\/v1\\/211\\.json",
-            "cookies": 0.000142,
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/g\\/v1\\/249\\.json",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/125\\/104\\/4\\/6\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/c\\/102\\/10\\/7\\/3\\.gif",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/125\\/123\\/3\\/7\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/c\\/102\\/3\\/6\\/4\\.gif",
+            "cookies": 0.000164,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/cq\\/125\\/124\\/2\\/8\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/g\\/v1\\/347\\.json",
+            "cookies": 0.000205,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 20,
+            "prevalence": 0.000274,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/125\\/136\\/1\\/9\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/c\\/10\\/10\\/0\\/1\\.gif",
+            "cookies": 0.000712,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 52,
+            "prevalence": 0.000712,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/s\\/125\\/m-d947e3f8-be3d-4c48-9ea9-97204a21ed8d-44302-954819787\\/9\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/cq\\/125\\/124\\/8\\/2\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/125\\/136\\/7\\/3\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/125\\/3\\/8\\/2\\.gif",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "id5-sync\\.com\\/s\\/18\\/vec%3A8427000452\\/3\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/18\\/18\\/3\\/1\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/18\\/2\\/2\\/2\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/18\\/104\\/1\\/3\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/18\\/10\\/0\\/4\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/286\\/123\\/7\\/3\\.gif",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "id5-sync\\.com\\/cq\\/286\\/124\\/6\\/4\\.gif",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/286\\/125\\/5\\/5\\.gif",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/286\\/136\\/4\\/6\\.gif",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "id5-sync\\.com\\/k\\/285\\.gif",
-            "cookies": 0.000224,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/286\\/359\\/2\\/8\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/s\\/125\\/m-28136986-d6d1-43e0-8b6a-5e1e54e30b2e-26601-924698704\\/9\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/125\\/101\\/8\\/2\\.gif",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/125\\/104\\/7\\/3\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/286\\/19\\/7\\/3\\.gif",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/286\\/101\\/6\\/4\\.gif",
-            "cookies": 0.000102,
+            "rule": "id5-sync\\.com\\/i\\/167\\/9\\.gif",
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 5,
-            "prevalence": 0.000102
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/21\\/21\\/1\\/1\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/c\\/167\\/0\\/9\\/1\\.gif",
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/21\\/2\\/0\\/2\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/c\\/167\\/2\\/8\\/2\\.gif",
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/124\\/124\\/1\\/1\\.gif",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/124\\/101\\/0\\/2\\.gif",
-            "cookies": 0.0000814,
+            "rule": "id5-sync\\.com\\/c\\/167\\/19\\/6\\/4\\.gif",
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.0000814
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/g\\/v1\\/164\\.json",
-            "cookies": 0.000183,
+            "rule": "id5-sync\\.com\\/g\\/v1\\/251\\.json",
+            "cookies": 0.0000958,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/102\\/104\\/4\\/6\\.gif",
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 9,
-            "prevalence": 0.000183
+            "prevalence": 0.000123,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/i\\/164\\/9\\.gif",
-            "cookies": 0.000142,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/164\\/2\\/8\\/2\\.gif",
-            "cookies": 0.000142,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/164\\/3\\/7\\/3\\.gif",
-            "cookies": 0.000142,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/164\\/0\\/9\\/1\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/cq\\/359\\/124\\/1\\/9\\.gif",
-            "cookies": 0.000061,
+            "rule": "id5-sync\\.com\\/c\\/286\\/19\\/4\\/6\\.gif",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/i\\/167\\/9\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/c\\/286\\/123\\/3\\/7\\.gif",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/g\\/v1\\/167\\.json",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/cq\\/286\\/124\\/2\\/8\\.gif",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/167\\/0\\/9\\/1\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/c\\/286\\/125\\/1\\/9\\.gif",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/167\\/2\\/8\\/2\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/g\\/v1\\/371\\.json",
+            "cookies": 0.000205,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 19,
+            "prevalence": 0.00026,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/167\\/19\\/6\\/4\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/167\\/101\\/5\\/5\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/167\\/104\\/4\\/6\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/g\\/v1\\/306\\.json",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "id5-sync\\.com\\/s\\/163\\/1\\.gif",
-            "cookies": 0.000102,
+            "rule": "id5-sync\\.com\\/g\\/v1\\/381\\.json",
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 5,
-            "prevalence": 0.000102
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/163\\/163\\/0\\/1\\.gif",
-            "cookies": 0.000102,
+            "rule": "id5-sync\\.com\\/g\\/v1\\/208\\.json",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/i\\/208\\/9\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/208\\/0\\/9\\/1\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/208\\/2\\/8\\/2\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/208\\/3\\/7\\/3\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/12\\/10\\/1\\/9\\.gif",
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 5,
-            "prevalence": 0.000102
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/s\\/125\\/m-04ddf869-bd80-47af-9b81-f576523581d7-44142-830446293\\/9\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/c\\/286\\/2\\/6\\/4\\.gif",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/125\\/123\\/6\\/4\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "rule": "id5-sync\\.com\\/api\\/0\\.8\\/id5-api\\.js",
+            "cookies": 0.000041,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/cq\\/125\\/124\\/5\\/5\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/125\\/136\\/4\\/6\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/i\\/169\\/9\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/169\\/0\\/9\\/1\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/169\\/2\\/8\\/2\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/169\\/3\\/7\\/3\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/169\\/19\\/5\\/5\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/169\\/101\\/4\\/6\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/169\\/104\\/3\\/7\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/169\\/123\\/2\\/8\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/s\\/125\\/m-b890a927-159a-4bc0-b8e8-2eb65450c518-45805-978842161\\/9\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/a\\/12\\/121\\/2\\/8\\/gif\\/0\\/0\\/CiIAEV51LP4AAAASFME5Aw==",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/s\\/125\\/m-bdf9efd1-02a0-49ef-bae2-e30c8b57114b-50713-14591191\\/9\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "id5-sync\\.com\\/c\\/286\\/123\\/5\\/5\\.gif",
-            "cookies": 0.0000814,
+            "rule": "id5-sync\\.com\\/match",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.0000814
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/cq\\/286\\/124\\/4\\/6\\.gif",
-            "cookies": 0.000102,
+            "rule": "id5-sync\\.com\\/c\\/124\\/101\\/0\\/2\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/125\\/101\\/8\\/2\\.gif",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/125\\/104\\/7\\/3\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/125\\/123\\/6\\/4\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/cq\\/125\\/124\\/5\\/5\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/12\\/3\\/8\\/2\\.gif",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/12\\/101\\/8\\/2\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/12\\/104\\/7\\/3\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/101\\/101\\/1\\/1\\.gif",
+            "cookies": 0.000123,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/101\\/2\\/0\\/2\\.gif",
+            "cookies": 0.000123,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/api\\/0\\.9\\/id5-api\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/s\\/160\\/9\\.gif",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 5,
-            "prevalence": 0.000102
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/286\\/125\\/3\\/7\\.gif",
-            "cookies": 0.000061,
+            "rule": "id5-sync\\.com\\/s\\/123\\/9\\.gif",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/g\\/v1\\/249\\.json",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/286\\/136\\/2\\/8\\.gif",
-            "cookies": 0.000061,
+            "rule": "id5-sync\\.com\\/g\\/v1\\/250\\.json",
+            "cookies": 0.0000958,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/s\\/125\\/r-537b0898-6db5-43b1-8171-b0f8f3132cba-33187-60580944\\/9\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/cq\\/125\\/124\\/8\\/2\\.gif",
+            "cookies": 0.0000684,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/125\\/136\\/7\\/3\\.gif",
+            "cookies": 0.0000684,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/k\\/285\\.gif",
+            "cookies": 0.0000958,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/286\\/101\\/8\\/2\\.gif",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/21\\/21\\/1\\/1\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/21\\/2\\/0\\/2\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/s\\/125\\/r-9f6385c6-ece9-4b27-8a1f-c0b5947f3288-54881-15679497\\/9\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/125\\/10\\/5\\/5\\.gif",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/125\\/112\\/4\\/6\\.gif",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/125\\/132\\/2\\/8\\.gif",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/g\\/v1\\/164\\.json",
+            "cookies": 0.000123,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/i\\/164\\/9\\.gif",
+            "cookies": 0.000123,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/164\\/2\\/8\\/2\\.gif",
+            "cookies": 0.000123,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/164\\/3\\/7\\/3\\.gif",
+            "cookies": 0.000123,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/164\\/0\\/9\\/1\\.gif",
+            "cookies": 0.0000684,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/g\\/v1\\/23\\.json",
+            "cookies": 0.0000821,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/12\\/112\\/0\\/10\\.gif",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/s\\/125\\/917f305c-e709-dc5d-120a-3243e1285d14-1584740824490\\/9\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/g\\/v1\\/396\\.json",
+            "cookies": 0.000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/359\\/3\\/8\\/2\\.gif",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/286\\/359\\/0\\/10\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/c\\/359\\/19\\/6\\/4\\.gif",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/12\\/104\\/2\\/8\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/c\\/359\\/101\\/5\\/5\\.gif",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/12\\/10\\/1\\/9\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/c\\/359\\/104\\/4\\/6\\.gif",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/s\\/125\\/m-a419326d-e144-4a00-a851-a495ee8dc456-32556-497110429\\/9\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/c\\/359\\/123\\/3\\/7\\.gif",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/s\\/125\\/m-24310f8c-bc94-4ac0-b805-5524d8b645dd-24535-395214391\\/9\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/cq\\/359\\/124\\/2\\/8\\.gif",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/s\\/125\\/m-de311b59-6356-4640-9604-6bb90dac942a-32953-900907788\\/9\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/c\\/125\\/136\\/0\\/10\\.gif",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/s\\/125\\/m-b1c2c19b-9bcd-4578-b3b0-52088b6fe5eb-38105-770148151\\/9\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/g\\/v1\\/292\\.json",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/cq\\/286\\/124\\/8\\/2\\.gif",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/g\\/v1\\/205\\.json",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/c\\/102\\/102\\/6\\/4\\.gif",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/g\\/v1\\/304\\.json",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/g\\/v1\\/374\\.json",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/i\\/374\\/8\\.gif",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/374\\/2\\/7\\/2\\.gif",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/286\\/3\\/8\\/2\\.gif",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/i\\/126\\/9\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/c\\/286\\/19\\/7\\/3\\.gif",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/126\\/0\\/9\\/1\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/s\\/125\\/r-3ee96cab-b985-42ee-8d7c-16a285e60dfd-130922-929061547\\/9\\.gif",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/126\\/2\\/8\\/2\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/i\\/169\\/9\\.gif",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/c\\/126\\/3\\/7\\/3\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/c\\/169\\/0\\/9\\/1\\.gif",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "id5-sync\\.com\\/s\\/125\\/m-b555ab41-696f-4f52-b563-6cc9aa5d5626-34117-594231934\\/9\\.gif",
-            "cookies": 0.0000407,
+            "rule": "id5-sync\\.com\\/c\\/169\\/2\\/8\\/2\\.gif",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/169\\/3\\/7\\/3\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/169\\/19\\/5\\/5\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/169\\/101\\/4\\/6\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/169\\/104\\/3\\/7\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/169\\/123\\/2\\/8\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/s\\/125\\/r-b10fb2da-997f-4a4b-a211-d0a5c5ce6469-55752-87782755\\/9\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/123\\/2\\/8\\/2\\.gif",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/123\\/3\\/7\\/3\\.gif",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/123\\/101\\/5\\/5\\.gif",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/123\\/104\\/4\\/6\\.gif",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/cq\\/123\\/124\\/3\\/7\\.gif",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/s\\/125\\/7ba9a4f8-8be8-5114-343a-3282d4192aa3-1593055138377\\/9\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/125\\/19\\/8\\/2\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/125\\/101\\/7\\/3\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/125\\/104\\/6\\/4\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/125\\/123\\/5\\/5\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/cq\\/125\\/124\\/4\\/6\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/160\\/160\\/3\\/1\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/160\\/2\\/2\\/2\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/160\\/3\\/1\\/3\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/19\\/136\\/6\\/4\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/a\\/19\\/121\\/5\\/5\\/gif\\/0\\/0\\/CiAAA170GhUAAAASDMCpAw==",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/19\\/132\\/4\\/6\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/19\\/224\\/3\\/7\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/19\\/321\\/2\\/8\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/s\\/125\\/r-b6735a28-c0c1-454e-88a0-4198dde226df-134663-628827744\\/9\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/s\\/125\\/r-e5b179a3-bf84-47ca-a14e-294b6a65ec3d-59337-908317217\\/9\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/s\\/125\\/r-39e392d9-ba91-4a06-b6cc-58fde6636acd-66428-525200989\\/9\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/s\\/125\\/r-668d02cc-eb29-4792-82d6-dea6f1684ef8-41847-563495927\\/9\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/s\\/125\\/r-66e9b3f8-578b-4ef4-a42a-fd2d47ec8add-140205-836309232\\/9\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/123\\/125\\/2\\/8\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/c\\/123\\/136\\/1\\/9\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/s\\/125\\/r-17940d2b-add4-41c4-9908-d7c7a4f7f0b7-141390-441311365\\/9\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "id5-sync\\.com\\/s\\/125\\/r-8b8d8a2f-2806-45c7-91cb-1fe7f78e413e-66156-462138717\\/9\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -1744,5 +1919,10 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0213
+    "cookies": 0.0206,
+    "types": {
+        "Image": 5552,
+        "XHR": 1090,
+        "Script": 6
+    }
 }

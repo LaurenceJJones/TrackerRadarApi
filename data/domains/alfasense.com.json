@@ -4,23 +4,37 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000936,
-    "sites": 46,
+    "prevalence": 0.00078,
+    "sites": 57,
     "subdomains": [
         "pbs"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "alfasense\\.com\\/yandex\\/auction",
-            "cookies": 0.000895,
+            "cookies": 0.000684,
             "fingerprinting": 0,
             "subdomains": [
                 "pbs"
             ],
             "apis": {},
-            "sites": 46,
-            "prevalence": 0.000936
+            "sites": 53,
+            "prevalence": 0.000725,
+            "cnames": []
+        },
+        {
+            "rule": "alfasense\\.com\\/setuid",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pbs"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -30,5 +44,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000895
+    "cookies": 0.000712,
+    "types": {
+        "XHR": 53,
+        "Image": 5
+    }
 }

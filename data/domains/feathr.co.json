@@ -4,75 +4,84 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000366,
-    "sites": 18,
+    "prevalence": 0.000315,
+    "sites": 23,
     "subdomains": [
         "cdn",
         "marco",
         "conversation"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "feathr\\.co\\/js\\/boomerang\\.min\\.js",
-            "cookies": 0.000366,
+            "cookies": 0.000315,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 16,
-                "Document.cookie getter": 15,
-                "Date.prototype.getTime": 17,
-                "Document.cookie setter": 15,
-                "Screen.prototype.width": 12,
-                "Screen.prototype.height": 12
+                "Navigator.prototype.userAgent": 22,
+                "Document.cookie getter": 17,
+                "Date.prototype.getTime": 23,
+                "Document.cookie setter": 17,
+                "Screen.prototype.width": 22,
+                "Screen.prototype.height": 22
             },
-            "sites": 18,
-            "prevalence": 0.000366
+            "sites": 23,
+            "prevalence": 0.000315,
+            "cnames": []
         },
         {
             "rule": "feathr\\.co\\/v1\\/refresh",
-            "cookies": 0.000366,
+            "cookies": 0.000315,
             "fingerprinting": 0,
             "subdomains": [
                 "marco"
             ],
             "apis": {},
-            "sites": 18,
-            "prevalence": 0.000366
+            "sites": 23,
+            "prevalence": 0.000315,
+            "cnames": []
         },
         {
             "rule": "feathr\\.co\\/scout\\.js",
-            "cookies": 0.000203,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "conversation"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "feathr\\.co\\/49c584b\\/main\\.js",
-            "cookies": 0.000203,
+            "rule": "feathr\\.co\\/a2a0afe\\/main\\.js",
+            "cookies": 0.0000137,
             "fingerprinting": 1,
             "subdomains": [
                 "conversation"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3
+                "Navigator.prototype.userAgent": 1
             },
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 1
+        "cache": 3
     },
-    "cookies": 0.000366
+    "cookies": 0.000315,
+    "types": {
+        "Script": 27,
+        "Image": 23
+    }
 }

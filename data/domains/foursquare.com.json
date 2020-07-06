@@ -7,23 +7,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
-    "sites": 4,
+    "prevalence": 0.000041,
+    "sites": 3,
     "subdomains": [
         "de"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "foursquare\\.com\\/login",
-            "cookies": 0.0000203,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "de"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -31,7 +33,10 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.0000814
+    "cookies": 0.000041,
+    "types": {
+        "Image": 3
+    }
 }

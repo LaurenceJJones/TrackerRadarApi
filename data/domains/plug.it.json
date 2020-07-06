@@ -7,11 +7,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
+    "prevalence": 0.0000684,
     "sites": 5,
     "subdomains": [
         "i"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -35,30 +36,50 @@
                 "Date.prototype.getTimezoneOffset": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "plug\\.it\\/banners\\/js\\/adv_library3_https\\.js",
-            "cookies": 0.000061,
+            "rule": "plug\\.it\\/wp\\/siviaggia\\/js\\/common\\.js",
+            "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "i"
             ],
             "apis": {
-                "Document.cookie getter": 2,
-                "Date.prototype.getTime": 3,
-                "Document.cookie setter": 3
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Date.prototype.getTime": 2
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "plug\\.it\\/banners\\/js\\/adv_library3_https\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 2,
+        "time": 1,
         "size": 1,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000061
+    "cookies": 0.0000137,
+    "types": {
+        "Script": 7
+    }
 }

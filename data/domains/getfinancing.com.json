@@ -7,17 +7,18 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000061,
+    "prevalence": 0.000041,
     "sites": 3,
     "subdomains": [
         "cdn",
         "partner"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "getfinancing\\.com\\/libs\\/1\\.0\\/getfinancing\\.js",
-            "cookies": 0.0000203,
+            "cookies": 0.0000137,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn",
@@ -27,15 +28,14 @@
                 "Document.cookie getter": 1
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 0
-    },
-    "cookies": 0.0000203
+    "performance": {},
+    "cookies": 0.0000137,
+    "types": {
+        "Script": 3
+    }
 }

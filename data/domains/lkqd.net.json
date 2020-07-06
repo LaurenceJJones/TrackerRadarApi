@@ -9,28 +9,60 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00614,
-    "sites": 302,
+    "prevalence": 0.00398,
+    "sites": 291,
     "subdomains": [
-        "ssp",
-        "v",
         "ad",
+        "v",
+        "ssp",
         "t",
         "cs"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
+            "rule": "lkqd\\.net\\/vpaid\\/formats\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 181,
+                "Navigator.prototype.userAgent": 140,
+                "window.localStorage": 124,
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 113,
+                "Navigator.prototype.doNotTrack": 121
+            },
+            "sites": 181,
+            "prevalence": 0.00248,
+            "cnames": []
+        },
+        {
             "rule": "lkqd\\.net\\/ad",
-            "cookies": 0.0025,
+            "cookies": 0.00208,
             "fingerprinting": 0,
             "subdomains": [
-                "ssp",
-                "v"
+                "v",
+                "ssp"
             ],
             "apis": {},
-            "sites": 136,
-            "prevalence": 0.00277
+            "sites": 156,
+            "prevalence": 0.00213,
+            "cnames": []
+        },
+        {
+            "rule": "lkqd\\.net\\/t",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 130,
+            "prevalence": 0.00178,
+            "cnames": []
         },
         {
             "rule": "lkqd\\.net\\/vpaid\\/vpaid\\.js",
@@ -40,53 +72,27 @@
                 "ad"
             ],
             "apis": {
-                "Date.prototype.getTime": 110,
-                "Navigator.prototype.userAgent": 107,
-                "Screen.prototype.width": 106,
-                "Screen.prototype.height": 106,
-                "Navigator.prototype.doNotTrack": 108
+                "Date.prototype.getTime": 121,
+                "Navigator.prototype.userAgent": 118,
+                "Screen.prototype.width": 111,
+                "Screen.prototype.height": 111,
+                "Navigator.prototype.doNotTrack": 118
             },
-            "sites": 115,
-            "prevalence": 0.00234
-        },
-        {
-            "rule": "lkqd\\.net\\/t",
-            "cookies": 0.000142,
-            "fingerprinting": 0,
-            "subdomains": [
-                "t"
-            ],
-            "apis": {},
-            "sites": 118,
-            "prevalence": 0.0024
+            "sites": 125,
+            "prevalence": 0.00171,
+            "cnames": []
         },
         {
             "rule": "lkqd\\.net\\/cs",
-            "cookies": 0.00151,
+            "cookies": 0.00332,
             "fingerprinting": 0,
             "subdomains": [
                 "cs"
             ],
             "apis": {},
-            "sites": 197,
-            "prevalence": 0.00401
-        },
-        {
-            "rule": "lkqd\\.net\\/vpaid\\/formats\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ad"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 151,
-                "Navigator.prototype.userAgent": 112,
-                "window.localStorage": 105,
-                "Navigator.prototype.doNotTrack": 89,
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 89
-            },
-            "sites": 154,
-            "prevalence": 0.00313
+            "sites": 245,
+            "prevalence": 0.00335,
+            "cnames": []
         },
         {
             "rule": "lkqd\\.net\\/vpaid\\/nxd\\.js",
@@ -96,10 +102,11 @@
                 "ad"
             ],
             "apis": {
-                "Date.prototype.getTime": 46
+                "Date.prototype.getTime": 72
             },
-            "sites": 46,
-            "prevalence": 0.000936
+            "sites": 72,
+            "prevalence": 0.000985,
+            "cnames": []
         }
     ],
     "categories": [
@@ -114,5 +121,10 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00266
+    "cookies": 0.00375,
+    "types": {
+        "Script": 378,
+        "XHR": 286,
+        "Image": 245
+    }
 }

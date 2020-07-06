@@ -7,14 +7,18 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00112,
-    "sites": 55,
+    "prevalence": 0.00148,
+    "sites": 108,
     "subdomains": [
         "bs",
+        "b02",
         "cs",
+        "c",
         "uh",
-        "d"
+        "d",
+        "cm-beacon"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -22,58 +26,65 @@
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "bs"
+                "bs",
+                "b02"
             ],
             "apis": {
-                "Date.prototype.getTime": 5,
-                "Navigator.prototype.userAgent": 3
+                "Navigator.prototype.userAgent": 6,
+                "Date.prototype.getTime": 6
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "nakanohito\\.jp\\/b1\\/",
-            "cookies": 0.000102,
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [
-                "bs"
+                "bs",
+                "b02"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "nakanohito\\.jp\\/b3\\/bi\\.js",
-            "cookies": 0.00057,
+            "cookies": 0.000848,
             "fingerprinting": 2,
             "subdomains": [
                 "bs",
-                "cs"
+                "cs",
+                "c"
             ],
             "apis": {
-                "Date.prototype.getTimezoneOffset": 36,
-                "window.devicePixelRatio": 36,
-                "Date.prototype.getTime": 36,
-                "Navigator.prototype.userAgent": 28,
-                "Navigator.prototype.appVersion": 28,
-                "Screen.prototype.width": 25,
-                "Screen.prototype.height": 25,
-                "Document.cookie getter": 29,
-                "Document.cookie setter": 28
+                "Date.prototype.getTimezoneOffset": 78,
+                "Screen.prototype.width": 78,
+                "Screen.prototype.height": 78,
+                "window.devicePixelRatio": 78,
+                "Document.cookie getter": 65,
+                "Date.prototype.getTime": 77,
+                "Navigator.prototype.userAgent": 78,
+                "Document.cookie setter": 62,
+                "Navigator.prototype.appVersion": 76
             },
-            "sites": 36,
-            "prevalence": 0.000732
+            "sites": 78,
+            "prevalence": 0.00107,
+            "cnames": []
         },
         {
             "rule": "nakanohito\\.jp\\/b3\\/",
-            "cookies": 0.000671,
+            "cookies": 0.00103,
             "fingerprinting": 0,
             "subdomains": [
                 "bs"
             ],
             "apis": {},
-            "sites": 33,
-            "prevalence": 0.000671
+            "sites": 76,
+            "prevalence": 0.00104,
+            "cnames": []
         },
         {
             "rule": "nakanohito\\.jp\\/uhj2\\/uh\\.js",
@@ -83,52 +94,73 @@
                 "uh"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 10,
-                "Navigator.prototype.appVersion": 10,
-                "window.devicePixelRatio": 10,
-                "Date.prototype.getTime": 10
+                "Navigator.prototype.userAgent": 15,
+                "Navigator.prototype.appVersion": 15,
+                "window.devicePixelRatio": 15,
+                "Date.prototype.getTime": 15
             },
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 15,
+            "prevalence": 0.000205,
+            "cnames": []
         },
         {
             "rule": "nakanohito\\.jp\\/ua\\/uwa\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000684,
             "fingerprinting": 1,
             "subdomains": [
                 "d"
             ],
             "apis": {
-                "Date.prototype.getTimezoneOffset": 3,
-                "Screen.prototype.width": 1,
-                "Screen.prototype.height": 1,
-                "Document.cookie getter": 2,
-                "Date.prototype.getTime": 3,
-                "Navigator.prototype.userAgent": 2,
-                "Document.cookie setter": 2,
-                "window.devicePixelRatio": 3
+                "Date.prototype.getTimezoneOffset": 7,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7,
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Document.cookie setter": 5,
+                "window.devicePixelRatio": 7
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
             "rule": "nakanohito\\.jp\\/ua\\/",
-            "cookies": 0.000061,
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
                 "bs"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "nakanohito\\.jp\\/cm\\/comment_count\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cm-beacon"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 2,
         "cache": 3
     },
-    "cookies": 0.000915
+    "cookies": 0.00127,
+    "types": {
+        "Script": 106,
+        "Image": 13,
+        "Other": 76,
+        "XHR": 2
+    }
 }

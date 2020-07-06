@@ -4,23 +4,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000407,
-    "sites": 20,
+    "prevalence": 0.000383,
+    "sites": 28,
     "subdomains": [
         "stats"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "seedr\\.com\\/nr\\/sync",
-            "cookies": 0.000366,
+            "cookies": 0.000356,
             "fingerprinting": 0,
             "subdomains": [
                 "stats"
             ],
             "apis": {},
-            "sites": 19,
-            "prevalence": 0.000386
+            "sites": 27,
+            "prevalence": 0.000369,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -30,5 +32,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000366
+    "cookies": 0.000356,
+    "types": {
+        "Image": 27
+    }
 }

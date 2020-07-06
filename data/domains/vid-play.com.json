@@ -4,11 +4,13 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000427,
-    "sites": 21,
+    "prevalence": 0.0000547,
+    "sites": 4,
     "subdomains": [
-        "player"
+        "player",
+        "serv"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -19,10 +21,11 @@
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 20
+                "Navigator.prototype.userAgent": 4
             },
-            "sites": 21,
-            "prevalence": 0.000427
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "vid-play\\.com\\/script\\/6\\.1\\/AVmanager\\.js",
@@ -32,18 +35,28 @@
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 19,
-                "Navigator.prototype.vendor": 19,
-                "Navigator.prototype.language": 13,
-                "Navigator.prototype.languages": 19,
-                "HTMLCanvasElement.prototype.constructor": 12,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.doNotTrack": 2,
-                "Screen.prototype.height": 2,
-                "Screen.prototype.width": 2
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.languages": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.vendor": 4,
+                "Navigator.prototype.language": 1,
+                "HTMLCanvasElement.prototype.constructor": 3
             },
-            "sites": 20,
-            "prevalence": 0.000407
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "vid-play\\.com\\/api\\/adserver\\/tag\\/",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "serv"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -53,5 +66,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0.0000547,
+    "types": {
+        "Script": 8,
+        "XHR": 4
+    }
 }

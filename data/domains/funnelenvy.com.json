@@ -7,29 +7,18 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
-    "sites": 5,
+    "prevalence": 0.0000547,
+    "sites": 4,
     "subdomains": [
-        "backstage",
         "cdn2"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "funnelenvy\\.com\\/visitor",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "backstage"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
             "rule": "funnelenvy\\.com\\/organization\\/5da5f32705fd1d7c0ba5a6ac\\/backstage-client\\.js",
-            "cookies": 0.0000407,
-            "fingerprinting": 2,
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
             "subdomains": [
                 "cdn2"
             ],
@@ -41,11 +30,11 @@
                 "Navigator.prototype.mimeTypes": 2,
                 "Date.prototype.getTime": 2,
                 "Document.cookie setter": 2,
-                "Navigator.prototype.language": 1,
                 "window.sessionStorage": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -53,7 +42,10 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000102
+    "cookies": 0.0000547,
+    "types": {
+        "Script": 2
+    }
 }

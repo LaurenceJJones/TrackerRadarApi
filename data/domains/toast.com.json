@@ -7,25 +7,29 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000386,
-    "sites": 19,
+    "prevalence": 0.000328,
+    "sites": 24,
     "subdomains": [
         "ace-sync",
+        "adlc-exchange",
         "adx-exchange",
-        "adlc-exchange"
+        "cm-exchange"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "toast\\.com\\/sendid",
-            "cookies": 0.000346,
+            "cookies": 0.000274,
             "fingerprinting": 0,
             "subdomains": [
-                "ace-sync"
+                "ace-sync",
+                "adlc-exchange"
             ],
             "apis": {},
-            "sites": 17,
-            "prevalence": 0.000346
+            "sites": 20,
+            "prevalence": 0.000274,
+            "cnames": []
         },
         {
             "rule": "toast\\.com\\/a_request",
@@ -37,19 +41,33 @@
             "apis": {
                 "Navigator.prototype.userAgent": 1
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "toast\\.com\\/log",
-            "cookies": 0.0000407,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "adlc-exchange"
             ],
             "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "toast\\.com\\/bi\\/pixel",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cm-exchange"
+            ],
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -59,5 +77,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000346
+    "cookies": 0.000315,
+    "types": {
+        "Image": 25,
+        "Script": 3
+    }
 }

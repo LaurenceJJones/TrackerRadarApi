@@ -9,90 +9,138 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00614,
-    "sites": 302,
+    "prevalence": 0.00601,
+    "sites": 439,
     "subdomains": [
         "consent",
         "ut.ra",
         "tags.rd",
-        "lsmfcs.rd",
+        "ut.rd",
         "ad",
-        "automate",
         "act-us.rd",
         "ads-us.rd"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "linksynergy\\.com\\/consent\\/v1\\/p",
-            "cookies": 0.00525,
+            "rule": "linksynergy\\.com\\/consent\\/v2\\/p",
+            "cookies": 0.0052,
             "fingerprinting": 0,
             "subdomains": [
                 "consent"
             ],
             "apis": {},
-            "sites": 259,
-            "prevalence": 0.00527
+            "sites": 380,
+            "prevalence": 0.0052,
+            "cnames": []
         },
         {
             "rule": "linksynergy\\.com\\/t",
-            "cookies": 0.00506,
+            "cookies": 0.00531,
             "fingerprinting": 0,
             "subdomains": [
                 "ut.ra"
             ],
             "apis": {},
-            "sites": 251,
-            "prevalence": 0.00511
+            "sites": 391,
+            "prevalence": 0.00535,
+            "cnames": []
         },
         {
             "rule": "linksynergy\\.com\\/jsp",
-            "cookies": 0.00212,
+            "cookies": 0.00145,
             "fingerprinting": 0,
             "subdomains": [
                 "ut.ra"
             ],
             "apis": {},
-            "sites": 131,
-            "prevalence": 0.00266
+            "sites": 225,
+            "prevalence": 0.00308,
+            "cnames": []
         },
         {
-            "rule": "linksynergy\\.com\\/cs",
-            "cookies": 0.00112,
+            "rule": "linksynergy\\.com\\/js\\/6896\\/",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "tags.rd",
-                "lsmfcs.rd"
-            ],
-            "apis": {},
-            "sites": 55,
-            "prevalence": 0.00112
-        },
-        {
-            "rule": "linksynergy\\.com\\/fs-bin\\/show",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ad"
-            ],
-            "apis": {},
-            "sites": 13,
-            "prevalence": 0.000264
-        },
-        {
-            "rule": "linksynergy\\.com\\/wakeup\\/AdKoNwebnUf0jWo7Hr3Miei5uzxIN6SQ",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "automate"
+                "tags.rd"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "linksynergy\\.com\\/111373\\.ct\\.js",
-            "cookies": 0.0000407,
+            "rule": "linksynergy\\.com\\/pix\\/6896",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tags.rd"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "linksynergy\\.com\\/cs",
+            "cookies": 0.00151,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tags.rd"
+            ],
+            "apis": {},
+            "sites": 110,
+            "prevalence": 0.00151,
+            "cnames": []
+        },
+        {
+            "rule": "linksynergy\\.com\\/consent\\/v1\\/p",
+            "cookies": 0.000383,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent",
+                "ut.rd"
+            ],
+            "apis": {},
+            "sites": 28,
+            "prevalence": 0.000383,
+            "cnames": []
+        },
+        {
+            "rule": "linksynergy\\.com\\/js\\/8830\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tags.rd"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "linksynergy\\.com\\/pix\\/8830",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tags.rd"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "linksynergy\\.com\\/113466\\.ct\\.js",
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "tags.rd"
@@ -106,33 +154,165 @@
                 "Document.cookie setter": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "linksynergy\\.com\\/rcs",
-            "cookies": 0.0000814,
+            "rule": "linksynergy\\.com\\/fs-bin\\/show",
+            "cookies": 0.000164,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 21,
+            "prevalence": 0.000287,
+            "cnames": []
+        },
+        {
+            "rule": "linksynergy\\.com\\/js\\/711\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tags.rd"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "linksynergy\\.com\\/pix\\/711",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tags.rd"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "linksynergy\\.com\\/js\\/1545\\/",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "tags.rd"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "linksynergy\\.com\\/wakeup\\/xp35fk24bu8fvo1ajpk3qdt2izxuffjj",
-            "cookies": 0.000224,
+            "rule": "linksynergy\\.com\\/pix\\/1545",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tags.rd"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "linksynergy\\.com\\/rcs",
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [
-                "automate"
+                "tags.rd"
             ],
             "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "linksynergy\\.com\\/js\\/8712\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tags.rd"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "linksynergy\\.com\\/pix\\/8712",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tags.rd"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "linksynergy\\.com\\/js\\/6773\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tags.rd"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "linksynergy\\.com\\/pix\\/6773",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tags.rd"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "linksynergy\\.com\\/111373\\.ct\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tags.rd"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.language": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "linksynergy\\.com\\/cc",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "act-us.rd",
@@ -140,24 +320,54 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "linksynergy\\.com\\/pix\\/4466",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tags.rd"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "linksynergy\\.com\\/pix\\/752",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
-                "tags.rd"
+                "ut.rd"
             ],
             "apis": {
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "linksynergy\\.com\\/pix\\/8600",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tags.rd"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "linksynergy\\.com\\/pix\\/6303",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "tags.rd"
@@ -166,20 +376,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "linksynergy\\.com\\/pix\\/886",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "tags.rd"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -189,8 +387,13 @@
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
-        "cache": 3
+        "cpu": 0,
+        "cache": 1
     },
-    "cookies": 0.00602
+    "cookies": 0.00588,
+    "types": {
+        "Image": 938,
+        "Script": 241,
+        "Document": 20
+    }
 }

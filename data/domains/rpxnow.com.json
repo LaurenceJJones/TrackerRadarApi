@@ -7,13 +7,14 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00118,
-    "sites": 58,
+    "prevalence": 0.000643,
+    "sites": 47,
     "subdomains": [
         "widget-cdn",
         "widgets-cdn",
         "ssl-widget-cdn"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -24,44 +25,33 @@
                 "widget-cdn"
             ],
             "apis": {
-                "window.localStorage": 12
+                "window.localStorage": 8
             },
-            "sites": 13,
-            "prevalence": 0.000264
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
             "rule": "rpxnow\\.com\\/manifest\\/capture:login",
-            "cookies": 0.000183,
+            "cookies": 0.000192,
             "fingerprinting": 1,
             "subdomains": [
                 "widgets-cdn",
                 "ssl-widget-cdn"
             ],
             "apis": {
-                "window.localStorage": 9,
-                "Navigator.prototype.userAgent": 9,
-                "Navigator.prototype.appName": 9,
-                "Document.cookie getter": 9,
-                "Date.prototype.getTime": 9,
-                "Document.cookie setter": 9,
-                "Screen.prototype.height": 4,
-                "Screen.prototype.width": 4
+                "window.localStorage": 14,
+                "Navigator.prototype.userAgent": 14,
+                "Navigator.prototype.appName": 14,
+                "Screen.prototype.height": 14,
+                "Screen.prototype.width": 14,
+                "Document.cookie getter": 14,
+                "Date.prototype.getTime": 14,
+                "Document.cookie setter": 14
             },
-            "sites": 9,
-            "prevalence": 0.000183
-        },
-        {
-            "rule": "rpxnow\\.com\\/load\\/login\\.cmgdigital\\.com",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "widget-cdn"
-            ],
-            "apis": {
-                "window.localStorage": 15
-            },
-            "sites": 15,
-            "prevalence": 0.000305
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -71,5 +61,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000183
+    "cookies": 0.000192,
+    "types": {
+        "Script": 22
+    }
 }

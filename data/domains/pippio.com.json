@@ -9,64 +9,51 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.075,
-    "sites": 3685,
+    "prevalence": 0.0847,
+    "sites": 6189,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "pippio\\.com\\/api\\/sync",
-            "cookies": 0.0743,
+            "cookies": 0.0841,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 3668,
-            "prevalence": 0.0746
+            "sites": 6170,
+            "prevalence": 0.0844,
+            "cnames": []
         },
         {
             "rule": "pippio\\.com\\/api\\/sync\\/ddp",
-            "cookies": 0.0339,
+            "cookies": 0.0336,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 1671,
-            "prevalence": 0.034
+            "sites": 2490,
+            "prevalence": 0.0341,
+            "cnames": []
         },
         {
             "rule": "pippio\\.com\\/api\\/sync",
-            "cookies": 0.000407,
+            "cookies": 0.000356,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 20,
-            "prevalence": 0.000407
+            "sites": 26,
+            "prevalence": 0.000356,
+            "cnames": []
         },
         {
             "rule": "pippio\\.com\\/api\\/sync",
-            "cookies": 0.000183,
+            "cookies": 0.000164,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
-        },
-        {
-            "rule": "pippio\\.com\\/api\\/sync\\/ddp",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "pippio\\.com\\/api\\/sync",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
         }
     ],
     "categories": [
@@ -79,5 +66,10 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0747
+    "cookies": 0.0843,
+    "types": {
+        "Image": 8660,
+        "Document": 26,
+        "Script": 13
+    }
 }

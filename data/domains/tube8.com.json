@@ -7,31 +7,33 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000231,
-    "sites": 1,
+    "prevalence": 0.0000274,
+    "sites": 2,
     "subdomains": [
-        "esp"
+        "ht"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "tube8\\.com\\/applications\\/2\\/distribution",
-            "cookies": 0.0000462,
-            "fingerprinting": 0,
+            "rule": "tube8\\.com\\/js\\/ht\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
             "subdomains": [
-                "esp"
+                "ht"
             ],
-            "apis": {},
+            "apis": {
+                "Document.cookie getter": 2
+            },
             "sites": 2,
-            "prevalence": 0.0000462
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 3
-    },
-    "cookies": 0.0000231
+    "performance": {},
+    "cookies": 0.0000274,
+    "types": {
+        "Script": 2
+    }
 }

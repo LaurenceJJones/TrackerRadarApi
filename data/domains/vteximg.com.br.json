@@ -4,40 +4,39 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
-    "sites": 2,
+    "prevalence": 0.000205,
+    "sites": 15,
     "subdomains": [
-        "lojasaraiva"
+        "decathlonpro",
+        "elektra",
+        "ishopcolombia",
+        "panamericana",
+        "lojasaraiva",
+        "jumbocolombiafood"
     ],
-    "fingerprinting": 2,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "vteximg\\.com\\.br\\/scripts\\/swfobject\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "lojasaraiva"
+                "decathlonpro",
+                "elektra",
+                "ishopcolombia",
+                "panamericana",
+                "lojasaraiva",
+                "jumbocolombiafood"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.platform": 2,
-                "Navigator.prototype.plugins": 2
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.plugins": 3
             },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "vteximg\\.com\\.br\\/arquivos\\/gtm-container\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "lojasaraiva"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -45,7 +44,10 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0
+    "cookies": 0.0000274,
+    "types": {
+        "Script": 6
+    }
 }

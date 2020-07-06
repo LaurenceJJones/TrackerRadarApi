@@ -7,103 +7,190 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000285,
-    "sites": 14,
+    "prevalence": 0.000534,
+    "sites": 39,
     "subdomains": [
-        "checkout"
+        "checkout",
+        "checkout-sandbox"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
             "rule": "getbread\\.com\\/bread\\.js",
-            "cookies": 0.000264,
+            "cookies": 0.000479,
             "fingerprinting": 0,
             "subdomains": [
-                "checkout"
+                "checkout",
+                "checkout-sandbox"
             ],
             "apis": {},
-            "sites": 14,
-            "prevalence": 0.000285
+            "sites": 36,
+            "prevalence": 0.000493,
+            "cnames": []
         },
         {
-            "rule": "getbread\\.com\\/f1156af8d1fa5338e6883e7b5e2d54112e5eee34\\/core\\.js",
-            "cookies": 0.000264,
+            "rule": "getbread\\.com\\/1c4ba578bcc5b918e5f31e5560dd3f4acee9fb09\\/core\\.js",
+            "cookies": 0.000506,
             "fingerprinting": 1,
             "subdomains": [
                 "checkout"
             ],
             "apis": {
-                "console.memory": 12,
-                "Navigator.prototype.userAgent": 9,
-                "window.matchMedia(\"prefers-reduced-motion\")": 12,
-                "window.localStorage": 12,
-                "Navigator.prototype.platform": 9
+                "console.memory": 37,
+                "Navigator.prototype.userAgent": 37,
+                "window.matchMedia(\"prefers-reduced-motion\")": 36,
+                "window.localStorage": 37,
+                "Navigator.prototype.platform": 37
             },
-            "sites": 13,
-            "prevalence": 0.000264
+            "sites": 37,
+            "prevalence": 0.000506,
+            "cnames": []
         },
         {
-            "rule": "getbread\\.com\\/f1156af8d1fa5338e6883e7b5e2d54112e5eee34\\/iframe-third-party-cookies\\.html",
-            "cookies": 0.000264,
+            "rule": "getbread\\.com\\/1c4ba578bcc5b918e5f31e5560dd3f4acee9fb09\\/iframe-third-party-cookies\\.html",
+            "cookies": 0.000506,
             "fingerprinting": 0,
             "subdomains": [
                 "checkout"
             ],
             "apis": {},
-            "sites": 13,
-            "prevalence": 0.000264
+            "sites": 37,
+            "prevalence": 0.000506,
+            "cnames": []
         },
         {
             "rule": "getbread\\.com\\/api\\/merchant\\/flags",
-            "cookies": 0.000285,
+            "cookies": 0.000534,
+            "fingerprinting": 0,
+            "subdomains": [
+                "checkout",
+                "checkout-sandbox"
+            ],
+            "apis": {},
+            "sites": 39,
+            "prevalence": 0.000534,
+            "cnames": []
+        },
+        {
+            "rule": "getbread\\.com\\/1c4ba578bcc5b918e5f31e5560dd3f4acee9fb09\\/floating-cta",
+            "cookies": 0.000109,
             "fingerprinting": 0,
             "subdomains": [
                 "checkout"
             ],
             "apis": {},
-            "sites": 14,
-            "prevalence": 0.000285
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
-            "rule": "getbread\\.com\\/f1156af8d1fa5338e6883e7b5e2d54112e5eee34\\/floating-cta",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "checkout"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "getbread\\.com\\/f1156af8d1fa5338e6883e7b5e2d54112e5eee34\\/floating_cta\\.js",
-            "cookies": 0.000102,
+            "rule": "getbread\\.com\\/1c4ba578bcc5b918e5f31e5560dd3f4acee9fb09\\/floating_cta\\.js",
+            "cookies": 0.000109,
             "fingerprinting": 1,
             "subdomains": [
                 "checkout"
             ],
             "apis": {
-                "window.matchMedia(\"prefers-reduced-motion\")": 5,
-                "Date.prototype.getTime": 5,
-                "window.localStorage": 5,
-                "Navigator.prototype.userAgent": 3,
-                "console.memory": 3,
-                "Navigator.prototype.doNotTrack": 3,
-                "Document.cookie getter": 3
+                "Navigator.prototype.userAgent": 7,
+                "window.matchMedia(\"prefers-reduced-motion\")": 8,
+                "console.memory": 7,
+                "Date.prototype.getTime": 8,
+                "Navigator.prototype.doNotTrack": 7,
+                "window.localStorage": 8
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
             "rule": "getbread\\.com\\/env",
-            "cookies": 0.0000814,
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [
                 "checkout"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "getbread\\.com\\/1c4ba578bcc5b918e5f31e5560dd3f4acee9fb09\\/heap\\.js",
+            "cookies": 0.000123,
+            "fingerprinting": 1,
+            "subdomains": [
+                "checkout"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 9,
+                "Navigator.prototype.appVersion": 8,
+                "Document.cookie getter": 7,
+                "Document.cookie setter": 7
+            },
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "getbread\\.com\\/1c4ba578bcc5b918e5f31e5560dd3f4acee9fb09\\/analytics",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "checkout"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "getbread\\.com\\/1c4ba578bcc5b918e5f31e5560dd3f4acee9fb09\\/analytics\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "checkout"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "console.memory": 1,
+                "window.matchMedia(\"prefers-reduced-motion\")": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.doNotTrack": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "getbread\\.com\\/32bbe864cf21cfcd7fd9704a6b90a639a24f812d\\/core\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "checkout-sandbox"
+            ],
+            "apis": {
+                "console.memory": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.matchMedia(\"prefers-reduced-motion\")": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.platform": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "getbread\\.com\\/32bbe864cf21cfcd7fd9704a6b90a639a24f812d\\/iframe-third-party-cookies\\.html",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "checkout-sandbox"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -113,5 +200,10 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000285
+    "cookies": 0.000534,
+    "types": {
+        "Script": 94,
+        "Document": 49,
+        "Fetch": 48
+    }
 }

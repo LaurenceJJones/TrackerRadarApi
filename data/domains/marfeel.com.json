@@ -4,12 +4,13 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000448,
-    "sites": 22,
+    "prevalence": 0.000219,
+    "sites": 16,
     "subdomains": [
         "bc",
         "b"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -21,15 +22,17 @@
                 "b"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 9,
-                "window.localStorage": 9,
-                "Navigator.prototype.appVersion": 9,
-                "window.indexedDB": 9,
-                "window.sessionStorage": 9,
-                "Navigator.prototype.permissions": 9
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6,
+                "Navigator.prototype.appVersion": 6,
+                "window.indexedDB": 6,
+                "window.sessionStorage": 6,
+                "Notification.permission": 6,
+                "Navigator.prototype.permissions": 6
             },
-            "sites": 9,
-            "prevalence": 0.000183
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "marfeel\\.com\\/statics\\/marfeel\\/resources\\/pushNotifications\\/OneSignalSDK\\.js",
@@ -40,15 +43,17 @@
                 "b"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 9,
-                "window.localStorage": 9,
-                "Navigator.prototype.appVersion": 9,
-                "window.indexedDB": 9,
-                "window.sessionStorage": 9,
-                "Navigator.prototype.permissions": 9
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6,
+                "Navigator.prototype.appVersion": 6,
+                "window.indexedDB": 6,
+                "window.sessionStorage": 6,
+                "Notification.permission": 6,
+                "Navigator.prototype.permissions": 6
             },
-            "sites": 9,
-            "prevalence": 0.000183
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -58,5 +63,9 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.000122
+    "cookies": 0.0000684,
+    "types": {
+        "Other": 6,
+        "Script": 6
+    }
 }

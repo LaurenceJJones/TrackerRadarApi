@@ -7,11 +7,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000203,
+    "prevalence": 0.0000137,
     "sites": 1,
     "subdomains": [
         "smsignup"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -25,7 +26,8 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "lift361\\.com\\/Popup_EmailSignup\\/WebResource\\.axd",
@@ -38,15 +40,15 @@
                 "Navigator.prototype.appName": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 1
-    },
-    "cookies": 0
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Document": 2,
+        "Script": 2
+    }
 }

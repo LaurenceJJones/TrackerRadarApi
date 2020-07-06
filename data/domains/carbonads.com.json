@@ -9,11 +9,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00106,
-    "sites": 52,
+    "prevalence": 0.000889,
+    "sites": 65,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -24,10 +25,11 @@
                 "cdn"
             ],
             "apis": {
-                "Document.cookie getter": 30
+                "Document.cookie getter": 37
             },
-            "sites": 50,
-            "prevalence": 0.00102
+            "sites": 63,
+            "prevalence": 0.000862,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -37,5 +39,8 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 63
+    }
 }

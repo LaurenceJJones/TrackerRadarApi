@@ -7,63 +7,38 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000122,
-    "sites": 6,
+    "prevalence": 0.000178,
+    "sites": 13,
     "subdomains": [
-        "cricut",
-        "missouriquiltco",
         "targetuscentral",
         "offer"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "slgnt\\.us\\/optiext\\/webtracker\\.dll",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cricut",
-                "missouriquiltco"
-            ],
-            "apis": {
-                "Document.cookie getter": 2,
-                "Document.cookie setter": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
             "rule": "slgnt\\.us\\/track",
-            "cookies": 0.0000407,
+            "cookies": 0.000178,
             "fingerprinting": 0,
             "subdomains": [
                 "targetuscentral"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
         },
         {
-            "rule": "slgnt\\.us\\/track",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "targetuscentral"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "slgnt\\.us\\/api\\/6a1f7252de9e48899e19403443314b23\\/iv\\/aHR0cHM6Ly93d3cubWlzc291cmlxdWlsdGNvLmNvbS8%3D",
-            "cookies": 0.0000407,
+            "rule": "slgnt\\.us\\/api\\/e3e3d6df24ef40eab6035533f7c54790\\/iv\\/aHR0cHM6Ly93d3cudmlraW5ncy5jb20v",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "offer"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -71,7 +46,11 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 1
     },
-    "cookies": 0.000122
+    "cookies": 0.000178,
+    "types": {
+        "Fetch": 13,
+        "XHR": 2
+    }
 }

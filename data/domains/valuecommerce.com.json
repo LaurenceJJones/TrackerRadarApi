@@ -7,93 +7,127 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000549,
-    "sites": 27,
+    "prevalence": 0.000712,
+    "sites": 52,
     "subdomains": [
         "trj",
-        "ad.jp.ap",
+        "mlb",
         "aml",
+        "ad.jp.ap",
         "vpj",
         "wcsjs"
     ],
+    "cnames": [],
     "fingerprinting": 3,
     "resources": [
         {
             "rule": "valuecommerce\\.com\\/vclp\\.js",
-            "cookies": 0.000264,
+            "cookies": 0.000287,
             "fingerprinting": 1,
             "subdomains": [
                 "trj"
             ],
             "apis": {
-                "HTMLCanvasElement.prototype.constructor": 12,
-                "HTMLCanvasElement.prototype.toDataURL": 13
+                "HTMLCanvasElement.prototype.constructor": 20,
+                "HTMLCanvasElement.prototype.toDataURL": 20
             },
-            "sites": 13,
-            "prevalence": 0.000264
+            "sites": 21,
+            "prevalence": 0.000287,
+            "cnames": []
         },
         {
-            "rule": "valuecommerce\\.com\\/servlet\\/gifbanner",
-            "cookies": 0.0000814,
+            "rule": "valuecommerce\\.com\\/mylinkbox\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 2,
+            "subdomains": [
+                "mlb"
+            ],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "valuecommerce\\.com\\/vcdal\\.js",
+            "cookies": 0.000219,
+            "fingerprinting": 3,
+            "subdomains": [
+                "aml"
+            ],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 16,
+                "Navigator.prototype.userAgent": 16,
+                "Navigator.prototype.product": 16,
+                "HTMLCanvasElement.prototype.constructor": 10,
+                "HTMLCanvasElement.prototype.toDataURL": 16,
+                "Navigator.prototype.plugins": 16,
+                "Navigator.prototype.appCodeName": 16,
+                "Navigator.prototype.appName": 16,
+                "Navigator.prototype.appVersion": 16,
+                "Navigator.prototype.productSub": 16,
+                "Navigator.prototype.cookieEnabled": 16,
+                "Navigator.prototype.onLine": 16,
+                "Navigator.prototype.platform": 16,
+                "Navigator.prototype.language": 16,
+                "Screen.prototype.width": 16,
+                "Screen.prototype.height": 16,
+                "Screen.prototype.colorDepth": 16,
+                "Screen.prototype.availWidth": 16,
+                "Screen.prototype.availHeight": 16,
+                "Screen.prototype.availLeft": 16,
+                "Screen.prototype.availTop": 16,
+                "Navigator.prototype.doNotTrack": 16,
+                "window.devicePixelRatio": 16,
+                "Navigator.prototype.languages": 16,
+                "Date.prototype.getTime": 16
+            },
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
+        },
+        {
+            "rule": "valuecommerce\\.com\\/servlet\\/jsbanner",
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "ad.jp.ap"
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.0000814
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "valuecommerce\\.com\\/vcdal\\.js",
-            "cookies": 0.000163,
-            "fingerprinting": 3,
+            "rule": "valuecommerce\\.com\\/servlet\\/gifbanner",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
             "subdomains": [
-                "aml"
+                "ad.jp.ap"
             ],
-            "apis": {
-                "Date.prototype.getTimezoneOffset": 8,
-                "Navigator.prototype.userAgent": 7,
-                "Navigator.prototype.product": 6,
-                "HTMLCanvasElement.prototype.toDataURL": 8,
-                "Navigator.prototype.plugins": 7,
-                "Navigator.prototype.appCodeName": 7,
-                "Navigator.prototype.appName": 7,
-                "Navigator.prototype.appVersion": 7,
-                "Navigator.prototype.productSub": 7,
-                "Navigator.prototype.cookieEnabled": 7,
-                "Navigator.prototype.onLine": 7,
-                "Navigator.prototype.platform": 7,
-                "Navigator.prototype.language": 7,
-                "Screen.prototype.width": 7,
-                "Screen.prototype.height": 7,
-                "Screen.prototype.colorDepth": 7,
-                "Screen.prototype.availWidth": 7,
-                "Screen.prototype.availHeight": 7,
-                "Screen.prototype.availLeft": 7,
-                "Screen.prototype.availTop": 7,
-                "Navigator.prototype.doNotTrack": 7,
-                "window.devicePixelRatio": 8,
-                "Navigator.prototype.languages": 7,
-                "Date.prototype.getTime": 8,
-                "HTMLCanvasElement.prototype.constructor": 6
-            },
-            "sites": 8,
-            "prevalence": 0.000163
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "valuecommerce\\.com\\/vcparam_pvd\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "vpj"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "valuecommerce\\.com\\/wcs\\.js",
-            "cookies": 0.000061,
+            "cookies": 0.000041,
             "fingerprinting": 3,
             "subdomains": [
                 "wcsjs"
@@ -126,15 +160,20 @@
                 "Document.cookie setter": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 3,
         "cache": 3
     },
-    "cookies": 0.000549
+    "cookies": 0.000629,
+    "types": {
+        "Script": 48,
+        "Image": 4
+    }
 }

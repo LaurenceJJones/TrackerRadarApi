@@ -7,35 +7,49 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000061,
+    "prevalence": 0.000041,
     "sites": 3,
     "subdomains": [
-        "t"
+        "t",
+        "proc"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "beanstalkdata\\.com\\/WebTracking\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.000041,
             "fingerprinting": 1,
             "subdomains": [
                 "t"
             ],
             "apis": {
-                "Document.cookie getter": 2,
-                "Date.prototype.getTime": 2,
-                "Document.cookie setter": 2
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "beanstalkdata\\.com\\/mongo\\/track\\.php",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "proc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 3
-    },
-    "cookies": 0.0000407
+    "performance": {},
+    "cookies": 0.000041,
+    "types": {
+        "Script": 3,
+        "Image": 3
+    }
 }

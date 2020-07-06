@@ -7,11 +7,13 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000183,
-    "sites": 9,
+    "prevalence": 0.000178,
+    "sites": 13,
     "subdomains": [
-        "web-sdk-cdn"
+        "web-sdk-cdn",
+        "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -22,24 +24,43 @@
                 "web-sdk-cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 8,
-                "window.localStorage": 8,
-                "window.sessionStorage": 8,
-                "Date.prototype.getTime": 8,
-                "Navigator.prototype.platform": 8,
-                "Screen.prototype.height": 8,
-                "Screen.prototype.width": 8
+                "Navigator.prototype.userAgent": 9,
+                "window.localStorage": 10,
+                "Date.prototype.getTime": 10,
+                "window.sessionStorage": 10,
+                "Screen.prototype.height": 9,
+                "Screen.prototype.width": 9,
+                "Navigator.prototype.platform": 9
             },
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
+        },
+        {
+            "rule": "singular\\.net\\/snglr\\/snglr_ga\\.iife\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0000203
+    "cookies": 0.0000274,
+    "types": {
+        "Script": 12
+    }
 }

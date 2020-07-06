@@ -7,24 +7,26 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000814,
-    "sites": 40,
+    "prevalence": 0.000903,
+    "sites": 66,
     "subdomains": [
         "tracking",
         "static"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "newsmaxfeednetwork\\.com\\/pub2\\/web\\/widget3\\.js",
-            "cookies": 0.000753,
+            "cookies": 0.000739,
             "fingerprinting": 0,
             "subdomains": [
                 "tracking"
             ],
             "apis": {},
-            "sites": 37,
-            "prevalence": 0.000753
+            "sites": 55,
+            "prevalence": 0.000753,
+            "cnames": []
         },
         {
             "rule": "newsmaxfeednetwork\\.com\\/web-clients\\/core\\/production\\/mainSunMar082020104658GMT0200IsraelStandardTime\\.js",
@@ -34,79 +36,98 @@
                 "static"
             ],
             "apis": {
-                "Date.prototype.getTime": 25,
-                "Event.prototype.timeStamp": 22,
-                "Navigator.prototype.platform": 20,
-                "Navigator.prototype.userAgent": 21
+                "Navigator.prototype.platform": 39,
+                "Navigator.prototype.userAgent": 40,
+                "Date.prototype.getTime": 40,
+                "Event.prototype.timeStamp": 39
             },
-            "sites": 25,
-            "prevalence": 0.000509
+            "sites": 40,
+            "prevalence": 0.000547,
+            "cnames": []
         },
         {
             "rule": "newsmaxfeednetwork\\.com\\/pub2\\/report\\.json",
-            "cookies": 0.000753,
+            "cookies": 0.000821,
             "fingerprinting": 0,
             "subdomains": [
                 "tracking"
             ],
             "apis": {},
-            "sites": 37,
-            "prevalence": 0.000753
-        },
-        {
-            "rule": "newsmaxfeednetwork\\.com\\/pub2\\/itemimpression\\.json",
-            "cookies": 0.00059,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tracking"
-            ],
-            "apis": {},
-            "sites": 37,
-            "prevalence": 0.000753
+            "sites": 60,
+            "prevalence": 0.000821,
+            "cnames": []
         },
         {
             "rule": "newsmaxfeednetwork\\.com\\/pub2\\/itemwin\\.json",
-            "cookies": 0.00059,
+            "cookies": 0.000561,
             "fingerprinting": 0,
             "subdomains": [
                 "tracking"
             ],
             "apis": {},
-            "sites": 36,
-            "prevalence": 0.000732
+            "sites": 52,
+            "prevalence": 0.000712,
+            "cnames": []
+        },
+        {
+            "rule": "newsmaxfeednetwork\\.com\\/pub2\\/itemimpression\\.json",
+            "cookies": 0.000657,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 54,
+            "prevalence": 0.000739,
+            "cnames": []
         },
         {
             "rule": "newsmaxfeednetwork\\.com\\/pub2\\/widgetLoadPixel\\.json",
-            "cookies": 0.000712,
+            "cookies": 0.00067,
             "fingerprinting": 0,
             "subdomains": [
                 "tracking"
             ],
             "apis": {},
-            "sites": 37,
-            "prevalence": 0.000753
+            "sites": 54,
+            "prevalence": 0.000739,
+            "cnames": []
+        },
+        {
+            "rule": "newsmaxfeednetwork\\.com\\/pub2\\/newsMaxLog\\/write\\.json",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "newsmaxfeednetwork\\.com\\/pub2\\/error\\/log\\.js",
-            "cookies": 0.000386,
+            "cookies": 0.000315,
             "fingerprinting": 0,
             "subdomains": [
                 "tracking"
             ],
             "apis": {},
-            "sites": 29,
-            "prevalence": 0.00059
+            "sites": 33,
+            "prevalence": 0.000452,
+            "cnames": []
         },
         {
             "rule": "newsmaxfeednetwork\\.com\\/pub2\\/itemview\\.json",
-            "cookies": 0.000102,
+            "cookies": 0.000164,
             "fingerprinting": 0,
             "subdomains": [
                 "tracking"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -116,5 +137,10 @@
         "cpu": 1,
         "cache": 1
     },
-    "cookies": 0.000773
+    "cookies": 0.000862,
+    "types": {
+        "Script": 95,
+        "Image": 265,
+        "XHR": 3
+    }
 }

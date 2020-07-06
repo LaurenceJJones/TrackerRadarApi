@@ -4,28 +4,35 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
-    "sites": 5,
+    "prevalence": 0.000109,
+    "sites": 8,
     "subdomains": [],
-    "fingerprinting": 0,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "trmads\\.eu\\/get",
-            "cookies": 0.000102,
+            "cookies": 0.000109,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.appVersion": 2,
+                "window.devicePixelRatio": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
+        },
+        {
+            "rule": "trmads\\.eu\\/get",
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "trmads\\.eu\\/get",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -35,5 +42,9 @@
         "cpu": 0,
         "cache": 0
     },
-    "cookies": 0.000102
+    "cookies": 0.000109,
+    "types": {
+        "Script": 8,
+        "Stylesheet": 5
+    }
 }

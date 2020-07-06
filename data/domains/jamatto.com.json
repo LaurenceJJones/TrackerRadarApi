@@ -7,36 +7,39 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
-    "sites": 2,
+    "prevalence": 0.0000684,
+    "sites": 5,
     "subdomains": [
         "api"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "jamatto\\.com\\/api\\/js\\/jamatto\\.min\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000684,
             "fingerprinting": 1,
             "subdomains": [
                 "api"
             ],
             "apis": {
-                "window.localStorage": 2
+                "window.localStorage": 4
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "jamatto\\.com\\/api\\/css\\/jamatto\\.css",
-            "cookies": 0.0000407,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "api"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -46,5 +49,9 @@
         "cpu": 0,
         "cache": 0
     },
-    "cookies": 0.0000407
+    "cookies": 0.0000684,
+    "types": {
+        "Script": 5,
+        "Stylesheet": 4
+    }
 }

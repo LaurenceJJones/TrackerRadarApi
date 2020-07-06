@@ -7,33 +7,36 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000285,
-    "sites": 14,
+    "prevalence": 0.000178,
+    "sites": 13,
     "subdomains": [
-        "newsource-embed-prd.ns"
+        "www"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "cnn\\.com\\/videos\\/newsource-video-embed\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "rule": "cnn\\.com\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
             "subdomains": [
-                "newsource-embed-prd.ns"
+                "www"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2
-            },
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 2,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0
+    "cookies": 0.0000137,
+    "types": {
+        "Image": 2
+    }
 }

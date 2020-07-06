@@ -7,59 +7,103 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000936,
-    "sites": 46,
+    "prevalence": 0.000807,
+    "sites": 59,
     "subdomains": [
         "sm.rtb",
         "tech.rtb",
-        "blocked"
+        "blocked",
+        "static"
     ],
-    "fingerprinting": 0,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "mts\\.ru\\/p",
-            "cookies": 0.000793,
+            "cookies": 0.000602,
             "fingerprinting": 0,
             "subdomains": [
                 "sm.rtb"
             ],
             "apis": {},
-            "sites": 39,
-            "prevalence": 0.000793
+            "sites": 45,
+            "prevalence": 0.000616,
+            "cnames": []
+        },
+        {
+            "rule": "mts\\.ru\\/match\\/second",
+            "cookies": 0.000602,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sm.rtb"
+            ],
+            "apis": {},
+            "sites": 44,
+            "prevalence": 0.000602,
+            "cnames": []
         },
         {
             "rule": "mts\\.ru\\/",
-            "cookies": 0.000793,
+            "cookies": 0.000602,
             "fingerprinting": 0,
             "subdomains": [
-                "tech.rtb"
+                "tech.rtb",
+                "blocked"
             ],
             "apis": {},
-            "sites": 39,
-            "prevalence": 0.000793
-        },
-        {
-            "rule": "mts\\.ru\\/sg",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tech.rtb"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 45,
+            "prevalence": 0.000616,
+            "cnames": []
         },
         {
             "rule": "mts\\.ru\\/",
-            "cookies": 0.0000203,
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "blocked"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "mts\\.ru\\/mts_block\\/127472\\/f\\/css\\/promo\\.bundle\\.css",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "blocked",
-                "tech.rtb"
+                "static"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "mts\\.ru\\/mts_block\\/127472\\/f\\/css\\/fonts\\/corpid\\/CorpidE1SCd_Regular\\.woff",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "mts\\.ru\\/sg",
+            "cookies": 0.000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tech.rtb"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -69,5 +113,11 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000936
+    "cookies": 0.000794,
+    "types": {
+        "Image": 144,
+        "Document": 2,
+        "Stylesheet": 2,
+        "Font": 2
+    }
 }

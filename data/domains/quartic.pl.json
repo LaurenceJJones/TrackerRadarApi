@@ -4,11 +4,14 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
-    "sites": 2,
+    "prevalence": 0.0000958,
+    "sites": 7,
     "subdomains": [
-        "qcs"
+        "qcs",
+        "qcs-ir",
+        "qsdw1-ir"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -16,21 +19,27 @@
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "qcs"
+                "qcs",
+                "qcs-ir",
+                "qsdw1-ir"
             ],
             "apis": {
-                "Date.prototype.getTime": 2
+                "Date.prototype.getTime": 6
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0000407
+    "cookies": 0.0000821,
+    "types": {
+        "Script": 6
+    }
 }

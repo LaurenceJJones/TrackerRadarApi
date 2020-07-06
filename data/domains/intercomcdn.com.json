@@ -9,11 +9,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00323,
-    "sites": 159,
+    "prevalence": 0.00386,
+    "sites": 282,
     "subdomains": [
         "js"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -24,90 +25,97 @@
                 "js"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 159
+                "Navigator.prototype.userAgent": 281
             },
-            "sites": 159,
-            "prevalence": 0.00323
+            "sites": 282,
+            "prevalence": 0.00386,
+            "cnames": []
         },
         {
-            "rule": "intercomcdn\\.com\\/frame-modern\\.eabd1913\\.js",
-            "cookies": 0.00297,
+            "rule": "intercomcdn\\.com\\/frame\\.d6193721\\.js",
+            "cookies": 0.0035,
             "fingerprinting": 1,
             "subdomains": [
                 "js"
             ],
             "apis": {
-                "window.localStorage": 158,
-                "window.sessionStorage": 158,
-                "Navigator.prototype.doNotTrack": 67,
-                "Navigator.prototype.userAgent": 154,
-                "Document.cookie getter": 146,
-                "Date.prototype.getTime": 148,
-                "Document.cookie setter": 146,
-                "Screen.prototype.width": 7,
-                "Screen.prototype.height": 7,
-                "Navigator.prototype.vendor": 5,
-                "Navigator.prototype.languages": 5,
-                "HTMLMediaElement.prototype.canPlayType": 4,
-                "Element.prototype.getClientRects": 1
+                "window.localStorage": 281,
+                "window.sessionStorage": 281,
+                "Document.cookie getter": 259,
+                "Date.prototype.getTime": 259,
+                "Document.cookie setter": 256,
+                "Navigator.prototype.userAgent": 257,
+                "Navigator.prototype.doNotTrack": 104,
+                "Screen.prototype.width": 9,
+                "Screen.prototype.height": 9,
+                "Element.prototype.getClientRects": 1,
+                "Navigator.prototype.vendor": 15,
+                "Navigator.prototype.languages": 15,
+                "HTMLMediaElement.prototype.canPlayType": 15,
+                "Navigator.prototype.maxTouchPoints": 1
             },
-            "sites": 159,
-            "prevalence": 0.00323
+            "sites": 282,
+            "prevalence": 0.00386,
+            "cnames": []
         },
         {
-            "rule": "intercomcdn\\.com\\/vendor-modern\\.b44097f3\\.js",
+            "rule": "intercomcdn\\.com\\/vendor\\.b27056cc\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js"
             ],
             "apis": {
-                "window.localStorage": 158,
-                "Navigator.prototype.userAgent": 149,
-                "Date.prototype.getTime": 156
+                "window.localStorage": 281,
+                "Navigator.prototype.userAgent": 256,
+                "Date.prototype.getTime": 254
             },
-            "sites": 159,
-            "prevalence": 0.00323
+            "sites": 282,
+            "prevalence": 0.00386,
+            "cnames": []
         },
         {
-            "rule": "intercomcdn\\.com\\/vendors~app-modern\\.cbcf51d6\\.js",
+            "rule": "intercomcdn\\.com\\/vendors~app\\.9435496b\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js"
             ],
             "apis": {
-                "Event.prototype.timeStamp": 2
+                "Event.prototype.timeStamp": 10
             },
-            "sites": 157,
-            "prevalence": 0.00319
+            "sites": 23,
+            "prevalence": 0.000315,
+            "cnames": []
         },
         {
-            "rule": "intercomcdn\\.com\\/vendors~banner~message~messenger-modern\\.bd42e243\\.js",
+            "rule": "intercomcdn\\.com\\/vendors~banner~message~messenger\\.41aac060\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js"
             ],
             "apis": {
-                "CanvasRenderingContext2D.prototype.getImageData": 4,
-                "HTMLCanvasElement.prototype.constructor": 2
+                "HTMLCanvasElement.prototype.constructor": 12,
+                "CanvasRenderingContext2D.prototype.getImageData": 14
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 15,
+            "prevalence": 0.000205,
+            "cnames": []
         },
         {
-            "rule": "intercomcdn\\.com\\/vendors~message-modern\\.28915019\\.js",
+            "rule": "intercomcdn\\.com\\/vendors~message\\.d7695ea1\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 4
+                "Navigator.prototype.userAgent": 13
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 15,
+            "prevalence": 0.000205,
+            "cnames": []
         }
     ],
     "categories": [
@@ -117,9 +125,12 @@
     ],
     "performance": {
         "time": 1,
-        "size": 2,
-        "cpu": 2,
+        "size": 1,
+        "cpu": 1,
         "cache": 1
     },
-    "cookies": 0.00297
+    "cookies": 0.0035,
+    "types": {
+        "Script": 899
+    }
 }

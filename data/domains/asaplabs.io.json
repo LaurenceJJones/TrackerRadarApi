@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
-    "sites": 4,
+    "prevalence": 0.000123,
+    "sites": 9,
     "subdomains": [
         "geo.s"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -19,22 +20,24 @@
                 "geo.s"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Document.cookie getter": 3
+                "Navigator.prototype.userAgent": 7,
+                "Document.cookie getter": 7
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
             "rule": "asaplabs\\.io\\/public\\/location",
-            "cookies": 0.000061,
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
                 "geo.s"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -44,5 +47,9 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.0000814
+    "cookies": 0.000123,
+    "types": {
+        "Script": 7,
+        "XHR": 7
+    }
 }

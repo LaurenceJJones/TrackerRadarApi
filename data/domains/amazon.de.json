@@ -9,45 +9,48 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000122,
-    "sites": 6,
+    "prevalence": 0.000219,
+    "sites": 16,
     "subdomains": [
-        "payments",
-        "ws"
+        "payments"
     ],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 0,
     "resources": [
         {
             "rule": "amazon\\.de\\/cs\\/uedata",
-            "cookies": 0.000102,
+            "cookies": 0.000205,
             "fingerprinting": 0,
             "subdomains": [
                 "payments"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 15,
+            "prevalence": 0.000205,
+            "cnames": []
         },
         {
-            "rule": "amazon\\.de\\/widgets\\/q",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "rule": "amazon\\.de\\/gp\\/widgets\\/sessionstabilizer",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
             "subdomains": [
-                "ws"
+                "payments"
             ],
-            "apis": {
-                "Date.prototype.getTime": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000102
+    "cookies": 0.000205,
+    "types": {
+        "XHR": 19
+    }
 }

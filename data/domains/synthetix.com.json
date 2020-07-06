@@ -7,11 +7,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
+    "prevalence": 0.0000684,
     "sites": 5,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -23,16 +24,17 @@
             ],
             "apis": {
                 "window.indexedDB": 2,
-                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.userAgent": 2,
                 "Date.prototype.getTimezoneOffset": 2,
-                "Navigator.prototype.onLine": 1
+                "Navigator.prototype.onLine": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "synthetix\\.com\\/penfield\\/original\\/get_synthetix\\.min\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 2,
             "subdomains": [
                 "cdn"
@@ -48,7 +50,8 @@
                 "Document.cookie setter": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -56,7 +59,10 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.0000407
+    "cookies": 0.0000274,
+    "types": {
+        "Script": 4
+    }
 }

@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00256,
-    "sites": 126,
+    "prevalence": 0.00287,
+    "sites": 210,
     "subdomains": [
         "poweredby"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -19,21 +20,23 @@
                 "poweredby"
             ],
             "apis": {
-                "Date.prototype.getTime": 115
+                "Date.prototype.getTime": 205
             },
-            "sites": 119,
-            "prevalence": 0.00242
+            "sites": 205,
+            "prevalence": 0.0028,
+            "cnames": []
         },
         {
             "rule": "jads\\.co\\/adshow\\.php",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "poweredby"
             ],
             "apis": {},
-            "sites": 113,
-            "prevalence": 0.0023
+            "sites": 197,
+            "prevalence": 0.0027,
+            "cnames": []
         },
         {
             "rule": "jads\\.co\\/js\\/jfc\\.js",
@@ -43,10 +46,11 @@
                 "poweredby"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 4
+                "Navigator.prototype.userAgent": 3
             },
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -56,5 +60,9 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.0023
+    "cookies": 0.00264,
+    "types": {
+        "Script": 208,
+        "Document": 197
+    }
 }

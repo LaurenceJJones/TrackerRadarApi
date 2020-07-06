@@ -7,73 +7,77 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000224,
+    "prevalence": 0.000151,
     "sites": 11,
     "subdomains": [
         "securite"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "01net\\.com\\/ac",
-            "cookies": 0.000102,
-            "fingerprinting": 1,
-            "subdomains": [
-                "securite"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 4,
-                "Navigator.prototype.userAgent": 3
-            },
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "01net\\.com\\/0\\/call",
-            "cookies": 0.000122,
+            "rule": "01net\\.com\\/13\\/call",
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [
                 "securite"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
             "rule": "01net\\.com\\/h\\/nshow",
-            "cookies": 0.000122,
+            "cookies": 0.000137,
             "fingerprinting": 1,
             "subdomains": [
                 "securite"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "Date.prototype.getTime": 3
+                "Navigator.prototype.userAgent": 10,
+                "Date.prototype.getTime": 10,
+                "Navigator.prototype.platform": 1
             },
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
             "rule": "01net\\.com\\/h\\/aip",
-            "cookies": 0.0000814,
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [
                 "securite"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
             "rule": "01net\\.com\\/setuid",
-            "cookies": 0.000102,
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [
                 "securite"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "01net\\.com\\/\\/13\\/call",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "securite"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -83,5 +87,10 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000163
+    "cookies": 0.000123,
+    "types": {
+        "XHR": 12,
+        "Script": 10,
+        "Image": 19
+    }
 }

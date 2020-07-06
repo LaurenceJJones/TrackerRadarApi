@@ -7,46 +7,70 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000976,
-    "sites": 48,
+    "prevalence": 0.00067,
+    "sites": 49,
     "subdomains": [
         "cdn.static"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "zdbb\\.net\\/js\\/z0WVjCBSEeGLoxIxOQVEwQ\\.min\\.js",
-            "cookies": 0.000915,
+            "cookies": 0.000643,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn.static"
             ],
             "apis": {
-                "Date.prototype.getTime": 45,
-                "Document.cookie getter": 46,
-                "Document.cookie setter": 45,
-                "window.localStorage": 38
+                "Document.cookie getter": 47,
+                "Date.prototype.getTime": 47,
+                "Document.cookie setter": 47,
+                "window.localStorage": 36
             },
-            "sites": 46,
-            "prevalence": 0.000936
+            "sites": 47,
+            "prevalence": 0.000643,
+            "cnames": []
         },
         {
             "rule": "zdbb\\.net\\/l\\/z0WVjCBSEeGLoxIxOQVEwQ",
-            "cookies": 0.000956,
+            "cookies": 0.000547,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 48,
-            "prevalence": 0.000976
+            "prevalence": 0.000657,
+            "cnames": []
         },
         {
             "rule": "zdbb\\.net\\/l\\/qI109lRAEeGCiBIxORcFRw\\/",
-            "cookies": 0.000956,
+            "cookies": 0.000575,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 47,
-            "prevalence": 0.000956
+            "sites": 42,
+            "prevalence": 0.000575,
+            "cnames": []
+        },
+        {
+            "rule": "zdbb\\.net\\/l\\/qI109lRAEeGCiBIxORcFRw\\/",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "zdbb\\.net\\/n\\/eAAAAAAAAAAAAAAAAAAAAA",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -56,5 +80,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000976
+    "cookies": 0.000657,
+    "types": {
+        "Script": 51,
+        "Image": 95
+    }
 }

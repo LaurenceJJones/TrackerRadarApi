@@ -6,6 +6,7 @@
         "adrecover.com",
         "ambient-platform.com",
         "arstechnica.net",
+        "cachefly.com",
         "cachefly.net",
         "gsfn.us",
         "m-pathy.com",
@@ -17,8 +18,8 @@
         "yandycdn.com"
     ],
     "prevalence": {
-        "tracking": 0.0026,
-        "nonTracking": 0.000814,
-        "total": 0.00341
+        "tracking": 0.00238,
+        "nonTracking": 0.000602,
+        "total": 0.00298
     }
 }

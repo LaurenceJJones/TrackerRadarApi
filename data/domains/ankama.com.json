@@ -7,24 +7,24 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
-    "sites": 2,
+    "prevalence": 0.000057,
+    "sites": 4,
     "subdomains": [
         "account",
         "static"
     ],
-    "fingerprinting": 2,
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "ankama\\.com\\/sso",
-            "cookies": 0.0000407,
+            "cookies": 0.0000428,
             "fingerprinting": 0,
             "subdomains": [
                 "account"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.0000428
         },
         {
             "rule": "ankama\\.com\\/g\\/common\\.js",
@@ -34,15 +34,13 @@
                 "static"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 1,
                 "window.localStorage": 2,
                 "HTMLCanvasElement.prototype.constructor": 2,
                 "Date.prototype.getTime": 2,
-                "Document.cookie getter": 1,
-                "Event.prototype.timeStamp": 2
+                "Event.prototype.timeStamp": 3
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.0000428
         }
     ],
     "categories": [],
@@ -52,5 +50,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0000407
+    "cookies": 0.0000428,
+    "types": {
+        "Document": 3,
+        "Script": 3
+    }
 }

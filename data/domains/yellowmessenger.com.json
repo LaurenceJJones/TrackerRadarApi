@@ -4,55 +4,70 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
-    "sites": 2,
+    "prevalence": 0.0000547,
+    "sites": 4,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "yellowmessenger\\.com\\/plugin\\/version43\\/dist\\/main\\.min\\.js",
+            "rule": "yellowmessenger\\.com\\/plugin\\/latest\\/dist\\/main\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 2,
-                "Document.cookie getter": 2,
-                "window.localStorage": 2
+                "Navigator.prototype.userAgent": 4,
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 4,
+                "Document.cookie getter": 3,
+                "window.localStorage": 4
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "yellowmessenger\\.com\\/plugin\\/version43\\/dist\\/widget\\.min\\.js",
+            "rule": "yellowmessenger\\.com\\/plugin\\/latest\\/dist\\/widget\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Screen.prototype.width": 2,
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2,
-                "Event.prototype.timeStamp": 2,
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Screen.prototype.width": 4,
+                "window.localStorage": 4,
+                "Date.prototype.getTime": 4,
+                "Event.prototype.timeStamp": 4,
                 "Element.prototype.getClientRects": 1
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "yellowmessenger\\.com\\/plugin\\/latest\\/dist\\/strophe\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 1
-    },
-    "cookies": 0
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Script": 12
+    }
 }

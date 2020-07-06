@@ -7,31 +7,36 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
-    "sites": 5,
+    "prevalence": 0.0000821,
+    "sites": 6,
     "subdomains": [
         "snowplow"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "swm\\.digital\\/i",
-            "cookies": 0.0000814,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "snowplow"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.000102
+    "cookies": 0.0000821,
+    "types": {
+        "Image": 5
+    }
 }

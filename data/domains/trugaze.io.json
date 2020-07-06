@@ -4,16 +4,17 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000407,
-    "sites": 20,
+    "prevalence": 0.000219,
+    "sites": 16,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "trugaze\\.io\\/bootstrap\\/NIFG6TLZ\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
@@ -24,11 +25,12 @@
                 "Document.cookie setter": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "trugaze\\.io\\/bootstrap\\/7WX2GTY5\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
@@ -39,11 +41,12 @@
                 "Document.cookie setter": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "trugaze\\.io\\/bootstrap\\/9SPXRFCO\\.js",
-            "cookies": 0.0000407,
+            "rule": "trugaze\\.io\\/bootstrap\\/C6TNC4GH\\.js",
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
@@ -54,15 +57,19 @@
                 "Document.cookie setter": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 1
+        "cache": 0
     },
-    "cookies": 0.000346
+    "cookies": 0.000219,
+    "types": {
+        "Script": 6
+    }
 }

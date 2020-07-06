@@ -4,38 +4,41 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
-    "sites": 2,
+    "prevalence": 0.0000821,
+    "sites": 6,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "spincar\\.com\\/static\\.swipetospin\\.com\\/ana2\\/client_id\\.html",
+            "rule": "spincar\\.com\\/spincar-static\\/ana2\\/client_id\\.html",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "window.localStorage": 2
+                "window.localStorage": 6
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
-            "rule": "spincar\\.com\\/static\\.swipetospin\\.com\\/ana2\\/client_id\\.html",
+            "rule": "spincar\\.com\\/spincar-static\\/ana2\\/client_id\\.html",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "window.localStorage": 2
+                "window.localStorage": 6
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -43,7 +46,11 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0
+    "cookies": 0.0000547,
+    "types": {
+        "Document": 6,
+        "XHR": 6
+    }
 }

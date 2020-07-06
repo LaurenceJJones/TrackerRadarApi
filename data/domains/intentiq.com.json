@@ -9,27 +9,42 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0193,
-    "sites": 951,
+    "prevalence": 0.0274,
+    "sites": 2004,
     "subdomains": [
         "sync",
+        "api",
         "pe",
-        "ads",
-        "api"
+        "ads"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "intentiq\\.com\\/profiles_engine\\/ProfilesEngineServlet",
-            "cookies": 0.00966,
+            "cookies": 0.0153,
             "fingerprinting": 0,
             "subdomains": [
                 "sync",
+                "api",
                 "pe"
             ],
             "apis": {},
-            "sites": 480,
-            "prevalence": 0.00976
+            "sites": 1129,
+            "prevalence": 0.0154,
+            "cnames": []
+        },
+        {
+            "rule": "intentiq\\.com\\/profiles_engine\\/ProfilesEngineServlet",
+            "cookies": 0.00758,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 555,
+            "prevalence": 0.00759,
+            "cnames": []
         },
         {
             "rule": "intentiq\\.com\\/ads\\/scripts\\/iiqPEB_iframe\\.js",
@@ -39,32 +54,23 @@
                 "ads"
             ],
             "apis": {
-                "Date.prototype.getTime": 54
+                "Date.prototype.getTime": 96
             },
-            "sites": 54,
-            "prevalence": 0.0011
+            "sites": 97,
+            "prevalence": 0.00133,
+            "cnames": []
         },
         {
             "rule": "intentiq\\.com\\/profiles_engine\\/ProfilesEngineServlet",
-            "cookies": 0.00108,
+            "cookies": 0.00127,
             "fingerprinting": 0,
             "subdomains": [
                 "api"
             ],
             "apis": {},
-            "sites": 54,
-            "prevalence": 0.0011
-        },
-        {
-            "rule": "intentiq\\.com\\/profiles_engine\\/ProfilesEngineServlet",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 96,
+            "prevalence": 0.00131,
+            "cnames": []
         }
     ],
     "categories": [
@@ -77,8 +83,13 @@
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 2,
+        "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.00982
+    "cookies": 0.0223,
+    "types": {
+        "Image": 1129,
+        "Script": 652,
+        "Fetch": 96
+    }
 }

@@ -7,61 +7,71 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000061,
+    "prevalence": 0.000041,
     "sites": 3,
     "subdomains": [
         "www",
-        "thumbnailer"
+        "thumbnailer",
+        "widget"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
             "rule": "mixcloud\\.com\\/widget\\/iframe\\/",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.userAgent": 1,
+                "PerformanceTiming.prototype.navigationStart": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "mixcloud\\.com\\/media\\/css\\/player_widget\\.99773caa8a8fe6c14cc8\\.css",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "mixcloud\\.com\\/media\\/css\\/player_widget\\.b9f663ed8231d442fef5\\.css",
-            "cookies": 0.0000203,
+            "rule": "mixcloud\\.com\\/media\\/js\\/player-widget_manifest\\.1f2f62ca76c19d3890cfm\\.js",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "mixcloud\\.com\\/media\\/js\\/player-widget_manifest\\.7634316982bd6cce30d2m\\.js",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "mixcloud\\.com\\/unsafe\\/180x180\\/extaudio\\/e\\/d\\/7\\/9\\/2ef4-4ec6-4dc2-9d5c-1a66284ca147",
-            "cookies": 0.0000203,
+            "rule": "mixcloud\\.com\\/unsafe\\/180x180\\/extaudio\\/b\\/5\\/a\\/f\\/a03f-861b-4294-b04b-61c19211f401",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "thumbnailer"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "mixcloud\\.com\\/media\\/js\\/player-widget_vendor\\.96898820d867d1fdee11m\\.js",
-            "cookies": 0.0000203,
+            "rule": "mixcloud\\.com\\/media\\/js\\/player-widget_vendor\\.7117f7fc404a6782b968m\\.js",
+            "cookies": 0.0000137,
             "fingerprinting": 1,
             "subdomains": [
                 "www"
@@ -71,11 +81,12 @@
                 "console.memory": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "mixcloud\\.com\\/media\\/js\\/player-widget\\.aca9aad4b9fede0e80e9m\\.js",
-            "cookies": 0.0000203,
+            "rule": "mixcloud\\.com\\/media\\/js\\/player-widget\\.acdb1d52b4d2462957cdm\\.js",
+            "cookies": 0.0000137,
             "fingerprinting": 1,
             "subdomains": [
                 "www"
@@ -88,15 +99,42 @@
                 "URL.createObjectURL": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "mixcloud\\.com\\/media\\/images\\/player-widget\\/widget-sprite-8\\.png",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "mixcloud\\.com\\/media\\/js\\/widgetApi\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www",
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 1
-    },
-    "cookies": 0.000061
+    "performance": {},
+    "cookies": 0.000041,
+    "types": {
+        "Document": 2,
+        "Stylesheet": 2,
+        "Script": 8,
+        "Image": 4
+    }
 }

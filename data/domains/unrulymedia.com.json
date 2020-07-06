@@ -9,38 +9,55 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00576,
-    "sites": 283,
+    "prevalence": 0.00519,
+    "sites": 379,
     "subdomains": [
         "usermatch.targeting",
         "video",
-        "targeting",
-        "stats3",
         "pre-usermatch.targeting"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "unrulymedia\\.com\\/usermatch\\/all\\/checkp",
-            "cookies": 0.00124,
+            "cookies": 0.0014,
             "fingerprinting": 0,
             "subdomains": [
                 "usermatch.targeting"
             ],
             "apis": {},
-            "sites": 61,
-            "prevalence": 0.00124
+            "sites": 102,
+            "prevalence": 0.0014,
+            "cnames": []
         },
         {
             "rule": "unrulymedia\\.com\\/usermatch\\/tremor\\/OPTOUT",
-            "cookies": 0.000875,
+            "cookies": 0.00127,
             "fingerprinting": 0,
             "subdomains": [
                 "usermatch.targeting"
             ],
             "apis": {},
-            "sites": 43,
-            "prevalence": 0.000875
+            "sites": 94,
+            "prevalence": 0.00129,
+            "cnames": []
+        },
+        {
+            "rule": "unrulymedia\\.com\\/native\\/native_v1\\.0\\.1669-0-ge7ea92e\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "video"
+            ],
+            "apis": {
+                "window.name": 42,
+                "Date.prototype.getTime": 42,
+                "Navigator.prototype.userAgent": 42
+            },
+            "sites": 42,
+            "prevalence": 0.000575,
+            "cnames": []
         },
         {
             "rule": "unrulymedia\\.com\\/native\\/native-loader\\.js",
@@ -50,164 +67,233 @@
                 "video"
             ],
             "apis": {
-                "window.name": 40
+                "window.name": 43
             },
-            "sites": 41,
-            "prevalence": 0.000834
+            "sites": 44,
+            "prevalence": 0.000602,
+            "cnames": []
         },
         {
-            "rule": "unrulymedia\\.com\\/native\\/native_v1\\.0\\.1608-0-g3152f12\\.js",
+            "rule": "unrulymedia\\.com\\/native\\/chunks\\/chunk-vendors~populatePlacement-3c90f8dec614439c8cf7\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "video"
             ],
             "apis": {
-                "window.name": 38,
-                "Date.prototype.getTime": 38,
-                "Navigator.prototype.userAgent": 38
+                "Date.prototype.getTime": 6
             },
-            "sites": 38,
-            "prevalence": 0.000773
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
-            "rule": "unrulymedia\\.com\\/audience",
-            "cookies": 0.00104,
+            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/e4c53oaqbPGU",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "targeting"
+                "pre-usermatch.targeting"
             ],
             "apis": {},
-            "sites": 52,
-            "prevalence": 0.00106
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "unrulymedia\\.com\\/audience\\/blank\\.gif",
-            "cookies": 0.000834,
+            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/TVKGDouWiNf1",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "stats3"
+                "pre-usermatch.targeting"
             ],
             "apis": {},
-            "sites": 41,
-            "prevalence": 0.000834
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "unrulymedia\\.com\\/native\\/chunks\\/chunk-vendors~populatePlacement-2084315d3ad5dab2be56\\.js",
+            "rule": "unrulymedia\\.com\\/native\\/native_v1\\.0\\.1670-0-ge94b86e\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "video"
             ],
             "apis": {
+                "window.name": 4,
                 "Date.prototype.getTime": 4,
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 1
+                "Navigator.prototype.userAgent": 4
             },
             "sites": 4,
-            "prevalence": 0.0000814
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/I5gmHXi7ECc7",
-            "cookies": 0.0000407,
+            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/3Px08MMaJZMd",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "pre-usermatch.targeting"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "unrulymedia\\.com\\/native\\/native_v1\\.0\\.1609-0-g2e763e5\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "video"
-            ],
-            "apis": {
-                "window.name": 5,
-                "Date.prototype.getTime": 5,
-                "Navigator.prototype.userAgent": 5
-            },
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/SJObFkI9ixAC",
-            "cookies": 0.0000407,
+            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/RMnbDk96bPXD",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "pre-usermatch.targeting"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "unrulymedia\\.com\\/usermatch\\/iponweb\\/9595395a-75f9-4cb9-9f05-45bb3962813a",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "usermatch.targeting"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/au26qJ0emv0J",
-            "cookies": 0.0000407,
+            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/RiA8F5gZyLXq",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "pre-usermatch.targeting"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/G8HRv0fRf7oJ",
-            "cookies": 0.0000407,
+            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/6LrlKj4kNj3T",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "pre-usermatch.targeting"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/wZQGyDU0zAEX",
-            "cookies": 0.0000407,
+            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/w2fbzCTmwkjx",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "pre-usermatch.targeting"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/aTBNO9O5nHTT",
-            "cookies": 0.0000407,
+            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/5UfwjevvtLg9",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "pre-usermatch.targeting"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/pCPZSXYWTq9m",
-            "cookies": 0.0000407,
+            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/mIgbF2vmbpmd",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "pre-usermatch.targeting"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/v88tEyzneUpY",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pre-usermatch.targeting"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/NyWe0kpBFuiU",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pre-usermatch.targeting"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/Hb1O2rtBFFAU",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pre-usermatch.targeting"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/Nx8yFsRFMnsx",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pre-usermatch.targeting"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/O8xryGNaNgQT",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pre-usermatch.targeting"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/JpMWRTxMagHz",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pre-usermatch.targeting"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "unrulymedia\\.com\\/pre-usermatch\\/pulsepoint\\/QYDzyg1MIQSz",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pre-usermatch.targeting"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -223,5 +309,10 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.00423
+    "cookies": 0.00379,
+    "types": {
+        "Script": 198,
+        "Document": 94,
+        "Image": 32
+    }
 }

@@ -7,31 +7,18 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
-    "sites": 2,
+    "prevalence": 0.000041,
+    "sites": 3,
     "subdomains": [
         "baul",
         "medicion"
     ],
-    "fingerprinting": 3,
+    "cnames": [],
+    "fingerprinting": 2,
     "resources": [
         {
-            "rule": "mediaset\\.es\\/dist\\/testAB\\.bundle\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "baul"
-            ],
-            "apis": {
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
             "rule": "mediaset\\.es\\/dist\\/vendor\\.bundle\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "baul"
@@ -46,38 +33,27 @@
                 "Document.cookie setter": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "mediaset\\.es\\/dist\\/clients\\.bundle\\.js",
-            "cookies": 0.0000407,
-            "fingerprinting": 3,
-            "subdomains": [
-                "baul"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2,
-                "Document.cookie getter": 2,
-                "Document.cookie setter": 2,
-                "Navigator.prototype.userAgent": 2,
-                "window.matchMedia(\"prefers-reduced-motion\")": 1,
-                "Navigator.prototype.storage": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "mediaset\\.es\\/dist\\/assets\\/omniture\\/visitorapi\\.min\\.js",
-            "cookies": 0,
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "baul"
             ],
             "apis": {
-                "Date.prototype.getTime": 2
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.matchMedia(\"prefers-reduced-motion\")": 1,
+                "Screen.prototype.width": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "mediaset\\.es\\/js\\/modern\\/s_code\\.js",
@@ -92,7 +68,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -102,5 +79,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.0000407
+    "cookies": 0.0000274,
+    "types": {
+        "Script": 6
+    }
 }

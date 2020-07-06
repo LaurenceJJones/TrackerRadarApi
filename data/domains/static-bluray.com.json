@@ -4,74 +4,55 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000061,
-    "sites": 3,
+    "prevalence": 0.0000137,
+    "sites": 1,
     "subdomains": [
-        "ssl",
-        "images4",
-        "images2",
-        "images",
-        "images3"
+        "images"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "static-bluray\\.com\\/bluray\\.js",
-            "cookies": 0.0000203,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ssl"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2,
-                "Event.prototype.timeStamp": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "static-bluray\\.com\\/movies\\/covers\\/188975_medium\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "static-bluray\\.com\\/movies\\/covers\\/271487_medium\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "images4",
-                "images2"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "static-bluray\\.com\\/movies\\/covers\\/248092_medium\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "images",
-                "images3"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "static-bluray\\.com\\/movies\\/covers\\/245150_medium\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "images3",
                 "images"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "static-bluray\\.com\\/movies\\/covers\\/271150_medium\\.jpg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "static-bluray\\.com\\/movies\\/covers\\/271419_medium\\.jpg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 1
-    },
-    "cookies": 0.000061
+    "performance": {},
+    "cookies": 0.0000137,
+    "types": {
+        "Image": 6
+    }
 }

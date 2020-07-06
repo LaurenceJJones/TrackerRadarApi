@@ -7,25 +7,28 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
-    "sites": 2,
+    "prevalence": 0.0000547,
+    "sites": 4,
     "subdomains": [
         "secure"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "actblue\\.com\\/cf\\/assets\\/actblue\\.js",
-            "cookies": 0.0000203,
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "secure"
             ],
             "apis": {
-                "window.localStorage": 2
+                "window.localStorage": 2,
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -33,7 +36,10 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 0
+        "cache": 1
     },
-    "cookies": 0.0000407
+    "cookies": 0.0000274,
+    "types": {
+        "Script": 2
+    }
 }

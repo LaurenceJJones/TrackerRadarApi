@@ -4,350 +4,122 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00201,
-    "sites": 99,
+    "prevalence": 0.000698,
+    "sites": 51,
     "subdomains": [
         "12007250"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/171_Mi0j52Bevy7TZjTn\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "pix-cdn\\.org\\/a\\/pjexo\\.html",
+            "cookies": 0.000369,
+            "fingerprinting": 0,
+            "subdomains": [
+                "12007250"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.000369,
+            "cnames": []
+        },
+        {
+            "rule": "pix-cdn\\.org\\/na\\/see\\/Bi_495359\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "12007250"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/230_UtBOLvuXOsiIkL6S\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/98_E5oG54Idja5ewGUC\\.jpg",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/93_BRrVKn8AmIzmPsqw\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "pix-cdn\\.org\\/na\\/see\\/zi_493174\\.jpg",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "12007250"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/302_HW80nlMG20QMOqXc\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "pix-cdn\\.org\\/na\\/see\\/Hk_605593\\.jpg",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "12007250"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/124_XBfrrd00F7pUiwzl\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "pix-cdn\\.org\\/na\\/see\\/sB_1474876\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "12007250"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/2776_zGeF0rEheUKoyaXB\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "pix-cdn\\.org\\/na\\/see\\/qB_1472901\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "12007250"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/287_mnZVjczsKmGJdXRT\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "pix-cdn\\.org\\/na\\/see\\/T3_2957975\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "12007250"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/92_T5f4csj3fTE2Nrk2\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "pix-cdn\\.org\\/na\\/pornl_300\\/Kqa_4144325\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "12007250"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/69_po529AaQh6v69gcn\\.jpg",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/100_VuQNzo9277dux4wY\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/159_2qnpthgWqThHbrxn\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/81_XmvwV8ermzkn78Km\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/44_tvrRfau1AWyARGyr\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/198_ai0ZakEQVsTskL1O\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "pix-cdn\\.org\\/banners\\/hclipsexo\\.html",
-            "cookies": 0.000142,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/168_RgSVnQwMUnbwiCU8\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/292_SGgHlfAYcGT4hGAj\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/90_kKly5hEnCTa8s1yd\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/36_WTBXRUbNznKLy6qk\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "pix-cdn\\.org\\/native\\/bsm\\/32_m6ANz8OcDMbDbgBF\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/66_EXWn1QEoQV7QFpaQ\\.jpg",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/105_ebi6TrAVfarjEVTJ\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/154_QG0L8EN9YIsaTKJu\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/156_RzPXzEtpu9tglkyb\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/115_ZJOfCS8GsV1Ptln7\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/401_K1LmIhFeG2a9Gc4N\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/99_PXe2jjBMt3W6ACT0\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/55_qsqRHBhPf3nBFlgl\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "pix-cdn\\.org\\/native\\/b\\/38_YrO0mbnJBbLuKnyo\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "12007250"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 3,
+        "time": 1,
         "size": 1,
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.00187
+    "cookies": 0.000629,
+    "types": {
+        "Document": 27,
+        "Image": 8,
+        "Fetch": 6
+    }
 }

@@ -4,19 +4,21 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00059,
-    "sites": 29,
+    "prevalence": 0.000479,
+    "sites": 35,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "ghbtns\\.com\\/github-btn\\.html",
-            "cookies": 0.00061,
+            "cookies": 0.000479,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 30,
-            "prevalence": 0.00061
+            "sites": 36,
+            "prevalence": 0.000493,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -26,5 +28,8 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.00059
+    "cookies": 0.000479,
+    "types": {
+        "Document": 36
+    }
 }

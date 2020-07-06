@@ -7,15 +7,30 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
-    "sites": 2,
+    "prevalence": 0.000041,
+    "sites": 3,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "lmiutil\\.com\\/lpassets\\/munchkin\\/munchkin\\.v10\\.js",
+            "rule": "lmiutil\\.com\\/lpassets\\/trustarc-v2\\/trustarciframe-prod\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "lmiutil\\.com\\/lpassets\\/munchkin-v11\\/munchkin-client\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -25,7 +40,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "lmiutil\\.com\\/lpassets\\/track-pageload-lp\\.v13\\.js",
@@ -38,10 +54,11 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "lmiutil\\.com\\/lpassets\\/munchkin\\/munchkin\\.157\\.js",
+            "rule": "lmiutil\\.com\\/lpassets\\/munchkin-v11\\/munchkin\\.157\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -53,7 +70,8 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -63,5 +81,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 8
+    }
 }

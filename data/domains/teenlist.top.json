@@ -7,46 +7,51 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000386,
-    "sites": 19,
+    "prevalence": 0.000233,
+    "sites": 17,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "teenlist\\.top\\/button\\.png",
-            "cookies": 0.000386,
+            "cookies": 0.000219,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 19,
-            "prevalence": 0.000386
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
         },
         {
             "rule": "teenlist\\.top\\/button46860\\.png",
-            "cookies": 0.000061,
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "teenlist\\.top\\/images\\/trade\\/ezgif-5-b590bb0f81b0\\.gif",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "teenlist\\.top\\/images\\/trade\\/ezgif-5-4a00dd9b30ba\\.gif",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "teenlist\\.top\\/images\\/trade\\/ezgif-5-66d2ccf8aa8b\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -56,5 +61,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.000386
+    "cookies": 0.000233,
+    "types": {
+        "Image": 23
+    }
 }

@@ -7,47 +7,51 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00667,
-    "sites": 328,
+    "prevalence": 0.00428,
+    "sites": 313,
     "subdomains": [
         "openx",
         "nxd",
         "adobe"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "adhaven\\.com\\/bid-engine\\/cs\\/377c7998bb9f42e5aea0416c9dac091f\\/v1",
-            "cookies": 0.00452,
+            "cookies": 0.00123,
             "fingerprinting": 0,
             "subdomains": [
                 "openx"
             ],
             "apis": {},
-            "sites": 228,
-            "prevalence": 0.00464
+            "sites": 95,
+            "prevalence": 0.0013,
+            "cnames": []
         },
         {
             "rule": "adhaven\\.com\\/bid-engine\\/cs\\/2e288610711ad6050acd86a3fc72a6c3\\/v1",
-            "cookies": 0.00151,
+            "cookies": 0.00256,
             "fingerprinting": 0,
             "subdomains": [
                 "nxd"
             ],
             "apis": {},
-            "sites": 79,
-            "prevalence": 0.00161
+            "sites": 187,
+            "prevalence": 0.00256,
+            "cnames": []
         },
         {
             "rule": "adhaven\\.com\\/bid-engine\\/cs\\/88cd52b8932ea1f9237bcd284fae8923\\/v1",
-            "cookies": 0.000448,
+            "cookies": 0.000438,
             "fingerprinting": 0,
             "subdomains": [
                 "adobe"
             ],
             "apis": {},
-            "sites": 23,
-            "prevalence": 0.000468
+            "sites": 33,
+            "prevalence": 0.000452,
+            "cnames": []
         }
     ],
     "categories": [
@@ -61,5 +65,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00649
+    "cookies": 0.0042,
+    "types": {
+        "Image": 315
+    }
 }

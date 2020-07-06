@@ -9,137 +9,124 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.159,
-    "sites": 7825,
+    "prevalence": 0.132,
+    "sites": 9675,
     "subdomains": [
         "sync",
-        "pixel",
-        "tags"
+        "pixel"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "mathtag\\.com\\/sync\\/img",
-            "cookies": 0.124,
+            "cookies": 0.0985,
             "fingerprinting": 0,
             "subdomains": [
                 "sync",
                 "pixel"
             ],
             "apis": {},
-            "sites": 7365,
-            "prevalence": 0.15
-        },
-        {
-            "rule": "mathtag\\.com\\/sync\\/js",
-            "cookies": 0.00702,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync"
-            ],
-            "apis": {},
-            "sites": 790,
-            "prevalence": 0.0161
+            "sites": 9146,
+            "prevalence": 0.125,
+            "cnames": []
         },
         {
             "rule": "mathtag\\.com\\/sync\\/img",
-            "cookies": 0.0315,
+            "cookies": 0.0354,
             "fingerprinting": 0,
             "subdomains": [
                 "sync"
             ],
             "apis": {},
-            "sites": 3576,
-            "prevalence": 0.0727
+            "sites": 4793,
+            "prevalence": 0.0656,
+            "cnames": []
         },
         {
-            "rule": "mathtag\\.com\\/sync\\/img\\/",
-            "cookies": 0.000203,
+            "rule": "mathtag\\.com\\/sync\\/js",
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
+                "sync",
                 "pixel"
             ],
             "apis": {},
-            "sites": 594,
-            "prevalence": 0.0121
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
         },
         {
             "rule": "mathtag\\.com\\/event\\/js",
-            "cookies": 0.00574,
+            "cookies": 0.0051,
             "fingerprinting": 0,
             "subdomains": [
                 "pixel"
             ],
             "apis": {},
-            "sites": 316,
-            "prevalence": 0.00643
+            "sites": 427,
+            "prevalence": 0.00584,
+            "cnames": []
         },
         {
             "rule": "mathtag\\.com\\/misc\\/img",
-            "cookies": 0.00803,
+            "cookies": 0.00738,
             "fingerprinting": 0,
             "subdomains": [
                 "pixel"
             ],
             "apis": {},
-            "sites": 395,
-            "prevalence": 0.00803
+            "sites": 539,
+            "prevalence": 0.00738,
+            "cnames": []
         },
         {
             "rule": "mathtag\\.com\\/sync\\/js",
-            "cookies": 0.00138,
+            "cookies": 0.0016,
             "fingerprinting": 0,
             "subdomains": [
                 "pixel"
             ],
             "apis": {},
-            "sites": 83,
-            "prevalence": 0.00169
+            "sites": 135,
+            "prevalence": 0.00185,
+            "cnames": []
         },
         {
             "rule": "mathtag\\.com\\/event\\/js",
-            "cookies": 0.000692,
+            "cookies": 0.000274,
             "fingerprinting": 0,
             "subdomains": [
                 "pixel"
             ],
             "apis": {},
-            "sites": 41,
-            "prevalence": 0.000834
+            "sites": 27,
+            "prevalence": 0.000369,
+            "cnames": []
+        },
+        {
+            "rule": "mathtag\\.com\\/event\\/img",
+            "cookies": 0.00104,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 87,
+            "prevalence": 0.00119,
+            "cnames": []
         },
         {
             "rule": "mathtag\\.com\\/sync\\/img",
-            "cookies": 0.000244,
+            "cookies": 0.000192,
             "fingerprinting": 0,
             "subdomains": [
-                "pixel",
                 "sync"
             ],
             "apis": {},
-            "sites": 24,
-            "prevalence": 0.000488
-        },
-        {
-            "rule": "mathtag\\.com\\/event\\/img",
-            "cookies": 0.0013,
-            "fingerprinting": 0,
-            "subdomains": [
-                "pixel"
-            ],
-            "apis": {},
-            "sites": 74,
-            "prevalence": 0.00151
-        },
-        {
-            "rule": "mathtag\\.com\\/event\\/img",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "pixel"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 17,
+            "prevalence": 0.000233,
+            "cnames": []
         },
         {
             "rule": "mathtag\\.com\\/sync\\/iframe",
@@ -149,32 +136,59 @@
                 "pixel"
             ],
             "apis": {
-                "Date.prototype.getTime": 7
+                "Date.prototype.getTime": 10
             },
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
         },
         {
-            "rule": "mathtag\\.com\\/notify\\/js",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tags"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "mathtag\\.com\\/event\\/iframe",
-            "cookies": 0.0000203,
+            "rule": "mathtag\\.com\\/events\\/js",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "pixel"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "mathtag\\.com\\/event\\/iframe",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "mathtag\\.com\\/event\\/img",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "mathtag\\.com\\/sync\\/img",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [
@@ -185,8 +199,14 @@
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 2,
+        "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.159
+    "cookies": 0.132,
+    "types": {
+        "Image": 9815,
+        "Document": 4812,
+        "Script": 581,
+        "XHR": 3
+    }
 }

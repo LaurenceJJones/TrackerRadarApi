@@ -4,28 +4,31 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000122,
-    "sites": 6,
+    "prevalence": 0.000123,
+    "sites": 9,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "shappify-cdn\\.com\\/cf_helper\\/get_country\\.php",
-            "cookies": 0.0000814,
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
             "rule": "shappify-cdn\\.com\\/cf_helper\\/get_country\\.php",
-            "cookies": 0.0000407,
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -35,5 +38,9 @@
         "cpu": 0,
         "cache": 0
     },
-    "cookies": 0.000122
+    "cookies": 0.000109,
+    "types": {
+        "XHR": 7,
+        "Fetch": 2
+    }
 }

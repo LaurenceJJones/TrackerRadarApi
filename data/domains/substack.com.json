@@ -4,26 +4,30 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000462,
-    "sites": 2,
+    "prevalence": 0.0000547,
+    "sites": 4,
     "subdomains": [
-        "ams",
+        "infection2020",
+        "santorinidave",
         "halfmarathons",
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "substack\\.com\\/embed",
-            "cookies": 0.0000462,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
-                "ams",
+                "infection2020",
+                "santorinidave",
                 "halfmarathons"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000462
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "substack\\.com\\/min\\/main\\.bundle\\.js",
@@ -33,24 +37,27 @@
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3
             },
-            "sites": 2,
-            "prevalence": 0.0000462
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "substack\\.com\\/api\\/v1\\/firehose",
-            "cookies": 0.0000462,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
-                "ams",
+                "infection2020",
+                "santorinidave",
                 "halfmarathons"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000462
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -60,5 +67,10 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.0000462
+    "cookies": 0.000041,
+    "types": {
+        "Document": 3,
+        "Script": 3,
+        "Image": 3
+    }
 }

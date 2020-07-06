@@ -4,69 +4,75 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00313,
-    "sites": 154,
+    "prevalence": 0.00521,
+    "sites": 381,
     "subdomains": [
         "sync",
         "hb",
         "ads"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "aralego\\.com\\/idSync",
-            "cookies": 0.00283,
+            "cookies": 0.00445,
             "fingerprinting": 0,
             "subdomains": [
                 "sync"
             ],
             "apis": {},
-            "sites": 143,
-            "prevalence": 0.00291
+            "sites": 355,
+            "prevalence": 0.00486,
+            "cnames": []
         },
         {
             "rule": "aralego\\.com\\/idsync",
-            "cookies": 0.00214,
+            "cookies": 0.0039,
             "fingerprinting": 0,
             "subdomains": [
                 "sync"
             ],
             "apis": {},
-            "sites": 143,
-            "prevalence": 0.00291
+            "sites": 332,
+            "prevalence": 0.00454,
+            "cnames": []
         },
         {
             "rule": "aralego\\.com\\/header",
-            "cookies": 0.000854,
+            "cookies": 0.000821,
             "fingerprinting": 0,
             "subdomains": [
                 "hb"
             ],
             "apis": {},
-            "sites": 46,
-            "prevalence": 0.000936
-        },
-        {
-            "rule": "aralego\\.com\\/ad_request",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 72,
+            "prevalence": 0.000985,
+            "cnames": []
         },
         {
             "rule": "aralego\\.com\\/idSync\\/",
-            "cookies": 0.0000407,
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
                 "sync"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "aralego\\.com\\/ad_request",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -76,5 +82,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00307
+    "cookies": 0.00501,
+    "types": {
+        "Image": 694,
+        "XHR": 76
+    }
 }

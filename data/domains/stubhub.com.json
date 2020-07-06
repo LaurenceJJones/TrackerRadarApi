@@ -7,42 +7,31 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
-    "sites": 5,
+    "prevalence": 0.0000137,
+    "sites": 1,
     "subdomains": [
-        "api"
+        "www"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "stubhub\\.com\\/sellers\\/search\\/locations\\/v3\\/",
-            "cookies": 0.0000814,
+            "rule": "stubhub\\.com\\/",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "api"
+                "www"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "stubhub\\.com\\/sellers\\/search\\/events\\/v3",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 1,
-        "size": 1,
-        "cpu": 0,
-        "cache": 3
-    },
-    "cookies": 0.000102
+    "performance": {},
+    "cookies": 0.0000137,
+    "types": {
+        "Script": 2
+    }
 }

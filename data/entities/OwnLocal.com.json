@@ -5,8 +5,8 @@
         "ownlocal.com"
     ],
     "prevalence": {
-        "tracking": 0.00061,
-        "nonTracking": 0.000163,
-        "total": 0.000773
+        "tracking": 0.000178,
+        "nonTracking": 0.000465,
+        "total": 0.000643
     }
 }

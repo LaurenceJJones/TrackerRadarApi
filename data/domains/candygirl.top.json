@@ -4,28 +4,31 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000203,
-    "sites": 10,
+    "prevalence": 0.000123,
+    "sites": 9,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "candygirl\\.top\\/button\\.php",
-            "cookies": 0.000203,
+            "cookies": 0.000109,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
             "rule": "candygirl\\.top\\/images\\/button1\\.gif",
-            "cookies": 0.000061,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -35,5 +38,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.000203
+    "cookies": 0.000123,
+    "types": {
+        "Image": 10
+    }
 }

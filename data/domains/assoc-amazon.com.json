@@ -9,13 +9,14 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00214,
-    "sites": 105,
+    "prevalence": 0.00216,
+    "sites": 158,
     "subdomains": [
         "ws-na",
         "ws-eu",
         "ws-fe"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -28,23 +29,26 @@
                 "ws-fe"
             ],
             "apis": {
-                "Date.prototype.getTime": 83
+                "Date.prototype.getTime": 129
             },
-            "sites": 83,
-            "prevalence": 0.00169
+            "sites": 130,
+            "prevalence": 0.00178,
+            "cnames": []
         },
         {
             "rule": "assoc-amazon\\.com\\/widgets\\/q",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
+                "ws-fe",
                 "ws-eu"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 4
+                "Navigator.prototype.userAgent": 8
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         }
     ],
     "categories": [
@@ -58,5 +62,9 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Document": 130,
+        "Script": 8
+    }
 }

@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00134,
-    "sites": 66,
+    "prevalence": 0.000465,
+    "sites": 34,
     "subdomains": [
         "files"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -19,12 +20,29 @@
                 "files"
             ],
             "apis": {
-                "WebGLRenderingContext.prototype.getExtension": 58,
-                "WebGLRenderingContext.prototype.getParameter": 58,
-                "HTMLCanvasElement.prototype.constructor": 9
+                "HTMLCanvasElement.prototype.constructor": 6,
+                "WebGLRenderingContext.prototype.getExtension": 10,
+                "WebGLRenderingContext.prototype.getParameter": 10
             },
-            "sites": 65,
-            "prevalence": 0.00132
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
+        },
+        {
+            "rule": "bidsimulator\\.com\\/mmi\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {
+                "HTMLCanvasElement.prototype.constructor": 6,
+                "WebGLRenderingContext.prototype.getExtension": 20,
+                "WebGLRenderingContext.prototype.getParameter": 20
+            },
+            "sites": 22,
+            "prevalence": 0.000301,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -34,5 +52,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 33
+    }
 }

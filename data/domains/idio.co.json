@@ -7,52 +7,73 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000529,
-    "sites": 26,
+    "prevalence": 0.000438,
+    "sites": 32,
     "subdomains": [
         "s",
-        "ssl-s"
+        "ssl-s",
+        "js"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "idio\\.co\\/ia\\.js",
-            "cookies": 0.000224,
+            "cookies": 0.000246,
             "fingerprinting": 1,
             "subdomains": [
                 "s",
                 "ssl-s"
             ],
             "apis": {
-                "Document.cookie getter": 11,
-                "Document.cookie setter": 11,
-                "Date.prototype.getTime": 12
+                "Document.cookie getter": 18,
+                "Document.cookie setter": 18,
+                "Date.prototype.getTime": 18
             },
-            "sites": 20,
-            "prevalence": 0.000407
+            "sites": 23,
+            "prevalence": 0.000315,
+            "cnames": []
         },
         {
             "rule": "idio\\.co\\/ip\\.js",
-            "cookies": 0.000163,
+            "cookies": 0.0000821,
             "fingerprinting": 1,
             "subdomains": [
                 "s"
             ],
             "apis": {
                 "Document.cookie getter": 13,
-                "Document.cookie setter": 8,
-                "Date.prototype.getTime": 8
+                "Document.cookie setter": 6,
+                "Date.prototype.getTime": 6
             },
             "sites": 13,
-            "prevalence": 0.000264
+            "prevalence": 0.000178,
+            "cnames": []
+        },
+        {
+            "rule": "idio\\.co\\/2037\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
-        "cache": 1
+        "cpu": 0,
+        "cache": 3
     },
-    "cookies": 0.000386
+    "cookies": 0.000315,
+    "types": {
+        "Script": 38
+    }
 }

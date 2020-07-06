@@ -4,34 +4,85 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00224,
-    "sites": 110,
+    "prevalence": 0.00189,
+    "sites": 138,
     "subdomains": [
         "ad"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "mrtnsvr\\.com\\/sync\\/openx",
-            "cookies": 0.00183,
+            "cookies": 0.00115,
             "fingerprinting": 0,
             "subdomains": [
                 "ad"
             ],
             "apis": {},
-            "sites": 92,
-            "prevalence": 0.00187
+            "sites": 88,
+            "prevalence": 0.0012,
+            "cnames": []
         },
         {
             "rule": "mrtnsvr\\.com\\/sync\\/trustx",
-            "cookies": 0.000325,
+            "cookies": 0.000233,
             "fingerprinting": 0,
             "subdomains": [
                 "ad"
             ],
             "apis": {},
             "sites": 17,
-            "prevalence": 0.000346
+            "prevalence": 0.000233,
+            "cnames": []
+        },
+        {
+            "rule": "mrtnsvr\\.com\\/sync\\/lotame",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "mrtnsvr\\.com\\/sync\\/freewheel",
+            "cookies": 0.000383,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 28,
+            "prevalence": 0.000383,
+            "cnames": []
+        },
+        {
+            "rule": "mrtnsvr\\.com\\/sync\\/throtle",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "mrtnsvr\\.com\\/sync\\/adswizz",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -41,5 +92,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00218
+    "cookies": 0.00183,
+    "types": {
+        "Image": 139
+    }
 }

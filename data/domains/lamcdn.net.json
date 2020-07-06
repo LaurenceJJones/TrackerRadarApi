@@ -4,13 +4,14 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
-    "sites": 2,
+    "prevalence": 0.0000547,
+    "sites": 4,
     "subdomains": [],
-    "fingerprinting": 2,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
-            "rule": "lamcdn\\.net\\/specials\\.lookatme\\.ru\\/0000000001\\/banners\\/system\\/specials\\/projects\\/general\\/scripts\\/script_new_5\\.js",
+            "rule": "lamcdn\\.net\\/specials\\.lookatme\\.ru\\/0000000001\\/banners\\/system\\/specialProjects\\/projects\\/general\\/scripts\\/script_dev_1\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
@@ -18,15 +19,14 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 1
-    },
-    "cookies": 0
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Script": 2
+    }
 }

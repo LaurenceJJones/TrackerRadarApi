@@ -4,23 +4,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000122,
+    "prevalence": 0.0000821,
     "sites": 6,
     "subdomains": [
         "a"
     ],
-    "fingerprinting": 0,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "utraff\\.com\\/sync",
-            "cookies": 0.000122,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "a"
             ],
             "apis": {},
             "sites": 6,
-            "prevalence": 0.000122
+            "prevalence": 0.0000821,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -28,7 +30,10 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 0
+        "cache": 3
     },
-    "cookies": 0.000122
+    "cookies": 0.000041,
+    "types": {
+        "Image": 6
+    }
 }

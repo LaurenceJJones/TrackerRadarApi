@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
+    "prevalence": 0.0000684,
     "sites": 5,
     "subdomains": [
         "widget"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -20,34 +21,39 @@
             ],
             "apis": {
                 "window.localStorage": 5,
-                "Navigator.prototype.language": 4
+                "Navigator.prototype.language": 5
             },
             "sites": 5,
-            "prevalence": 0.000102
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
-            "rule": "dixa\\.io\\/assets\\/scripts\\/javascript\\/main\\.019b2eeb\\.js",
+            "rule": "dixa\\.io\\/assets\\/scripts\\/javascript\\/main\\.36d7f1db\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
                 "widget"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.userAgent": 4,
                 "window.localStorage": 5,
-                "Navigator.prototype.product": 3,
+                "Navigator.prototype.product": 4,
                 "Date.prototype.getTimezoneOffset": 5
             },
             "sites": 5,
-            "prevalence": 0.000102
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 2,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 1
+        "cache": 0
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 10
+    }
 }

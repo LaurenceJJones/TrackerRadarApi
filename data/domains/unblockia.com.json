@@ -4,25 +4,27 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000122,
-    "sites": 6,
+    "prevalence": 0.00026,
+    "sites": 19,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "unblockia\\.com\\/h\\.js",
-            "cookies": 0.000122,
+            "cookies": 0.00026,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 4
+                "Navigator.prototype.userAgent": 18
             },
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 19,
+            "prevalence": 0.00026,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -32,5 +34,8 @@
         "cpu": 0,
         "cache": 0
     },
-    "cookies": 0.000122
+    "cookies": 0.00026,
+    "types": {
+        "Script": 19
+    }
 }

@@ -4,45 +4,47 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000203,
+    "prevalence": 0.0000137,
     "sites": 1,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "usclassifieds4all\\.com\\/pictures\\/175429\\/main\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "usclassifieds4all\\.com\\/pictures\\/353948\\/main\\.jpg",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "usclassifieds4all\\.com\\/pictures\\/1507\\/main\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "usclassifieds4all\\.com\\/pictures\\/359239\\/main\\.jpg",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "usclassifieds4all\\.com\\/pictures\\/1761\\/main\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "usclassifieds4all\\.com\\/pictures\\/20271\\/main\\.jpg",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 3
-    },
-    "cookies": 0.0000203
+    "performance": {},
+    "cookies": 0.0000137,
+    "types": {
+        "Image": 6
+    }
 }

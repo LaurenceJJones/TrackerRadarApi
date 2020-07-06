@@ -7,34 +7,61 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000753,
-    "sites": 37,
+    "prevalence": 0.000958,
+    "sites": 70,
     "subdomains": [
         "img"
     ],
-    "fingerprinting": 0,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
-            "rule": "macromill\\.com\\/imp\\/us001733jqi\\/3000376354-img-31",
-            "cookies": 0.000102,
+            "rule": "macromill\\.com\\/imp\\/us001733jqi\\/3000375833-img-93",
+            "cookies": 0.000192,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
         },
         {
-            "rule": "macromill\\.com\\/access\\/us000405jms\\/4000003644-6a\\/utm\\.png",
-            "cookies": 0.0000407,
+            "rule": "macromill\\.com\\/access\\/us002221weu\\/5000038191-4d\\/utm\\.png",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "macromill\\.com\\/vis\\/us001363zfv\\/4000316680-vis-0e\\/5",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "macromill\\.com\\/imp\\/us001688exa\\/1000458420-img-0c",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -44,5 +71,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000753
+    "cookies": 0.000958,
+    "types": {
+        "Image": 20
+    }
 }

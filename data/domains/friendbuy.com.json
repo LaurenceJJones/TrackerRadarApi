@@ -7,34 +7,65 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000712,
-    "sites": 35,
+    "prevalence": 0.000739,
+    "sites": 54,
     "subdomains": [
-        "ws"
+        "ws",
+        "cdn1"
     ],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 0,
     "resources": [
         {
-            "rule": "friendbuy\\.com\\/site-86ed8ac1-nestle\\.com\\/widgets\\/66792\\/references",
-            "cookies": 0.0000203,
+            "rule": "friendbuy\\.com\\/site-2f1ac50c-www\\.draxe\\.com\\/widgets\\/60513\\/references",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "ws"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "friendbuy\\.com\\/site-86ed8ac1-nestle\\.com\\/track",
-            "cookies": 0.0000203,
+            "rule": "friendbuy\\.com\\/widgets\\/configs\\/site-04b71921-greenbuildingsupply\\.com\\.json",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
+                "cdn1",
                 "ws"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "friendbuy\\.com\\/widgets\\/configs\\/site-cc4cf1dd-www\\.thirtymadison\\.com\\.json",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn1",
+                "ws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "friendbuy\\.com\\/widgets\\/configs\\/site-c07077da-www\\.petcarerx\\.com\\.json",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn1",
+                "ws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -44,5 +75,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00057
+    "cookies": 0.000588,
+    "types": {
+        "XHR": 8
+    }
 }

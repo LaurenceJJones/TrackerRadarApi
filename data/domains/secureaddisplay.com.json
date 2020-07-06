@@ -4,37 +4,41 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000407,
-    "sites": 20,
+    "prevalence": 0.000369,
+    "sites": 27,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "secureaddisplay\\.com\\/au\\/",
-            "cookies": 0.000264,
+            "cookies": 0.000233,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 13,
-            "prevalence": 0.000264
+            "sites": 19,
+            "prevalence": 0.00026,
+            "cnames": []
         },
         {
             "rule": "secureaddisplay\\.com\\/cksync\\/set\\/",
-            "cookies": 0.000244,
+            "cookies": 0.00026,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 13,
-            "prevalence": 0.000264
+            "sites": 21,
+            "prevalence": 0.000287,
+            "cnames": []
         },
         {
             "rule": "secureaddisplay\\.com\\/au\\/bmd\\/",
-            "cookies": 0.000142,
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -44,5 +48,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000407
+    "cookies": 0.000369,
+    "types": {
+        "Script": 46
+    }
 }

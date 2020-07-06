@@ -9,75 +9,53 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00309,
-    "sites": 152,
+    "prevalence": 0.0023,
+    "sites": 168,
     "subdomains": [
         "synchroscript.deliveryengine",
         "synchrobox",
         "delivery-cdn-cf",
-        "cdn"
+        "streamguys.deliveryengine",
+        "pixel"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "adswizz\\.com\\/getUID",
-            "cookies": 0.00118,
+            "cookies": 0.00103,
             "fingerprinting": 0,
             "subdomains": [
                 "synchroscript.deliveryengine"
             ],
             "apis": {},
-            "sites": 60,
-            "prevalence": 0.00122
-        },
-        {
-            "rule": "adswizz\\.com\\/syncMe",
-            "cookies": 0.000854,
-            "fingerprinting": 0,
-            "subdomains": [
-                "synchroscript.deliveryengine"
-            ],
-            "apis": {},
-            "sites": 43,
-            "prevalence": 0.000875
+            "sites": 75,
+            "prevalence": 0.00103,
+            "cnames": []
         },
         {
             "rule": "adswizz\\.com\\/register2\\.php",
-            "cookies": 0.000366,
+            "cookies": 0.000287,
             "fingerprinting": 0,
             "subdomains": [
                 "synchrobox"
             ],
             "apis": {},
-            "sites": 19,
-            "prevalence": 0.000386
-        },
-        {
-            "rule": "adswizz\\.com\\/adswizz\\/js\\/SynchroClient2\\.js",
-            "cookies": 0.0000203,
-            "fingerprinting": 1,
-            "subdomains": [
-                "delivery-cdn-cf",
-                "cdn"
-            ],
-            "apis": {
-                "Document.cookie getter": 1,
-                "Date.prototype.getTime": 1,
-                "Document.cookie setter": 1
-            },
-            "sites": 18,
-            "prevalence": 0.000366
+            "sites": 22,
+            "prevalence": 0.000301,
+            "cnames": []
         },
         {
             "rule": "adswizz\\.com\\/www\\/delivery\\/afr\\.php",
-            "cookies": 0.000407,
+            "cookies": 0.000274,
             "fingerprinting": 0,
             "subdomains": [
                 "synchroscript.deliveryengine"
             ],
             "apis": {},
             "sites": 20,
-            "prevalence": 0.000407
+            "prevalence": 0.000274,
+            "cnames": []
         },
         {
             "rule": "adswizz\\.com\\/adswizz\\/js\\/swfobject-2\\.2\\.min\\.js",
@@ -87,34 +65,62 @@
                 "delivery-cdn-cf"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 17,
-                "Navigator.prototype.platform": 17,
-                "Navigator.prototype.plugins": 17
+                "Navigator.prototype.userAgent": 14,
+                "Navigator.prototype.platform": 14,
+                "Navigator.prototype.plugins": 14
             },
-            "sites": 20,
-            "prevalence": 0.000407
+            "sites": 21,
+            "prevalence": 0.000287,
+            "cnames": []
         },
         {
             "rule": "adswizz\\.com\\/www\\/delivery\\/lg\\.php",
-            "cookies": 0.000407,
+            "cookies": 0.000287,
             "fingerprinting": 0,
             "subdomains": [
-                "synchroscript.deliveryengine"
+                "synchroscript.deliveryengine",
+                "streamguys.deliveryengine"
             ],
             "apis": {},
-            "sites": 20,
-            "prevalence": 0.000407
+            "sites": 21,
+            "prevalence": 0.000287,
+            "cnames": []
         },
         {
             "rule": "adswizz\\.com\\/www\\/delivery\\/ajs\\.php",
-            "cookies": 0.000407,
+            "cookies": 0.000287,
             "fingerprinting": 0,
             "subdomains": [
                 "synchroscript.deliveryengine"
             ],
             "apis": {},
-            "sites": 20,
-            "prevalence": 0.000407
+            "sites": 21,
+            "prevalence": 0.000287,
+            "cnames": []
+        },
+        {
+            "rule": "adswizz\\.com\\/syncMe",
+            "cookies": 0.000452,
+            "fingerprinting": 0,
+            "subdomains": [
+                "synchroscript.deliveryengine"
+            ],
+            "apis": {},
+            "sites": 35,
+            "prevalence": 0.000479,
+            "cnames": []
+        },
+        {
+            "rule": "adswizz\\.com\\/update_pixel",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -127,5 +133,10 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00199
+    "cookies": 0.00151,
+    "types": {
+        "Image": 133,
+        "Script": 64,
+        "Document": 20
+    }
 }

@@ -7,86 +7,55 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
-    "sites": 2,
+    "prevalence": 0.000041,
+    "sites": 3,
     "subdomains": [
-        "assets",
-        "s.dam-img",
-        "i.dam-img"
+        "assets"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "rfdcontent\\.com\\/css\\/rfd\\/v29\\.1\\.2\\.1\\/external\\/jquery\\.smartbanner\\.css",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "rfdcontent\\.com\\/graphics\\/rfd\\/v29\\.1\\.2\\.1\\/sprites\\/responsive_base\\.png",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "rfdcontent\\.com\\/css\\/rfd\\/v29\\.1\\.2\\.1\\/print\\.css",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "rfdcontent\\.com\\/js\\/rfd\\/v29\\.1\\.2\\.1\\/external\\/enquire\\.min\\.js",
-            "cookies": 0.0000407,
+            "rule": "rfdcontent\\.com\\/js\\/rfd\\/v29\\.9\\.0\\.8\\/external\\/enquire\\.min\\.js",
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "assets"
             ],
             "apis": {
-                "window.matchMedia(\"prefers-reduced-motion\")": 1
+                "window.matchMedia(\"prefers-reduced-motion\")": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "rfdcontent\\.com\\/js\\/rfd\\/v29\\.1\\.2\\.1\\/libraries\\/placements\\/rfd\\.lib\\.placements\\.js",
-            "cookies": 0.0000407,
+            "rule": "rfdcontent\\.com\\/js\\/rfd\\/v29\\.9\\.0\\.8\\/libraries\\/placements\\/rfd\\.lib\\.placements\\.js",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "assets"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "rfdcontent\\.com\\/js\\/rfd\\/v29\\.1\\.2\\.1\\/libraries\\/placements\\/rfd\\.compat\\.muniversal\\.js",
-            "cookies": 0.0000407,
+            "rule": "rfdcontent\\.com\\/js\\/rfd\\/v29\\.9\\.0\\.8\\/libraries\\/placements\\/rfd\\.compat\\.muniversal\\.js",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "assets"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "rfdcontent\\.com\\/js\\/rfd\\/v29\\.1\\.2\\.1\\/libraries\\/analytics\\/tc\\.js",
-            "cookies": 0.0000407,
+            "rule": "rfdcontent\\.com\\/js\\/rfd\\/v29\\.9\\.0\\.8\\/libraries\\/analytics\\/tc\\.js",
+            "cookies": 0.0000274,
             "fingerprinting": 2,
             "subdomains": [
                 "assets"
@@ -108,19 +77,8 @@
                 "Navigator.prototype.onLine": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "rfdcontent\\.com\\/offers\\/011\\/248\\/210\\/100x100_crop-center\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s.dam-img",
-                "i.dam-img"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -130,5 +88,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.0000407
+    "cookies": 0.000041,
+    "types": {
+        "Script": 8
+    }
 }

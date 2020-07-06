@@ -7,296 +7,162 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000854,
-    "sites": 42,
+    "prevalence": 0.000424,
+    "sites": 31,
     "subdomains": [
-        "best",
         "login",
-        "s.click",
-        "sale",
         "www",
-        "gpsfront",
-        "coupon",
-        "acs",
-        "lighthouse"
+        "best",
+        "s.click",
+        "gpsfront"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "aliexpress\\.com\\/ru\\.htm",
-            "cookies": 0.000142,
+            "rule": "aliexpress\\.com\\/sync_cookie_read\\.htm",
+            "cookies": 0.0000958,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "aliexpress\\.com\\/",
+            "cookies": 0.000123,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www",
+                "best"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "aliexpress\\.com\\/deep_link\\.htm",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s.click"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "aliexpress\\.com\\/",
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
                 "best"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
+        },
+        {
+            "rule": "aliexpress\\.com\\/e\\/_esgs4o",
+            "cookies": 0.000109,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s.click"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
             "rule": "aliexpress\\.com\\/sync_cookie_read\\.htm",
-            "cookies": 0.000203,
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [
                 "login"
             ],
             "apis": {},
             "sites": 10,
-            "prevalence": 0.000203
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "aliexpress\\.com\\/e\\/_eMc1jQ",
-            "cookies": 0.0000407,
+            "rule": "aliexpress\\.com\\/e\\/_eO00nR",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "s.click"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "aliexpress\\.com\\/e\\/_etFMgO",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s.click"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "aliexpress\\.com\\/chengjieyemian\\.htm",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sale"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "aliexpress\\.com\\/deep_link\\.htm",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s.click"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "aliexpress\\.com\\/e\\/_d7THTub",
-            "cookies": 0.000061,
-            "fingerprinting": 1,
-            "subdomains": [
-                "s.click"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "window.localStorage": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "aliexpress\\.com\\/e\\/_et13va",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s.click"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "aliexpress\\.com\\/e\\/_swZCiK",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s.click"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "aliexpress\\.com\\/",
-            "cookies": 0.000142,
-            "fingerprinting": 0,
-            "subdomains": [
-                "best",
-                "www"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "aliexpress\\.com\\/e\\/_sYL5JT",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s.click"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "aliexpress\\.com\\/e\\/KmTTqV6",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s.click"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "aliexpress\\.com\\/e\\/BC961uk",
-            "cookies": 0.0000814,
-            "fingerprinting": 1,
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
             "subdomains": [
                 "s.click"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 1,
-                "window.localStorage": 1
-            },
+            "apis": {},
             "sites": 4,
-            "prevalence": 0.0000814
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "aliexpress\\.com\\/country@null\\/__pc\\/newuser_zone\\.htm",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "rule": "aliexpress\\.com\\/e\\/_dVVnhTK",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
             "subdomains": [
-                "sale"
+                "s.click"
             ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "aliexpress\\.com\\/ru\\.htm",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "best"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "aliexpress\\.com\\/e\\/_eLJEgh",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s.click"
+            ],
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "aliexpress\\.com\\/getRecommendingResults\\.do",
-            "cookies": 0.000061,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "gpsfront"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "aliexpress\\.com\\/ajax\\/ajax_show_pla_coupon_4_assign_scene\\.do",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "coupon"
-            ],
-            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "aliexpress\\.com\\/\\/h5\\/mtop\\.aliexpress\\.usertouch\\.houyi\\.launchrule\\.runtime\\.pull\\/2\\.0\\/",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "acs"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "aliexpress\\.com\\/buyer\\/StoreNewArrivalsProductNumAjax\\.htm",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "lighthouse"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "aliexpress\\.com\\/e\\/_sL66Vp",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s.click"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "aliexpress\\.com\\/e\\/_ettgYt",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s.click"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "aliexpress\\.com\\/e\\/_eM1dSv",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s.click"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "aliexpress\\.com\\/e\\/DziQooLW",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s.click"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "aliexpress\\.com\\/new_user_channel\\.htm",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sale"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "aliexpress\\.com\\/e\\/_dUsafYJ",
-            "cookies": 0.0000203,
-            "fingerprinting": 1,
-            "subdomains": [
-                "s.click"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -306,5 +172,10 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000854
+    "cookies": 0.000424,
+    "types": {
+        "Document": 31,
+        "Image": 27,
+        "Script": 2
+    }
 }

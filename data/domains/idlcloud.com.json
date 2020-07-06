@@ -7,7 +7,7 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
+    "prevalence": 0.0000285,
     "sites": 2,
     "subdomains": [
         "avp"
@@ -26,37 +26,36 @@
                 "window.sessionStorage": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
             "rule": "idlcloud\\.com\\/api\\/globalstorage\\/AVP_passed",
-            "cookies": 0.0000407,
+            "cookies": 0.0000285,
             "fingerprinting": 0,
             "subdomains": [
                 "avp"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
             "rule": "idlcloud\\.com\\/api\\/globalstorage\\/AVP_too_young",
-            "cookies": 0.0000407,
+            "cookies": 0.0000285,
             "fingerprinting": 0,
             "subdomains": [
                 "avp"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 3
-    },
-    "cookies": 0.0000407
+    "performance": {},
+    "cookies": 0.0000285,
+    "types": {
+        "Script": 2,
+        "XHR": 4
+    }
 }

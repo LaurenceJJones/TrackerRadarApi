@@ -9,9 +9,10 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00195,
-    "sites": 96,
+    "prevalence": 0.0012,
+    "sites": 88,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -20,13 +21,14 @@
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Date.prototype.getTimezoneOffset": 32,
-                "Intl.DateTimeFormat.prototype.resolvedOptions": 32,
-                "Navigator.prototype.appVersion": 23,
-                "PerformanceTiming.prototype.navigationStart": 10
+                "Date.prototype.getTimezoneOffset": 38,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 38,
+                "PerformanceTiming.prototype.navigationStart": 34,
+                "Navigator.prototype.appVersion": 36
             },
-            "sites": 33,
-            "prevalence": 0.000671
+            "sites": 38,
+            "prevalence": 0.00052,
+            "cnames": []
         },
         {
             "rule": "waust\\.at\\/d\\.js",
@@ -34,53 +36,12 @@
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Date.prototype.getTimezoneOffset": 51,
-                "Intl.DateTimeFormat.prototype.resolvedOptions": 51
+                "Date.prototype.getTimezoneOffset": 36,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 36
             },
-            "sites": 52,
-            "prevalence": 0.00106
-        },
-        {
-            "rule": "waust\\.at\\/small\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "Date.prototype.getTimezoneOffset": 2,
-                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
-                "Navigator.prototype.appVersion": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "waust\\.at\\/c\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "Date.prototype.getTimezoneOffset": 3,
-                "Intl.DateTimeFormat.prototype.resolvedOptions": 3,
-                "PerformanceTiming.prototype.navigationStart": 1,
-                "Navigator.prototype.appVersion": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "waust\\.at\\/t\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [],
-            "apis": {
-                "Date.prototype.getTimezoneOffset": 2,
-                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
-                "PerformanceTiming.prototype.navigationStart": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.appVersion": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 37,
+            "prevalence": 0.000506,
+            "cnames": []
         },
         {
             "rule": "waust\\.at\\/co\\.js",
@@ -88,11 +49,28 @@
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Date.prototype.getTimezoneOffset": 3,
-                "Intl.DateTimeFormat.prototype.resolvedOptions": 3
+                "Date.prototype.getTimezoneOffset": 5,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 5,
+                "PerformanceTiming.prototype.navigationStart": 4
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "waust\\.at\\/c\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 4,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 4,
+                "PerformanceTiming.prototype.navigationStart": 3,
+                "Navigator.prototype.appVersion": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -102,5 +80,8 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 84
+    }
 }

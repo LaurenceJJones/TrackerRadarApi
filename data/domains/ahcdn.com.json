@@ -4,88 +4,57 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000549,
-    "sites": 27,
+    "prevalence": 0.000456,
+    "sites": 32,
     "subdomains": [
-        "ip59439380",
-        "ip177741273",
-        "ip159382420"
+        "ip166251508",
+        "ip167807508"
     ],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "ahcdn\\.com\\/key=JKdzJW5KmcqFwiw5TxRB2A,s=,,end=1584752854\\/state=NtBk\\/reftag=093898225\\/origin=152108259\\/videos\\/b\\/7\\/2f83b423893ca81fda62fc77ac1983e462babe\\/440x250\\.mp4",
-            "cookies": 0.0000407,
+            "rule": "ahcdn\\.com\\/key=hD6-IQKlvpFnrPn4BVD3pg,s=,,end=1589936778\\/state=NtBk\\/reftag=093898225\\/origin=152108259\\/videos\\/b\\/7\\/2f83b423893ca81fda62fc77ac1983e462babe\\/440x250\\.mp4",
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
-                "ip59439380"
+                "ip166251508"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
-            "rule": "ahcdn\\.com\\/key=eRqMhMBXNQ4p+bdZc8gfbQ,,end=1584746855\\/state=NtBk\\/reftag=093898225\\/origin=152108259\\/videos\\/9\\/a\\/60bf0e5030cf455def19c6f9eba899b77e6e22\\.mp4",
-            "cookies": 0.0000407,
+            "rule": "ahcdn\\.com\\/key=+E9MuWB6WaMBiP-ynZZ1qQ,s=,,end=1589909334\\/state=NtBk\\/reftag=093898225\\/origin=152108259\\/videos\\/e\\/e\\/e4eaa31352fce6db2234c58bd52965b20a4f75\\/420x240\\.mp4",
+            "cookies": 0.0000428,
             "fingerprinting": 0,
             "subdomains": [
-                "ip177741273"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "ahcdn\\.com\\/key=XZKsQ5RhgQUVlRN1j+lZig,s=,,end=1584755047\\/state=NtBk\\/reftag=093898225\\/origin=152108259\\/videos\\/9\\/a\\/60bf0e5030cf455def19c6f9eba899b77e6e22\\.mp4",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ip159382420"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "ahcdn\\.com\\/key=2Caa1abLIGaOLKojJ50Kjg,,end=1584750910\\/state=NtBk\\/reftag=093898225\\/origin=152108259\\/videos\\/9\\/a\\/60bf0e5030cf455def19c6f9eba899b77e6e22\\.mp4",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ip59439380"
+                "ip167807508"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.0000428
         },
         {
-            "rule": "ahcdn\\.com\\/key=xHvVbLA2D4znHMCl79o1HQ,,end=1584750910\\/state=NtBk\\/reftag=093898225\\/origin=152108259\\/videos\\/2\\/1\\/1601fbd4e70797351e134b34c3d660cbc33d93\\.mp4",
-            "cookies": 0.0000407,
+            "rule": "ahcdn\\.com\\/key=Y9U6Yg01GN7OPlAOomW05w,s=,,end=1589915677\\/state=NtBk\\/reftag=093898225\\/origin=152108259\\/videos\\/e\\/e\\/e4eaa31352fce6db2234c58bd52965b20a4f75\\/420x240\\.mp4",
+            "cookies": 0.0000285,
             "fingerprinting": 0,
             "subdomains": [
-                "ip59439380"
+                "ip166251508"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "ahcdn\\.com\\/key=yhKRiLIE1o1w3xlQOzMsZA,s=,,end=1584744650\\/state=NtBk\\/reftag=093898225\\/origin=152108259\\/videos\\/d\\/c\\/701723b1aae35056521c4d432d480580ba3dce\\/440x240\\.mp4",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ip177741273"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000407
+    "cookies": 0.0002,
+    "types": {
+        "Media": 7
+    }
 }

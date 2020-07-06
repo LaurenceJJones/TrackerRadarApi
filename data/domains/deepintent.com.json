@@ -9,57 +9,182 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00252,
-    "sites": 124,
+    "prevalence": 0.012,
+    "sites": 877,
     "subdomains": [
         "match",
         "beacon"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "deepintent\\.com\\/usersync\\/108\\/",
-            "cookies": 0.00126,
+            "rule": "deepintent\\.com\\/usersync\\/113",
+            "cookies": 0.00985,
             "fingerprinting": 0,
             "subdomains": [
                 "match"
             ],
             "apis": {},
-            "sites": 63,
-            "prevalence": 0.00128
+            "sites": 727,
+            "prevalence": 0.00995,
+            "cnames": []
+        },
+        {
+            "rule": "deepintent\\.com\\/usersync\\/131",
+            "cookies": 0.00114,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 85,
+            "prevalence": 0.00116,
+            "cnames": []
+        },
+        {
+            "rule": "deepintent\\.com\\/usersync\\/108\\/",
+            "cookies": 0.000479,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 35,
+            "prevalence": 0.000479,
+            "cnames": []
         },
         {
             "rule": "deepintent\\.com\\/usersync\\/114\\/store",
-            "cookies": 0.000692,
+            "cookies": 0.000643,
             "fingerprinting": 0,
             "subdomains": [
                 "match"
             ],
             "apis": {},
-            "sites": 34,
-            "prevalence": 0.000692
+            "sites": 47,
+            "prevalence": 0.000643,
+            "cnames": []
         },
         {
-            "rule": "deepintent\\.com\\/usersync\\/113",
-            "cookies": 0.000488,
+            "rule": "deepintent\\.com\\/usersync\\/108",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "match"
             ],
             "apis": {},
-            "sites": 24,
-            "prevalence": 0.000488
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "deepintent\\.com\\/usersync\\/112",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "deepintent\\.com\\/usersync\\/121",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "deepintent\\.com\\/usersync\\/126",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "deepintent\\.com\\/usersync\\/129",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "deepintent\\.com\\/usersync\\/106",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "deepintent\\.com\\/usersync\\/121\\/store",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "deepintent\\.com\\/usersync\\/106\\/store",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "deepintent\\.com\\/usersync\\/112\\/store",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "deepintent\\.com\\/audience",
-            "cookies": 0.000061,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "beacon"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [
@@ -74,5 +199,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0025
+    "cookies": 0.0119,
+    "types": {
+        "Image": 915
+    }
 }

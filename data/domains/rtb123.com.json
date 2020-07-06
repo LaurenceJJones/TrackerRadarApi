@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00104,
-    "sites": 51,
+    "prevalence": 0.00107,
+    "sites": 78,
     "subdomains": [
         "www"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -22,11 +23,12 @@
                 "Document.cookie getter": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "rtb123\\.com\\/tags\\/ea68645d-e8ef-4c5e-90c0-52255caaef9b\\/btp\\.js",
-            "cookies": 0.000061,
+            "cookies": 0.000041,
             "fingerprinting": 1,
             "subdomains": [
                 "www"
@@ -39,28 +41,19 @@
                 "Document.cookie setter": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "rtb123\\.com\\/tags\\/cfbdb10c-f0a7-4bdf-ac9b-fcb9d434883c\\/btp\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {
-                "Document.cookie getter": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000061
+    "cookies": 0.000041,
+    "types": {
+        "Script": 6
+    }
 }

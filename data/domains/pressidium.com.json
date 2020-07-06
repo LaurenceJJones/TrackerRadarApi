@@ -7,16 +7,16 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000122,
-    "sites": 6,
+    "prevalence": 0.0000684,
+    "sites": 5,
     "subdomains": [
         "cdn-community",
-        "cdn-cyclingtips",
-        "cdn-ep19",
         "cdn-powershell",
         "cdn-resprivacy",
-        "cdn-myfed"
+        "cdn-myfed",
+        "cdn-cyclingtips"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -25,43 +25,24 @@
             "fingerprinting": 1,
             "subdomains": [
                 "cdn-community",
-                "cdn-cyclingtips",
-                "cdn-ep19",
                 "cdn-powershell",
                 "cdn-resprivacy",
                 "cdn-myfed"
             ],
             "apis": {
-                "Element.prototype.getClientRects": 6,
-                "Event.prototype.timeStamp": 4
+                "Element.prototype.getClientRects": 4,
+                "Event.prototype.timeStamp": 3
             },
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "pressidium\\.com\\/wp-includes\\/js\\/jquery\\/jquery-migrate\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn-cyclingtips",
-                "cdn-ep19",
-                "cdn-powershell",
-                "cdn-resprivacy",
-                "cdn-myfed"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 1
-            },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "pressidium\\.com\\/wp-includes\\/js\\/wp-embed\\.min\\.js",
-            "cookies": 0,
+            "cookies": 0.0000137,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn-cyclingtips",
-                "cdn-ep19",
                 "cdn-powershell",
                 "cdn-resprivacy",
                 "cdn-myfed"
@@ -70,16 +51,36 @@
                 "Navigator.prototype.appVersion": 4,
                 "Navigator.prototype.userAgent": 4
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "pressidium\\.com\\/wp-includes\\/js\\/jquery\\/jquery-migrate\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-powershell",
+                "cdn-resprivacy",
+                "cdn-myfed"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 3,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.0000203
+    "cookies": 0.0000274,
+    "types": {
+        "Script": 11
+    }
 }

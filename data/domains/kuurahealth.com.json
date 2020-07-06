@@ -4,12 +4,13 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
+    "prevalence": 0.0000274,
     "sites": 2,
     "subdomains": [
         "hel-thk-botti",
         "korona"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -21,13 +22,17 @@
                 "korona"
             ],
             "apis": {
-                "Navigator.prototype.platform": 1
+                "Navigator.prototype.platform": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 2
+    }
 }

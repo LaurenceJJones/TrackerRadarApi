@@ -4,23 +4,37 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000122,
-    "sites": 6,
+    "prevalence": 0.0000684,
+    "sites": 5,
     "subdomains": [
         "www"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "rentracks\\.jp\\/js\\/itp\\/rt\\.track\\.js",
-            "cookies": 0.000102,
+            "rule": "rentracks\\.jp\\/adx\\/r\\.html",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "rentracks\\.jp\\/js\\/itp\\/rt\\.track\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -30,5 +44,9 @@
         "cpu": 0,
         "cache": 0
     },
-    "cookies": 0.000122
+    "cookies": 0.0000684,
+    "types": {
+        "Document": 2,
+        "Script": 2
+    }
 }

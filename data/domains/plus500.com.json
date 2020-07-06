@@ -4,23 +4,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000203,
+    "prevalence": 0.0000137,
     "sites": 1,
     "subdomains": [
         "marketools"
     ],
-    "fingerprinting": 0,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "plus500\\.com\\/widgets\\/rwtype",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "marketools"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -28,7 +30,10 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 1
+        "cache": 0
     },
-    "cookies": 0.0000203
+    "cookies": 0.0000137,
+    "types": {
+        "XHR": 2
+    }
 }

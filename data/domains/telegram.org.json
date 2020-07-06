@@ -7,10 +7,11 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
-    "sites": 4,
+    "prevalence": 0.000137,
+    "sites": 10,
     "subdomains": [],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "telegram\\.org\\/js\\/widget-frame\\.js",
@@ -18,20 +19,26 @@
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "window.matchMedia(\"prefers-reduced-motion\")": 2,
-                "window.devicePixelRatio": 2,
-                "Navigator.prototype.userAgent": 1
+                "window.matchMedia(\"prefers-reduced-motion\")": 8,
+                "Navigator.prototype.userAgent": 8,
+                "window.devicePixelRatio": 8,
+                "HTMLCanvasElement.prototype.constructor": 4,
+                "CanvasRenderingContext2D.prototype.getImageData": 4
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0000814
+    "cookies": 0.0000821,
+    "types": {
+        "Script": 8
+    }
 }

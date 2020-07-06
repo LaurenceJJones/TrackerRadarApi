@@ -7,11 +7,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000366,
+    "prevalence": 0.000246,
     "sites": 18,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -22,17 +23,18 @@
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 16,
-                "window.devicePixelRatio": 16,
-                "Navigator.prototype.appVersion": 16,
-                "Navigator.prototype.mimeTypes": 16,
-                "Date.prototype.getTime": 16
+                "Navigator.prototype.userAgent": 18,
+                "window.devicePixelRatio": 18,
+                "Navigator.prototype.appVersion": 18,
+                "Navigator.prototype.mimeTypes": 18,
+                "Date.prototype.getTime": 18
             },
-            "sites": 16,
-            "prevalence": 0.000325
+            "sites": 18,
+            "prevalence": 0.000246,
+            "cnames": []
         },
         {
-            "rule": "selectablemedia\\.com\\/tg\\/p\\/oZUalSrh\\/js\\/sm_uber\\.js",
+            "rule": "selectablemedia\\.com\\/tg\\/p\\/WwSRxjYJ\\/js\\/sm_uber\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -47,15 +49,19 @@
                 "Screen.prototype.height": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
-        "size": 2,
+        "size": 1,
         "cpu": 0,
-        "cache": 1
+        "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 20
+    }
 }

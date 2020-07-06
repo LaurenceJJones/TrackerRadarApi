@@ -4,52 +4,14 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000997,
-    "sites": 49,
+    "prevalence": 0.000493,
+    "sites": 36,
     "subdomains": [
         "static"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
-        {
-            "rule": "digidip\\.net\\/alfemminile\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 4
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "digidip\\.net\\/aufeminin\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 6
-            },
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "digidip\\.net\\/gofeminin\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 4
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
         {
             "rule": "digidip\\.net\\/linternaute\\.js",
             "cookies": 0,
@@ -58,10 +20,11 @@
                 "static"
             ],
             "apis": {
-                "Date.prototype.getTime": 3
+                "Date.prototype.getTime": 4
             },
             "sites": 4,
-            "prevalence": 0.0000814
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "digidip\\.net\\/journaldesfemmesfr\\.js",
@@ -71,13 +34,14 @@
                 "static"
             ],
             "apis": {
-                "Date.prototype.getTime": 3
+                "Date.prototype.getTime": 6
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
-            "rule": "digidip\\.net\\/enfemenino\\.js",
+            "rule": "digidip\\.net\\/commentcamarche\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -87,7 +51,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "digidip\\.net\\/journaldunet\\.js",
@@ -100,7 +65,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -110,5 +76,8 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 14
+    }
 }

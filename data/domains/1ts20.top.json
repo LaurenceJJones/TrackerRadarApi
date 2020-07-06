@@ -4,54 +4,54 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000692,
-    "sites": 34,
+    "prevalence": 0.000328,
+    "sites": 24,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "1ts20\\.top\\/show_new_auction\\.php",
-            "cookies": 0.000692,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 34,
-            "prevalence": 0.000692
-        },
-        {
-            "rule": "1ts20\\.top\\/show_content\\.php",
-            "cookies": 0.000692,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 34,
-            "prevalence": 0.000692
-        },
-        {
             "rule": "1ts20\\.top\\/show\\.php",
-            "cookies": 0.0000814,
+            "cookies": 0.000109,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         },
         {
-            "rule": "1ts20\\.top\\/show_content\\.php",
-            "cookies": 0.0000814,
+            "rule": "1ts20\\.top\\/content\\.php",
+            "cookies": 0.000301,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 22,
+            "prevalence": 0.000301,
+            "cnames": []
+        },
+        {
+            "rule": "1ts20\\.top\\/content\\.php",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000692
+    "cookies": 0.000315,
+    "types": {
+        "Script": 9,
+        "Document": 22,
+        "Stylesheet": 3
+    }
 }

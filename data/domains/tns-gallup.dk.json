@@ -7,41 +7,38 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000185,
-    "sites": 8,
+    "prevalence": 0.0000547,
+    "sites": 4,
     "subdomains": [
-        "storedk",
-        "ssl-tv2iam",
-        "ssl-videnskab",
-        "ssl-edc",
-        "ssl-information",
-        "ssl-jobindex"
+        "ssl-iform",
+        "ssl-tv2iam"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "tns-gallup\\.dk\\/survey\\.js",
-            "cookies": 0.000162,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
-                "storedk",
-                "ssl-tv2iam",
-                "ssl-videnskab",
-                "ssl-edc",
-                "ssl-information",
-                "ssl-jobindex"
+                "ssl-iform",
+                "ssl-tv2iam"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000162
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000185
+    "cookies": 0.000041,
+    "types": {
+        "Script": 4
+    }
 }

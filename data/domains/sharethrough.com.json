@@ -9,104 +9,97 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0325,
-    "sites": 1598,
+    "prevalence": 0.0268,
+    "sites": 1962,
     "subdomains": [
         "native",
         "match",
         "sdk"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "sharethrough\\.com\\/assets\\/sfp\\.js",
-            "cookies": 0.005,
+            "cookies": 0.00324,
             "fingerprinting": 1,
             "subdomains": [
                 "native"
             ],
             "apis": {
-                "Event.prototype.timeStamp": 204,
-                "Date.prototype.getTime": 79,
-                "Navigator.prototype.userAgent": 91,
-                "window.devicePixelRatio": 12
+                "Event.prototype.timeStamp": 221,
+                "Date.prototype.getTime": 49,
+                "Navigator.prototype.userAgent": 42,
+                "window.devicePixelRatio": 10
             },
-            "sites": 264,
-            "prevalence": 0.00537
-        },
-        {
-            "rule": "sharethrough\\.com\\/E4rooAtA\\/v1",
-            "cookies": 0.0105,
-            "fingerprinting": 0,
-            "subdomains": [
-                "match"
-            ],
-            "apis": {},
-            "sites": 516,
-            "prevalence": 0.0105
-        },
-        {
-            "rule": "sharethrough\\.com\\/debug\\.chunk\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "sdk"
-            ],
-            "apis": {
-                "window.localStorage": 7,
-                "Navigator.prototype.userAgent": 7
-            },
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "sharethrough\\.com\\/sync\\/v1",
-            "cookies": 0.00598,
-            "fingerprinting": 0,
-            "subdomains": [
-                "match"
-            ],
-            "apis": {},
-            "sites": 297,
-            "prevalence": 0.00604
+            "sites": 262,
+            "prevalence": 0.00358,
+            "cnames": []
         },
         {
             "rule": "sharethrough\\.com\\/media\\.net\\/v1",
-            "cookies": 0.000793,
+            "cookies": 0.0013,
             "fingerprinting": 0,
             "subdomains": [
                 "match"
             ],
             "apis": {},
-            "sites": 39,
-            "prevalence": 0.000793
+            "sites": 95,
+            "prevalence": 0.0013,
+            "cnames": []
+        },
+        {
+            "rule": "sharethrough\\.com\\/sync\\/v1",
+            "cookies": 0.0055,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 409,
+            "prevalence": 0.0056,
+            "cnames": []
+        },
+        {
+            "rule": "sharethrough\\.com\\/E4rooAtA\\/v1",
+            "cookies": 0.00798,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 600,
+            "prevalence": 0.00821,
+            "cnames": []
         },
         {
             "rule": "sharethrough\\.com\\/FGMrCMMc\\/v1",
-            "cookies": 0.00059,
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [
                 "match"
             ],
             "apis": {},
-            "sites": 29,
-            "prevalence": 0.00059
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
             "rule": "sharethrough\\.com\\/assets\\/tag\\.js",
-            "cookies": 0.000448,
+            "cookies": 0.000301,
             "fingerprinting": 1,
             "subdomains": [
                 "native"
             ],
             "apis": {
-                "Event.prototype.timeStamp": 19,
-                "Date.prototype.getTime": 12,
-                "Navigator.prototype.userAgent": 11,
-                "window.devicePixelRatio": 3
+                "Event.prototype.timeStamp": 17,
+                "Date.prototype.getTime": 9,
+                "Navigator.prototype.userAgent": 3,
+                "window.devicePixelRatio": 2
             },
-            "sites": 26,
-            "prevalence": 0.000529
+            "sites": 27,
+            "prevalence": 0.000369,
+            "cnames": []
         },
         {
             "rule": "sharethrough\\.com\\/assets\\/sfp-iframe-buster\\.js",
@@ -116,10 +109,11 @@
                 "native"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 57
+                "Navigator.prototype.userAgent": 23
             },
-            "sites": 64,
-            "prevalence": 0.0013
+            "sites": 27,
+            "prevalence": 0.000369,
+            "cnames": []
         },
         {
             "rule": "sharethrough\\.com\\/assets\\/sfp-set-targeting\\.js",
@@ -129,10 +123,26 @@
                 "native"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 22
+                "Navigator.prototype.userAgent": 21
             },
-            "sites": 29,
-            "prevalence": 0.00059
+            "sites": 24,
+            "prevalence": 0.000328,
+            "cnames": []
+        },
+        {
+            "rule": "sharethrough\\.com\\/debug\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -145,5 +155,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0225
+    "cookies": 0.0179,
+    "types": {
+        "Script": 342,
+        "Image": 1114
+    }
 }

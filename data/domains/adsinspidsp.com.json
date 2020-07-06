@@ -7,31 +7,36 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000346,
-    "sites": 17,
+    "prevalence": 0.000205,
+    "sites": 15,
     "subdomains": [
         "ads"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "adsinspidsp\\.com\\/",
-            "cookies": 0.000346,
+            "cookies": 0.000151,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
-            "sites": 17,
-            "prevalence": 0.000346
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000346
+    "cookies": 0.000164,
+    "types": {
+        "Image": 14
+    }
 }

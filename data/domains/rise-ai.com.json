@@ -4,23 +4,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000264,
-    "sites": 13,
+    "prevalence": 0.000383,
+    "sites": 28,
     "subdomains": [
         "str"
     ],
-    "fingerprinting": 0,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "rise-ai\\.com\\/",
-            "cookies": 0.000244,
+            "cookies": 0.000164,
             "fingerprinting": 0,
             "subdomains": [
                 "str"
             ],
             "apis": {},
-            "sites": 13,
-            "prevalence": 0.000264
+            "sites": 28,
+            "prevalence": 0.000383,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -30,5 +32,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000244
+    "cookies": 0.000178,
+    "types": {
+        "Script": 28
+    }
 }

@@ -7,35 +7,39 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00144,
-    "sites": 71,
+    "prevalence": 0.00142,
+    "sites": 104,
     "subdomains": [
-        "pixel-geo",
-        "pixel"
+        "pixel",
+        "pixel-geo"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "prfct\\.co\\/tagjs",
-            "cookies": 0.00144,
+            "rule": "prfct\\.co\\/cs\\/",
+            "cookies": 0.00109,
             "fingerprinting": 0,
             "subdomains": [
+                "pixel",
                 "pixel-geo"
             ],
             "apis": {},
-            "sites": 71,
-            "prevalence": 0.00144
+            "sites": 96,
+            "prevalence": 0.00131,
+            "cnames": []
         },
         {
-            "rule": "prfct\\.co\\/cs\\/",
-            "cookies": 0.00104,
+            "rule": "prfct\\.co\\/tagjs",
+            "cookies": 0.0014,
             "fingerprinting": 0,
             "subdomains": [
                 "pixel-geo"
             ],
             "apis": {},
-            "sites": 64,
-            "prevalence": 0.0013
+            "sites": 103,
+            "prevalence": 0.00141,
+            "cnames": []
         },
         {
             "rule": "prfct\\.co\\/seg\\/",
@@ -45,8 +49,9 @@
                 "pixel-geo"
             ],
             "apis": {},
-            "sites": 64,
-            "prevalence": 0.0013
+            "sites": 95,
+            "prevalence": 0.0013,
+            "cnames": []
         },
         {
             "rule": "prfct\\.co\\/cb",
@@ -57,8 +62,9 @@
                 "pixel"
             ],
             "apis": {},
-            "sites": 64,
-            "prevalence": 0.0013
+            "sites": 95,
+            "prevalence": 0.0013,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -68,5 +74,9 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.00144
+    "cookies": 0.00142,
+    "types": {
+        "Image": 286,
+        "Script": 103
+    }
 }

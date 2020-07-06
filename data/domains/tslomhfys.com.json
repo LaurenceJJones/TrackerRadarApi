@@ -4,36 +4,35 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000208,
-    "sites": 9,
+    "prevalence": 0.0000684,
+    "sites": 5,
     "subdomains": [],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 3,
     "resources": [
         {
-            "rule": "tslomhfys\\.com\\/get\\/1557900",
-            "cookies": 0.000116,
-            "fingerprinting": 0,
+            "rule": "tslomhfys\\.com\\/apu\\.php",
+            "cookies": 0,
+            "fingerprinting": 1,
             "subdomains": [],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000116
-        },
-        {
-            "rule": "tslomhfys\\.com\\/notice\\.php",
-            "cookies": 0.0000462,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000462
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.indexedDB": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000208
+    "cookies": 0,
+    "types": {
+        "Script": 4
+    }
 }

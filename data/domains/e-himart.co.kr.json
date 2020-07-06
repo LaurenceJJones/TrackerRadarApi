@@ -4,12 +4,13 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000203,
+    "prevalence": 0.0000137,
     "sites": 1,
     "subdomains": [
         "static1",
         "static2"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -24,25 +25,12 @@
                 "Navigator.prototype.userAgent": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "e-himart\\.co\\.kr\\/resources\\/layout\\/js\\/jquery\\.cookie\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "static1",
-                "static2"
-            ],
-            "apis": {
-                "Document.cookie getter": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "e-himart\\.co\\.kr\\/resources\\/layout\\/js\\/wiselog\\/wl6\\.js",
-            "cookies": 0.0000203,
+            "cookies": 0.0000137,
             "fingerprinting": 1,
             "subdomains": [
                 "static2",
@@ -58,10 +46,14 @@
                 "Navigator.prototype.userAgent": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000203
+    "cookies": 0.0000137,
+    "types": {
+        "Script": 4
+    }
 }

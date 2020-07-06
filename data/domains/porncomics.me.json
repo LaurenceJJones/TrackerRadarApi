@@ -4,53 +4,71 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000386,
-    "sites": 19,
+    "prevalence": 0.000479,
+    "sites": 35,
     "subdomains": [
         "www"
     ],
-    "fingerprinting": 0,
+    "cnames": [],
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "porncomics\\.me\\/use\\/juicy",
-            "cookies": 0.000224,
+            "cookies": 0.000479,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
+            "sites": 35,
+            "prevalence": 0.000479,
+            "cnames": []
         },
         {
-            "rule": "porncomics\\.me\\/use\\/keeper",
-            "cookies": 0.000285,
-            "fingerprinting": 0,
+            "rule": "porncomics\\.me\\/cdn-cgi\\/bm\\/cv\\/2172558837\\/api\\.js",
+            "cookies": 0.000479,
+            "fingerprinting": 2,
             "subdomains": [
                 "www"
             ],
-            "apis": {},
-            "sites": 14,
-            "prevalence": 0.000285
+            "apis": {
+                "HTMLCanvasElement.prototype.constructor": 34,
+                "HTMLCanvasElement.prototype.toDataURL": 34,
+                "Screen.prototype.width": 34,
+                "Screen.prototype.height": 34,
+                "Screen.prototype.availHeight": 34,
+                "Screen.prototype.availWidth": 34,
+                "window.devicePixelRatio": 35,
+                "Screen.prototype.colorDepth": 34
+            },
+            "sites": 35,
+            "prevalence": 0.000479,
+            "cnames": []
         },
         {
-            "rule": "porncomics\\.me\\/active\\/exotic",
-            "cookies": 0.0000814,
+            "rule": "porncomics\\.me\\/cdn-cgi\\/bm\\/cv\\/result",
+            "cookies": 0.000479,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 35,
+            "prevalence": 0.000479,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 1
     },
-    "cookies": 0.000386
+    "cookies": 0.000479,
+    "types": {
+        "Document": 35,
+        "Script": 35,
+        "XHR": 35
+    }
 }

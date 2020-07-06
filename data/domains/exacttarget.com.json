@@ -9,47 +9,61 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
-    "sites": 4,
+    "prevalence": 0.0000958,
+    "sites": 7,
     "subdomains": [
-        "mc.s6",
-        "mc.s10"
+        "image.s7",
+        "pages.s7"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "exacttarget\\.com\\/CloudPages\\/lib\\/smartcapture-formjs\\.js",
-            "cookies": 0.0000407,
+            "rule": "exacttarget\\.com\\/lib\\/fe9813727660017c74\\/m\\/2\\/jquerui\\.js",
+            "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "mc.s6",
-                "mc.s10"
+                "image.s7"
             ],
             "apis": {
-                "Navigator.prototype.language": 2
+                "Date.prototype.getTime": 3
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "exacttarget\\.com\\/CloudPages\\/utilities\\/t\\.js",
-            "cookies": 0.0000407,
+            "rule": "exacttarget\\.com\\/Script\\/HttpRequest\\.js",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
-                "mc.s6",
-                "mc.s10"
+                "pages.s7"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "exacttarget\\.com\\/Script\\/pageTracking\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pages.s7"
+            ],
+            "apis": {
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 3
-    },
-    "cookies": 0.000061
+    "performance": {},
+    "cookies": 0.0000547,
+    "types": {
+        "Script": 9
+    }
 }

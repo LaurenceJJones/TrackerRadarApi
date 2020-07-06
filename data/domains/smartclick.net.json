@@ -4,12 +4,14 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000285,
-    "sites": 14,
+    "prevalence": 0.000178,
+    "sites": 13,
     "subdomains": [
         "c",
+        "nt",
         "c1"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -20,36 +22,54 @@
                 "c"
             ],
             "apis": {
-                "Date.prototype.getTimezoneOffset": 9,
-                "Date.prototype.getTime": 9,
-                "window.localStorage": 9,
-                "Screen.prototype.width": 6,
-                "Screen.prototype.height": 6
+                "Date.prototype.getTimezoneOffset": 8,
+                "Date.prototype.getTime": 8,
+                "window.localStorage": 8,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7
             },
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         },
         {
             "rule": "smartclick\\.net\\/ads-sync\\.js",
-            "cookies": 0.0000814,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "c"
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.0000814
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "smartclick\\.net\\/impression\\.gif",
-            "cookies": 0.000163,
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
                 "c"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "smartclick\\.net\\/subscribe\\/script",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "nt"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Notification.permission": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "smartclick\\.net\\/z1\\/jquery\\.mini_pc\\.js",
@@ -59,24 +79,26 @@
                 "c1"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.mimeTypes": 2,
-                "Date.prototype.getTime": 2,
-                "window.localStorage": 2
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 3
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "smartclick\\.net\\/ads-async\\.js",
-            "cookies": 0.000102,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "c"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -86,5 +108,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000183
+    "cookies": 0.000109,
+    "types": {
+        "Script": 23,
+        "Image": 7
+    }
 }

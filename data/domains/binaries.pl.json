@@ -7,27 +7,29 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000203,
+    "prevalence": 0.0000137,
     "sites": 1,
     "subdomains": [
         "orange"
     ],
+    "cnames": [],
     "fingerprinting": 3,
     "resources": [
         {
-            "rule": "binaries\\.pl\\/ui\\/20200220\\/gwidget\\/opl-wc-polyfills\\.js",
-            "cookies": 0.0000203,
+            "rule": "binaries\\.pl\\/ui\\/20200525\\/gwidget\\/opl-wc-polyfills\\.js",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "orange"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "binaries\\.pl\\/ui\\/20200220\\/gwidget\\/opl-wc-vendors\\.js",
-            "cookies": 0.0000203,
+            "rule": "binaries\\.pl\\/ui\\/20200525\\/gwidget\\/opl-wc-vendors\\.js",
+            "cookies": 0.0000137,
             "fingerprinting": 3,
             "subdomains": [
                 "orange"
@@ -37,15 +39,14 @@
                 "BroadcastChannel.prototype.constructor": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 1
-    },
-    "cookies": 0.0000203
+    "performance": {},
+    "cookies": 0.0000137,
+    "types": {
+        "Script": 4
+    }
 }

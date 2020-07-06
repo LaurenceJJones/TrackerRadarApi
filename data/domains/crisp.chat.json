@@ -7,161 +7,180 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000468,
-    "sites": 23,
+    "prevalence": 0.000643,
+    "sites": 47,
     "subdomains": [
         "client",
         "image",
         "settings"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
             "rule": "crisp\\.chat\\/l\\.js",
-            "cookies": 0.000427,
+            "cookies": 0.000534,
             "fingerprinting": 2,
             "subdomains": [
                 "client"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 16,
-                "Date.prototype.getTimezoneOffset": 19,
-                "Navigator.prototype.languages": 16,
-                "Navigator.prototype.cookieEnabled": 16,
-                "Navigator.prototype.appVersion": 16,
-                "Navigator.prototype.vendor": 16
+                "Navigator.prototype.userAgent": 40,
+                "Date.prototype.getTimezoneOffset": 44,
+                "Navigator.prototype.languages": 40,
+                "Navigator.prototype.cookieEnabled": 40,
+                "Navigator.prototype.appVersion": 40,
+                "Navigator.prototype.vendor": 40
             },
-            "sites": 22,
-            "prevalence": 0.000448
+            "sites": 44,
+            "prevalence": 0.000602,
+            "cnames": []
         },
         {
             "rule": "crisp\\.chat\\/static\\/javascripts\\/client\\.js",
-            "cookies": 0.000468,
+            "cookies": 0.000643,
             "fingerprinting": 2,
             "subdomains": [
                 "client"
             ],
             "apis": {
-                "HTMLMediaElement.prototype.canPlayType": 23,
-                "Navigator.prototype.maxTouchPoints": 20,
-                "Date.prototype.getTime": 23,
-                "Document.cookie getter": 22,
-                "window.localStorage": 22,
-                "Navigator.prototype.userAgent": 21,
-                "Document.cookie setter": 22,
-                "window.sessionStorage": 22,
-                "Navigator.prototype.product": 19,
-                "Navigator.prototype.doNotTrack": 1
+                "HTMLMediaElement.prototype.canPlayType": 45,
+                "Navigator.prototype.maxTouchPoints": 45,
+                "Date.prototype.getTime": 47,
+                "Document.cookie getter": 43,
+                "window.localStorage": 45,
+                "Navigator.prototype.userAgent": 45,
+                "Document.cookie setter": 43,
+                "window.sessionStorage": 45,
+                "Navigator.prototype.product": 42,
+                "Navigator.prototype.doNotTrack": 3
             },
-            "sites": 23,
-            "prevalence": 0.000468
+            "sites": 47,
+            "prevalence": 0.000643,
+            "cnames": []
         },
         {
             "rule": "crisp\\.chat\\/static\\/stylesheets\\/client_default\\.css",
-            "cookies": 0.000468,
+            "cookies": 0.000643,
             "fingerprinting": 0,
             "subdomains": [
                 "client"
             ],
             "apis": {},
-            "sites": 23,
-            "prevalence": 0.000468
+            "sites": 47,
+            "prevalence": 0.000643,
+            "cnames": []
         },
         {
             "rule": "crisp\\.chat\\/static\\/javascripts\\/locales\\/en\\.js",
-            "cookies": 0.000448,
+            "cookies": 0.000561,
             "fingerprinting": 0,
             "subdomains": [
                 "client"
             ],
             "apis": {},
-            "sites": 22,
-            "prevalence": 0.000448
+            "sites": 41,
+            "prevalence": 0.000561,
+            "cnames": []
         },
         {
             "rule": "crisp\\.chat\\/process\\/thumbnail\\/",
-            "cookies": 0.000163,
+            "cookies": 0.00026,
             "fingerprinting": 0,
             "subdomains": [
                 "image"
             ],
             "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
+            "sites": 22,
+            "prevalence": 0.000301,
+            "cnames": []
         },
         {
             "rule": "crisp\\.chat\\/static\\/fonts\\/noto_sans\\/0020-007F\\/noto_sans_bold\\.woff2",
-            "cookies": 0.000264,
+            "cookies": 0.000328,
             "fingerprinting": 0,
             "subdomains": [
                 "client"
             ],
             "apis": {},
-            "sites": 13,
-            "prevalence": 0.000264
+            "sites": 24,
+            "prevalence": 0.000328,
+            "cnames": []
         },
         {
             "rule": "crisp\\.chat\\/static\\/fonts\\/noto_sans\\/0020-007F\\/noto_sans_regular\\.woff2",
-            "cookies": 0.000264,
+            "cookies": 0.000328,
             "fingerprinting": 0,
             "subdomains": [
                 "client"
             ],
             "apis": {},
-            "sites": 13,
-            "prevalence": 0.000264
+            "sites": 24,
+            "prevalence": 0.000328,
+            "cnames": []
         },
         {
             "rule": "crisp\\.chat\\/client\\/website\\/f9be5803-4227-436f-8725-89e8ba230cfd\\/prelude\\/",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "settings"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "crisp\\.chat\\/client\\/website\\/f9be5803-4227-436f-8725-89e8ba230cfd\\/",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "settings"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "crisp\\.chat\\/client\\/website\\/db1d2b16-0be6-467b-878a-5a31895eb86e\\/prelude\\/",
-            "cookies": 0.0000203,
+            "rule": "crisp\\.chat\\/static\\/sounds\\/events\\/chat-message-receive\\.oga",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "settings"
+                "client"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "crisp\\.chat\\/client\\/website\\/db1d2b16-0be6-467b-878a-5a31895eb86e\\/",
-            "cookies": 0.0000203,
+            "rule": "crisp\\.chat\\/static\\/javascripts\\/locales\\/es\\.js",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "settings"
+                "client"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 2,
         "cache": 1
     },
-    "cookies": 0.000468
+    "cookies": 0.000643,
+    "types": {
+        "Script": 138,
+        "Stylesheet": 47,
+        "Image": 22,
+        "Font": 48,
+        "XHR": 3
+    }
 }

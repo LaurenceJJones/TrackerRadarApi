@@ -4,37 +4,49 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
+    "prevalence": 0.0000547,
     "sites": 4,
     "subdomains": [
-        "static",
-        "feeds"
+        "static"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "vroom\\.be\\/assets\\/images\\/articles\\/17\\/41\\/4\\/1490880892\\.4319\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "vroom\\.be\\/assets\\/images\\/articles\\/23\\/39\\/6\\/20200622113516r-d6\\.jpg",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "vroom\\.be\\/assets\\/images\\/articles\\/23\\/39\\/4\\/2020062208340701-opel-zafira-e-512192\\.jpg",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "vroom\\.be\\/assets\\/images\\/articles\\/23\\/39\\/5\\/20200622092104fiat3\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "static"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "vroom\\.be\\/bundles\\/carouselJs",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "feeds"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -44,5 +56,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.0000814
+    "cookies": 0.0000547,
+    "types": {
+        "Image": 8
+    }
 }

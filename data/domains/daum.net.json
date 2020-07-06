@@ -7,83 +7,87 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00061,
-    "sites": 30,
+    "prevalence": 0.000424,
+    "sites": 31,
     "subdomains": [
-        "webid.ad",
-        "display.ad",
-        "track.tiara",
         "analytics.ad",
-        "keyword.ad",
-        "wat.ad"
+        "webid.ad",
+        "track.tiara",
+        "stat.tiara.g",
+        "display.ad"
+    ],
+    "cnames": [
+        {
+            "original": "stat.tiara.tistory.com",
+            "resolved": "stat.tiara.g.daum.net"
+        }
     ],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "daum\\.net\\/sync",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "webid.ad"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "daum\\.net\\/sdk\\/banner",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "display.ad"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "daum\\.net\\/queen\\/footsteps",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "track.tiara"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
             "rule": "daum\\.net\\/match",
-            "cookies": 0.000386,
+            "cookies": 0.000287,
             "fingerprinting": 0,
             "subdomains": [
                 "analytics.ad"
             ],
             "apis": {},
-            "sites": 19,
-            "prevalence": 0.000386
+            "sites": 21,
+            "prevalence": 0.000287,
+            "cnames": []
         },
         {
-            "rule": "daum\\.net\\/exp",
-            "cookies": 0.0000407,
+            "rule": "daum\\.net\\/sync",
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
-                "keyword.ad"
+                "webid.ad"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "daum\\.net\\/queen\\/footsteps",
+            "cookies": 0.0000821,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track.tiara"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "daum\\.net\\/track",
+            "cookies": 0.0000821,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stat.tiara.g"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": [
+                {
+                    "original": "stat.tiara.tistory.com",
+                    "resolved": "stat.tiara.g.daum.net"
+                }
+            ]
+        },
+        {
+            "rule": "daum\\.net\\/sdk\\/banner",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "display.ad"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "daum\\.net\\/aac",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "wat.ad"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -93,5 +97,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00057
+    "cookies": 0.000383,
+    "types": {
+        "Image": 40,
+        "Fetch": 2
+    }
 }

@@ -7,13 +7,14 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
-    "sites": 5,
+    "prevalence": 0.000137,
+    "sites": 10,
     "subdomains": [
         "cpro",
         "dup"
     ],
-    "fingerprinting": 3,
+    "cnames": [],
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "baidustatic\\.com\\/cpro\\/ui\\/c\\.js",
@@ -21,6 +22,81 @@
             "fingerprinting": 2,
             "subdomains": [
                 "cpro"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4,
+                "Navigator.prototype.language": 4,
+                "Screen.prototype.colorDepth": 4,
+                "Date.prototype.getTimezoneOffset": 4,
+                "window.sessionStorage": 4,
+                "window.indexedDB": 4,
+                "Navigator.prototype.platform": 4,
+                "Navigator.prototype.doNotTrack": 4,
+                "Navigator.prototype.plugins": 4,
+                "Navigator.prototype.cookieEnabled": 4,
+                "Screen.prototype.availWidth": 4,
+                "Screen.prototype.availHeight": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "baidustatic\\.com\\/tpl\\/wh\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "dup"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 9,
+                "Navigator.prototype.appName": 9,
+                "Screen.prototype.availHeight": 9,
+                "Screen.prototype.availWidth": 9,
+                "Navigator.prototype.language": 9,
+                "Navigator.prototype.plugins": 9,
+                "Navigator.prototype.mimeTypes": 9,
+                "Screen.prototype.width": 8,
+                "Screen.prototype.height": 8,
+                "Screen.prototype.colorDepth": 8,
+                "window.devicePixelRatio": 8,
+                "Navigator.prototype.javaEnabled": 8,
+                "Navigator.prototype.cookieEnabled": 8,
+                "Date.prototype.getTimezoneOffset": 8,
+                "window.localStorage": 8,
+                "HTMLCanvasElement.prototype.constructor": 8,
+                "HTMLCanvasElement.prototype.toDataURL": 8,
+                "Document.cookie getter": 2
+            },
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "baidustatic\\.com\\/tpl\\/fb\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dup"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 9,
+                "Navigator.prototype.plugins": 9
+            },
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "baidustatic\\.com\\/js\\/os\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "dup"
             ],
             "apis": {
                 "Date.prototype.getTime": 3,
@@ -41,51 +117,8 @@
                 "Screen.prototype.height": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "baidustatic\\.com\\/tpl\\/wh\\.js",
-            "cookies": 0,
-            "fingerprinting": 2,
-            "subdomains": [
-                "dup"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 5,
-                "Navigator.prototype.appName": 5,
-                "Screen.prototype.availHeight": 5,
-                "Screen.prototype.availWidth": 5,
-                "Navigator.prototype.language": 5,
-                "Navigator.prototype.plugins": 5,
-                "Navigator.prototype.mimeTypes": 5,
-                "Screen.prototype.width": 4,
-                "Screen.prototype.height": 4,
-                "Screen.prototype.colorDepth": 4,
-                "window.devicePixelRatio": 4,
-                "Navigator.prototype.javaEnabled": 4,
-                "Navigator.prototype.cookieEnabled": 4,
-                "Date.prototype.getTimezoneOffset": 4,
-                "window.localStorage": 4,
-                "HTMLCanvasElement.prototype.constructor": 4,
-                "HTMLCanvasElement.prototype.toDataURL": 4,
-                "Document.cookie getter": 1
-            },
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "baidustatic\\.com\\/tpl\\/fb\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "dup"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 5,
-                "Navigator.prototype.plugins": 5
-            },
-            "sites": 5,
-            "prevalence": 0.000102
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "baidustatic\\.com\\/dup\\/painter\\/dynamicFloat\\.js",
@@ -98,7 +131,37 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "baidustatic\\.com\\/js\\/ds\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "dup"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.sessionStorage": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -108,5 +171,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 29
+    }
 }

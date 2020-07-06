@@ -4,32 +4,14 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000244,
-    "sites": 12,
+    "prevalence": 0.000205,
+    "sites": 15,
     "subdomains": [
         "static-l3"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
-        {
-            "rule": "others-cdn\\.com\\/v-09a6076a1d4\\/v3\\/js\\/skins\\/min\\/trade\\.header\\.static\\.js",
-            "cookies": 0.000142,
-            "fingerprinting": 2,
-            "subdomains": [
-                "static-l3"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 11,
-                "window.localStorage": 8,
-                "RTCPeerConnection.prototype.constructor": 8,
-                "window.devicePixelRatio": 8,
-                "Document.cookie setter": 7,
-                "HTMLMediaElement.prototype.canPlayType": 8,
-                "RTCPeerConnectionIceEvent.prototype.candidate": 1
-            },
-            "sites": 11,
-            "prevalence": 0.000224
-        },
         {
             "rule": "others-cdn\\.com\\/v3\\/js\\/libs\\/jquery\\.min\\.js",
             "cookies": 0,
@@ -38,10 +20,11 @@
                 "static-l3"
             ],
             "apis": {
-                "Element.prototype.getClientRects": 12
+                "Element.prototype.getClientRects": 14
             },
-            "sites": 12,
-            "prevalence": 0.000244
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
         },
         {
             "rule": "others-cdn\\.com\\/v3\\/js\\/skins\\/min\\/require\\.static\\.js",
@@ -51,32 +34,60 @@
                 "static-l3"
             ],
             "apis": {
-                "Navigator.prototype.platform": 5,
-                "Date.prototype.getTime": 12
+                "Navigator.prototype.platform": 13,
+                "Date.prototype.getTime": 14
             },
-            "sites": 12,
-            "prevalence": 0.000244
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
         },
         {
-            "rule": "others-cdn\\.com\\/v-77f087ec94a\\/v3\\/js\\/skins\\/min\\/trade\\.js",
+            "rule": "others-cdn\\.com\\/v-ba3d9ba4a3d\\/v3\\/js\\/skins\\/min\\/trade\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "static-l3"
             ],
             "apis": {
-                "window.matchMedia(\"prefers-reduced-motion\")": 11
+                "window.matchMedia(\"prefers-reduced-motion\")": 10
             },
-            "sites": 11,
-            "prevalence": 0.000224
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
+        },
+        {
+            "rule": "others-cdn\\.com\\/v-90c02db4ced\\/v3\\/js\\/skins\\/min\\/trade\\.header\\.static\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static-l3"
+            ],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 6,
+                "window.localStorage": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Date.prototype.getTime": 6,
+                "RTCPeerConnection.prototype.constructor": 6,
+                "window.devicePixelRatio": 6,
+                "RTCPeerConnectionIceEvent.prototype.candidate": 6,
+                "Document.cookie setter": 1,
+                "Navigator.prototype.connection": 6,
+                "HTMLMediaElement.prototype.canPlayType": 3
+            },
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 2,
-        "cpu": 1,
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.000142
+    "cookies": 0.0000274,
+    "types": {
+        "Script": 48
+    }
 }

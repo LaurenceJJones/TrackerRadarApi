@@ -4,32 +4,42 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000264,
-    "sites": 13,
+    "prevalence": 0.000506,
+    "sites": 37,
     "subdomains": [
         "sw"
     ],
+    "cnames": [],
     "fingerprinting": 3,
     "resources": [
         {
             "rule": "wpush\\.org\\/script\\/main\\.js",
-            "cookies": 0.000264,
+            "cookies": 0.000438,
             "fingerprinting": 3,
             "subdomains": [
                 "sw"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 10,
-                "Navigator.prototype.language": 10,
-                "window.sessionStorage": 12,
-                "window.localStorage": 12,
-                "Navigator.prototype.storage": 10
+                "Navigator.prototype.language": 36,
+                "window.sessionStorage": 37,
+                "window.localStorage": 37,
+                "Navigator.prototype.storage": 25,
+                "Notification.permission": 6
             },
-            "sites": 13,
-            "prevalence": 0.000264
+            "sites": 37,
+            "prevalence": 0.000506,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {},
-    "cookies": 0.000264
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000438,
+    "types": {
+        "Script": 37
+    }
 }

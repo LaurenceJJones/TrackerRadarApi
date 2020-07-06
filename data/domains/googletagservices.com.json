@@ -9,11 +9,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.296,
-    "sites": 14569,
+    "prevalence": 0.276,
+    "sites": 20154,
     "subdomains": [
         "www"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -24,14 +25,16 @@
                 "www"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 12352,
-                "Screen.prototype.width": 12452,
-                "Screen.prototype.height": 12452,
-                "PerformanceTiming.prototype.navigationStart": 12304,
-                "Date.prototype.getTime": 14
+                "Navigator.prototype.userAgent": 17764,
+                "Screen.prototype.width": 17761,
+                "Screen.prototype.height": 17761,
+                "PerformanceTiming.prototype.navigationStart": 17594,
+                "Date.prototype.getTime": 2,
+                "Event.prototype.timeStamp": 1
             },
-            "sites": 12502,
-            "prevalence": 0.254
+            "sites": 17871,
+            "prevalence": 0.245,
+            "cnames": []
         },
         {
             "rule": "googletagservices\\.com\\/activeview\\/js\\/current\\/osd_listener\\.js",
@@ -41,14 +44,15 @@
                 "www"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 9636,
-                "Screen.prototype.width": 10083,
-                "Screen.prototype.height": 10083,
-                "PerformanceTiming.prototype.navigationStart": 9585,
-                "HTMLCanvasElement.prototype.constructor": 9
+                "Navigator.prototype.userAgent": 13708,
+                "Screen.prototype.width": 14709,
+                "Screen.prototype.height": 14709,
+                "PerformanceTiming.prototype.navigationStart": 13627,
+                "HTMLCanvasElement.prototype.constructor": 26
             },
-            "sites": 10251,
-            "prevalence": 0.209
+            "sites": 15054,
+            "prevalence": 0.206,
+            "cnames": []
         },
         {
             "rule": "googletagservices\\.com\\/tag\\/js\\/gpt\\.js",
@@ -58,12 +62,14 @@
                 "www"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 4593,
-                "Date.prototype.getTime": 6514,
-                "window.localStorage": 6078
+                "Navigator.prototype.userAgent": 7174,
+                "Date.prototype.getTime": 7841,
+                "Navigator.prototype.connection": 6405,
+                "window.localStorage": 7090
             },
-            "sites": 7058,
-            "prevalence": 0.144
+            "sites": 7867,
+            "prevalence": 0.108,
+            "cnames": []
         },
         {
             "rule": "googletagservices\\.com\\/dcm\\/dcmads\\.js",
@@ -73,58 +79,28 @@
                 "www"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 1154,
-                "Date.prototype.getTime": 1254
+                "Navigator.prototype.userAgent": 1716,
+                "Date.prototype.getTime": 1910
             },
-            "sites": 1388,
-            "prevalence": 0.0282
+            "sites": 2009,
+            "prevalence": 0.0275,
+            "cnames": []
         },
         {
-            "rule": "googletagservices\\.com\\/dcm\\/impl_v55\\.js",
+            "rule": "googletagservices\\.com\\/dcm\\/impl_v57\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "www"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 1177,
-                "Date.prototype.getTime": 1196,
-                "window.devicePixelRatio": 1197
+                "Navigator.prototype.userAgent": 1837,
+                "Date.prototype.getTime": 1854,
+                "window.devicePixelRatio": 1852
             },
-            "sites": 1273,
-            "prevalence": 0.0259
-        },
-        {
-            "rule": "googletagservices\\.com\\/activeview\\/js\\/current\\/lidar\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 1246,
-                "Screen.prototype.width": 1083,
-                "Screen.prototype.height": 1083,
-                "PerformanceTiming.prototype.navigationStart": 1071
-            },
-            "sites": 1297,
-            "prevalence": 0.0264
-        },
-        {
-            "rule": "googletagservices\\.com\\/activeview\\/js\\/current\\/osd\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 8,
-                "Screen.prototype.width": 8,
-                "Screen.prototype.height": 8,
-                "PerformanceTiming.prototype.navigationStart": 8
-            },
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 1920,
+            "prevalence": 0.0263,
+            "cnames": []
         },
         {
             "rule": "googletagservices\\.com\\/activeview\\/js\\/current\\/rx_lidar\\.js",
@@ -134,10 +110,45 @@
                 "www"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 39
+                "Navigator.prototype.userAgent": 1570
             },
-            "sites": 44,
-            "prevalence": 0.000895
+            "sites": 1644,
+            "prevalence": 0.0225,
+            "cnames": []
+        },
+        {
+            "rule": "googletagservices\\.com\\/activeview\\/js\\/current\\/osd\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 10,
+                "Screen.prototype.width": 10,
+                "Screen.prototype.height": 10,
+                "PerformanceTiming.prototype.navigationStart": 10
+            },
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
+        },
+        {
+            "rule": "googletagservices\\.com\\/activeview\\/js\\/current\\/lidar\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Screen.prototype.width": 15,
+                "Screen.prototype.height": 15,
+                "Navigator.prototype.userAgent": 11,
+                "PerformanceTiming.prototype.navigationStart": 13
+            },
+            "sites": 15,
+            "prevalence": 0.000205,
+            "cnames": []
         },
         {
             "rule": "googletagservices\\.com\\/tag\\/js\\/gpt_mobile\\.js",
@@ -147,12 +158,13 @@
                 "www"
             ],
             "apis": {
-                "Date.prototype.getTime": 4,
-                "window.localStorage": 4,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 1
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "googletagservices\\.com\\/tag\\/js\\/gpt\\.js",
@@ -162,12 +174,14 @@
                 "www"
             ],
             "apis": {
+                "Date.prototype.getTime": 12,
+                "window.localStorage": 12,
                 "Navigator.prototype.userAgent": 10,
-                "Date.prototype.getTime": 11,
-                "window.localStorage": 11
+                "Navigator.prototype.connection": 10
             },
-            "sites": 17,
-            "prevalence": 0.000346
+            "sites": 22,
+            "prevalence": 0.000301,
+            "cnames": []
         },
         {
             "rule": "googletagservices\\.com\\/tag\\/js\\/gpt\\.js",
@@ -177,12 +191,30 @@
                 "www"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "Date.prototype.getTime": 4,
-                "window.localStorage": 4
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.connection": 2,
+                "window.localStorage": 2
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "googletagservices\\.com\\/dcm\\/impl_v55\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 1,
+                "window.devicePixelRatio": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -199,5 +231,10 @@
         "cpu": 2,
         "cache": 1
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 46384,
+        "Fetch": 32,
+        "Other": 2
+    }
 }

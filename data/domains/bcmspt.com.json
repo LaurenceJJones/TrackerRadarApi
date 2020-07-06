@@ -4,8 +4,8 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000122,
-    "sites": 6,
+    "prevalence": 0.0000713,
+    "sites": 5,
     "subdomains": [],
     "fingerprinting": 1,
     "resources": [
@@ -15,14 +15,17 @@
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Navigator.prototype.userAgent": 6,
-                "HTMLCanvasElement.prototype.constructor": 5
+                "Navigator.prototype.userAgent": 1,
+                "HTMLCanvasElement.prototype.constructor": 1
             },
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 5,
+            "prevalence": 0.0000713
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Document": 5
+    }
 }

@@ -7,67 +7,31 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
-    "sites": 4,
+    "prevalence": 0.000041,
+    "sites": 3,
     "subdomains": [
+        "csl",
         "opl",
-        "csl"
+        "tsl"
     ],
+    "cnames": [],
     "fingerprinting": 3,
     "resources": [
         {
-            "rule": "0ps\\.us\\/assets-2e0850b0c31\\/vendor\\/jplayer\\/dist\\/jplayer\\/jquery\\.jplayer\\.js",
+            "rule": "0ps\\.us\\/assets-50da3f0fec3\\/vendor\\/jplayer\\/dist\\/jplayer\\/jquery\\.jplayer\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
+                "csl",
                 "opl",
-                "csl"
+                "tsl"
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 3
             },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "0ps\\.us\\/assets-2e0850b0c31\\/js\\/opticsplanet\\/desktop\\/common_chunk\\.js",
-            "cookies": 0.000061,
-            "fingerprinting": 3,
-            "subdomains": [
-                "opl"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Document.cookie setter": 3,
-                "Document.cookie getter": 3,
-                "Date.prototype.getTime": 3,
-                "window.localStorage": 3,
-                "Navigator.prototype.appVersion": 3,
-                "Screen.prototype.colorDepth": 3,
-                "Navigator.prototype.appName": 3,
-                "window.devicePixelRatio": 3,
-                "Screen.prototype.width": 3,
-                "Screen.prototype.height": 3,
-                "Navigator.prototype.storage": 3
-            },
             "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "0ps\\.us\\/assets-2e0850b0c31\\/js\\/opticsplanet\\/desktop\\/react_other_pages\\.js",
-            "cookies": 0.000061,
-            "fingerprinting": 1,
-            "subdomains": [
-                "opl"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Document.cookie getter": 3,
-                "Date.prototype.getTime": 3,
-                "Document.cookie setter": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -77,5 +41,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.0000814
+    "cookies": 0.0000274,
+    "types": {
+        "Script": 3
+    }
 }

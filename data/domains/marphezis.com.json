@@ -4,31 +4,14 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00167,
-    "sites": 82,
+    "prevalence": 0.00118,
+    "sites": 86,
     "subdomains": [
         "cdn"
     ],
-    "fingerprinting": 2,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
-        {
-            "rule": "marphezis\\.com\\/cmpp\\/cst\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 43,
-                "Navigator.prototype.connection": 22,
-                "Date.prototype.getTime": 29,
-                "Date.prototype.getTimezoneOffset": 29,
-                "Screen.prototype.width": 20,
-                "Screen.prototype.height": 20
-            },
-            "sites": 43,
-            "prevalence": 0.000875
-        },
         {
             "rule": "marphezis\\.com\\/cmpp\\/index\\.js",
             "cookies": 0,
@@ -37,12 +20,29 @@
                 "cdn"
             ],
             "apis": {
-                "Date.prototype.getTime": 23,
-                "Date.prototype.getTimezoneOffset": 23,
-                "Navigator.prototype.userAgent": 14
+                "Date.prototype.getTime": 27,
+                "Date.prototype.getTimezoneOffset": 27,
+                "Navigator.prototype.userAgent": 4
             },
-            "sites": 23,
-            "prevalence": 0.000468
+            "sites": 27,
+            "prevalence": 0.000369,
+            "cnames": []
+        },
+        {
+            "rule": "marphezis\\.com\\/cmpp\\/cst\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 32,
+                "Date.prototype.getTimezoneOffset": 32,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 32,
+            "prevalence": 0.000438,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -52,5 +52,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 59
+    }
 }

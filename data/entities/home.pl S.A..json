@@ -2,39 +2,7 @@
     "name": "home.pl S.A.",
     "displayName": "home.pl",
     "properties": [
-        "adsearch.pl",
-        "allani.pl",
         "behavioralengine.com",
-        "boo.pl",
-        "bryk.pl",
-        "buybox.click",
-        "chatwee-api.com",
-        "chatwee.com",
-        "concertful.com",
-        "cpp0x.pl",
-        "dmdi.pl",
-        "ebookfriendly.com",
-        "gpcdn.pl",
-        "gremimedia.pl",
-        "homebook.pl",
-        "hub.com.pl",
-        "hub2.com.pl",
-        "interia.pl",
-        "iplsc.com",
-        "jint.pro",
-        "krzyzowka.net",
-        "onaudience.com",
-        "pcformat.pl",
-        "sfd.pl",
-        "simplytick.com",
-        "smaker.pl",
-        "synonim.net",
-        "tvp.info",
-        "weareresponsive.com"
-    ],
-    "prevalence": {
-        "tracking": 0.000427,
-        "nonTracking": 0.00675,
-        "total": 0.00718
-    }
+        "home.pl"
+    ]
 }

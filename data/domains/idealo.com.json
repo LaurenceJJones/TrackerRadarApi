@@ -7,63 +7,70 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000224,
-    "sites": 11,
+    "prevalence": 0.000219,
+    "sites": 16,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "idealo\\.com\\/storage\\/ipc\\/assets\\/head-bf17e39ae2d0d1441b88\\.es6\\.js",
+            "rule": "idealo\\.com\\/storage\\/ipc\\/assets\\/head-a163194ee9bd075752f3\\.es6\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "window.localStorage": 4
+                "window.localStorage": 7
             },
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
-            "rule": "idealo\\.com\\/storage\\/ipc\\/assets\\/legacy\\/idealo-3bcc432ab6a35a29d77e\\.js",
+            "rule": "idealo\\.com\\/storage\\/ipc\\/assets\\/legacy\\/idealo-a12a36335f814da96b78\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "window.localStorage": 6,
-                "window.sessionStorage": 5,
-                "Navigator.prototype.userAgent": 2
+                "window.localStorage": 7,
+                "window.sessionStorage": 7,
+                "Navigator.prototype.userAgent": 7
             },
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
-            "rule": "idealo\\.com\\/storage\\/ipc\\/assets\\/vendor-50e3b60f6f2b48c50e3f\\.es6\\.js",
+            "rule": "idealo\\.com\\/storage\\/ipc\\/assets\\/vendor-94a970c89f6d02c22e89\\.es6\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "window.matchMedia(\"prefers-reduced-motion\")": 5,
-                "Event.prototype.timeStamp": 6,
-                "Navigator.prototype.userAgent": 1
+                "Navigator.prototype.userAgent": 7,
+                "window.matchMedia(\"prefers-reduced-motion\")": 7,
+                "Event.prototype.timeStamp": 7
             },
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 21
+    }
 }

@@ -4,46 +4,40 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00104,
-    "sites": 51,
+    "prevalence": 0.000917,
+    "sites": 67,
     "subdomains": [
-        "ct",
-        "c",
         "geo"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "captcha-delivery\\.com\\/c\\.js",
+            "rule": "captcha-delivery\\.com\\/captcha\\/",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "ct"
-            ],
-            "apis": {
-                "Document.cookie getter": 1
-            },
-            "sites": 49,
-            "prevalence": 0.000997
-        },
-        {
-            "rule": "captcha-delivery\\.com\\/captcha\\/",
-            "cookies": 0.000936,
-            "fingerprinting": 1,
-            "subdomains": [
-                "c",
                 "geo"
             ],
             "apis": {
-                "Date.prototype.getTime": 50,
-                "Navigator.prototype.language": 45,
-                "Navigator.prototype.userAgent": 47
+                "Date.prototype.getTime": 61,
+                "Navigator.prototype.userAgent": 58,
+                "Navigator.prototype.language": 57
             },
-            "sites": 51,
-            "prevalence": 0.00104
+            "sites": 62,
+            "prevalence": 0.000848,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {},
-    "cookies": 0.000936
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Document": 62
+    }
 }

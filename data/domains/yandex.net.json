@@ -9,11 +9,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00386,
-    "sites": 190,
+    "prevalence": 0.00374,
+    "sites": 273,
     "subdomains": [
         "site"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -24,11 +25,12 @@
                 "site"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 24,
-                "Navigator.prototype.cookieEnabled": 25
+                "Navigator.prototype.cookieEnabled": 42,
+                "Navigator.prototype.userAgent": 40
             },
-            "sites": 33,
-            "prevalence": 0.000671
+            "sites": 42,
+            "prevalence": 0.000575,
+            "cnames": []
         },
         {
             "rule": "yandex\\.net\\/v2\\.0\\/js\\/suggest\\.js",
@@ -38,10 +40,11 @@
                 "site"
             ],
             "apis": {
-                "Date.prototype.getTime": 26
+                "Date.prototype.getTime": 36
             },
-            "sites": 26,
-            "prevalence": 0.000529
+            "sites": 37,
+            "prevalence": 0.000506,
+            "cnames": []
         },
         {
             "rule": "yandex\\.net\\/js\\/_form\\.js",
@@ -54,7 +57,8 @@
                 "Navigator.prototype.userAgent": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -68,5 +72,8 @@
         "cpu": 1,
         "cache": 1
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 81
+    }
 }

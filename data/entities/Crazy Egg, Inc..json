@@ -6,8 +6,8 @@
         "hellobar.com"
     ],
     "prevalence": {
-        "tracking": 0.0306,
-        "nonTracking": 0.000488,
-        "total": 0.0311
+        "tracking": 0.0193,
+        "nonTracking": 0.00865,
+        "total": 0.028
     }
 }

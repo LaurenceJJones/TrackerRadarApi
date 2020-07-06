@@ -4,16 +4,17 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000142,
+    "prevalence": 0.0000958,
     "sites": 7,
     "subdomains": [
         "analytics"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "trovit\\.com\\/trovit-analytics\\.js",
-            "cookies": 0.000142,
+            "cookies": 0.0000958,
             "fingerprinting": 1,
             "subdomains": [
                 "analytics"
@@ -24,7 +25,8 @@
                 "Document.cookie setter": 7
             },
             "sites": 7,
-            "prevalence": 0.000142
+            "prevalence": 0.0000958,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -34,5 +36,8 @@
         "cpu": 0,
         "cache": 0
     },
-    "cookies": 0.000142
+    "cookies": 0.0000958,
+    "types": {
+        "Script": 7
+    }
 }

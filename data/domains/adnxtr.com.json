@@ -7,56 +7,76 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000462,
-    "sites": 2,
+    "prevalence": 0.000123,
+    "sites": 9,
     "subdomains": [
         "s"
     ],
+    "cnames": [],
     "fingerprinting": 3,
     "resources": [
         {
-            "rule": "adnxtr\\.com\\/2\\/4\\.54\\.0\\/main\\.js",
+            "rule": "adnxtr\\.com\\/2\\/696173\\/analytics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "window.name": 7,
+                "Date.prototype.getTime": 7
+            },
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
+        },
+        {
+            "rule": "adnxtr\\.com\\/2\\/4\\.69\\.1\\/main\\.js",
             "cookies": 0,
             "fingerprinting": 3,
             "subdomains": [
                 "s"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.language": 2,
-                "Navigator.prototype.permissions": 1,
-                "Navigator.prototype.appVersion": 1,
-                "Screen.prototype.availHeight": 1,
-                "Screen.prototype.availWidth": 1,
-                "Screen.prototype.colorDepth": 1,
-                "Screen.prototype.pixelDepth": 1,
-                "Screen.prototype.height": 1,
-                "Screen.prototype.width": 1,
-                "Navigator.prototype.onLine": 1,
-                "PerformanceTiming.prototype.navigationStart": 1,
-                "Performance.prototype.memory": 1,
-                "window.devicePixelRatio": 1,
-                "window.name": 1,
-                "console.memory": 1,
-                "window.localStorage": 1,
-                "Navigator.prototype.connection": 1,
-                "Navigator.prototype.vendor": 1,
-                "Navigator.prototype.appCodeName": 1,
-                "Navigator.prototype.hardwareConcurrency": 1,
-                "Navigator.prototype.plugins": 1,
-                "Screen.prototype.availLeft": 1,
-                "Screen.prototype.availTop": 1,
-                "Screen.prototype.orientation": 1,
-                "Navigator.prototype.platform": 1,
-                "Navigator.prototype.maxTouchPoints": 1,
-                "Date.prototype.getTime": 1,
-                "Date.prototype.getTimezoneOffset": 1,
-                "speechSynthesis.__proto__.getVoices": 1,
-                "Navigator.prototype.getBattery": 1,
-                "URL.createObjectURL": 1
+                "Navigator.prototype.userAgent": 8,
+                "Navigator.prototype.permissions": 7,
+                "Notification.permission": 7,
+                "Screen.prototype.availHeight": 7,
+                "Screen.prototype.availWidth": 7,
+                "Screen.prototype.colorDepth": 7,
+                "Screen.prototype.pixelDepth": 7,
+                "Screen.prototype.height": 7,
+                "Screen.prototype.width": 7,
+                "Navigator.prototype.onLine": 7,
+                "PerformanceTiming.prototype.navigationStart": 7,
+                "Performance.prototype.memory": 6,
+                "window.devicePixelRatio": 7,
+                "window.name": 7,
+                "console.memory": 6,
+                "window.localStorage": 7,
+                "Navigator.prototype.vendor": 7,
+                "Navigator.prototype.appCodeName": 7,
+                "Navigator.prototype.languages": 7,
+                "Navigator.prototype.mediaDevices": 5,
+                "Navigator.prototype.hardwareConcurrency": 7,
+                "Navigator.prototype.deviceMemory": 5,
+                "Navigator.prototype.plugins": 7,
+                "Screen.prototype.availLeft": 7,
+                "Screen.prototype.availTop": 7,
+                "Screen.prototype.orientation": 7,
+                "Navigator.prototype.platform": 7,
+                "Navigator.prototype.maxTouchPoints": 7,
+                "Navigator.prototype.connection": 7,
+                "Date.prototype.getTime": 7,
+                "Date.prototype.getTimezoneOffset": 7,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 7,
+                "speechSynthesis.__proto__.getVoices": 7,
+                "Navigator.prototype.getBattery": 7,
+                "URL.createObjectURL": 6
             },
-            "sites": 2,
-            "prevalence": 0.0000462
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -64,7 +84,10 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 1
+        "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 17
+    }
 }

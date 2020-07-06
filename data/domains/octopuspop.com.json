@@ -7,12 +7,13 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000264,
-    "sites": 13,
+    "prevalence": 0.000274,
+    "sites": 20,
     "subdomains": [
         "js",
         "ap"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -23,21 +24,11 @@
                 "js"
             ],
             "apis": {
-                "window.localStorage": 5
+                "window.localStorage": 7
             },
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "octopuspop\\.com\\/deliver\\/",
-            "cookies": 0.000142,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ap"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         },
         {
             "rule": "octopuspop\\.com\\/pu-jq\\.js",
@@ -47,35 +38,50 @@
                 "js"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.cookieEnabled": 3,
-                "Screen.prototype.height": 3,
-                "Date.prototype.getTime": 3
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Screen.prototype.height": 2,
+                "Date.prototype.getTime": 1
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
             "rule": "octopuspop\\.com\\/deliver\\/",
-            "cookies": 0.000102,
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
                 "ap"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "octopuspop\\.com\\/deliver\\/",
+            "cookies": 0.000164,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ap"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
         },
         {
             "rule": "octopuspop\\.com\\/view\\/",
-            "cookies": 0.000102,
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [
                 "ap"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -83,7 +89,13 @@
         "time": 1,
         "size": 1,
         "cpu": 0,
-        "cache": 3
+        "cache": 1
     },
-    "cookies": 0.000264
+    "cookies": 0.00026,
+    "types": {
+        "Document": 9,
+        "Script": 20,
+        "XHR": 7,
+        "Image": 10
+    }
 }

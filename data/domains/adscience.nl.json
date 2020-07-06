@@ -4,47 +4,40 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000163,
-    "sites": 8,
+    "prevalence": 0.0000684,
+    "sites": 5,
     "subdomains": [
         "rtb7",
-        "rtb8",
-        "sgmnt"
+        "sgmnt",
+        "rtb8"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "adscience\\.nl\\/cgi-bin\\/UserMatcher\\.fcgi",
-            "cookies": 0.000122,
+            "rule": "adscience\\.nl\\/cgi-bin\\/sgmnt\\.fcgi",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "rtb7"
+                "rtb7",
+                "sgmnt"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "adscience\\.nl\\/segmentpixel\\.php",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "rtb8"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adscience\\.nl\\/cgi-bin\\/sgmnt\\.fcgi",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sgmnt"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -52,7 +45,11 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000163
+    "cookies": 0.0000274,
+    "types": {
+        "Image": 4,
+        "Script": 2
+    }
 }

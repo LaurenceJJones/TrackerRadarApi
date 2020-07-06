@@ -9,23 +9,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00814,
-    "sites": 400,
+    "prevalence": 0.00449,
+    "sites": 328,
     "subdomains": [
         "segments"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "company-target\\.com\\/log",
-            "cookies": 0.0074,
+            "cookies": 0.00402,
             "fingerprinting": 0,
             "subdomains": [
                 "segments"
             ],
             "apis": {},
-            "sites": 366,
-            "prevalence": 0.00744
+            "sites": 295,
+            "prevalence": 0.00404,
+            "cnames": []
         }
     ],
     "categories": [
@@ -40,8 +42,11 @@
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0074
+    "cookies": 0.00402,
+    "types": {
+        "Image": 295
+    }
 }

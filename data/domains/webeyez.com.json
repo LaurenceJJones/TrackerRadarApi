@@ -7,16 +7,17 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
-    "sites": 2,
+    "prevalence": 0.0000547,
+    "sites": 4,
     "subdomains": [
         "sec"
     ],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 3,
     "resources": [
         {
             "rule": "webeyez\\.com\\/js\\/wDv55PKmTtpCTH14WWzDXw2yJ3Gz\\/wzbody\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "sec"
@@ -31,18 +32,32 @@
                 "Date.prototype.getTimezoneOffset": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "webeyez\\.com\\/9",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sec"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "webeyez\\.com\\/1",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -50,7 +65,11 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.0000407
+    "cookies": 0.0000547,
+    "types": {
+        "Script": 2,
+        "XHR": 7
+    }
 }

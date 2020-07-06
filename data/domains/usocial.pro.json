@@ -7,21 +7,23 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
-    "sites": 4,
+    "prevalence": 0.0000684,
+    "sites": 5,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "usocial\\.pro\\/usocial\\/usocial\\.js",
-            "cookies": 0.000061,
+            "cookies": 0.0000547,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Navigator.prototype.userAgent": 3
+                "Navigator.prototype.userAgent": 4
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "usocial\\.pro\\/usocial\\/usocial\\.share\\.js",
@@ -29,27 +31,33 @@
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "window.localStorage": 3
+                "window.localStorage": 5
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "usocial\\.pro\\/usocial\\/fonts\\/uscl\\.woff2",
-            "cookies": 0.000061,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 2,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 1
+        "cache": 0
     },
-    "cookies": 0.0000814
+    "cookies": 0.0000684,
+    "types": {
+        "Script": 9,
+        "Font": 5
+    }
 }

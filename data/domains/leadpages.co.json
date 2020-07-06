@@ -4,27 +4,29 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000694,
-    "sites": 3,
+    "prevalence": 0.0000821,
+    "sites": 6,
     "subdomains": [
-        "tinderseduction"
+        "bestlaminate"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "leadpages\\.co\\/leadbox\\/140fdff73f72a2%3A15405a610346dc\\/5698645018017792\\/",
-            "cookies": 0.0000462,
+            "rule": "leadpages\\.co\\/leadbox\\/146d44ef3f72a2%3A102c8d998346dc\\/5635703144710144\\/",
+            "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "tinderseduction"
+                "bestlaminate"
             ],
             "apis": {
+                "Navigator.prototype.userAgent": 2,
                 "Date.prototype.getTime": 2,
-                "window.localStorage": 2,
-                "Navigator.prototype.userAgent": 2
+                "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000462
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -32,7 +34,10 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.0000462
+    "cookies": 0.0000274,
+    "types": {
+        "Document": 2
+    }
 }

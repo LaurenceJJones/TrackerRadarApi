@@ -7,31 +7,40 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
-    "sites": 2,
+    "prevalence": 0.0000137,
+    "sites": 1,
     "subdomains": [
-        "a1"
+        "content"
     ],
-    "fingerprinting": 0,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
-            "rule": "r9cdn\\.net\\/ipcaptcha\\/sensor\\.js",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
+            "rule": "r9cdn\\.net\\/res\\/combined\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
             "subdomains": [
-                "a1"
+                "content"
             ],
-            "apis": {},
+            "apis": {
+                "window.localStorage": 1,
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.userAgent": 1
+            },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 3,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.0000407
+    "cookies": 0,
+    "types": {
+        "Script": 2
+    }
 }

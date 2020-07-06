@@ -7,66 +7,14 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
-    "sites": 4,
+    "prevalence": 0.0000274,
+    "sites": 2,
     "subdomains": [
         "euim"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
-        {
-            "rule": "mstar\\.com\\/scripts\\/jquery\\.cookie\\.js",
-            "cookies": 0.0000814,
-            "fingerprinting": 1,
-            "subdomains": [
-                "euim"
-            ],
-            "apis": {
-                "Document.cookie getter": 4,
-                "Document.cookie setter": 4
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "mstar\\.com\\/scripts\\/mds_com\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "euim"
-            ],
-            "apis": {
-                "window.localStorage": 4
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "mstar\\.com\\/scripts\\/homefunctions\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "euim"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "mstar\\.com\\/scripts\\/DynamicGAFunctions\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "euim"
-            ],
-            "apis": {
-                "Document.cookie getter": 3
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
         {
             "rule": "mstar\\.com\\/Modules\\/es5-shim\\/es5-shim\\.min\\.js",
             "cookies": 0,
@@ -75,15 +23,16 @@
                 "euim"
             ],
             "apis": {
-                "window.name": 4,
-                "window.devicePixelRatio": 4,
-                "window.indexedDB": 4,
-                "window.sessionStorage": 4,
-                "window.localStorage": 4,
-                "Date.prototype.getTime": 4
+                "window.name": 2,
+                "window.devicePixelRatio": 2,
+                "window.indexedDB": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "mstar\\.com\\/Modules\\/angular\\/angular\\.min\\.js",
@@ -93,11 +42,12 @@
                 "euim"
             ],
             "apis": {
-                "window.name": 4,
-                "Navigator.prototype.userAgent": 4
+                "window.name": 2,
+                "Navigator.prototype.userAgent": 2
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "mstar\\.com\\/Modules\\/sal-components-report-table\\/build\\/sal-components-report-table\\.min\\.js",
@@ -107,10 +57,11 @@
                 "euim"
             ],
             "apis": {
-                "Date.prototype.getTime": 4
+                "Date.prototype.getTime": 2
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "mstar\\.com\\/Modules\\/d3\\/d3\\.min\\.js",
@@ -120,11 +71,12 @@
                 "euim"
             ],
             "apis": {
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 4,
-                "Navigator.prototype.userAgent": 4
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 2,
+                "Navigator.prototype.userAgent": 2
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -132,7 +84,10 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 1
+        "cache": 0
     },
-    "cookies": 0.0000814
+    "cookies": 0.0000137,
+    "types": {
+        "Script": 8
+    }
 }

@@ -4,39 +4,15 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
-    "sites": 5,
+    "prevalence": 0.000192,
+    "sites": 14,
     "subdomains": [
-        "api",
-        "cdn"
+        "cdn",
+        "api"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
-        {
-            "rule": "clerk\\.io\\/static\\/clerk\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2,
-                "window.localStorage": 2
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "clerk\\.io\\/v2\\/log\\/pageview",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
         {
             "rule": "clerk\\.io\\/clerk\\.js",
             "cookies": 0,
@@ -45,20 +21,59 @@
                 "cdn"
             ],
             "apis": {
-                "window.sessionStorage": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.language": 2
+                "window.sessionStorage": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.language": 7
             },
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "clerk\\.io\\/v2\\/log\\/pageview",
+            "cookies": 0.000178,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
+        },
+        {
+            "rule": "clerk\\.io\\/static\\/clerk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 6,
+                "window.localStorage": 6,
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "clerk\\.io\\/v2\\/undefined",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 3
-    },
-    "cookies": 0.0000814
+    "performance": {},
+    "cookies": 0.000178,
+    "types": {
+        "Script": 29
+    }
 }

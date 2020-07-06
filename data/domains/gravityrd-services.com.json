@@ -7,12 +7,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000183,
-    "sites": 9,
+    "prevalence": 0.000178,
+    "sites": 13,
     "subdomains": [
-        "askul-sin",
-        "hotstar-sin"
+        "askul-hnd"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -20,34 +20,25 @@
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "askul-sin"
+                "askul-hnd"
             ],
             "apis": {
                 "Document.cookie getter": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "gravityrd-services\\.com\\/grrec-hotstar-war\\/JSServlet4",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "hotstar-sin"
-            ],
-            "apis": {
-                "Document.cookie getter": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000163
+    "cookies": 0.000123,
+    "types": {
+        "Script": 2
+    }
 }

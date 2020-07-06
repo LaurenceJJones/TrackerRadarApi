@@ -7,11 +7,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00122,
-    "sites": 60,
+    "prevalence": 0.000753,
+    "sites": 55,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -22,17 +23,19 @@
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 48,
-                "Navigator.prototype.vendor": 48,
-                "Navigator.prototype.platform": 48,
-                "window.localStorage": 48,
-                "window.indexedDB": 43,
-                "Navigator.prototype.language": 40,
-                "Date.prototype.getTimezoneOffset": 40,
-                "Date.prototype.getTime": 39
+                "Navigator.prototype.userAgent": 35,
+                "Navigator.prototype.vendor": 35,
+                "Navigator.prototype.platform": 35,
+                "window.localStorage": 35,
+                "window.indexedDB": 32,
+                "Navigator.prototype.language": 30,
+                "Date.prototype.getTimezoneOffset": 30,
+                "Notification.permission": 30,
+                "Date.prototype.getTime": 22
             },
-            "sites": 49,
-            "prevalence": 0.000997
+            "sites": 37,
+            "prevalence": 0.000506,
+            "cnames": []
         },
         {
             "rule": "pushwoosh\\.com\\/webpush\\/pushwoosh-web-notifications\\.js",
@@ -42,10 +45,12 @@
                 "cdn"
             ],
             "apis": {
-                "window.localStorage": 4
+                "Notification.permission": 1,
+                "window.localStorage": 2
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -55,5 +60,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 40
+    }
 }

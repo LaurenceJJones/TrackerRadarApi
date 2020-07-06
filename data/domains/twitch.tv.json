@@ -9,134 +9,78 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00224,
-    "sites": 110,
+    "prevalence": 0.0014,
+    "sites": 102,
     "subdomains": [
         "player",
-        "embed",
-        "www",
-        "id",
-        "go"
+        "embed"
     ],
-    "fingerprinting": 2,
+    "cnames": [],
+    "fingerprinting": 0,
     "resources": [
         {
             "rule": "twitch\\.tv\\/",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "cookies": 0.000835,
+            "fingerprinting": 0,
             "subdomains": [
                 "player",
                 "embed"
             ],
-            "apis": {
-                "Date.prototype.getTime": 1
-            },
-            "sites": 77,
-            "prevalence": 0.00157
+            "apis": {},
+            "sites": 61,
+            "prevalence": 0.000835,
+            "cnames": []
         },
         {
-            "rule": "twitch\\.tv\\/js\\/video\\.d43cebed4a7254ab8bf6\\.js",
-            "cookies": 0.0012,
-            "fingerprinting": 2,
-            "subdomains": [
-                "player"
-            ],
-            "apis": {
-                "window.sessionStorage": 66,
-                "window.localStorage": 66,
-                "Navigator.prototype.userAgent": 66,
-                "Date.prototype.getTime": 68,
-                "Navigator.prototype.platform": 59,
-                "Navigator.prototype.appName": 59,
-                "Navigator.prototype.plugins": 59,
-                "MediaSource.isTypeSupported": 61,
-                "HTMLMediaElement.prototype.canPlayType": 66,
-                "Document.cookie getter": 62,
-                "Document.cookie setter": 59,
-                "Navigator.prototype.languages": 66,
-                "Navigator.prototype.appVersion": 66,
-                "Navigator.prototype.getBattery": 65,
-                "Event.prototype.timeStamp": 66
-            },
-            "sites": 74,
-            "prevalence": 0.00151
-        },
-        {
-            "rule": "twitch\\.tv\\/experiments\\.json",
-            "cookies": 0.0000203,
+            "rule": "twitch\\.tv\\/js\\/embed\\/v1\\.js",
+            "cookies": 0.000725,
             "fingerprinting": 0,
             "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 68,
-            "prevalence": 0.00138
-        },
-        {
-            "rule": "twitch\\.tv\\/",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
                 "player"
             ],
-            "apis": {
-                "Date.prototype.getTime": 1
-            },
-            "sites": 25,
-            "prevalence": 0.000509
+            "apis": {},
+            "sites": 55,
+            "prevalence": 0.000753,
+            "cnames": []
         },
         {
             "rule": "twitch\\.tv\\/embed\\/v1\\.js",
-            "cookies": 0.0000814,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "embed"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
-            "rule": "twitch\\.tv\\/oauth2\\/authorize",
-            "cookies": 0.0000407,
+            "rule": "twitch\\.tv\\/embed-error\\.html",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "id"
+                "player"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "twitch\\.tv\\/login",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "twitch\\.tv\\/embed\\/gdc\\/chat",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "go",
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
-    "categories": [],
+    "categories": [
+        "CDN",
+        "Embedded Content"
+    ],
     "performance": {
-        "time": 2,
-        "size": 2,
-        "cpu": 0,
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.0013
+    "cookies": 0.00116,
+    "types": {
+        "Document": 63,
+        "Script": 61
+    }
 }

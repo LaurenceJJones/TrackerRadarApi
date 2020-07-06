@@ -4,43 +4,48 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000142,
-    "sites": 7,
+    "prevalence": 0.000123,
+    "sites": 9,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "huffson-delivery\\.com\\/set-cookie\\.gif",
-            "cookies": 0.000163,
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         },
         {
-            "rule": "huffson-delivery\\.com\\/39da2614f2053724163787d4d45b73bb\\.js",
+            "rule": "huffson-delivery\\.com\\/7d23ff901039aef6293954d33d23c066\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "Date.prototype.getTime": 3
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.userAgent": 4
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "huffson-delivery\\.com\\/js-async\\.js",
-            "cookies": 0.0000814,
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -50,5 +55,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000142
+    "cookies": 0.000109,
+    "types": {
+        "Image": 9,
+        "Script": 10
+    }
 }

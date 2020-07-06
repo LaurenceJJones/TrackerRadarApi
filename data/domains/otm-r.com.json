@@ -4,71 +4,197 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000956,
-    "sites": 47,
+    "prevalence": 0.00137,
+    "sites": 100,
     "subdomains": [
-        "sync.dmp",
-        "adserver",
         "ssp",
         "pub-eu.p",
-        "pix.ssp"
+        "sync.dmp",
+        "adserver"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
+            "rule": "otm-r\\.com\\/adjson",
+            "cookies": 0.000246,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssp",
+                "pub-eu.p"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.000246,
+            "cnames": []
+        },
+        {
+            "rule": "otm-r\\.com\\/match\\/weborama",
+            "cookies": 0.000712,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync.dmp"
+            ],
+            "apis": {},
+            "sites": 53,
+            "prevalence": 0.000725,
+            "cnames": []
+        },
+        {
             "rule": "otm-r\\.com\\/match\\/sape",
-            "cookies": 0.000142,
+            "cookies": 0.000219,
             "fingerprinting": 0,
             "subdomains": [
                 "sync.dmp"
             ],
             "apis": {},
-            "sites": 14,
-            "prevalence": 0.000285
-        },
-        {
-            "rule": "otm-r\\.com\\/get",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "adserver"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "otm-r\\.com\\/match\\/mgcomm",
-            "cookies": 0.000183,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync.dmp"
-            ],
-            "apis": {},
-            "sites": 9,
-            "prevalence": 0.000183
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
         },
         {
             "rule": "otm-r\\.com\\/match\\/xameleon",
-            "cookies": 0.000061,
+            "cookies": 0.0000684,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync.dmp"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "otm-r\\.com\\/match\\/mgcomm",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync.dmp"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "otm-r\\.com\\/match\\/aotm\\.js",
+            "cookies": 0.0000684,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync.dmp"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "otm-r\\.com\\/match\\/google2",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync.dmp"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "otm-r\\.com\\/match\\/gomobile",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "sync.dmp"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "otm-r\\.com\\/adjson",
-            "cookies": 0.000305,
+            "rule": "otm-r\\.com\\/match\\/bazzoola",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "ssp"
+                "sync.dmp"
             ],
             "apis": {},
-            "sites": 15,
-            "prevalence": 0.000305
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "otm-r\\.com\\/match\\/maxima",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync.dmp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "otm-r\\.com\\/match\\/hybrid",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync.dmp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "otm-r\\.com\\/match\\/googleadx_redir",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync.dmp"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "otm-r\\.com\\/match\\/vihub",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync.dmp"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "otm-r\\.com\\/match\\/getintent",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync.dmp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "otm-r\\.com\\/match\\/republer_dsp",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync.dmp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "otm-r\\.com\\/static\\/rb\\.js",
@@ -81,238 +207,56 @@
                 "Date.prototype.getTimezoneOffset": 6
             },
             "sites": 6,
-            "prevalence": 0.000122
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "otm-r\\.com\\/adi",
-            "cookies": 0.000122,
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [
                 "pub-eu.p"
             ],
             "apis": {},
             "sites": 6,
-            "prevalence": 0.000122
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
-            "rule": "otm-r\\.com\\/match\\/aotm\\.js",
-            "cookies": 0.000122,
+            "rule": "otm-r\\.com\\/get",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "sync.dmp"
+                "adserver"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "otm-r\\.com\\/match",
-            "cookies": 0.000224,
-            "fingerprinting": 0,
-            "subdomains": [
-                "pix.ssp"
-            ],
-            "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
-        },
-        {
-            "rule": "otm-r\\.com\\/match\\/google2",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync.dmp"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "otm-r\\.com\\/match\\/weborama",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync.dmp"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "otm-r\\.com\\/match\\/getintent",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync.dmp"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "otm-r\\.com\\/match\\/bazzoola",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync.dmp"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "otm-r\\.com\\/match\\/vihub",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync.dmp"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "otm-r\\.com\\/match\\/hybrid",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync.dmp"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "otm-r\\.com\\/match\\/adfinity",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync.dmp"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "otm-r\\.com\\/match\\/gomobile",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync.dmp"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "otm-r\\.com\\/match\\/maxima",
-            "cookies": 0.000142,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync.dmp"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "otm-r\\.com\\/match\\/adlook",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync.dmp"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "otm-r\\.com\\/match\\/segmento",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync.dmp"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "otm-r\\.com\\/match\\/adriver\\.img",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync.dmp"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "otm-r\\.com\\/match\\/stream",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync.dmp"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "otm-r\\.com\\/match\\/snp",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync.dmp"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "otm-r\\.com\\/match\\/adspend",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync.dmp"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "otm-r\\.com\\/match\\/kadam",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync.dmp"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "otm-r\\.com\\/match\\/videonow",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sync.dmp"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "otm-r\\.com\\/match\\/beeline",
-            "cookies": 0.0000407,
+            "rule": "otm-r\\.com\\/match\\/invideo",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sync.dmp"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -322,5 +266,11 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000936
+    "cookies": 0.00126,
+    "types": {
+        "XHR": 20,
+        "Image": 114,
+        "Script": 13,
+        "Document": 6
+    }
 }

@@ -4,16 +4,17 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
-    "sites": 4,
+    "prevalence": 0.0000684,
+    "sites": 5,
     "subdomains": [
         "player"
     ],
-    "fingerprinting": 2,
+    "cnames": [],
+    "fingerprinting": 3,
     "resources": [
         {
             "rule": "pstatic\\.gr\\/phaistos-player\\/phaistosplayer\\.js",
-            "cookies": 0.000061,
+            "cookies": 0.000041,
             "fingerprinting": 1,
             "subdomains": [
                 "player"
@@ -24,7 +25,8 @@
                 "Navigator.prototype.platform": 1
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -32,7 +34,10 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 1
+        "cache": 0
     },
-    "cookies": 0.0000814
+    "cookies": 0.0000684,
+    "types": {
+        "Script": 3
+    }
 }

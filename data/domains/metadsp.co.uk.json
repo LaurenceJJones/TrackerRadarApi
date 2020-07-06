@@ -4,60 +4,65 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00317,
-    "sites": 156,
+    "prevalence": 0.00231,
+    "sites": 169,
     "subdomains": [
-        "u.ipw",
-        "ipw"
+        "ipw",
+        "u.ipw"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "metadsp\\.co\\.uk\\/sync",
-            "cookies": 0.00189,
+            "cookies": 0.00123,
             "fingerprinting": 0,
             "subdomains": [
-                "u.ipw",
                 "ipw"
             ],
             "apis": {},
-            "sites": 96,
-            "prevalence": 0.00195
+            "sites": 94,
+            "prevalence": 0.00129,
+            "cnames": []
         },
         {
             "rule": "metadsp\\.co\\.uk\\/ul_cb\\/sync",
-            "cookies": 0.00181,
-            "fingerprinting": 0,
-            "subdomains": [
-                "u.ipw",
-                "ipw"
-            ],
-            "apis": {},
-            "sites": 89,
-            "prevalence": 0.00181
-        },
-        {
-            "rule": "metadsp\\.co\\.uk\\/sync",
-            "cookies": 0.0011,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ipw"
-            ],
-            "apis": {},
-            "sites": 57,
-            "prevalence": 0.00116
-        },
-        {
-            "rule": "metadsp\\.co\\.uk\\/ul_cb\\/sync",
-            "cookies": 0.0011,
+            "cookies": 0.00123,
             "fingerprinting": 0,
             "subdomains": [
                 "ipw",
                 "u.ipw"
             ],
             "apis": {},
-            "sites": 55,
-            "prevalence": 0.00112
+            "sites": 90,
+            "prevalence": 0.00123,
+            "cnames": []
+        },
+        {
+            "rule": "metadsp\\.co\\.uk\\/sync",
+            "cookies": 0.000985,
+            "fingerprinting": 0,
+            "subdomains": [
+                "u.ipw",
+                "ipw"
+            ],
+            "apis": {},
+            "sites": 75,
+            "prevalence": 0.00103,
+            "cnames": []
+        },
+        {
+            "rule": "metadsp\\.co\\.uk\\/ul_cb\\/sync",
+            "cookies": 0.000944,
+            "fingerprinting": 0,
+            "subdomains": [
+                "u.ipw",
+                "ipw"
+            ],
+            "apis": {},
+            "sites": 69,
+            "prevalence": 0.000944,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -67,5 +72,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00303
+    "cookies": 0.00222,
+    "types": {
+        "Document": 184,
+        "Image": 144
+    }
 }

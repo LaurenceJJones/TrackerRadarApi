@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000386,
-    "sites": 19,
+    "prevalence": 0.000274,
+    "sites": 20,
     "subdomains": [
         "proxy"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -19,14 +20,15 @@
                 "proxy"
             ],
             "apis": {
-                "Navigator.prototype.doNotTrack": 18,
-                "window.localStorage": 19
+                "window.localStorage": 20,
+                "Navigator.prototype.doNotTrack": 14
             },
-            "sites": 19,
-            "prevalence": 0.000386
+            "sites": 20,
+            "prevalence": 0.000274,
+            "cnames": []
         },
         {
-            "rule": "strossle\\.it\\/proxy\\.bf01ff21e02f74c7f889\\.js",
+            "rule": "strossle\\.it\\/proxy\\.4c5de05862599373941e\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -36,8 +38,9 @@
                 "Navigator.prototype.userAgent": 19,
                 "window.localStorage": 19
             },
-            "sites": 19,
-            "prevalence": 0.000386
+            "sites": 20,
+            "prevalence": 0.000274,
+            "cnames": []
         },
         {
             "rule": "strossle\\.it\\/smart\\.html",
@@ -49,16 +52,21 @@
             "apis": {
                 "window.localStorage": 19
             },
-            "sites": 19,
-            "prevalence": 0.000386
+            "sites": 20,
+            "prevalence": 0.000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Document": 40,
+        "Script": 20
+    }
 }

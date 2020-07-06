@@ -9,8 +9,8 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00525,
-    "sites": 258,
+    "prevalence": 0.00409,
+    "sites": 299,
     "subdomains": [
         "experience",
         "sandbox",
@@ -19,13 +19,20 @@
         "cdn",
         "buy",
         "id",
+        "pauth-autosport",
         "api-v3"
+    ],
+    "cnames": [
+        {
+            "original": "app.autosport.com",
+            "resolved": "pauth-autosport.tinypass.com"
+        }
     ],
     "fingerprinting": 2,
     "resources": [
         {
             "rule": "tinypass\\.com\\/xbuilder\\/experience\\/load",
-            "cookies": 0.000183,
+            "cookies": 0.000164,
             "fingerprinting": 1,
             "subdomains": [
                 "experience",
@@ -35,197 +42,328 @@
             ],
             "apis": {
                 "Document.cookie getter": 1,
-                "Document.cookie setter": 6,
-                "Date.prototype.getTime": 5
+                "Document.cookie setter": 7,
+                "Date.prototype.getTime": 8
             },
-            "sites": 150,
-            "prevalence": 0.00305
+            "sites": 182,
+            "prevalence": 0.00249,
+            "cnames": []
         },
         {
             "rule": "tinypass\\.com\\/api\\/tinypass\\.min\\.js",
-            "cookies": 0.00482,
+            "cookies": 0.00358,
             "fingerprinting": 2,
             "subdomains": [
                 "cdn",
-                "sandbox",
+                "buy",
                 "api",
-                "buy"
+                "sandbox"
             ],
             "apis": {
-                "Navigator.prototype.platform": 220,
-                "Navigator.prototype.userAgent": 226,
-                "window.localStorage": 254,
-                "window.name": 253,
-                "Date.prototype.getTime": 254,
-                "Document.cookie getter": 247,
-                "Navigator.prototype.language": 223,
-                "Date.prototype.getTimezoneOffset": 254,
-                "Navigator.prototype.plugins": 223,
-                "Screen.prototype.height": 185,
-                "Screen.prototype.width": 185,
-                "Screen.prototype.colorDepth": 185,
-                "window.sessionStorage": 253,
-                "Navigator.prototype.appVersion": 224,
-                "Document.cookie setter": 237,
-                "Element.prototype.getClientRects": 36,
-                "Event.prototype.timeStamp": 32,
+                "Navigator.prototype.platform": 290,
+                "Navigator.prototype.userAgent": 290,
+                "window.localStorage": 291,
+                "window.name": 291,
+                "Date.prototype.getTime": 290,
+                "Document.cookie getter": 272,
+                "Navigator.prototype.language": 288,
+                "Date.prototype.getTimezoneOffset": 289,
+                "Navigator.prototype.plugins": 288,
+                "Screen.prototype.height": 287,
+                "Screen.prototype.width": 287,
+                "Screen.prototype.colorDepth": 287,
+                "window.sessionStorage": 289,
+                "Navigator.prototype.appVersion": 287,
+                "Document.cookie setter": 262,
+                "Element.prototype.getClientRects": 51,
+                "Event.prototype.timeStamp": 46,
                 "window.matchMedia(\"prefers-reduced-motion\")": 2
             },
-            "sites": 255,
-            "prevalence": 0.00519
+            "sites": 292,
+            "prevalence": 0.004,
+            "cnames": []
         },
         {
             "rule": "tinypass\\.com\\/xbuilder\\/experience\\/execute",
-            "cookies": 0.00504,
+            "cookies": 0.00374,
             "fingerprinting": 0,
             "subdomains": [
                 "experience",
                 "sandbox"
             ],
             "apis": {},
-            "sites": 254,
-            "prevalence": 0.00517
+            "sites": 294,
+            "prevalence": 0.00402,
+            "cnames": []
         },
         {
             "rule": "tinypass\\.com\\/id\\/api\\/v1\\/identity\\/token\\/verify",
-            "cookies": 0.000814,
+            "cookies": 0.000657,
             "fingerprinting": 0,
             "subdomains": [
-                "id"
+                "id",
+                "pauth-autosport"
             ],
             "apis": {},
-            "sites": 40,
-            "prevalence": 0.000814
+            "sites": 48,
+            "prevalence": 0.000657,
+            "cnames": [
+                {
+                    "original": "app.autosport.com",
+                    "resolved": "pauth-autosport.tinypass.com"
+                }
+            ]
         },
         {
             "rule": "tinypass\\.com\\/checkout\\/template\\/show",
-            "cookies": 0.000549,
+            "cookies": 0.000616,
             "fingerprinting": 1,
             "subdomains": [
                 "buy"
             ],
             "apis": {
-                "Document.cookie setter": 25,
-                "Document.cookie getter": 25
+                "Document.cookie setter": 37,
+                "Document.cookie getter": 37,
+                "Navigator.prototype.userAgent": 1
             },
-            "sites": 27,
-            "prevalence": 0.000549
+            "sites": 46,
+            "prevalence": 0.000629,
+            "cnames": []
         },
         {
             "rule": "tinypass\\.com\\/_sam\\/widget\\/dist\\/template\\/js\\/template\\.bundle\\.js",
-            "cookies": 0.0000814,
+            "cookies": 0.000151,
             "fingerprinting": 1,
             "subdomains": [
                 "buy"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 22,
-                "window.name": 23,
-                "Element.prototype.getClientRects": 23,
-                "Document.cookie getter": 23,
-                "Event.prototype.timeStamp": 20,
-                "Date.prototype.getTime": 15,
-                "Document.cookie setter": 4,
+                "Navigator.prototype.userAgent": 32,
+                "window.name": 35,
+                "Element.prototype.getClientRects": 35,
+                "Document.cookie getter": 35,
+                "Event.prototype.timeStamp": 32,
+                "Date.prototype.getTime": 22,
+                "Document.cookie setter": 11,
                 "HTMLCanvasElement.prototype.constructor": 1
             },
-            "sites": 24,
-            "prevalence": 0.000488
-        },
-        {
-            "rule": "tinypass\\.com\\/api\\/v3\\/page\\/unload",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api-v3"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 38,
+            "prevalence": 0.00052,
+            "cnames": []
         },
         {
             "rule": "tinypass\\.com\\/_sam\\/widget\\/dist\\/template\\/js\\/template\\.bundle,\\/widget\\/showtemplate\\/1\\.0\\/js\\/newsletterModule\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "buy"
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 3,
-                "window.name": 3,
-                "Document.cookie getter": 3,
-                "Date.prototype.getTime": 3,
-                "Document.cookie setter": 2,
-                "Element.prototype.getClientRects": 3
+                "window.name": 5,
+                "Document.cookie getter": 5,
+                "Element.prototype.getClientRects": 5,
+                "Event.prototype.timeStamp": 3,
+                "Date.prototype.getTime": 4
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "tinypass\\.com\\/api\\/v3\\/conversion\\/logAutoMicroConversion",
-            "cookies": 0.000163,
+            "cookies": 0.000151,
             "fingerprinting": 0,
             "subdomains": [
                 "api-v3"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
         },
         {
-            "rule": "tinypass\\.com\\/checkout\\/offer\\/show",
-            "cookies": 0.000183,
-            "fingerprinting": 1,
-            "subdomains": [
-                "buy"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 1,
-                "Document.cookie setter": 7,
-                "Document.cookie getter": 7
-            },
-            "sites": 9,
-            "prevalence": 0.000183
-        },
-        {
-            "rule": "tinypass\\.com\\/_sam\\/widget\\/dist\\/checkout\\/js\\/checkout\\.bundle\\.light\\.js",
-            "cookies": 0.000122,
-            "fingerprinting": 1,
-            "subdomains": [
-                "buy"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 8,
-                "window.name": 7,
-                "Document.cookie getter": 7,
-                "Date.prototype.getTime": 6,
-                "Document.cookie setter": 6,
-                "Element.prototype.getClientRects": 7,
-                "Event.prototype.timeStamp": 7
-            },
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "tinypass\\.com\\/checkout\\/offer\\/trackShow",
-            "cookies": 0.000163,
+            "rule": "tinypass\\.com\\/api\\/v3\\/page\\/unload",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
-                "buy"
+                "api-v3"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "tinypass\\.com\\/id\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "tinypass\\.com\\/id\\/styles\\.c7918b57d86a8653fbca\\.css",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "tinypass\\.com\\/id\\/polyfills\\.3b373648d8c151f54f05\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "tinypass\\.com\\/id\\/main\\.02f5b5f3bec524328dcb\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "tinypass\\.com\\/id\\/api\\/v1\\/userAgentData",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "tinypass\\.com\\/api\\/v3\\/composer\\/logExecutionStats",
-            "cookies": 0.000183,
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [
                 "api-v3"
             ],
             "apis": {},
             "sites": 9,
-            "prevalence": 0.000183
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "tinypass\\.com\\/checkout\\/offer\\/show",
+            "cookies": 0.000109,
+            "fingerprinting": 1,
+            "subdomains": [
+                "buy"
+            ],
+            "apis": {
+                "Document.cookie setter": 8,
+                "Document.cookie getter": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
+        },
+        {
+            "rule": "tinypass\\.com\\/_sam\\/widget\\/dist\\/checkout\\/js\\/checkout\\.bundle\\.light\\.js",
+            "cookies": 0.0000684,
+            "fingerprinting": 1,
+            "subdomains": [
+                "buy"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "window.name": 6,
+                "Document.cookie getter": 6,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 5,
+                "Element.prototype.getClientRects": 6,
+                "Event.prototype.timeStamp": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "tinypass\\.com\\/checkout\\/offer\\/trackShow",
+            "cookies": 0.0000958,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buy"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "tinypass\\.com\\/api\\/v3\\/conversion\\/logMicroConversion",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-v3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "tinypass\\.com\\/_sam\\/widget\\/dist\\/checkout\\/js\\/checkout\\.bundle\\.complete,\\/frontend\\/providers\\/dist\\/checkout\\/providersModule\\.bundle\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "buy"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.name": 2,
+                "Document.cookie getter": 2,
+                "Element.prototype.getClientRects": 2,
+                "Event.prototype.timeStamp": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "tinypass\\.com\\/id\\/api\\/v1\\/assets\\/crHkWBC55K",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -240,8 +378,15 @@
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00519
+    "cookies": 0.00398,
+    "types": {
+        "Script": 590,
+        "XHR": 305,
+        "Document": 56,
+        "Other": 15,
+        "Stylesheet": 2
+    }
 }

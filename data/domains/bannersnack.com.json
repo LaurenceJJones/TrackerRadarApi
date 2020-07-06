@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000285,
-    "sites": 14,
+    "prevalence": 0.000315,
+    "sites": 23,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -21,8 +22,9 @@
             "apis": {
                 "Navigator.prototype.userAgent": 4
             },
-            "sites": 9,
-            "prevalence": 0.000183
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
         },
         {
             "rule": "bannersnack\\.com\\/embed\\/js\\/EmbedCanvas\\.js",
@@ -32,25 +34,66 @@
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 6,
-                "Navigator.prototype.appName": 6,
-                "Navigator.prototype.appVersion": 6,
-                "window.devicePixelRatio": 6,
-                "Screen.prototype.width": 6,
-                "Screen.prototype.height": 6,
-                "Date.prototype.getTime": 6,
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 2
+                "Navigator.prototype.userAgent": 9,
+                "Navigator.prototype.appName": 9,
+                "Navigator.prototype.appVersion": 9,
+                "window.devicePixelRatio": 9,
+                "Screen.prototype.width": 9,
+                "Screen.prototype.height": 9,
+                "Date.prototype.getTime": 9
             },
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "bannersnack\\.com\\/banners\\/bhn0b8l97\\/embed\\/c5a5fb37f1f98de8202e75c5e0155beb\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.appName": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "bannersnack\\.com\\/banners\\/bxh3ym5nd\\/embed\\/4d1d8b25530e0d88b4c0430ae0f3f5db\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.appName": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 2,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 29
+    }
 }

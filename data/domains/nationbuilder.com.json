@@ -7,29 +7,15 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
+    "prevalence": 0.0000713,
     "sites": 5,
     "subdomains": [
-        "democratsabroad",
         "therebel"
     ],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "nationbuilder\\.com\\/themes\\/8\\/566052502213936595000001\\/0\\/attachments\\/14491531841584264631\\/default\\/widget\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "democratsabroad"
-            ],
-            "apis": {
-                "Document.cookie getter": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "nationbuilder\\.com\\/themes\\/1092\\/5dfbe26ec29480731ae5e3d9\\/0\\/attachments\\/15784287721584128568\\/default\\/remodal\\.min\\.js",
+            "rule": "nationbuilder\\.com\\/themes\\/1092\\/5dfbe26ec29480731ae5e3d9\\/0\\/attachments\\/15784287721589675163\\/default\\/remodal\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -39,10 +25,10 @@
                 "Navigator.prototype.platform": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
-            "rule": "nationbuilder\\.com\\/themes\\/1092\\/5dfbe26ec29480731ae5e3d9\\/0\\/attachments\\/15784287721584128568\\/default\\/jquery\\.magnific-popup\\.min\\.js",
+            "rule": "nationbuilder\\.com\\/themes\\/1092\\/5dfbe26ec29480731ae5e3d9\\/0\\/attachments\\/15784287721589675163\\/default\\/jquery\\.magnific-popup\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -53,15 +39,13 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 3
-    },
-    "cookies": 0
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Script": 4
+    }
 }

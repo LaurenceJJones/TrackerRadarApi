@@ -7,57 +7,66 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000732,
-    "sites": 36,
+    "prevalence": 0.000876,
+    "sites": 64,
     "subdomains": [
         "cache.send",
         "s-rtb.send",
         "ssp.send"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "microadinc\\.com\\/js\\/cookie_loader\\.html",
-            "cookies": 0.00059,
+            "cookies": 0.000616,
             "fingerprinting": 1,
             "subdomains": [
                 "cache.send"
             ],
             "apis": {
-                "Document.cookie setter": 29
+                "Document.cookie setter": 45
             },
-            "sites": 36,
-            "prevalence": 0.000732
+            "sites": 64,
+            "prevalence": 0.000876,
+            "cnames": []
         },
         {
             "rule": "microadinc\\.com\\/ad",
-            "cookies": 0.000712,
+            "cookies": 0.000862,
             "fingerprinting": 0,
             "subdomains": [
                 "s-rtb.send"
             ],
             "apis": {},
-            "sites": 36,
-            "prevalence": 0.000732
+            "sites": 63,
+            "prevalence": 0.000862,
+            "cnames": []
         },
         {
             "rule": "microadinc\\.com\\/ic",
-            "cookies": 0.000712,
+            "cookies": 0.000835,
             "fingerprinting": 0,
             "subdomains": [
                 "ssp.send"
             ],
             "apis": {},
-            "sites": 35,
-            "prevalence": 0.000712
+            "sites": 61,
+            "prevalence": 0.000835,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 0,
+        "cpu": 1,
         "cache": 1
     },
-    "cookies": 0.000712
+    "cookies": 0.000876,
+    "types": {
+        "Document": 64,
+        "Script": 63,
+        "Image": 61
+    }
 }

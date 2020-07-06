@@ -6,7 +6,6 @@
         "edgecastcdn.net",
         "edgecastdns.net",
         "fios1news.com",
-        "uplynk.com",
         "verizon.com",
         "verizon.net",
         "verizonwireless.com",
@@ -14,8 +13,8 @@
         "vzw.com"
     ],
     "prevalence": {
-        "tracking": 0.000712,
-        "nonTracking": 0.000427,
-        "total": 0.00114
+        "tracking": 0.000575,
+        "nonTracking": 0.00131,
+        "total": 0.00188
     }
 }

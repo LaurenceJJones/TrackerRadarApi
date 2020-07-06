@@ -9,11 +9,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00108,
-    "sites": 53,
+    "prevalence": 0.00142,
+    "sites": 104,
     "subdomains": [
         "www"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -24,11 +25,25 @@
                 "www"
             ],
             "apis": {
-                "Date.prototype.getTime": 6,
                 "Navigator.prototype.userAgent": 6
             },
             "sites": 6,
-            "prevalence": 0.000122
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "dwin2\\.com\\/pub\\.614155\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "dwin2\\.com\\/pub\\.650087\\.min\\.js",
@@ -38,39 +53,25 @@
                 "www"
             ],
             "apis": {
-                "Date.prototype.getTime": 2,
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "dwin2\\.com\\/pub\\.676297\\.min\\.js",
+            "rule": "dwin2\\.com\\/pub\\.614159\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "www"
             ],
             "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 6
             },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "dwin2\\.com\\/pub\\.402523\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 3,
-                "Navigator.prototype.userAgent": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "dwin2\\.com\\/pub\\.334043\\.min\\.js",
@@ -80,11 +81,81 @@
                 "www"
             ],
             "apis": {
-                "Date.prototype.getTime": 6,
-                "Navigator.prototype.userAgent": 6
+                "Navigator.prototype.userAgent": 9
             },
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "dwin2\\.com\\/pub\\.676297\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwin2\\.com\\/pub\\.614157\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "dwin2\\.com\\/pub\\.402523\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "dwin2\\.com\\/pub\\.166150\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwin2\\.com\\/pub\\.258447\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "dwin2\\.com\\/pub\\.229139\\.min\\.js",
@@ -94,11 +165,11 @@
                 "www"
             ],
             "apis": {
-                "Date.prototype.getTime": 4,
-                "Navigator.prototype.userAgent": 4
+                "Navigator.prototype.userAgent": 3
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "dwin2\\.com\\/pub\\.550631\\.min\\.js",
@@ -108,11 +179,25 @@
                 "www"
             ],
             "apis": {
-                "Date.prototype.getTime": 2,
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "dwin2\\.com\\/pub\\.614835\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -122,5 +207,8 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 47
+    }
 }

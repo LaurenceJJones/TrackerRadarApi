@@ -1,17 +1,16 @@
 {
     "domain": "vkontakte.ru",
     "owner": {
-        "name": "V Kontakte LLC",
-        "displayName": "V Kontakte",
-        "privacyPolicy": "https://vk.com/privacy/cookies",
-        "url": "http://vk.com"
+        "name": "Mail.Ru Group, OOO",
+        "displayName": "Mail.Ru"
     },
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000142,
-    "sites": 7,
+    "prevalence": 0.000137,
+    "sites": 10,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -20,18 +19,22 @@
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Document.cookie getter": 3
+                "Document.cookie getter": 2
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 8
+    }
 }

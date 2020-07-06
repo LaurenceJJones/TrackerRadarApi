@@ -4,16 +4,16 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000203,
+    "prevalence": 0.0000143,
     "sites": 1,
     "subdomains": [
         "dbg-assets"
     ],
-    "fingerprinting": 2,
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "mylotto24\\.co\\.uk\\/external\\/stable\\/external\\.min\\.js",
-            "cookies": 0.0000203,
+            "cookies": 0.0000143,
             "fingerprinting": 1,
             "subdomains": [
                 "dbg-assets"
@@ -22,15 +22,13 @@
                 "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 1
-    },
-    "cookies": 0.0000203
+    "performance": {},
+    "cookies": 0.0000143,
+    "types": {
+        "Script": 2
+    }
 }

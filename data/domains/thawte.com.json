@@ -7,11 +7,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000264,
-    "sites": 13,
+    "prevalence": 0.000301,
+    "sites": 22,
     "subdomains": [
         "seal"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -23,18 +24,22 @@
             ],
             "apis": {
                 "Date.prototype.getTimezoneOffset": 9,
-                "Navigator.prototype.userAgent": 5
+                "Navigator.prototype.userAgent": 8
             },
-            "sites": 13,
-            "prevalence": 0.000264
+            "sites": 19,
+            "prevalence": 0.00026,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 19
+    }
 }

@@ -7,91 +7,159 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0238,
-    "sites": 1170,
+    "prevalence": 0.0263,
+    "sites": 1924,
     "subdomains": [
         "tag",
         "gpush",
         "ads"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "cogocast\\.net\\/tag\\/partner\\/213",
-            "cookies": 0.00374,
+            "rule": "cogocast\\.net\\/tag\\/partner\\/277",
+            "cookies": 0.00788,
             "fingerprinting": 0,
             "subdomains": [
                 "tag"
             ],
             "apis": {},
-            "sites": 185,
-            "prevalence": 0.00376
+            "sites": 577,
+            "prevalence": 0.0079,
+            "cnames": []
+        },
+        {
+            "rule": "cogocast\\.net\\/tag\\/partner\\/222",
+            "cookies": 0.0167,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 1229,
+            "prevalence": 0.0168,
+            "cnames": []
         },
         {
             "rule": "cogocast\\.net\\/",
-            "cookies": 0.0000203,
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "gpush"
             ],
             "apis": {},
-            "sites": 1113,
-            "prevalence": 0.0226
+            "sites": 1350,
+            "prevalence": 0.0185,
+            "cnames": []
         },
         {
-            "rule": "cogocast\\.net\\/tag\\/partner\\/222",
-            "cookies": 0.0206,
+            "rule": "cogocast\\.net\\/tag\\/partner\\/213",
+            "cookies": 0.00265,
             "fingerprinting": 0,
             "subdomains": [
                 "tag"
             ],
             "apis": {},
-            "sites": 1021,
-            "prevalence": 0.0208
+            "sites": 194,
+            "prevalence": 0.00265,
+            "cnames": []
+        },
+        {
+            "rule": "cogocast\\.net\\/tag\\/partner\\/213",
+            "cookies": 0.00261,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 194,
+            "prevalence": 0.00265,
+            "cnames": []
         },
         {
             "rule": "cogocast\\.net\\/html",
-            "cookies": 0.000061,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "cogocast\\.net\\/aimg",
-            "cookies": 0.000061,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "cogocast\\.net\\/tag\\/partner\\/222",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "tag"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "cogocast\\.net\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gpush"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "cogocast\\.net\\/tag\\/partner\\/167",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "tag"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "cogocast\\.net\\/tag\\/partner\\/222",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "cogocast\\.net\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gpush"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -102,8 +170,13 @@
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0237
+    "cookies": 0.0262,
+    "types": {
+        "Image": 3354,
+        "Script": 198,
+        "Document": 6
+    }
 }

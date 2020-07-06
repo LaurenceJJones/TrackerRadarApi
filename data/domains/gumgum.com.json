@@ -9,49 +9,76 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0646,
-    "sites": 3176,
+    "prevalence": 0.0589,
+    "sites": 4304,
     "subdomains": [
-        "g2",
         "rtb",
+        "g2",
         "js",
-        "s.update.wo",
         "px"
     ],
+    "cnames": [],
     "fingerprinting": 3,
     "resources": [
         {
+            "rule": "gumgum\\.com\\/getuid\\/d1ba4609",
+            "cookies": 0.011,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtb"
+            ],
+            "apis": {},
+            "sites": 2007,
+            "prevalence": 0.0275,
+            "cnames": []
+        },
+        {
+            "rule": "gumgum\\.com\\/usync\\/amzns2s",
+            "cookies": 0.0209,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtb"
+            ],
+            "apis": {},
+            "sites": 1830,
+            "prevalence": 0.025,
+            "cnames": []
+        },
+        {
             "rule": "gumgum\\.com\\/hbid\\/imp",
-            "cookies": 0.0221,
+            "cookies": 0.00893,
             "fingerprinting": 0,
             "subdomains": [
                 "g2"
             ],
             "apis": {},
-            "sites": 1314,
-            "prevalence": 0.0267
+            "sites": 1281,
+            "prevalence": 0.0175,
+            "cnames": []
         },
         {
-            "rule": "gumgum\\.com\\/getuid\\/d1ba4609",
-            "cookies": 0.0125,
+            "rule": "gumgum\\.com\\/usync\\/0608867b",
+            "cookies": 0.0028,
             "fingerprinting": 0,
             "subdomains": [
                 "rtb"
             ],
             "apis": {},
-            "sites": 1587,
-            "prevalence": 0.0323
+            "sites": 523,
+            "prevalence": 0.00716,
+            "cnames": []
         },
         {
-            "rule": "gumgum\\.com\\/usync\\/amzns2s",
-            "cookies": 0.0207,
+            "rule": "gumgum\\.com\\/usync\\/vpbwxdoz",
+            "cookies": 0.00178,
             "fingerprinting": 0,
             "subdomains": [
                 "rtb"
             ],
             "apis": {},
-            "sites": 1354,
-            "prevalence": 0.0275
+            "sites": 908,
+            "prevalence": 0.0124,
+            "cnames": []
         },
         {
             "rule": "gumgum\\.com\\/services\\.js",
@@ -61,69 +88,68 @@
                 "js"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 200,
-                "window.localStorage": 213,
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 212,
-                "window.name": 211,
-                "Date.prototype.getTime": 211,
-                "Event.prototype.timeStamp": 211,
-                "Navigator.prototype.connection": 204,
-                "Navigator.prototype.plugins": 198,
-                "Navigator.prototype.platform": 198,
-                "Navigator.prototype.product": 198,
-                "Navigator.prototype.productSub": 198,
-                "Navigator.prototype.vendor": 198,
-                "Navigator.prototype.vendorSub": 198,
-                "Screen.prototype.height": 191,
-                "Screen.prototype.width": 191,
-                "Screen.prototype.colorDepth": 184,
-                "Screen.prototype.pixelDepth": 184,
-                "window.devicePixelRatio": 211,
-                "Date.prototype.getTimezoneOffset": 211,
-                "window.sessionStorage": 211,
-                "window.indexedDB": 211,
-                "Navigator.prototype.cookieEnabled": 198
+                "Navigator.prototype.userAgent": 291,
+                "window.localStorage": 296,
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 282,
+                "window.name": 286,
+                "Date.prototype.getTime": 286,
+                "Event.prototype.timeStamp": 291,
+                "Navigator.prototype.connection": 282,
+                "Navigator.prototype.plugins": 281,
+                "Navigator.prototype.platform": 281,
+                "Navigator.prototype.product": 281,
+                "Navigator.prototype.productSub": 281,
+                "Navigator.prototype.vendor": 281,
+                "Navigator.prototype.vendorSub": 281,
+                "Screen.prototype.height": 281,
+                "Screen.prototype.width": 281,
+                "Screen.prototype.colorDepth": 281,
+                "Screen.prototype.pixelDepth": 281,
+                "window.devicePixelRatio": 285,
+                "Date.prototype.getTimezoneOffset": 285,
+                "window.sessionStorage": 285,
+                "window.indexedDB": 285,
+                "Navigator.prototype.cookieEnabled": 281
             },
-            "sites": 218,
-            "prevalence": 0.00443
+            "sites": 304,
+            "prevalence": 0.00416,
+            "cnames": []
+        },
+        {
+            "rule": "gumgum\\.com\\/adobe\\/s2s",
+            "cookies": 0.000151,
+            "fingerprinting": 0,
+            "subdomains": [
+                "g2"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
+        },
+        {
+            "rule": "gumgum\\.com\\/usync\\/q4rzuhcs",
+            "cookies": 0.00118,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtb"
+            ],
+            "apis": {},
+            "sites": 439,
+            "prevalence": 0.00601,
+            "cnames": []
         },
         {
             "rule": "gumgum\\.com\\/usync\\/prbds2s",
-            "cookies": 0.000875,
+            "cookies": 0.00185,
             "fingerprinting": 0,
             "subdomains": [
                 "rtb"
             ],
             "apis": {},
-            "sites": 183,
-            "prevalence": 0.00372
-        },
-        {
-            "rule": "gumgum\\.com\\/usync\\/vpbwxdoz",
-            "cookies": 0.000468,
-            "fingerprinting": 0,
-            "subdomains": [
-                "rtb"
-            ],
-            "apis": {},
-            "sites": 510,
-            "prevalence": 0.0104
-        },
-        {
-            "rule": "gumgum\\.com\\/gumgum\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 17,
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 31,
-                "window.name": 31,
-                "Navigator.prototype.connection": 31
-            },
-            "sites": 32,
-            "prevalence": 0.000651
+            "sites": 218,
+            "prevalence": 0.00298,
+            "cnames": []
         },
         {
             "rule": "gumgum\\.com\\/services\\.js",
@@ -156,30 +182,33 @@
                 "Navigator.prototype.cookieEnabled": 1,
                 "Event.prototype.timeStamp": 1
             },
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
-            "rule": "gumgum\\.com\\/usync\\/q4rzuhcs",
-            "cookies": 0.0000814,
+            "rule": "gumgum\\.com\\/retarget\\/exposure",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
+        },
+        {
+            "rule": "gumgum\\.com\\/getuid\\/d1ba4609",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "rtb"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
-        },
-        {
-            "rule": "gumgum\\.com\\/zones\\/73d075c3\\/services",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "g2"
-            ],
-            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "gumgum\\.com\\/slot\\.js",
@@ -189,134 +218,79 @@
                 "js"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5,
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 5,
-                "window.name": 5,
-                "Navigator.prototype.connection": 5,
-                "Navigator.prototype.plugins": 5,
-                "Navigator.prototype.platform": 5,
-                "Navigator.prototype.product": 5,
-                "Navigator.prototype.productSub": 5,
-                "Navigator.prototype.vendor": 5,
-                "Navigator.prototype.vendorSub": 5,
-                "Screen.prototype.height": 5,
-                "Screen.prototype.width": 5,
-                "Screen.prototype.colorDepth": 5,
-                "Screen.prototype.pixelDepth": 5,
-                "window.devicePixelRatio": 5,
-                "Date.prototype.getTimezoneOffset": 5,
-                "window.sessionStorage": 5,
-                "window.localStorage": 5,
-                "window.indexedDB": 5,
-                "Navigator.prototype.cookieEnabled": 5,
-                "Date.prototype.getTime": 5
+                "Navigator.prototype.userAgent": 3,
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 3,
+                "window.name": 3,
+                "Navigator.prototype.connection": 3,
+                "Navigator.prototype.plugins": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.product": 3,
+                "Navigator.prototype.productSub": 3,
+                "Navigator.prototype.vendor": 3,
+                "Navigator.prototype.vendorSub": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Screen.prototype.pixelDepth": 3,
+                "window.devicePixelRatio": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "window.sessionStorage": 3,
+                "window.localStorage": 3,
+                "window.indexedDB": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Date.prototype.getTime": 3
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "gumgum\\.com\\/slot",
-            "cookies": 0.000061,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "g2"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "gumgum\\.com\\/publishers\\/2274\\/services",
-            "cookies": 0.000305,
+            "cookies": 0.000328,
             "fingerprinting": 0,
             "subdomains": [
                 "g2"
             ],
             "apis": {},
-            "sites": 15,
-            "prevalence": 0.000305
+            "sites": 26,
+            "prevalence": 0.000356,
+            "cnames": []
         },
         {
-            "rule": "gumgum\\.com\\/zones\\/0231e251\\/services",
-            "cookies": 0.0000407,
+            "rule": "gumgum\\.com\\/zones\\/snagsfwm\\/services",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "g2"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "gumgum\\.com\\/2\\/812724\\/analytics\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "s.update.wo"
-            ],
-            "apis": {
-                "window.name": 5,
-                "Date.prototype.getTime": 5
-            },
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "gumgum\\.com\\/2\\/4\\.59\\.0\\/main\\.js",
-            "cookies": 0,
-            "fingerprinting": 3,
-            "subdomains": [
-                "s.update.wo"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 5,
-                "Navigator.prototype.permissions": 5,
-                "Screen.prototype.availHeight": 4,
-                "Screen.prototype.availWidth": 4,
-                "Screen.prototype.colorDepth": 4,
-                "Screen.prototype.pixelDepth": 4,
-                "Screen.prototype.height": 4,
-                "Screen.prototype.width": 4,
-                "window.name": 4,
-                "Navigator.prototype.onLine": 4,
-                "PerformanceTiming.prototype.navigationStart": 4,
-                "Performance.prototype.memory": 4,
-                "window.devicePixelRatio": 4,
-                "console.memory": 4,
-                "window.localStorage": 4,
-                "Navigator.prototype.connection": 4,
-                "Navigator.prototype.vendor": 4,
-                "Navigator.prototype.appCodeName": 4,
-                "Navigator.prototype.languages": 4,
-                "Navigator.prototype.mediaDevices": 4,
-                "Navigator.prototype.hardwareConcurrency": 4,
-                "Navigator.prototype.deviceMemory": 4,
-                "Navigator.prototype.plugins": 4,
-                "Screen.prototype.availLeft": 4,
-                "Screen.prototype.availTop": 4,
-                "Screen.prototype.orientation": 4,
-                "Navigator.prototype.platform": 4,
-                "Navigator.prototype.maxTouchPoints": 4,
-                "Date.prototype.getTime": 4,
-                "Date.prototype.getTimezoneOffset": 4,
-                "speechSynthesis.__proto__.getVoices": 4,
-                "Navigator.prototype.getBattery": 4,
-                "URL.createObjectURL": 4,
-                "Navigator.prototype.appVersion": 5
-            },
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "gumgum\\.com\\/retarget\\/exposure",
-            "cookies": 0.0000407,
+            "rule": "gumgum\\.com\\/zones\\/3f61f946\\/services",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "px"
+                "g2"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -326,8 +300,14 @@
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0596
+    "cookies": 0.0501,
+    "types": {
+        "Image": 2026,
+        "Document": 3920,
+        "XHR": 1320,
+        "Script": 307
+    }
 }

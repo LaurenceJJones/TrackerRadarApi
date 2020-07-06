@@ -9,11 +9,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
-    "sites": 2,
+    "prevalence": 0.000123,
+    "sites": 9,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -24,11 +25,12 @@
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.name": 2
+                "Navigator.prototype.userAgent": 8,
+                "window.name": 8
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
             "rule": "chatbot\\.com\\/widget\\/chat\\.js",
@@ -38,13 +40,14 @@
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 2,
-                "Navigator.prototype.language": 2,
-                "Date.prototype.getTime": 2
+                "window.localStorage": 9,
+                "Date.prototype.getTime": 9,
+                "Navigator.prototype.language": 7,
+                "Navigator.prototype.userAgent": 6
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -54,5 +57,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 17
+    }
 }

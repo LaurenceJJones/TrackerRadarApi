@@ -9,29 +9,43 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.137,
-    "sites": 6750,
+    "prevalence": 0.123,
+    "sites": 8955,
     "subdomains": [
+        "s",
         "z-na",
         "aax-us-east",
         "aax-cpm",
         "aax-eu",
-        "aax",
         "c",
-        "s",
         "ws-na",
-        "z-in",
+        "z-fe",
         "ws-eu",
+        "z-in",
         "z-eu",
         "rcm-na",
         "rcm-eu",
         "rcm-fe",
-        "aax-fe",
+        "ws-fe",
         "ws-in",
+        "aax-fe",
         "wms-na"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
+        {
+            "rule": "amazon-adsystem\\.com\\/dcm",
+            "cookies": 0.00561,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 415,
+            "prevalence": 0.00568,
+            "cnames": []
+        },
         {
             "rule": "amazon-adsystem\\.com\\/widgets\\/onejs",
             "cookies": 0,
@@ -40,116 +54,148 @@
                 "z-na"
             ],
             "apis": {
-                "Date.prototype.getTime": 744,
-                "window.sessionStorage": 604,
-                "PerformanceTiming.prototype.navigationStart": 474,
-                "Navigator.prototype.userAgent": 85,
-                "window.localStorage": 97,
-                "window.devicePixelRatio": 8,
-                "window.matchMedia(\"prefers-reduced-motion\")": 7
+                "PerformanceTiming.prototype.navigationStart": 852,
+                "Date.prototype.getTime": 875,
+                "Navigator.prototype.userAgent": 141,
+                "window.localStorage": 144,
+                "window.sessionStorage": 681,
+                "window.devicePixelRatio": 2,
+                "window.matchMedia(\"prefers-reduced-motion\")": 2
             },
-            "sites": 754,
-            "prevalence": 0.0153
+            "sites": 880,
+            "prevalence": 0.012,
+            "cnames": []
         },
         {
             "rule": "amazon-adsystem\\.com\\/x\\/getad",
-            "cookies": 0.0156,
+            "cookies": 0.0144,
             "fingerprinting": 0,
             "subdomains": [
                 "aax-us-east",
                 "aax-cpm",
-                "aax-eu",
-                "aax"
+                "aax-eu"
             ],
             "apis": {},
-            "sites": 797,
-            "prevalence": 0.0162
-        },
-        {
-            "rule": "amazon-adsystem\\.com\\/aax2\\/amzn_ads\\.js",
-            "cookies": 0.0000203,
-            "fingerprinting": 1,
-            "subdomains": [
-                "c"
-            ],
-            "apis": {
-                "window.localStorage": 26,
-                "Document.cookie setter": 1
-            },
-            "sites": 31,
-            "prevalence": 0.000631
-        },
-        {
-            "rule": "amazon-adsystem\\.com\\/x\\/19cb1bfc173dcb98ccec",
-            "cookies": 0.0246,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 1216,
-            "prevalence": 0.0247
-        },
-        {
-            "rule": "amazon-adsystem\\.com\\/iu3",
-            "cookies": 0.0112,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 554,
-            "prevalence": 0.0113
-        },
-        {
-            "rule": "amazon-adsystem\\.com\\/dcm",
-            "cookies": 0.019,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 940,
-            "prevalence": 0.0191
-        },
-        {
-            "rule": "amazon-adsystem\\.com\\/ecm3",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 3419,
-            "prevalence": 0.0695
+            "sites": 1090,
+            "prevalence": 0.0149,
+            "cnames": []
         },
         {
             "rule": "amazon-adsystem\\.com\\/aax2\\/apstag\\.js",
-            "cookies": 0.0106,
+            "cookies": 0.0143,
             "fingerprinting": 1,
             "subdomains": [
                 "c"
             ],
             "apis": {
-                "window.localStorage": 4580,
-                "Document.cookie getter": 4112,
-                "PerformanceTiming.prototype.navigationStart": 2081,
-                "Document.cookie setter": 519,
-                "Date.prototype.getTime": 2
+                "window.localStorage": 6075,
+                "PerformanceTiming.prototype.navigationStart": 5726,
+                "Document.cookie getter": 4557,
+                "Document.cookie setter": 1045,
+                "Date.prototype.getTime": 3
             },
-            "sites": 4728,
-            "prevalence": 0.0962
+            "sites": 6108,
+            "prevalence": 0.0836,
+            "cnames": []
         },
         {
             "rule": "amazon-adsystem\\.com\\/iu3",
-            "cookies": 0.0754,
+            "cookies": 0.0722,
             "fingerprinting": 0,
             "subdomains": [
                 "s"
             ],
             "apis": {},
-            "sites": 3717,
-            "prevalence": 0.0756
+            "sites": 5293,
+            "prevalence": 0.0724,
+            "cnames": []
+        },
+        {
+            "rule": "amazon-adsystem\\.com\\/ecm3",
+            "cookies": 0.000123,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 4111,
+            "prevalence": 0.0563,
+            "cnames": []
+        },
+        {
+            "rule": "amazon-adsystem\\.com\\/x\\/19cb1bfc173dcb98ccec",
+            "cookies": 0.0157,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 1158,
+            "prevalence": 0.0158,
+            "cnames": []
+        },
+        {
+            "rule": "amazon-adsystem\\.com\\/aax2\\/amzn_ads\\.js",
+            "cookies": 0.0000684,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "window.localStorage": 29,
+                "Document.cookie setter": 5
+            },
+            "sites": 31,
+            "prevalence": 0.000424,
+            "cnames": []
+        },
+        {
+            "rule": "amazon-adsystem\\.com\\/iu3",
+            "cookies": 0.0102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 753,
+            "prevalence": 0.0103,
+            "cnames": []
+        },
+        {
+            "rule": "amazon-adsystem\\.com\\/x\\/ae12848777b41970a5f2",
+            "cookies": 0.0066,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 520,
+            "prevalence": 0.00712,
+            "cnames": []
+        },
+        {
+            "rule": "amazon-adsystem\\.com\\/x\\/757c0557066e95cfd4c7",
+            "cookies": 0.0296,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 2167,
+            "prevalence": 0.0297,
+            "cnames": []
+        },
+        {
+            "rule": "amazon-adsystem\\.com\\/x\\/7318ffc0e8fa1d771446",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "amazon-adsystem\\.com\\/widgets\\/q",
@@ -158,61 +204,31 @@
             "subdomains": [
                 "ws-na",
                 "z-na",
-                "z-in",
+                "z-fe",
                 "ws-eu",
+                "z-in",
                 "z-eu"
             ],
             "apis": {
-                "PerformanceTiming.prototype.navigationStart": 33,
-                "Date.prototype.getTime": 84,
-                "Navigator.prototype.userAgent": 5
+                "PerformanceTiming.prototype.navigationStart": 109,
+                "Date.prototype.getTime": 118,
+                "Navigator.prototype.userAgent": 8
             },
-            "sites": 94,
-            "prevalence": 0.00191
-        },
-        {
-            "rule": "amazon-adsystem\\.com\\/x\\/757c0557066e95cfd4c7",
-            "cookies": 0.0274,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 1350,
-            "prevalence": 0.0275
+            "sites": 148,
+            "prevalence": 0.00203,
+            "cnames": []
         },
         {
             "rule": "amazon-adsystem\\.com\\/iui3",
-            "cookies": 0.00454,
+            "cookies": 0.00339,
             "fingerprinting": 0,
             "subdomains": [
                 "s"
             ],
             "apis": {},
-            "sites": 232,
-            "prevalence": 0.00472
-        },
-        {
-            "rule": "amazon-adsystem\\.com\\/s\\/x\\/757c0557066e95cfd4c7",
-            "cookies": 0.000224,
-            "fingerprinting": 0,
-            "subdomains": [
-                "aax-eu"
-            ],
-            "apis": {},
-            "sites": 14,
-            "prevalence": 0.000285
-        },
-        {
-            "rule": "amazon-adsystem\\.com\\/s\\/ecm3",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "aax-eu"
-            ],
-            "apis": {},
-            "sites": 71,
-            "prevalence": 0.00144
+            "sites": 258,
+            "prevalence": 0.00353,
+            "cnames": []
         },
         {
             "rule": "amazon-adsystem\\.com\\/e\\/cm",
@@ -224,66 +240,158 @@
                 "rcm-fe"
             ],
             "apis": {
-                "Date.prototype.getTime": 3
+                "Date.prototype.getTime": 6
             },
-            "sites": 88,
-            "prevalence": 0.00179
+            "sites": 139,
+            "prevalence": 0.0019,
+            "cnames": []
         },
         {
-            "rule": "amazon-adsystem\\.com\\/s\\/iu3",
-            "cookies": 0.000915,
+            "rule": "amazon-adsystem\\.com\\/s\\/x\\/757c0557066e95cfd4c7",
+            "cookies": 0.00332,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aax-eu"
+            ],
+            "apis": {},
+            "sites": 256,
+            "prevalence": 0.0035,
+            "cnames": []
+        },
+        {
+            "rule": "amazon-adsystem\\.com\\/iui3",
+            "cookies": 0.000848,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 62,
+            "prevalence": 0.000848,
+            "cnames": []
+        },
+        {
+            "rule": "amazon-adsystem\\.com\\/widgets\\/q",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ws-na",
+                "ws-eu",
+                "ws-fe",
+                "ws-in"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 56,
+                "Navigator.prototype.userAgent": 9
+            },
+            "sites": 73,
+            "prevalence": 0.000999,
+            "cnames": []
+        },
+        {
+            "rule": "amazon-adsystem\\.com\\/dcm",
+            "cookies": 0.000876,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 64,
+            "prevalence": 0.000876,
+            "cnames": []
+        },
+        {
+            "rule": "amazon-adsystem\\.com\\/s\\/iui3",
+            "cookies": 0.000575,
             "fingerprinting": 0,
             "subdomains": [
                 "aax-eu",
                 "aax-fe"
             ],
             "apis": {},
-            "sites": 45,
-            "prevalence": 0.000915
+            "sites": 42,
+            "prevalence": 0.000575,
+            "cnames": []
         },
         {
-            "rule": "amazon-adsystem\\.com\\/e\\/dtb\\/admi",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "rule": "amazon-adsystem\\.com\\/s\\/iu3",
+            "cookies": 0.000219,
+            "fingerprinting": 0,
             "subdomains": [
-                "aax-us-east"
+                "aax-eu"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 1
-            },
-            "sites": 8,
-            "prevalence": 0.000163
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
         },
         {
-            "rule": "amazon-adsystem\\.com\\/bao-csm\\/direct\\/csm_others\\.js",
+            "rule": "amazon-adsystem\\.com\\/s\\/iu3",
+            "cookies": 0.00078,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aax-fe",
+                "aax-eu"
+            ],
+            "apis": {},
+            "sites": 57,
+            "prevalence": 0.00078,
+            "cnames": []
+        },
+        {
+            "rule": "amazon-adsystem\\.com\\/iui3",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "amazon-adsystem\\.com\\/iu3",
+            "cookies": 0.0000684,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "amazon-adsystem\\.com\\/bao-csm\\/direct\\/csm_othersv5\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
                 "c"
             ],
             "apis": {
-                "Date.prototype.getTime": 7,
-                "Navigator.prototype.vendor": 7,
-                "Navigator.prototype.userAgent": 7,
-                "Navigator.prototype.languages": 7,
-                "Navigator.prototype.maxTouchPoints": 7,
-                "window.localStorage": 7,
-                "Navigator.prototype.permissions": 7,
-                "Navigator.prototype.mimeTypes": 7,
-                "Screen.prototype.availHeight": 7,
-                "Screen.prototype.availWidth": 7,
-                "Screen.prototype.height": 7,
-                "Screen.prototype.width": 7,
-                "Navigator.prototype.appCodeName": 7,
-                "Navigator.prototype.appVersion": 7,
-                "Navigator.prototype.platform": 7,
-                "Navigator.prototype.plugins": 7,
-                "PerformanceTiming.prototype.navigationStart": 7,
-                "window.name": 7,
-                "Navigator.prototype.connection": 1
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "window.localStorage": 2,
+                "window.indexedDB": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.appCodeName": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.permissions": 2,
+                "Notification.permission": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "window.name": 2
             },
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "amazon-adsystem\\.com\\/csm_view_only\\.js",
@@ -293,96 +401,45 @@
                 "c"
             ],
             "apis": {
-                "PerformanceTiming.prototype.navigationStart": 6,
-                "Navigator.prototype.userAgent": 6,
-                "Navigator.prototype.vendor": 6,
-                "Date.prototype.getTime": 6
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.vendor": 1,
+                "Date.prototype.getTime": 1
             },
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "amazon-adsystem\\.com\\/widgets\\/q",
+            "rule": "amazon-adsystem\\.com\\/aax2\\/apstag\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "ws-na",
-                "ws-eu",
-                "ws-in"
+                "c"
             ],
             "apis": {
-                "Date.prototype.getTime": 43,
-                "Navigator.prototype.userAgent": 8
+                "window.localStorage": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Document.cookie getter": 1
             },
-            "sites": 46,
-            "prevalence": 0.000936
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "amazon-adsystem\\.com\\/s\\/iu3",
-            "cookies": 0.000142,
-            "fingerprinting": 0,
+            "rule": "amazon-adsystem\\.com\\/panda\\/20070822\\/US\\/js\\/8001_6\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
             "subdomains": [
-                "aax-eu"
+                "wms-na"
             ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "amazon-adsystem\\.com\\/s\\/iui3",
-            "cookies": 0.000651,
-            "fingerprinting": 0,
-            "subdomains": [
-                "aax-eu",
-                "aax-fe"
-            ],
-            "apis": {},
-            "sites": 32,
-            "prevalence": 0.000651
-        },
-        {
-            "rule": "amazon-adsystem\\.com\\/iu3",
-            "cookies": 0.000468,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 25,
-            "prevalence": 0.000509
-        },
-        {
-            "rule": "amazon-adsystem\\.com\\/x\\/da2e6c890e6e3636",
-            "cookies": 0.000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
-        },
-        {
-            "rule": "amazon-adsystem\\.com\\/iui3",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "amazon-adsystem\\.com\\/x\\/7318ffc0e8fa1d771446",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "amazon-adsystem\\.com\\/20070822\\/US\\/js\\/auto-tagger\\.js",
@@ -392,34 +449,66 @@
                 "wms-na"
             ],
             "apis": {
-                "PerformanceTiming.prototype.navigationStart": 6,
-                "Date.prototype.getTime": 6,
-                "window.sessionStorage": 6
+                "PerformanceTiming.prototype.navigationStart": 4,
+                "Date.prototype.getTime": 4,
+                "window.sessionStorage": 3
             },
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "amazon-adsystem\\.com\\/iui3",
-            "cookies": 0.0000407,
+            "rule": "amazon-adsystem\\.com\\/s\\/dcm",
+            "cookies": 0.0000684,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aax-eu"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "amazon-adsystem\\.com\\/aax2\\/apstag\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "amazon-adsystem\\.com\\/iu3",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "s"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "amazon-adsystem\\.com\\/iui3",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "s"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -432,5 +521,12 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.113
+    "cookies": 0.102,
+    "types": {
+        "Image": 9705,
+        "Script": 8274,
+        "Document": 5688,
+        "Fetch": 8,
+        "Other": 2
+    }
 }

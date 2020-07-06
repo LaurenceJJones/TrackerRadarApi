@@ -7,16 +7,17 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000462,
+    "prevalence": 0.0000274,
     "sites": 2,
     "subdomains": [
         "analytics"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "digital-metric\\.com\\/vw",
-            "cookies": 0.0000462,
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "analytics"
@@ -27,15 +28,14 @@
                 "Screen.prototype.width": 2
             },
             "sites": 2,
-            "prevalence": 0.0000462
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 3
-    },
-    "cookies": 0.0000462
+    "performance": {},
+    "cookies": 0.0000274,
+    "types": {
+        "Script": 2
+    }
 }

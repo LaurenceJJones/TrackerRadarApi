@@ -7,31 +7,32 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000231,
-    "sites": 1,
+    "prevalence": 0.0000428,
+    "sites": 3,
     "subdomains": [
-        "smetrics"
+        "static"
     ],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "tmz\\.com\\/b\\/ss\\/wbrostmz\\/1\\/JS-2\\.10\\.0\\/s93386071692476",
-            "cookies": 0.0000462,
-            "fingerprinting": 0,
+            "rule": "tmz\\.com\\/tmz-share\\/client\\/v1\\.7\\/main\\.desktop\\.102e91c3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
             "subdomains": [
-                "smetrics"
+                "static"
             ],
-            "apis": {},
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2
+            },
             "sites": 2,
-            "prevalence": 0.0000462
+            "prevalence": 0.0000285
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 1
-    },
-    "cookies": 0.0000231
+    "performance": {},
+    "cookies": 0.0000143,
+    "types": {
+        "Script": 2
+    }
 }

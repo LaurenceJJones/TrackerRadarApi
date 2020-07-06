@@ -4,13 +4,14 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000061,
+    "prevalence": 0.000041,
     "sites": 3,
     "subdomains": [
         "ads",
         "ads-v2"
     ],
-    "fingerprinting": 2,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "spotible\\.com\\/tag\\/universal-tag\\.js",
@@ -24,7 +25,8 @@
                 "window.localStorage": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "spotible\\.com\\/tag\\/storage-delegate\\.html",
@@ -38,15 +40,15 @@
                 "window.localStorage": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 0
-    },
-    "cookies": 0
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Script": 3,
+        "Document": 3
+    }
 }

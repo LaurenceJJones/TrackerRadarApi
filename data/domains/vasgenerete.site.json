@@ -4,9 +4,10 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00167,
-    "sites": 82,
+    "prevalence": 0.00171,
+    "sites": 125,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -15,26 +16,52 @@
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "window.localStorage": 81,
-                "Navigator.prototype.userAgent": 65,
-                "Navigator.prototype.platform": 65
+                "window.localStorage": 104,
+                "Navigator.prototype.userAgent": 101,
+                "Navigator.prototype.platform": 101
             },
-            "sites": 82,
-            "prevalence": 0.00167
+            "sites": 104,
+            "prevalence": 0.00142,
+            "cnames": []
         },
         {
-            "rule": "vasgenerete\\.site\\/npc\\/sdk\\/native\\.js",
+            "rule": "vasgenerete\\.site\\/npc\\/sdk\\/cis1606\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "window.localStorage": 2
+                "window.localStorage": 13,
+                "Navigator.prototype.userAgent": 12,
+                "Navigator.prototype.platform": 12
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
+        },
+        {
+            "rule": "vasgenerete\\.site\\/npc\\/sdk\\/cis1806\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 6,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.platform": 5
+            },
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {},
-    "cookies": 0
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 123
+    }
 }

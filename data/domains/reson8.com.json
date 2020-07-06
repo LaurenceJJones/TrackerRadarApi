@@ -9,101 +9,122 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0125,
-    "sites": 613,
+    "prevalence": 0.0107,
+    "sites": 781,
     "subdomains": [
         "idsync",
         "ds"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "reson8\\.com\\/sources\\/pixel\\/v1\\/sync",
-            "cookies": 0.00911,
+            "cookies": 0.00653,
             "fingerprinting": 0,
             "subdomains": [
                 "idsync"
             ],
             "apis": {},
-            "sites": 450,
-            "prevalence": 0.00915
-        },
-        {
-            "rule": "reson8\\.com\\/v1\\/t",
-            "cookies": 0.000427,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ds"
-            ],
-            "apis": {},
-            "sites": 31,
-            "prevalence": 0.000631
-        },
-        {
-            "rule": "reson8\\.com\\/v1\\/p",
-            "cookies": 0.000468,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ds"
-            ],
-            "apis": {},
-            "sites": 30,
-            "prevalence": 0.00061
-        },
-        {
-            "rule": "reson8\\.com\\/adb-ext\\.gif",
-            "cookies": 0.00108,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ds"
-            ],
-            "apis": {},
-            "sites": 55,
-            "prevalence": 0.00112
-        },
-        {
-            "rule": "reson8\\.com\\/tubemogul\\.gif",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ds"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 481,
+            "prevalence": 0.00658,
+            "cnames": []
         },
         {
             "rule": "reson8\\.com\\/sources\\/pixel\\/v1\\/track",
-            "cookies": 0.000407,
+            "cookies": 0.00161,
             "fingerprinting": 0,
             "subdomains": [
                 "ds"
             ],
             "apis": {},
-            "sites": 20,
-            "prevalence": 0.000407
+            "sites": 119,
+            "prevalence": 0.00163,
+            "cnames": []
+        },
+        {
+            "rule": "reson8\\.com\\/v1\\/t",
+            "cookies": 0.000438,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ds"
+            ],
+            "apis": {},
+            "sites": 39,
+            "prevalence": 0.000534,
+            "cnames": []
+        },
+        {
+            "rule": "reson8\\.com\\/adb-ext\\.gif",
+            "cookies": 0.000889,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ds"
+            ],
+            "apis": {},
+            "sites": 66,
+            "prevalence": 0.000903,
+            "cnames": []
         },
         {
             "rule": "reson8\\.com\\/insights\\.gif",
-            "cookies": 0.000854,
+            "cookies": 0.000766,
             "fingerprinting": 0,
             "subdomains": [
                 "ds"
             ],
             "apis": {},
-            "sites": 45,
-            "prevalence": 0.000915
+            "sites": 60,
+            "prevalence": 0.000821,
+            "cnames": []
+        },
+        {
+            "rule": "reson8\\.com\\/v1\\/p",
+            "cookies": 0.000465,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ds"
+            ],
+            "apis": {},
+            "sites": 36,
+            "prevalence": 0.000493,
+            "cnames": []
+        },
+        {
+            "rule": "reson8\\.com\\/bk\\.gif",
+            "cookies": 0.0000684,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ds"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "reson8\\.com\\/bk-int\\.gif",
+            "cookies": 0.0000684,
+            "fingerprinting": 0,
+            "subdomains": [
+                "idsync"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "reson8\\.com\\/v1\\/i",
-            "cookies": 0.000061,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "ds"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [
@@ -119,5 +140,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0123
+    "cookies": 0.0105,
+    "types": {
+        "Image": 736,
+        "XHR": 78
+    }
 }

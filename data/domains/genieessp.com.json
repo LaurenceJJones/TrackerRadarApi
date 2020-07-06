@@ -7,13 +7,31 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000448,
-    "sites": 22,
+    "prevalence": 0.000506,
+    "sites": 37,
     "subdomains": [
         "js"
     ],
-    "fingerprinting": 2,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
+        {
+            "rule": "genieessp\\.com\\/t\\/038\\/571\\/a1038571\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 14,
+                "Document.cookie getter": 14,
+                "Screen.prototype.width": 14,
+                "Screen.prototype.height": 14
+            },
+            "sites": 15,
+            "prevalence": 0.000205,
+            "cnames": []
+        },
         {
             "rule": "genieessp\\.com\\/t\\/033\\/279\\/a1033279\\.js",
             "cookies": 0,
@@ -22,72 +40,17 @@
                 "js"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 9,
-                "Document.cookie getter": 9,
-                "Screen.prototype.width": 9,
-                "Screen.prototype.height": 9
-            },
-            "sites": 9,
-            "prevalence": 0.000183
-        },
-        {
-            "rule": "genieessp\\.com\\/t\\/407\\/455\\/a1407455\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js"
-            ],
-            "apis": {
-                "Screen.prototype.width": 3,
-                "Screen.prototype.height": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "genieessp\\.com\\/j\\/inview\\.20190130\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 21
-            },
-            "sites": 21,
-            "prevalence": 0.000427
-        },
-        {
-            "rule": "genieessp\\.com\\/j\\/rtct_adp_lib\\.20180606\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 15,
-                "Navigator.prototype.vendor": 15
+                "Navigator.prototype.userAgent": 14,
+                "Document.cookie getter": 14,
+                "Screen.prototype.width": 14,
+                "Screen.prototype.height": 14
             },
             "sites": 15,
-            "prevalence": 0.000305
+            "prevalence": 0.000205,
+            "cnames": []
         },
         {
-            "rule": "genieessp\\.com\\/t\\/427\\/674\\/a1427674\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "genieessp\\.com\\/t\\/404\\/074\\/a1404074\\.js",
+            "rule": "genieessp\\.com\\/t\\/426\\/973\\/a1426973\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -100,10 +63,28 @@
                 "Screen.prototype.height": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "genieessp\\.com\\/t\\/016\\/149\\/a16149\\.js",
+            "rule": "genieessp\\.com\\/t\\/010\\/514\\/a1010514\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Document.cookie getter": 6,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.height": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "genieessp\\.com\\/t\\/440\\/864\\/a1440864\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -115,7 +96,25 @@
                 "Screen.prototype.height": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "genieessp\\.com\\/t\\/016\\/149\\/a16149\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -125,5 +124,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 42
+    }
 }

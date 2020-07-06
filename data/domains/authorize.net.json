@@ -7,68 +7,74 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0011,
-    "sites": 54,
+    "prevalence": 0.00172,
+    "sites": 126,
     "subdomains": [
         "verify",
         "js"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "authorize\\.net\\/anetseal\\/seal\\.js",
-            "cookies": 0.00061,
+            "cookies": 0.0012,
             "fingerprinting": 0,
             "subdomains": [
                 "verify"
             ],
             "apis": {},
-            "sites": 31,
-            "prevalence": 0.000631
+            "sites": 91,
+            "prevalence": 0.00125,
+            "cnames": []
         },
         {
             "rule": "authorize\\.net\\/anetseal\\/images\\/secure90x72\\.gif",
-            "cookies": 0.000671,
+            "cookies": 0.00129,
             "fingerprinting": 0,
             "subdomains": [
                 "verify"
             ],
             "apis": {},
-            "sites": 36,
-            "prevalence": 0.000732
+            "sites": 106,
+            "prevalence": 0.00145,
+            "cnames": []
         },
         {
             "rule": "authorize\\.net\\/v1\\/Accept\\.js",
-            "cookies": 0.000285,
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [
                 "js"
             ],
             "apis": {},
-            "sites": 15,
-            "prevalence": 0.000305
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
         },
         {
             "rule": "authorize\\.net\\/v1\\/AcceptCore\\.js",
-            "cookies": 0.000061,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "js"
             ],
             "apis": {},
-            "sites": 15,
-            "prevalence": 0.000305
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
         },
         {
             "rule": "authorize\\.net\\/v1\\/AcceptCore\\.js",
-            "cookies": 0.000244,
+            "cookies": 0.000151,
             "fingerprinting": 0,
             "subdomains": [
                 "js"
             ],
             "apis": {},
-            "sites": 15,
-            "prevalence": 0.000305
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -78,5 +84,10 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.00108
+    "cookies": 0.0017,
+    "types": {
+        "Script": 118,
+        "Image": 106,
+        "XHR": 16
+    }
 }

@@ -9,31 +9,33 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00366,
-    "sites": 180,
+    "prevalence": 0.003,
+    "sites": 219,
     "subdomains": [
         "a"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "optmnstr\\.com\\/app\\/js\\/api\\.min\\.js",
-            "cookies": 0.00264,
+            "cookies": 0.00211,
             "fingerprinting": 1,
             "subdomains": [
                 "a"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 143,
-                "Date.prototype.getTime": 160,
-                "Document.cookie getter": 137,
-                "Document.cookie setter": 130,
-                "window.localStorage": 151,
-                "window.sessionStorage": 130,
-                "Navigator.prototype.cookieEnabled": 96
+                "Navigator.prototype.userAgent": 193,
+                "Date.prototype.getTime": 195,
+                "Document.cookie getter": 165,
+                "Document.cookie setter": 154,
+                "window.localStorage": 185,
+                "window.sessionStorage": 155,
+                "Navigator.prototype.cookieEnabled": 122
             },
-            "sites": 163,
-            "prevalence": 0.00332
+            "sites": 197,
+            "prevalence": 0.0027,
+            "cnames": []
         }
     ],
     "categories": [
@@ -50,5 +52,8 @@
         "cpu": 2,
         "cache": 1
     },
-    "cookies": 0.00264
+    "cookies": 0.00211,
+    "types": {
+        "Script": 197
+    }
 }

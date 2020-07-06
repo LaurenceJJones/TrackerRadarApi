@@ -9,339 +9,512 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.05,
-    "sites": 2457,
+    "prevalence": 0.0645,
+    "sites": 4716,
     "subdomains": [
         "pixel",
-        "dp1",
         "dp2",
         "ssc-cms",
+        "dp1",
         "ssc",
         "cdn-sic",
         "sic"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "33across\\.com\\/ps\\/",
-            "cookies": 0.0451,
+            "cookies": 0.0547,
             "fingerprinting": 0,
             "subdomains": [
                 "pixel",
-                "dp1",
-                "dp2",
-                "ssc-cms"
-            ],
-            "apis": {},
-            "sites": 2236,
-            "prevalence": 0.0455
-        },
-        {
-            "rule": "33across\\.com\\/ps\\/",
-            "cookies": 0.0337,
-            "fingerprinting": 0,
-            "subdomains": [
                 "dp2",
                 "ssc-cms",
                 "dp1"
             ],
             "apis": {},
-            "sites": 1671,
-            "prevalence": 0.034
+            "sites": 4056,
+            "prevalence": 0.0555,
+            "cnames": []
+        },
+        {
+            "rule": "33across\\.com\\/ps\\/",
+            "cookies": 0.0284,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dp2",
+                "ssc-cms"
+            ],
+            "apis": {},
+            "sites": 2088,
+            "prevalence": 0.0286,
+            "cnames": []
         },
         {
             "rule": "33across\\.com\\/api\\/v1\\/hb",
-            "cookies": 0.00958,
+            "cookies": 0.0102,
             "fingerprinting": 0,
             "subdomains": [
                 "ssc"
             ],
             "apis": {},
-            "sites": 481,
-            "prevalence": 0.00978
-        },
-        {
-            "rule": "33across\\.com\\/ps",
-            "cookies": 0.0136,
-            "fingerprinting": 0,
-            "subdomains": [
-                "pixel"
-            ],
-            "apis": {},
-            "sites": 672,
-            "prevalence": 0.0137
+            "sites": 784,
+            "prevalence": 0.0107,
+            "cnames": []
         },
         {
             "rule": "33across\\.com\\/1\\/javascripts\\/sic\\.js",
-            "cookies": 0.00574,
+            "cookies": 0.00276,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn-sic"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 279,
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 279,
-                "Screen.prototype.width": 277,
-                "Screen.prototype.height": 277,
-                "Date.prototype.getTime": 279,
-                "PerformanceTiming.prototype.navigationStart": 244,
-                "Date.prototype.getTimezoneOffset": 9
+                "Navigator.prototype.userAgent": 190,
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 190,
+                "Screen.prototype.width": 189,
+                "Screen.prototype.height": 189,
+                "Date.prototype.getTime": 188,
+                "PerformanceTiming.prototype.navigationStart": 175,
+                "Date.prototype.getTimezoneOffset": 1
             },
-            "sites": 287,
-            "prevalence": 0.00584
-        },
-        {
-            "rule": "33across\\.com\\/1\\/stylesheets\\/sic\\.css",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn-sic"
-            ],
-            "apis": {},
-            "sites": 281,
-            "prevalence": 0.00572
+            "sites": 204,
+            "prevalence": 0.00279,
+            "cnames": []
         },
         {
             "rule": "33across\\.com\\/authorize",
-            "cookies": 0.00559,
+            "cookies": 0.0026,
             "fingerprinting": 0,
             "subdomains": [
                 "sic"
             ],
             "apis": {},
-            "sites": 279,
-            "prevalence": 0.00568
+            "sites": 190,
+            "prevalence": 0.0026,
+            "cnames": []
         },
         {
             "rule": "33across\\.com\\/api\\/exchange",
-            "cookies": 0.00511,
+            "cookies": 0.00235,
             "fingerprinting": 0,
             "subdomains": [
                 "ssc"
             ],
             "apis": {},
-            "sites": 255,
-            "prevalence": 0.00519
+            "sites": 172,
+            "prevalence": 0.00235,
+            "cnames": []
         },
         {
-            "rule": "33across\\.com\\/session\\/715\\/pb78cpjc\\/xhr_send",
-            "cookies": 0.0000407,
+            "rule": "33across\\.com\\/ps",
+            "cookies": 0.0164,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 1207,
+            "prevalence": 0.0165,
+            "cnames": []
+        },
+        {
+            "rule": "33across\\.com\\/ps",
+            "cookies": 0.00157,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssc-cms",
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 116,
+            "prevalence": 0.00159,
+            "cnames": []
+        },
+        {
+            "rule": "33across\\.com\\/session\\/759\\/tcqf16px\\/xhr_send",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sic"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "33across\\.com\\/session\\/657\\/twzjry5f\\/xhr_send",
-            "cookies": 0.0000407,
+            "rule": "33across\\.com\\/session\\/460\\/nf9g5_6r\\/xhr_send",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sic"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "33across\\.com\\/session\\/280\\/vp8fc1x2\\/xhr_send",
-            "cookies": 0.0000407,
+            "rule": "33across\\.com\\/session\\/126\\/809bikhf\\/xhr_send",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sic"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "33across\\.com\\/session\\/731\\/guvnu2go\\/xhr_send",
-            "cookies": 0.0000407,
+            "rule": "33across\\.com\\/session\\/907\\/duhhxf20\\/xhr_send",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sic"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "33across\\.com\\/session\\/834\\/c5djp2uq\\/xhr_send",
-            "cookies": 0.0000407,
+            "rule": "33across\\.com\\/session\\/133\\/qgjac7t3\\/xhr_send",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sic"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "33across\\.com\\/session\\/696\\/assu9sg8\\/xhr_send",
-            "cookies": 0.0000407,
+            "rule": "33across\\.com\\/session\\/403\\/qgc5mlwz\\/xhr_send",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sic"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "33across\\.com\\/session\\/536\\/pqnqf7ev\\/xhr_send",
-            "cookies": 0.0000407,
+            "rule": "33across\\.com\\/session\\/398\\/8pf9l9co\\/xhr_send",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sic"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "33across\\.com\\/session\\/666\\/uq4j5yib\\/xhr_send",
-            "cookies": 0.0000407,
+            "rule": "33across\\.com\\/session\\/879\\/wd88cf_o\\/xhr_send",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sic"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "33across\\.com\\/session\\/942\\/8ulb62iu\\/xhr_send",
-            "cookies": 0.0000407,
+            "rule": "33across\\.com\\/session\\/058\\/ej9ybw2y\\/xhr_send",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sic"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "33across\\.com\\/session\\/345\\/v6bq_ujp\\/xhr_send",
-            "cookies": 0.0000407,
+            "rule": "33across\\.com\\/session\\/265\\/2ightaeh\\/xhr_send",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sic"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "33across\\.com\\/session\\/755\\/0gk7iawk\\/xhr_send",
-            "cookies": 0.0000407,
+            "rule": "33across\\.com\\/session\\/383\\/9xjun3b9\\/xhr_send",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sic"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "33across\\.com\\/session\\/335\\/oiqes9tq\\/xhr_send",
-            "cookies": 0.0000407,
+            "rule": "33across\\.com\\/session\\/722\\/q3znjvci\\/xhr_send",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sic"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "33across\\.com\\/session\\/794\\/27s4b9re\\/xhr_send",
-            "cookies": 0.0000407,
+            "rule": "33across\\.com\\/session\\/821\\/l846vkla\\/xhr_send",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sic"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "33across\\.com\\/session\\/121\\/jw32t6m_\\/xhr_send",
-            "cookies": 0.0000407,
+            "rule": "33across\\.com\\/session\\/732\\/_2l0_ty2\\/xhr_send",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sic"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "33across\\.com\\/session\\/358\\/q6r3lnj_\\/xhr_send",
-            "cookies": 0.0000407,
+            "rule": "33across\\.com\\/session\\/119\\/17ayhabv\\/xhr_send",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sic"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "33across\\.com\\/session\\/980\\/t8dlqe4l\\/xhr_send",
-            "cookies": 0.0000407,
+            "rule": "33across\\.com\\/session\\/142\\/2to9bkx3\\/xhr_send",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sic"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "33across\\.com\\/session\\/719\\/zcxce_n3\\/xhr_send",
-            "cookies": 0.0000407,
+            "rule": "33across\\.com\\/session\\/158\\/md4f7yyt\\/xhr_send",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sic"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "33across\\.com\\/session\\/649\\/qz889smj\\/xhr_send",
-            "cookies": 0.0000407,
+            "rule": "33across\\.com\\/session\\/163\\/9djtvr3m\\/xhr_send",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sic"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "33across\\.com\\/session\\/446\\/ek5zbt9d\\/xhr_send",
-            "cookies": 0.0000407,
+            "rule": "33across\\.com\\/session\\/067\\/nib3gmwp\\/xhr_send",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sic"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "33across\\.com\\/session\\/302\\/2nfhzaan\\/xhr_send",
-            "cookies": 0.0000407,
+            "rule": "33across\\.com\\/session\\/265\\/7_xbuy1g\\/xhr_send",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sic"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "33across\\.com\\/session\\/083\\/219rfwg6\\/xhr_send",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "33across\\.com\\/session\\/897\\/074xs4co\\/xhr_send",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "33across\\.com\\/session\\/904\\/zq76u_p5\\/xhr_send",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "33across\\.com\\/ps\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssc-cms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "33across\\.com\\/session\\/131\\/1e_s590t\\/xhr_send",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "33across\\.com\\/session\\/909\\/eym50zsm\\/xhr_send",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "33across\\.com\\/session\\/006\\/ogfm8p3c\\/xhr_send",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "33across\\.com\\/session\\/710\\/fjezs3v3\\/xhr_send",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "33across\\.com\\/session\\/144\\/mcnp2hkl\\/xhr_send",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "33across\\.com\\/session\\/587\\/hu0u0s9h\\/xhr_send",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "33across\\.com\\/session\\/985\\/3bmp7i22\\/xhr_send",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "33across\\.com\\/session\\/297\\/3rhnbfyk\\/xhr_send",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -356,5 +529,11 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0498
+    "cookies": 0.0642,
+    "types": {
+        "Image": 4172,
+        "Document": 3295,
+        "XHR": 1020,
+        "Script": 394
+    }
 }

@@ -9,57 +9,41 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0277,
-    "sites": 1363,
+    "prevalence": 0.0198,
+    "sites": 1447,
     "subdomains": [
         "ag",
         "s-static"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "innovid\\.com\\/trk",
-            "cookies": 0.0262,
+            "cookies": 0.0157,
             "fingerprinting": 0,
             "subdomains": [
                 "ag"
             ],
             "apis": {},
-            "sites": 1298,
-            "prevalence": 0.0264
-        },
-        {
-            "rule": "innovid\\.com\\/mobileapps\\/s\\/js\\/vpaid\\/1jhuku",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "s-static"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Screen.prototype.width": 2,
-                "window.devicePixelRatio": 2,
-                "Screen.prototype.height": 2,
-                "Date.prototype.getTime": 2,
-                "window.localStorage": 2,
-                "HTMLMediaElement.prototype.canPlayType": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 1383,
+            "prevalence": 0.0189,
+            "cnames": []
         },
         {
             "rule": "innovid\\.com\\/dv\\/sync",
-            "cookies": 0.000692,
+            "cookies": 0.000383,
             "fingerprinting": 0,
             "subdomains": [
                 "ag"
             ],
             "apis": {},
-            "sites": 35,
-            "prevalence": 0.000712
+            "sites": 29,
+            "prevalence": 0.000397,
+            "cnames": []
         },
         {
-            "rule": "innovid\\.com\\/mobileapps\\/s\\/js\\/vpaid\\/1jk0a3",
+            "rule": "innovid\\.com\\/mobileapps\\/s\\/js\\/vpaid\\/1jf6hl",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -70,33 +54,12 @@
                 "Screen.prototype.width": 2,
                 "window.devicePixelRatio": 2,
                 "Screen.prototype.height": 2,
-                "Navigator.prototype.appName": 2,
                 "Date.prototype.getTime": 2,
-                "window.localStorage": 2,
-                "HTMLMediaElement.prototype.canPlayType": 2
+                "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "innovid\\.com\\/mobileapps\\/s\\/js\\/vpaid\\/1jilp5",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "s-static"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Screen.prototype.width": 2,
-                "window.devicePixelRatio": 2,
-                "Screen.prototype.height": 2,
-                "Navigator.prototype.appName": 2,
-                "Date.prototype.getTime": 2,
-                "window.localStorage": 2,
-                "HTMLMediaElement.prototype.canPlayType": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -109,5 +72,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0272
+    "cookies": 0.0165,
+    "types": {
+        "Image": 1412,
+        "Script": 2
+    }
 }

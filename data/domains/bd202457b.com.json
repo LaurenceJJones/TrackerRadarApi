@@ -4,23 +4,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000793,
-    "sites": 39,
+    "prevalence": 0.000862,
+    "sites": 63,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
             "rule": "bd202457b\\.com\\/iframe\\.php",
-            "cookies": 0.000793,
+            "cookies": 0.000862,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Date.prototype.getTime": 39,
-                "Navigator.prototype.userAgent": 35,
-                "PerformanceTiming.prototype.navigationStart": 35
+                "Date.prototype.getTime": 63,
+                "Navigator.prototype.userAgent": 53,
+                "PerformanceTiming.prototype.navigationStart": 53
             },
-            "sites": 39,
-            "prevalence": 0.000793
+            "sites": 63,
+            "prevalence": 0.000862,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -30,5 +32,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000793
+    "cookies": 0.000862,
+    "types": {
+        "Document": 63
+    }
 }

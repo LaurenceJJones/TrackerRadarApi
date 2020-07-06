@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000203,
+    "prevalence": 0.0000137,
     "sites": 1,
     "subdomains": [
         "api"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -23,15 +24,14 @@
                 "Event.prototype.timeStamp": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 0
-    },
-    "cookies": 0.0000203
+    "performance": {},
+    "cookies": 0.0000137,
+    "types": {
+        "Script": 2
+    }
 }

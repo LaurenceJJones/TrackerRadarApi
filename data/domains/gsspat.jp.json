@@ -9,53 +9,48 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00126,
-    "sites": 62,
+    "prevalence": 0.000274,
+    "sites": 20,
     "subdomains": [
         "rt"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "gsspat\\.jp\\/yie\\/ld\\/gcs",
-            "cookies": 0.0012,
+            "cookies": 0.000274,
             "fingerprinting": 0,
             "subdomains": [
                 "rt"
             ],
             "apis": {},
-            "sites": 59,
-            "prevalence": 0.0012
+            "sites": 20,
+            "prevalence": 0.000274,
+            "cnames": []
         },
         {
             "rule": "gsspat\\.jp\\/b",
-            "cookies": 0.000448,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "rt"
             ],
             "apis": {},
-            "sites": 22,
-            "prevalence": 0.000448
-        },
-        {
-            "rule": "gsspat\\.jp\\/lcs",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "rt"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 2,
+        "time": 1,
         "size": 1,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00122
+    "cookies": 0.00026,
+    "types": {
+        "Image": 23
+    }
 }

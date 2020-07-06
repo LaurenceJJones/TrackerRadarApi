@@ -9,13 +9,70 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0864,
-    "sites": 4246,
+    "prevalence": 0.0783,
+    "sites": 5722,
     "subdomains": [
         "static"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
+        {
+            "rule": "criteo\\.net\\/js\\/ld\\/publishertag\\.js",
+            "cookies": 0.0105,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 992,
+                "Date.prototype.getTime": 988,
+                "Navigator.prototype.userAgent": 915,
+                "Document.cookie setter": 764,
+                "Document.cookie getter": 764,
+                "Screen.prototype.width": 114,
+                "Screen.prototype.height": 114
+            },
+            "sites": 1001,
+            "prevalence": 0.0137,
+            "cnames": []
+        },
+        {
+            "rule": "criteo\\.net\\/js\\/ld\\/publishertag\\.prebid\\.js",
+            "cookies": 0.0371,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 2792,
+                "Date.prototype.getTime": 2792,
+                "Document.cookie setter": 2712,
+                "Document.cookie getter": 2721,
+                "Navigator.prototype.userAgent": 2738
+            },
+            "sites": 2834,
+            "prevalence": 0.0388,
+            "cnames": []
+        },
+        {
+            "rule": "criteo\\.net\\/js\\/ld\\/publishertag\\.prebid\\.js",
+            "cookies": 0.0369,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 2783,
+                "Date.prototype.getTime": 2783,
+                "Document.cookie setter": 2695,
+                "Document.cookie getter": 2704,
+                "Navigator.prototype.userAgent": 2730
+            },
+            "sites": 2820,
+            "prevalence": 0.0386,
+            "cnames": []
+        },
         {
             "rule": "criteo\\.net\\/js\\/ld\\/ld\\.js",
             "cookies": 0.0206,
@@ -24,119 +81,109 @@
                 "static"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 1037,
-                "window.localStorage": 1235,
-                "Date.prototype.getTime": 1230,
-                "Document.cookie setter": 1014,
-                "Document.cookie getter": 1042
+                "Navigator.prototype.userAgent": 1750,
+                "window.localStorage": 1805,
+                "Date.prototype.getTime": 1805,
+                "Document.cookie setter": 1502,
+                "Document.cookie getter": 1535
             },
-            "sites": 1263,
-            "prevalence": 0.0257
-        },
-        {
-            "rule": "criteo\\.net\\/js\\/ld\\/publishertag\\.prebid\\.js",
-            "cookies": 0.0389,
-            "fingerprinting": 1,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {
-                "window.localStorage": 1974,
-                "Date.prototype.getTime": 1975,
-                "Document.cookie setter": 1912,
-                "Document.cookie getter": 1916,
-                "Navigator.prototype.userAgent": 1916
-            },
-            "sites": 2001,
-            "prevalence": 0.0407
-        },
-        {
-            "rule": "criteo\\.net\\/js\\/ld\\/publishertag\\.prebid\\.js",
-            "cookies": 0.0384,
-            "fingerprinting": 1,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {
-                "window.localStorage": 1947,
-                "Date.prototype.getTime": 1948,
-                "Document.cookie setter": 1886,
-                "Document.cookie getter": 1890,
-                "Navigator.prototype.userAgent": 1890
-            },
-            "sites": 1985,
-            "prevalence": 0.0404
-        },
-        {
-            "rule": "criteo\\.net\\/js\\/ld\\/publishertag\\.js",
-            "cookies": 0.0148,
-            "fingerprinting": 1,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 914,
-                "window.localStorage": 931,
-                "Document.cookie setter": 727,
-                "Document.cookie getter": 728,
-                "Navigator.prototype.userAgent": 721,
-                "Screen.prototype.width": 87,
-                "Screen.prototype.height": 87
-            },
-            "sites": 962,
-            "prevalence": 0.0196
+            "sites": 1814,
+            "prevalence": 0.0248,
+            "cnames": []
         },
         {
             "rule": "criteo\\.net\\/js\\/ld\\/publishertag\\.standalone\\.js",
-            "cookies": 0.00201,
+            "cookies": 0.00125,
             "fingerprinting": 1,
             "subdomains": [
                 "static"
             ],
             "apis": {
-                "window.localStorage": 116,
-                "Date.prototype.getTime": 116,
-                "Document.cookie setter": 99,
-                "Document.cookie getter": 99,
-                "Navigator.prototype.userAgent": 71
+                "window.localStorage": 107,
+                "Date.prototype.getTime": 107,
+                "Document.cookie setter": 91,
+                "Document.cookie getter": 91,
+                "Navigator.prototype.userAgent": 83
             },
-            "sites": 116,
-            "prevalence": 0.00236
+            "sites": 135,
+            "prevalence": 0.00185,
+            "cnames": []
         },
         {
             "rule": "criteo\\.net\\/js\\/ld\\/publishertag\\.standalone\\.js",
-            "cookies": 0.00201,
+            "cookies": 0.00127,
             "fingerprinting": 1,
             "subdomains": [
                 "static"
             ],
             "apis": {
-                "window.localStorage": 115,
-                "Date.prototype.getTime": 115,
-                "Document.cookie setter": 99,
-                "Document.cookie getter": 99,
-                "Navigator.prototype.userAgent": 71
+                "window.localStorage": 109,
+                "Date.prototype.getTime": 109,
+                "Document.cookie setter": 93,
+                "Document.cookie getter": 93,
+                "Navigator.prototype.userAgent": 85
             },
-            "sites": 133,
-            "prevalence": 0.00271
+            "sites": 109,
+            "prevalence": 0.00149,
+            "cnames": []
         },
         {
             "rule": "criteo\\.net\\/js\\/ld\\/ld\\.js",
-            "cookies": 0,
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "static"
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "criteo\\.net\\/js\\/ld\\/publishertag\\.prebid\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "criteo\\.net\\/js\\/ld\\/publishertag\\.prebid\\.js",
+            "cookies": 0.000041,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "criteo\\.net\\/js\\/ld\\/ld\\.4\\.1\\.0\\.js",
-            "cookies": 0.000061,
+            "cookies": 0.000041,
             "fingerprinting": 1,
             "subdomains": [
                 "static"
@@ -147,22 +194,22 @@
                 "Document.cookie setter": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "criteo\\.net\\/misc\\/glue2\\/glue2_sticky\\.js",
+            "rule": "criteo\\.net\\/custom_js\\/gtm_template\\/static_devicetype\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "static"
             ],
             "apis": {
-                "Navigator.prototype.appName": 5,
-                "Document.cookie getter": 5,
-                "Date.prototype.getTime": 5
+                "Navigator.prototype.userAgent": 3
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [
@@ -176,5 +223,11 @@
         "cpu": 1,
         "cache": 1
     },
-    "cookies": 0.0751
+    "cookies": 0.0684,
+    "types": {
+        "Script": 5764,
+        "XHR": 2955,
+        "Other": 4,
+        "Fetch": 3
+    }
 }

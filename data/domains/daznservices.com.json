@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000244,
-    "sites": 12,
+    "prevalence": 0.000178,
+    "sites": 13,
     "subdomains": [
         "player"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -23,7 +24,8 @@
                 "Navigator.prototype.userAgent": 6
             },
             "sites": 6,
-            "prevalence": 0.000122
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "daznservices\\.com\\/player\\/player3\\.js",
@@ -33,11 +35,12 @@
                 "player"
             ],
             "apis": {
-                "Date.prototype.getTime": 10,
-                "window.localStorage": 10
+                "Date.prototype.getTime": 9,
+                "window.localStorage": 9
             },
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         },
         {
             "rule": "daznservices\\.com\\/player\\/player\\.html",
@@ -47,13 +50,14 @@
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 10,
-                "window.name": 10,
-                "window.localStorage": 10,
-                "Date.prototype.getTime": 10
+                "Navigator.prototype.userAgent": 8,
+                "window.name": 8,
+                "window.localStorage": 8,
+                "Date.prototype.getTime": 8
             },
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         },
         {
             "rule": "daznservices\\.com\\/spieler\\/releases\\/1\\.51\\.9\\/ng-spieler\\.js",
@@ -63,16 +67,17 @@
                 "player"
             ],
             "apis": {
-                "window.localStorage": 10,
-                "Navigator.prototype.userAgent": 10,
-                "Screen.prototype.width": 10,
-                "Date.prototype.getTime": 10,
-                "MediaSource.isTypeSupported": 4,
-                "HTMLMediaElement.prototype.canPlayType": 4,
-                "Navigator.prototype.onLine": 5
+                "window.localStorage": 8,
+                "Navigator.prototype.userAgent": 7,
+                "Screen.prototype.width": 7,
+                "Date.prototype.getTime": 8,
+                "Navigator.prototype.onLine": 7,
+                "MediaSource.isTypeSupported": 1,
+                "HTMLMediaElement.prototype.canPlayType": 1
             },
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
             "rule": "daznservices\\.com\\/player\\/assets\\/brandSafety\\.js",
@@ -82,10 +87,11 @@
                 "player"
             ],
             "apis": {
-                "window.localStorage": 9
+                "window.localStorage": 8
             },
-            "sites": 9,
-            "prevalence": 0.000183
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
             "rule": "daznservices\\.com\\/player\\.js",
@@ -95,19 +101,24 @@
                 "player"
             ],
             "apis": {
-                "window.localStorage": 5,
-                "Navigator.prototype.userAgent": 5
+                "window.localStorage": 4,
+                "Navigator.prototype.userAgent": 4
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 2,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 35,
+        "Document": 9
+    }
 }

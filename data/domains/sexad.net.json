@@ -7,34 +7,37 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000386,
-    "sites": 19,
+    "prevalence": 0.000643,
+    "sites": 47,
     "subdomains": [
         "as"
     ],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 0,
     "resources": [
         {
             "rule": "sexad\\.net\\/as\\/if",
-            "cookies": 0.000366,
+            "cookies": 0.000629,
             "fingerprinting": 0,
             "subdomains": [
                 "as"
             ],
             "apis": {},
-            "sites": 18,
-            "prevalence": 0.000366
+            "sites": 46,
+            "prevalence": 0.000629,
+            "cnames": []
         },
         {
             "rule": "sexad\\.net\\/px\\.gif",
-            "cookies": 0.000386,
+            "cookies": 0.000643,
             "fingerprinting": 0,
             "subdomains": [
                 "as"
             ],
             "apis": {},
-            "sites": 19,
-            "prevalence": 0.000386
+            "sites": 47,
+            "prevalence": 0.000643,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -44,5 +47,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000386
+    "cookies": 0.000643,
+    "types": {
+        "Document": 46,
+        "Image": 47
+    }
 }

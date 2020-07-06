@@ -7,55 +7,17 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000285,
-    "sites": 14,
+    "prevalence": 0.00026,
+    "sites": 19,
     "subdomains": [
-        "zz",
-        "ssl",
-        "us"
+        "us",
+        "zz"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "connextra\\.com\\/dcs\\/tagController\\/tag\\/66454da6e2ce\\/homepage",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "zz"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.platform": 2,
-                "Navigator.prototype.appVersion": 2,
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "connextra\\.com\\/CBS\\/dcs\\/tagController\\/tagData\\/66454da6e2ce",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "zz"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "connextra\\.com\\/XPressBet\\/selector\\/client",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ssl"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "connextra\\.com\\/dcs\\/tagController\\/tag\\/6851c64534c0\\/homepage",
+            "rule": "connextra\\.com\\/dcs\\/tagController\\/tag\\/7af1ac7c9454\\/homepage",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -67,15 +29,56 @@
                 "Navigator.prototype.appVersion": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "connextra\\.com\\/TwinSpires\\/dcs\\/tagController\\/tagData\\/a9ff25a9ed59",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zz"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "connextra\\.com\\/XPressBet\\/dcs\\/tagController\\/tagData\\/fd48dd5f44b3",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zz"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "connextra\\.com\\/TVG\\/dcs\\/tagController\\/tagData\\/d3c9330eae1b",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zz"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000224
+    "cookies": 0.000205,
+    "types": {
+        "Script": 2,
+        "XHR": 6
+    }
 }

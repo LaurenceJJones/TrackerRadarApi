@@ -4,79 +4,89 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000163,
-    "sites": 8,
+    "prevalence": 0.000137,
+    "sites": 10,
     "subdomains": [
         "static"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "quiq-cdn\\.com\\/webchat\\/sdk-8bd9b0d1a4115781dd0b-1\\.5\\.223-289132e5\\.js",
-            "cookies": 0.000163,
+            "rule": "quiq-cdn\\.com\\/webchat\\/sdk-4442d0324e2c20abf379-1\\.5\\.319-aaeb1254\\.js",
+            "cookies": 0.000137,
             "fingerprinting": 1,
             "subdomains": [
                 "static"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.userAgent": 10,
+                "console.memory": 10,
                 "window.localStorage": 5,
                 "Event.prototype.timeStamp": 5,
                 "window.name": 5
             },
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "quiq-cdn\\.com\\/webchat\\/webchatMain-1581e1b263ec16c9af4e-1\\.5\\.223-289132e5\\.js",
-            "cookies": 0.000102,
+            "rule": "quiq-cdn\\.com\\/webchat\\/webchatMain-429320888e35e5557b7e-1\\.5\\.319-aaeb1254\\.js",
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "static"
             ],
             "apis": {},
             "sites": 5,
-            "prevalence": 0.000102
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
-            "rule": "quiq-cdn\\.com\\/webchat\\/webchat-a98a6c42b00685409981-1\\.5\\.223-289132e5\\.js",
-            "cookies": 0.000102,
+            "rule": "quiq-cdn\\.com\\/webchat\\/webchat-2a8c7aac6af39449ce50-1\\.5\\.319-aaeb1254\\.js",
+            "cookies": 0.0000684,
             "fingerprinting": 1,
             "subdomains": [
                 "static"
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 5,
+                "console.memory": 4,
                 "window.name": 5,
                 "window.localStorage": 5,
-                "Document.cookie getter": 5,
-                "console.memory": 5,
-                "HTMLMediaElement.prototype.canPlayType": 5,
+                "HTMLMediaElement.prototype.canPlayType": 4,
                 "Intl.DateTimeFormat.prototype.resolvedOptions": 5,
                 "Date.prototype.getTime": 5,
-                "window.sessionStorage": 5
+                "window.sessionStorage": 5,
+                "Document.cookie getter": 4
             },
             "sites": 5,
-            "prevalence": 0.000102
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "quiq-cdn\\.com\\/webchat\\/assets\\/notificationAlert-37fb3f18\\.mp3",
-            "cookies": 0.000102,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "static"
             ],
             "apis": {},
             "sites": 5,
-            "prevalence": 0.000102
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 3,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000163
+    "cookies": 0.000137,
+    "types": {
+        "Script": 20,
+        "Media": 5
+    }
 }

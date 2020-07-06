@@ -7,48 +7,38 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00509,
-    "sites": 250,
+    "prevalence": 0.00382,
+    "sites": 279,
     "subdomains": [
         "pixel",
-        "p",
-        "api"
+        "p"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "placed\\.com\\/api\\/v2\\/sync\\/custom-pixel",
-            "cookies": 0.00452,
+            "cookies": 0.00364,
             "fingerprinting": 0,
             "subdomains": [
                 "pixel"
             ],
             "apis": {},
-            "sites": 223,
-            "prevalence": 0.00454
+            "sites": 268,
+            "prevalence": 0.00367,
+            "cnames": []
         },
         {
             "rule": "placed\\.com\\/api\\/v2\\/sync\\/impression",
-            "cookies": 0.000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "p",
-                "api"
-            ],
-            "apis": {},
-            "sites": 21,
-            "prevalence": 0.000427
-        },
-        {
-            "rule": "placed\\.com\\/api\\/v2\\/sync\\/impression",
-            "cookies": 0.000142,
+            "cookies": 0.000192,
             "fingerprinting": 0,
             "subdomains": [
                 "p"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -58,5 +48,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00504
+    "cookies": 0.00379,
+    "types": {
+        "Image": 282
+    }
 }

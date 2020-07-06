@@ -7,29 +7,87 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000895,
-    "sites": 44,
+    "prevalence": 0.00142,
+    "sites": 104,
     "subdomains": [
         "ads",
         "cache-ssl"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "celtra\\.com\\/4d425e68\\/web\\.js",
+            "rule": "celtra\\.com\\/607c7a74\\/web\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "ads"
             ],
             "apis": {
-                "URL.createObjectURL": 12
+                "URL.createObjectURL": 3
             },
-            "sites": 13,
-            "prevalence": 0.000264
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "celtra\\.com\\/ea514abd\\/web\\.js",
+            "rule": "celtra\\.com\\/d178338c\\/web\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "URL.createObjectURL": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "celtra\\.com\\/api\\/creatives\\/345e3779\\/compiled\\/web\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cache-ssl"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "celtra\\.com\\/779cf191\\/web\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "URL.createObjectURL": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "celtra\\.com\\/api\\/creatives\\/6fd8f13b\\/compiled\\/web\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cache-ssl"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "celtra\\.com\\/9de93955\\/web\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -39,36 +97,25 @@
                 "URL.createObjectURL": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "celtra\\.com\\/e99e4098\\/web\\.js",
+            "rule": "celtra\\.com\\/d59e8ede\\/web\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "ads"
             ],
             "apis": {
-                "URL.createObjectURL": 2
+                "URL.createObjectURL": 3
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "celtra\\.com\\/19293226\\/web\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "URL.createObjectURL": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "celtra\\.com\\/api\\/creatives\\/4a5dc26e\\/compiled\\/web\\.js",
+            "rule": "celtra\\.com\\/api\\/creatives\\/ed6983dd\\/compiled\\/web\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -78,36 +125,11 @@
                 "Navigator.prototype.userAgent": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "celtra\\.com\\/d39d8c57\\/web\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "URL.createObjectURL": 5
-            },
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "celtra\\.com\\/85e6532b\\/web\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "URL.createObjectURL": 6
-            },
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "celtra\\.com\\/be023546\\/web\\.js",
+            "rule": "celtra\\.com\\/e63ceb54\\/web\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -117,15 +139,117 @@
                 "URL.createObjectURL": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "celtra\\.com\\/106f7c51\\/web\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "URL.createObjectURL": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "celtra\\.com\\/api\\/creatives\\/4a17b676\\/compiled\\/web\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cache-ssl"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "celtra\\.com\\/52ea1d3c\\/web\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "URL.createObjectURL": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "celtra\\.com\\/f29fd6e9\\/web\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "URL.createObjectURL": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "celtra\\.com\\/d9dba5ed\\/web\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "URL.createObjectURL": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "celtra\\.com\\/b0db5bea\\/web\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "URL.createObjectURL": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "celtra\\.com\\/6a746883\\/web\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "URL.createObjectURL": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
-        "size": 2,
+        "size": 1,
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 39
+    }
 }

@@ -7,11 +7,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000185,
-    "sites": 8,
+    "prevalence": 0.000616,
+    "sites": 45,
     "subdomains": [
         "b"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -22,10 +23,23 @@
                 "b"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 1
+                "Navigator.prototype.userAgent": 2
             },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "hatena\\.ne\\.jp\\/entrylist\\/json",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b"
+            ],
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000462
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -35,5 +49,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0.0000274,
+    "types": {
+        "Script": 5
+    }
 }

@@ -4,23 +4,21 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
-    "sites": 5,
-    "subdomains": [
-        "rt"
-    ],
+    "prevalence": 0.0000958,
+    "sites": 7,
+    "subdomains": [],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "inistrack\\.net\\/d\\/rt\\.php",
-            "cookies": 0.0000407,
+            "rule": "inistrack\\.net\\/d\\/avw\\.php",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
-            "subdomains": [
-                "rt"
-            ],
+            "subdomains": [],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -30,5 +28,8 @@
         "cpu": 0,
         "cache": 0
     },
-    "cookies": 0.000061
+    "cookies": 0.000041,
+    "types": {
+        "Image": 2
+    }
 }

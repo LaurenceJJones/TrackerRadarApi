@@ -7,46 +7,50 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00437,
-    "sites": 215,
+    "prevalence": 0.00341,
+    "sites": 249,
     "subdomains": [
         "sync",
         "s2s"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "rtk\\.io\\/cs",
-            "cookies": 0.00401,
+            "cookies": 0.00311,
             "fingerprinting": 0,
             "subdomains": [
                 "sync"
             ],
             "apis": {},
-            "sites": 198,
-            "prevalence": 0.00403
+            "sites": 227,
+            "prevalence": 0.00311,
+            "cnames": []
         },
         {
             "rule": "rtk\\.io\\/setuid",
-            "cookies": 0.00232,
+            "cookies": 0.00286,
             "fingerprinting": 0,
             "subdomains": [
                 "s2s"
             ],
             "apis": {},
-            "sites": 180,
-            "prevalence": 0.00366
+            "sites": 210,
+            "prevalence": 0.00287,
+            "cnames": []
         },
         {
             "rule": "rtk\\.io\\/setuid",
-            "cookies": 0.00205,
+            "cookies": 0.00275,
             "fingerprinting": 0,
             "subdomains": [
                 "s2s"
             ],
             "apis": {},
-            "sites": 161,
-            "prevalence": 0.00327
+            "sites": 201,
+            "prevalence": 0.00275,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -56,5 +60,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00401
+    "cookies": 0.00311,
+    "types": {
+        "Document": 437,
+        "Image": 201
+    }
 }

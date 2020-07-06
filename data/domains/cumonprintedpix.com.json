@@ -4,56 +4,37 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000231,
-    "sites": 1,
+    "prevalence": 0.0000274,
+    "sites": 2,
     "subdomains": [
         "gallery"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "cumonprintedpix\\.com\\/1\\.php",
-            "cookies": 0.0000462,
+            "rule": "cumonprintedpix\\.com\\/tt\\/uMCIxgn\\.gif",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "gallery"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000462
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "cumonprintedpix\\.com\\/2\\.php",
-            "cookies": 0.0000462,
+            "rule": "cumonprintedpix\\.com\\/tt\\/GC24OPX\\.gif",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "gallery"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000462
-        },
-        {
-            "rule": "cumonprintedpix\\.com\\/3\\.php",
-            "cookies": 0.0000462,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gallery"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000462
-        },
-        {
-            "rule": "cumonprintedpix\\.com\\/tt\\/l0l0l\\.gif",
-            "cookies": 0.0000231,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gallery"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000462
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -63,5 +44,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.0000231
+    "cookies": 0.0000274,
+    "types": {
+        "Image": 4
+    }
 }

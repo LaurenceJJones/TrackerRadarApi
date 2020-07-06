@@ -4,249 +4,273 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000325,
-    "sites": 16,
+    "prevalence": 0.000287,
+    "sites": 21,
     "subdomains": [
-        "csync",
-        "static",
         "prebid",
+        "static",
         "tags-videos",
+        "csync",
         "stats"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "smilewanted\\.com\\/",
-            "cookies": 0.000305,
+            "rule": "smilewanted\\.com\\/track\\/analytics\\/adcall\\.php",
+            "cookies": 0.000287,
             "fingerprinting": 0,
             "subdomains": [
-                "csync"
+                "prebid"
             ],
             "apis": {},
-            "sites": 15,
-            "prevalence": 0.000305
+            "sites": 21,
+            "prevalence": 0.000287,
+            "cnames": []
         },
         {
             "rule": "smilewanted\\.com\\/jwplayer-8\\.11\\.7\\/jwplayer\\.js",
-            "cookies": 0.000264,
+            "cookies": 0.000274,
             "fingerprinting": 1,
             "subdomains": [
                 "static"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 14,
-                "Navigator.prototype.platform": 14,
-                "PerformanceTiming.prototype.navigationStart": 14,
-                "window.localStorage": 14,
-                "HTMLMediaElement.prototype.canPlayType": 13,
-                "CanvasRenderingContext2D.prototype.getImageData": 13,
-                "HTMLCanvasElement.prototype.constructor": 9
+                "Navigator.prototype.userAgent": 18,
+                "Navigator.prototype.platform": 18,
+                "PerformanceTiming.prototype.navigationStart": 18,
+                "window.localStorage": 18,
+                "HTMLMediaElement.prototype.canPlayType": 17,
+                "HTMLCanvasElement.prototype.constructor": 11,
+                "CanvasRenderingContext2D.prototype.getImageData": 17,
+                "Navigator.prototype.language": 1
             },
-            "sites": 14,
-            "prevalence": 0.000285
-        },
-        {
-            "rule": "smilewanted\\.com\\/track\\/analytics\\/adcall\\.php",
-            "cookies": 0.000325,
-            "fingerprinting": 0,
-            "subdomains": [
-                "prebid"
-            ],
-            "apis": {},
-            "sites": 16,
-            "prevalence": 0.000325
+            "sites": 20,
+            "prevalence": 0.000274,
+            "cnames": []
         },
         {
             "rule": "smilewanted\\.com\\/infos_corner_video\\.php",
-            "cookies": 0.000244,
+            "cookies": 0.000205,
             "fingerprinting": 0,
             "subdomains": [
                 "tags-videos"
             ],
             "apis": {},
-            "sites": 12,
-            "prevalence": 0.000244
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
         },
         {
-            "rule": "smilewanted\\.com\\/set_partner_userid_get\\/rhythmone\\/OPTOUT",
-            "cookies": 0.000264,
+            "rule": "smilewanted\\.com\\/",
+            "cookies": 0.000274,
             "fingerprinting": 0,
             "subdomains": [
                 "csync"
             ],
             "apis": {},
-            "sites": 13,
-            "prevalence": 0.000264
+            "sites": 20,
+            "prevalence": 0.000274,
+            "cnames": []
         },
         {
-            "rule": "smilewanted\\.com\\/track\\/analytics\\/adcall\\.php",
-            "cookies": 0.000244,
+            "rule": "smilewanted\\.com\\/set_partner_userid_get\\/rhythmone\\/OPTOUT",
+            "cookies": 0.00026,
             "fingerprinting": 0,
             "subdomains": [
-                "prebid"
+                "csync"
             ],
             "apis": {},
-            "sites": 12,
-            "prevalence": 0.000244
+            "sites": 19,
+            "prevalence": 0.00026,
+            "cnames": []
         },
         {
             "rule": "smilewanted\\.com\\/config_infeed\\.php",
-            "cookies": 0.000122,
+            "cookies": 0.000109,
             "fingerprinting": 0,
             "subdomains": [
                 "tags-videos"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
             "rule": "smilewanted\\.com\\/img\\/native_link\\.svg",
-            "cookies": 0.000122,
+            "cookies": 0.000109,
             "fingerprinting": 0,
             "subdomains": [
                 "static"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
+        },
+        {
+            "rule": "smilewanted\\.com\\/set_partner_userid_get\\/spotx\\/6dc01114-b67f-11ea-b54b-17ef9bbb0a03",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "csync"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "smilewanted\\.com\\/js\\/prebid\\/prebid\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000684,
             "fingerprinting": 1,
             "subdomains": [
                 "static"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.cookieEnabled": 2,
-                "window.sessionStorage": 2,
-                "Date.prototype.getTime": 1,
-                "Screen.prototype.width": 1,
-                "Screen.prototype.height": 1,
-                "Document.cookie getter": 1
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "window.sessionStorage": 5,
+                "Navigator.prototype.appName": 5
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "smilewanted\\.com\\/detect_position\\/pixel\\.php",
-            "cookies": 0.000061,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "stats"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "smilewanted\\.com\\/check_valid_infeed_video\\.php",
-            "cookies": 0.000061,
+            "cookies": 0.0000684,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tags-videos"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "smilewanted\\.com\\/check_valid_infeed_native\\.php",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "tags-videos"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "smilewanted\\.com\\/check_valid_infeed_native\\.php",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tags-videos"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "smilewanted\\.com\\/set_partner_userid_get\\/appnexus\\/6781008659445010172",
-            "cookies": 0.0000407,
+            "rule": "smilewanted\\.com\\/set_partner_userid_get\\/spotx\\/8725d575-b693-11ea-bcfd-1121730d2003",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "csync"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "smilewanted\\.com\\/set_partner_userid_get\\/spotx\\/7e51b2af-6b01-11ea-96dc-110dffac1203",
-            "cookies": 0.0000407,
+            "rule": "smilewanted\\.com\\/set_partner_userid_get\\/improve\\/370b8093-1314-43f5-b25d-259cc47098dc&partner_id=1010",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "csync"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "smilewanted\\.com\\/set_partner_userid_get\\/improve\\/cf7dd558-3ed5-4f3b-8e12-434abbb02bc5&partner_id=1010",
-            "cookies": 0.0000407,
+            "rule": "smilewanted\\.com\\/set_partner_userid_get\\/spotx\\/16aa6507-b69d-11ea-925c-1a2c061c1203",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "csync"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "smilewanted\\.com\\/set_partner_userid_get\\/smart\\/3702529627350055273",
-            "cookies": 0.0000407,
+            "rule": "smilewanted\\.com\\/set_partner_userid_get\\/smart\\/8189838891578444099",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "csync"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "smilewanted\\.com\\/set_partner_userid_get\\/spotx\\/fe31b5eb-6b01-11ea-a1d0-1123d03e0403",
-            "cookies": 0.0000407,
+            "rule": "smilewanted\\.com\\/set_partner_userid_get\\/appnexus\\/1952768743755779651",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "csync"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "smilewanted\\.com\\/set_partner_userid_get\\/improve\\/05a19d6e-f31d-42f6-9d75-8d27b1c2684e&partner_id=1010",
-            "cookies": 0.0000407,
+            "rule": "smilewanted\\.com\\/set_partner_userid_get\\/spotx\\/688ffa29-b6a0-11ea-a4ea-172c22d81903",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "csync"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "smilewanted\\.com\\/set_partner_userid_get\\/spotx\\/229fdd90-6b13-11ea-9170-1adc5bfd2803",
-            "cookies": 0.0000407,
+            "rule": "smilewanted\\.com\\/set_partner_userid_get\\/smart\\/5961550484785936540",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "csync"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.000325
+    "cookies": 0.000287,
+    "types": {
+        "XHR": 26,
+        "Script": 77,
+        "Document": 35,
+        "Image": 8
+    }
 }

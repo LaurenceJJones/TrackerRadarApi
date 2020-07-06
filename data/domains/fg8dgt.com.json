@@ -9,90 +9,123 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00757,
-    "sites": 372,
+    "prevalence": 0.00739,
+    "sites": 540,
     "subdomains": [
         "m",
         "u"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "fg8dgt\\.com\\/sync",
-            "cookies": 0.00203,
+            "cookies": 0.00306,
             "fingerprinting": 0,
             "subdomains": [
-                "m"
+                "m",
+                "u"
             ],
             "apis": {},
-            "sites": 128,
-            "prevalence": 0.0026
+            "sites": 286,
+            "prevalence": 0.00391,
+            "cnames": []
         },
         {
             "rule": "fg8dgt\\.com\\/ul_cb\\/sync",
-            "cookies": 0.00203,
+            "cookies": 0.00296,
             "fingerprinting": 0,
             "subdomains": [
                 "m"
             ],
             "apis": {},
-            "sites": 100,
-            "prevalence": 0.00203
+            "sites": 218,
+            "prevalence": 0.00298,
+            "cnames": []
         },
         {
             "rule": "fg8dgt\\.com\\/sync",
-            "cookies": 0.00362,
+            "cookies": 0.0025,
             "fingerprinting": 0,
             "subdomains": [
                 "m"
             ],
             "apis": {},
-            "sites": 234,
-            "prevalence": 0.00476
+            "sites": 237,
+            "prevalence": 0.00324,
+            "cnames": []
         },
         {
             "rule": "fg8dgt\\.com\\/ul_cb\\/sync",
-            "cookies": 0.00358,
+            "cookies": 0.0025,
             "fingerprinting": 0,
             "subdomains": [
                 "m"
             ],
             "apis": {},
-            "sites": 176,
-            "prevalence": 0.00358
+            "sites": 183,
+            "prevalence": 0.0025,
+            "cnames": []
         },
         {
             "rule": "fg8dgt\\.com\\/pixel",
-            "cookies": 0.000325,
+            "cookies": 0.000219,
             "fingerprinting": 0,
             "subdomains": [
                 "u"
             ],
             "apis": {},
-            "sites": 17,
-            "prevalence": 0.000346
-        },
-        {
-            "rule": "fg8dgt\\.com\\/ul_cb\\/pixel",
-            "cookies": 0.000244,
-            "fingerprinting": 0,
-            "subdomains": [
-                "u"
-            ],
-            "apis": {},
-            "sites": 12,
-            "prevalence": 0.000244
+            "sites": 18,
+            "prevalence": 0.000246,
+            "cnames": []
         },
         {
             "rule": "fg8dgt\\.com\\/ttdsync",
-            "cookies": 0.000346,
+            "cookies": 0.000246,
             "fingerprinting": 0,
             "subdomains": [
                 "u"
             ],
             "apis": {},
-            "sites": 17,
-            "prevalence": 0.000346
+            "sites": 18,
+            "prevalence": 0.000246,
+            "cnames": []
+        },
+        {
+            "rule": "fg8dgt\\.com\\/ul_cb\\/pixel",
+            "cookies": 0.000151,
+            "fingerprinting": 0,
+            "subdomains": [
+                "u"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
+        },
+        {
+            "rule": "fg8dgt\\.com\\/pixel",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "u"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "fg8dgt\\.com\\/ul_cb\\/pixel",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "u"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -110,5 +143,10 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00598
+    "cookies": 0.00583,
+    "types": {
+        "Image": 526,
+        "Document": 420,
+        "Script": 29
+    }
 }

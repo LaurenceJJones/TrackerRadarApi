@@ -4,618 +4,606 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000427,
-    "sites": 21,
+    "prevalence": 0.000602,
+    "sites": 44,
     "subdomains": [
-        "tb4",
-        "tb3",
         "tb5",
         "tb1",
-        "assets",
-        "tb2"
+        "tb3",
+        "tb4",
+        "tb2",
+        "assets"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6459148-t5-enh\\/cinthia+santos\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tb4"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6461797-t10-enh\\/baixem+logo+pessoal+que+podem\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tb3"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6462928-t2-enh\\/prote+na+pura+uhu+uhu+uhu\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tb4"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6462909-t6-enh\\/new+bb\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "sb-cd\\.com\\/w:300\\/6\\/8\\/6896634-t9-enh\\/busty+ebony+latina+with+phat+a\\.jpg",
+            "cookies": 0.000192,
             "fingerprinting": 0,
             "subdomains": [
                 "tb5"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
         },
         {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6462660-t6-enh\\/chubby+casting\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "sb-cd\\.com\\/w:300\\/6\\/8\\/6899779-t2-enh\\/bitch+took+that+bbc+like+a+cha\\.jpg",
+            "cookies": 0.000192,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tb5"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/w:300\\/6\\/8\\/6896715-t5-enh\\/1+real+1+fake+super+big+ass\\.jpg",
+            "cookies": 0.000192,
             "fingerprinting": 0,
             "subdomains": [
                 "tb1"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
         },
         {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6462365-t9-enh\\/1st+update\\.jpg",
-            "cookies": 0.0000814,
+            "rule": "sb-cd\\.com\\/w:300\\/6\\/9\\/6900227-t9-enh\\/bbc+surprise+with+anal\\.jpg",
+            "cookies": 0.000192,
             "fingerprinting": 0,
             "subdomains": [
-                "tb1"
+                "tb3"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
         },
         {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6462503-t6-enh\\/rose+monroe+fucked+by+a+leprec\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "sb-cd\\.com\\/w:300\\/6\\/8\\/6895628-t5-enh\\/not+maserati\\.jpg",
+            "cookies": 0.000178,
             "fingerprinting": 0,
             "subdomains": [
                 "tb4"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
         },
         {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6462547-t6-enh\\/paige+owens\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tb3"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6462384-t6-enh\\/britney+amber+blacked\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tb5"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6462154-t1-enh\\/stepmom+needs+every+drop+of+cu\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tb5"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6461792-t7-enh\\/her+ass+so+fat+she+could+stand\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tb3"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "sb-cd\\.com\\/static_desktop\\/gen\\/desktop\\.master\\.4\\.75\\.253b5cde\\.emnemv2\\.js",
-            "cookies": 0.000224,
-            "fingerprinting": 1,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 10
-            },
-            "sites": 11,
-            "prevalence": 0.000224
-        },
-        {
-            "rule": "sb-cd\\.com\\/static_desktop\\/gen\\/desktop\\.master\\.4\\.75\\.packed\\.lozad\\.5a84203d\\.js",
-            "cookies": 0.000224,
-            "fingerprinting": 0,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
-        },
-        {
-            "rule": "sb-cd\\.com\\/static_desktop\\/gen\\/desktop\\.master\\.4\\.75\\.packed\\.player\\.v3\\.b841cd66\\.js",
-            "cookies": 0.000224,
-            "fingerprinting": 1,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 10
-            },
-            "sites": 11,
-            "prevalence": 0.000224
-        },
-        {
-            "rule": "sb-cd\\.com\\/static_desktop\\/gen\\/desktop\\.master\\.4\\.75\\.main\\.packed\\.92021906\\.js",
-            "cookies": 0.000224,
-            "fingerprinting": 1,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 10,
-                "window.localStorage": 11
-            },
-            "sites": 11,
-            "prevalence": 0.000224
-        },
-        {
-            "rule": "sb-cd\\.com\\/static_desktop\\/gen\\/desktop\\.master\\.4\\.75\\.style\\.d183c1e5\\.css",
-            "cookies": 0.000224,
-            "fingerprinting": 0,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
-        },
-        {
-            "rule": "sb-cd\\.com\\/static_desktop\\/Images\\/logo_desktop_v4@2x\\.png",
-            "cookies": 0.000224,
-            "fingerprinting": 0,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
-        },
-        {
-            "rule": "sb-cd\\.com\\/static_desktop\\/Images\\/blank\\.png",
-            "cookies": 0.000224,
-            "fingerprinting": 0,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
-        },
-        {
-            "rule": "sb-cd\\.com\\/static_desktop\\/Images\\/Flags\\/ww\\.png",
-            "cookies": 0.000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
-        },
-        {
-            "rule": "sb-cd\\.com\\/static_desktop\\/Images\\/RTA\\.png",
-            "cookies": 0.000183,
-            "fingerprinting": 0,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
-        },
-        {
-            "rule": "sb-cd\\.com\\/static_desktop\\/gen\\/desktop\\.master\\.4\\.75\\.177f7825\\.svg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
-        },
-        {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6460235-t6-s\\/ipx+461+business+trip+shared\\.jpg",
-            "cookies": 0.000224,
+            "rule": "sb-cd\\.com\\/w:300\\/6\\/8\\/6896660-t6-enh\\/random+1\\.jpg",
+            "cookies": 0.000192,
             "fingerprinting": 0,
             "subdomains": [
                 "tb1"
             ],
             "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
         },
         {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6458996-t7-s\\/stay+home+and+rub+ur+willy\\.jpg",
-            "cookies": 0.000142,
+            "rule": "sb-cd\\.com\\/w:300\\/6\\/8\\/6898166-t5-enh\\/propsex+athena+palomino+s+fi\\.jpg",
+            "cookies": 0.000192,
             "fingerprinting": 0,
             "subdomains": [
                 "tb2"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/w:300\\/6\\/8\\/6895366-t6-enh\\/new+shit+dawg\\.jpg",
+            "cookies": 0.000178,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tb2"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/w:300\\/6\\/9\\/6900698-t6-enh\\/get+it+while+you+can\\.jpg",
+            "cookies": 0.000192,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tb4"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/w:300\\/6\\/9\\/6901378-t6-enh\\/her+body+is+crazy\\.jpg",
+            "cookies": 0.000192,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tb4"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/w:300\\/6\\/8\\/6898310-t10-enh\\/18+years+old+2+4+2\\.jpg",
+            "cookies": 0.000164,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tb1"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/w:300\\/6\\/9\\/6901017-t6-enh\\/anastasia+lux\\.jpg",
+            "cookies": 0.000192,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tb3"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/w:300\\/6\\/8\\/6898621-t8-enh\\/sugar+daddy+indica+flower\\.jpg",
+            "cookies": 0.000192,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tb2"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/w:300\\/6\\/8\\/6896883-t6-enh\\/father+fuck+daughter\\.jpg",
+            "cookies": 0.000192,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tb4"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/w:300\\/6\\/9\\/6900434-t8-enh\\/another+one\\.jpg",
+            "cookies": 0.000192,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tb5"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/w:300\\/6\\/9\\/6900108-t5-enh\\/lucky+man+fuck+2+sisters+nel\\.jpg",
+            "cookies": 0.000178,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tb4"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/w:300\\/6\\/8\\/6898601-t5-enh\\/latina+fulfills+her+bbc+fantas\\.jpg",
+            "cookies": 0.000178,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tb2"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/w:300\\/6\\/8\\/6897506-t7-enh\\/malibu+barbie\\.jpg",
+            "cookies": 0.000123,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tb2"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/w:300\\/6\\/8\\/6897843-t3-enh\\/when+teachers+let+their+studen\\.jpg",
+            "cookies": 0.0000958,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tb4"
             ],
             "apis": {},
             "sites": 7,
-            "prevalence": 0.000142
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6459221-t6-s\\/man+fucks+stalker\\.jpg",
-            "cookies": 0.000203,
+            "rule": "sb-cd\\.com\\/static_desktop\\/Images\\/Flags\\/gb\\.png",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "tb2"
+                "assets"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6462031-t10-s\\/greatest+milf+of+all+time\\.jpg",
-            "cookies": 0.000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tb2"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
-        },
-        {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6460332-t3-s\\/she+said+a+condom+for+what\\.jpg",
-            "cookies": 0.000203,
+            "rule": "sb-cd\\.com\\/w:640\\/5\\/3\\/5378157-t6-enh\\/aaaabbbbbbbbbaaaaaaaa\\.jpg",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "tb3"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6461921-t6-s\\/squirt+away\\.jpg",
-            "cookies": 0.000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tb2"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
-        },
-        {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6460732-t6-s\\/thick+ass+lightskin+bitch\\.jpg",
-            "cookies": 0.000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tb3"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
-        },
-        {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6462660-t6-s\\/chubby+casting\\.jpg",
-            "cookies": 0.000203,
+            "rule": "sb-cd\\.com\\/w:640\\/5\\/4\\/5454570-t5-enh\\/japanese%20girl%20sex009\\.jpg",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "tb1"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6461586-t10-s\\/insane+ass+by+the+beach+p+q\\.jpg",
-            "cookies": 0.000203,
-            "fingerprinting": 0,
+            "rule": "sb-cd\\.com\\/static_desktop\\/gen\\/desktop\\.master\\.4\\.75\\.253b5cde\\.emnemv2\\.js",
+            "cookies": 0.000137,
+            "fingerprinting": 1,
             "subdomains": [
-                "tb2"
+                "assets"
             ],
-            "apis": {},
+            "apis": {
+                "Screen.prototype.height": 9,
+                "Screen.prototype.width": 9,
+                "Navigator.prototype.userAgent": 9,
+                "Date.prototype.getTime": 10
+            },
             "sites": 10,
-            "prevalence": 0.000203
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6462384-t6-s\\/britney+amber+blacked\\.jpg",
-            "cookies": 0.000203,
+            "rule": "sb-cd\\.com\\/static_desktop\\/gen\\/desktop\\.master\\.4\\.75\\.packed\\.lozad\\.5a84203d\\.js",
+            "cookies": 0.000151,
             "fingerprinting": 0,
             "subdomains": [
-                "tb5"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
-        },
-        {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6460663-t6-s\\/latina+couple+has+incredible+s\\.jpg",
-            "cookies": 0.000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tb4"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
-        },
-        {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6461822-t1-s\\/my+top+5+cchd+scenes+bitch\\.jpg",
-            "cookies": 0.000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tb3"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
-        },
-        {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6460445-t3-s\\/21yo+nutritionist+slut\\.jpg",
-            "cookies": 0.000224,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tb1"
+                "assets"
             ],
             "apis": {},
             "sites": 11,
-            "prevalence": 0.000224
+            "prevalence": 0.000151,
+            "cnames": []
         },
         {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6462547-t6-s\\/paige+owens\\.jpg",
-            "cookies": 0.000203,
+            "rule": "sb-cd\\.com\\/static_desktop\\/gen\\/desktop\\.master\\.4\\.75\\.packed\\.player\\.v3\\.0b874d06\\.js",
+            "cookies": 0.000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 10
+            },
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/static_desktop\\/gen\\/desktop\\.master\\.4\\.75\\.main\\.packed\\.2fef93d0\\.js",
+            "cookies": 0.000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 9,
+                "Date.prototype.getTime": 10,
+                "window.localStorage": 10,
+                "Navigator.prototype.userAgent": 9
+            },
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/static_desktop\\/gen\\/desktop\\.master\\.4\\.75\\.style\\.1062b58d\\.css",
+            "cookies": 0.000151,
             "fingerprinting": 0,
             "subdomains": [
-                "tb3"
+                "assets"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/static_desktop\\/Images\\/logo_desktop_v4@2x\\.png",
+            "cookies": 0.000151,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/static_desktop\\/Images\\/blank\\.png",
+            "cookies": 0.000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
             ],
             "apis": {},
             "sites": 10,
-            "prevalence": 0.000203
-        },
-        {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6462798-t5-s\\/porn\\.jpg",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tb4"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6459282-t6-s\\/lost+a+phone+but+found+a+big+a\\.jpg",
-            "cookies": 0.000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tb3"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
-        },
-        {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6461556-t3-s\\/want+to+have+a+threesome+with\\.jpg",
-            "cookies": 0.000183,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tb2"
-            ],
-            "apis": {},
-            "sites": 9,
-            "prevalence": 0.000183
-        },
-        {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6461416-t6-s\\/new+nympho\\.jpg",
-            "cookies": 0.000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tb2"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
-        },
-        {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6459195-t6-s\\/groovy\\.jpg",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tb1"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6460291-t4-s\\/cakkin\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tb2"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
             "rule": "sb-cd\\.com\\/static_desktop\\/Images\\/Flags\\/us\\.png",
-            "cookies": 0.0000407,
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [
                 "assets"
             ],
             "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "sb-cd\\.com\\/static_desktop\\/Images\\/Flags\\/ca\\.png",
-            "cookies": 0.000061,
+            "rule": "sb-cd\\.com\\/static_desktop\\/Images\\/RTA\\.png",
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [
                 "assets"
             ],
             "apis": {},
-            "sites": 9,
-            "prevalence": 0.000183
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "sb-cd\\.com\\/w:640\\/3\\/6\\/3668971-t6-enh\\/masha%20and%20man%20blowjob\\.jpg",
-            "cookies": 0.000061,
+            "rule": "sb-cd\\.com\\/w:300\\/6\\/9\\/6901431-t6-enh\\/pizza+delivery\\.jpg",
+            "cookies": 0.000178,
             "fingerprinting": 0,
             "subdomains": [
                 "tb2"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
         },
         {
-            "rule": "sb-cd\\.com\\/w:640\\/5\\/4\\/5442878-t6-enh\\/russian%20college%20girl%20blowjob\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "sb-cd\\.com\\/static_desktop\\/Images\\/Flags\\/ca\\.png",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/w:640\\/4\\/5\\/4595323-t6-enh\\/long%20czech%20spanking%20movie\\.jpg",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "tb4"
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.0000814
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "sb-cd\\.com\\/w:640\\/5\\/1\\/5129037-t6-enh\\/1st%20studio%20siberian%20mouse%20cus\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tb3"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "sb-cd\\.com\\/w:640\\/5\\/4\\/5441558-t6-enh\\/russian%20college%20girl%20blowjob\\.jpg",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tb4"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "sb-cd\\.com\\/static_desktop\\/Images\\/Flags\\/bg\\.png",
-            "cookies": 0.0000203,
+            "rule": "sb-cd\\.com\\/static_desktop\\/Images\\/Flags\\/si\\.png",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "assets"
             ],
             "apis": {},
             "sites": 5,
-            "prevalence": 0.000102
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6462909-t6-s\\/new+bb\\.jpg",
-            "cookies": 0.0000814,
+            "rule": "sb-cd\\.com\\/w:300\\/6\\/9\\/6901665-t6-enh\\/fuck+the+whore\\.jpg",
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
-                "tb5"
+                "tb1"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6463029-t6-s\\/italian+beauty\\.jpg",
-            "cookies": 0.000061,
+            "rule": "sb-cd\\.com\\/w:640\\/8\\/6\\/868185-t3-enh\\/office%20girl%20gunshot%20then%20necro\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "tb5"
+                "tb1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/w:300\\/6\\/9\\/6901715-t1-enh\\/rats\\.jpg",
+            "cookies": 0.0000821,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tb1"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/w:640\\/6\\/8\\/6858947-t6-enh\\/porn\\.jpg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tb3"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6458897-t6-s\\/interracial+moms\\.jpg",
-            "cookies": 0.0000814,
+            "rule": "sb-cd\\.com\\/w:640\\/5\\/0\\/5058627-t6-enh\\/porn\\.jpg",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "tb3"
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.0000814
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6458916-t4-s\\/sexmex\\.jpg",
-            "cookies": 0.0000814,
+            "rule": "sb-cd\\.com\\/w:640\\/5\\/9\\/5900132-t5-enh\\/porn\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "tb2"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "sb-cd\\.com\\/static_desktop\\/Images\\/Flags\\/gb\\.png",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "assets"
+                "tb3"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "sb-cd\\.com\\/w:300\\/6\\/4\\/6463117-t6-s\\/dee+loves+to+cheat+on+her+husb\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "sb-cd\\.com\\/w:640\\/2\\/9\\/2959807-t6-enh\\/porn\\.jpg",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "tb3"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/w:640\\/3\\/6\\/3645808-t6-enh\\/3d%20animated%20small%20tits%20having\\.jpg",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tb4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/w:640\\/6\\/3\\/6362591-t1-enh\\/pounding%20sarah\\.jpg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tb2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/w:640\\/6\\/5\\/6515530-t7-enh\\/3d%20hentai%20three%20step%20sisters%20a\\.jpg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tb1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/w:640\\/5\\/6\\/5665806-t6-enh\\/jukujo%20club%20japanese%20bi\\.jpg",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tb2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/w:640\\/5\\/6\\/5671559-t6-enh\\/fc2%20ppv%201116662\\.jpg",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tb5"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "sb-cd\\.com\\/w:640\\/6\\/1\\/6177767-t8-enh\\/hentai%20game%20cartoon%20ai%20girl%20pl\\.jpg",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tb3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -625,5 +613,10 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.000386
+    "cookies": 0.000506,
+    "types": {
+        "Image": 373,
+        "Script": 41,
+        "Stylesheet": 11
+    }
 }

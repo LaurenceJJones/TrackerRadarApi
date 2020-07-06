@@ -7,66 +7,58 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000448,
+    "prevalence": 0.000301,
     "sites": 22,
     "subdomains": [
         "px"
     ],
+    "cnames": [],
     "fingerprinting": 3,
     "resources": [
         {
             "rule": "spiceworks\\.com\\/px\\.js",
-            "cookies": 0.000346,
+            "cookies": 0.000246,
             "fingerprinting": 3,
             "subdomains": [
                 "px"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 13,
-                "Navigator.prototype.language": 13,
-                "window.devicePixelRatio": 17,
-                "Navigator.prototype.hardwareConcurrency": 13,
-                "Date.prototype.getTimezoneOffset": 17,
-                "window.sessionStorage": 17,
-                "window.localStorage": 17,
-                "window.indexedDB": 17,
-                "Navigator.prototype.platform": 13,
-                "Navigator.prototype.doNotTrack": 13,
-                "Navigator.prototype.appName": 13,
-                "Navigator.prototype.plugins": 13,
-                "Navigator.prototype.languages": 13,
-                "Navigator.prototype.maxTouchPoints": 13,
-                "Navigator.prototype.productSub": 13,
-                "Screen.prototype.colorDepth": 11,
-                "Screen.prototype.height": 11,
-                "Screen.prototype.width": 11,
-                "Screen.prototype.availWidth": 11,
-                "Screen.prototype.availHeight": 11
+                "Navigator.prototype.userAgent": 20,
+                "Navigator.prototype.language": 20,
+                "Screen.prototype.colorDepth": 20,
+                "window.devicePixelRatio": 20,
+                "Navigator.prototype.hardwareConcurrency": 20,
+                "Screen.prototype.height": 20,
+                "Screen.prototype.width": 20,
+                "Screen.prototype.availWidth": 20,
+                "Screen.prototype.availHeight": 20,
+                "Date.prototype.getTimezoneOffset": 20,
+                "window.sessionStorage": 20,
+                "window.localStorage": 20,
+                "window.indexedDB": 20,
+                "Navigator.prototype.platform": 20,
+                "Navigator.prototype.doNotTrack": 20,
+                "Navigator.prototype.appName": 20,
+                "Navigator.prototype.plugins": 20,
+                "Navigator.prototype.languages": 20,
+                "Navigator.prototype.maxTouchPoints": 20,
+                "Navigator.prototype.productSub": 20
             },
-            "sites": 17,
-            "prevalence": 0.000346
+            "sites": 20,
+            "prevalence": 0.000274,
+            "cnames": []
         },
         {
             "rule": "spiceworks\\.com\\/px\\/3dr8",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "px"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "spiceworks\\.com\\/px\\/50o5",
-            "cookies": 0.000061,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "px"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -76,5 +68,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000448
+    "cookies": 0.000301,
+    "types": {
+        "Script": 20,
+        "Image": 3
+    }
 }

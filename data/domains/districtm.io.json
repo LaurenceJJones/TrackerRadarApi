@@ -9,2096 +9,1902 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0699,
-    "sites": 3438,
+    "prevalence": 0.065,
+    "sites": 4748,
     "subdomains": [
-        "dmx",
         "cdn",
-        "dev.dmx"
+        "dmx",
+        "hb"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "districtm\\.io\\/b\\/v1",
-            "cookies": 0.0203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 1360,
-            "prevalence": 0.0277
-        },
-        {
             "rule": "districtm\\.io\\/ids\\/",
-            "cookies": 0.0519,
+            "cookies": 0.0497,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
             "apis": {},
-            "sites": 2557,
-            "prevalence": 0.052
+            "sites": 3643,
+            "prevalence": 0.0498,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/ids\\/idsync\\.4fd5df3e\\.js",
-            "cookies": 0.0613,
+            "rule": "districtm\\.io\\/ids\\/idsync\\.27e797a5\\.js",
+            "cookies": 0.0565,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "window.localStorage": 2919,
-                "Date.prototype.getTime": 339
+                "window.localStorage": 3901,
+                "Date.prototype.getTime": 459
             },
-            "sites": 3018,
-            "prevalence": 0.0614
+            "sites": 4137,
+            "prevalence": 0.0566,
+            "cnames": []
         },
         {
             "rule": "districtm\\.io\\/s\\/v1\\/buyers",
-            "cookies": 0.0597,
+            "cookies": 0.0539,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
-            "sites": 2944,
-            "prevalence": 0.0599
+            "sites": 3963,
+            "prevalence": 0.0542,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/b\\/v1",
+            "cookies": 0.0132,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 1765,
+            "prevalence": 0.0242,
+            "cnames": []
         },
         {
             "rule": "districtm\\.io\\/s\\/v1\\/users",
-            "cookies": 0.0535,
+            "cookies": 0.0221,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
-            "sites": 2647,
-            "prevalence": 0.0538
+            "sites": 1632,
+            "prevalence": 0.0223,
+            "cnames": []
         },
         {
             "rule": "districtm\\.io\\/s\\/v1\\/users\\/10002",
-            "cookies": 0.0373,
+            "cookies": 0.0147,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
-            "sites": 1843,
-            "prevalence": 0.0375
+            "sites": 1080,
+            "prevalence": 0.0148,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/v1\\/users\\/10005",
+            "cookies": 0.000821,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 61,
+            "prevalence": 0.000835,
+            "cnames": []
         },
         {
             "rule": "districtm\\.io\\/ids\\/index\\.html",
-            "cookies": 0.0179,
+            "cookies": 0.0154,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
             "apis": {},
-            "sites": 884,
-            "prevalence": 0.018
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/v1\\/users\\/10005",
-            "cookies": 0.00167,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 82,
-            "prevalence": 0.00167
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/v1\\/users\\/100331",
-            "cookies": 0.00317,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 156,
-            "prevalence": 0.00317
+            "sites": 1127,
+            "prevalence": 0.0154,
+            "cnames": []
         },
         {
             "rule": "districtm\\.io\\/s\\/v1\\/users\\/101769",
-            "cookies": 0.00148,
+            "cookies": 0.0016,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
-            "sites": 75,
-            "prevalence": 0.00153
+            "sites": 120,
+            "prevalence": 0.00164,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/v1\\/users\\/100331",
+            "cookies": 0.00194,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 142,
+            "prevalence": 0.00194,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/prod\\/100549\\/all\\.postmedia\\.js",
+            "cookies": 0.000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "hb"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 20,
+                "window.localStorage": 20,
+                "Document.cookie setter": 20,
+                "Document.cookie getter": 20,
+                "Date.prototype.getTime": 20
+            },
+            "sites": 20,
+            "prevalence": 0.000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/935530c7-3c39-4df1-8797-9cb88bdb7180-5ef3c844-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/bbc88937-56d3-451b-a308-df28faf0d4c7-5ef3cec0-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AACRqE69554AABAunpmoSw",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10026\\/WviUXmddQFth43Ey9_uWWjbF8gA",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/7f61ba4a-b7e4-4a3a-8d8c-12c78c9ab15a-5ef3d0b8-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AACqL06956IAAA-4o59hAQ",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10009\\/17937f1a-6c4f-4be6-95de-4adbf37c219e",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AACz206956IAAA-Gfasd9Q",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10009\\/cfa3593c-d301-4fc8-9a4f-85a58e11c026",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "districtm\\.io\\/s\\/v1\\/users\\/101733",
-            "cookies": 0.000122,
+            "cookies": 0.000109,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10001\\/f00c9fb5-17b2-4849-9e7a-cba27a3cd38f-5e755008-5553",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10001\\/3f0d9dfd-7023-4214-9a3c-31923d8fa67b-5ef3d5cf-5553",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10026\\/0NSt0kWmRJV5khk47cFGujbQZDY",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10026\\/cjLrQkvZSxlgwykIbD1SRjbF8gA",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10027\\/DPTltD1O1mqZl04qtFKr",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10001\\/ebd25a8f-7be3-43b3-b6f2-12974f666618-5ef3dd41-5553",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10001\\/ee434025-bd6a-4350-907e-2d1e213bff2b-5e753a5f-5553",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10051\\/UP5a9dc844-b675-11ea-9866-024143e44063",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10009\\/7f0caf2c-d1e4-42c6-82cf-9a927df55ccb",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10009\\/b38a6804-b0b7-4d59-9c15-90bdb30d336d",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10001\\/07da614c-a673-407c-a304-f95805336f30-5e755ae3-5553",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10001\\/61477b00-6106-4834-bfd6-612dff95fbb1-5ef3e70d-5553",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10027\\/TUSSu0EHPU6aQigIUp2Z",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10026\\/TP71Pk43RCN3vDypyN8mdjbF8gA",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10009\\/3a419aae-1741-424e-a10a-7c6d6ccf8b42",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/v1\\/img\\/s\\/101995",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAG9GE695-MAABAGfasd9Q",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10001\\/51d06778-7676-4f82-bbe5-41003d5ae709-5e755be9-5553",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10001\\/8078a586-6aa8-48d3-9b70-93159d4d2702-5ef3f17f-5553",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10027\\/1nXNLRPHFzoSKZfDIDPA",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10026\\/CRmHw3ZiS41qRnYtRI3qtTbF8gA",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10009\\/d0dd4602-9cf8-483a-acb2-57d5f2715bdd",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10001\\/74e4b3e8-f29f-479c-8288-368b393d6791-5ef3f4a1-5553",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10001\\/2cf83875-fe76-46b4-a0ac-9c1ae4ea9d27-5e755077-5553",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10025\\/AAGHZU695-kAABBTGWWyQA",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10026\\/NAjv_oCVRM9AcWTLbr2RrzbQZDY",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10025\\/AAFmak695-wAABAInpmoSw",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10027\\/bQO53mkkM4401TMNthIf",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10026\\/wcmybejiQ-JkMDYFKUMLkDbF8gA",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/v1\\/users\\/101760",
-            "cookies": 0.000142,
+            "rule": "districtm\\.io\\/s\\/10001\\/18d5ca20-71a8-4741-bacc-f75a1c7b3133-5ef3f623-5553",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAGq3U695-0AAA_6VNYjCQ",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAIxlk695_MAABCBdHDVTg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/827c112b-c335-4c5b-b918-dce566e71620-5ef3f9cb-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/19f58181-fc5b-4d42-9ddb-342d503924c9-5ef3fb07-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAFQ7U695_YAAA_IigGVzw",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10051\\/UP8a12dd8d-b681-11ea-8310-02962e497dfb",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10009\\/48f8d54a-e823-4506-9ad3-266d58d16cf3",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/4ee9ef47-2453-45fe-861a-ad7b55f67085-5ef3fd35-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10026\\/BIeqnVhzTftVAbFzzGt4xTbF8gA",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAGruU695_wAABBJo59hAQ",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAG9YU695_0AAA_4GWWyQA",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10009\\/5b773b47-6933-4283-8e64-7925cb4c5a52",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10026\\/qmCzcRARTgJGMVaKhYuZgzbF8gA",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/0900386f-64b1-45a5-ba52-fb3bf88b481e-5ef4036e-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAJaL0696AcAABBKo59hAQ",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/v1\\/users\\/100310",
+            "cookies": 0.000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/3e3e6df0-a9a7-4430-a3bc-e63f631c9919-5ef406a7-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10051\\/UP800a56e6-b688-11ea-9866-024143e44063",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10051\\/UPb2a9a07e-b688-11ea-bff9-0a81bc0f8f6b",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAEPS0696BAAABBjnpmoSw",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10051\\/UPdb3798b6-b689-11ea-b5c3-022e3c151763",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10009\\/3217e7e4-1d88-4bdf-966d-77b214bd3dae",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAHFb0696BUAABCVigGVzw",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAKd-0696BwAAA_fdHDVTg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAHtGE696BwAABA1zRNHhA",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/9a8195b6-c4cb-4073-97e0-69ad1068cf5b-5ef40e35-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10051\\/UPf331b888-b68c-11ea-8180-0a0711c1693f",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAH-kk696BwAAA_tzRNHhA",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10009\\/7f5656c4-d6bc-41a6-b031-f586fceea99d",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/c873a976-83d8-4c53-afb0-b68a6663116e-5ef40e7c-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAGdQU696B0AAA_7VNYjCQ",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10026\\/_PZLvEPxRnZPWXhSmyWSoTbF8gA",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAE6EE696B8AABBjnpmoSw",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/cb0ce2d6-89ff-42d6-9d75-b0bda006a082-5ef40ff2-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/168c0525-1d59-4c02-b4a2-9ca8fe54ffdb-5ef410b2-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10026\\/K6d3Ts5HSWNddjCZkfWJBDbF8gA",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10009\\/b3468e05-a42b-43c9-82ba-2646fbefef10",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10051\\/UPca1c6b43-b68f-11ea-b5ef-0a1cecf05191",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10009\\/8972bbfd-629f-486e-812c-817763510c59",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10026\\/g-Z-i4-sSetBGL940vb-aDbF8gA",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAFhuU696CcAABAyE6DEdw",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10009\\/1dab69b4-9415-4d75-945a-b4a32b7af375",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/45d668f4-e920-400c-9181-03eb61b73ee1-5ef4140c-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/9ed1f588-5a0f-4605-81c8-afc1a7b5dfdf-5ef41468-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAI-8k696CsAAA_qz6XXlw",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/505a9db7-0319-4552-9be8-f1090235fb95-5ef417a2-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAIUYU696DAAAA_hfasd9Q",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/e8875e2c-293a-4513-a3d9-832bbc61467b-5ef41855-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/c57b294c-9a44-41dd-b568-d618b5079807-5ef4196d-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10051\\/UPac282045-b693-11ea-9c9c-0a4303ac3cc9",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/63d548a9-0796-4af0-9864-b58af0a67743-5ef41aca-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10051\\/UPb4cb5249-b694-11ea-b276-02b8ba06e30f",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10009\\/dd047e7d-2451-4566-a4eb-4ad0ff2e144c",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/8a2921d3-6176-456e-bdc6-014b28f32394-5ef41bae-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAIMO0696DgAABAunpmoSw",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10051\\/UP6952393d-b695-11ea-bff9-0a81bc0f8f6b",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/8dbffb4f-7f79-46a8-a651-933674ec7b3c-5ef41ca2-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10051\\/UPa388438a-b695-11ea-81d4-0ead531ac427",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/1e23bd98-a876-474a-bc31-c7de8aec13d3-5ef41ca8-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAIU5k696DkAABAottJpyg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/80f328cf-65ed-4747-ab8c-0c70fd9911b6-5ef41ca5-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10026\\/eYz0kbrVShtvbRXnfwVyMDbF8gA",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10026\\/bEo1JnaPRZRneEkgp_CNyTbF8gA",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/134dc4da-003d-4d4c-b7a2-763e8ebef9b4-5ef41efe-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAHedU696D4AAA-5H6gs9Q",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10026\\/NSZ0O57ITC95vRTS8lE3fDbF8gA",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAFBAU696EQAABCVttJpyg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10009\\/5c764a55-5ce6-4203-97e7-72d3fa7a95d4",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/02010900-3277-488b-8623-9d66aeb0ac6b-5ef42250-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAGFYE696EUAAA_PttJpyg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/957fff4a-f597-4796-ba45-8c5e3b2e6675-5ef423bb-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10026\\/W3Wr6Am8QF1L5kOXhT3ppzbF8gA",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/97656c50-5002-4964-866c-895c2cd37677-5ef423cb-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAIShE696EkAAA9vH6gs9Q",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10009\\/4e50564a-61d0-4826-8723-1a76793065ba",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/5952752b-22b3-4834-bae5-d774a6db972e-5ef42672-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAOCJ0696E4AABApfasd9Q",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/0134daf8-0ab9-499e-8946-1d713db4b67b-5ef42701-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10026\\/9jJibZwvSrJSc5EhSGdkqTbF8gA",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/ef374bad-3934-480c-bd28-60a5e7313793-5ef42754-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10026\\/Q-hsfecAR3ZQkbMSLISK3zbF8gA",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10009\\/87dce552-07ab-4dbd-82f9-e9e2e39b9b2d",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAHa3E696FEAAA-9fasd9Q",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/8d39541c-3ce2-42f7-afab-c7f552313f25-5ef429c5-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10051\\/UP63f06137-b69d-11ea-87df-0a93b0f979ab",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10026\\/BJGquBNjROFHRagXOkIYizbF8gA",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/b0de927a-4c5a-4830-9629-fc113bfc20fb-5ef429d6-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10051\\/UP720e1ec5-b69d-11ea-b666-0e1155600f89",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10009\\/374a6d14-ba45-4823-ae18-a0763291593c",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10051\\/UP0afef3c0-b69e-11ea-87df-0a93b0f979ab",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/9ac1dd49-44dd-4fb3-961b-5415fe82fe73-5ef42d5d-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10026\\/-1sFW59kR3lgCMTvwYc6YDbF8gA",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/9f7d4e86-fd79-494f-a883-c642020db5ac-5ef42d62-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10026\\/nRQ8tEAeTChmZsdQ54jf3DbF8gA",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10025\\/AAK_AE696FsAAA-dGWWyQA",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/0484584c-7a3f-4948-9cd7-75833d3ca13e-5ef42dc3-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10051\\/UPc785c737-b69f-11ea-87df-0a93b0f979ab",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10026\\/b0AEUw8tSv1xTWZHRC1ZnDbF8gA",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/s\\/10001\\/06db7291-c64d-458c-8cc4-ff887406527e-5ef42e88-5553",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "districtm\\.io\\/prod\\/101918\\/ron\\.torstar\\.js",
+            "cookies": 0.0000958,
+            "fingerprinting": 1,
+            "subdomains": [
+                "hb"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 7,
+                "Document.cookie setter": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 7
+            },
             "sites": 7,
-            "prevalence": 0.000142
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10009\\/afbb44f4-2138-4151-b47f-32b31a4f80d4",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10001\\/c5f27117-7cf4-4334-9a91-f6d6f724d7bb-5ef43205-5553",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10025\\/AAFUVk686tMAABQKLZ7ndg",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10051\\/UP5295afa8-b6a2-11ea-8fa1-02edca4cd587",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10009\\/3f1cd399-b00f-4913-b794-9e3abec0f363",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10025\\/AAHYp0696GQAAA_9E6DEdw",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10001\\/607effe0-5fd3-41b1-819e-d446994f76ff-5e752400-5553",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10009\\/7ba90c98-87b3-4f8f-8b8d-d1ad9e9922eb",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10027\\/gAQCk357U3MjvujyUZqv",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10051\\/UP96c31322-b6a4-11ea-9866-024143e44063",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10026\\/MBbXqiJ6SkVS63FoSccYDDbQZDY",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10026\\/aUtAQOIOSC1TbK42UjlsoTbF8gA",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10025\\/AAAJGU686kgAABPTlKiq-Q",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10001\\/4ef98e78-441b-4579-bc5f-4986cac5bccb-5ef43644-5553",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10009\\/3e0ad0c3-d197-49e8-a9a0-d18612c6f657",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10009\\/a1f44b9c-d5e4-4bb0-8cf9-97151fe19ebf",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10026\\/KXNGg8fHSnFDNetGtanviTbQZDY",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10001\\/395fe763-f08b-4a49-806b-a6ef81688f0a-5ef436b9-5553",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10026\\/W4D5WPq0S2lB4fr3-Y2CTzbQZDY",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10025\\/AAHHLE696G4AAA99E6DEdw",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10027\\/iqr5hGjLVA14jfYslhXo",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10001\\/426cc1f6-f0d8-4769-a11b-5f5dae3f6a26-5ef43734-5553",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10025\\/AAGrOk686toAABAiV-iHZw",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10026\\/J68p4PmMRT9j4QxcyfBqDTbF8gA",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10001\\/ddf9941f-3360-4f56-a811-a4aabe21e736-5e756d02-5553",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10051\\/UP653e44cc-b6a5-11ea-b666-0e1155600f89",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10027\\/ZzvF0Ng3AjehEFTqd1mA",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10026\\/-72R9oNaTE5tuLaL8M68ZzbF8gA",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10009\\/3de96026-c7e6-4d55-a93b-9655763596f8",
-            "cookies": 0.0000203,
+            "rule": "districtm\\.io\\/s\\/10025\\/AALPo0696HIAAA_TGWWyQA",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10001\\/3b832772-8cef-42e4-bfcd-5898f6115516-5e7523cc-5553",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10001\\/bc52f0e9-0a88-4fc6-856d-c1285fa9de27-5ef4391c-5553",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10027\\/0cSZihs0jGiykKb4bAhp",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10051\\/UP8fecf9a3-b6a6-11ea-b666-0e1155600f89",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10009\\/33a6523a-732e-4342-9482-c071de1f0f43",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10009\\/0439d390-5b37-4897-bd97-e8de8f3e00af",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "districtm\\.io\\/s\\/10025\\/AAA5Jk686n4AABBQaG6LkA",
-            "cookies": 0.0000407,
+            "rule": "districtm\\.io\\/s\\/10025\\/AAL7EE696HkAABA1igGVzw",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dmx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/E65tGHU1F2609S5eENe9",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/zKaOkanjltdZmAPuu73G",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/X9aAaFp_S8Ry1ClA8DCrNDbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/858ae4af-45eb-42d0-8d3a-b8b6c03463fb-5e7530d8-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10025\\/AAKBuk686mIAAA_JgBEjQg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/7e54d870-dd63-4292-8efa-ace88635126f",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/b\\/v1\\/",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dev.dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/5753d164-b934-446f-9a1a-9bd2734f92f2-5e752ae5-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/o53eq6ke9MDsX9UuOlIr",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10025\\/AAEJl0686lYAABQfjnt9zg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/15d8fac4-c59a-47b5-8c74-1c5a4de05b1b",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10025\\/AAA0Mk686ncAAC0zq-oEpA",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/nOfyblCEfDaH3VF6jarU",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/v1QUYuZjQp9AahUnialydzbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/3df6f84f-bc54-4eb4-93a6-d154ad1bb239-5e754263-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/EsXXEELOFaIRZ0KwQcPn",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/aea4e197-a827-4872-9d7b-aca532827383-5e752e9c-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/Kx5iWbIQABHAivovSnWa",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10025\\/AAAnQU686l0AABAx0za7GA",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/919c75f6-0238-4713-b532-693b6748fbac",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10025\\/AABd8U686psAABVcPG_onw",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/1b7f4fa2-75b3-4661-a4e2-771d0d49c510-5e754d83-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/sSylvfh3CMyutFgOcat6",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/FEfTVMPxwxSR0O1bl4ET",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10025\\/AABjck686tsAAA-Zx9_pTQ",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/5BKsRjtPRqJDVA2ZVsd8EjbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/9b3a6edc-82d4-48af-8c8f-7b51e1fac774",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/fe205ab0-3398-42ba-8dd8-d186ee67c746-5e752fda-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/f0y4tAOKQu9kYSsVFViPezbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/mQQSX8AZmxyz6ZQ82u8g",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/QVbtCS-ORBJEv78LjBfBGDbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/UrKd05uVSlpmWqGpcxITPzbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/78260339-0db0-4985-b9b7-d64d8a6e73e3-5e752361-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/3ae16662-5821-4be2-95e9-4a946adaf287",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/b897493e-86ca-403a-8371-367ec4fc8fd6-5e754a7e-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/96b26768-13f1-4dca-932b-78be767b901a-5e752468-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10025\\/AAGhKU686kkAAA-LCA9nPw",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/c8aafb78-ab11-439a-885e-f529e065a42e",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/0C3d0fa6jHoBNMW2flnk",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/20765b96-4521-4c9e-808c-9a2b2d522c64-5e755929-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10025\\/AAB_Hk686rIAABBex9_pTQ",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/44d715cd-1ca2-4d12-9a76-55d6f00047c0-5e75591b-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/4bd50a30-0eeb-4c9f-949b-2ed80ebd63ac",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/u5fZGB29RIJyecK0SZjOmDbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/cc2e36d6-4aa9-4f36-9455-4ed1b94ad845-5e75386a-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/c33cf41f-1a77-4bc2-b9a2-a3a16f507c61-5e75267e-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/dnFuj3nCTpoDZozeQ5vY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/13e48668-f02e-4e13-8cd4-ac41bddf7426-5e7543a3-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/fcbbbf75-8896-4305-9ae4-0b2b7468ad4a",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/LVvuE8uaQdpLITiGFowSHjbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/1b004910-8918-4a66-b452-1e007b9d956a-5e7547f2-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/XRfDSozHAnQBv3ijPavy",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10025\\/AACe4E686rkAABe02IoKkg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/uL3Jw8VkYx2zzBmUb0BF",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/dDVPKoU9ZIUM613mHu1R",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/898c62e3-fcad-4da4-9f5a-b1f10fe57b31",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/UptCHm314YV75BFfHdk9",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/rMSeTn8YR7BdVdRZySgbYjbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/a1ebd9a2-76c3-46f2-bd5c-ad957c174fcb-5e753149-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10025\\/AAClIU686mMAAA_eL7xbrA",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/1f5adbde-e4ce-4143-83fc-f5f57a8ff056",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/5a2160cd-ec75-4929-87a0-237be619c70e-5e7529ab-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/qlWPBUOCQKJMvHA4yj0VADbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/TARRuabCICu9Qc5GJJpE",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10025\\/AAJqDE686lMAABA4Wh4r4A",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/00c233ca-88e6-491f-b7b3-7482740fdde9",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/27051feb-58f5-4c36-9490-f23ad48f5396-5e752d6d-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/pJ6XCMBmQeFlpKjBTrS-JzbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/5c23f306-6bf0-4323-846a-3e5f5a221f61-5e752827-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/D_sRGiM_Sxlig8qHIvTvNDbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/15uI05wiXqRUxVKpyvye",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/sFAsJ57MQJJ8GR60BgGwGDbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/boOQ0fHqf5c1E9ATL1U2",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10025\\/AAAtc0686lIAABCQAeUY2w",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/58144a56-7663-4363-b318-90a78ebb6942-5e75532c-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10025\\/AAEYHk686qYAABUVVKOaJg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/6241ef7d-6d17-460f-a899-828c4bbe103d",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/ff7afd53-0dd3-40e7-8b21-712d4a4d3e80-5e753085-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/Q7fKFMi2NGeYUDFG3UOY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/0657dd6d-3626-45fb-b4de-751103ef32c6-5e756b92-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/MMk-bQznTzJR7w9gyBGoKTbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/uzz0ZPTugtohEj5VwmDM",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10025\\/AAEHzE686mMAABBcKjiKkg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/23cb862c-0b8e-45cc-89ca-e8f0000b03d0",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/8ad5b79e-9d24-42de-aa61-87586a1e44d3",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10025\\/AAD4jE686qUAABAGV-iHZw",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/ufIhuwumQ1FFGOAe5wswQjbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/XS3GUMZeQFhzIEK_ZVStkjbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10025\\/AACQqk686n4AAA9fedE9gw",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/6607c8a6-4b72-409f-9d6c-4b67a66393b6-5e753ed4-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/ppJ2b3zXSGxK_LUd2TTx4jbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/cfcfb101-6f5d-4bb6-a68c-b8bcfbbef111-5e753296-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/au3mI4zcRqPmif1Y8Qov",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/316e018e-f4c9-444c-a3ca-cb4ad165b43a",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/qlFfdQ0J47WZGjxHYjRe",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/tcTLd8iMRtZFHFf8AdLoCzbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/7a589085-414e-4ec5-9dee-d70d5b746392",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/77e99c1f-8836-462f-8476-b9047734a885-5e756ca2-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/Pn9fgWlpWaNlWxz6zauY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/c0bacb93-866b-477a-8036-59b248d9a45e",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/c5e1cd92-93a2-4481-9f03-9b4f97ab9e22-5e755a75-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/CEOH7z5bjHb7NFoP9Yrc",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10025\\/AAC5dk686rUAABBGpltX-g",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/b19aaeaa-2738-440d-b955-1b9eb3bf672d",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/33ba87e0-d3f2-458f-b161-aaee0e0818b5-5e7552b1-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10025\\/AABgf0686qUAABds2IoKkg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/B6MH5ReFT3RQOs_ib06SyzbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/0hbHz20SI8EEYuaR4BId",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/46450b89-ed90-4dff-b878-89842a768c3c",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/6c2b3b00-ec42-4beb-9b7a-5e5a9feb10c9",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/c8f17952-6ce8-4cf3-9c73-c6741eee807b-5e752af2-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10025\\/AAEkhU686lYAABR5jnt9zg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/f6753d2b-50f3-4f91-858a-1ce050b3f35a",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/01faa835-83bf-4450-8e80-39285edf7365-5e754d64-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/o6wEFioVR4NOsXlQchTESDbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/Sj6H2XV161eWKv5satiw",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/529b3896-3e4a-4841-88b8-bb2165b0c148-5e754036-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/buNER4L0RhtFzYUNEqSgKTbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/Om3ZMBMFYM37IssF63ZG",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/32f2532a-33f8-4cc2-9146-472d3cfa7d83-5e756c6d-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/puLir29paIhFMoIRReYz",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/5c3abe35-f1f5-4c14-bdef-0e0f7b97dd29",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/e2LorBvFSF9CU8a-FSisdDbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10025\\/AAByMU686l8AABCI6cSe0Q",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/7c1bcb76-cf2f-493d-a64f-c1bf37b0896d-5e752fa2-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/HWDYpMVjTVxSItkMGn4PnTbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/c0ebd86b-63e2-4914-b535-480924e62180",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10025\\/AADmNU686qYAABQ5VKOaJg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/sho0Rcks28NS0NDWX2vH",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/d47de8d0-6668-446b-a960-7b6a3b62ea94-5e754322-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/aca78d13-6f61-48e2-9def-d2e95abcc133",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/1KuGPfa8RI5d2eI6pfb-yjbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/mJP1QATUJJTqUGtHoOVJ",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/37b20de2-31e8-4ca9-bd40-f069f916ab96-5e753b78-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/uY1O2DrpzmoTJm1YYUBq",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/5f40d3cd-8d1e-4ff3-b961-189f8e829a52-5e756372-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/3skz9LnbSHtLVRnr7qgsWzbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/E4mNgoocFc8BwpbrwXGZ",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/303b57f4-ffdb-4e04-b28d-fe2973afad1b",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10026\\/BjmyYpRPRVNEXZoVkSQHuDbQZDY",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10025\\/AAEdG0686lkAABBVVNYjCQ",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10001\\/1bccea30-3bb0-4402-b6b9-64a8e758e6e2-5e752c78-5553",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10027\\/ns2pTVc0lQe5TOvw9Ncp",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "districtm\\.io\\/s\\/10009\\/3e076cc5-0ffa-43de-be99-021a2c8a5911",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmx"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -2111,5 +1917,11 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.0693
+    "cookies": 0.0638,
+    "types": {
+        "Document": 4770,
+        "Script": 4446,
+        "XHR": 7360,
+        "Image": 1424
+    }
 }

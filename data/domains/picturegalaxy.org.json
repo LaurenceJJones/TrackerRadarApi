@@ -4,559 +4,583 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
+    "prevalence": 0.0000274,
     "sites": 2,
     "subdomains": [
         "img"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/5\\/m\\/5mR5hcdMyU\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/R\\/C\\/RCFb3HNFxX\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/G\\/J\\/GJTMIhJg4h\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/G\\/H\\/GHe6KfelQl\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/2\\/8\\/28i1CVt43E\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/M\\/Z\\/MZTegw5v60\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/7\\/X\\/7X37IGtIQo\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/c\\/7\\/c7ynnmPa0e\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/Q\\/M\\/QMqWVybgP6\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/C\\/6\\/C6E74QcQfM\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/K\\/j\\/KjMVIpsXu0\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/O\\/9\\/O9uhooRR2W\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/i\\/J\\/iJdBcZoXBZ\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/w\\/J\\/wJGeXlSfdE\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/B\\/V\\/BVeAtjBv7m\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/H\\/S\\/HSrYUV4xIT\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/j\\/A\\/jAhJcbkNlv\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/7\\/K\\/7KA22dUOcm\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/9\\/S\\/9SdHmhol0k\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/L\\/6\\/L6nXq4wYuB\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/E\\/S\\/ESyHYw7JMP\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/e\\/W\\/eW2HyFRphP\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/B\\/n\\/Bnpq6Xr74B\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/v\\/L\\/vLgX4jIB25\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/F\\/Q\\/FQTZd0epY1\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/U\\/1\\/U1YlnVBroj\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/9\\/L\\/9L0eOTLl2M\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/1\\/z\\/1zKIDhfToK\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/x\\/H\\/xHqxZs2bZe\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/N\\/O\\/NOhE4s8JWM\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/O\\/Q\\/OQBzMoq4nc\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/B\\/b\\/Bbc9Pu7GG3\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/p\\/V\\/pVT5a8i4H0\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/z\\/L\\/zLGdYNndQU\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/3\\/K\\/3KZxaFsDbp\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/l\\/M\\/lM23ohQG41\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/Q\\/2\\/Q2r2FlFCXM\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/M\\/7\\/M7NB90hSst\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/0\\/7\\/07iNJDwP68\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/J\\/J\\/JJqHMjVq0g\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/P\\/X\\/PXn3F9yKjJ\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/4\\/5\\/45fdijBn64\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/3\\/q\\/3qnNo0raqg\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/1\\/u\\/1uk6SmLBnf\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/U\\/J\\/UJpqmCdT7R\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/b\\/h\\/bhuK4M5yBO\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/P\\/P\\/PPsQ4jTlIx\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/D\\/L\\/DL2rKFOk0G\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/d\\/t\\/dtabp751EN\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/D\\/P\\/DPjA1CYvZH\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/i\\/q\\/iquvjjMRl8\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/I\\/E\\/IE7PmWPH1y\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/p\\/k\\/pkKZ5aEU5s\\.gif",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/D\\/K\\/DKxHxxaY9Y\\.png",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/O\\/A\\/OAf2rBQC80\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/static\\/noposter\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/e\\/P\\/ePW3dVwhLb\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/2\\/I\\/2IcPopPeMx\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/O\\/H\\/OHuDVMLF5R\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/t\\/q\\/tqphjCMVdd\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/e\\/Q\\/eQzD61opmR\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/2\\/o\\/2o251sMGTv\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/R\\/x\\/RxJRIbrcVj\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/5\\/J\\/5JaF52hPVs\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/n\\/c\\/ncWU7bDsZn\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/Q\\/w\\/Qw758YJZiL\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/Y\\/s\\/YsvuzXLGoX\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/1\\/j\\/1jp65n1wp1\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/w\\/v\\/wvjzAFVuq5\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/L\\/y\\/Lyy3Ac5Yew\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/C\\/U\\/CU6Iy8LBnT\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/8\\/7\\/87eX9kdVdf\\.png",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/5\\/5\\/55BlhjdNtv\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/l\\/g\\/lgc92TNoqP\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/I\\/W\\/IW4Nbkdszn\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/3\\/V\\/3VVfzJqLvm\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/1\\/p\\/1poMHK68Ai\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/7\\/6\\/76nbn7aV2W\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/5\\/h\\/5hFGzJeOSa\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/L\\/d\\/LdjVfZatV3\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/N\\/k\\/NkC3m55i8Q\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/R\\/E\\/RENsdAQbZp\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/O\\/y\\/OyLX0rKQ5s\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/a\\/J\\/aJfQGf2i6e\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/K\\/u\\/KuMqs8sl3d\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/y\\/2\\/y2NlqUYa3P\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/M\\/8\\/M81Sb6R86P\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/U\\/3\\/U3M720DjHM\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/o\\/R\\/oRVEmlxJ2G\\.png",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/8\\/Y\\/8YLeB6tyNt\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/q\\/6\\/q6ib9N05F2\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/q\\/Y\\/qYcmeRmXst\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/p\\/r\\/prZu5QRmA1\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "picturegalaxy\\.org\\/data\\/cover\\/G\\/3\\/G3dubg5oFW\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "img"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/imdb\\/g\\/O\\/gOIpikL4Ne\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "img"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "picturegalaxy\\.org\\/data\\/cover\\/Z\\/O\\/ZO0Ub2F73o\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "img"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 3
-    },
-    "cookies": 0.0000407
+    "performance": {},
+    "cookies": 0.0000274,
+    "types": {
+        "Image": 94
+    }
 }

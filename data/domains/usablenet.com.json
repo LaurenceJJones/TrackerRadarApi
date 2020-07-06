@@ -4,33 +4,44 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00059,
-    "sites": 29,
+    "prevalence": 0.000616,
+    "sites": 45,
     "subdomains": [
-        "1800flowers",
         "americaneagle",
-        "belk",
         "containerstore",
+        "eyebuydirect",
+        "bodybuilding",
         "vestiairecollective",
         "simplisafe",
         "afw",
+        "anastasiabeverlyhills",
         "bannerhealth",
+        "1800flowers",
+        "bjs",
         "captainds",
-        "eyebuydirect",
+        "churchschicken",
+        "chubb",
+        "conns",
         "flooranddecor",
+        "footjoy",
         "forever21",
         "framesdirect",
+        "transworldentertainment",
         "georgiatech",
         "woodstream",
         "lovesac",
         "nordicnaturals",
         "renttherunway",
-        "roadrunnersports",
+        "swarovski",
         "titleist",
         "touchofmodern",
+        "vokey",
+        "wagamama",
+        "kendrascott",
         "loandepot",
         "sonicdrivein"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -38,47 +49,59 @@
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "1800flowers",
                 "americaneagle",
-                "belk",
                 "containerstore",
+                "eyebuydirect",
+                "bodybuilding",
                 "vestiairecollective",
                 "simplisafe",
                 "afw",
+                "anastasiabeverlyhills",
                 "bannerhealth",
+                "1800flowers",
+                "bjs",
                 "captainds",
-                "eyebuydirect",
+                "churchschicken",
+                "chubb",
+                "conns",
                 "flooranddecor",
+                "footjoy",
                 "forever21",
                 "framesdirect",
+                "transworldentertainment",
                 "georgiatech",
                 "woodstream",
                 "lovesac",
                 "nordicnaturals",
                 "renttherunway",
-                "roadrunnersports",
+                "swarovski",
                 "titleist",
-                "touchofmodern"
+                "touchofmodern",
+                "vokey",
+                "wagamama"
             ],
             "apis": {
-                "window.localStorage": 27
+                "window.localStorage": 41
             },
-            "sites": 27,
-            "prevalence": 0.000549
+            "sites": 41,
+            "prevalence": 0.000561,
+            "cnames": []
         },
         {
             "rule": "usablenet\\.com\\/pt\\/activator",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
+                "kendrascott",
                 "loandepot",
                 "sonicdrivein"
             ],
             "apis": {
-                "window.localStorage": 2
+                "window.localStorage": 3
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -88,5 +111,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Document": 44
+    }
 }

@@ -7,25 +7,27 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00181,
-    "sites": 89,
+    "prevalence": 0.00175,
+    "sites": 128,
     "subdomains": [
         "api",
         "www"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "getdrip\\.com\\/client\\/events\\/visit",
-            "cookies": 0.000712,
+            "cookies": 0.000547,
             "fingerprinting": 0,
             "subdomains": [
                 "api",
                 "www"
             ],
             "apis": {},
-            "sites": 80,
-            "prevalence": 0.00163
+            "sites": 106,
+            "prevalence": 0.00145,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -35,5 +37,8 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.000997
+    "cookies": 0.000971,
+    "types": {
+        "Script": 106
+    }
 }

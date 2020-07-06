@@ -9,78 +9,85 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0105,
-    "sites": 516,
+    "prevalence": 0.00598,
+    "sites": 437,
     "subdomains": [
         "dmp"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "truoptik\\.com\\/f2d2e39fc16bc9cc\\/sync\\.gif",
-            "cookies": 0.00327,
+            "cookies": 0.00294,
             "fingerprinting": 0,
             "subdomains": [
                 "dmp"
             ],
             "apis": {},
-            "sites": 162,
-            "prevalence": 0.0033
-        },
-        {
-            "rule": "truoptik\\.com\\/3923b09f010b3783\\/sync\\.gif",
-            "cookies": 0.00155,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dmp"
-            ],
-            "apis": {},
-            "sites": 79,
-            "prevalence": 0.00161
+            "sites": 216,
+            "prevalence": 0.00296,
+            "cnames": []
         },
         {
             "rule": "truoptik\\.com\\/0362536315099b06\\/sync\\.gif",
-            "cookies": 0.00452,
+            "cookies": 0.00261,
             "fingerprinting": 0,
             "subdomains": [
                 "dmp"
             ],
             "apis": {},
-            "sites": 222,
-            "prevalence": 0.00452
+            "sites": 192,
+            "prevalence": 0.00263,
+            "cnames": []
         },
         {
             "rule": "truoptik\\.com\\/8bf33fe57526aec8\\/sync\\.gif",
-            "cookies": 0.00104,
+            "cookies": 0.000315,
             "fingerprinting": 0,
             "subdomains": [
                 "dmp"
             ],
             "apis": {},
-            "sites": 51,
-            "prevalence": 0.00104
+            "sites": 25,
+            "prevalence": 0.000342,
+            "cnames": []
         },
         {
             "rule": "truoptik\\.com\\/51a1fcd65d2f7390\\/sync\\.gif",
-            "cookies": 0.000468,
+            "cookies": 0.000151,
             "fingerprinting": 0,
             "subdomains": [
                 "dmp"
             ],
             "apis": {},
-            "sites": 23,
-            "prevalence": 0.000468
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
+        },
+        {
+            "rule": "truoptik\\.com\\/3923b09f010b3783\\/sync\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "truoptik\\.com\\/sc",
-            "cookies": 0.000102,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "dmp"
             ],
             "apis": {},
             "sites": 5,
-            "prevalence": 0.000102
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [
@@ -96,5 +103,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0104
+    "cookies": 0.00592,
+    "types": {
+        "Image": 452
+    }
 }

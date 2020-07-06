@@ -7,48 +7,28 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000651,
-    "sites": 32,
+    "prevalence": 0.000739,
+    "sites": 54,
     "subdomains": [
-        "cdn",
         "sp",
-        "adn-j.sp",
-        "minerva-deliver.sp"
+        "cdn",
+        "minerva-deliver.sp",
+        "adn-j.sp"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "gmossp-sp\\.jp\\/ads\\/loader\\.js",
-            "cookies": 0.0000814,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
-                "window.localStorage": 4,
-                "Date.prototype.getTime": 4,
-                "Document.cookie getter": 4,
-                "Document.cookie setter": 4,
-                "Navigator.prototype.userAgent": 4,
-                "Navigator.prototype.appVersion": 3,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Navigator.prototype.platform": 2,
-                "window.sessionStorage": 1
-            },
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "gmossp-sp\\.jp\\/ads\\/ssp\\.ad",
-            "cookies": 0.000102,
+            "rule": "gmossp-sp\\.jp\\/ads\\/sync\\.ad",
+            "cookies": 0.000575,
             "fingerprinting": 0,
             "subdomains": [
                 "sp"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 46,
+            "prevalence": 0.000629,
+            "cnames": []
         },
         {
             "rule": "gmossp-sp\\.jp\\/ads\\/sync\\.html",
@@ -58,62 +38,72 @@
                 "sp"
             ],
             "apis": {
-                "Navigator.prototype.cookieEnabled": 4,
-                "Navigator.prototype.userAgent": 4,
-                "Date.prototype.getTime": 5
+                "Navigator.prototype.cookieEnabled": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Date.prototype.getTime": 9
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         },
         {
-            "rule": "gmossp-sp\\.jp\\/ads\\/sync\\.ad",
-            "cookies": 0.000488,
+            "rule": "gmossp-sp\\.jp\\/ads\\/ssp\\.ad",
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [
                 "sp"
             ],
             "apis": {},
-            "sites": 25,
-            "prevalence": 0.000509
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "gmossp-sp\\.jp\\/js\\/csync\\.html",
-            "cookies": 0.0000407,
+            "rule": "gmossp-sp\\.jp\\/ads\\/loader\\.js",
+            "cookies": 0.0000547,
             "fingerprinting": 1,
             "subdomains": [
-                "adn-j.sp"
+                "cdn"
             ],
             "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.cookieEnabled": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Document.cookie getter": 2,
-                "Document.cookie setter": 2
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.appVersion": 7,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "window.localStorage": 6,
+                "Navigator.prototype.platform": 6,
+                "Document.cookie getter": 5,
+                "window.sessionStorage": 3,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
             "rule": "gmossp-sp\\.jp\\/tags\\/",
-            "cookies": 0.000061,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "minerva-deliver.sp"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "gmossp-sp\\.jp\\/segs\\/",
-            "cookies": 0.0000407,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "minerva-deliver.sp"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "gmossp-sp\\.jp\\/js\\/ta\\.html",
@@ -126,7 +116,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -136,5 +127,10 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00061
+    "cookies": 0.000684,
+    "types": {
+        "Image": 46,
+        "Document": 11,
+        "Script": 24
+    }
 }

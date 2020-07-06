@@ -7,11 +7,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000203,
+    "prevalence": 0.0000137,
     "sites": 1,
     "subdomains": [
         "www"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -25,10 +26,14 @@
                 "Date.prototype.getTime": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Document": 2
+    }
 }

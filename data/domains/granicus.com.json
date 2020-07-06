@@ -7,30 +7,46 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
-    "sites": 5,
+    "prevalence": 0.0000958,
+    "sites": 7,
     "subdomains": [
-        "dekalbcountyga",
         "phoenix",
+        "dekalbcountyga",
         "denver"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "granicus\\.com\\/MediaPlayer\\.php",
-            "cookies": 0.0000203,
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
-                "dekalbcountyga",
-                "phoenix"
+                "phoenix",
+                "dekalbcountyga"
             ],
             "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "granicus\\.com\\/livestreams\\/2\\/player",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "phoenix"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "granicus\\.com\\/player\\/camera\\/2",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "denver"
@@ -39,15 +55,14 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 3
-    },
-    "cookies": 0.0000407
+    "performance": {},
+    "cookies": 0.0000274,
+    "types": {
+        "Document": 7
+    }
 }

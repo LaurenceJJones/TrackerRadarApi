@@ -9,53 +9,48 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000139,
-    "sites": 6,
+    "prevalence": 0.000137,
+    "sites": 10,
     "subdomains": [
         "payments"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "amazon\\.co\\.uk\\/gp\\/widgets\\/sessionstabilizer",
-            "cookies": 0.0000462,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "payments"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000462
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "amazon\\.co\\.uk\\/cs\\/uedata",
-            "cookies": 0.000116,
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [
                 "payments"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000116
-        },
-        {
-            "rule": "amazon\\.co\\.uk\\/abTestV2",
-            "cookies": 0.0000462,
-            "fingerprinting": 0,
-            "subdomains": [
-                "payments"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000462
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000116
+    "cookies": 0.000123,
+    "types": {
+        "XHR": 12
+    }
 }

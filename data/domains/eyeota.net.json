@@ -9,89 +9,109 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0583,
-    "sites": 2868,
+    "prevalence": 0.0416,
+    "sites": 3037,
     "subdomains": [
         "ps"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "eyeota\\.net\\/pixel",
-            "cookies": 0.0286,
+            "cookies": 0.024,
             "fingerprinting": 0,
             "subdomains": [
                 "ps"
             ],
             "apis": {},
-            "sites": 1604,
-            "prevalence": 0.0326
+            "sites": 1765,
+            "prevalence": 0.0242,
+            "cnames": []
         },
         {
             "rule": "eyeota\\.net\\/pixel\\/bounce\\/",
-            "cookies": 0.0231,
+            "cookies": 0.0224,
             "fingerprinting": 0,
             "subdomains": [
                 "ps"
             ],
             "apis": {},
-            "sites": 1211,
-            "prevalence": 0.0246
+            "sites": 1657,
+            "prevalence": 0.0227,
+            "cnames": []
         },
         {
             "rule": "eyeota\\.net\\/match",
-            "cookies": 0.0381,
+            "cookies": 0.0312,
             "fingerprinting": 0,
             "subdomains": [
                 "ps"
             ],
             "apis": {},
-            "sites": 2093,
-            "prevalence": 0.0426
-        },
-        {
-            "rule": "eyeota\\.net\\/pixel",
-            "cookies": 0.00561,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ps"
-            ],
-            "apis": {},
-            "sites": 358,
-            "prevalence": 0.00728
+            "sites": 2298,
+            "prevalence": 0.0314,
+            "cnames": []
         },
         {
             "rule": "eyeota\\.net\\/match\\/bounce\\/",
-            "cookies": 0.0205,
+            "cookies": 0.0166,
             "fingerprinting": 0,
             "subdomains": [
                 "ps"
             ],
             "apis": {},
-            "sites": 1077,
-            "prevalence": 0.0219
-        },
-        {
-            "rule": "eyeota\\.net\\/pixel\\/bounce\\/",
-            "cookies": 0.00543,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ps"
-            ],
-            "apis": {},
-            "sites": 278,
-            "prevalence": 0.00565
+            "sites": 1213,
+            "prevalence": 0.0166,
+            "cnames": []
         },
         {
             "rule": "eyeota\\.net\\/pixel",
-            "cookies": 0.0000203,
+            "cookies": 0.00159,
             "fingerprinting": 0,
             "subdomains": [
                 "ps"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 132,
+            "prevalence": 0.00181,
+            "cnames": []
+        },
+        {
+            "rule": "eyeota\\.net\\/pixel\\/bounce\\/",
+            "cookies": 0.00144,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ps"
+            ],
+            "apis": {},
+            "sites": 106,
+            "prevalence": 0.00145,
+            "cnames": []
+        },
+        {
+            "rule": "eyeota\\.net\\/match",
+            "cookies": 0.0000684,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ps"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "eyeota\\.net\\/match\\/bounce\\/",
+            "cookies": 0.0000684,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ps"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [
@@ -104,8 +124,12 @@
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0517
+    "cookies": 0.0414,
+    "types": {
+        "Image": 6933,
+        "Script": 248
+    }
 }

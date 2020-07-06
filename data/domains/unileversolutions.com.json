@@ -4,16 +4,17 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000122,
-    "sites": 6,
+    "prevalence": 0.000109,
+    "sites": 8,
     "subdomains": [
         "asset-americas"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
             "rule": "unileversolutions\\.com\\/etc\\/ui\\/hellmannsv2\\/clientlibs\\/core\\/require\\/js\\/dependencies\\/cookies\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "asset-americas"
@@ -24,7 +25,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "unileversolutions\\.com\\/etc\\/ui\\/hellmannsv2\\/clientlibs\\/core\\/require\\/js\\/dependencies\\/require\\.js",
@@ -38,7 +40,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "unileversolutions\\.com\\/etc\\/ui\\/hellmannsv2\\/clientlibs\\/core\\/require\\/js\\/dependencies\\/jquery\\.js",
@@ -48,13 +51,14 @@
                 "asset-americas"
             ],
             "apis": {
-                "Element.prototype.getClientRects": 1
+                "Element.prototype.getClientRects": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "unileversolutions\\.com\\/etc\\/ui\\/hellmannsv2\\/clientlibs\\/core\\/require\\/js\\/dependencies\\/svg4everybody\\.min-4f923305ad86e7675b12399880286a61f6f7b194\\.js",
+            "rule": "unileversolutions\\.com\\/etc\\/ui\\/hellmannsv2\\/clientlibs\\/core\\/require\\/js\\/dependencies\\/svg4everybody\\.min-9782b6d6d4ee7a56b42451f889c425e69aee1ff9\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -64,10 +68,11 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "unileversolutions\\.com\\/etc\\/ui\\/hellmannsv2\\/clientlibs\\/core\\/require\\/js\\/iea-8bb7f67653b58c7311049548730999f22421cf1f\\.js",
+            "rule": "unileversolutions\\.com\\/etc\\/ui\\/hellmannsv2\\/clientlibs\\/core\\/require\\/js\\/iea-04759fb532a80080b67f29e06aefd6878ac76bf6\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -77,7 +82,8 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "unileversolutions\\.com\\/etc\\/ui\\/hellmannsv2\\/clientlibs\\/core\\/require\\/js\\/dependencies\\/enquire-5a35bb193650e45839c65a9b4c632ffcedcafed8\\.js",
@@ -90,10 +96,11 @@
                 "window.matchMedia(\"prefers-reduced-motion\")": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "unileversolutions\\.com\\/etc\\/ui\\/hellmannsv2\\/clientlibs\\/core\\/require\\/js\\/views\\/form-v2-dc4d36279d64eb1fa89ad66b68445392402be04f\\.js",
+            "rule": "unileversolutions\\.com\\/etc\\/ui\\/hellmannsv2\\/clientlibs\\/core\\/require\\/js\\/views\\/form-v2-80576486c70b12a3fff6a32c009720d36cbbf07b\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -103,10 +110,11 @@
                 "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "unileversolutions\\.com\\/etc\\/ui\\/hellmannsv2\\/clientlibs\\/core\\/require\\/js\\/dependencies\\/common-d715a9aef64e09d68aee9e82824fd5fd745d0d45\\.js",
+            "rule": "unileversolutions\\.com\\/etc\\/ui\\/hellmannsv2\\/clientlibs\\/core\\/require\\/js\\/dependencies\\/common-fdc2ce018472b507f416d2a4fce14365f9b92878\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -118,10 +126,11 @@
                 "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "unileversolutions\\.com\\/etc\\/ui\\/hellmannsv2\\/clientlibs\\/core\\/require\\/js\\/dependencies\\/form-719f361ac511a390c28bd74df1fb5ef602a7c1d3\\.js",
+            "rule": "unileversolutions\\.com\\/etc\\/ui\\/hellmannsv2\\/clientlibs\\/core\\/require\\/js\\/dependencies\\/form-d9fd4d23ccb68d7ffc78475d37fcdba7e0f1a07c\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -131,10 +140,11 @@
                 "Document.cookie getter": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "unileversolutions\\.com\\/etc\\/ui\\/hellmannsv2\\/clientlibs\\/core\\/require\\/js\\/dependencies\\/typeahead\\.jquery-c1702d610deba208379d3ecf0cfbe2c40d64c26b\\.js",
+            "rule": "unileversolutions\\.com\\/etc\\/ui\\/hellmannsv2\\/clientlibs\\/core\\/require\\/js\\/dependencies\\/typeahead\\.jquery-442224c5c80f81d6ab6e276a83e2538b52fda9c4\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -144,7 +154,8 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "unileversolutions\\.com\\/etc\\/ui\\/hellmannsv2\\/clientlibs\\/core\\/require\\/js\\/dependencies\\/lazysizes-9aceae4d99feb6962c8af2c6aec05317291fe3e6\\.js",
@@ -157,10 +168,11 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "unileversolutions\\.com\\/etc\\/ui\\/hellmannsv2\\/clientlibs\\/core\\/require\\/js\\/dependencies\\/personalisation-e39485a195ab5c94fcaa14f23ae6ce70c93e83fe\\.js",
+            "rule": "unileversolutions\\.com\\/etc\\/ui\\/hellmannsv2\\/clientlibs\\/core\\/require\\/js\\/dependencies\\/personalisation-ba3ad8b4199f3a4b541a45d7c0ed7c05ec8f6c66\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -171,10 +183,11 @@
                 "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "unileversolutions\\.com\\/etc\\/ui\\/hellmannsv2\\/clientlibs\\/core\\/require\\/js\\/dependencies\\/jquery\\.magnific-popup\\.min-83ee64f00835b1efc1d3442c589c3dc3f5f03064\\.js",
+            "rule": "unileversolutions\\.com\\/etc\\/ui\\/hellmannsv2\\/clientlibs\\/core\\/require\\/js\\/dependencies\\/jquery\\.magnific-popup\\.min-10b43b3217892beb304689b12e97d2a303262738\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -185,15 +198,19 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 2,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.0000407
+    "cookies": 0.000041,
+    "types": {
+        "Script": 26
+    }
 }

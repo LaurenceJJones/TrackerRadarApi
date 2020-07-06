@@ -4,23 +4,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000694,
-    "sites": 3,
+    "prevalence": 0.000109,
+    "sites": 8,
     "subdomains": [
         "api-prod"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "retentionrock\\.com\\/utility\\/location",
-            "cookies": 0.0000462,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "api-prod"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000462
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -30,5 +32,8 @@
         "cpu": 0,
         "cache": 0
     },
-    "cookies": 0.0000694
+    "cookies": 0.000109,
+    "types": {
+        "Fetch": 2
+    }
 }

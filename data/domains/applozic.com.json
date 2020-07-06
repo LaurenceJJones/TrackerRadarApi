@@ -4,26 +4,27 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000061,
+    "prevalence": 0.000041,
     "sites": 3,
     "subdomains": [
         "cdn"
     ],
-    "fingerprinting": 2,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
-            "rule": "applozic\\.com\\/applozic\\/applozic\\.chat-5\\.9\\.1\\.min\\.js",
+            "rule": "applozic\\.com\\/applozic\\/applozic\\.chat-6\\.1\\.min\\.js",
             "cookies": 0,
-            "fingerprinting": 2,
+            "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "window.sessionStorage": 3,
-                "Navigator.prototype.onLine": 2
+                "window.sessionStorage": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -31,7 +32,10 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 1
+        "cache": 0
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 3
+    }
 }

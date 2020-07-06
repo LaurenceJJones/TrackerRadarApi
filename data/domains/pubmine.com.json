@@ -9,151 +9,130 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000956,
-    "sites": 47,
+    "prevalence": 0.00122,
+    "sites": 89,
     "subdomains": [
         "s",
         "c0"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "pubmine\\.com\\/head\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {
-                "Document.cookie getter": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "pubmine\\.com\\/conf",
-            "cookies": 0.00061,
+            "rule": "pubmine\\.com\\/mhead\\.js",
+            "cookies": 0.000219,
             "fingerprinting": 0,
             "subdomains": [
                 "s"
             ],
             "apis": {},
-            "sites": 30,
-            "prevalence": 0.00061
+            "sites": 17,
+            "prevalence": 0.000233,
+            "cnames": []
         },
         {
-            "rule": "pubmine\\.com\\/2\\.6\\.01584004761084\\/ata\\.js",
-            "cookies": 0.000549,
+            "rule": "pubmine\\.com\\/conf",
+            "cookies": 0.000835,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 62,
+            "prevalence": 0.000848,
+            "cnames": []
+        },
+        {
+            "rule": "pubmine\\.com\\/2\\.14\\.01591698572968\\/ata\\.js",
+            "cookies": 0.000862,
             "fingerprinting": 1,
             "subdomains": [
                 "c0"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 22,
-                "Document.cookie getter": 27,
-                "Document.cookie setter": 27,
-                "HTMLMediaElement.prototype.canPlayType": 18,
-                "window.devicePixelRatio": 18,
-                "window.matchMedia(\"prefers-reduced-motion\")": 18,
-                "Navigator.prototype.cookieEnabled": 5,
-                "Navigator.prototype.plugins": 5
+                "Navigator.prototype.userAgent": 62,
+                "URL.createObjectURL": 61,
+                "Document.cookie getter": 63,
+                "Document.cookie setter": 63,
+                "HTMLMediaElement.prototype.canPlayType": 54
             },
-            "sites": 30,
-            "prevalence": 0.00061
+            "sites": 63,
+            "prevalence": 0.000862,
+            "cnames": []
         },
         {
-            "rule": "pubmine\\.com\\/match",
-            "cookies": 0.00059,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 29,
-            "prevalence": 0.00059
-        },
-        {
-            "rule": "pubmine\\.com\\/match",
-            "cookies": 0.000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 40,
-            "prevalence": 0.000814
-        },
-        {
-            "rule": "pubmine\\.com\\/mhead\\.js",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "pubmine\\.com\\/2\\.6\\.01584004761084\\/2\\.js",
+            "rule": "pubmine\\.com\\/2\\.14\\.01591698572968\\/2\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
                 "c0"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 24,
-                "Navigator.prototype.cookieEnabled": 24,
-                "window.sessionStorage": 24,
-                "Navigator.prototype.appName": 24,
-                "Date.prototype.getTime": 24,
-                "Document.cookie getter": 20,
-                "Screen.prototype.width": 16,
-                "window.localStorage": 11,
-                "Navigator.prototype.doNotTrack": 16,
-                "Navigator.prototype.language": 16,
-                "Date.prototype.getTimezoneOffset": 8,
-                "Screen.prototype.height": 15,
-                "Screen.prototype.colorDepth": 7
+                "Navigator.prototype.userAgent": 52,
+                "Navigator.prototype.cookieEnabled": 52,
+                "window.sessionStorage": 52,
+                "Navigator.prototype.appName": 52,
+                "Date.prototype.getTime": 52,
+                "Screen.prototype.width": 31,
+                "Screen.prototype.height": 29,
+                "Screen.prototype.colorDepth": 18,
+                "Date.prototype.getTimezoneOffset": 18,
+                "Navigator.prototype.doNotTrack": 28,
+                "Navigator.prototype.language": 28,
+                "Document.cookie getter": 6,
+                "window.localStorage": 20
             },
-            "sites": 24,
-            "prevalence": 0.000488
+            "sites": 53,
+            "prevalence": 0.000725,
+            "cnames": []
+        },
+        {
+            "rule": "pubmine\\.com\\/match",
+            "cookies": 0.000944,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 72,
+            "prevalence": 0.000985,
+            "cnames": []
         },
         {
             "rule": "pubmine\\.com\\/adjr",
-            "cookies": 0.000366,
+            "cookies": 0.000725,
             "fingerprinting": 0,
             "subdomains": [
                 "s"
             ],
             "apis": {},
-            "sites": 18,
-            "prevalence": 0.000366
+            "sites": 53,
+            "prevalence": 0.000725,
+            "cnames": []
         },
         {
-            "rule": "pubmine\\.com\\/sf\\/0\\.0\\.3\\/html\\/safeframe\\.html",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "rule": "pubmine\\.com\\/match",
+            "cookies": 0.000753,
+            "fingerprinting": 0,
             "subdomains": [
-                "c0"
+                "s"
             ],
-            "apis": {
-                "window.name": 5,
-                "Navigator.prototype.connection": 1
-            },
-            "sites": 5,
-            "prevalence": 0.000102
+            "apis": {},
+            "sites": 55,
+            "prevalence": 0.000753,
+            "cnames": []
         },
         {
             "rule": "pubmine\\.com\\/ul_cb\\/match",
-            "cookies": 0.000224,
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [
                 "s"
             ],
             "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -163,5 +142,11 @@
         "cpu": 1,
         "cache": 1
     },
-    "cookies": 0.000956
+    "cookies": 0.0012,
+    "types": {
+        "Script": 195,
+        "Image": 81,
+        "XHR": 53,
+        "Document": 55
+    }
 }

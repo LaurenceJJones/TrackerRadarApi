@@ -9,37 +9,24 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0905,
-    "sites": 4449,
+    "prevalence": 0.0936,
+    "sites": 6843,
     "subdomains": [
         "loadus",
-        "loadeu",
-        "loadr",
         "loadm",
+        "loadr",
+        "loadeu",
         "load",
         "cdn",
         "vdna",
         "mydmp"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "exelator\\.com\\/load\\/",
-            "cookies": 0.00747,
-            "fingerprinting": 0,
-            "subdomains": [
-                "loadus",
-                "loadeu",
-                "loadr",
-                "loadm"
-            ],
-            "apis": {},
-            "sites": 406,
-            "prevalence": 0.00826
-        },
-        {
-            "rule": "exelator\\.com\\/load\\/",
-            "cookies": 0.0841,
+            "cookies": 0.0897,
             "fingerprinting": 0,
             "subdomains": [
                 "loadus",
@@ -49,8 +36,37 @@
                 "load"
             ],
             "apis": {},
-            "sites": 4213,
-            "prevalence": 0.0857
+            "sites": 6618,
+            "prevalence": 0.0906,
+            "cnames": []
+        },
+        {
+            "rule": "exelator\\.com\\/load\\/",
+            "cookies": 0.00296,
+            "fingerprinting": 0,
+            "subdomains": [
+                "loadus",
+                "loadeu",
+                "loadr",
+                "loadm"
+            ],
+            "apis": {},
+            "sites": 330,
+            "prevalence": 0.00452,
+            "cnames": []
+        },
+        {
+            "rule": "exelator\\.com\\/load",
+            "cookies": 0.00216,
+            "fingerprinting": 0,
+            "subdomains": [
+                "loadm",
+                "loadus"
+            ],
+            "apis": {},
+            "sites": 160,
+            "prevalence": 0.00219,
+            "cnames": []
         },
         {
             "rule": "exelator\\.com\\/build\\/static\\.min\\.js",
@@ -60,57 +76,63 @@
                 "cdn"
             ],
             "apis": {
-                "Date.prototype.getTime": 131
+                "Date.prototype.getTime": 150,
+                "Navigator.prototype.userAgent": 141
             },
-            "sites": 173,
-            "prevalence": 0.00352
+            "sites": 217,
+            "prevalence": 0.00297,
+            "cnames": []
         },
         {
             "rule": "exelator\\.com\\/VdnaRequestServlet",
-            "cookies": 0.00238,
+            "cookies": 0.00133,
             "fingerprinting": 0,
             "subdomains": [
                 "vdna"
             ],
             "apis": {},
-            "sites": 123,
-            "prevalence": 0.0025
+            "sites": 107,
+            "prevalence": 0.00146,
+            "cnames": []
         },
         {
-            "rule": "exelator\\.com\\/load\\/",
-            "cookies": 0.00203,
+            "rule": "exelator\\.com\\/on-site-tag-load\\/",
+            "cookies": 0.0016,
             "fingerprinting": 0,
             "subdomains": [
                 "mydmp",
-                "loadeu",
-                "loadus"
+                "loadeu"
             ],
             "apis": {},
-            "sites": 138,
-            "prevalence": 0.00281
-        },
-        {
-            "rule": "exelator\\.com\\/load",
-            "cookies": 0.0069,
-            "fingerprinting": 0,
-            "subdomains": [
-                "loadm",
-                "loadus"
-            ],
-            "apis": {},
-            "sites": 353,
-            "prevalence": 0.00718
+            "sites": 147,
+            "prevalence": 0.00201,
+            "cnames": []
         },
         {
             "rule": "exelator\\.com\\/load\\/",
-            "cookies": 0.000203,
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
                 "loadm"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "exelator\\.com\\/load\\/",
+            "cookies": 0.0000958,
+            "fingerprinting": 0,
+            "subdomains": [
+                "loadr",
+                "mydmp",
+                "loadus"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
         }
     ],
     "categories": [
@@ -126,5 +148,11 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.0893
+    "cookies": 0.0925,
+    "types": {
+        "Image": 6885,
+        "Script": 547,
+        "XHR": 158,
+        "Document": 7
+    }
 }

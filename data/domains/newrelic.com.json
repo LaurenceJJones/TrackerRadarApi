@@ -9,26 +9,28 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0726,
-    "sites": 3568,
+    "prevalence": 0.0678,
+    "sites": 4956,
     "subdomains": [
         "js-agent"
     ],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 2,
     "resources": [
         {
-            "rule": "newrelic\\.com\\/nr-1167\\.min\\.js",
+            "rule": "newrelic\\.com\\/nr-spa-1169\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js-agent"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2607,
-                "PerformanceTiming.prototype.navigationStart": 2596
+                "Navigator.prototype.userAgent": 579,
+                "PerformanceTiming.prototype.navigationStart": 580
             },
-            "sites": 2685,
-            "prevalence": 0.0546
+            "sites": 593,
+            "prevalence": 0.00811,
+            "cnames": []
         },
         {
             "rule": "newrelic\\.com\\/nr-spa-1167\\.min\\.js",
@@ -38,143 +40,30 @@
                 "js-agent"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 370,
-                "PerformanceTiming.prototype.navigationStart": 370
+                "Navigator.prototype.userAgent": 68,
+                "PerformanceTiming.prototype.navigationStart": 68
             },
-            "sites": 391,
-            "prevalence": 0.00795
+            "sites": 70,
+            "prevalence": 0.000958,
+            "cnames": []
         },
         {
-            "rule": "newrelic\\.com\\/nr-spa-1071\\.min\\.js",
+            "rule": "newrelic\\.com\\/nr-1169\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js-agent"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 53,
-                "PerformanceTiming.prototype.navigationStart": 53
+                "Navigator.prototype.userAgent": 3677,
+                "PerformanceTiming.prototype.navigationStart": 3677
             },
-            "sites": 57,
-            "prevalence": 0.00116
+            "sites": 3788,
+            "prevalence": 0.0518,
+            "cnames": []
         },
         {
             "rule": "newrelic\\.com\\/nr-spa-1123\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-agent"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 43,
-                "PerformanceTiming.prototype.navigationStart": 43
-            },
-            "sites": 43,
-            "prevalence": 0.000875
-        },
-        {
-            "rule": "newrelic\\.com\\/nr-768\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-agent"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 7,
-                "Date.prototype.getTime": 7,
-                "PerformanceTiming.prototype.navigationStart": 4
-            },
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "newrelic\\.com\\/nr-spa-1099\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-agent"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 11,
-                "PerformanceTiming.prototype.navigationStart": 11
-            },
-            "sites": 11,
-            "prevalence": 0.000224
-        },
-        {
-            "rule": "newrelic\\.com\\/nr-1071\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-agent"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 52,
-                "PerformanceTiming.prototype.navigationStart": 50
-            },
-            "sites": 57,
-            "prevalence": 0.00116
-        },
-        {
-            "rule": "newrelic\\.com\\/nr-998\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-agent"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 7,
-                "PerformanceTiming.prototype.navigationStart": 7,
-                "Date.prototype.getTime": 7
-            },
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "newrelic\\.com\\/nr-spa-1026\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-agent"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 7,
-                "PerformanceTiming.prototype.navigationStart": 7
-            },
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "newrelic\\.com\\/nr-963\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-agent"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 9,
-                "PerformanceTiming.prototype.navigationStart": 8,
-                "Date.prototype.getTime": 9
-            },
-            "sites": 9,
-            "prevalence": 0.000183
-        },
-        {
-            "rule": "newrelic\\.com\\/nr-1026\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-agent"
-            ],
-            "apis": {
-                "PerformanceTiming.prototype.navigationStart": 23,
-                "Navigator.prototype.userAgent": 22
-            },
-            "sites": 30,
-            "prevalence": 0.00061
-        },
-        {
-            "rule": "newrelic\\.com\\/nr-1044\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -185,67 +74,26 @@
                 "PerformanceTiming.prototype.navigationStart": 35
             },
             "sites": 36,
-            "prevalence": 0.000732
+            "prevalence": 0.000493,
+            "cnames": []
         },
         {
-            "rule": "newrelic\\.com\\/nr-spa-1153\\.min\\.js",
+            "rule": "newrelic\\.com\\/nr-spa-1071\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js-agent"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 9,
-                "PerformanceTiming.prototype.navigationStart": 9
+                "Navigator.prototype.userAgent": 61,
+                "PerformanceTiming.prototype.navigationStart": 61
             },
-            "sites": 9,
-            "prevalence": 0.000183
+            "sites": 62,
+            "prevalence": 0.000848,
+            "cnames": []
         },
         {
-            "rule": "newrelic\\.com\\/nr-spa-998\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-agent"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "PerformanceTiming.prototype.navigationStart": 4,
-                "Date.prototype.getTime": 4
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "newrelic\\.com\\/nr-spa-1016\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-agent"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 6,
-                "Date.prototype.getTime": 6
-            },
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "newrelic\\.com\\/nr-spa-1130\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-agent"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 38,
-                "PerformanceTiming.prototype.navigationStart": 38
-            },
-            "sites": 40,
-            "prevalence": 0.000814
-        },
-        {
-            "rule": "newrelic\\.com\\/nr-632\\.min\\.js",
+            "rule": "newrelic\\.com\\/nr-768\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -257,50 +105,54 @@
                 "Date.prototype.getTime": 7
             },
             "sites": 7,
-            "prevalence": 0.000142
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
-            "rule": "newrelic\\.com\\/nr-1130\\.min\\.js",
+            "rule": "newrelic\\.com\\/nr-1071\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js-agent"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 13,
-                "PerformanceTiming.prototype.navigationStart": 13
+                "Navigator.prototype.userAgent": 64,
+                "PerformanceTiming.prototype.navigationStart": 64
             },
-            "sites": 13,
-            "prevalence": 0.000264
+            "sites": 67,
+            "prevalence": 0.000917,
+            "cnames": []
         },
         {
-            "rule": "newrelic\\.com\\/nr-943\\.min\\.js",
+            "rule": "newrelic\\.com\\/nr-963\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js-agent"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5,
-                "PerformanceTiming.prototype.navigationStart": 3,
-                "Date.prototype.getTime": 5
+                "Navigator.prototype.userAgent": 11,
+                "PerformanceTiming.prototype.navigationStart": 11,
+                "Date.prototype.getTime": 11
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
         },
         {
-            "rule": "newrelic\\.com\\/nr-1123\\.min\\.js",
+            "rule": "newrelic\\.com\\/nr-spa-1026\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js-agent"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 12,
-                "PerformanceTiming.prototype.navigationStart": 12
+                "Navigator.prototype.userAgent": 8,
+                "PerformanceTiming.prototype.navigationStart": 8
             },
-            "sites": 14,
-            "prevalence": 0.000285
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
             "rule": "newrelic\\.com\\/nr-1099\\.min\\.js",
@@ -310,28 +162,30 @@
                 "js-agent"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 7,
-                "PerformanceTiming.prototype.navigationStart": 6
+                "Navigator.prototype.userAgent": 8,
+                "PerformanceTiming.prototype.navigationStart": 8
             },
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
-            "rule": "newrelic\\.com\\/nr-spa-1118\\.min\\.js",
+            "rule": "newrelic\\.com\\/nr-1044\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js-agent"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 30,
-                "PerformanceTiming.prototype.navigationStart": 29
+                "Navigator.prototype.userAgent": 45,
+                "PerformanceTiming.prototype.navigationStart": 45
             },
-            "sites": 31,
-            "prevalence": 0.000631
+            "sites": 46,
+            "prevalence": 0.000629,
+            "cnames": []
         },
         {
-            "rule": "newrelic\\.com\\/nr-1118\\.min\\.js",
+            "rule": "newrelic\\.com\\/nr-1026\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -342,7 +196,147 @@
                 "PerformanceTiming.prototype.navigationStart": 15
             },
             "sites": 16,
-            "prevalence": 0.000325
+            "prevalence": 0.000219,
+            "cnames": []
+        },
+        {
+            "rule": "newrelic\\.com\\/nr-1167\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-agent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 27,
+                "PerformanceTiming.prototype.navigationStart": 27
+            },
+            "sites": 28,
+            "prevalence": 0.000383,
+            "cnames": []
+        },
+        {
+            "rule": "newrelic\\.com\\/nr-spa-1153\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-agent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "PerformanceTiming.prototype.navigationStart": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
+        },
+        {
+            "rule": "newrelic\\.com\\/nr-spa-998\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-agent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "PerformanceTiming.prototype.navigationStart": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "newrelic\\.com\\/nr-spa-1158\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-agent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 20,
+                "PerformanceTiming.prototype.navigationStart": 20
+            },
+            "sites": 20,
+            "prevalence": 0.000274,
+            "cnames": []
+        },
+        {
+            "rule": "newrelic\\.com\\/nr-spa-1016\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-agent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "PerformanceTiming.prototype.navigationStart": 7,
+                "Date.prototype.getTime": 7
+            },
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "newrelic\\.com\\/nr-spa-1130\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-agent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 57,
+                "PerformanceTiming.prototype.navigationStart": 57
+            },
+            "sites": 57,
+            "prevalence": 0.00078,
+            "cnames": []
+        },
+        {
+            "rule": "newrelic\\.com\\/nr-632\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-agent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "PerformanceTiming.prototype.navigationStart": 6,
+                "Date.prototype.getTime": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "newrelic\\.com\\/nr-1130\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-agent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 11,
+                "PerformanceTiming.prototype.navigationStart": 11
+            },
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
+        },
+        {
+            "rule": "newrelic\\.com\\/nr-943\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-agent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "PerformanceTiming.prototype.navigationStart": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "newrelic\\.com\\/nr-spa-1044\\.min\\.js",
@@ -356,7 +350,69 @@
                 "PerformanceTiming.prototype.navigationStart": 9
             },
             "sites": 9,
-            "prevalence": 0.000183
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "newrelic\\.com\\/nr-1123\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-agent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 14,
+                "PerformanceTiming.prototype.navigationStart": 14
+            },
+            "sites": 15,
+            "prevalence": 0.000205,
+            "cnames": []
+        },
+        {
+            "rule": "newrelic\\.com\\/nr-998\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-agent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 12,
+                "PerformanceTiming.prototype.navigationStart": 12,
+                "Date.prototype.getTime": 12
+            },
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
+        },
+        {
+            "rule": "newrelic\\.com\\/nr-spa-1099\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-agent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 15,
+                "PerformanceTiming.prototype.navigationStart": 15
+            },
+            "sites": 15,
+            "prevalence": 0.000205,
+            "cnames": []
+        },
+        {
+            "rule": "newrelic\\.com\\/nr-spa-1118\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-agent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 40,
+                "PerformanceTiming.prototype.navigationStart": 40
+            },
+            "sites": 41,
+            "prevalence": 0.000561,
+            "cnames": []
         },
         {
             "rule": "newrelic\\.com\\/nr-1153\\.min\\.js",
@@ -366,25 +422,42 @@
                 "js-agent"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 17,
-                "PerformanceTiming.prototype.navigationStart": 17
+                "Navigator.prototype.userAgent": 10,
+                "PerformanceTiming.prototype.navigationStart": 10
             },
-            "sites": 17,
-            "prevalence": 0.000346
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "newrelic\\.com\\/nr-spa-1158\\.min\\.js",
+            "rule": "newrelic\\.com\\/nr-1158\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js-agent"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 20,
-                "PerformanceTiming.prototype.navigationStart": 19
+                "Navigator.prototype.userAgent": 5,
+                "PerformanceTiming.prototype.navigationStart": 5
             },
-            "sites": 20,
-            "prevalence": 0.000407
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "newrelic\\.com\\/nr-1118\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-agent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 24,
+                "PerformanceTiming.prototype.navigationStart": 24
+            },
+            "sites": 25,
+            "prevalence": 0.000342,
+            "cnames": []
         },
         {
             "rule": "newrelic\\.com\\/nr-476\\.min\\.js",
@@ -394,41 +467,29 @@
                 "js-agent"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.userAgent": 2,
                 "PerformanceTiming.prototype.navigationStart": 2,
-                "Date.prototype.getTime": 5
+                "Date.prototype.getTime": 2
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "newrelic\\.com\\/nr-1059\\.min\\.js",
+            "rule": "newrelic\\.com\\/nr-974\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js-agent"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "PerformanceTiming.prototype.navigationStart": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "newrelic\\.com\\/nr-918\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-agent"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 5,
-                "Date.prototype.getTime": 6,
-                "PerformanceTiming.prototype.navigationStart": 3
+                "Navigator.prototype.userAgent": 6,
+                "PerformanceTiming.prototype.navigationStart": 6,
+                "Date.prototype.getTime": 6
             },
             "sites": 6,
-            "prevalence": 0.000122
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "newrelic\\.com\\/nr-686\\.min\\.js",
@@ -443,36 +504,40 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "newrelic\\.com\\/nr-974\\.min\\.js",
+            "rule": "newrelic\\.com\\/nr-spa-974\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js-agent"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.userAgent": 2,
                 "PerformanceTiming.prototype.navigationStart": 2,
-                "Date.prototype.getTime": 4
+                "Date.prototype.getTime": 2
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "newrelic\\.com\\/nr-1158\\.min\\.js",
+            "rule": "newrelic\\.com\\/nr-918\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js-agent"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5,
-                "PerformanceTiming.prototype.navigationStart": 5
+                "Navigator.prototype.userAgent": 6,
+                "PerformanceTiming.prototype.navigationStart": 6,
+                "Date.prototype.getTime": 6
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "newrelic\\.com\\/nr-892\\.min\\.js",
@@ -482,12 +547,13 @@
                 "js-agent"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5,
-                "PerformanceTiming.prototype.navigationStart": 5,
-                "Date.prototype.getTime": 5
+                "Navigator.prototype.userAgent": 7,
+                "PerformanceTiming.prototype.navigationStart": 7,
+                "Date.prototype.getTime": 7
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
             "rule": "newrelic\\.com\\/nr-852\\.min\\.js",
@@ -502,7 +568,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "newrelic\\.com\\/nr-1016\\.min\\.js",
@@ -512,12 +579,13 @@
                 "js-agent"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "PerformanceTiming.prototype.navigationStart": 1,
-                "Date.prototype.getTime": 2
+                "Navigator.prototype.userAgent": 3,
+                "PerformanceTiming.prototype.navigationStart": 3,
+                "Date.prototype.getTime": 3
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [
@@ -529,5 +597,8 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 5019
+    }
 }

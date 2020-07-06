@@ -4,276 +4,145 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000142,
-    "sites": 7,
+    "prevalence": 0.0000547,
+    "sites": 4,
     "subdomains": [
         "image-cdn"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/1b\\/2a\\/a5\\/1b2aa5f76bacc51dec493fd6b1b8546b\\/1b2aa5f76bacc51dec493fd6b1b8546b\\.2\\.jpg",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "image-cdn"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/7f\\/5e\\/e2\\/7f5ee2e49e8254858bcc815a10cf05a8\\/7f5ee2e49e8254858bcc815a10cf05a8\\.27\\.jpg",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "image-cdn"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/94\\/54\\/54\\/945454a8c746085ca88a8a2b90671a62\\/945454a8c746085ca88a8a2b90671a62\\.15\\.jpg",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "image-cdn"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/24\\/2b\\/5c\\/242b5c515e38e07c1600b37bdfabdea1\\/242b5c515e38e07c1600b37bdfabdea1\\.1\\.jpg",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "image-cdn"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/ad\\/c6\\/b3\\/adc6b3d6c3cb2a539894cbfc2146ed57\\/adc6b3d6c3cb2a539894cbfc2146ed57\\.30\\.jpg",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "image-cdn"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/96\\/6e\\/89\\/966e8955e5fc5aa3eb128b464134cc42\\/966e8955e5fc5aa3eb128b464134cc42\\.1\\.jpg",
-            "cookies": 0.000061,
+            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/5b\\/91\\/f3\\/5b91f3a3ffb7a938e325dbad66cf66d7\\/5b91f3a3ffb7a938e325dbad66cf66d7\\.30\\.jpg",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "image-cdn"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/26\\/e0\\/86\\/26e086376157cfd2f60c314d6eee0f6a\\/26e086376157cfd2f60c314d6eee0f6a\\.30\\.jpg",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "image-cdn"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/59\\/44\\/27\\/5944277851ed661bcb76a2f92e2a7102\\/5944277851ed661bcb76a2f92e2a7102\\.5\\.jpg",
-            "cookies": 0.000061,
+            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/20\\/14\\/d9\\/2014d992ed697048140006d2f8e899d4\\/2014d992ed697048140006d2f8e899d4\\.26\\.jpg",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "image-cdn"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/a3\\/eb\\/d5\\/a3ebd5b04d4c9793b81add24c6319333\\/a3ebd5b04d4c9793b81add24c6319333\\.13\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "image-cdn"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/7a\\/fe\\/51\\/7afe511482c25ed095896f3aca1db4ab\\/7afe511482c25ed095896f3aca1db4ab\\.7\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "image-cdn"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/d6\\/44\\/a2\\/d644a2e860dc2e2ce35432b360f853db\\/d644a2e860dc2e2ce35432b360f853db\\.29\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "image-cdn"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/2f\\/8f\\/db\\/2f8fdbd9dd30573210d2c5f782303ac6\\/2f8fdbd9dd30573210d2c5f782303ac6\\.17\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "image-cdn"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/80\\/0c\\/3a\\/800c3a7e3cbfa1dcecd1fe4dab149dbb\\/800c3a7e3cbfa1dcecd1fe4dab149dbb\\.16\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "image-cdn"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/36\\/5c\\/ac\\/365cac0f49a2ca52d194e66dff089789\\/365cac0f49a2ca52d194e66dff089789\\.22\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "image-cdn"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/5c\\/a9\\/bc\\/5ca9bcaf06fc596dd0f83a73f7c41725\\/5ca9bcaf06fc596dd0f83a73f7c41725\\.1\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/ba\\/cf\\/bb\\/bacfbb3fcfcd808192d14715fec6136b\\/bacfbb3fcfcd808192d14715fec6136b\\.29\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "image-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/a9\\/f8\\/e8\\/a9f8e8cf2b649a23c22067fd858100ad\\/a9f8e8cf2b649a23c22067fd858100ad\\.24\\.jpg",
-            "cookies": 0.000061,
+            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/1c\\/74\\/b5\\/1c74b5e7729d6107953421d06a137084\\/1c74b5e7729d6107953421d06a137084\\.23\\.jpg",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "image-cdn"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/3b\\/c1\\/6a\\/3bc16a6e0abc1a8eda0140d0886dcd05\\/3bc16a6e0abc1a8eda0140d0886dcd05\\.20\\.jpg",
-            "cookies": 0.000061,
+            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/29\\/5a\\/c2\\/295ac2ecc50a6fe5efc087f2460c3d2d\\/295ac2ecc50a6fe5efc087f2460c3d2d\\.10\\.jpg",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "image-cdn"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/62\\/d6\\/8b\\/62d68bb73aaedd4e2fadbf9f378b2282\\/62d68bb73aaedd4e2fadbf9f378b2282\\.14\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/45\\/90\\/4e\\/45904ee24001a82e56bd76f324846807\\/45904ee24001a82e56bd76f324846807\\.4\\.jpg",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "image-cdn"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/1d\\/7e\\/ea\\/1d7eea22962dd9de4ba7198293d63d94\\/1d7eea22962dd9de4ba7198293d63d94\\.30\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/44\\/3b\\/0b\\/443b0b1ee8a375e21e768b08251c06d2\\/443b0b1ee8a375e21e768b08251c06d2\\.3\\.jpg",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "image-cdn"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/39\\/68\\/28\\/3968289d53f18878b76dbed265b43222\\/3968289d53f18878b76dbed265b43222\\.25\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/aa\\/08\\/c1\\/aa08c1a5e28ae63a970235d490e54a91\\/aa08c1a5e28ae63a970235d490e54a91\\.29\\.jpg",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "image-cdn"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/11\\/ff\\/c1\\/11ffc1dc483e329718f377fbfbc2b03c\\/11ffc1dc483e329718f377fbfbc2b03c\\.5\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/a3\\/0c\\/60\\/a30c609d49de3398ef4230876398761b\\/a30c609d49de3398ef4230876398761b\\.20\\.jpg",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/da\\/13\\/9c\\/da139cc6cdb74b67484adf30f244abc2\\/da139cc6cdb74b67484adf30f244abc2\\.20\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "image-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/bc\\/43\\/4b\\/bc434b52cbbb36f204eab6c164a702c9\\/bc434b52cbbb36f204eab6c164a702c9\\.30\\.jpg",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "image-cdn"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/65\\/74\\/5b\\/65745b9ccda932908acda482a3f9f515\\/65745b9ccda932908acda482a3f9f515\\.3\\.jpg",
-            "cookies": 0.0000203,
+            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/6c\\/ea\\/b1\\/6ceab17fd3c4e68c695430b7ef830d4e\\/6ceab17fd3c4e68c695430b7ef830d4e\\.1\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "image-cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bokep234\\.com\\/videos\\/thumbs169ll\\/18\\/1b\\/18\\/181b18fb1f6c5f801e7631b52fa14d38\\/181b18fb1f6c5f801e7631b52fa14d38\\.29\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "image-cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -283,5 +152,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.000142
+    "cookies": 0.0000547,
+    "types": {
+        "Image": 30
+    }
 }

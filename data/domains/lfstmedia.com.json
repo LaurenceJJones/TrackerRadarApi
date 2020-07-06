@@ -9,45 +9,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00269,
-    "sites": 132,
+    "prevalence": 0.0000958,
+    "sites": 7,
     "subdomains": [
         "ads"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "lfstmedia\\.com\\/mark\\/pulsepoint",
-            "cookies": 0.00236,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {},
-            "sites": 127,
-            "prevalence": 0.00258
-        },
-        {
-            "rule": "lfstmedia\\.com\\/mark\\/pulsepoint_video",
-            "cookies": 0.00238,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {},
-            "sites": 128,
-            "prevalence": 0.0026
-        },
-        {
             "rule": "lfstmedia\\.com\\/idsync\\/137062",
-            "cookies": 0.000102,
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "lfstmedia\\.com\\/getad",
@@ -66,84 +46,80 @@
                 "window.name": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "lfstmedia\\.com\\/gate\\/ext_bid\\/slot125373",
-            "cookies": 0.0000407,
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "lfstmedia\\.com\\/mark\\/mediamath",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "lfstmedia\\.com\\/syspixel",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "lfstmedia\\.com\\/track\\/60",
-            "cookies": 0.0000407,
+            "rule": "lfstmedia\\.com\\/mark\\/pulsepoint_video",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "lfstmedia\\.com\\/track\\/1300",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "lfstmedia\\.com\\/mark\\/appnexus",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "lfstmedia\\.com\\/mark\\/casale",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -153,10 +129,14 @@
         "Action Pixels"
     ],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.00246
+    "cookies": 0.0000958,
+    "types": {
+        "Image": 16,
+        "Script": 4
+    }
 }

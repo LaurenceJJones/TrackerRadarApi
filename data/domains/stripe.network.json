@@ -9,11 +9,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00688,
-    "sites": 338,
+    "prevalence": 0.00759,
+    "sites": 555,
     "subdomains": [
         "m"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -24,26 +25,27 @@
                 "m"
             ],
             "apis": {
-                "HTMLCanvasElement.prototype.constructor": 165,
-                "Navigator.prototype.cookieEnabled": 174,
-                "Navigator.prototype.doNotTrack": 174,
-                "Navigator.prototype.languages": 174,
-                "Navigator.prototype.platform": 174,
-                "Navigator.prototype.plugins": 174,
-                "Screen.prototype.availWidth": 174,
-                "Screen.prototype.availHeight": 174,
-                "Screen.prototype.colorDepth": 174,
-                "window.devicePixelRatio": 332,
-                "Date.prototype.getTimezoneOffset": 332,
-                "window.sessionStorage": 332,
-                "window.localStorage": 332,
-                "CanvasRenderingContext2D.prototype.measureText": 166,
-                "Navigator.prototype.userAgent": 174,
-                "Navigator.prototype.mimeTypes": 174,
-                "HTMLCanvasElement.prototype.toDataURL": 167
+                "window.devicePixelRatio": 552,
+                "Date.prototype.getTimezoneOffset": 552,
+                "window.sessionStorage": 552,
+                "window.localStorage": 552,
+                "CanvasRenderingContext2D.prototype.measureText": 237,
+                "HTMLCanvasElement.prototype.constructor": 229,
+                "Navigator.prototype.cookieEnabled": 244,
+                "Navigator.prototype.doNotTrack": 244,
+                "Navigator.prototype.languages": 244,
+                "Navigator.prototype.platform": 244,
+                "Navigator.prototype.plugins": 244,
+                "Screen.prototype.availWidth": 244,
+                "Screen.prototype.availHeight": 244,
+                "Screen.prototype.colorDepth": 244,
+                "Navigator.prototype.userAgent": 244,
+                "Navigator.prototype.mimeTypes": 244,
+                "HTMLCanvasElement.prototype.toDataURL": 236
             },
-            "sites": 338,
-            "prevalence": 0.00688
+            "sites": 555,
+            "prevalence": 0.00759,
+            "cnames": []
         }
     ],
     "categories": [
@@ -54,8 +56,11 @@
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 2,
+        "cpu": 1,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Document": 555
+    }
 }

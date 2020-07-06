@@ -2,11 +2,12 @@
     "name": "Blockchain Luxembourg S.A",
     "displayName": "Blockchain Luxembourg",
     "properties": [
+        "blockchain.com",
         "blockchain.info"
     ],
     "prevalence": {
-        "tracking": 0.000203,
+        "tracking": 0.000123,
         "nonTracking": 0,
-        "total": 0.000203
+        "total": 0.000123
     }
 }

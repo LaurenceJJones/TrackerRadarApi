@@ -4,36 +4,39 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000386,
-    "sites": 19,
+    "prevalence": 0.000164,
+    "sites": 12,
     "subdomains": [
         "ps",
         "p1"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "ntvk1\\.ru\\/nv\\/",
-            "cookies": 0.000183,
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [
                 "ps",
                 "p1"
             ],
             "apis": {},
-            "sites": 9,
-            "prevalence": 0.000183
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "ntvk1\\.ru\\/scn",
-            "cookies": 0.000203,
+            "rule": "ntvk1\\.ru\\/ms438",
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "p1"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "ntvk1\\.ru\\/nv\\.js",
@@ -47,7 +50,8 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -57,5 +61,10 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000386
+    "cookies": 0.000137,
+    "types": {
+        "XHR": 10,
+        "Image": 4,
+        "Script": 2
+    }
 }

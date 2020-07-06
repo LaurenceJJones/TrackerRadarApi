@@ -7,223 +7,195 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000407,
+    "prevalence": 0.000274,
     "sites": 20,
     "subdomains": [
         "offer",
-        "russian",
-        "insights",
-        "open-s",
-        "sourcing",
-        "acs.h",
-        "messagebeach",
+        "error",
+        "www",
         "buyercentral",
-        "umlazada",
-        "m"
+        "messagebeach",
+        "notification",
+        "onetalk",
+        "open-s",
+        "login",
+        "umlazada"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "alibaba\\.com\\/cps\\/vdokkglo",
-            "cookies": 0.000122,
+            "rule": "alibaba\\.com\\/cps\\/mo6r36tt",
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [
                 "offer"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         },
         {
             "rule": "alibaba\\.com\\/",
-            "cookies": 0.000122,
+            "cookies": 0.000137,
             "fingerprinting": 1,
             "subdomains": [
-                "russian"
+                "error",
+                "offer"
             ],
             "apis": {
-                "Date.prototype.getTime": 6,
-                "window.localStorage": 6,
-                "PerformanceTiming.prototype.navigationStart": 6
+                "Date.prototype.getTime": 9,
+                "window.localStorage": 9,
+                "Document.cookie getter": 3
             },
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "alibaba\\.com\\/openservice\\/gatewayService",
-            "cookies": 0.000122,
+            "rule": "alibaba\\.com\\/detail\\/ajax\\/queryIpAjax\\.do",
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [
-                "insights"
+                "www"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         },
         {
-            "rule": "alibaba\\.com\\/openservice\\/homeTppGuessLikeBusinessService",
-            "cookies": 0.000122,
+            "rule": "alibaba\\.com\\/buyer\\/umid\\/getUmid\\.do",
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [
-                "insights"
+                "buyercentral"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "alibaba\\.com\\/openservice\\/userBehaviorProductViewService",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "open-s"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "alibaba\\.com\\/rfq\\/ajax\\/vocation_rfq_recommend_ajax\\.do",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sourcing"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "alibaba\\.com\\/h5\\/mtop\\.alibaba\\.intl\\.localization\\.getmullangquantityunits\\/1\\.0\\/",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "acs.h"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         },
         {
             "rule": "alibaba\\.com\\/ajax\\/personRoleInfo\\.do",
-            "cookies": 0.0000407,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "messagebeach"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "alibaba\\.com\\/notification\\.do",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notification"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "alibaba\\.com\\/message\\/manager\\/unread\\.htm",
+            "cookies": 0.0000958,
+            "fingerprinting": 0,
+            "subdomains": [
+                "onetalk"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         },
         {
             "rule": "alibaba\\.com\\/openservice\\/countryCurrencyDataService",
-            "cookies": 0.0000407,
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [
                 "open-s"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         },
         {
             "rule": "alibaba\\.com\\/openservice\\/categoryNaviViewService",
-            "cookies": 0.000122,
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [
                 "open-s"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         },
         {
-            "rule": "alibaba\\.com\\/buyer\\/privacy\\/need_show_cookie_setting\\.do",
-            "cookies": 0.000102,
+            "rule": "alibaba\\.com\\/xman\\/xman_config_sc\\.js",
+            "cookies": 0.000109,
             "fingerprinting": 0,
             "subdomains": [
-                "buyercentral"
+                "login"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "alibaba\\.com\\/buyer\\/umid\\/getUmid\\.do",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "buyercentral"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "alibaba\\.com\\/w\\/cb\\.js",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "umlazada"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "alibaba\\.com\\/service\\/um\\.json",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "umlazada"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "alibaba\\.com\\/cps\\/brkhnf3e",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "offer"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "alibaba\\.com\\/cps\\/3s9mjajl",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "offer"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "alibaba\\.com\\/",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "m"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
             "rule": "alibaba\\.com\\/cps\\/t9dsjp9v",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "offer"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "alibaba\\.com\\/w\\/cb\\.js",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "umlazada"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "alibaba\\.com\\/w\\/wu\\.json",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "umlazada"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "alibaba\\.com\\/service\\/um\\.json",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "umlazada"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -233,5 +205,10 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.000203
+    "cookies": 0.000233,
+    "types": {
+        "Document": 21,
+        "Script": 68,
+        "XHR": 12
+    }
 }

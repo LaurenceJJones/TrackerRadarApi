@@ -7,15 +7,15 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00061,
-    "sites": 30,
+    "prevalence": 0.000506,
+    "sites": 37,
     "subdomains": [
         "cdn",
         "ssl-avd",
-        "avd",
-        "media"
+        "avd"
     ],
-    "fingerprinting": 2,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "innity\\.net\\/admanager\\.js",
@@ -25,26 +25,14 @@
                 "cdn"
             ],
             "apis": {
-                "Date.prototype.getTime": 11,
+                "Date.prototype.getTime": 10,
                 "Navigator.prototype.plugins": 7,
                 "Navigator.prototype.userAgent": 7,
-                "window.localStorage": 11
+                "window.localStorage": 8
             },
-            "sites": 17,
-            "prevalence": 0.000346
-        },
-        {
-            "rule": "innity\\.net\\/global\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 4
-            },
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
         },
         {
             "rule": "innity\\.net\\/analytics\\.js",
@@ -54,10 +42,11 @@
                 "cdn"
             ],
             "apis": {
-                "Date.prototype.getTime": 10
+                "Date.prototype.getTime": 13
             },
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
         },
         {
             "rule": "innity\\.net\\/1\\/container_576b5a051c51b1c0244bca09\\.js",
@@ -67,10 +56,11 @@
                 "ssl-avd"
             ],
             "apis": {
-                "Date.prototype.getTime": 6
+                "Date.prototype.getTime": 3
             },
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "innity\\.net\\/1\\/container_549927e79bd1fa1a040041a9\\.js",
@@ -80,29 +70,31 @@
                 "ssl-avd"
             ],
             "apis": {
-                "Date.prototype.getTime": 6
+                "Date.prototype.getTime": 3
             },
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "innity\\.net\\/lib\\/dc\\.js",
-            "cookies": 0.000305,
+            "cookies": 0.000178,
             "fingerprinting": 1,
             "subdomains": [
                 "avd"
             ],
             "apis": {
-                "Date.prototype.getTime": 15,
-                "Document.cookie setter": 15,
-                "Document.cookie getter": 15,
-                "Screen.prototype.width": 15,
-                "Screen.prototype.height": 15,
-                "Navigator.prototype.language": 15,
-                "window.localStorage": 15
+                "Date.prototype.getTime": 14,
+                "Document.cookie setter": 13,
+                "Document.cookie getter": 13,
+                "Screen.prototype.width": 14,
+                "Screen.prototype.height": 14,
+                "Navigator.prototype.language": 14,
+                "window.localStorage": 14
             },
-            "sites": 15,
-            "prevalence": 0.000305
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
         },
         {
             "rule": "innity\\.net\\/synd\\.js",
@@ -116,26 +108,42 @@
                 "Document.cookie getter": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "innity\\.net\\/dc\\.js",
-            "cookies": 0.000102,
+            "cookies": 0.000109,
             "fingerprinting": 1,
             "subdomains": [
                 "ssl-avd"
             ],
             "apis": {
-                "Date.prototype.getTime": 5,
-                "Document.cookie setter": 5,
-                "Document.cookie getter": 5,
-                "Screen.prototype.width": 5,
-                "Screen.prototype.height": 5,
-                "Navigator.prototype.language": 5,
-                "window.localStorage": 5
+                "Date.prototype.getTime": 8,
+                "Document.cookie setter": 8,
+                "Document.cookie getter": 8,
+                "Screen.prototype.width": 8,
+                "Screen.prototype.height": 8,
+                "Navigator.prototype.language": 8,
+                "window.localStorage": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
+        },
+        {
+            "rule": "innity\\.net\\/global\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5
             },
             "sites": 5,
-            "prevalence": 0.000102
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "innity\\.net\\/31\\/container_550679d71c51b10f2b0a9188\\.js",
@@ -145,29 +153,41 @@
                 "avd"
             ],
             "apis": {
-                "Date.prototype.getTime": 2
+                "Date.prototype.getTime": 4
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "innity\\.net\\/lib\\/innityPrebidHB\\.js",
+            "rule": "innity\\.net\\/126\\/container_56947ee91c51b12a1ff4a621\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "media"
+                "ssl-avd",
+                "avd"
             ],
             "apis": {
-                "window.sessionStorage": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 1,
-                "Navigator.prototype.cookieEnabled": 1,
-                "Navigator.prototype.appName": 1,
-                "Screen.prototype.width": 1,
-                "Screen.prototype.height": 1
+                "Date.prototype.getTime": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "innity\\.net\\/zone\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Document.cookie getter": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -177,5 +197,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000407
+    "cookies": 0.000274,
+    "types": {
+        "Script": 73
+    }
 }

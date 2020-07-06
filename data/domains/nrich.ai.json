@@ -4,34 +4,37 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00401,
-    "sites": 197,
+    "prevalence": 0.00628,
+    "sites": 459,
     "subdomains": [
         "dsp"
     ],
-    "fingerprinting": 0,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "nrich\\.ai\\/bidswitch\\/sync",
-            "cookies": 0.00151,
+            "cookies": 0.00306,
             "fingerprinting": 0,
             "subdomains": [
                 "dsp"
             ],
             "apis": {},
-            "sites": 95,
-            "prevalence": 0.00193
+            "sites": 224,
+            "prevalence": 0.00306,
+            "cnames": []
         },
         {
             "rule": "nrich\\.ai\\/bidswitch\\/sync",
-            "cookies": 0.00165,
+            "cookies": 0.0032,
             "fingerprinting": 0,
             "subdomains": [
                 "dsp"
             ],
             "apis": {},
-            "sites": 105,
-            "prevalence": 0.00214
+            "sites": 239,
+            "prevalence": 0.00327,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -41,5 +44,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00311
+    "cookies": 0.00621,
+    "types": {
+        "Document": 224,
+        "Image": 239
+    }
 }

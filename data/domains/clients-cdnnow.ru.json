@@ -4,52 +4,98 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000163,
-    "sites": 8,
+    "prevalence": 0.000137,
+    "sites": 10,
     "subdomains": [
-        "user91471"
+        "user44068"
     ],
-    "fingerprinting": 2,
+    "cnames": [
+        {
+            "original": "static.ngs.ru",
+            "resolved": "user44068.clients-cdnnow.ru"
+        }
+    ],
+    "fingerprinting": 3,
     "resources": [
         {
-            "rule": "clients-cdnnow\\.ru\\/vp_dist\\/pjs\\.min\\.js",
+            "rule": "clients-cdnnow\\.ru\\/jtnews\\/dist\\/static\\/js\\/prebid\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
-                "user91471"
+                "user44068"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 6,
-                "Date.prototype.getTime": 6
-            },
-            "sites": 6,
-            "prevalence": 0.000122
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "static.ngs.ru",
+                    "resolved": "user44068.clients-cdnnow.ru"
+                }
+            ]
         },
         {
-            "rule": "clients-cdnnow\\.ru\\/new\\/playerjs-9\\.85\\.js",
+            "rule": "clients-cdnnow\\.ru\\/jtnews\\/dist\\/legacy\\/js\\/vendors~archive-by-date~archive-page~author-page~comment-page~comments-page~comments-rules-page~cook~21fc9a2e\\.1b805f4\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "user91471"
+                "user44068"
             ],
-            "apis": {
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 6,
-                "Date.prototype.getTime": 6,
-                "Navigator.prototype.appName": 6,
-                "Navigator.prototype.userAgent": 6,
-                "Navigator.prototype.platform": 6,
-                "window.localStorage": 6
-            },
-            "sites": 6,
-            "prevalence": 0.000122
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "static.ngs.ru",
+                    "resolved": "user44068.clients-cdnnow.ru"
+                }
+            ]
+        },
+        {
+            "rule": "clients-cdnnow\\.ru\\/jtnews\\/dist\\/static\\/js\\/mcc\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "user44068"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "static.ngs.ru",
+                    "resolved": "user44068.clients-cdnnow.ru"
+                }
+            ]
+        },
+        {
+            "rule": "clients-cdnnow\\.ru\\/jtnews\\/dist\\/legacy\\/js\\/vendors~archive-by-date~archive-page~author-page~comment-page~comments-page~comments-rules-page~cook~21fc9a2e\\.1b805f4\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "user44068"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "static.ngs.ru",
+                    "resolved": "user44068.clients-cdnnow.ru"
+                }
+            ]
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 3,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 1
+        "cache": 3
     },
-    "cookies": 0.0000203
+    "cookies": 0,
+    "types": {
+        "Script": 6,
+        "Other": 2
+    }
 }

@@ -4,23 +4,37 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000936,
-    "sites": 46,
+    "prevalence": 0.00209,
+    "sites": 153,
     "subdomains": [
         "app"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "backinstock\\.org\\/widget\\/14756_1565988703\\.js",
-            "cookies": 0.0000407,
+            "rule": "backinstock\\.org\\/widget\\/3555_1591701710\\.js",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "app"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "backinstock\\.org\\/widget\\/5656_1545944744\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -30,5 +44,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.000793
+    "cookies": 0.000821,
+    "types": {
+        "Script": 4
+    }
 }

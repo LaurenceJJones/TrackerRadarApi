@@ -7,15 +7,16 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
+    "prevalence": 0.0000274,
     "sites": 2,
     "subdomains": [
         "ads"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "yenimedya\\.com\\.tr\\/Content\\/assets\\/js\\/jquery-3\\.3\\.1\\.min\\.js",
+            "rule": "yenimedya\\.com\\.tr\\/Scripts\\/jquery-3\\.3\\.1\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -26,7 +27,8 @@
                 "Element.prototype.getClientRects": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "yenimedya\\.com\\.tr\\/Content\\/assets\\/js\\/swiper\\.min\\.js",
@@ -41,7 +43,8 @@
                 "window.devicePixelRatio": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -49,7 +52,10 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 0
+        "cache": 1
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 4
+    }
 }

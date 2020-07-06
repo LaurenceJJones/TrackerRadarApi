@@ -4,30 +4,32 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000163,
+    "prevalence": 0.000109,
     "sites": 8,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
             "rule": "jotfor\\.ms\\/static\\/jotform\\.forms\\.js",
             "cookies": 0,
-            "fingerprinting": 2,
+            "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 5,
-                "Navigator.prototype.vendor": 5,
-                "Navigator.prototype.appVersion": 5,
+                "Navigator.prototype.vendor": 4,
+                "Navigator.prototype.appVersion": 4,
                 "Date.prototype.getTime": 5,
                 "Screen.prototype.height": 5,
                 "Screen.prototype.width": 5
             },
             "sites": 6,
-            "prevalence": 0.000122
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "jotfor\\.ms\\/static\\/prototype\\.forms\\.js",
@@ -41,7 +43,8 @@
                 "Date.prototype.getTime": 6
             },
             "sites": 6,
-            "prevalence": 0.000122
+            "prevalence": 0.0000821,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -51,5 +54,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0
+    "cookies": 0.0000137,
+    "types": {
+        "Script": 12
+    }
 }

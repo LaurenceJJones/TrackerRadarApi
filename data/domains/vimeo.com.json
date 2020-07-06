@@ -9,11 +9,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00834,
-    "sites": 410,
+    "prevalence": 0.0105,
+    "sites": 768,
     "subdomains": [
         "player"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -24,33 +25,71 @@
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 30
+                "Navigator.prototype.userAgent": 51
             },
-            "sites": 118,
-            "prevalence": 0.0024
+            "sites": 278,
+            "prevalence": 0.0038,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/schallundrauch\\/badgeo\\/",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "vimeo\\.com\\/video\\/383526488",
+            "rule": "vimeo\\.com\\/video\\/415612077\\/",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "player"
             ],
             "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 1
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/343053482",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/428161503",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/33737220",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/116207678",
@@ -64,7 +103,8 @@
                 "Date.prototype.getTime": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/341969030",
@@ -74,11 +114,11 @@
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/365088954",
@@ -88,11 +128,11 @@
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/67310740",
@@ -102,11 +142,35 @@
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/static\\/proxy\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "window.localStorage": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/_timing",
+            "cookies": 0.000109,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/191712687",
@@ -120,43 +184,124 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/static\\/proxy\\.html",
+            "rule": "vimeo\\.com\\/video\\/5202148",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "player"
             ],
             "apis": {
-                "window.localStorage": 4
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "vimeo\\.com\\/_timing",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "vimeo\\.com\\/video\\/257964389",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "player"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/415617636",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/429990094",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/397104189",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/426018272",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/407992141",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/408498746",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/392431272",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/257964568",
@@ -166,14 +311,88 @@
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/390006595\\/",
+            "rule": "vimeo\\.com\\/video\\/390006595",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/87005836",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/89789078",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/103938319",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/98377495",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/395851553",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -184,10 +403,11 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/166131216",
+            "rule": "vimeo\\.com\\/video\\/432010083",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -198,10 +418,68 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/336301623",
+            "rule": "vimeo\\.com\\/video\\/366884726",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/404811943",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/155011710",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/149885548",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/329768519",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -211,7 +489,8 @@
                 "Date.prototype.getTime": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/393973111",
@@ -224,21 +503,8 @@
                 "Date.prototype.getTime": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "vimeo\\.com\\/video\\/226831541",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "player"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/116379560",
@@ -248,11 +514,11 @@
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 1,
                 "Date.prototype.getTime": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/116380110",
@@ -262,11 +528,11 @@
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 1,
                 "Date.prototype.getTime": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/329334914",
@@ -280,7 +546,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/320251766",
@@ -294,7 +561,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/230400152",
@@ -304,28 +572,28 @@
                 "player"
             ],
             "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/388387719",
+            "rule": "vimeo\\.com\\/video\\/237527670",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "player"
             ],
             "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
+                "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/368253665",
+            "rule": "vimeo\\.com\\/video\\/413089118",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -336,10 +604,11 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/368247811",
+            "rule": "vimeo\\.com\\/video\\/395133022",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -350,24 +619,53 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/368245299",
+            "rule": "vimeo\\.com\\/video\\/425821064",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Date.prototype.getTime": 3
+                "Date.prototype.getTime": 1
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/351380298",
+            "rule": "vimeo\\.com\\/video\\/396903183",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/395410651",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/391253288",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -378,7 +676,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/398850809",
@@ -392,7 +691,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/391589317",
@@ -406,10 +706,11 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/391032969",
+            "rule": "vimeo\\.com\\/video\\/424912865",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -420,24 +721,11 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/72582685",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "player"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "vimeo\\.com\\/video\\/393372552",
+            "rule": "vimeo\\.com\\/video\\/384868152",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -448,10 +736,11 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/399254506",
+            "rule": "vimeo\\.com\\/video\\/70059862",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -462,10 +751,11 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/398967425",
+            "rule": "vimeo\\.com\\/video\\/431353433",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -476,24 +766,11 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/180773854",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "player"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "vimeo\\.com\\/video\\/394223767",
+            "rule": "vimeo\\.com\\/video\\/432272678",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -504,10 +781,25 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/234383550",
+            "rule": "vimeo\\.com\\/video\\/43119013",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/344494770",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -518,10 +810,71 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/397017795",
+            "rule": "vimeo\\.com\\/video\\/286304196",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/281709181",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/431409167",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/400914545",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/413748005",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -531,7 +884,22 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/349529255",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/149419963",
@@ -545,7 +913,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/149420474",
@@ -559,7 +928,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/149422129",
@@ -573,7 +943,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/149420879",
@@ -587,7 +958,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/149422342",
@@ -601,10 +973,11 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/290548930",
+            "rule": "vimeo\\.com\\/video\\/333983459",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -615,10 +988,11 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/271541622",
+            "rule": "vimeo\\.com\\/video\\/85605593",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -629,7 +1003,52 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/85610069",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/85417323",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/403083483",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/236290375",
@@ -639,11 +1058,11 @@
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/226942296",
@@ -656,21 +1075,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "vimeo\\.com\\/video\\/339160819",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "player"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/87084185",
@@ -683,37 +1089,11 @@
                 "Date.prototype.getTime": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/398011050",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "player"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "vimeo\\.com\\/video\\/395714062",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "player"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 1,
-                "Date.prototype.getTime": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "vimeo\\.com\\/video\\/380489486",
+            "rule": "vimeo\\.com\\/video\\/427841813",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -724,52 +1104,11 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/363284170",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "player"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "vimeo\\.com\\/video\\/398511976",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "player"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "vimeo\\.com\\/video\\/374175917",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "player"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "vimeo\\.com\\/video\\/253712578",
+            "rule": "vimeo\\.com\\/video\\/398070102",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -780,7 +1119,581 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/418673850",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/430673152",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/429232396",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/423982422",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/267035924",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/355603745",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/372401245",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/329876421",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/431796002",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/367834681",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/374307107",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/383633481",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/383338311",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/374301931",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/374414474",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/383346576",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/314531969",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/416470884",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/405009634",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/160112892",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/371236143",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/422429079",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/205141281",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/429704077",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/363155337",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/sipscootershop\\/badgeo\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/258693608",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/408319357",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/403233398",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/395817028",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/307660833",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/398511976",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/318094313",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/390814708",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/367749718",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/356469277",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/409224619",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/323774976",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/396705979",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/264570344",
@@ -793,7 +1706,22 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/317298651",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/354266288",
@@ -807,7 +1735,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/209801778",
@@ -821,10 +1750,11 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/261861634",
+            "rule": "vimeo\\.com\\/video\\/113637527",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -834,20 +1764,23 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/287723516",
+            "rule": "vimeo\\.com\\/video\\/421654174",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "player"
             ],
             "apis": {
+                "Navigator.prototype.userAgent": 1,
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/371255022",
@@ -861,7 +1794,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/371689664",
@@ -871,11 +1805,11 @@
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/366793194",
@@ -889,7 +1823,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/362898144",
@@ -903,10 +1838,11 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/391568713",
+            "rule": "vimeo\\.com\\/video\\/391568505",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -917,7 +1853,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "vimeo\\.com\\/video\\/326116796",
@@ -931,21 +1868,65 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "vimeo\\.com\\/video\\/265845039",
+            "rule": "vimeo\\.com\\/video\\/398083463",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "player"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/261852635",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/328019377",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "vimeo\\.com\\/video\\/265845179",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
                 "Date.prototype.getTime": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -958,5 +1939,10 @@
         "cpu": 1,
         "cache": 1
     },
-    "cookies": 0.000102
+    "cookies": 0.000164,
+    "types": {
+        "Script": 280,
+        "Document": 266,
+        "Fetch": 8
+    }
 }

@@ -9,101 +9,99 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00417,
-    "sites": 205,
+    "prevalence": 0.00271,
+    "sites": 198,
     "subdomains": [
         "tag",
-        "cs"
+        "cs",
+        "ag"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "yieldoptimizer\\.com\\/ps\\/ps",
-            "cookies": 0.00354,
+            "cookies": 0.00125,
             "fingerprinting": 0,
             "subdomains": [
                 "tag"
             ],
             "apis": {},
-            "sites": 175,
-            "prevalence": 0.00356
+            "sites": 102,
+            "prevalence": 0.0014,
+            "cnames": []
         },
         {
             "rule": "yieldoptimizer\\.com\\/ps\\/ps",
-            "cookies": 0.00173,
+            "cookies": 0.00198,
             "fingerprinting": 0,
             "subdomains": [
                 "tag"
             ],
             "apis": {},
-            "sites": 88,
-            "prevalence": 0.00179
+            "sites": 146,
+            "prevalence": 0.002,
+            "cnames": []
         },
         {
             "rule": "yieldoptimizer\\.com\\/ps\\/cmap",
-            "cookies": 0.00179,
+            "cookies": 0.00142,
             "fingerprinting": 0,
             "subdomains": [
                 "tag"
             ],
             "apis": {},
-            "sites": 88,
-            "prevalence": 0.00179
+            "sites": 104,
+            "prevalence": 0.00142,
+            "cnames": []
         },
         {
             "rule": "yieldoptimizer\\.com\\/ps\\/analytics",
-            "cookies": 0.00057,
+            "cookies": 0.000698,
             "fingerprinting": 0,
             "subdomains": [
                 "tag"
             ],
             "apis": {},
-            "sites": 28,
-            "prevalence": 0.00057
-        },
-        {
-            "rule": "yieldoptimizer\\.com\\/ps\\/analytics",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tag"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 52,
+            "prevalence": 0.000712,
+            "cnames": []
         },
         {
             "rule": "yieldoptimizer\\.com\\/cs\\/c",
-            "cookies": 0.0000814,
+            "cookies": 0.000164,
             "fingerprinting": 0,
             "subdomains": [
                 "cs"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
+        },
+        {
+            "rule": "yieldoptimizer\\.com\\/ag\\/it",
+            "cookies": 0.0000958,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ag"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
             "rule": "yieldoptimizer\\.com\\/ps\\/analytics",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "tag"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "yieldoptimizer\\.com\\/ps\\/analytics",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tag"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -114,8 +112,12 @@
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00415
+    "cookies": 0.00267,
+    "types": {
+        "Script": 104,
+        "Image": 322
+    }
 }

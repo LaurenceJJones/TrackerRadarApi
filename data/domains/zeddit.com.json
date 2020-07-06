@@ -4,31 +4,74 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
-    "sites": 5,
+    "prevalence": 0.0000958,
+    "sites": 7,
     "subdomains": [
-        "app"
+        "entry",
+        "data",
+        "englishgarden"
     ],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 0,
     "resources": [
         {
-            "rule": "zeddit\\.com\\/widget\\/SetPermissionWithData",
-            "cookies": 0.0000814,
+            "rule": "zeddit\\.com\\/SetPermissionWithData",
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [
-                "app"
+                "entry"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "zeddit\\.com\\/widget\\/GetCustomWidget",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "entry"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "zeddit\\.com\\/SaveDataWithCheckPermission",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "zeddit\\.com\\/Scripts\\/embed\\/widget\\/ZITNewCanvas\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "englishgarden"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000102
+    "cookies": 0.0000958,
+    "types": {
+        "Script": 13
+    }
 }

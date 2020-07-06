@@ -4,218 +4,236 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000203,
+    "prevalence": 0.0000137,
     "sites": 1,
     "subdomains": [
         "www"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "game-debate\\.com\\/styles\\/font-icons\\.css",
-            "cookies": 0.0000407,
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/28543\\/595\\/DOOM+Eternal+most+important+graphics+options+-+every+video+setting+benchmarked",
-            "cookies": 0.0000407,
+            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/29096\\/595\\/Intel+stirs+controversy+again+by+comparing+two+different+GPUs+to+evaluate+CPU+performance",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/28545\\/595\\/DOOM+Eternal+PC+Low+vs+Ultra+Nightmare+Graphics+Comparison",
-            "cookies": 0.0000407,
+            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/29092\\/595\\/Alleged+spec+sheet+for+RTX+3080+Ti+reveals+21+TFLOPS+of+performance%2C+according+to+rumor",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/28542\\/595\\/DOOM+Eternal+PC+graphics+and+difficulty+settings+revealed",
-            "cookies": 0.0000407,
+            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/29087\\/595\\/Apple+is+officially+moving+away+from+Intel+CPUs+in+favor+of+custom+ARM+processors",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/28544\\/595\\/DOOM+Eternal+PC+performance+report+-+Graphics+card+benchmarks",
-            "cookies": 0.0000407,
+            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/29084\\/595\\/AMD+is+starting+to+make+it+easier+than+ever+to+report+hardware-related+issues",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/28553\\/595\\/Nvidia+Super+GPU%27s+and+10th+Generation+Intel+CPU%27s+coming+to+Laptops+soon",
-            "cookies": 0.0000407,
+            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/29080\\/595\\/RTX+30+series+Ampere+GPU+performance+benchmark+possibly+leaked+online%2C+as+rumors+suggest",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/28470\\/595\\/Up+for+Debate%3A+consoles+or+gaming+laptops%3F",
-            "cookies": 0.0000407,
+            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/29069\\/595\\/PS5+price+could+be+%24400-%24600+leaks+suggest%2C+former+Xbox+exec+says+no+way+more+than+%24499",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/28485\\/595\\/Dell+just+accidentally+revealed+Intel%27s+new+10th-gen+desktop+CPU%27s",
-            "cookies": 0.0000407,
+            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/29064\\/595\\/Radeon+Pro+5600M+brings+Desktop+Graphics+performance+to+Macbook+Pro+users",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/28463\\/595\\/Researchers+discover+photonic+cooling+tech+which+makes+chips+emit+more+heat+to+keep+cooler",
-            "cookies": 0.0000407,
+            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/29052\\/595\\/CPU+top+end+Ryzen+processors+improve+performance+but+same+price%2C+available+July",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/28464\\/595\\/Recommended+PC+System+Requirements+for+when+Xbox+Series+X+and+PS5+launch",
-            "cookies": 0.0000407,
+            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/29051\\/595\\/AMD+might+be+delaying+Zen+3+based+Ryzen+4000+processors+to+2021%2C+rumors+suggest",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/28440\\/595\\/AOC+unveils+240Hz+1440p+gaming+monitor+with+FreeSync+technology",
-            "cookies": 0.0000407,
+            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/29045\\/595\\/Kena%3A+Bridge+of+Spirits+PC+system+requirements+revealed",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "game-debate\\.com\\/images\\/games\\/9193\\/125x175\\/packShot\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "game-debate\\.com\\/images\\/games\\/20292\\/125x175\\/packShot\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "game-debate\\.com\\/images\\/games\\/7782\\/125x175\\/packShot\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "game-debate\\.com\\/images\\/games\\/4614\\/125x175\\/packShot\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "game-debate\\.com\\/images\\/games\\/35637\\/125x175\\/packShot\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "game-debate\\.com\\/images\\/games\\/37024\\/125x175\\/packShot\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "game-debate\\.com\\/images\\/games\\/33898\\/125x175\\/packShot\\.jpg",
-            "cookies": 0.0000407,
+            "rule": "game-debate\\.com\\/images\\/games\\/2309\\/125x175\\/packShot\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/28544\\/300",
-            "cookies": 0.0000407,
+            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/29096\\/300",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/28543\\/300",
-            "cookies": 0.0000407,
+            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/29092\\/300",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/28545\\/300",
-            "cookies": 0.0000407,
+            "rule": "game-debate\\.com\\/api\\/img\\/blog\\/top\\/29087\\/300",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 1
-    },
-    "cookies": 0.0000203
+    "performance": {},
+    "cookies": 0.0000137,
+    "types": {
+        "Stylesheet": 2,
+        "Image": 34
+    }
 }

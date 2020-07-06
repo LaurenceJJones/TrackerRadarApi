@@ -4,53 +4,48 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000183,
-    "sites": 9,
+    "prevalence": 0.000164,
+    "sites": 12,
     "subdomains": [
         "track"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "omguk\\.com\\/e\\/qs\\/",
-            "cookies": 0.0000814,
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [
                 "track"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "omguk\\.com\\/",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "track"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
             "rule": "omguk\\.com\\/pat\\/",
-            "cookies": 0.0000203,
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "track"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000142
+    "cookies": 0.000137,
+    "types": {
+        "Script": 12
+    }
 }

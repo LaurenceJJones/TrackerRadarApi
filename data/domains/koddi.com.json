@@ -4,42 +4,36 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000183,
-    "sites": 9,
+    "prevalence": 0.000041,
+    "sites": 3,
     "subdomains": [
         "beam"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "koddi\\.com\\/travel",
-            "cookies": 0.000102,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "beam"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "koddi\\.com\\/travel",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "beam"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000183
+    "cookies": 0.000041,
+    "types": {
+        "Image": 2
+    }
 }

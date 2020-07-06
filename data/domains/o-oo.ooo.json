@@ -7,25 +7,27 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
-    "sites": 5,
+    "prevalence": 0.0000274,
+    "sites": 2,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "o-oo\\.ooo\\/js\\/yxpop\\.js",
-            "cookies": 0.000102,
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Navigator.prototype.userAgent": 5,
-                "Navigator.prototype.mimeTypes": 5,
-                "Document.cookie setter": 5,
-                "Date.prototype.getTime": 5,
-                "window.localStorage": 5
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -35,5 +37,8 @@
         "cpu": 0,
         "cache": 0
     },
-    "cookies": 0.000102
+    "cookies": 0.0000274,
+    "types": {
+        "Script": 2
+    }
 }

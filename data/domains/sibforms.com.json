@@ -4,26 +4,38 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
-    "sites": 2,
+    "prevalence": 0.000151,
+    "sites": 11,
     "subdomains": [],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "sibforms\\.com\\/forms\\/end-form\\/build\\/main\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.000137,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "window.name": 2,
-                "window.devicePixelRatio": 2,
-                "window.indexedDB": 2,
-                "window.sessionStorage": 2,
-                "window.localStorage": 2,
-                "Navigator.prototype.userAgent": 1
+                "window.name": 8,
+                "window.devicePixelRatio": 8,
+                "window.indexedDB": 8,
+                "window.sessionStorage": 8,
+                "window.localStorage": 8,
+                "Navigator.prototype.userAgent": 9
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
+        },
+        {
+            "rule": "sibforms\\.com\\/forms\\/end-form\\/build\\/sib-styles\\.css",
+            "cookies": 0.0000958,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -33,5 +45,9 @@
         "cpu": 0,
         "cache": 0
     },
-    "cookies": 0.0000407
+    "cookies": 0.000151,
+    "types": {
+        "Script": 10,
+        "Stylesheet": 7
+    }
 }

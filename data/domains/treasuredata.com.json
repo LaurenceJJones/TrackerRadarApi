@@ -7,510 +7,722 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00285,
-    "sites": 140,
+    "prevalence": 0.00328,
+    "sites": 240,
     "subdomains": [
-        "cdn",
         "in",
+        "cdn",
         "cdp-tokyo.in",
         "cdp.in",
         "tokyo.in"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "treasuredata\\.com\\/sdk\\/1\\.9\\.2\\/td\\.min\\.js",
-            "cookies": 0.000366,
-            "fingerprinting": 2,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
-                "window.localStorage": 19,
-                "Document.cookie getter": 18,
-                "Date.prototype.getTime": 18,
-                "Document.cookie setter": 18,
-                "Navigator.prototype.language": 18,
-                "Navigator.prototype.userAgent": 18,
-                "Navigator.prototype.platform": 18,
-                "Screen.prototype.colorDepth": 16,
-                "Screen.prototype.width": 16,
-                "Screen.prototype.height": 16
-            },
-            "sites": 19,
-            "prevalence": 0.000386
-        },
-        {
-            "rule": "treasuredata\\.com\\/postback\\/v3\\/event\\/google\\/sync",
-            "cookies": 0.000814,
+            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/hits\\/pageviews",
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "in"
             ],
             "apis": {},
-            "sites": 40,
-            "prevalence": 0.000814
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/sdk\\/2\\.1\\/td\\.min\\.js",
+            "cookies": 0.000766,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 62,
+                "Navigator.prototype.userAgent": 61,
+                "Document.cookie getter": 56,
+                "Date.prototype.getTime": 61,
+                "Document.cookie setter": 56,
+                "Navigator.prototype.language": 59,
+                "Screen.prototype.colorDepth": 59,
+                "Screen.prototype.width": 59,
+                "Screen.prototype.height": 59,
+                "Navigator.prototype.platform": 59
+            },
+            "sites": 62,
+            "prevalence": 0.000848,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/postback\\/v3\\/event\\/google\\/sync",
+            "cookies": 0.000821,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 60,
+            "prevalence": 0.000821,
+            "cnames": []
         },
         {
             "rule": "treasuredata\\.com\\/cdp\\/lookup\\/collect\\/segments",
-            "cookies": 0.000183,
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [
                 "cdp-tokyo.in",
                 "cdp.in"
             ],
             "apis": {},
-            "sites": 9,
-            "prevalence": 0.000183
-        },
-        {
-            "rule": "treasuredata\\.com\\/sdk\\/2\\.1\\/td\\.min\\.js",
-            "cookies": 0.000692,
-            "fingerprinting": 2,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
-                "window.localStorage": 39,
-                "Navigator.prototype.userAgent": 32,
-                "Date.prototype.getTime": 38,
-                "Navigator.prototype.language": 32,
-                "Screen.prototype.colorDepth": 30,
-                "Screen.prototype.width": 30,
-                "Screen.prototype.height": 30,
-                "Navigator.prototype.platform": 32,
-                "Document.cookie getter": 34,
-                "Document.cookie setter": 34
-            },
-            "sites": 39,
-            "prevalence": 0.000793
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
             "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/aa_pro_rawlog\\/pa_pageviews_primead",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "tokyo.in"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "treasuredata\\.com\\/sdk\\/td-1\\.5\\.1\\.js",
-            "cookies": 0.000183,
+            "cookies": 0.000151,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "window.localStorage": 9,
-                "Document.cookie setter": 9,
-                "Document.cookie getter": 9,
-                "Date.prototype.getTime": 9,
-                "Navigator.prototype.language": 9,
-                "Screen.prototype.colorDepth": 9,
-                "Screen.prototype.width": 9,
-                "Screen.prototype.height": 9
+                "window.localStorage": 11,
+                "Document.cookie setter": 11,
+                "Document.cookie getter": 11,
+                "Date.prototype.getTime": 11,
+                "Navigator.prototype.language": 11,
+                "Screen.prototype.colorDepth": 11,
+                "Screen.prototype.width": 11,
+                "Screen.prototype.height": 11
             },
-            "sites": 9,
-            "prevalence": 0.000183
-        },
-        {
-            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/web_access\\/pageviews",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "in"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
         },
         {
             "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/juicer\\/trash_logs",
-            "cookies": 0.000224,
+            "cookies": 0.000151,
             "fingerprinting": 0,
             "subdomains": [
                 "in"
             ],
             "apis": {},
             "sites": 11,
-            "prevalence": 0.000224
+            "prevalence": 0.000151,
+            "cnames": []
         },
         {
             "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/juicer\\/juicertag_first_logs",
-            "cookies": 0.000224,
+            "cookies": 0.000151,
             "fingerprinting": 0,
             "subdomains": [
                 "in"
             ],
             "apis": {},
             "sites": 11,
-            "prevalence": 0.000224
+            "prevalence": 0.000151,
+            "cnames": []
         },
         {
             "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/juicer\\/juicertag_second_logs",
-            "cookies": 0.000224,
+            "cookies": 0.000151,
             "fingerprinting": 0,
             "subdomains": [
                 "in"
             ],
             "apis": {},
             "sites": 11,
-            "prevalence": 0.000224
+            "prevalence": 0.000151,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/sdk\\/1\\.9\\.2\\/td\\.min\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 28,
+                "Document.cookie getter": 22,
+                "Document.cookie setter": 22,
+                "Navigator.prototype.language": 27,
+                "Screen.prototype.colorDepth": 27,
+                "Screen.prototype.width": 27,
+                "Screen.prototype.height": 27,
+                "Navigator.prototype.userAgent": 27,
+                "Navigator.prototype.platform": 27,
+                "Date.prototype.getTime": 27
+            },
+            "sites": 29,
+            "prevalence": 0.000397,
+            "cnames": []
         },
         {
             "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/thirdparty_database\\/juicer_log",
-            "cookies": 0.000122,
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
                 "in"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
             "rule": "treasuredata\\.com\\/postback\\/v3\\/event\\/groupm_dmp\\/groupm_data",
-            "cookies": 0.000142,
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
                 "in"
             ],
             "apis": {},
             "sites": 7,
-            "prevalence": 0.000142
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
             "rule": "treasuredata\\.com\\/sdk\\/1\\.8\\.4\\/td\\.min\\.js",
-            "cookies": 0.000061,
+            "cookies": 0.0000821,
             "fingerprinting": 2,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "window.localStorage": 4,
-                "Document.cookie setter": 3,
-                "Document.cookie getter": 3,
-                "Date.prototype.getTime": 4,
-                "Navigator.prototype.language": 3,
-                "Screen.prototype.colorDepth": 3,
-                "Screen.prototype.width": 3,
-                "Screen.prototype.height": 3,
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.platform": 3
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/kakaku_master\\/td_js_pc",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "in"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "treasuredata\\.com\\/postback\\/v3\\/event\\/supership\\/sync",
-            "cookies": 0.000366,
-            "fingerprinting": 0,
-            "subdomains": [
-                "in"
-            ],
-            "apis": {},
-            "sites": 18,
-            "prevalence": 0.000366
-        },
-        {
-            "rule": "treasuredata\\.com\\/postback\\/v3\\/event\\/audienceone\\/sync",
-            "cookies": 0.00057,
-            "fingerprinting": 0,
-            "subdomains": [
-                "in"
-            ],
-            "apis": {},
-            "sites": 28,
-            "prevalence": 0.00057
-        },
-        {
-            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/resonant\\/goo_accesslog",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "in"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/media_db\\/site_access",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "in"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "treasuredata\\.com\\/postback\\/v3\\/event\\/ttd\\/sync",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "in"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/trkdb\\/audpv",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "in"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "treasuredata\\.com\\/sdk\\/2\\.1\\.0\\/td\\.min\\.js",
-            "cookies": 0.0000814,
-            "fingerprinting": 2,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
-                "window.localStorage": 4,
-                "Navigator.prototype.userAgent": 4,
-                "Document.cookie getter": 4,
-                "Date.prototype.getTime": 4,
-                "Document.cookie setter": 4,
-                "Navigator.prototype.language": 4,
-                "Screen.prototype.colorDepth": 3,
-                "Screen.prototype.width": 3,
-                "Screen.prototype.height": 3,
-                "Navigator.prototype.platform": 4
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "treasuredata\\.com\\/sdk\\/1\\.9\\.1\\/td\\.min\\.js",
-            "cookies": 0.000142,
-            "fingerprinting": 2,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
-                "window.localStorage": 8,
-                "Document.cookie getter": 7,
-                "Date.prototype.getTime": 8,
-                "Document.cookie setter": 7,
+                "window.localStorage": 7,
+                "Document.cookie setter": 6,
+                "Document.cookie getter": 6,
+                "Date.prototype.getTime": 7,
                 "Navigator.prototype.language": 7,
-                "Screen.prototype.colorDepth": 6,
-                "Screen.prototype.width": 6,
-                "Screen.prototype.height": 6,
-                "Navigator.prototype.userAgent": 7,
-                "Navigator.prototype.platform": 7
-            },
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "treasuredata\\.com\\/postback\\/v3\\/event\\/kanade\\/sync",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "in"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/popin_ads\\/adlogs",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "in"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/td_access_log\\/td_pageviews_prod",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "in"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "treasuredata\\.com\\/postback\\/v3\\/event\\/logicad\\/9304",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "in"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/sitedata\\/goonet_pageviews",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "in"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/media_dmp_db\\/goonet_access_log",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "in"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "treasuredata\\.com\\/sdk\\/2\\.2\\/td\\.min\\.js",
-            "cookies": 0.000183,
-            "fingerprinting": 2,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
-                "window.localStorage": 11,
-                "Document.cookie getter": 9,
-                "Date.prototype.getTime": 10,
-                "Document.cookie setter": 9,
-                "Navigator.prototype.language": 9,
                 "Screen.prototype.colorDepth": 7,
                 "Screen.prototype.width": 7,
                 "Screen.prototype.height": 7,
-                "Navigator.prototype.userAgent": 10,
-                "Navigator.prototype.platform": 9
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.platform": 7
             },
-            "sites": 11,
-            "prevalence": 0.000224
-        },
-        {
-            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/fca_src_dev\\/web_pageviews",
-            "cookies": 0.000142,
-            "fingerprinting": 0,
-            "subdomains": [
-                "in"
-            ],
-            "apis": {},
             "sites": 7,
-            "prevalence": 0.000142
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
-            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/cx_segments\\/pageviews",
-            "cookies": 0.0000407,
+            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/trkdb\\/audpv",
+            "cookies": 0.000164,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/postback\\/v3\\/event\\/supership\\/sync",
+            "cookies": 0.000369,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.000369,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/postback\\/v3\\/event\\/aoneweb\\/tdsync",
+            "cookies": 0.000602,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 45,
+            "prevalence": 0.000616,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/resonant\\/goo_accesslog",
+            "cookies": 0.000164,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/postback\\/v3\\/event\\/kanade\\/sync",
+            "cookies": 0.000151,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/postback\\/v3\\/event\\/logicad\\/9304",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/kakaku_master\\/td_js_pc",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "in"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "treasuredata\\.com\\/postback\\/v3\\/event\\/logly\\/sync",
-            "cookies": 0.0000407,
+            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/media_db\\/site_access",
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "in"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
-            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/mg_media\\/pageviews",
-            "cookies": 0.000061,
+            "rule": "treasuredata\\.com\\/postback\\/v3\\/event\\/ttd\\/sync",
+            "cookies": 0.000164,
             "fingerprinting": 0,
             "subdomains": [
                 "in"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
         },
         {
-            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/lake_corporate_web_tdtracking\\/weblog",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
+            "rule": "treasuredata\\.com\\/sdk\\/2\\.1\\.0\\/td\\.min\\.js",
+            "cookies": 0.000041,
+            "fingerprinting": 2,
             "subdomains": [
-                "tokyo.in"
+                "cdn"
             ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "apis": {
+                "window.localStorage": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 6,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.language": 6,
+                "Screen.prototype.colorDepth": 6,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.height": 6,
+                "Navigator.prototype.platform": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
-            "rule": "treasuredata\\.com\\/sdk\\/2\\.2\\.0\\/td\\.min\\.js",
-            "cookies": 0.0000407,
+            "rule": "treasuredata\\.com\\/sdk\\/1\\.9\\.0\\/td\\.min\\.js",
+            "cookies": 0.0000274,
             "fingerprinting": 2,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
                 "window.localStorage": 3,
-                "Navigator.prototype.userAgent": 3,
-                "Document.cookie getter": 3,
+                "Document.cookie getter": 2,
                 "Date.prototype.getTime": 3,
                 "Document.cookie setter": 2,
                 "Navigator.prototype.language": 3,
                 "Screen.prototype.colorDepth": 3,
                 "Screen.prototype.width": 3,
                 "Screen.prototype.height": 3,
+                "Navigator.prototype.userAgent": 3,
                 "Navigator.prototype.platform": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/popin_ads\\/adlogs",
+            "cookies": 0.0000684,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/sdk\\/1\\.9\\.1\\/td\\.min\\.js",
+            "cookies": 0.000109,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 9,
+                "Document.cookie getter": 8,
+                "Date.prototype.getTime": 9,
+                "Document.cookie setter": 8,
+                "Navigator.prototype.language": 7,
+                "Screen.prototype.colorDepth": 7,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.platform": 7
+            },
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/media_shogakukan\\/kotoba_dmp_shogakukan_accesslog",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/web_access\\/pageviews",
+            "cookies": 0.0000684,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/td_access_log\\/td_pageviews_prod",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/sdk\\/2\\.2\\.0\\/td\\.min\\.js",
+            "cookies": 0.0000684,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 5,
+                "Navigator.prototype.language": 5,
+                "Screen.prototype.colorDepth": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "Navigator.prototype.platform": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/sdk\\/2\\.3\\/td\\.min\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.language": 5,
+                "Screen.prototype.colorDepth": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "Navigator.prototype.platform": 5,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 2
+            },
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/datas\\/access",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/popin_media\\/errorlogs",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/sdk\\/1\\.7\\.2\\/td\\.min\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/media_dmp\\/pageviews",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/treasuredata_dmp_db\\/td_user_mapping_log",
-            "cookies": 0.0000407,
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/trs\\/access_log",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "in"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/weekly_ascii\\/weekly_ascii_all",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/sdk\\/2\\.2\\/td\\.min\\.js",
+            "cookies": 0.000192,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 17,
+                "Navigator.prototype.userAgent": 17,
+                "Document.cookie getter": 14,
+                "Date.prototype.getTime": 16,
+                "Document.cookie setter": 14,
+                "Navigator.prototype.language": 15,
+                "Screen.prototype.colorDepth": 15,
+                "Screen.prototype.width": 15,
+                "Screen.prototype.height": 15,
+                "Navigator.prototype.platform": 15
+            },
+            "sites": 17,
+            "prevalence": 0.000233,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/afpbb_weblog\\/pageview_extension",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/fca_src_dev\\/web_pageviews",
+            "cookies": 0.0000958,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/sdk\\/1\\.8\\.3\\/td\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/cx_segments\\/pageviews",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/postback\\/v3\\/event\\/logly\\/sync",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/mg_media\\/pageviews",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "in"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/011_fnn_dl_tdtracking_web\\/weblog",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tokyo.in"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/anon_ymus_log\\/ymus_web_log",
+            "cookies": 0.0000821,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tokyo.in"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "treasuredata\\.com\\/js\\/v3\\/event\\/popin_media\\/discoverylogs",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "in"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -524,5 +736,9 @@
         "cpu": 1,
         "cache": 1
     },
-    "cookies": 0.00273
+    "cookies": 0.00315,
+    "types": {
+        "Script": 300,
+        "Image": 168
+    }
 }

@@ -4,24 +4,50 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000163,
-    "sites": 8,
+    "prevalence": 0.000205,
+    "sites": 15,
     "subdomains": [
         "h",
-        "www"
+        "is"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "accesstrade\\.net\\/sp\\/rr",
-            "cookies": 0.000061,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "h"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "accesstrade\\.net\\/sp\\/cc",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "h"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "accesstrade\\.net\\/cgi-bin\\/isatV2\\/7netshopping\\/entryV2\\.cgi",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "is"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "accesstrade\\.net\\/js\\/nct\\/lp\\.min\\.js",
@@ -34,26 +60,21 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "accesstrade\\.net\\/at\\/r\\.html",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 0,
-        "size": 0,
+        "time": 1,
+        "size": 1,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000102
+    "cookies": 0.0000547,
+    "types": {
+        "Image": 4,
+        "Document": 4,
+        "Script": 2
+    }
 }

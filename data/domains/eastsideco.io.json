@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000694,
-    "sites": 3,
+    "prevalence": 0.0000958,
+    "sites": 7,
     "subdomains": [
         "contactforms"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -19,10 +20,11 @@
                 "contactforms"
             ],
             "apis": {
-                "window.localStorage": 2
+                "window.localStorage": 6
             },
-            "sites": 2,
-            "prevalence": 0.0000462
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -32,5 +34,8 @@
         "cpu": 0,
         "cache": 0
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 6
+    }
 }

@@ -4,12 +4,13 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
+    "prevalence": 0.0000274,
     "sites": 2,
     "subdomains": [
         "www"
     ],
-    "fingerprinting": 2,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "se\\.com\\/assets-search\\/guided-sdl9\\/guided\\.js",
@@ -22,7 +23,8 @@
                 "window.localStorage": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -32,5 +34,8 @@
         "cpu": 0,
         "cache": 0
     },
-    "cookies": 0.0000203
+    "cookies": 0,
+    "types": {
+        "Script": 2
+    }
 }

@@ -4,12 +4,13 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
-    "sites": 4,
+    "prevalence": 0.0000684,
+    "sites": 5,
     "subdomains": [
         "embed"
     ],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "dugout\\.com\\/v2\\/",
@@ -19,11 +20,12 @@
                 "embed"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5,
-                "Date.prototype.getTime": 5
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTime": 4
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "dugout\\.com\\/v3\\.1\\/embed\\.js",
@@ -33,26 +35,11 @@
                 "embed"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5
+                "Navigator.prototype.userAgent": 4
             },
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "dugout\\.com\\/libs\\/prebid3\\.9\\.0-vz\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "embed"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.cookieEnabled": 2,
-                "window.sessionStorage": 2,
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -62,5 +49,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Document": 4,
+        "Script": 4
+    }
 }

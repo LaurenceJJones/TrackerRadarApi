@@ -7,26 +7,39 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000183,
-    "sites": 9,
+    "prevalence": 0.000192,
+    "sites": 14,
     "subdomains": [
         "cmp"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "dreamlab\\.pl\\/static\\/cmp\\.complete\\.bundle\\.js",
-            "cookies": 0,
+            "rule": "dreamlab\\.pl\\/1746213\\/v2\\/vendor-list\\.json",
+            "cookies": 0.000192,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmp"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
+        },
+        {
+            "rule": "dreamlab\\.pl\\/static-v2\\/cmp\\.bundle\\.js",
+            "cookies": 0.000192,
             "fingerprinting": 1,
             "subdomains": [
                 "cmp"
             ],
             "apis": {
-                "Document.cookie getter": 8,
-                "Navigator.prototype.cookieEnabled": 8
+                "Navigator.prototype.cookieEnabled": 12
             },
-            "sites": 9,
-            "prevalence": 0.000183
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -36,5 +49,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0.000192,
+    "types": {
+        "XHR": 14,
+        "Script": 14
+    }
 }

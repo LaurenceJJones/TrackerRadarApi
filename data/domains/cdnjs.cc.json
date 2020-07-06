@@ -4,29 +4,27 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
-    "sites": 4,
+    "prevalence": 0.0000428,
+    "sites": 3,
     "subdomains": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "cdnjs\\.cc\\/init\\/",
-            "cookies": 0.0000814,
+            "cookies": 0.0000428,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Date.prototype.getTime": 4
+                "Date.prototype.getTime": 1
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 3,
+            "prevalence": 0.0000428
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 0
-    },
-    "cookies": 0.0000814
+    "performance": {},
+    "cookies": 0.0000428,
+    "types": {
+        "Script": 3
+    }
 }

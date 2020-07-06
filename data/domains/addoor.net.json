@@ -4,31 +4,31 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
+    "prevalence": 0.0000684,
     "sites": 5,
     "subdomains": [
         "wwc"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "addoor\\.net\\/px",
-            "cookies": 0.0000814,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "wwc"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 0
-    },
-    "cookies": 0.0000814
+    "performance": {},
+    "cookies": 0.0000547,
+    "types": {
+        "Image": 5
+    }
 }

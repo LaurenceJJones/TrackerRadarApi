@@ -4,28 +4,51 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000462,
-    "sites": 2,
+    "prevalence": 0.000109,
+    "sites": 8,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "imagetot\\.com\\/images\\/2020\\/01\\/12\\/38e7d5665a1fd9e847b2cdf08422e8c8\\.jpg",
-            "cookies": 0.0000462,
+            "rule": "imagetot\\.com\\/images\\/2020\\/06\\/23\\/16c5b98db947e645e2cd1754fee81abe\\.jpg",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000462
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
-            "rule": "imagetot\\.com\\/images\\/2020\\/01\\/11\\/b9929bc1d4bf9b277e86c6d1e7829926\\.jpg",
-            "cookies": 0.0000462,
+            "rule": "imagetot\\.com\\/images\\/2020\\/06\\/24\\/749850dbdbe5245400adaa8389ba34f3\\.jpg",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "imagetot\\.com\\/images\\/2020\\/06\\/23\\/c82857ce57e76c8764fb60618400197e\\.jpg",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "imagetot\\.com\\/images\\/2020\\/06\\/24\\/83f986b52f830b9d20f9fc479ba14d2d\\.jpg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000462
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -35,5 +58,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.0000462
+    "cookies": 0.0000684,
+    "types": {
+        "Image": 17
+    }
 }

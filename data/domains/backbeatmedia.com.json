@@ -7,23 +7,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
-    "sites": 4,
+    "prevalence": 0.000041,
+    "sites": 3,
     "subdomains": [
         "adserver1"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "backbeatmedia\\.com\\/servlet\\/ajrotator\\/253\\/0\\/viewJScript",
-            "cookies": 0.0000203,
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "adserver1"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -33,5 +35,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0000814
+    "cookies": 0.000041,
+    "types": {
+        "Script": 2
+    }
 }

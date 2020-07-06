@@ -7,17 +7,17 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000163,
+    "prevalence": 0.000109,
     "sites": 8,
     "subdomains": [
         "bestlifeonline",
+        "cdn-star0",
         "eatthis",
         "cdn-ok0",
         "cdn-radar0",
-        "cdn-bikemag",
-        "cdn-neq0",
-        "cdn-surfer"
+        "cdn-bikemag"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -26,14 +26,16 @@
             "fingerprinting": 1,
             "subdomains": [
                 "bestlifeonline",
+                "cdn-star0",
                 "eatthis"
             ],
             "apis": {
-                "Navigator.prototype.appVersion": 1,
-                "Navigator.prototype.userAgent": 1
+                "Navigator.prototype.appVersion": 3,
+                "Navigator.prototype.userAgent": 3
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "heartyhosting\\.com\\/wp-content\\/cache\\/minify\\/000000\\/M9bPKixNLarUMYYydHMz04sSS1L1cjPzAA\\.js",
@@ -42,24 +44,27 @@
             "subdomains": [
                 "cdn-ok0",
                 "cdn-radar0",
-                "cdn-bikemag",
-                "cdn-neq0",
-                "cdn-surfer"
+                "cdn-bikemag"
             ],
             "apis": {
-                "Element.prototype.getClientRects": 5,
+                "Navigator.prototype.userAgent": 3,
+                "Element.prototype.getClientRects": 3,
                 "Event.prototype.timeStamp": 2
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 2,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.0000203
+    "cookies": 0,
+    "types": {
+        "Script": 6
+    }
 }

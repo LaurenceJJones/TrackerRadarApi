@@ -4,100 +4,111 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000122,
-    "sites": 6,
+    "prevalence": 0.0000684,
+    "sites": 5,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "vird\\.co\\/banner\\/togelup\\.gif",
-            "cookies": 0.000122,
+            "rule": "vird\\.co\\/banner\\/garasitogel\\.gif",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "vird\\.co\\/banner\\/garasitogel\\.gif",
-            "cookies": 0.0000203,
+            "rule": "vird\\.co\\/banner\\/togelup\\.gif",
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "vird\\.co\\/banner\\/dingdongcasino\\.gif",
-            "cookies": 0.000061,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "vird\\.co\\/banner\\/goltogel\\.gif",
-            "cookies": 0.000061,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "vird\\.co\\/banner\\/jonitogel\\.gif",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "vird\\.co\\/banner\\/udintogel\\.gif",
-            "cookies": 0.000061,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "vird\\.co\\/banner\\/dingdongtogel\\.gif",
-            "cookies": 0.000061,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "vird\\.co\\/banner\\/gengtoto\\.gif",
-            "cookies": 0.000061,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "vird\\.co\\/banner\\/linetogel\\.gif",
-            "cookies": 0.000061,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "vird\\.co\\/banner\\/hometogel\\.gif",
-            "cookies": 0.000061,
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "vird\\.co\\/banner\\/jonitogel\\.gif",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -107,5 +118,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.000122
+    "cookies": 0.0000684,
+    "types": {
+        "Image": 40
+    }
 }

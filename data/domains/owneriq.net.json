@@ -7,56 +7,61 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0548,
-    "sites": 2693,
+    "prevalence": 0.0473,
+    "sites": 3457,
     "subdomains": [
         "px"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "owneriq\\.net\\/eox",
-            "cookies": 0.00531,
-            "fingerprinting": 0,
-            "subdomains": [
-                "px"
-            ],
-            "apis": {},
-            "sites": 264,
-            "prevalence": 0.00537
-        },
-        {
-            "rule": "owneriq\\.net\\/eucm\\/p\\/stc",
-            "cookies": 0.00277,
-            "fingerprinting": 0,
-            "subdomains": [
-                "px"
-            ],
-            "apis": {},
-            "sites": 137,
-            "prevalence": 0.00279
-        },
-        {
             "rule": "owneriq\\.net\\/eucm\\/p\\/lc",
-            "cookies": 0.00148,
+            "cookies": 0.00175,
             "fingerprinting": 0,
             "subdomains": [
                 "px"
             ],
             "apis": {},
-            "sites": 73,
-            "prevalence": 0.00148
+            "sites": 129,
+            "prevalence": 0.00177,
+            "cnames": []
+        },
+        {
+            "rule": "owneriq\\.net\\/eucm\\/p\\/cc",
+            "cookies": 0.00951,
+            "fingerprinting": 0,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {},
+            "sites": 701,
+            "prevalence": 0.00959,
+            "cnames": []
         },
         {
             "rule": "owneriq\\.net\\/epm",
-            "cookies": 0.0292,
+            "cookies": 0.0217,
             "fingerprinting": 0,
             "subdomains": [
                 "px"
             ],
             "apis": {},
-            "sites": 1437,
-            "prevalence": 0.0292
+            "sites": 1591,
+            "prevalence": 0.0218,
+            "cnames": []
+        },
+        {
+            "rule": "owneriq\\.net\\/ecmg",
+            "cookies": 0.0095,
+            "fingerprinting": 0,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {},
+            "sites": 717,
+            "prevalence": 0.00981,
+            "cnames": []
         },
         {
             "rule": "owneriq\\.net\\/stas\\/s\\/sholic\\.js",
@@ -66,109 +71,161 @@
                 "px"
             ],
             "apis": {
-                "Date.prototype.getTime": 111
+                "Date.prototype.getTime": 156
             },
-            "sites": 113,
-            "prevalence": 0.0023
+            "sites": 160,
+            "prevalence": 0.00219,
+            "cnames": []
         },
         {
             "rule": "owneriq\\.net\\/eps",
-            "cookies": 0.00476,
+            "cookies": 0.00409,
             "fingerprinting": 0,
             "subdomains": [
                 "px"
             ],
             "apis": {},
-            "sites": 234,
-            "prevalence": 0.00476
+            "sites": 299,
+            "prevalence": 0.00409,
+            "cnames": []
         },
         {
             "rule": "owneriq\\.net\\/ep",
-            "cookies": 0.00478,
+            "cookies": 0.0041,
             "fingerprinting": 0,
             "subdomains": [
                 "px"
             ],
             "apis": {},
-            "sites": 235,
-            "prevalence": 0.00478
+            "sites": 302,
+            "prevalence": 0.00413,
+            "cnames": []
         },
         {
             "rule": "owneriq\\.net\\/cm",
-            "cookies": 0.00472,
+            "cookies": 0.00391,
             "fingerprinting": 0,
             "subdomains": [
                 "px"
             ],
             "apis": {},
-            "sites": 232,
-            "prevalence": 0.00472
+            "sites": 287,
+            "prevalence": 0.00393,
+            "cnames": []
+        },
+        {
+            "rule": "owneriq\\.net\\/eox",
+            "cookies": 0.0026,
+            "fingerprinting": 0,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {},
+            "sites": 198,
+            "prevalence": 0.00271,
+            "cnames": []
         },
         {
             "rule": "owneriq\\.net\\/eucm\\/p\\/cwc",
-            "cookies": 0.00256,
+            "cookies": 0.00213,
             "fingerprinting": 0,
             "subdomains": [
                 "px"
             ],
             "apis": {},
-            "sites": 127,
-            "prevalence": 0.00258
-        },
-        {
-            "rule": "owneriq\\.net\\/ecmg",
-            "cookies": 0.0121,
-            "fingerprinting": 0,
-            "subdomains": [
-                "px"
-            ],
-            "apis": {},
-            "sites": 595,
-            "prevalence": 0.0121
+            "sites": 157,
+            "prevalence": 0.00215,
+            "cnames": []
         },
         {
             "rule": "owneriq\\.net\\/eucm\\/p\\/kc",
-            "cookies": 0.000163,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "px"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "owneriq\\.net\\/eucm\\/p\\/adpq",
-            "cookies": 0.00128,
+            "cookies": 0.000739,
             "fingerprinting": 0,
             "subdomains": [
                 "px"
             ],
             "apis": {},
-            "sites": 63,
-            "prevalence": 0.00128
+            "sites": 55,
+            "prevalence": 0.000753,
+            "cnames": []
         },
         {
-            "rule": "owneriq\\.net\\/eucm\\/p\\/cc",
-            "cookies": 0.00167,
+            "rule": "owneriq\\.net\\/eucm\\/p\\/stc",
+            "cookies": 0.00122,
             "fingerprinting": 0,
             "subdomains": [
                 "px"
             ],
             "apis": {},
-            "sites": 83,
-            "prevalence": 0.00169
+            "sites": 89,
+            "prevalence": 0.00122,
+            "cnames": []
+        },
+        {
+            "rule": "owneriq\\.net\\/stas\\/s\\/0xuaty\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "owneriq\\.net\\/eucm\\/p\\/apndmp",
-            "cookies": 0.00262,
+            "cookies": 0.00192,
             "fingerprinting": 0,
             "subdomains": [
                 "px"
             ],
             "apis": {},
-            "sites": 130,
-            "prevalence": 0.00264
+            "sites": 141,
+            "prevalence": 0.00193,
+            "cnames": []
+        },
+        {
+            "rule": "owneriq\\.net\\/stas\\/s\\/cxbsu3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "owneriq\\.net\\/stas\\/s\\/lqxkzz\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "owneriq\\.net\\/stas\\/s\\/ch2y34\\.js",
@@ -178,10 +235,25 @@
                 "px"
             ],
             "apis": {
+                "Date.prototype.getTime": 4
+            },
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "owneriq\\.net\\/stas\\/s\\/bmsfla\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {
                 "Date.prototype.getTime": 2
             },
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "owneriq\\.net\\/stas\\/s\\/cxvpdq\\.js",
@@ -194,20 +266,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "owneriq\\.net\\/stas\\/s\\/8e09rd\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "px"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "owneriq\\.net\\/stas\\/s\\/crutch\\.js",
@@ -220,18 +280,62 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "owneriq\\.net\\/eucm\\/p\\/bk",
-            "cookies": 0.0000814,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "px"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "owneriq\\.net\\/stas\\/s\\/7kxod6\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "owneriq\\.net\\/stas\\/s\\/h4clgn\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "owneriq\\.net\\/stas\\/s\\/ag3rxq\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "owneriq\\.net\\/stas\\/s\\/mqhhas\\.js",
@@ -244,10 +348,35 @@
                 "Date.prototype.getTime": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "owneriq\\.net\\/stas\\/s\\/cwnqfb\\.js",
+            "rule": "owneriq\\.net\\/eopit",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "owneriq\\.net\\/eopct",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "owneriq\\.net\\/stas\\/s\\/a8fo9g\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -257,10 +386,25 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "owneriq\\.net\\/stas\\/s\\/0frxgz\\.js",
+            "rule": "owneriq\\.net\\/stas\\/s\\/cx28p1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "owneriq\\.net\\/stas\\/s\\/df1soy\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -270,7 +414,36 @@
                 "Date.prototype.getTime": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "owneriq\\.net\\/stas\\/s\\/fu9pl3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "owneriq\\.net\\/stas\\/s\\/h36ay3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "owneriq\\.net\\/stas\\/s\\/8g8ylk\\.js",
@@ -283,7 +456,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "owneriq\\.net\\/stas\\/s\\/76930u\\.js",
@@ -296,10 +470,11 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "owneriq\\.net\\/stas\\/s\\/df1soy\\.js",
+            "rule": "owneriq\\.net\\/stas\\/s\\/fepa2o\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -309,7 +484,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -324,5 +500,10 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.0546
+    "cookies": 0.0468,
+    "types": {
+        "Image": 2780,
+        "Document": 1894,
+        "Script": 209
+    }
 }

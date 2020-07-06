@@ -7,108 +7,77 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000753,
-    "sites": 37,
+    "prevalence": 0.00026,
+    "sites": 19,
     "subdomains": [
         "www1"
     ],
-    "fingerprinting": 0,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "mpnrs\\.com\\/deliver2\\/deliver2",
-            "cookies": 0.00057,
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [
                 "www1"
             ],
             "apis": {},
-            "sites": 28,
-            "prevalence": 0.00057
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
             "rule": "mpnrs\\.com\\/deliver2\\/deliver2",
-            "cookies": 0.000163,
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [
                 "www1"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "mpnrs\\.com\\/tracker\\/tracker2\\/ada\\.2\\/adc\\.36005\\/adm\\.75217\\/adl\\.15969\\/ads\\.10078\\/",
-            "cookies": 0.000142,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www1"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
             "rule": "mpnrs\\.com\\/deliver2\\/trg\\/trg\\.gif",
-            "cookies": 0.000122,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "www1"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
-            "rule": "mpnrs\\.com\\/tracker\\/tracker2\\/ada\\.2\\/adc\\.36005\\/adm\\.75218\\/adl\\.15969\\/ads\\.10078\\/",
-            "cookies": 0.000305,
-            "fingerprinting": 0,
+            "rule": "mpnrs\\.com\\/admdel\\/admaxxpop2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
             "subdomains": [
                 "www1"
             ],
-            "apis": {},
-            "sites": 15,
-            "prevalence": 0.000305
-        },
-        {
-            "rule": "mpnrs\\.com\\/tracker\\/tracker2\\/ada\\.2\\/adc\\.36005\\/adm\\.75200\\/adl\\.15969\\/ads\\.10078\\/",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www1"
-            ],
-            "apis": {},
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2
+            },
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "mpnrs\\.com\\/tracker\\/tracker2\\/ada\\.2\\/adc\\.36005\\/adm\\.75216\\/adl\\.15969\\/ads\\.10078\\/",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www1"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "mpnrs\\.com\\/tracker\\/tracker2\\/ada\\.2\\/adc\\.36005\\/adm\\.75201\\/adl\\.15969\\/ads\\.10078\\/",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www1"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000753
+    "cookies": 0.00026,
+    "types": {
+        "Script": 12,
+        "Document": 10,
+        "Image": 5
+    }
 }

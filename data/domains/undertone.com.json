@@ -9,8 +9,8 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0106,
-    "sites": 519,
+    "prevalence": 0.0118,
+    "sites": 864,
     "subdomains": [
         "hb",
         "usr",
@@ -18,40 +18,44 @@
         "cdn",
         "evt"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "undertone\\.com\\/hb",
-            "cookies": 0.00378,
+            "cookies": 0.00326,
             "fingerprinting": 0,
             "subdomains": [
                 "hb"
             ],
             "apis": {},
-            "sites": 416,
-            "prevalence": 0.00846
+            "sites": 729,
+            "prevalence": 0.00997,
+            "cnames": []
         },
         {
             "rule": "undertone\\.com\\/userPixel\\/sync",
-            "cookies": 0.00386,
+            "cookies": 0.00428,
             "fingerprinting": 0,
             "subdomains": [
                 "usr"
             ],
             "apis": {},
-            "sites": 193,
-            "prevalence": 0.00393
+            "sites": 314,
+            "prevalence": 0.0043,
+            "cnames": []
         },
         {
-            "rule": "undertone\\.com\\/u",
-            "cookies": 0.00059,
+            "rule": "undertone\\.com\\/ax",
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
-            "sites": 34,
-            "prevalence": 0.000692
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "undertone\\.com\\/js\\/ajs\\.js",
@@ -61,73 +65,67 @@
                 "cdn"
             ],
             "apis": {
-                "Date.prototype.getTime": 61,
-                "Date.prototype.getTimezoneOffset": 61,
-                "Navigator.prototype.appVersion": 55,
-                "Navigator.prototype.userAgent": 55,
-                "Navigator.prototype.plugins": 55,
-                "Screen.prototype.availWidth": 61,
-                "Screen.prototype.availHeight": 61
+                "Date.prototype.getTime": 74,
+                "Date.prototype.getTimezoneOffset": 74,
+                "Navigator.prototype.appVersion": 53,
+                "Navigator.prototype.userAgent": 53,
+                "Navigator.prototype.plugins": 53,
+                "Screen.prototype.availWidth": 74,
+                "Screen.prototype.availHeight": 74
             },
-            "sites": 62,
-            "prevalence": 0.00126
+            "sites": 74,
+            "prevalence": 0.00101,
+            "cnames": []
         },
         {
             "rule": "undertone\\.com\\/dj",
-            "cookies": 0.00122,
+            "cookies": 0.000876,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
-            "sites": 60,
-            "prevalence": 0.00122
-        },
-        {
-            "rule": "undertone\\.com\\/ax",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "undertone\\.com\\/f",
-            "cookies": 0.000224,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
+            "sites": 64,
+            "prevalence": 0.000876,
+            "cnames": []
         },
         {
             "rule": "undertone\\.com\\/t",
-            "cookies": 0.0000203,
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "ads",
                 "evt"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "undertone\\.com\\/aj",
+            "cookies": 0.000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
             "rule": "undertone\\.com\\/t",
-            "cookies": 0.0000203,
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "ads",
                 "evt"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [
@@ -140,5 +138,11 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00773
+    "cookies": 0.00876,
+    "types": {
+        "XHR": 733,
+        "Image": 314,
+        "Script": 152,
+        "Fetch": 4
+    }
 }

@@ -7,23 +7,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000203,
+    "prevalence": 0.0000137,
     "sites": 1,
     "subdomains": [
         "radio"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "erfm\\.fr\\/static\\/default-black\\.png",
-            "cookies": 0.0000203,
+            "rule": "erfm\\.fr\\/cover\\.10471\\.png",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "radio"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -33,5 +35,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0000203
+    "cookies": 0.0000137,
+    "types": {
+        "Image": 2
+    }
 }

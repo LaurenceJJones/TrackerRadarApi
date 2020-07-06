@@ -9,123 +9,119 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0177,
-    "sites": 869,
+    "prevalence": 0.0168,
+    "sites": 1228,
     "subdomains": [
         "inv-nets",
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "admixer\\.net\\/adxcm\\.aspx",
-            "cookies": 0.0155,
+            "cookies": 0.0137,
             "fingerprinting": 0,
             "subdomains": [
                 "inv-nets"
             ],
             "apis": {},
-            "sites": 763,
-            "prevalence": 0.0155
+            "sites": 1004,
+            "prevalence": 0.0137,
+            "cnames": []
         },
         {
             "rule": "admixer\\.net\\/adxcm\\.aspx",
-            "cookies": 0.00195,
+            "cookies": 0.00324,
             "fingerprinting": 0,
             "subdomains": [
                 "inv-nets"
             ],
             "apis": {},
-            "sites": 97,
-            "prevalence": 0.00197
+            "sites": 237,
+            "prevalence": 0.00324,
+            "cnames": []
         },
         {
-            "rule": "admixer\\.net\\/c\\.html",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "inv-nets"
-            ],
-            "apis": {
-                "window.localStorage": 15
-            },
-            "sites": 15,
-            "prevalence": 0.000305
-        },
-        {
-            "rule": "admixer\\.net\\/scripts3\\/2d4f3ae5c9e9947ae5b1\\.b\\.js",
+            "rule": "admixer\\.net\\/scripts3\\/7108007011f59fceb7cc\\.b\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 15,
-                "window.localStorage": 15,
-                "Date.prototype.getTime": 15,
+                "Navigator.prototype.userAgent": 14,
+                "window.localStorage": 14,
+                "Date.prototype.getTime": 14,
                 "Screen.prototype.width": 12,
                 "Screen.prototype.height": 12,
-                "Document.cookie getter": 13
+                "Document.cookie getter": 12
             },
-            "sites": 15,
-            "prevalence": 0.000305
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
         },
         {
             "rule": "admixer\\.net\\/prebid\\.1\\.0\\.aspx",
-            "cookies": 0.000305,
+            "cookies": 0.00026,
             "fingerprinting": 0,
             "subdomains": [
                 "inv-nets"
             ],
             "apis": {},
-            "sites": 15,
-            "prevalence": 0.000305
+            "sites": 21,
+            "prevalence": 0.000287,
+            "cnames": []
         },
         {
             "rule": "admixer\\.net\\/dsp\\.aspx",
-            "cookies": 0.000224,
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [
                 "inv-nets"
             ],
             "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "admixer\\.net\\/scripts3\\/2be113bc30a6ff9092d9\\.b\\.js",
+            "rule": "admixer\\.net\\/scripts3\\/d953fc270c9972f8c0ce\\.b\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "Date.prototype.getTime": 11
+                "Date.prototype.getTime": 10
             },
-            "sites": 11,
-            "prevalence": 0.000224
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
             "rule": "admixer\\.net\\/gadx\\/cm\\.aspx",
-            "cookies": 0.000224,
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [
                 "inv-nets"
             ],
             "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
             "rule": "admixer\\.net\\/bs\\/cm\\.aspx",
-            "cookies": 0.000325,
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [
                 "inv-nets"
             ],
             "apis": {},
-            "sites": 16,
-            "prevalence": 0.000325
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         }
     ],
     "categories": [
@@ -136,7 +132,13 @@
         "time": 1,
         "size": 1,
         "cpu": 0,
-        "cache": 3
+        "cache": 1
     },
-    "cookies": 0.0175
+    "cookies": 0.0167,
+    "types": {
+        "Image": 1024,
+        "Document": 237,
+        "Script": 34,
+        "XHR": 21
+    }
 }

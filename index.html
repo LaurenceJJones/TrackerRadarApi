@@ -9,7 +9,7 @@
 
 <body>
     <div id="app">
-        <section>
+        <section class="container">
             <b-radio @click.native="name.length > 0 ? selectName(name) : null" v-model="checkOption" name="name"
                 native-value="None">
                 None
@@ -22,13 +22,13 @@
                 native-value="Combine">
                 Combine
             </b-radio>
-            {{fetchUrl}}
             <b-field label="Find a tracker name">
                 <b-autocomplete rounded v-model="name" :data="filteredDataArray" :loading="loading" @typing="getNames"
                     clearable @select="selectName">
                     <template slot="empty">No results found</template>
                 </b-autocomplete>
             </b-field>
+            <p><strong>Endpoint:</strong> {{fetchUrl}}</p>
             {{selectData}}
         </section>
     </div>
@@ -52,16 +52,13 @@
             },
             methods: {
                 async getNames(name) {
-                    if (!name.length) {
+                    if (name.length < 1) {
                         this.data = []
                         return
                     }
                     this.loading = true;
                     await axios.get('/api/rest').then((res) => {
-                            this.data = [];
-                            res.data.data.forEach(element => {
-                                this.data.push(element)
-                            });
+                            this.data = [...res.data.data];
                         })
                         .catch((error) => {
                             console.error(error)
@@ -69,7 +66,7 @@
                             throw error
                         })
                         .finally(() => {
-                            this.isFetching = false
+                            this.loading = false
                         })
                 },
                 selectName(option) {

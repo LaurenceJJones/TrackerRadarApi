@@ -7,81 +7,114 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000163,
-    "sites": 8,
+    "prevalence": 0.000219,
+    "sites": 16,
     "subdomains": [
         "cryptoslate",
         "cyclingtips",
+        "farnamstreet",
         "humanevents",
         "jsonlint",
+        "pistolsfiring",
+        "podcastnotes",
         "politicalwire",
+        "projectcamelot",
+        "reclaimthenet",
         "spaceflightnow",
+        "spells8",
+        "stratechery",
         "warontherocks",
+        "cartoonbrew",
         "ogt",
         "assets"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "memberful\\.com\\/turbolinks_preload",
-            "cookies": 0.000163,
+            "cookies": 0.000219,
             "fingerprinting": 1,
             "subdomains": [
                 "cryptoslate",
                 "cyclingtips",
+                "farnamstreet",
                 "humanevents",
                 "jsonlint",
+                "pistolsfiring",
+                "podcastnotes",
                 "politicalwire",
+                "projectcamelot",
+                "reclaimthenet",
                 "spaceflightnow",
+                "spells8",
+                "stratechery",
                 "warontherocks",
+                "cartoonbrew",
                 "ogt"
             ],
             "apis": {
-                "Date.prototype.getTime": 8,
-                "Navigator.prototype.userAgent": 3,
-                "PerformanceTiming.prototype.navigationStart": 3
-            },
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "memberful\\.com\\/assets\\/reach-cc3f22f9649844585bc376c20b35fce10b29934bfba76335c4ece631ca10c025\\.js",
-            "cookies": 0.000163,
-            "fingerprinting": 1,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {
-                "Event.prototype.timeStamp": 8,
-                "window.sessionStorage": 8
-            },
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "memberful\\.com\\/packs\\/js\\/member-a5275c35d0d3d24ac280\\.js",
-            "cookies": 0.000163,
-            "fingerprinting": 1,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {
+                "Date.prototype.getTime": 16,
                 "Navigator.prototype.userAgent": 5,
-                "Event.prototype.timeStamp": 5
+                "PerformanceTiming.prototype.navigationStart": 5
             },
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
         },
         {
-            "rule": "memberful\\.com\\/assets\\/reach\\/style-02d2d482be2c23475afb60e8fd2a7a7f9f900ef51486354d412322805ccc6d88\\.css",
-            "cookies": 0.000163,
+            "rule": "memberful\\.com\\/assets\\/reach-4f7ad308e8eaf0467d0f0e62cf34fee6d4cdb9294b65a8bf7b82d9b1278b99b8\\.js",
+            "cookies": 0.000219,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Event.prototype.timeStamp": 16,
+                "window.sessionStorage": 16
+            },
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
+        },
+        {
+            "rule": "memberful\\.com\\/packs\\/css\\/member-fa9133f6\\.css",
+            "cookies": 0.000219,
             "fingerprinting": 0,
             "subdomains": [
                 "assets"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
+        },
+        {
+            "rule": "memberful\\.com\\/packs\\/js\\/member-794bf7422858e30b552b\\.js",
+            "cookies": 0.000219,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 13,
+                "Event.prototype.timeStamp": 13
+            },
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
+        },
+        {
+            "rule": "memberful\\.com\\/assets\\/reach\\/style-d05a0bdfca118217b313fd4b4ac31a61b4ab6af76b0323f3dd341dad55b320d1\\.css",
+            "cookies": 0.000219,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -89,7 +122,12 @@
         "time": 1,
         "size": 1,
         "cpu": 0,
-        "cache": 3
+        "cache": 1
     },
-    "cookies": 0.000163
+    "cookies": 0.000219,
+    "types": {
+        "Document": 16,
+        "Script": 32,
+        "Stylesheet": 32
+    }
 }

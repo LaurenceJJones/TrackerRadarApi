@@ -4,34 +4,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000116,
-    "sites": 5,
+    "prevalence": 0.0000547,
+    "sites": 4,
     "subdomains": [
         "www"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "pornhdvideos\\.net\\/media\\/videos\\/10000\\/1000\\/natural-busty-fitness-teen-in-yoga-pants\\.jpg",
-            "cookies": 0.0000462,
+            "rule": "pornhdvideos\\.net\\/favicon\\.ico",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000462
-        },
-        {
-            "rule": "pornhdvideos\\.net\\/media\\/videos\\/10000\\/1000\\/ladyboy-gangbang-rape\\.jpg",
-            "cookies": 0.0000462,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000462
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -39,7 +30,10 @@
         "time": 1,
         "size": 1,
         "cpu": 0,
-        "cache": 1
+        "cache": 3
     },
-    "cookies": 0.000116
+    "cookies": 0.000041,
+    "types": {
+        "Image": 3
+    }
 }

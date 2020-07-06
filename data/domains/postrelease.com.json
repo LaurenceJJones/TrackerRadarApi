@@ -9,208 +9,205 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0156,
-    "sites": 769,
+    "prevalence": 0.0136,
+    "sites": 994,
     "subdomains": [
-        "jadserve",
-        "a"
+        "jadserve"
     ],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 0,
     "resources": [
         {
             "rule": "postrelease\\.com\\/dmp\\/5",
-            "cookies": 0.00297,
+            "cookies": 0.00224,
             "fingerprinting": 0,
             "subdomains": [
                 "jadserve"
             ],
             "apis": {},
-            "sites": 147,
-            "prevalence": 0.00299
+            "sites": 165,
+            "prevalence": 0.00226,
+            "cnames": []
         },
         {
             "rule": "postrelease\\.com\\/t",
-            "cookies": 0.0118,
+            "cookies": 0.0097,
             "fingerprinting": 0,
             "subdomains": [
                 "jadserve"
             ],
             "apis": {},
-            "sites": 580,
-            "prevalence": 0.0118
+            "sites": 716,
+            "prevalence": 0.0098,
+            "cnames": []
         },
         {
             "rule": "postrelease\\.com\\/trk\\.gif",
-            "cookies": 0.01,
+            "cookies": 0.00727,
             "fingerprinting": 0,
             "subdomains": [
                 "jadserve"
             ],
             "apis": {},
-            "sites": 521,
-            "prevalence": 0.0106
+            "sites": 616,
+            "prevalence": 0.00843,
+            "cnames": []
         },
         {
             "rule": "postrelease\\.com\\/t\\.json",
-            "cookies": 0.000102,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "jadserve"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "postrelease\\.com\\/suid\\/1011",
-            "cookies": 0.000122,
+            "rule": "postrelease\\.com\\/dmp\\/7",
+            "cookies": 0.00052,
             "fingerprinting": 0,
             "subdomains": [
                 "jadserve"
             ],
             "apis": {},
-            "sites": 12,
-            "prevalence": 0.000244
+            "sites": 38,
+            "prevalence": 0.00052,
+            "cnames": []
         },
         {
-            "rule": "postrelease\\.com\\/gdprConsent",
-            "cookies": 0.000305,
+            "rule": "postrelease\\.com\\/rt\\.gif",
+            "cookies": 0.00041,
             "fingerprinting": 0,
             "subdomains": [
                 "jadserve"
             ],
             "apis": {},
             "sites": 30,
-            "prevalence": 0.00061
+            "prevalence": 0.00041,
+            "cnames": []
         },
         {
-            "rule": "postrelease\\.com\\/suid\\/1009",
-            "cookies": 0.000224,
-            "fingerprinting": 0,
-            "subdomains": [
-                "jadserve"
-            ],
-            "apis": {},
-            "sites": 16,
-            "prevalence": 0.000325
-        },
-        {
-            "rule": "postrelease\\.com\\/dmp\\/7",
-            "cookies": 0.00059,
-            "fingerprinting": 0,
-            "subdomains": [
-                "jadserve"
-            ],
-            "apis": {},
-            "sites": 29,
-            "prevalence": 0.00059
-        },
-        {
-            "rule": "postrelease\\.com\\/serve\\/load\\.js",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "a"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2,
-                "window.sessionStorage": 2,
-                "window.localStorage": 2,
-                "Document.cookie getter": 2,
-                "PerformanceTiming.prototype.navigationStart": 2,
-                "Document.cookie setter": 2,
-                "Navigator.prototype.userAgent": 1
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "postrelease\\.com\\/hb\\.gif",
-            "cookies": 0.000102,
+            "rule": "postrelease\\.com\\/contentQTracking",
+            "cookies": 0.000109,
             "fingerprinting": 0,
             "subdomains": [
                 "jadserve"
             ],
             "apis": {},
             "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "postrelease\\.com\\/dmp\\/2",
-            "cookies": 0.000854,
-            "fingerprinting": 0,
-            "subdomains": [
-                "jadserve"
-            ],
-            "apis": {},
-            "sites": 42,
-            "prevalence": 0.000854
-        },
-        {
-            "rule": "postrelease\\.com\\/conversion",
-            "cookies": 0.000183,
-            "fingerprinting": 0,
-            "subdomains": [
-                "jadserve"
-            ],
-            "apis": {},
-            "sites": 9,
-            "prevalence": 0.000183
-        },
-        {
-            "rule": "postrelease\\.com\\/suid\\/1017",
-            "cookies": 0.000386,
-            "fingerprinting": 0,
-            "subdomains": [
-                "jadserve"
-            ],
-            "apis": {},
-            "sites": 19,
-            "prevalence": 0.000386
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
             "rule": "postrelease\\.com\\/display\\.js",
-            "cookies": 0.000122,
+            "cookies": 0.000109,
             "fingerprinting": 0,
             "subdomains": [
                 "jadserve"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
-            "rule": "postrelease\\.com\\/rt\\.gif",
-            "cookies": 0.000427,
+            "rule": "postrelease\\.com\\/suid\\/1009",
+            "cookies": 0.000219,
             "fingerprinting": 0,
             "subdomains": [
                 "jadserve"
             ],
             "apis": {},
             "sites": 22,
-            "prevalence": 0.000448
+            "prevalence": 0.000301,
+            "cnames": []
+        },
+        {
+            "rule": "postrelease\\.com\\/suid\\/1011",
+            "cookies": 0.000109,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jadserve"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
+        },
+        {
+            "rule": "postrelease\\.com\\/hb\\.gif",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jadserve"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "postrelease\\.com\\/gdprConsent",
+            "cookies": 0.000151,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jadserve"
+            ],
+            "apis": {},
+            "sites": 30,
+            "prevalence": 0.00041,
+            "cnames": []
         },
         {
             "rule": "postrelease\\.com\\/nativoIQ",
-            "cookies": 0.0000814,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "jadserve"
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.0000814
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "postrelease\\.com\\/contentQTracking",
-            "cookies": 0.0000814,
+            "rule": "postrelease\\.com\\/dmp\\/2",
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [
                 "jadserve"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "postrelease\\.com\\/conversion",
+            "cookies": 0.000109,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jadserve"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
+        },
+        {
+            "rule": "postrelease\\.com\\/suid\\/1017",
+            "cookies": 0.000739,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jadserve"
+            ],
+            "apis": {},
+            "sites": 54,
+            "prevalence": 0.000739,
+            "cnames": []
         }
     ],
     "categories": [
@@ -221,8 +218,13 @@
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0156
+    "cookies": 0.0134,
+    "types": {
+        "Image": 992,
+        "Script": 724,
+        "XHR": 17
+    }
 }

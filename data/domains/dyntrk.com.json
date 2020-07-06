@@ -7,182 +7,139 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0235,
-    "sites": 1157,
+    "prevalence": 0.0258,
+    "sites": 1882,
     "subdomains": [
+        "gu",
         "c.eu1",
         "c.us1",
-        "gu",
         "t.us1",
-        "n.ap1"
+        "n.us1"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
+            "rule": "dyntrk\\.com\\/adx\\/ie\\/us\\.php",
+            "cookies": 0.00877,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gu"
+            ],
+            "apis": {},
+            "sites": 654,
+            "prevalence": 0.00895,
+            "cnames": []
+        },
+        {
             "rule": "dyntrk\\.com\\/adx\\/ga\\/us\\.php",
-            "cookies": 0.0166,
+            "cookies": 0.0131,
             "fingerprinting": 0,
             "subdomains": [
                 "c.eu1",
                 "c.us1"
             ],
             "apis": {},
-            "sites": 823,
-            "prevalence": 0.0167
+            "sites": 981,
+            "prevalence": 0.0134,
+            "cnames": []
         },
         {
             "rule": "dyntrk\\.com\\/adx\\/ox\\/us\\.php",
-            "cookies": 0.00175,
+            "cookies": 0.000848,
             "fingerprinting": 0,
             "subdomains": [
                 "gu"
             ],
             "apis": {},
-            "sites": 90,
-            "prevalence": 0.00183
-        },
-        {
-            "rule": "dyntrk\\.com\\/adx\\/ie\\/us\\.php",
-            "cookies": 0.00134,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gu"
-            ],
-            "apis": {},
-            "sites": 67,
-            "prevalence": 0.00136
+            "sites": 68,
+            "prevalence": 0.00093,
+            "cnames": []
         },
         {
             "rule": "dyntrk\\.com\\/adx\\/lkqd\\/us\\.php",
-            "cookies": 0.00161,
+            "cookies": 0.0012,
             "fingerprinting": 0,
             "subdomains": [
                 "gu"
             ],
             "apis": {},
-            "sites": 79,
-            "prevalence": 0.00161
-        },
-        {
-            "rule": "dyntrk\\.com\\/adx\\/id\\/us\\.php",
-            "cookies": 0.000468,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gu"
-            ],
-            "apis": {},
-            "sites": 24,
-            "prevalence": 0.000488
-        },
-        {
-            "rule": "dyntrk\\.com\\/adx\\/sma\\/us\\.php",
-            "cookies": 0.000956,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gu"
-            ],
-            "apis": {},
-            "sites": 56,
-            "prevalence": 0.00114
-        },
-        {
-            "rule": "dyntrk\\.com\\/adx\\/adptv\\/us\\.php",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gu"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 88,
+            "prevalence": 0.0012,
+            "cnames": []
         },
         {
             "rule": "dyntrk\\.com\\/adx\\/sx\\/us\\.php",
-            "cookies": 0.000509,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gu"
-            ],
-            "apis": {},
-            "sites": 25,
-            "prevalence": 0.000509
-        },
-        {
-            "rule": "dyntrk\\.com\\/dp\\/retargetly\\.php",
-            "cookies": 0.00061,
+            "cookies": 0.00041,
             "fingerprinting": 0,
             "subdomains": [
                 "gu"
             ],
             "apis": {},
             "sites": 30,
-            "prevalence": 0.00061
+            "prevalence": 0.00041,
+            "cnames": []
         },
         {
-            "rule": "dyntrk\\.com\\/t\\.php",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "t.us1"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "dyntrk\\.com\\/t\\.php",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "t.us1"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "dyntrk\\.com\\/adx\\/tv\\/us\\.php",
-            "cookies": 0.0000407,
+            "rule": "dyntrk\\.com\\/adx\\/id\\/us\\.php",
+            "cookies": 0.00052,
             "fingerprinting": 0,
             "subdomains": [
                 "gu"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 39,
+            "prevalence": 0.000534,
+            "cnames": []
         },
         {
-            "rule": "dyntrk\\.com\\/adx\\/sa\\/us\\.php",
-            "cookies": 0.000061,
+            "rule": "dyntrk\\.com\\/dp\\/retargetly\\.php",
+            "cookies": 0.000616,
             "fingerprinting": 0,
             "subdomains": [
                 "gu"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 45,
+            "prevalence": 0.000616,
+            "cnames": []
         },
         {
-            "rule": "dyntrk\\.com\\/bid\\.php",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "n.ap1"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "dyntrk\\.com\\/adx\\/daily\\/us\\.php",
-            "cookies": 0.000061,
+            "rule": "dyntrk\\.com\\/adx\\/sma\\/us\\.php",
+            "cookies": 0.000958,
             "fingerprinting": 0,
             "subdomains": [
                 "gu"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 72,
+            "prevalence": 0.000985,
+            "cnames": []
+        },
+        {
+            "rule": "dyntrk\\.com\\/dp\\/navegg\\.php",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gu"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "dyntrk\\.com\\/rt\\.php",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t.us1",
+                "n.us1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -197,5 +154,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0229
+    "cookies": 0.025,
+    "types": {
+        "Image": 1979,
+        "Script": 6
+    }
 }

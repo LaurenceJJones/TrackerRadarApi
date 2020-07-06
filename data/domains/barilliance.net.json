@@ -7,31 +7,39 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000305,
-    "sites": 15,
+    "prevalence": 0.000547,
+    "sites": 40,
     "subdomains": [
         "www"
     ],
-    "fingerprinting": 0,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "barilliance\\.net\\/data\\.js\\.php",
-            "cookies": 0.000305,
-            "fingerprinting": 0,
+            "cookies": 0.000534,
+            "fingerprinting": 1,
             "subdomains": [
                 "www"
             ],
-            "apis": {},
-            "sites": 15,
-            "prevalence": 0.000305
+            "apis": {
+                "window.localStorage": 1,
+                "window.sessionStorage": 1
+            },
+            "sites": 40,
+            "prevalence": 0.000547,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000305
+    "cookies": 0.000534,
+    "types": {
+        "Script": 40
+    }
 }

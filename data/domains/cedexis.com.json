@@ -7,11 +7,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000671,
-    "sites": 33,
+    "prevalence": 0.000588,
+    "sites": 43,
     "subdomains": [
         "radar"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -22,11 +23,13 @@
                 "radar"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 26,
-                "PerformanceTiming.prototype.navigationStart": 16
+                "Navigator.prototype.userAgent": 36,
+                "PerformanceTiming.prototype.navigationStart": 30,
+                "Date.prototype.getTime": 2
             },
-            "sites": 30,
-            "prevalence": 0.00061
+            "sites": 37,
+            "prevalence": 0.000506,
+            "cnames": []
         },
         {
             "rule": "cedexis\\.com\\/releases\\/1571758301\\/impact\\.js",
@@ -36,37 +39,26 @@
                 "radar"
             ],
             "apis": {
-                "PerformanceTiming.prototype.navigationStart": 3
+                "PerformanceTiming.prototype.navigationStart": 5
             },
-            "sites": 12,
-            "prevalence": 0.000244
+            "sites": 17,
+            "prevalence": 0.000233,
+            "cnames": []
         },
         {
-            "rule": "cedexis\\.com\\/1579222343\\/radar\\.js",
+            "rule": "cedexis\\.com\\/1593004287\\/radar\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "radar"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "PerformanceTiming.prototype.navigationStart": 2
+                "Navigator.prototype.userAgent": 5,
+                "PerformanceTiming.prototype.navigationStart": 5
             },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "cedexis\\.com\\/releases\\/1571758301\\/video\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "radar"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 1
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -76,5 +68,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 59
+    }
 }

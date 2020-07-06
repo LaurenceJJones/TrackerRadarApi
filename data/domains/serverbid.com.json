@@ -4,78 +4,97 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0232,
-    "sites": 1139,
+    "prevalence": 0.0174,
+    "sites": 1269,
     "subdomains": [
         "e"
     ],
-    "fingerprinting": 0,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
-            "rule": "serverbid\\.com\\/udb\\/9969\\/match",
-            "cookies": 0.0152,
-            "fingerprinting": 0,
-            "subdomains": [
-                "e"
-            ],
-            "apis": {},
-            "sites": 783,
-            "prevalence": 0.0159
-        },
-        {
             "rule": "serverbid\\.com\\/api\\/v2",
-            "cookies": 0.00787,
+            "cookies": 0.0055,
             "fingerprinting": 0,
             "subdomains": [
                 "e"
             ],
             "apis": {},
-            "sites": 444,
-            "prevalence": 0.00903
+            "sites": 470,
+            "prevalence": 0.00643,
+            "cnames": []
         },
         {
             "rule": "serverbid\\.com\\/udb\\/9969\\/match",
-            "cookies": 0.0033,
+            "cookies": 0.0102,
             "fingerprinting": 0,
             "subdomains": [
                 "e"
             ],
             "apis": {},
-            "sites": 324,
-            "prevalence": 0.00659
+            "sites": 799,
+            "prevalence": 0.0109,
+            "cnames": []
         },
         {
             "rule": "serverbid\\.com\\/udb\\/9969\\/sync\\/i\\.gif",
-            "cookies": 0.00618,
-            "fingerprinting": 0,
-            "subdomains": [
-                "e"
-            ],
-            "apis": {},
-            "sites": 309,
-            "prevalence": 0.00629
-        },
-        {
-            "rule": "serverbid\\.com\\/udb\\/9969\\/sync\\/i\\.gif",
-            "cookies": 0.00429,
+            "cookies": 0.0029,
             "fingerprinting": 0,
             "subdomains": [
                 "e"
             ],
             "apis": {},
             "sites": 213,
-            "prevalence": 0.00433
+            "prevalence": 0.00291,
+            "cnames": []
         },
         {
-            "rule": "serverbid\\.com\\/udb\\/9969\\/set\\/i\\.gif",
-            "cookies": 0.0000814,
+            "rule": "serverbid\\.com\\/udb\\/9969\\/sync\\/i\\.gif",
+            "cookies": 0.00313,
             "fingerprinting": 0,
             "subdomains": [
                 "e"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 229,
+            "prevalence": 0.00313,
+            "cnames": []
+        },
+        {
+            "rule": "serverbid\\.com\\/udb\\/9969\\/match",
+            "cookies": 0.000725,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {},
+            "sites": 230,
+            "prevalence": 0.00315,
+            "cnames": []
+        },
+        {
+            "rule": "serverbid\\.com\\/i\\/",
+            "cookies": 0.000123,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "serverbid\\.com\\/udb\\/9969\\/set\\/i\\.gif",
+            "cookies": 0.0000821,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -85,5 +104,10 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.022
+    "cookies": 0.0166,
+    "types": {
+        "XHR": 470,
+        "Document": 1012,
+        "Image": 474
+    }
 }

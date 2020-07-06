@@ -7,7 +7,7 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000203,
+    "prevalence": 0.0000143,
     "sites": 1,
     "subdomains": [
         "ameli-cmd-front",
@@ -27,7 +27,7 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
             "rule": "damdy\\.com\\/resource\\/x585168a189745\\/launcher\\/bs-player-api-dam-pm\\.js",
@@ -45,7 +45,7 @@
                 "URL.createObjectURL": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
             "rule": "damdy\\.com\\/resource\\/x585168a189745\\/videojs\\/damdy-videojs\\.chromecast\\.min\\.js",
@@ -58,7 +58,7 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         },
         {
             "rule": "damdy\\.com\\/resource\\/x585168a189745\\/videojs\\/damdy-videojs\\.ios\\.min\\.js",
@@ -79,7 +79,7 @@
                 "Element.prototype.getClientRects": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000285
         }
     ],
     "categories": [],
@@ -89,5 +89,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 8
+    }
 }

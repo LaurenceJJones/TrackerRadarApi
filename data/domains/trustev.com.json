@@ -7,17 +7,18 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
+    "prevalence": 0.0000274,
     "sites": 2,
     "subdomains": [
         "cdn-us",
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 3,
     "resources": [
         {
             "rule": "trustev\\.com\\/trustev\\.min\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 3,
             "subdomains": [
                 "cdn-us"
@@ -51,7 +52,8 @@
                 "window.devicePixelRatio": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "trustev\\.com\\/trustevIFrame\\.html",
@@ -65,15 +67,15 @@
                 "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 3
-    },
-    "cookies": 0.0000407
+    "performance": {},
+    "cookies": 0.0000274,
+    "types": {
+        "Script": 2,
+        "Document": 2
+    }
 }

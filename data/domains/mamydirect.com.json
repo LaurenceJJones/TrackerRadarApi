@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000061,
-    "sites": 3,
+    "prevalence": 0.0000547,
+    "sites": 4,
     "subdomains": [
         "js"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -19,10 +20,11 @@
                 "js"
             ],
             "apis": {
-                "Navigator.prototype.appName": 2
+                "Navigator.prototype.appName": 3
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -32,5 +34,8 @@
         "cpu": 0,
         "cache": 0
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 4
+    }
 }

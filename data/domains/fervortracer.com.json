@@ -4,14 +4,15 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000208,
-    "sites": 9,
+    "prevalence": 0.0000821,
+    "sites": 6,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "fervortracer\\.com\\/5eb45e",
-            "cookies": 0.0000462,
+            "rule": "fervortracer\\.com\\/3579df",
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
@@ -20,27 +21,34 @@
                 "Document.cookie setter": 2,
                 "Navigator.prototype.languages": 2,
                 "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
                 "Navigator.prototype.plugins": 2
             },
             "sites": 2,
-            "prevalence": 0.0000462
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "fervortracer\\.com\\/track\\/5eb45e\\/",
-            "cookies": 0.0000462,
+            "rule": "fervortracer\\.com\\/track\\/3579df\\/",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000462
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000139
+    "cookies": 0.0000684,
+    "types": {
+        "Script": 4
+    }
 }

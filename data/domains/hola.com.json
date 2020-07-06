@@ -4,12 +4,13 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000203,
+    "prevalence": 0.0000137,
     "sites": 1,
     "subdomains": [
         "www",
         "us"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -29,19 +30,8 @@
                 "Date.prototype.getTimezoneOffset": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "hola\\.com\\/js\\/comunes\\/LoginRadiusV2SDK\\.1\\.1\\.1\\.min\\.js",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www",
-                "us"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -51,5 +41,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.0000203
+    "cookies": 0,
+    "types": {
+        "Script": 2
+    }
 }

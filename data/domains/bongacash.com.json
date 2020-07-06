@@ -7,319 +7,215 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00395,
-    "sites": 194,
+    "prevalence": 0.0151,
+    "sites": 1101,
     "subdomains": [
         "i"
     ],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 2,
     "resources": [
         {
-            "rule": "bongacash\\.com\\/banners\\/728x90\\/secretary\\/en\\.gif",
-            "cookies": 0.0000407,
+            "rule": "bongacash\\.com\\/dynamic_banner\\/jquery\\.tools\\.min\\.js",
+            "cookies": 0.0147,
+            "fingerprinting": 1,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 837,
+                "Date.prototype.getTime": 1070,
+                "Navigator.prototype.plugins": 837
+            },
+            "sites": 1072,
+            "prevalence": 0.0147,
+            "cnames": []
+        },
+        {
+            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/logo2_default\\.png",
+            "cookies": 0.0119,
             "fingerprinting": 0,
             "subdomains": [
                 "i"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 871,
+            "prevalence": 0.0119,
+            "cnames": []
         },
         {
-            "rule": "bongacash\\.com\\/banners\\/728x90\\/chatting_banner\\/en\\.gif",
-            "cookies": 0.0000407,
+            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/video_back\\.gif",
+            "cookies": 0.0146,
             "fingerprinting": 0,
             "subdomains": [
                 "i"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 1068,
+            "prevalence": 0.0146,
+            "cnames": []
         },
         {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/plus\\/en\\.gif",
-            "cookies": 0.000285,
+            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/lang\\/american\\.png",
+            "cookies": 0.0119,
             "fingerprinting": 0,
             "subdomains": [
                 "i"
             ],
             "apis": {},
-            "sites": 14,
-            "prevalence": 0.000285
+            "sites": 923,
+            "prevalence": 0.0126,
+            "cnames": []
         },
         {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/str8_gym\\/en\\.gif",
-            "cookies": 0.000061,
+            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/lang\\/russian\\.png",
+            "cookies": 0.00836,
             "fingerprinting": 0,
             "subdomains": [
                 "i"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 616,
+            "prevalence": 0.00843,
+            "cnames": []
         },
         {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/bas\\/en\\.gif",
-            "cookies": 0.000203,
+            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/lang\\/italian\\.png",
+            "cookies": 0.000985,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 73,
+            "prevalence": 0.000999,
+            "cnames": []
+        },
+        {
+            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/lang\\/spanish\\.png",
+            "cookies": 0.00694,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 510,
+            "prevalence": 0.00698,
+            "cnames": []
+        },
+        {
+            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/lang\\/german\\.png",
+            "cookies": 0.000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.000205,
+            "cnames": []
+        },
+        {
+            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/logo2_pink\\.png",
+            "cookies": 0.0000684,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/lang\\/french\\.png",
+            "cookies": 0.00104,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 76,
+            "prevalence": 0.00104,
+            "cnames": []
+        },
+        {
+            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/lang\\/dutch\\.png",
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [
                 "i"
             ],
             "apis": {},
             "sites": 10,
-            "prevalence": 0.000203
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "bongacash\\.com\\/banners\\/728x90\\/art_banner\\/en\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/banner%20replay\\/en\\.gif",
-            "cookies": 0.000285,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 14,
-            "prevalence": 0.000285
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/bin_banner\\/en\\.gif",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/art_banner\\/en\\.gif",
-            "cookies": 0.000224,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/dmb_banner\\/en\\.gif",
-            "cookies": 0.000142,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/hand_banner\\/en\\.gif",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x100\\/super_banner\\/en\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/dynamic_banner\\/jquery\\.tools\\.min\\.js",
-            "cookies": 0.00136,
+            "rule": "bongacash\\.com\\/chat_head\\/jquery\\.cookie\\.min\\.js",
+            "cookies": 0.000123,
             "fingerprinting": 1,
             "subdomains": [
                 "i"
             ],
             "apis": {
-                "Date.prototype.getTime": 67,
-                "Navigator.prototype.userAgent": 50,
-                "Navigator.prototype.plugins": 50
+                "Document.cookie getter": 10
             },
-            "sites": 67,
-            "prevalence": 0.00136
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/logo2_default\\.png",
-            "cookies": 0.000793,
+            "rule": "bongacash\\.com\\/chat_head\\/jquery\\.image_player_001\\.js",
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [
                 "i"
             ],
             "apis": {},
-            "sites": 39,
-            "prevalence": 0.000793
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/video_back\\.gif",
-            "cookies": 0.0013,
+            "rule": "bongacash\\.com\\/chat_head\\/css\\/css3\\.css",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "i"
             ],
             "apis": {},
-            "sites": 64,
-            "prevalence": 0.0013
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/lang\\/american\\.png",
-            "cookies": 0.00128,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 63,
-            "prevalence": 0.00128
-        },
-        {
-            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/lang\\/french\\.png",
-            "cookies": 0.000183,
+            "rule": "bongacash\\.com\\/chat_head\\/img\\/bongacams\\.png",
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [
                 "i"
             ],
             "apis": {},
             "sites": 9,
-            "prevalence": 0.000183
+            "prevalence": 0.000123,
+            "cnames": []
         },
         {
-            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/lang\\/italian\\.png",
-            "cookies": 0.000488,
+            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/lang\\/romanian\\.png",
+            "cookies": 0.00192,
             "fingerprinting": 0,
             "subdomains": [
                 "i"
             ],
             "apis": {},
-            "sites": 25,
-            "prevalence": 0.000509
-        },
-        {
-            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/lang\\/russian\\.png",
-            "cookies": 0.000976,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 49,
-            "prevalence": 0.000997
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/kawabanga\\/en\\.gif",
-            "cookies": 0.000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
-        },
-        {
-            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/lang\\/spanish\\.png",
-            "cookies": 0.000549,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 27,
-            "prevalence": 0.000549
-        },
-        {
-            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/logo2_pink\\.png",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/bouncing\\/en\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/class_banner\\/en\\.gif",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "bongacash\\.com\\/chat_head\\/jquery\\.cookie\\.min\\.js",
-            "cookies": 0.000102,
-            "fingerprinting": 1,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {
-                "Document.cookie getter": 5
-            },
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "bongacash\\.com\\/chat_head\\/jquery\\.image_player_001\\.js",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "bongacash\\.com\\/chat_head\\/img\\/bongacams\\.png",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 141,
+            "prevalence": 0.00193,
+            "cnames": []
         },
         {
             "rule": "bongacash\\.com\\/im_html\\/jquery\\.cookie\\.min\\.js",
-            "cookies": 0.000061,
+            "cookies": 0.0000547,
             "fingerprinting": 1,
             "subdomains": [
                 "i"
@@ -327,818 +223,76 @@
             "apis": {
                 "Document.cookie getter": 2
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "bongacash\\.com\\/im_html\\/im_style\\.css",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "bongacash\\.com\\/im_html\\/icon_close1\\.png",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/lang\\/romanian\\.png",
-            "cookies": 0.000224,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
-        },
-        {
-            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/lang\\/dutch\\.png",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/badge_banner\\/en\\.gif",
-            "cookies": 0.000102,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "i"
             ],
             "apis": {},
             "sites": 5,
-            "prevalence": 0.000102
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "bongacash\\.com\\/im_html\\/icon_close1\\.png",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/live2\\.png",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "bongacash\\.com\\/chat_head\\/jquery-1\\.4\\.4\\.min\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000547,
             "fingerprinting": 1,
             "subdomains": [
                 "i"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 1,
-                "Date.prototype.getTime": 2
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTime": 4
             },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/stockings\\/en\\.gif",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/straight_blondy\\/en\\.gif",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/chatting_banner\\/en\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/scroll\\/en\\.gif",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/728x90\\/cake_banner\\/en\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/lang\\/czech\\.png",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
             "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/banner%20app\\/en\\.gif",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/lang\\/german\\.png",
-            "cookies": 0.000142,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/shatter_banner\\/en\\.gif",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/logo2_negative\\.png",
-            "cookies": 0.000061,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "i"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/medal_banner\\/en\\.gif",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/pool\\/en\\.gif",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/stream_2\\.mp4",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/1\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/2\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/3\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/4\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/5\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/6\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/7\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/8\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/9\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/10\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/11\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/12\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/13\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/14\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/15\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/16\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/17\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/18\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/19\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/20\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/21\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/22\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/23\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/24\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/25\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/26\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/27\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/28\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/29\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/30\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/31\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/32\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/33\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/34\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/35\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/36\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/37\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/38\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/39\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/40\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/41\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/WendyAngel\\/thumbs\\/42\\.jpg",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/160x600\\/medal_banner\\/en\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/bonga_orange\\/en\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/728x90\\/kawabanga\\/en\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/fitness\\/en\\.gif",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/coral\\/stream_2\\.mp4",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/coral\\/thumbs\\/1\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/coral\\/thumbs\\/2\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/coral\\/thumbs\\/3\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/coral\\/thumbs\\/4\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/coral\\/thumbs\\/5\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/coral\\/thumbs\\/6\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/coral\\/thumbs\\/7\\.jpg",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "bongacash\\.com\\/animated_banners\\/js\\/jquery\\.tools\\.min\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "i"
@@ -1149,667 +303,68 @@
                 "Navigator.prototype.plugins": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "bongacash\\.com\\/animated_banners\\/js\\/jquery\\.videoEmbed3\\.min\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "i"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "bongacash\\.com\\/animated_banners\\/js\\/jquery\\.image_player\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "i"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "bongacash\\.com\\/animated_banners\\/images\\/bc_logoicon\\.png",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "i"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/banner_hey\\/en\\.gif",
-            "cookies": 0.0000407,
+            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/lang\\/korean\\.png",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "i"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/banga\\/en\\.gif",
-            "cookies": 0.000061,
+            "rule": "bongacash\\.com\\/dynamic_banner\\/images\\/lang\\/bulgarian\\.png",
+            "cookies": 0.00026,
             "fingerprinting": 0,
             "subdomains": [
                 "i"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/728x90\\/dmb_banner\\/en\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/real_banner\\/en\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/splash\\/en\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/diana\\/stream_2\\.mp4",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/diana\\/thumbs\\/1\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/diana\\/thumbs\\/2\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/diana\\/thumbs\\/3\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/diana\\/thumbs\\/4\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/diana\\/thumbs\\/5\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/diana\\/thumbs\\/6\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/diana\\/thumbs\\/7\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/diana\\/thumbs\\/8\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/diana\\/thumbs\\/9\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/diana\\/thumbs\\/10\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/diana\\/thumbs\\/11\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/diana\\/thumbs\\/12\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/diana\\/thumbs\\/13\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/diana\\/thumbs\\/14\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/diana\\/thumbs\\/15\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/diana\\/thumbs\\/16\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/diana\\/thumbs\\/17\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/diana\\/thumbs\\/18\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/diana\\/thumbs\\/19\\.jpg",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/banners\\/300x250\\/fast_banner\\/en\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/stream_2\\.mp4",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/1\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/2\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/3\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/4\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/5\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/6\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/7\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/8\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/9\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/10\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/11\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/12\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/13\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/14\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/15\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/16\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/17\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/18\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/19\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/20\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/21\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/22\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/23\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/24\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/25\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/26\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/27\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/28\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/29\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bongacash\\.com\\/postitial\\/adult\\/belledee\\/thumbs\\/30\\.jpg",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "i"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 19,
+            "prevalence": 0.00026,
+            "cnames": []
         }
     ],
     "categories": [
@@ -1822,5 +377,10 @@
         "cpu": 1,
         "cache": 1
     },
-    "cookies": 0.00395
+    "cookies": 0.0151,
+    "types": {
+        "Script": 1107,
+        "Image": 4354,
+        "Stylesheet": 15
+    }
 }

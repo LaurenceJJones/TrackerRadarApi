@@ -7,11 +7,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000061,
-    "sites": 3,
+    "prevalence": 0.0000274,
+    "sites": 2,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -22,14 +23,15 @@
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.vendor": 3,
-                "Navigator.prototype.platform": 3,
-                "window.devicePixelRatio": 3,
-                "window.localStorage": 3
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.platform": 2,
+                "window.devicePixelRatio": 2,
+                "window.localStorage": 2
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "viqeo\\.tv\\/js\\/vq_init_internal_player\\.js",
@@ -39,16 +41,16 @@
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.vendor": 3,
-                "Navigator.prototype.platform": 3,
-                "window.devicePixelRatio": 3,
-                "window.localStorage": 3,
-                "Navigator.prototype.language": 3,
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 1
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.platform": 2,
+                "window.devicePixelRatio": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.language": 2
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "viqeo\\.tv\\/js\\/vn_player\\.js",
@@ -58,18 +60,16 @@
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.vendor": 3,
-                "Navigator.prototype.platform": 3,
-                "window.devicePixelRatio": 3,
-                "window.localStorage": 3,
-                "Navigator.prototype.language": 3,
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 1,
-                "Screen.prototype.width": 1,
-                "Screen.prototype.height": 1
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.platform": 2,
+                "window.devicePixelRatio": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.language": 2
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -77,7 +77,10 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 6
+    }
 }

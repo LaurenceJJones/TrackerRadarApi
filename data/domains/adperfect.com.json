@@ -4,23 +4,38 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000061,
-    "sites": 3,
+    "prevalence": 0.000192,
+    "sites": 14,
     "subdomains": [
+        "sso",
         "casmp"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
+            "rule": "adperfect\\.com\\/client_authentication\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sso"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
             "rule": "adperfect\\.com\\/widget\\/retailadvertiser",
-            "cookies": 0.000061,
+            "cookies": 0.000151,
             "fingerprinting": 0,
             "subdomains": [
                 "casmp"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -30,5 +45,9 @@
         "cpu": 0,
         "cache": 0
     },
-    "cookies": 0.000061
+    "cookies": 0.000178,
+    "types": {
+        "Document": 2,
+        "Script": 11
+    }
 }

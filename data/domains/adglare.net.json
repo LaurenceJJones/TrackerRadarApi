@@ -4,18 +4,52 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000427,
-    "sites": 21,
+    "prevalence": 0.000383,
+    "sites": 28,
     "subdomains": [
+        "utopiaadv.engine",
         "reactads.engine",
-        "comparenetworks.engine",
-        "kidswithfoodallergies.engine",
-        "stockh.engine",
         "lmadvertising.engine",
-        "eturbonews.engine",
+        "vaping360.engine",
+        "yetantothercompany.engine",
+        "educacion30.engine",
+        "findauniversity.engine",
         "ogilvyitaly.engine",
+        "fxempire.engine",
+        "thebrainyard.engine",
+        "isagenix.engine",
+        "alkosto.engine",
+        "laweekly.engine",
+        "wolterskluwer.engine",
         "bcliga.engine",
-        "tomorrowland.engine"
+        "tomorrowland.engine",
+        "zenhomes.engine"
+    ],
+    "cnames": [
+        {
+            "original": "engine.findamasters.com",
+            "resolved": "findauniversity.engine.adglare.net"
+        },
+        {
+            "original": "engine.findaphd.com",
+            "resolved": "findauniversity.engine.adglare.net"
+        },
+        {
+            "original": "engine.fxempire.com",
+            "resolved": "fxempire.engine.adglare.net"
+        },
+        {
+            "original": "engine.laweekly.com",
+            "resolved": "laweekly.engine.adglare.net"
+        },
+        {
+            "original": "engine.lto.de",
+            "resolved": "wolterskluwer.engine.adglare.net"
+        },
+        {
+            "original": "engine.vaping360.com",
+            "resolved": "vaping360.engine.adglare.net"
+        }
     ],
     "fingerprinting": 2,
     "resources": [
@@ -24,45 +58,81 @@
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
+                "utopiaadv.engine",
                 "reactads.engine",
-                "comparenetworks.engine"
+                "lmadvertising.engine",
+                "vaping360.engine",
+                "yetantothercompany.engine",
+                "educacion30.engine",
+                "findauniversity.engine",
+                "ogilvyitaly.engine",
+                "fxempire.engine",
+                "thebrainyard.engine",
+                "isagenix.engine",
+                "alkosto.engine",
+                "laweekly.engine",
+                "wolterskluwer.engine",
+                "bcliga.engine",
+                "tomorrowland.engine",
+                "zenhomes.engine"
             ],
             "apis": {
-                "Date.prototype.getTime": 8,
                 "window.devicePixelRatio": 8,
-                "Screen.prototype.width": 5,
-                "Screen.prototype.height": 5,
-                "window.localStorage": 8
+                "Screen.prototype.width": 6,
+                "Screen.prototype.height": 6,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 6,
+                "Element.prototype.getClientRects": 5,
+                "Document.cookie getter": 1
             },
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 24,
+            "prevalence": 0.000328,
+            "cnames": [
+                {
+                    "original": "engine.vaping360.com",
+                    "resolved": "vaping360.engine.adglare.net"
+                },
+                {
+                    "original": "engine.findamasters.com",
+                    "resolved": "findauniversity.engine.adglare.net"
+                },
+                {
+                    "original": "engine.findaphd.com",
+                    "resolved": "findauniversity.engine.adglare.net"
+                },
+                {
+                    "original": "engine.fxempire.com",
+                    "resolved": "fxempire.engine.adglare.net"
+                },
+                {
+                    "original": "engine.laweekly.com",
+                    "resolved": "laweekly.engine.adglare.net"
+                },
+                {
+                    "original": "engine.lto.de",
+                    "resolved": "wolterskluwer.engine.adglare.net"
+                }
+            ]
         },
         {
             "rule": "adglare\\.net\\/",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "reactads.engine",
-                "kidswithfoodallergies.engine",
-                "stockh.engine",
-                "lmadvertising.engine",
-                "comparenetworks.engine",
-                "eturbonews.engine",
-                "ogilvyitaly.engine",
-                "bcliga.engine",
-                "tomorrowland.engine"
+                "reactads.engine"
             ],
             "apis": {
-                "Element.prototype.getClientRects": 7,
                 "window.devicePixelRatio": 5,
                 "Date.prototype.getTime": 5,
                 "window.localStorage": 5,
-                "Navigator.prototype.userAgent": 1,
-                "Screen.prototype.width": 3,
-                "Screen.prototype.height": 3
+                "Navigator.prototype.userAgent": 5,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
             },
-            "sites": 15,
-            "prevalence": 0.000305
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -72,5 +142,9 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 24,
+        "Document": 5
+    }
 }

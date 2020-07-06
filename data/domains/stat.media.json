@@ -4,9 +4,10 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000671,
-    "sites": 33,
+    "prevalence": 0.000438,
+    "sites": 32,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -16,31 +17,33 @@
             "subdomains": [],
             "apis": {
                 "Navigator.prototype.userAgent": 32,
-                "Navigator.prototype.maxTouchPoints": 31,
+                "Navigator.prototype.maxTouchPoints": 32,
                 "Navigator.prototype.plugins": 32,
                 "Navigator.prototype.mimeTypes": 32,
                 "window.localStorage": 32,
-                "Screen.prototype.width": 30,
-                "Screen.prototype.height": 30,
-                "Screen.prototype.colorDepth": 30,
-                "Screen.prototype.orientation": 30,
-                "Navigator.prototype.language": 31,
-                "Date.prototype.getTimezoneOffset": 31,
-                "Navigator.prototype.cookieEnabled": 31,
-                "Navigator.prototype.hardwareConcurrency": 31,
-                "Navigator.prototype.connection": 31
+                "Screen.prototype.width": 32,
+                "Screen.prototype.height": 32,
+                "Screen.prototype.colorDepth": 32,
+                "Screen.prototype.orientation": 32,
+                "Navigator.prototype.language": 32,
+                "Date.prototype.getTimezoneOffset": 32,
+                "Navigator.prototype.cookieEnabled": 32,
+                "Navigator.prototype.hardwareConcurrency": 32,
+                "Navigator.prototype.connection": 32
             },
-            "sites": 33,
-            "prevalence": 0.000671
+            "sites": 32,
+            "prevalence": 0.000438,
+            "cnames": []
         },
         {
             "rule": "stat\\.media\\/counter\\/api",
-            "cookies": 0.000671,
+            "cookies": 0.000438,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 33,
-            "prevalence": 0.000671
+            "sites": 32,
+            "prevalence": 0.000438,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -50,5 +53,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000671
+    "cookies": 0.000438,
+    "types": {
+        "Script": 64
+    }
 }

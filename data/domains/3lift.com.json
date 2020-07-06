@@ -9,183 +9,217 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.076,
-    "sites": 3738,
+    "prevalence": 0.0766,
+    "sites": 5600,
     "subdomains": [
-        "eb2",
         "tlx",
+        "eb2",
         "ib",
         "dmpsync"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "3lift\\.com\\/ebda",
-            "cookies": 0.00527,
-            "fingerprinting": 0,
-            "subdomains": [
-                "eb2"
-            ],
-            "apis": {},
-            "sites": 601,
-            "prevalence": 0.0122
-        },
-        {
-            "rule": "3lift\\.com\\/getuid",
-            "cookies": 0.0324,
-            "fingerprinting": 0,
-            "subdomains": [
-                "eb2"
-            ],
-            "apis": {},
-            "sites": 1596,
-            "prevalence": 0.0325
-        },
-        {
             "rule": "3lift\\.com\\/header\\/auction",
-            "cookies": 0.0155,
+            "cookies": 0.0183,
             "fingerprinting": 0,
             "subdomains": [
                 "tlx"
             ],
             "apis": {},
-            "sites": 1985,
-            "prevalence": 0.0404
-        },
-        {
-            "rule": "3lift\\.com\\/sync",
-            "cookies": 0.0258,
-            "fingerprinting": 0,
-            "subdomains": [
-                "eb2",
-                "ib"
-            ],
-            "apis": {},
-            "sites": 1375,
-            "prevalence": 0.028
+            "sites": 3263,
+            "prevalence": 0.0446,
+            "cnames": []
         },
         {
             "rule": "3lift\\.com\\/getuid",
-            "cookies": 0.029,
+            "cookies": 0.0404,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eb2"
+            ],
+            "apis": {},
+            "sites": 2952,
+            "prevalence": 0.0404,
+            "cnames": []
+        },
+        {
+            "rule": "3lift\\.com\\/ebda",
+            "cookies": 0.0363,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eb2"
+            ],
+            "apis": {},
+            "sites": 2698,
+            "prevalence": 0.0369,
+            "cnames": []
+        },
+        {
+            "rule": "3lift\\.com\\/sync",
+            "cookies": 0.0295,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ib",
+                "eb2"
+            ],
+            "apis": {},
+            "sites": 2222,
+            "prevalence": 0.0304,
+            "cnames": []
+        },
+        {
+            "rule": "3lift\\.com\\/sync\\/google\\/demand",
+            "cookies": 0.0288,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eb2"
+            ],
+            "apis": {},
+            "sites": 2170,
+            "prevalence": 0.0297,
+            "cnames": []
+        },
+        {
+            "rule": "3lift\\.com\\/xuid",
+            "cookies": 0.0458,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eb2"
+            ],
+            "apis": {},
+            "sites": 3359,
+            "prevalence": 0.046,
+            "cnames": []
+        },
+        {
+            "rule": "3lift\\.com\\/getuid",
+            "cookies": 0.00977,
             "fingerprinting": 0,
             "subdomains": [
                 "eb2",
                 "dmpsync"
             ],
             "apis": {},
-            "sites": 1502,
-            "prevalence": 0.0306
-        },
-        {
-            "rule": "3lift\\.com\\/xuid",
-            "cookies": 0.0433,
-            "fingerprinting": 0,
-            "subdomains": [
-                "eb2"
-            ],
-            "apis": {},
-            "sites": 2136,
-            "prevalence": 0.0434
+            "sites": 721,
+            "prevalence": 0.00987,
+            "cnames": []
         },
         {
             "rule": "3lift\\.com\\/sync",
-            "cookies": 0.00155,
+            "cookies": 0.00305,
             "fingerprinting": 0,
             "subdomains": [
                 "eb2"
             ],
             "apis": {},
-            "sites": 76,
-            "prevalence": 0.00155
+            "sites": 228,
+            "prevalence": 0.00312,
+            "cnames": []
         },
         {
-            "rule": "3lift\\.com\\/rev\\/6c19a430679fcfc31b12d85ed3ae2f3a5b01c958\\/dist\\/bundle\\.js",
+            "rule": "3lift\\.com\\/sync\\/google\\/supply",
+            "cookies": 0.00557,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eb2"
+            ],
+            "apis": {},
+            "sites": 409,
+            "prevalence": 0.0056,
+            "cnames": []
+        },
+        {
+            "rule": "3lift\\.com\\/ttj",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "ib"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5,
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 5,
-                "Navigator.prototype.mimeTypes": 5
+                "Navigator.prototype.userAgent": 11
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
+        },
+        {
+            "rule": "3lift\\.com\\/rev\\/38ced74ecb6f44180292cfab4e16db8c39c8b03c\\/dist\\/bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ib"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 13,
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 14,
+                "Navigator.prototype.mimeTypes": 15,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 15,
+            "prevalence": 0.000205,
+            "cnames": []
         },
         {
             "rule": "3lift\\.com\\/web\\/auction",
-            "cookies": 0.000305,
+            "cookies": 0.000192,
             "fingerprinting": 0,
             "subdomains": [
                 "tlx"
             ],
             "apis": {},
-            "sites": 15,
-            "prevalence": 0.000305
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
         },
         {
-            "rule": "3lift\\.com\\/rev\\/a8f79f6560abba3cb2832fbd2109282630d02077\\/dist\\/bundle\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ib"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 5,
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 5,
-                "Navigator.prototype.mimeTypes": 5
-            },
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "3lift\\.com\\/mapuid",
-            "cookies": 0.0000407,
+            "rule": "3lift\\.com\\/header\\/auction",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
-                "eb2"
+                "tlx"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "3lift\\.com\\/rev\\/7dac5c40876677ccb1ac631b07f7cee76b6b840c\\/dist\\/bundle\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "rule": "3lift\\.com\\/header\\/auction",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
             "subdomains": [
-                "ib"
+                "tlx"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 5,
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 5,
-                "Navigator.prototype.mimeTypes": 5
-            },
-            "sites": 5,
-            "prevalence": 0.000102
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "3lift\\.com\\/getuid",
-            "cookies": 0.0000814,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "eb2"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "3lift\\.com\\/px",
-            "cookies": 0.0000203,
+            "rule": "3lift\\.com\\/web\\/adserving",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
-                "eb2"
+                "tlx"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -198,5 +232,12 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0653
+    "cookies": 0.073,
+    "types": {
+        "XHR": 3263,
+        "Document": 5174,
+        "Image": 9585,
+        "Script": 49,
+        "Fetch": 2
+    }
 }

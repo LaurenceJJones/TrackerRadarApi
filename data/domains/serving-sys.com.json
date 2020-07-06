@@ -9,119 +9,121 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0124,
-    "sites": 610,
+    "prevalence": 0.0151,
+    "sites": 1100,
     "subdomains": [
         "bs",
         "secure-ds",
-        "ds",
-        "services"
+        "ds"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "serving-sys\\.com\\/Serving\\/adServer\\.bs",
-            "cookies": 0.00165,
-            "fingerprinting": 1,
+            "cookies": 0.000889,
+            "fingerprinting": 0,
             "subdomains": [
                 "bs"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 51
-            },
-            "sites": 84,
-            "prevalence": 0.00171
+            "apis": {},
+            "sites": 67,
+            "prevalence": 0.000917,
+            "cnames": []
         },
         {
-            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/\\/Disp_3_20_0\\/ebStandard\\.js",
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/\\/Ad_2_174_3_0\\/ebStdBanner\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "secure-ds"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 54,
-                "DeviceMotionEvent.prototype.acceleration": 12,
-                "DeviceMotionEvent.prototype.accelerationIncludingGravity": 12,
-                "DeviceMotionEvent.prototype.rotationRate": 12,
-                "Event.prototype.timeStamp": 12,
-                "DeviceOrientationEvent.prototype.absolute": 12,
-                "DeviceOrientationEvent.prototype.alpha": 12,
-                "DeviceOrientationEvent.prototype.beta": 12,
-                "DeviceOrientationEvent.prototype.gamma": 12
+                "Date.prototype.getTime": 59,
+                "Navigator.prototype.userAgent": 59,
+                "Navigator.prototype.plugins": 59,
+                "Date.prototype.getTimezoneOffset": 59,
+                "Screen.prototype.width": 20
             },
-            "sites": 58,
-            "prevalence": 0.00118
+            "sites": 62,
+            "prevalence": 0.000848,
+            "cnames": []
         },
         {
             "rule": "serving-sys\\.com\\/Serving",
-            "cookies": 0.00106,
+            "cookies": 0.000821,
             "fingerprinting": 0,
             "subdomains": [
                 "bs"
             ],
             "apis": {},
-            "sites": 53,
-            "prevalence": 0.00108
+            "sites": 60,
+            "prevalence": 0.000821,
+            "cnames": []
         },
         {
             "rule": "serving-sys\\.com\\/BurstingPipe\\/adServer\\.bs",
-            "cookies": 0.00148,
+            "cookies": 0.00309,
             "fingerprinting": 0,
             "subdomains": [
                 "bs"
             ],
             "apis": {},
-            "sites": 73,
-            "prevalence": 0.00148
+            "sites": 226,
+            "prevalence": 0.00309,
+            "cnames": []
         },
         {
-            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/\\/Ad_2_166_3_0\\/ebHtml5Banner\\.js",
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/\\/Ad_2_174_3_0\\/ebHtml5Banner\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "secure-ds"
             ],
             "apis": {
-                "Date.prototype.getTime": 39,
-                "Navigator.prototype.userAgent": 39,
-                "Screen.prototype.width": 31,
-                "Element.prototype.getClientRects": 3,
-                "DeviceMotionEvent.prototype.acceleration": 5,
-                "DeviceMotionEvent.prototype.accelerationIncludingGravity": 5,
-                "DeviceMotionEvent.prototype.rotationRate": 5,
-                "Event.prototype.timeStamp": 5,
-                "DeviceOrientationEvent.prototype.absolute": 5,
-                "DeviceOrientationEvent.prototype.alpha": 5,
-                "DeviceOrientationEvent.prototype.beta": 5,
-                "DeviceOrientationEvent.prototype.gamma": 5
+                "Date.prototype.getTime": 164,
+                "Navigator.prototype.userAgent": 163,
+                "Date.prototype.getTimezoneOffset": 164,
+                "Screen.prototype.width": 135,
+                "DeviceMotionEvent.prototype.acceleration": 7,
+                "DeviceMotionEvent.prototype.accelerationIncludingGravity": 7,
+                "DeviceMotionEvent.prototype.rotationRate": 7,
+                "Event.prototype.timeStamp": 7,
+                "DeviceOrientationEvent.prototype.absolute": 7,
+                "DeviceOrientationEvent.prototype.alpha": 7,
+                "DeviceOrientationEvent.prototype.beta": 7,
+                "DeviceOrientationEvent.prototype.gamma": 7,
+                "Element.prototype.getClientRects": 2
             },
-            "sites": 41,
-            "prevalence": 0.000834
+            "sites": 188,
+            "prevalence": 0.00257,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/Modules_1_68_0_0\\/CMPDetector\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 68
+            },
+            "sites": 96,
+            "prevalence": 0.00131,
+            "cnames": []
         },
         {
             "rule": "serving-sys\\.com\\/Serving\\/adServer\\.bs",
-            "cookies": 0.00124,
+            "cookies": 0.00235,
             "fingerprinting": 0,
             "subdomains": [
                 "bs"
             ],
             "apis": {},
-            "sites": 63,
-            "prevalence": 0.00128
-        },
-        {
-            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-128947\\/WSFolders\\/14990929\\/\\/MegaMarchSale_PSSTORE_970x250\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "secure-ds"
-            ],
-            "apis": {
-                "window.devicePixelRatio": 1
-            },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 172,
+            "prevalence": 0.00235,
+            "cnames": []
         },
         {
             "rule": "serving-sys\\.com\\/BurstingScript\\/EBLoader\\.js",
@@ -131,16 +133,31 @@
                 "secure-ds"
             ],
             "apis": {
-                "Date.prototype.getTime": 48,
-                "Navigator.prototype.userAgent": 43,
-                "window.indexedDB": 48,
-                "window.localStorage": 48,
-                "window.sessionStorage": 48,
-                "HTMLMediaElement.prototype.canPlayType": 45,
-                "HTMLCanvasElement.prototype.constructor": 26
+                "Date.prototype.getTime": 117,
+                "Navigator.prototype.userAgent": 112,
+                "window.indexedDB": 117,
+                "window.localStorage": 117,
+                "window.sessionStorage": 117,
+                "HTMLMediaElement.prototype.canPlayType": 112,
+                "HTMLCanvasElement.prototype.constructor": 42
             },
-            "sites": 51,
-            "prevalence": 0.00104
+            "sites": 132,
+            "prevalence": 0.00181,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15024184\\/\\/WoWClassic_DireMaul\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "serving-sys\\.com\\/SemiCachedScripts\\/ebOneTag\\.js",
@@ -151,210 +168,166 @@
                 "ds"
             ],
             "apis": {
-                "window.localStorage": 178,
-                "Date.prototype.getTime": 198,
-                "Navigator.prototype.userAgent": 6
+                "window.localStorage": 225,
+                "Date.prototype.getTime": 248,
+                "Navigator.prototype.userAgent": 10,
+                "window.sessionStorage": 1
             },
-            "sites": 207,
-            "prevalence": 0.00421
+            "sites": 257,
+            "prevalence": 0.00352,
+            "cnames": []
         },
         {
             "rule": "serving-sys\\.com\\/Serving",
-            "cookies": 0.00419,
-            "fingerprinting": 1,
-            "subdomains": [
-                "bs"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 4
-            },
-            "sites": 216,
-            "prevalence": 0.00439
-        },
-        {
-            "rule": "serving-sys\\.com\\/resources\\/\\/PROD\\/html5\\/23037\\/20200302\\/1075118717\\/52245588800965283\\/TOY_20_010_RSG_RAV4_300x600\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "secure-ds"
-            ],
-            "apis": {
-                "window.devicePixelRatio": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/\\/Ad_2_166_3_0\\/ebHtml5PoliteBanner\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "secure-ds"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 7,
-                "Navigator.prototype.userAgent": 7,
-                "DeviceMotionEvent.prototype.acceleration": 4,
-                "DeviceMotionEvent.prototype.accelerationIncludingGravity": 4,
-                "DeviceMotionEvent.prototype.rotationRate": 4,
-                "Event.prototype.timeStamp": 4,
-                "DeviceOrientationEvent.prototype.absolute": 4,
-                "DeviceOrientationEvent.prototype.alpha": 4,
-                "DeviceOrientationEvent.prototype.beta": 4,
-                "DeviceOrientationEvent.prototype.gamma": 4,
-                "Screen.prototype.width": 3
-            },
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "serving-sys\\.com\\/Serving",
-            "cookies": 0.000305,
+            "cookies": 0.00363,
             "fingerprinting": 0,
             "subdomains": [
                 "bs"
             ],
             "apis": {},
-            "sites": 16,
-            "prevalence": 0.000325
+            "sites": 279,
+            "prevalence": 0.00382,
+            "cnames": []
         },
         {
-            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/adkit\\/1_0_41_5\\/adkit\\.js",
+            "rule": "serving-sys\\.com\\/Serving",
+            "cookies": 0.00367,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bs"
+            ],
+            "apis": {},
+            "sites": 269,
+            "prevalence": 0.00368,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/VPAID\\/HTML5_1_40_0_0\\/VPAIDAPI\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "secure-ds"
             ],
             "apis": {
-                "Navigator.prototype.platform": 8,
+                "Screen.prototype.width": 8,
+                "Screen.prototype.height": 8
+            },
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/VPAID\\/Common_1_8_0_0\\/SZMKFLVPAIDBR\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 10,
+                "Screen.prototype.width": 10,
+                "Navigator.prototype.userAgent": 6
+            },
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/\\/Ad_2_174_3_0\\/ebHtml5InstreamBanner\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
                 "Date.prototype.getTime": 10,
-                "Navigator.prototype.userAgent": 3
+                "Date.prototype.getTimezoneOffset": 10,
+                "Navigator.prototype.userAgent": 10,
+                "Screen.prototype.width": 8
             },
             "sites": 10,
-            "prevalence": 0.000203
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/\\/AdBuilderScripts\\/Interactions\\/1_23_0\\/interactions\\.js",
+            "rule": "serving-sys\\.com\\/BurstingScript\\/EBVPAID\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "secure-ds"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 1
+                "HTMLMediaElement.prototype.canPlayType": 7
             },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/adkit\\/1_0_41_5\\/ctrl\\/mediaKit\\/utils\\/mediaKitEnvironmentUtils\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "secure-ds"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/AdBuilderScripts\\/jquery\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "secure-ds"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Date.prototype.getTime": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/AdBuilderScripts\\/jquery\\.mobile-events\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "secure-ds"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/AdBuilderScripts\\/CSSPlugin\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "secure-ds"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
             "rule": "serving-sys\\.com\\/serving",
-            "cookies": 0.00309,
+            "cookies": 0.00234,
             "fingerprinting": 0,
             "subdomains": [
                 "bs"
             ],
             "apis": {},
-            "sites": 153,
-            "prevalence": 0.00311
+            "sites": 173,
+            "prevalence": 0.00237,
+            "cnames": []
         },
         {
-            "rule": "serving-sys\\.com\\/Serving\\/ActivityServer\\.bs",
-            "cookies": 0.00175,
-            "fingerprinting": 0,
-            "subdomains": [
-                "bs"
-            ],
-            "apis": {},
-            "sites": 91,
-            "prevalence": 0.00185
-        },
-        {
-            "rule": "serving-sys\\.com\\/Serving\\/adServer\\.bs",
-            "cookies": 0.000285,
-            "fingerprinting": 0,
-            "subdomains": [
-                "bs"
-            ],
-            "apis": {},
-            "sites": 14,
-            "prevalence": 0.000285
-        },
-        {
-            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/14525627\\/\\/WoWClassic_Launch_Toast_728x90\\.html",
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/Modules_1_68_0_0\\/TCFDetector\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "secure-ds"
             ],
             "apis": {
-                "window.devicePixelRatio": 1
+                "Date.prototype.getTime": 5
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
-            "rule": "serving-sys\\.com\\/Serving\\/adServer\\.bs",
-            "cookies": 0.000224,
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15024156\\/\\/WoWClassic_RotBG_728x90_BK01\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15024206\\/\\/WoWClassic_Tauren_300x250_BK01\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/Serving\\/ActivityServer\\.bs",
+            "cookies": 0.00129,
             "fingerprinting": 0,
             "subdomains": [
                 "bs"
             ],
             "apis": {},
-            "sites": 15,
-            "prevalence": 0.000305
+            "sites": 98,
+            "prevalence": 0.00134,
+            "cnames": []
         },
         {
             "rule": "serving-sys\\.com\\/SemiCachedScripts\\/ebAttribution\\.js",
@@ -365,137 +338,12 @@
                 "ds"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5
+                "Navigator.prototype.userAgent": 8,
+                "Date.prototype.getTime": 1
             },
-            "sites": 95,
-            "prevalence": 0.00193
-        },
-        {
-            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/\\/Ad_2_166_3_0\\/ebStdBanner\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "secure-ds"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 28,
-                "Navigator.prototype.userAgent": 27,
-                "Navigator.prototype.plugins": 27,
-                "Screen.prototype.width": 25
-            },
-            "sites": 30,
-            "prevalence": 0.00061
-        },
-        {
-            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/Modules_1_62_0_0\\/CMPDetector\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "secure-ds"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 21
-            },
-            "sites": 26,
-            "prevalence": 0.000529
-        },
-        {
-            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/\\/Ad_2_166_3_0\\/ebStdBannerEx\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "secure-ds"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 3,
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.plugins": 2,
-                "Screen.prototype.width": 2,
-                "Element.prototype.getClientRects": 1
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "serving-sys\\.com\\/serving\\/adServer\\.bs",
-            "cookies": 0.000224,
-            "fingerprinting": 0,
-            "subdomains": [
-                "bs"
-            ],
-            "apis": {},
-            "sites": 13,
-            "prevalence": 0.000264
-        },
-        {
-            "rule": "serving-sys\\.com\\/Serving\\/ActivityServer\\.bs",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [
-                "bs"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-128947\\/WSFolders\\/14990931\\/\\/MegaMarchSale_PSSTORE_728x90\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "secure-ds"
-            ],
-            "apis": {
-                "window.devicePixelRatio": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "serving-sys\\.com\\/BurstingPipe\\/ActivityServer\\.bs",
-            "cookies": 0.000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "bs"
-            ],
-            "apis": {},
-            "sites": 22,
-            "prevalence": 0.000448
-        },
-        {
-            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-128947\\/WSFolders\\/14990936\\/\\/MegaMarchSale_PSSTORE_160x600\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "secure-ds"
-            ],
-            "apis": {
-                "window.devicePixelRatio": 2
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "serving-sys\\.com\\/Serving",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "bs"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "serving-sys\\.com\\/BurstingPipe\\/adServer\\.bs",
-            "cookies": 0.000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "bs"
-            ],
-            "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
+            "sites": 110,
+            "prevalence": 0.00151,
+            "cnames": []
         },
         {
             "rule": "serving-sys\\.com\\/BurstingcachedScripts\\/libraries\\/createjs\\/createjs-2015\\.11\\.26\\.min\\.js",
@@ -505,85 +353,229 @@
                 "secure-ds"
             ],
             "apis": {
-                "HTMLCanvasElement.prototype.constructor": 1,
-                "Navigator.prototype.userAgent": 1,
-                "Date.prototype.getTime": 2
+                "HTMLCanvasElement.prototype.constructor": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTime": 3
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
         },
         {
-            "rule": "serving-sys\\.com\\/Serving\\/ActivityServer\\.bs",
-            "cookies": 0.000264,
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15033335\\/\\/WoW_BlackFriday_Griffin\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 6
+            },
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15024194\\/\\/WoWClassic_NightElf_Banners\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15045400\\/\\/WoW_TrialCampaign_Horde_970x250\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/Serving\\/adServer\\.bs",
+            "cookies": 0.000151,
             "fingerprinting": 0,
             "subdomains": [
                 "bs"
             ],
             "apis": {},
-            "sites": 13,
-            "prevalence": 0.000264
+            "sites": 15,
+            "prevalence": 0.000205,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-128947\\/WSFolders\\/15106194\\/\\/libs\\/EBLoader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.userAgent": 1,
+                "window.indexedDB": 1,
+                "window.localStorage": 1,
+                "window.sessionStorage": 1,
+                "HTMLMediaElement.prototype.canPlayType": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "serving-sys\\.com\\/BurstingPipe\\/ActivityServer\\.bs",
-            "cookies": 0.0000814,
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [
                 "bs"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         },
         {
-            "rule": "serving-sys\\.com\\/Serving",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "bs"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/\\/Ad_2_166_3_0\\/ebHtml5PoliteBanner_api\\.js",
+            "rule": "serving-sys\\.com\\/BurstingcachedScripts\\/libraries\\/greensock\\/1_17_0\\/TweenMax\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "secure-ds"
             ],
             "apis": {
-                "Date.prototype.getTime": 3,
-                "Navigator.prototype.userAgent": 3,
-                "Screen.prototype.width": 2,
-                "DeviceMotionEvent.prototype.acceleration": 2,
-                "DeviceMotionEvent.prototype.accelerationIncludingGravity": 2,
-                "DeviceMotionEvent.prototype.rotationRate": 2,
-                "Event.prototype.timeStamp": 2,
-                "DeviceOrientationEvent.prototype.absolute": 2,
-                "DeviceOrientationEvent.prototype.alpha": 2,
-                "DeviceOrientationEvent.prototype.beta": 2,
-                "DeviceOrientationEvent.prototype.gamma": 2,
-                "Element.prototype.getClientRects": 1
+                "Navigator.prototype.userAgent": 17
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 18,
+            "prevalence": 0.000246,
+            "cnames": []
         },
         {
-            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/\\/Disp_3_20_0\\/ebRich\\.js",
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15024178\\/\\/WoWClassic_DireMaul\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "secure-ds"
             ],
             "apis": {
+                "window.devicePixelRatio": 5
+            },
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15024150\\/\\/WoWClassic_RotBG_300x250_BK01\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15100688\\/\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 6,
+                "Navigator.prototype.userAgent": 5,
+                "HTMLCanvasElement.prototype.constructor": 5
+            },
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/adkit\\/1_0_41_5\\/adkit\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 14,
+                "Navigator.prototype.platform": 12,
                 "Navigator.prototype.userAgent": 4
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 17,
+            "prevalence": 0.000233,
+            "cnames": []
         },
         {
-            "rule": "serving-sys\\.com\\/BurstingScript\\/programmatic\\/liquidhtml5shells\\/CS\\/HDF\\/MM_mcJS_HDF_RPU_INJECTION\\.js",
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15100685\\/\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2,
+                "HTMLCanvasElement.prototype.constructor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/Serving\\/ActivityServer\\.bs",
+            "cookies": 0.000151,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bs"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/serving\\/adServer\\.bs",
+            "cookies": 0.000301,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bs"
+            ],
+            "apis": {},
+            "sites": 22,
+            "prevalence": 0.000301,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15024224\\/\\/WoWClassic_BWL_NewKeyart_160x600\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15100679\\/\\/index\\.html",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -592,36 +584,63 @@
             "apis": {
                 "Navigator.prototype.userAgent": 1
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "serving-sys\\.com\\/BurstingScript\\/programmatic\\/liquidhtml5shells\\/CS\\/HDF\\/MM_mcJS_HDF_FUNCTIONS\\.js",
-            "cookies": 0.0000203,
-            "fingerprinting": 1,
-            "subdomains": [
-                "secure-ds"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 1,
-                "Document.cookie getter": 1,
-                "Document.cookie setter": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "serving-sys\\.com\\/resources\\/PROD\\/html5\\/104597\\/20191003\\/1074930335\\/48744520454532689\\/index\\.html",
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15024138\\/\\/WoWClassic_PreLaunch_Ragnaros_300x600\\.html",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "secure-ds"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2
+                "window.devicePixelRatio": 2
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15045378\\/\\/WoW_TrialCampaign_Alliance_300x250\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/\\/Ad_2_174_3_0\\/ebHtml5PoliteBanner\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Date.prototype.getTimezoneOffset": 6,
+                "DeviceMotionEvent.prototype.acceleration": 4,
+                "DeviceMotionEvent.prototype.accelerationIncludingGravity": 4,
+                "DeviceMotionEvent.prototype.rotationRate": 4,
+                "Event.prototype.timeStamp": 4,
+                "DeviceOrientationEvent.prototype.absolute": 4,
+                "DeviceOrientationEvent.prototype.alpha": 4,
+                "DeviceOrientationEvent.prototype.beta": 4,
+                "DeviceOrientationEvent.prototype.gamma": 4,
+                "Screen.prototype.width": 3,
+                "Element.prototype.getClientRects": 1
+            },
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "serving-sys\\.com\\/burstingres\\/CustomScripts\\/MM_mcJS_HTML5_INIT_STANDARD_BANNER\\.js",
@@ -631,126 +650,252 @@
                 "secure-ds"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "serving-sys\\.com\\/resources\\/PROD\\/html5\\/104597\\/20200313\\/1075137279\\/52505824370655945\\/index\\.html",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "secure-ds"
-            ],
-            "apis": {
                 "Navigator.prototype.userAgent": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15024192\\/\\/WoWClassic_NightElf_Banners\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingPipe",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "serving-sys\\.com\\/BurstingPipe\\/ActivityServer\\.bs",
-            "cookies": 0.0000407,
+            "cookies": 0.000274,
             "fingerprinting": 0,
             "subdomains": [
                 "bs"
             ],
             "apis": {},
+            "sites": 21,
+            "prevalence": 0.000287,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15024226\\/\\/WoWClassic_BWL_NewKeyart_300x250\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15024170\\/\\/WoWClassic_Launch_Toast_728x90\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15024237\\/\\/WoWClassic_BlackwingLair_300x250\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15033337\\/\\/WoW_BlackFriday_Griffin\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15024166\\/\\/WoWClassic_Launch_Toast\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-128947\\/WSFolders\\/15107046\\/\\/libs\\/EBLoader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.userAgent": 1,
+                "window.indexedDB": 1,
+                "window.localStorage": 1,
+                "window.sessionStorage": 1,
+                "HTMLMediaElement.prototype.canPlayType": 1
+            },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "serving-sys\\.com\\/serving\\/adServer\\.bs",
-            "cookies": 0.0000407,
+            "rule": "serving-sys\\.com\\/Serving",
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "bs"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/\\/Ad_2_166_3_0\\/ebHtml5ExpBanner_api\\.js",
+            "rule": "serving-sys\\.com\\/Serving\\/adServer\\.bs",
+            "cookies": 0.000219,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bs"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/AdBuilderScripts\\/jquery\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "secure-ds"
             ],
             "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 2,
-                "DeviceMotionEvent.prototype.acceleration": 2,
-                "DeviceMotionEvent.prototype.accelerationIncludingGravity": 2,
-                "DeviceMotionEvent.prototype.rotationRate": 2,
-                "Event.prototype.timeStamp": 2,
-                "DeviceOrientationEvent.prototype.absolute": 2,
-                "DeviceOrientationEvent.prototype.alpha": 2,
-                "DeviceOrientationEvent.prototype.beta": 2,
-                "DeviceOrientationEvent.prototype.gamma": 2,
-                "Screen.prototype.width": 1
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTime": 4
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-103086\\/WSFolders\\/14790406\\/\\/createjs\\.min\\.js",
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/AdBuilderScripts\\/jquery\\.mobile-events\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "secure-ds"
             ],
             "apis": {
-                "HTMLCanvasElement.prototype.constructor": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2
+                "Navigator.prototype.userAgent": 4
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "serving-sys\\.com\\/HostingServices\\/Creative\\/Nissan\\/LIVE\\/JS\\/nissanOfferRenderer\\.js",
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/AdBuilderScripts\\/CSSPlugin\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "services"
+                "secure-ds"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.platform": 2,
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 2
+                "Navigator.prototype.userAgent": 4
             },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "serving-sys\\.com\\/HostingServices\\/Creative\\/Nissan\\/LIVE\\/JS\\/toneDetector\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "services"
-            ],
-            "apis": {
-                "CanvasRenderingContext2D.prototype.getImageData": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "serving-sys\\.com\\/BurstingPipe\\/adServer\\.bs",
-            "cookies": 0.000061,
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [
                 "bs"
             ],
             "apis": {},
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15024136\\/\\/WoWClassic_PreLaunch_Ragnaros_300x250\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 5
+            },
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingCachedScripts\\/\\/Ad_2_174_3_0\\/ebStdBannerEx\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.plugins": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Screen.prototype.width": 3
+            },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-128947\\/WSFolders\\/14990940\\/\\/MegaMarchSale_PSSTORE_300x600\\.js",
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15024146\\/\\/WoWClassic_RotBG_160x600_BK01\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -760,23 +905,23 @@
                 "window.devicePixelRatio": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "serving-sys\\.com\\/BurstingcachedScripts\\/libraries\\/greensock\\/1_18_0\\/TweenMax\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "rule": "serving-sys\\.com\\/Serving\\/ActivityServer\\.bs",
+            "cookies": 0.000219,
+            "fingerprinting": 0,
             "subdomains": [
-                "secure-ds"
+                "bs"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
         },
         {
-            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/14683189\\/\\/WoWClassic_PreLaunch_Ragnaros_728x90\\.html",
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15045384\\/\\/WoW_TrialCampaign_Alliance_728x90\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -786,7 +931,142 @@
                 "window.devicePixelRatio": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15033341\\/\\/WoW_BlackFriday_Griffin\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15024152\\/\\/WoWClassic_RotBG_300x600_BK01\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15024164\\/\\/WoWClassic_Launch_Toast_300x250_BK01\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15024235\\/\\/WoWClassic_BlackwingLair_160x600\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15024241\\/\\/WoWClassic_BlackwingLair_728x90\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingPipe\\/adServer\\.bs",
+            "cookies": 0.0000684,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bs"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15024174\\/\\/WoWClassic_DireMaul\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingPipe\\/ActivityServer\\.bs",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bs"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/BurstingRes\\/Site-127587\\/WSFolders\\/15024198\\/\\/WoWClassic_NightElf_Banners\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/burstingpipe\\/activityserver\\.bs",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -800,5 +1080,12 @@
         "cpu": 1,
         "cache": 1
     },
-    "cookies": 0.012
+    "cookies": 0.0148,
+    "types": {
+        "Script": 1727,
+        "XHR": 232,
+        "Image": 511,
+        "Document": 73,
+        "Other": 15
+    }
 }

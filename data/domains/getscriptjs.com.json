@@ -4,44 +4,50 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000834,
-    "sites": 41,
+    "prevalence": 0.000493,
+    "sites": 36,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "getscriptjs\\.com\\/app\\.js",
-            "cookies": 0.000692,
+            "rule": "getscriptjs\\.com\\/p\\.js",
+            "cookies": 0.000151,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Screen.prototype.width": 29,
-                "Screen.prototype.height": 29
+                "Navigator.prototype.userAgent": 10,
+                "Navigator.prototype.mimeTypes": 10,
+                "Date.prototype.getTime": 11,
+                "window.localStorage": 11
             },
-            "sites": 34,
-            "prevalence": 0.000692
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
         },
         {
-            "rule": "getscriptjs\\.com\\/p\\.js",
-            "cookies": 0.000142,
+            "rule": "getscriptjs\\.com\\/app\\.js",
+            "cookies": 0.000342,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "Navigator.prototype.mimeTypes": 4,
-                "Date.prototype.getTime": 7,
-                "window.localStorage": 7
+                "Screen.prototype.width": 24,
+                "Screen.prototype.height": 24
             },
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 25,
+            "prevalence": 0.000342,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000834
+    "cookies": 0.000493,
+    "types": {
+        "Script": 36
+    }
 }

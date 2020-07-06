@@ -1,14 +1,20 @@
 {
     "domain": "rnengage.com",
-    "owner": {},
+    "owner": {
+        "name": "Oracle Corporation",
+        "displayName": "Oracle",
+        "privacyPolicy": "https://www.oracle.com/legal/privacy/privacy-policy.html",
+        "url": "http://oracle.com"
+    },
     "source": [
         "DuckDuckGo"
     ],
     "prevalence": 0.000712,
-    "sites": 35,
+    "sites": 52,
     "subdomains": [
         "www"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -19,121 +25,180 @@
                 "www"
             ],
             "apis": {
-                "Date.prototype.getTime": 35,
-                "PerformanceTiming.prototype.navigationStart": 33
+                "Date.prototype.getTime": 52,
+                "PerformanceTiming.prototype.navigationStart": 50
             },
-            "sites": 35,
-            "prevalence": 0.000712
+            "sites": 52,
+            "prevalence": 0.000712,
+            "cnames": []
         },
         {
             "rule": "rnengage\\.com\\/api\\/e\\/ca67320\\/e\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "rnengage\\.com\\/api\\/e\\/ca128131\\/e\\.js",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "rnengage\\.com\\/api\\/e\\/ca38961\\/e\\.js",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "rnengage\\.com\\/api\\/e\\/ca117717\\/e\\.js",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "rnengage\\.com\\/api\\/e\\/ca101497\\/e\\.js",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "rnengage\\.com\\/api\\/e\\/ca105127\\/e\\.js",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "rnengage\\.com\\/api\\/e\\/ca77152\\/e\\.js",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "rnengage\\.com\\/api\\/e\\/ca31171\\/e\\.js",
-            "cookies": 0.0000203,
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "rnengage\\.com\\/api\\/e\\/ca107631\\/e\\.js",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "rnengage\\.com\\/api\\/e\\/ca85247\\/e\\.js",
-            "cookies": 0.0000203,
+            "rule": "rnengage\\.com\\/api\\/e\\/ca99591\\/e\\.js",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "rnengage\\.com\\/api\\/e\\/ca101394\\/e\\.js",
-            "cookies": 0.0000407,
+            "rule": "rnengage\\.com\\/api\\/e\\/ca86403\\/e\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "rnengage\\.com\\/api\\/e\\/ca72241\\/e\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "rnengage\\.com\\/api\\/e\\/ca128131\\/e\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "rnengage\\.com\\/api\\/e\\/ca38961\\/e\\.js",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "rnengage\\.com\\/api\\/e\\/ca99850\\/e\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "rnengage\\.com\\/api\\/e\\/ca167703\\/e\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "rnengage\\.com\\/api\\/e\\/ca88920\\/e\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "rnengage\\.com\\/api\\/e\\/ca101497\\/e\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "rnengage\\.com\\/api\\/e\\/ca105127\\/e\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "rnengage\\.com\\/api\\/e\\/ca85247\\/e\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -143,5 +208,8 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.000692
+    "cookies": 0.000712,
+    "types": {
+        "Script": 83
+    }
 }

@@ -9,16 +9,16 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00275,
-    "sites": 135,
+    "prevalence": 0.00211,
+    "sites": 154,
     "subdomains": [
         "autolinkmaker.itunes",
-        "linkmaker.itunes",
         "www",
-        "js-cdn.music",
+        "linkmaker.itunes",
         "itunes",
         "apps"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -29,85 +29,77 @@
                 "autolinkmaker.itunes"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 66,
-                "Date.prototype.getTime": 71,
-                "Date.prototype.getTimezoneOffset": 59
+                "Navigator.prototype.userAgent": 84,
+                "Date.prototype.getTime": 84,
+                "Date.prototype.getTimezoneOffset": 69
             },
-            "sites": 71,
-            "prevalence": 0.00144
-        },
-        {
-            "rule": "apple\\.com\\/en-us\\/badge-lrg\\.svg",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [
-                "linkmaker.itunes"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 85,
+            "prevalence": 0.00116,
+            "cnames": []
         },
         {
             "rule": "apple\\.com\\/wss\\/fonts\\/",
-            "cookies": 0.000061,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "apple\\.com\\/en-us\\/badge-lrg\\.svg",
+            "cookies": 0.000151,
+            "fingerprinting": 0,
+            "subdomains": [
+                "linkmaker.itunes"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
+        },
+        {
+            "rule": "apple\\.com\\/wss\\/fonts\\/SF-Pro-Icons\\/v1\\/SFProIcons_light\\.woff",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "apple\\.com\\/wss\\/fonts\\/SF-Pro-Text\\/v1\\/sf-pro-text_light\\.woff2",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "apple\\.com\\/wss\\/fonts\\/SF-Pro-Text\\/v1\\/sf-pro-text_regular\\.woff2",
-            "cookies": 0.0000407,
+            "rule": "apple\\.com\\/en-gb\\/badge-lrg\\.svg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "www"
+                "linkmaker.itunes"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "apple\\.com\\/wss\\/fonts\\/SF-Pro-Text\\/v1\\/sf-pro-text_bold\\.woff2",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "apple\\.com\\/musickit\\/v1\\/musickit\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-cdn.music"
-            ],
-            "apis": {
-                "window.localStorage": 2,
-                "window.name": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "apple\\.com\\/us\\/app\\/calendarpro-for-google\\/id704255886",
-            "cookies": 0.0000407,
+            "rule": "apple\\.com\\/us\\/app\\/reference-miner\\/id417583544",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "itunes",
@@ -115,15 +107,22 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
-        "cache": 1
+        "cpu": 0,
+        "cache": 3
     },
-    "cookies": 0.000346
+    "cookies": 0.000369,
+    "types": {
+        "Script": 85,
+        "Stylesheet": 3,
+        "Image": 15,
+        "Font": 4
+    }
 }

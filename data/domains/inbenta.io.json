@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000203,
-    "sites": 10,
+    "prevalence": 0.000164,
+    "sites": 12,
     "subdomains": [
         "sdk"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -32,7 +33,8 @@
                 "window.matchMedia(\"prefers-reduced-motion\")": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -42,5 +44,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0000407
+    "cookies": 0.0000274,
+    "types": {
+        "Script": 2
+    }
 }

@@ -4,42 +4,38 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00061,
-    "sites": 30,
+    "prevalence": 0.000452,
+    "sites": 33,
     "subdomains": [
-        "app"
+        "app",
+        "www"
     ],
-    "fingerprinting": 0,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "clickfunnels\\.com\\/assets\\/cfpop\\.js",
-            "cookies": 0.00059,
+            "cookies": 0.000438,
             "fingerprinting": 0,
             "subdomains": [
-                "app"
+                "app",
+                "www"
             ],
             "apis": {},
-            "sites": 29,
-            "prevalence": 0.00059
-        },
-        {
-            "rule": "clickfunnels\\.com\\/userevents\\/",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "app"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 32,
+            "prevalence": 0.000438,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00061
+    "cookies": 0.000438,
+    "types": {
+        "Script": 32
+    }
 }

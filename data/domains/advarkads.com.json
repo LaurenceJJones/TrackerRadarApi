@@ -4,51 +4,66 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000462,
-    "sites": 2,
+    "prevalence": 0.000233,
+    "sites": 17,
     "subdomains": [
         "s3",
         "api"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "advarkads\\.com\\/modules\\/advarkmanager\\.js",
-            "cookies": 0,
+            "rule": "advarkads\\.com\\/modules\\/match\\/frame\\.html",
+            "cookies": 0.000233,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.000233,
+            "cnames": []
+        },
+        {
+            "rule": "advarkads\\.com\\/modules\\/match\\/frame\\.js",
+            "cookies": 0.000233,
             "fingerprinting": 1,
             "subdomains": [
                 "s3"
             ],
             "apis": {
-                "window.localStorage": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2,
-                "window.devicePixelRatio": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 2
+                "window.devicePixelRatio": 17,
+                "window.localStorage": 17
             },
-            "sites": 2,
-            "prevalence": 0.0000462
+            "sites": 17,
+            "prevalence": 0.000233,
+            "cnames": []
         },
         {
-            "rule": "advarkads\\.com\\/api\\/vmap",
-            "cookies": 0.0000462,
+            "rule": "advarkads\\.com\\/api\\/statistic\\/match",
+            "cookies": 0.000219,
             "fingerprinting": 0,
             "subdomains": [
                 "api"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000462
+            "sites": 17,
+            "prevalence": 0.000233,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 0,
-        "size": 0,
+        "time": 1,
+        "size": 1,
         "cpu": 0,
-        "cache": 0
+        "cache": 3
     },
-    "cookies": 0.0000462
+    "cookies": 0.000233,
+    "types": {
+        "Document": 17,
+        "Script": 17,
+        "Image": 17
+    }
 }

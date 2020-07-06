@@ -7,52 +7,65 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000061,
-    "sites": 3,
+    "prevalence": 0.0000684,
+    "sites": 5,
     "subdomains": [
+        "cz.secure",
+        "me-hpgermany.secure-cdn20",
         "dnc-ksc.secure",
-        "tsv-taosnm.secure-cdn",
+        "me-llgermany.secure-cdn20",
         "hfm-detroit.secure-cdn"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "accesso\\.com\\/embed\\/accesso\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.000041,
             "fingerprinting": 1,
             "subdomains": [
+                "cz.secure",
+                "me-hpgermany.secure-cdn20",
                 "dnc-ksc.secure",
-                "tsv-taosnm.secure-cdn",
+                "me-llgermany.secure-cdn20",
                 "hfm-detroit.secure-cdn"
             ],
             "apis": {
-                "Navigator.prototype.appVersion": 2
+                "Navigator.prototype.appVersion": 5
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "accesso\\.com\\/embed\\/shim\\.html",
-            "cookies": 0.0000407,
+            "cookies": 0.000041,
             "fingerprinting": 1,
             "subdomains": [
+                "cz.secure",
+                "me-hpgermany.secure-cdn20",
                 "dnc-ksc.secure",
-                "tsv-taosnm.secure-cdn",
+                "me-llgermany.secure-cdn20",
                 "hfm-detroit.secure-cdn"
             ],
             "apis": {
-                "window.localStorage": 3
+                "window.localStorage": 5
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.0000407
+    "cookies": 0.000041,
+    "types": {
+        "Script": 5,
+        "Document": 5
+    }
 }

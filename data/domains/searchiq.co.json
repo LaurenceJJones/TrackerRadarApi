@@ -4,85 +4,130 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000793,
-    "sites": 39,
+    "prevalence": 0.000807,
+    "sites": 59,
     "subdomains": [
         "pub",
         "static",
         "track",
         "a.cdn"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "searchiq\\.co\\/js\\/container\\/siq-container-2\\.js",
-            "cookies": 0,
+            "rule": "searchiq\\.co\\/\\/js\\/container\\/siq-container-2\\.js",
+            "cookies": 0.000137,
             "fingerprinting": 1,
             "subdomains": [
                 "pub"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 25
+                "Navigator.prototype.userAgent": 24
             },
-            "sites": 33,
-            "prevalence": 0.000671
+            "sites": 26,
+            "prevalence": 0.000356,
+            "cnames": []
         },
         {
-            "rule": "searchiq\\.co\\/js\\/2\\.2\\.41\\/autocomplete\\.js",
-            "cookies": 0.000651,
+            "rule": "searchiq\\.co\\/js\\/2\\.2\\.51\\/sa\\.js",
+            "cookies": 0.000807,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 59,
+            "prevalence": 0.000807,
+            "cnames": []
+        },
+        {
+            "rule": "searchiq\\.co\\/js\\/2\\.2\\.51\\/autocomplete\\.js",
+            "cookies": 0.00078,
             "fingerprinting": 1,
             "subdomains": [
                 "static"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 29
+                "Navigator.prototype.userAgent": 57
             },
-            "sites": 32,
-            "prevalence": 0.000651
+            "sites": 57,
+            "prevalence": 0.00078,
+            "cnames": []
         },
         {
-            "rule": "searchiq\\.co\\/js\\/2\\.2\\.41\\/sa\\.js",
-            "cookies": 0.000712,
+            "rule": "searchiq\\.co\\/css\\/2\\.2\\.51\\/autocomplete\\.css",
+            "cookies": 0.00078,
             "fingerprinting": 0,
             "subdomains": [
                 "static"
             ],
             "apis": {},
-            "sites": 35,
-            "prevalence": 0.000712
+            "sites": 57,
+            "prevalence": 0.00078,
+            "cnames": []
         },
         {
-            "rule": "searchiq\\.co\\/css\\/2\\.2\\.41\\/autocomplete\\.css",
-            "cookies": 0.000651,
+            "rule": "searchiq\\.co\\/css\\/2\\.2\\.51\\/stylesheet\\.css",
+            "cookies": 0.00078,
             "fingerprinting": 0,
             "subdomains": [
                 "static"
             ],
             "apis": {},
-            "sites": 32,
-            "prevalence": 0.000651
+            "sites": 57,
+            "prevalence": 0.00078,
+            "cnames": []
         },
         {
-            "rule": "searchiq\\.co\\/css\\/2\\.2\\.41\\/stylesheet\\.css",
-            "cookies": 0.000651,
-            "fingerprinting": 0,
+            "rule": "searchiq\\.co\\/js\\/container\\/siq-container-2\\.js",
+            "cookies": 0.000356,
+            "fingerprinting": 1,
             "subdomains": [
-                "static"
+                "pub"
             ],
-            "apis": {},
-            "sites": 32,
-            "prevalence": 0.000651
+            "apis": {
+                "Navigator.prototype.userAgent": 24
+            },
+            "sites": 30,
+            "prevalence": 0.00041,
+            "cnames": []
         },
         {
             "rule": "searchiq\\.co\\/api\\/tr",
-            "cookies": 0.000183,
+            "cookies": 0.000178,
             "fingerprinting": 0,
             "subdomains": [
                 "track"
             ],
             "apis": {},
-            "sites": 9,
-            "prevalence": 0.000183
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
+        },
+        {
+            "rule": "searchiq\\.co\\/api\\/connect",
+            "cookies": 0.000164,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
+        },
+        {
+            "rule": "searchiq\\.co\\/api\\/tr",
+            "cookies": 0.000178,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
         },
         {
             "rule": "searchiq\\.co\\/app\\/search\\/content\\/common\\/f2-lib\\.js",
@@ -92,12 +137,13 @@
                 "a.cdn"
             ],
             "apis": {
-                "Navigator.prototype.appName": 7,
-                "Navigator.prototype.userAgent": 7,
-                "Document.cookie getter": 7
+                "Navigator.prototype.appName": 12,
+                "Navigator.prototype.userAgent": 12,
+                "Document.cookie getter": 11
             },
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
         },
         {
             "rule": "searchiq\\.co\\/app\\/search\\/content\\/push-notifications\\/js\\/main\\.js",
@@ -107,42 +153,27 @@
                 "a.cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 7
+                "Navigator.prototype.userAgent": 12,
+                "Notification.permission": 12,
+                "Document.cookie getter": 1
             },
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "searchiq\\.co\\/api\\/tr",
-            "cookies": 0.000142,
-            "fingerprinting": 0,
-            "subdomains": [
-                "track"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "searchiq\\.co\\/\\/js\\/container\\/siq-container-2\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "pub"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3
-            },
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.000712
+    "cookies": 0.000807,
+    "types": {
+        "Script": 209,
+        "Stylesheet": 114,
+        "XHR": 13,
+        "Image": 13
+    }
 }

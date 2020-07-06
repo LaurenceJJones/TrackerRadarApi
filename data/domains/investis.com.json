@@ -7,12 +7,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000142,
-    "sites": 7,
+    "prevalence": 0.0000821,
+    "sites": 6,
     "subdomains": [
-        "irs.tools",
-        "qfx.tools"
+        "irs.tools"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -25,8 +25,9 @@
             "apis": {
                 "Navigator.prototype.appName": 2
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "investis\\.com\\/Clients\\/ScriptResource\\.axd",
@@ -40,38 +41,15 @@
                 "Navigator.prototype.appVersion": 2,
                 "Navigator.prototype.userAgent": 2
             },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "investis\\.com\\/clients\\/us\\/general-electric\\/xml\\/xml_full\\.aspx",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "qfx.tools"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "investis\\.com\\/Clients\\/uk\\/rolls_royce2\\/Ticker\\/Ticker\\.aspx",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "irs.tools"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 3
-    },
-    "cookies": 0.000142
+    "performance": {},
+    "cookies": 0.0000684,
+    "types": {
+        "Script": 5
+    }
 }

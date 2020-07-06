@@ -7,31 +7,33 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000061,
+    "prevalence": 0.000041,
     "sites": 3,
     "subdomains": [
-        "plusnet-pn"
+        "anwb-anwb2017",
+        "congstar-congstar"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "digitalcx\\.com\\/classifications\\/3\\/categories",
-            "cookies": 0.0000407,
+            "rule": "digitalcx\\.com\\/event\\/onLoad",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "plusnet-pn"
+                "anwb-anwb2017",
+                "congstar-congstar"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 0
-    },
-    "cookies": 0.000061
+    "performance": {},
+    "cookies": 0.000041,
+    "types": {
+        "Script": 2
+    }
 }

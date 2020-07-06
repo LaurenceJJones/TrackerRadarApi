@@ -7,12 +7,13 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000203,
-    "sites": 1,
+    "prevalence": 0.0000274,
+    "sites": 2,
     "subdomains": [
         "tag",
         "imp"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -25,21 +26,23 @@
             "apis": {
                 "Date.prototype.getTime": 2,
                 "Date.prototype.getTimezoneOffset": 2,
-                "Navigator.prototype.cookieEnabled": 2
+                "Navigator.prototype.cookieEnabled": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "readserver\\.net\\/imp\\.php",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "imp"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -47,7 +50,10 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.0000203
+    "cookies": 0.0000274,
+    "types": {
+        "Script": 4
+    }
 }

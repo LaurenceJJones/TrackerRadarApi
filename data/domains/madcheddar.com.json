@@ -4,144 +4,145 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00309,
-    "sites": 152,
+    "prevalence": 0.000684,
+    "sites": 50,
     "subdomains": [
         "ads"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "madcheddar\\.com\\/1090",
-            "cookies": 0.00102,
+            "rule": "madcheddar\\.com\\/1126",
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
-            "sites": 50,
-            "prevalence": 0.00102
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
-            "rule": "madcheddar\\.com\\/1462",
-            "cookies": 0.000509,
+            "rule": "madcheddar\\.com\\/1111",
+            "cookies": 0.000109,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
-            "sites": 25,
-            "prevalence": 0.000509
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
-            "rule": "madcheddar\\.com\\/845",
-            "cookies": 0.000061,
+            "rule": "madcheddar\\.com\\/736",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "madcheddar\\.com\\/1122",
-            "cookies": 0.000102,
+            "rule": "madcheddar\\.com\\/1843",
+            "cookies": 0.000192,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
         },
         {
-            "rule": "madcheddar\\.com\\/1736",
-            "cookies": 0.000753,
+            "rule": "madcheddar\\.com\\/956",
+            "cookies": 0.000109,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
-            "sites": 37,
-            "prevalence": 0.000753
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
-            "rule": "madcheddar\\.com\\/1053",
-            "cookies": 0.000244,
+            "rule": "madcheddar\\.com\\/1752",
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
-            "sites": 12,
-            "prevalence": 0.000244
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
-            "rule": "madcheddar\\.com\\/1585",
-            "cookies": 0.000895,
+            "rule": "madcheddar\\.com\\/1071",
+            "cookies": 0.000109,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
-            "sites": 44,
-            "prevalence": 0.000895
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
-            "rule": "madcheddar\\.com\\/1073",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "madcheddar\\.com\\/1512",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "madcheddar\\.com\\/1464",
-            "cookies": 0.000366,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {},
-            "sites": 18,
-            "prevalence": 0.000366
-        },
-        {
-            "rule": "madcheddar\\.com\\/1500",
-            "cookies": 0.0000407,
+            "rule": "madcheddar\\.com\\/1534",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "madcheddar\\.com\\/1107",
-            "cookies": 0.0000407,
+            "rule": "madcheddar\\.com\\/1125",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "madcheddar\\.com\\/780",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "ads"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "madcheddar\\.com\\/1737",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -151,5 +152,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00309
+    "cookies": 0.000684,
+    "types": {
+        "Document": 62
+    }
 }

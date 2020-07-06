@@ -7,65 +7,106 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000285,
-    "sites": 14,
+    "prevalence": 0.000369,
+    "sites": 27,
     "subdomains": [
+        "sync",
         "sa",
-        "sync"
+        "tag"
     ],
-    "fingerprinting": 0,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
-            "rule": "placelocal\\.com\\/e",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sa"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "placelocal\\.com\\/syncdatapartnersjs",
-            "cookies": 0.000142,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
             "rule": "placelocal\\.com\\/id",
-            "cookies": 0.000102,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "sync"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "placelocal\\.com\\/e\\/png",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sa"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "placelocal\\.com\\/e",
+            "cookies": 0.000164,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sa"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
+        },
+        {
+            "rule": "placelocal\\.com\\/syncdatapartnersjs",
+            "cookies": 0.000219,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
+        },
+        {
+            "rule": "placelocal\\.com\\/e\\/png",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sa"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "placelocal\\.com\\/ad\\/iframe",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.userAgent": 1,
+                "window.matchMedia(\"prefers-reduced-motion\")": 1,
+                "Navigator.prototype.appVersion": 1,
+                "Navigator.prototype.appName": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "placelocal\\.com\\/syncdatapartnersimg",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000285
+    "cookies": 0.000356,
+    "types": {
+        "Image": 9,
+        "Script": 30,
+        "Document": 2
+    }
 }

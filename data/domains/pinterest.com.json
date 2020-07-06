@@ -9,101 +9,161 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0502,
-    "sites": 2468,
+    "prevalence": 0.0527,
+    "sites": 3853,
     "subdomains": [
-        "widgets",
-        "api",
         "assets",
         "log",
         "ct",
-        "www"
+        "widgets",
+        "api",
+        "www",
+        "passets-cdn",
+        "passets-ec"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
+            "rule": "pinterest\\.com\\/js\\/pinit\\.js",
+            "cookies": 0.000917,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 849
+            },
+            "sites": 857,
+            "prevalence": 0.0117,
+            "cnames": []
+        },
+        {
+            "rule": "pinterest\\.com\\/js\\/pinit_main\\.js",
+            "cookies": 0.00131,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1126,
+                "Navigator.prototype.userAgent": 1100,
+                "Navigator.prototype.language": 1126
+            },
+            "sites": 1128,
+            "prevalence": 0.0154,
+            "cnames": []
+        },
+        {
+            "rule": "pinterest\\.com\\/",
+            "cookies": 0.0154,
+            "fingerprinting": 0,
+            "subdomains": [
+                "log",
+                "ct"
+            ],
+            "apis": {},
+            "sites": 1140,
+            "prevalence": 0.0156,
+            "cnames": []
+        },
+        {
             "rule": "pinterest\\.com\\/v1\\/urls\\/count\\.json",
-            "cookies": 0.00122,
+            "cookies": 0.0013,
             "fingerprinting": 0,
             "subdomains": [
                 "widgets",
                 "api"
             ],
             "apis": {},
-            "sites": 347,
-            "prevalence": 0.00706
-        },
-        {
-            "rule": "pinterest\\.com\\/js\\/pinit\\.js",
-            "cookies": 0.0011,
-            "fingerprinting": 1,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 594
-            },
-            "sites": 632,
-            "prevalence": 0.0129
-        },
-        {
-            "rule": "pinterest\\.com\\/js\\/pinit_main\\.js",
-            "cookies": 0.00146,
-            "fingerprinting": 1,
-            "subdomains": [
-                "assets"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 712,
-                "Navigator.prototype.userAgent": 598,
-                "Navigator.prototype.language": 685
-            },
-            "sites": 713,
-            "prevalence": 0.0145
-        },
-        {
-            "rule": "pinterest\\.com\\/",
-            "cookies": 0.0146,
-            "fingerprinting": 0,
-            "subdomains": [
-                "log"
-            ],
-            "apis": {},
-            "sites": 721,
-            "prevalence": 0.0147
+            "sites": 525,
+            "prevalence": 0.00718,
+            "cnames": []
         },
         {
             "rule": "pinterest\\.com\\/v3\\/",
-            "cookies": 0.000264,
+            "cookies": 0.00189,
             "fingerprinting": 0,
             "subdomains": [
                 "ct"
             ],
             "apis": {},
-            "sites": 1485,
-            "prevalence": 0.0302
+            "sites": 2358,
+            "prevalence": 0.0323,
+            "cnames": []
+        },
+        {
+            "rule": "pinterest\\.com\\/",
+            "cookies": 0.000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "log"
+            ],
+            "apis": {},
+            "sites": 20,
+            "prevalence": 0.000274,
+            "cnames": []
+        },
+        {
+            "rule": "pinterest\\.com\\/images\\/pidgets\\/pinit_fg_en_rect_gray_20\\.png",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 21,
+            "prevalence": 0.000287,
+            "cnames": []
+        },
+        {
+            "rule": "pinterest\\.com\\/images\\/pidgets\\/pin_it_button\\.png",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
+        },
+        {
+            "rule": "pinterest\\.com\\/images\\/pidgets\\/pinit_fg_en_rect_red_28\\.png",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
             "rule": "pinterest\\.com\\/login\\/",
-            "cookies": 0.0000203,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "pinterest\\.com\\/images\\/PinExt\\.png",
-            "cookies": 0.0000407,
+            "rule": "pinterest\\.com\\/images\\/about\\/buttons\\/pinterest-button\\.png",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
-                "assets"
+                "passets-cdn",
+                "passets-ec"
             ],
             "apis": {},
-            "sites": 12,
-            "prevalence": 0.000244
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "pinterest\\.com\\/sdk\\/sdk\\.js",
@@ -115,8 +175,9 @@
             "apis": {
                 "Document.cookie getter": 3
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [
@@ -131,5 +192,9 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.0162
+    "cookies": 0.031,
+    "types": {
+        "Script": 2535,
+        "Image": 3544
+    }
 }

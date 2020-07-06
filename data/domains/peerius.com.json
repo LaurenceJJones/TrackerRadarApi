@@ -7,72 +7,81 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000407,
-    "sites": 20,
+    "prevalence": 0.000287,
+    "sites": 21,
     "subdomains": [
-        "superdrug",
-        "aponeo",
+        "ustopshop",
+        "cooksongold",
         "dawsons",
         "dorothyperkins",
         "fotokoch",
         "intersport",
         "jako-o",
-        "momaxde",
+        "lykose",
+        "mobelixat",
         "netto",
+        "nisbetsuk",
         "roller",
+        "superdrug",
         "superdry",
         "tedbaker",
         "teufel",
-        "thewhitecompany",
         "thewinesociety",
-        "topman",
+        "thewhitecompany",
         "topshop",
-        "wallart",
-        "zooroyal"
+        "topman",
+        "wallart"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "peerius\\.com\\/tracker\\/peerius\\.page",
-            "cookies": 0.000407,
+            "cookies": 0.000274,
             "fingerprinting": 1,
             "subdomains": [
-                "superdrug",
-                "aponeo",
+                "ustopshop",
+                "cooksongold",
                 "dawsons",
                 "dorothyperkins",
                 "fotokoch",
                 "intersport",
                 "jako-o",
-                "momaxde",
+                "lykose",
+                "mobelixat",
                 "netto",
+                "nisbetsuk",
                 "roller",
+                "superdrug",
                 "superdry",
                 "tedbaker",
                 "teufel",
-                "thewhitecompany",
                 "thewinesociety",
-                "topman",
+                "thewhitecompany",
                 "topshop",
-                "wallart",
-                "zooroyal"
+                "topman",
+                "wallart"
             ],
             "apis": {
-                "Document.cookie getter": 18,
-                "Date.prototype.getTime": 20,
+                "Document.cookie getter": 19,
+                "Date.prototype.getTime": 21,
                 "Document.cookie setter": 20,
-                "Navigator.prototype.userAgent": 18
+                "Navigator.prototype.userAgent": 21
             },
-            "sites": 20,
-            "prevalence": 0.000407
+            "sites": 21,
+            "prevalence": 0.000287,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
-        "cpu": 1,
-        "cache": 3
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
     },
-    "cookies": 0.000407
+    "cookies": 0.000274,
+    "types": {
+        "Script": 21
+    }
 }

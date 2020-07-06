@@ -4,33 +4,38 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000427,
-    "sites": 21,
+    "prevalence": 0.000657,
+    "sites": 48,
     "subdomains": [
         "delivery"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "impressionmonster\\.com\\/sync\\.php",
-            "cookies": 0.000427,
+            "cookies": 0.000657,
             "fingerprinting": 1,
             "subdomains": [
                 "delivery"
             ],
             "apis": {
-                "Date.prototype.getTime": 10
+                "Date.prototype.getTime": 44
             },
-            "sites": 21,
-            "prevalence": 0.000427
+            "sites": 48,
+            "prevalence": 0.000657,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000427
+    "cookies": 0.000657,
+    "types": {
+        "Script": 48
+    }
 }

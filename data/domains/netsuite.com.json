@@ -9,19 +9,47 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
-    "sites": 5,
+    "prevalence": 0.000137,
+    "sites": 10,
     "subdomains": [
+        "forms.na1",
+        "1225744.extforms",
         "checkout",
         "checkout.na2",
         "system",
-        "system.na3"
+        "923962.app"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
+            "rule": "netsuite\\.com\\/app\\/site\\/crm\\/externalleadpage\\.nl",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "forms.na1",
+                "1225744.extforms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "netsuite\\.com\\/core\\/styles\\/pagestyles\\.nl",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "1225744.extforms"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
             "rule": "netsuite\\.com\\/c\\.822523\\/site\\/img\\/norton_logo_132x68\\.gif",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "checkout",
@@ -29,27 +57,29 @@
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "netsuite\\.com\\/c\\.923962\\/site\\/TT_SB2_Files\\/img\\/tone-movement-hover-sprite\\.png",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "system",
-                "system.na3"
+                "923962.app"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 3
-    },
-    "cookies": 0.0000814
+    "performance": {},
+    "cookies": 0.000123,
+    "types": {
+        "Document": 2,
+        "Stylesheet": 2,
+        "Image": 4
+    }
 }

@@ -9,11 +9,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00185,
-    "sites": 91,
+    "prevalence": 0.00133,
+    "sites": 97,
     "subdomains": [
         "seal.websecurity"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -24,18 +25,22 @@
                 "seal.websecurity"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 33
+                "Navigator.prototype.userAgent": 56
             },
-            "sites": 59,
-            "prevalence": 0.0012
+            "sites": 79,
+            "prevalence": 0.00108,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 79
+    }
 }

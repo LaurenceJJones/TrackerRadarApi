@@ -4,13 +4,13 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000142,
-    "sites": 7,
+    "prevalence": 0.000192,
+    "sites": 14,
     "subdomains": [
-        "eas-fe",
-        "ex"
+        "eas-fe"
     ],
-    "fingerprinting": 2,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "eskimi\\.com\\/js\\/adt\\.js",
@@ -20,44 +20,24 @@
                 "eas-fe"
             ],
             "apis": {
-                "Screen.prototype.availWidth": 2,
-                "Screen.prototype.availHeight": 2,
-                "Date.prototype.getTime": 2
+                "Screen.prototype.availWidth": 1,
+                "Screen.prototype.availHeight": 1,
+                "Date.prototype.getTime": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "eskimi\\.com\\/delivery\\/s",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "eas-fe"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "eskimi\\.com\\/ad\\/nginad\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ex"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 1
     },
-    "cookies": 0.0000203
+    "cookies": 0.0000137,
+    "types": {
+        "Script": 2
+    }
 }

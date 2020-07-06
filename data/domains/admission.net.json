@@ -7,26 +7,15 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000834,
-    "sites": 41,
+    "prevalence": 0.000192,
+    "sites": 14,
     "subdomains": [
-        "dt",
-        "da"
+        "da",
+        "dt"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
-        {
-            "rule": "admission\\.net\\/vt\\.gif",
-            "cookies": 0.000264,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dt",
-                "da"
-            ],
-            "apis": {},
-            "sites": 25,
-            "prevalence": 0.000509
-        },
         {
             "rule": "admission\\.net\\/admission\\/displayad\\.js",
             "cookies": 0,
@@ -35,31 +24,61 @@
                 "da"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 6,
-                "window.devicePixelRatio": 6,
-                "Date.prototype.getTime": 6
+                "Navigator.prototype.userAgent": 3,
+                "window.devicePixelRatio": 3,
+                "Date.prototype.getTime": 3
             },
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "admission\\.net\\/vt\\.gif",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "da"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "admission\\.net\\/dt\\.gif",
-            "cookies": 0.000102,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "dt"
             ],
             "apis": {},
             "sites": 5,
-            "prevalence": 0.000102
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "admission\\.net\\/dt\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000407
+    "cookies": 0.000164,
+    "types": {
+        "Script": 5,
+        "Image": 8
+    }
 }

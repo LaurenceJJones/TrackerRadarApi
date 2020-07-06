@@ -7,31 +7,36 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000407,
-    "sites": 20,
+    "prevalence": 0.000369,
+    "sites": 27,
     "subdomains": [
         "library"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "tritondigital\\.com\\/xinban\\/lsf\\/Includes\\/tl_newsletter_widget\\.css",
-            "cookies": 0.0000203,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "library"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000061
+    "cookies": 0.000041,
+    "types": {
+        "Stylesheet": 3
+    }
 }

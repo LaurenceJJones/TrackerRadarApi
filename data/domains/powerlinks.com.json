@@ -9,67 +9,97 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0173,
-    "sites": 852,
+    "prevalence": 0.0143,
+    "sites": 1044,
     "subdomains": [
         "px"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "powerlinks\\.com\\/user\\/identify",
-            "cookies": 0.00761,
+            "cookies": 0.00858,
             "fingerprinting": 0,
             "subdomains": [
                 "px"
             ],
             "apis": {},
-            "sites": 503,
-            "prevalence": 0.0102
+            "sites": 660,
+            "prevalence": 0.00903,
+            "cnames": []
         },
         {
             "rule": "powerlinks\\.com\\/user\\/sync\\/dsps",
-            "cookies": 0.00954,
+            "cookies": 0.0136,
             "fingerprinting": 0,
             "subdomains": [
                 "px"
             ],
             "apis": {},
-            "sites": 594,
-            "prevalence": 0.0121
-        },
-        {
-            "rule": "powerlinks\\.com\\/user\\/identify",
-            "cookies": 0.00059,
-            "fingerprinting": 0,
-            "subdomains": [
-                "px"
-            ],
-            "apis": {},
-            "sites": 35,
-            "prevalence": 0.000712
-        },
-        {
-            "rule": "powerlinks\\.com\\/user\\/sync\\/dsps",
-            "cookies": 0.000468,
-            "fingerprinting": 0,
-            "subdomains": [
-                "px"
-            ],
-            "apis": {},
-            "sites": 29,
-            "prevalence": 0.00059
+            "sites": 996,
+            "prevalence": 0.0136,
+            "cnames": []
         },
         {
             "rule": "powerlinks\\.com\\/user\\/sync\\/ssps",
-            "cookies": 0.00511,
+            "cookies": 0.00564,
             "fingerprinting": 0,
             "subdomains": [
                 "px"
             ],
             "apis": {},
-            "sites": 342,
-            "prevalence": 0.00696
+            "sites": 415,
+            "prevalence": 0.00568,
+            "cnames": []
+        },
+        {
+            "rule": "powerlinks\\.com\\/user\\/identify",
+            "cookies": 0.000369,
+            "fingerprinting": 0,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.000369,
+            "cnames": []
+        },
+        {
+            "rule": "powerlinks\\.com\\/user\\/sync\\/dsps",
+            "cookies": 0.000356,
+            "fingerprinting": 0,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.000356,
+            "cnames": []
+        },
+        {
+            "rule": "powerlinks\\.com\\/user\\/identify\\/052d1a8d-5276-11ea-883a-4da451a859c2",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "powerlinks\\.com\\/user\\/sync\\/ssps\\/improve",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -86,5 +116,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0131
+    "cookies": 0.0142,
+    "types": {
+        "Image": 2075,
+        "Document": 53
+    }
 }

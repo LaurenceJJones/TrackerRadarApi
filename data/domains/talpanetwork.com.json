@@ -4,70 +4,71 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
-    "sites": 4,
+    "prevalence": 0.0000684,
+    "sites": 5,
     "subdomains": [
         "consent"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "talpanetwork\\.com\\/scripts\\/ua-parser\\.min\\.js",
+            "rule": "talpanetwork\\.com\\/new-relic\\/new-relic-prod\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "consent"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.userAgent": 1,
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "window.localStorage": 5
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
-            "rule": "talpanetwork\\.com\\/scripts\\/faktorPatch\\.js",
-            "cookies": 0.0000814,
-            "fingerprinting": 1,
-            "subdomains": [
-                "consent"
-            ],
-            "apis": {
-                "Document.cookie getter": 4,
-                "Document.cookie setter": 4
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "talpanetwork\\.com\\/polyfills\\.944d6fee6765672fae3b\\.bundle\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "consent"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "talpanetwork\\.com\\/main\\.fa7d47f693b5c997583f\\.bundle\\.js",
+            "rule": "talpanetwork\\.com\\/static\\/js\\/2\\.7343465d\\.chunk\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
                 "consent"
             ],
             "apis": {
-                "Navigator.prototype.product": 4,
-                "Navigator.prototype.userAgent": 4,
-                "Navigator.prototype.platform": 4
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.product": 5,
+                "Navigator.prototype.platform": 4,
+                "window.matchMedia(\"prefers-reduced-motion\")": 4,
+                "Event.prototype.timeStamp": 5
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "talpanetwork\\.com\\/static\\/js\\/main\\.f0d34c22\\.chunk\\.js",
+            "cookies": 0.0000684,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 5,
+                "Document.cookie getter": 5,
+                "Document.cookie setter": 5,
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000814
+    "cookies": 0.0000684,
+    "types": {
+        "Script": 15
+    }
 }

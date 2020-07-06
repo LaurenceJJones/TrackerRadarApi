@@ -4,16 +4,17 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000925,
-    "sites": 4,
+    "prevalence": 0.0000821,
+    "sites": 6,
     "subdomains": [
         "www"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "pennynetwork\\.com\\/friends\\/1861amateurcrush300x250\\/1418-1861amateurcrush300x250\\.html",
-            "cookies": 0.0000462,
+            "rule": "pennynetwork\\.com\\/iframes\\/4267-ddftour\\/351-ddftour\\.html",
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "www"
@@ -23,7 +24,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000462
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -33,5 +35,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0000925
+    "cookies": 0.0000821,
+    "types": {
+        "Document": 2
+    }
 }

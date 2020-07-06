@@ -4,28 +4,21 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000183,
-    "sites": 9,
+    "prevalence": 0.000151,
+    "sites": 11,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "inorcelliana\\.info\\/scr",
-            "cookies": 0.000163,
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "inorcelliana\\.info\\/ifr",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -35,5 +28,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000183
+    "cookies": 0.000123,
+    "types": {
+        "Script": 9
+    }
 }

@@ -7,57 +7,50 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00161,
-    "sites": 79,
+    "prevalence": 0.00119,
+    "sites": 87,
     "subdomains": [
         "exchange",
         "tube"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "buzzoola\\.com\\/ssp\\/adfox",
-            "cookies": 0.000468,
+            "cookies": 0.000383,
             "fingerprinting": 0,
             "subdomains": [
                 "exchange"
             ],
             "apis": {},
-            "sites": 23,
-            "prevalence": 0.000468
-        },
-        {
-            "rule": "buzzoola\\.com\\/adv\\/kbDH64c7yFY_jqB7YcKn5HSMji75nQv6ogzaOgWF3Yf21-kB68s0Kg\\/jsvpaid",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "exchange"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 28,
+            "prevalence": 0.000383,
+            "cnames": []
         },
         {
             "rule": "buzzoola\\.com\\/cookiesync\\/ssp\\/rambler",
-            "cookies": 0.000366,
+            "cookies": 0.000342,
             "fingerprinting": 0,
             "subdomains": [
                 "exchange"
             ],
             "apis": {},
-            "sites": 18,
-            "prevalence": 0.000366
+            "sites": 26,
+            "prevalence": 0.000356,
+            "cnames": []
         },
         {
             "rule": "buzzoola\\.com\\/cookiesync\\/dsp\\/otm-video\\/",
-            "cookies": 0.000122,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "exchange"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "buzzoola\\.com\\/new\\/build\\/buzzlibrary\\.js",
@@ -67,24 +60,25 @@
                 "tube"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "window.matchMedia(\"prefers-reduced-motion\")": 3,
-                "window.localStorage": 3,
-                "Navigator.prototype.cookieEnabled": 1
+                "Navigator.prototype.userAgent": 2,
+                "window.matchMedia(\"prefers-reduced-motion\")": 2,
+                "window.localStorage": 2
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "buzzoola\\.com\\/cookiesync\\/ssp\\/admixer",
-            "cookies": 0.000224,
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [
                 "exchange"
             ],
             "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -94,5 +88,10 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00124
+    "cookies": 0.000917,
+    "types": {
+        "XHR": 28,
+        "Image": 41,
+        "Script": 3
+    }
 }

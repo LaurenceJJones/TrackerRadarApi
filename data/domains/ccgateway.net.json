@@ -7,12 +7,17 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000814,
-    "sites": 40,
+    "prevalence": 0.00122,
+    "sites": 89,
     "subdomains": [
         "carbon-cdn",
-        "cdn"
+        "imgur",
+        "analytics",
+        "adapex",
+        "cdn",
+        "dp"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -20,24 +25,32 @@
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "carbon-cdn"
+                "carbon-cdn",
+                "imgur",
+                "analytics",
+                "adapex"
             ],
             "apis": {
-                "Date.prototype.getTime": 39
+                "Date.prototype.getTime": 63
             },
-            "sites": 40,
-            "prevalence": 0.000814
+            "sites": 63,
+            "prevalence": 0.000862,
+            "cnames": []
         },
         {
             "rule": "ccgateway\\.net\\/setUser",
-            "cookies": 0.000753,
+            "cookies": 0.000848,
             "fingerprinting": 0,
             "subdomains": [
-                "carbon-cdn"
+                "carbon-cdn",
+                "imgur",
+                "analytics",
+                "adapex"
             ],
             "apis": {},
-            "sites": 37,
-            "prevalence": 0.000753
+            "sites": 62,
+            "prevalence": 0.000848,
+            "cnames": []
         },
         {
             "rule": "ccgateway\\.net\\/script\\/bundle",
@@ -47,11 +60,44 @@
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 34,
-                "PerformanceTiming.prototype.navigationStart": 2
+                "Navigator.prototype.userAgent": 64,
+                "Navigator.prototype.language": 64,
+                "PerformanceTiming.prototype.navigationStart": 10,
+                "window.localStorage": 4
             },
-            "sites": 37,
-            "prevalence": 0.000753
+            "sites": 64,
+            "prevalence": 0.000876,
+            "cnames": []
+        },
+        {
+            "rule": "ccgateway\\.net\\/script\\/launcher\\/1\\/user\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 50,
+                "window.sessionStorage": 50
+            },
+            "sites": 51,
+            "prevalence": 0.000698,
+            "cnames": []
+        },
+        {
+            "rule": "ccgateway\\.net\\/v1\\/da\\/5275bf99d2",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dp"
+            ],
+            "apis": {
+                "window.localStorage": 24,
+                "Navigator.prototype.userAgent": 24
+            },
+            "sites": 24,
+            "prevalence": 0.000328,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -61,5 +107,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.000753
+    "cookies": 0.000848,
+    "types": {
+        "Script": 264
+    }
 }

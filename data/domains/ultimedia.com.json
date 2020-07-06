@@ -4,48 +4,14 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000346,
-    "sites": 17,
+    "prevalence": 0.000205,
+    "sites": 15,
     "subdomains": [
         "www"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
-        {
-            "rule": "ultimedia\\.com\\/js\\/player-digiteka\\/dtkplayer-vjs\\.js",
-            "cookies": 0,
-            "fingerprinting": 2,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {
-                "Navigator.prototype.language": 12,
-                "Navigator.prototype.userAgent": 12,
-                "Navigator.prototype.cookieEnabled": 12,
-                "window.sessionStorage": 12,
-                "Navigator.prototype.appName": 12,
-                "Date.prototype.getTime": 8,
-                "Navigator.prototype.platform": 12,
-                "Document.cookie getter": 12,
-                "Screen.prototype.height": 1,
-                "Screen.prototype.width": 1,
-                "Navigator.prototype.doNotTrack": 1,
-                "Navigator.prototype.vendor": 1
-            },
-            "sites": 12,
-            "prevalence": 0.000244
-        },
-        {
-            "rule": "ultimedia\\.com\\/api\\/widget\\/smart",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
         {
             "rule": "ultimedia\\.com\\/js\\/common\\/visible_player\\.js",
             "cookies": 0,
@@ -54,23 +20,59 @@
                 "www"
             ],
             "apis": {
-                "window.matchMedia(\"prefers-reduced-motion\")": 12,
-                "Navigator.prototype.userAgent": 12,
-                "Navigator.prototype.language": 12
+                "window.matchMedia(\"prefers-reduced-motion\")": 11,
+                "Navigator.prototype.userAgent": 11,
+                "Navigator.prototype.language": 11
             },
-            "sites": 12,
-            "prevalence": 0.000244
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
         },
         {
-            "rule": "ultimedia\\.com\\/deliver\\/statistiques\\/inventory",
-            "cookies": 0.0000203,
+            "rule": "ultimedia\\.com\\/js\\/player-digiteka\\/dtkplayer-vjs\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 11,
+                "Navigator.prototype.userAgent": 11,
+                "Navigator.prototype.cookieEnabled": 11,
+                "window.sessionStorage": 11,
+                "Navigator.prototype.appName": 11,
+                "Document.cookie getter": 11,
+                "Date.prototype.getTime": 7,
+                "Navigator.prototype.platform": 11,
+                "Event.prototype.timeStamp": 11
+            },
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
+        },
+        {
+            "rule": "ultimedia\\.com\\/api\\/widget\\/smart",
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "ultimedia\\.com\\/deliver\\/statistiques\\/inventory",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "ultimedia\\.com\\/js\\/common\\/videolist\\.js",
@@ -80,45 +82,35 @@
                 "www"
             ],
             "apis": {
-                "Date.prototype.getTime": 2
+                "Date.prototype.getTime": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "ultimedia\\.com\\/api\\/widget\\/videolistjs",
-            "cookies": 0.000061,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "ultimedia\\.com\\/widgets\\/js\\/responsivev3\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 4
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "ultimedia\\.com\\/deliver\\/generic\\/iframe",
-            "cookies": 0.000102,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 5,
-            "prevalence": 0.000102
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "ultimedia\\.com\\/js\\/common\\/smart\\.js",
@@ -128,29 +120,50 @@
                 "www"
             ],
             "apis": {
-                "Date.prototype.getTime": 6
+                "Date.prototype.getTime": 3
             },
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "ultimedia\\.com\\/api\\/widget\\/smart",
-            "cookies": 0.0000407,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "ultimedia\\.com\\/widgets\\/js\\/responsivev3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 2,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000305
+    "cookies": 0.000178,
+    "types": {
+        "Script": 37,
+        "XHR": 10,
+        "Document": 5
+    }
 }

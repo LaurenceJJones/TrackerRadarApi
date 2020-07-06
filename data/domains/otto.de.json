@@ -7,23 +7,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00299,
-    "sites": 147,
+    "prevalence": 0.00211,
+    "sites": 154,
     "subdomains": [
         "ats"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "otto\\.de\\/px\\/p\\/adt",
-            "cookies": 0.000285,
+            "cookies": 0.00052,
             "fingerprinting": 0,
             "subdomains": [
                 "ats"
             ],
             "apis": {},
-            "sites": 14,
-            "prevalence": 0.000285
+            "sites": 38,
+            "prevalence": 0.00052,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -33,5 +35,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000264
+    "cookies": 0.00052,
+    "types": {
+        "Image": 38
+    }
 }

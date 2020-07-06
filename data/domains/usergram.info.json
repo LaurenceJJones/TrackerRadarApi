@@ -7,12 +7,13 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
-    "sites": 5,
+    "prevalence": 0.000109,
+    "sites": 8,
     "subdomains": [
         "code",
         "tr"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -23,26 +24,28 @@
                 "code"
             ],
             "apis": {
-                "Date.prototype.getTime": 5,
-                "Date.prototype.getTimezoneOffset": 5,
-                "Navigator.prototype.userAgent": 3,
-                "Screen.prototype.width": 3,
-                "Screen.prototype.height": 3,
-                "PerformanceTiming.prototype.navigationStart": 2
+                "Navigator.prototype.userAgent": 8,
+                "Date.prototype.getTime": 8,
+                "Date.prototype.getTimezoneOffset": 8,
+                "Screen.prototype.width": 8,
+                "Screen.prototype.height": 8,
+                "PerformanceTiming.prototype.navigationStart": 8
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
             "rule": "usergram\\.info\\/_usergram\\.png",
-            "cookies": 0.000102,
+            "cookies": 0.000109,
             "fingerprinting": 0,
             "subdomains": [
                 "tr"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -50,7 +53,11 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000102
+    "cookies": 0.000109,
+    "types": {
+        "Script": 8,
+        "Image": 8
+    }
 }

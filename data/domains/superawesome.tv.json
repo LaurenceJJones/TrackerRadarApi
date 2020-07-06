@@ -1,14 +1,18 @@
 {
     "domain": "superawesome.tv",
-    "owner": {},
+    "owner": {
+        "name": "SuperAwesome Trading Limited",
+        "displayName": "SuperAwesome"
+    },
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000061,
-    "sites": 3,
+    "prevalence": 0.0000547,
+    "sites": 4,
     "subdomains": [
         "ads"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -19,10 +23,12 @@
                 "ads"
             ],
             "apis": {
-                "Date.prototype.getTime": 2
+                "Date.prototype.getTime": 4,
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 1
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -30,7 +36,10 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 4
+    }
 }

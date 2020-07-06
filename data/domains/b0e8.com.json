@@ -7,66 +7,72 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00177,
-    "sites": 87,
+    "prevalence": 0.00187,
+    "sites": 137,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 3,
     "resources": [
         {
             "rule": "b0e8\\.com\\/conv_v3\\.js",
-            "cookies": 0.00146,
+            "cookies": 0.00148,
             "fingerprinting": 3,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 70,
-                "Document.cookie getter": 72,
-                "Navigator.prototype.appName": 57,
-                "Navigator.prototype.language": 55,
-                "Navigator.prototype.deviceMemory": 69,
-                "window.devicePixelRatio": 70,
-                "Navigator.prototype.hardwareConcurrency": 54,
-                "Date.prototype.getTimezoneOffset": 69,
-                "Intl.DateTimeFormat.prototype.resolvedOptions": 69,
-                "window.sessionStorage": 70,
-                "window.localStorage": 70,
-                "window.indexedDB": 70,
-                "Navigator.prototype.platform": 54,
-                "Navigator.prototype.doNotTrack": 54,
-                "Navigator.prototype.plugins": 55,
-                "HTMLCanvasElement.prototype.constructor": 47,
-                "HTMLCanvasElement.prototype.toDataURL": 69,
-                "WebGLRenderingContext.prototype.getSupportedExtensions": 69,
-                "WebGLRenderingContext.prototype.getParameter": 69,
-                "WebGLRenderingContext.prototype.getContextAttributes": 69,
-                "WebGLRenderingContext.prototype.getExtension": 69,
-                "WebGLRenderingContext.prototype.getShaderPrecisionFormat": 69,
-                "Navigator.prototype.languages": 55,
-                "Navigator.prototype.maxTouchPoints": 54,
-                "Navigator.prototype.productSub": 54,
-                "OfflineAudioContext.prototype.constructor": 75,
-                "AudioBuffer.prototype.getChannelData": 75,
-                "Date.prototype.getTime": 77,
-                "Document.cookie setter": 72,
-                "Screen.prototype.colorDepth": 16,
-                "Screen.prototype.width": 16,
-                "Screen.prototype.availWidth": 16,
-                "Screen.prototype.height": 16,
-                "Screen.prototype.availHeight": 16
+                "Navigator.prototype.userAgent": 122,
+                "Document.cookie getter": 108,
+                "Navigator.prototype.appName": 114,
+                "Navigator.prototype.language": 113,
+                "Screen.prototype.colorDepth": 113,
+                "Navigator.prototype.deviceMemory": 108,
+                "window.devicePixelRatio": 120,
+                "Navigator.prototype.hardwareConcurrency": 113,
+                "Date.prototype.getTimezoneOffset": 120,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 120,
+                "window.sessionStorage": 120,
+                "window.localStorage": 120,
+                "window.indexedDB": 120,
+                "Navigator.prototype.platform": 113,
+                "Navigator.prototype.doNotTrack": 113,
+                "Navigator.prototype.plugins": 113,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 113,
+                "HTMLCanvasElement.prototype.toDataURL": 113,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 113,
+                "WebGLRenderingContext.prototype.getParameter": 113,
+                "WebGLRenderingContext.prototype.getContextAttributes": 113,
+                "WebGLRenderingContext.prototype.getExtension": 113,
+                "WebGLRenderingContext.prototype.getShaderPrecisionFormat": 113,
+                "Navigator.prototype.languages": 113,
+                "Screen.prototype.width": 113,
+                "Screen.prototype.availWidth": 113,
+                "Screen.prototype.height": 113,
+                "Screen.prototype.availHeight": 113,
+                "Navigator.prototype.maxTouchPoints": 113,
+                "Navigator.prototype.productSub": 113,
+                "OfflineAudioContext.prototype.constructor": 116,
+                "AudioBuffer.prototype.getChannelData": 117,
+                "Date.prototype.getTime": 123,
+                "Document.cookie setter": 108,
+                "HTMLCanvasElement.prototype.constructor": 82
             },
-            "sites": 81,
-            "prevalence": 0.00165
+            "sites": 124,
+            "prevalence": 0.0017,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 2,
+        "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00146
+    "cookies": 0.00148,
+    "types": {
+        "Script": 124
+    }
 }

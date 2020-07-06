@@ -7,188 +7,213 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000753,
-    "sites": 37,
+    "prevalence": 0.000712,
+    "sites": 52,
     "subdomains": [
         "pool-pebblemedia",
         "ads-mannenmedia",
+        "pool-mannenmedia",
+        "pool-newskoolmedia",
         "user-sync",
-        "ads-ster",
-        "ads-emerce",
+        "pool-sanoma",
+        "pool-emerce",
         "pool-mediafin",
-        "ads-businessinsider",
-        "ads-dazn"
+        "pool-ster",
+        "ads-dazn",
+        "pool-dazn"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "adhese\\.com\\/tag\\/tag\\.js",
+            "rule": "adhese\\.com\\/cssu\\/pebblemedia\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
                 "pool-pebblemedia"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "Navigator.prototype.vendor": 4,
-                "Navigator.prototype.platform": 4,
-                "Navigator.prototype.mimeTypes": 4,
-                "Document.cookie getter": 4,
-                "Date.prototype.getTime": 2,
-                "Date.prototype.getTimezoneOffset": 2
+                "Date.prototype.getTime": 5,
+                "window.devicePixelRatio": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.platform": 5,
+                "Navigator.prototype.vendor": 5,
+                "Document.cookie getter": 4
             },
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "adhese\\.com\\/tag\\/prebid\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "ads-mannenmedia"
+                "ads-mannenmedia",
+                "pool-mannenmedia",
+                "pool-newskoolmedia"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 9,
-                "Navigator.prototype.cookieEnabled": 9,
-                "window.sessionStorage": 9,
-                "window.localStorage": 9,
-                "Document.cookie getter": 9
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "window.sessionStorage": 5,
+                "window.localStorage": 3,
+                "Document.cookie getter": 3
             },
-            "sites": 9,
-            "prevalence": 0.000183
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
         },
         {
             "rule": "adhese\\.com\\/handlers\\/spotx\\/user_sync",
-            "cookies": 0.000061,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "user-sync"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "adhese\\.com\\/handlers\\/improvedigital\\/user_sync",
-            "cookies": 0.0000814,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "user-sync"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "adhese\\.com\\/handlers\\/appnexus\\/user_sync",
-            "cookies": 0.0000814,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "user-sync"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "adhese\\.com\\/handlers\\/rubicon\\/user_sync",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "user-sync"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "adhese\\.com\\/handlers\\/pubmatic\\/user_sync",
-            "cookies": 0.000061,
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [
                 "user-sync"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "adhese\\.com\\/handlers\\/rubicon\\/user_sync",
+            "cookies": 0.0000821,
+            "fingerprinting": 0,
+            "subdomains": [
+                "user-sync"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "adhese\\.com\\/tag\\/adhese\\.lib\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "pool-sanoma"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "Date.prototype.getTime": 8,
+                "window.name": 8,
+                "Navigator.prototype.platform": 8,
+                "Navigator.prototype.vendor": 8,
+                "window.devicePixelRatio": 8,
+                "Document.cookie getter": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
             "rule": "adhese\\.com\\/sf\\/js\\/lib\\/base\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "ads-ster",
-                "ads-emerce",
-                "pool-mediafin"
+                "pool-sanoma",
+                "pool-emerce",
+                "pool-mediafin",
+                "pool-ster"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5,
-                "Date.prototype.getTime": 5
+                "Date.prototype.getTime": 6,
+                "Navigator.prototype.userAgent": 3
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "adhese\\.com\\/sf\\/js\\/ext\\/ext\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "ads-ster",
-                "ads-emerce",
-                "pool-mediafin"
+                "pool-sanoma",
+                "pool-emerce",
+                "pool-mediafin",
+                "pool-ster"
             ],
             "apis": {
-                "window.name": 5
+                "window.name": 6
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
-            "rule": "adhese\\.com\\/tag\\/adhese_3pas\\.js",
+            "rule": "adhese\\.com\\/tag\\/config\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "ads-businessinsider"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adhese\\.com\\/tag\\/tag-v3\\.js",
-            "cookies": 0,
-            "fingerprinting": 2,
-            "subdomains": [
-                "pool-mediafin"
+                "pool-newskoolmedia",
+                "pool-mannenmedia"
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2,
-                "window.name": 2,
-                "Navigator.prototype.platform": 2,
-                "Navigator.prototype.vendor": 2,
-                "window.devicePixelRatio": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
                 "Document.cookie getter": 2
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "adhese\\.com\\/tag\\/prebid_adhese\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "ads-dazn"
+                "ads-dazn",
+                "pool-dazn"
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 1,
                 "Navigator.prototype.cookieEnabled": 1,
-                "window.sessionStorage": 2
+                "window.sessionStorage": 1
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -198,5 +223,10 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000102
+    "cookies": 0.0000821,
+    "types": {
+        "Script": 45,
+        "Document": 22,
+        "Image": 6
+    }
 }

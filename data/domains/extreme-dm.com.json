@@ -4,12 +4,13 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00108,
-    "sites": 53,
+    "prevalence": 0.000971,
+    "sites": 71,
     "subdomains": [
         "t1",
         "nht-2"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -20,13 +21,14 @@
                 "t1"
             ],
             "apis": {
-                "Screen.prototype.width": 7,
-                "Screen.prototype.height": 7,
-                "Navigator.prototype.javaEnabled": 18,
-                "Screen.prototype.colorDepth": 7
+                "Screen.prototype.width": 29,
+                "Screen.prototype.height": 29,
+                "Navigator.prototype.javaEnabled": 29,
+                "Screen.prototype.colorDepth": 29
             },
-            "sites": 25,
-            "prevalence": 0.000509
+            "sites": 30,
+            "prevalence": 0.00041,
+            "cnames": []
         },
         {
             "rule": "extreme-dm\\.com\\/t\\.js",
@@ -36,11 +38,15 @@
                 "nht-2"
             ],
             "apis": {
-                "Navigator.prototype.javaEnabled": 2,
-                "Date.prototype.getTime": 2
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "Navigator.prototype.javaEnabled": 5,
+                "Screen.prototype.colorDepth": 5,
+                "Date.prototype.getTime": 5
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -50,5 +56,8 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 35
+    }
 }

@@ -7,33 +7,39 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000925,
-    "sites": 4,
-    "subdomains": [
-        "lb"
-    ],
+    "prevalence": 0.0000684,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "apicit\\.net\\/loader\\.v8\\.php",
-            "cookies": 0.0000462,
+            "rule": "apicit\\.net\\/target\\/",
+            "cookies": 0,
             "fingerprinting": 1,
-            "subdomains": [
-                "lb"
-            ],
+            "subdomains": [],
             "apis": {
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 1
             },
             "sites": 2,
-            "prevalence": 0.0000462
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "apicit\\.net\\/target\\/ping\\.php",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 1
-    },
-    "cookies": 0.0000694
+    "performance": {},
+    "cookies": 0.0000684,
+    "types": {
+        "Script": 6
+    }
 }

@@ -9,39 +9,33 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000393,
-    "sites": 17,
+    "prevalence": 0.000985,
+    "sites": 72,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "shopifycloud\\.com\\/oberlo_growth_tools\\/packs\\/product-cards-a4b61b7fb4bcb3e1a577\\.js",
+            "rule": "shopifycloud\\.com\\/shopify_chat\\/storefront\\/shopifyChatV1\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "Navigator.prototype.language": 3,
+                "Date.prototype.getTime": 3,
+                "window.devicePixelRatio": 3,
+                "window.sessionStorage": 3,
+                "window.localStorage": 3
             },
-            "sites": 2,
-            "prevalence": 0.0000462
-        },
-        {
-            "rule": "shopifycloud\\.com\\/oberlo-curiosus\\/assets\\/main\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.languages": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000462
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -51,5 +45,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 3
+    }
 }

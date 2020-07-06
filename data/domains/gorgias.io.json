@@ -4,11 +4,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000244,
-    "sites": 12,
+    "prevalence": 0.000712,
+    "sites": 52,
     "subdomains": [
         "assets"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -19,11 +20,12 @@
                 "assets"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5,
-                "window.matchMedia(\"prefers-reduced-motion\")": 8
+                "window.matchMedia(\"prefers-reduced-motion\")": 40,
+                "Navigator.prototype.userAgent": 40
             },
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 40,
+            "prevalence": 0.000547,
+            "cnames": []
         },
         {
             "rule": "gorgias\\.io\\/chat\\/2cdae616d2b46329a5de8ecdf39778b8076e6d5a\\/frame\\.1\\.14\\.9\\.min\\.js",
@@ -33,24 +35,28 @@
                 "assets"
             ],
             "apis": {
-                "window.localStorage": 8,
-                "Date.prototype.getTime": 8,
-                "Event.prototype.timeStamp": 7,
-                "console.memory": 5,
-                "Navigator.prototype.userAgent": 5,
-                "HTMLCanvasElement.prototype.constructor": 5,
-                "Intl.DateTimeFormat.prototype.resolvedOptions": 3
+                "window.localStorage": 40,
+                "Date.prototype.getTime": 40,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 33,
+                "console.memory": 19,
+                "Navigator.prototype.userAgent": 19,
+                "HTMLCanvasElement.prototype.constructor": 19,
+                "Event.prototype.timeStamp": 26
             },
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 40,
+            "prevalence": 0.000547,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
-        "size": 2,
+        "size": 1,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 80
+    }
 }

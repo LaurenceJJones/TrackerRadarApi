@@ -1,18 +1,22 @@
 {
     "domain": "corrieredellosport.it",
-    "owner": {},
+    "owner": {
+        "name": "RCS Mediagroup S.p.A",
+        "displayName": "RCS Mediagroup"
+    },
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
+    "prevalence": 0.0000274,
     "sites": 2,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "corrieredellosport\\.it\\/assets\\/js\\/prebid-3-5-0\\.js",
+            "rule": "corrieredellosport\\.it\\/assets\\/js\\/prebid-3-16-0\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -25,7 +29,8 @@
                 "Navigator.prototype.appName": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -35,5 +40,8 @@
         "cpu": 0,
         "cache": 0
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 2
+    }
 }

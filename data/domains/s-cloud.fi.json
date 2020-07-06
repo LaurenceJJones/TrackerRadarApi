@@ -7,12 +7,13 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000061,
-    "sites": 3,
+    "prevalence": 0.0000547,
+    "sites": 4,
     "subdomains": [
         "browser-consent-front.coco",
         "static"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -23,12 +24,13 @@
                 "browser-consent-front.coco"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.product": 3,
-                "window.sessionStorage": 3
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.product": 4,
+                "window.sessionStorage": 4
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "s-cloud\\.fi\\/ci\\/scid\\/request-handler\\.js",
@@ -38,10 +40,11 @@
                 "static"
             ],
             "apis": {
-                "window.localStorage": 3
+                "window.localStorage": 4
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "s-cloud\\.fi\\/ci\\/scid\\/storage-server-min\\.html",
@@ -51,10 +54,11 @@
                 "static"
             ],
             "apis": {
-                "window.localStorage": 3
+                "window.localStorage": 4
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "s-cloud\\.fi\\/js\\/chunk-16d2\\.b1fe8152\\.js",
@@ -64,10 +68,11 @@
                 "browser-consent-front.coco"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3
+                "Navigator.prototype.userAgent": 4
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "s-cloud\\.fi\\/js\\/chunk-d237\\.5dab447c\\.js",
@@ -77,18 +82,18 @@
                 "browser-consent-front.coco"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3
+                "Navigator.prototype.userAgent": 4
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 1
-    },
-    "cookies": 0
+    "performance": {},
+    "cookies": 0.0000137,
+    "types": {
+        "Script": 16,
+        "Document": 4
+    }
 }

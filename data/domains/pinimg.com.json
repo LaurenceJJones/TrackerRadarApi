@@ -9,29 +9,31 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0307,
-    "sites": 1507,
+    "prevalence": 0.0325,
+    "sites": 2374,
     "subdomains": [
         "s"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "pinimg\\.com\\/ct\\/lib\\/main\\.a37a8bbc\\.js",
-            "cookies": 0.000305,
+            "rule": "pinimg\\.com\\/ct\\/lib\\/main\\.b3497531\\.js",
+            "cookies": 0.0289,
             "fingerprinting": 1,
             "subdomains": [
                 "s"
             ],
             "apis": {
-                "Document.cookie getter": 1312,
-                "Date.prototype.getTime": 1424,
-                "Screen.prototype.height": 1149,
-                "Screen.prototype.width": 1149,
-                "Document.cookie setter": 15
+                "Document.cookie getter": 2068,
+                "Date.prototype.getTime": 2262,
+                "Screen.prototype.height": 2232,
+                "Screen.prototype.width": 2232,
+                "Document.cookie setter": 2110
             },
-            "sites": 1449,
-            "prevalence": 0.0295
+            "sites": 2292,
+            "prevalence": 0.0314,
+            "cnames": []
         }
     ],
     "categories": [
@@ -46,5 +48,8 @@
         "cpu": 1,
         "cache": 1
     },
-    "cookies": 0.000305
+    "cookies": 0.0289,
+    "types": {
+        "Script": 2292
+    }
 }

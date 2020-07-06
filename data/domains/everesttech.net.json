@@ -9,197 +9,389 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.194,
-    "sites": 9519,
+    "prevalence": 0.16,
+    "sites": 11728,
     "subdomains": [
         "sync-tm",
-        "cm",
         "rtd-tm",
+        "cm",
         "ads",
-        "displayf-tm",
-        "statsf-tm",
         "pixel",
         "ats",
-        "cmp-as-tm"
+        "displayf-tm"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/ny75r2x0",
-            "cookies": 0.0317,
+            "rule": "everesttech\\.net\\/upi\\/pid\\/w8wqx7f2",
+            "cookies": 0.000301,
             "fingerprinting": 0,
             "subdomains": [
                 "sync-tm"
             ],
             "apis": {},
-            "sites": 3909,
-            "prevalence": 0.0795
+            "sites": 36,
+            "prevalence": 0.000493,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/EhuOE4dM",
-            "cookies": 0.0046,
+            "rule": "everesttech\\.net\\/upi\\/pid\\/bsTd8NdE",
+            "cookies": 0.00532,
             "fingerprinting": 0,
             "subdomains": [
                 "sync-tm"
             ],
             "apis": {},
-            "sites": 480,
-            "prevalence": 0.00976
+            "sites": 432,
+            "prevalence": 0.00591,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/upi\\/pid\\/dm4ha19W",
+            "cookies": 0.0043,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtd-tm"
+            ],
+            "apis": {},
+            "sites": 315,
+            "prevalence": 0.00431,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/upi\\/pid\\/h0r58thg",
+            "cookies": 0.00291,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-tm"
+            ],
+            "apis": {},
+            "sites": 803,
+            "prevalence": 0.011,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/upi\\/pid\\/ny75r2x0",
+            "cookies": 0.0256,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-tm"
+            ],
+            "apis": {},
+            "sites": 5078,
+            "prevalence": 0.0695,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/upi\\/pid\\/btu4jd3a",
+            "cookies": 0.0111,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-tm"
+            ],
+            "apis": {},
+            "sites": 4402,
+            "prevalence": 0.0602,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/upi\\/pid\\/ZMAwryCI",
+            "cookies": 0.00488,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-tm"
+            ],
+            "apis": {},
+            "sites": 4051,
+            "prevalence": 0.0554,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/upi\\/pid\\/b9pj45k4",
+            "cookies": 0.00869,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-tm"
+            ],
+            "apis": {},
+            "sites": 5046,
+            "prevalence": 0.069,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/upi\\/pid\\/URnmbSKM",
+            "cookies": 0.03,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-tm"
+            ],
+            "apis": {},
+            "sites": 2706,
+            "prevalence": 0.037,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/upi\\/pid\\/1477",
+            "cookies": 0.00591,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-tm"
+            ],
+            "apis": {},
+            "sites": 1993,
+            "prevalence": 0.0273,
+            "cnames": []
         },
         {
             "rule": "everesttech\\.net\\/cm\\/dd",
-            "cookies": 0.0356,
+            "cookies": 0.0276,
             "fingerprinting": 0,
             "subdomains": [
                 "cm"
             ],
             "apis": {},
-            "sites": 1823,
-            "prevalence": 0.0371
+            "sites": 2190,
+            "prevalence": 0.03,
+            "cnames": []
         },
         {
             "rule": "everesttech\\.net\\/upi\\/pid\\/5w3jqr4k",
-            "cookies": 0.00517,
+            "cookies": 0.00389,
             "fingerprinting": 0,
             "subdomains": [
                 "sync-tm"
             ],
             "apis": {},
-            "sites": 1126,
-            "prevalence": 0.0229
-        },
-        {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/btu4jd3a",
-            "cookies": 0.0171,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync-tm"
-            ],
-            "apis": {},
-            "sites": 4248,
-            "prevalence": 0.0864
-        },
-        {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/ZMAwryCI",
-            "cookies": 0.00321,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync-tm"
-            ],
-            "apis": {},
-            "sites": 742,
-            "prevalence": 0.0151
-        },
-        {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/b9pj45k4",
-            "cookies": 0.0109,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync-tm"
-            ],
-            "apis": {},
-            "sites": 3739,
-            "prevalence": 0.0761
-        },
-        {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/h0r58thg",
-            "cookies": 0.0038,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync-tm"
-            ],
-            "apis": {},
-            "sites": 703,
-            "prevalence": 0.0143
+            "sites": 1333,
+            "prevalence": 0.0182,
+            "cnames": []
         },
         {
             "rule": "everesttech\\.net\\/upi\\/pid\\/r7ifn0SL",
-            "cookies": 0.00193,
+            "cookies": 0.00156,
             "fingerprinting": 0,
             "subdomains": [
                 "sync-tm",
                 "rtd-tm"
             ],
             "apis": {},
-            "sites": 430,
-            "prevalence": 0.00875
+            "sites": 503,
+            "prevalence": 0.00688,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/bsTd8NdE",
-            "cookies": 0.00547,
+            "rule": "everesttech\\.net\\/upi\\/pid\\/NC4WTmcy",
+            "cookies": 0.00142,
             "fingerprinting": 0,
             "subdomains": [
                 "sync-tm"
             ],
             "apis": {},
-            "sites": 323,
-            "prevalence": 0.00657
+            "sites": 149,
+            "prevalence": 0.00204,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/dm4ha19W",
-            "cookies": 0.00653,
+            "rule": "everesttech\\.net\\/upi\\/pid\\/m7y5t93k",
+            "cookies": 0.00246,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-tm"
+            ],
+            "apis": {},
+            "sites": 372,
+            "prevalence": 0.00509,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/upi\\/",
+            "cookies": 0.00175,
             "fingerprinting": 0,
             "subdomains": [
                 "rtd-tm"
             ],
             "apis": {},
-            "sites": 322,
-            "prevalence": 0.00655
-        },
-        {
-            "rule": "everesttech\\.net\\/ct\\/upi\\/pid\\/dm4ha19W",
-            "cookies": 0.000773,
-            "fingerprinting": 0,
-            "subdomains": [
-                "rtd-tm"
-            ],
-            "apis": {},
-            "sites": 39,
-            "prevalence": 0.000793
+            "sites": 129,
+            "prevalence": 0.00177,
+            "cnames": []
         },
         {
             "rule": "everesttech\\.net\\/ct\\/upi\\/pid\\/b9pj45k4",
-            "cookies": 0.0000407,
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "sync-tm"
             ],
             "apis": {},
-            "sites": 529,
-            "prevalence": 0.0108
+            "sites": 636,
+            "prevalence": 0.0087,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/ct\\/upi\\/pid\\/h0r58thg",
-            "cookies": 0.0000407,
+            "rule": "everesttech\\.net\\/upi\\/pid\\/1cMuUcwh",
+            "cookies": 0.00041,
             "fingerprinting": 0,
             "subdomains": [
                 "sync-tm"
             ],
             "apis": {},
-            "sites": 191,
-            "prevalence": 0.00389
+            "sites": 94,
+            "prevalence": 0.00129,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/URnmbSKM",
-            "cookies": 0.0228,
+            "rule": "everesttech\\.net\\/upi\\/pid\\/1508",
+            "cookies": 0.00308,
             "fingerprinting": 0,
             "subdomains": [
                 "sync-tm"
             ],
             "apis": {},
-            "sites": 1479,
-            "prevalence": 0.0301
+            "sites": 273,
+            "prevalence": 0.00374,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/1477",
-            "cookies": 0.0093,
+            "rule": "everesttech\\.net\\/upi\\/pid\\/wGbQAlJJ",
+            "cookies": 0.00207,
             "fingerprinting": 0,
             "subdomains": [
                 "sync-tm"
             ],
             "apis": {},
-            "sites": 1919,
-            "prevalence": 0.039
+            "sites": 318,
+            "prevalence": 0.00435,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/upi\\/pid\\/RVF22VSl",
+            "cookies": 0.000328,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-tm"
+            ],
+            "apis": {},
+            "sites": 256,
+            "prevalence": 0.0035,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/upi\\/pid\\/1522",
+            "cookies": 0.000383,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-tm"
+            ],
+            "apis": {},
+            "sites": 360,
+            "prevalence": 0.00493,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/upi\\/pid\\/Mlpt2JaG\\/",
+            "cookies": 0.0014,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-tm"
+            ],
+            "apis": {},
+            "sites": 147,
+            "prevalence": 0.00201,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/ads\\/mti\\/21980\\/3110",
+            "cookies": 0.0000821,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 5,
+                "HTMLCanvasElement.prototype.constructor": 5
+            },
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/upi\\/pid\\/C7eGOU6r",
+            "cookies": 0.0000821,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-tm"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/cm\\/ax",
+            "cookies": 0.00223,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cm"
+            ],
+            "apis": {},
+            "sites": 202,
+            "prevalence": 0.00276,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/1x1",
+            "cookies": 0.00276,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 202,
+            "prevalence": 0.00276,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/migrate_et3\\/",
+            "cookies": 0.000561,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtd-tm"
+            ],
+            "apis": {},
+            "sites": 41,
+            "prevalence": 0.000561,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/ads\\/mti\\/21987\\/3110",
+            "cookies": 0.000041,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 1,
+                "HTMLCanvasElement.prototype.constructor": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/ads\\/mti\\/21971\\/3110",
+            "cookies": 0.000041,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 2,
+                "HTMLCanvasElement.prototype.constructor": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "everesttech\\.net\\/ads\\/static\\/local\\/AMOLibrary\\.js",
@@ -209,538 +401,147 @@
                 "ads"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 27
+                "Navigator.prototype.userAgent": 12
             },
-            "sites": 39,
-            "prevalence": 0.000793
-        },
-        {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/m7y5t93k",
-            "cookies": 0.0021,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync-tm"
-            ],
-            "apis": {},
-            "sites": 201,
-            "prevalence": 0.00409
-        },
-        {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/1cMuUcwh",
-            "cookies": 0.000468,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync-tm"
-            ],
-            "apis": {},
-            "sites": 57,
-            "prevalence": 0.00116
-        },
-        {
-            "rule": "everesttech\\.net\\/feed\\/placement\\.js",
-            "cookies": 0.00218,
-            "fingerprinting": 0,
-            "subdomains": [
-                "displayf-tm"
-            ],
-            "apis": {},
-            "sites": 107,
-            "prevalence": 0.00218
-        },
-        {
-            "rule": "everesttech\\.net\\/stats\\/1\\/imp",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "statsf-tm"
-            ],
-            "apis": {},
-            "sites": 115,
-            "prevalence": 0.00234
-        },
-        {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/1522",
-            "cookies": 0.000427,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync-tm"
-            ],
-            "apis": {},
-            "sites": 348,
-            "prevalence": 0.00708
-        },
-        {
-            "rule": "everesttech\\.net\\/ads\\/mts\\/17660\\/4249",
-            "cookies": 0.000102,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "Navigator.prototype.appName": 6,
-                "HTMLCanvasElement.prototype.constructor": 6
-            },
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/w8wqx7f2",
-            "cookies": 0.000671,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync-tm"
-            ],
-            "apis": {},
-            "sites": 121,
-            "prevalence": 0.00246
-        },
-        {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/lons7jax",
-            "cookies": 0.0012,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync-tm"
-            ],
-            "apis": {},
-            "sites": 179,
-            "prevalence": 0.00364
-        },
-        {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/RVF22VSl",
-            "cookies": 0.000386,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync-tm"
-            ],
-            "apis": {},
-            "sites": 63,
-            "prevalence": 0.00128
-        },
-        {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/aUTuBPNf",
-            "cookies": 0.00108,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync-tm"
-            ],
-            "apis": {},
-            "sites": 79,
-            "prevalence": 0.00161
-        },
-        {
-            "rule": "everesttech\\.net\\/cm\\/ax",
-            "cookies": 0.00271,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cm"
-            ],
-            "apis": {},
-            "sites": 162,
-            "prevalence": 0.0033
-        },
-        {
-            "rule": "everesttech\\.net\\/1x1",
-            "cookies": 0.00327,
-            "fingerprinting": 0,
-            "subdomains": [
-                "pixel"
-            ],
-            "apis": {},
-            "sites": 162,
-            "prevalence": 0.0033
-        },
-        {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/NC4WTmcy",
-            "cookies": 0.00254,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync-tm"
-            ],
-            "apis": {},
-            "sites": 172,
-            "prevalence": 0.0035
-        },
-        {
-            "rule": "everesttech\\.net\\/ct\\/upi\\/pid\\/NC4WTmcy",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync-tm"
-            ],
-            "apis": {},
-            "sites": 125,
-            "prevalence": 0.00254
-        },
-        {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/1508",
-            "cookies": 0.00258,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync-tm"
-            ],
-            "apis": {},
-            "sites": 129,
-            "prevalence": 0.00262
-        },
-        {
-            "rule": "everesttech\\.net\\/migrate_et3\\/",
-            "cookies": 0.000692,
-            "fingerprinting": 0,
-            "subdomains": [
-                "rtd-tm"
-            ],
-            "apis": {},
-            "sites": 34,
-            "prevalence": 0.000692
-        },
-        {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/wGbQAlJJ",
-            "cookies": 0.00173,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync-tm"
-            ],
-            "apis": {},
-            "sites": 184,
-            "prevalence": 0.00374
-        },
-        {
-            "rule": "everesttech\\.net\\/px2\\/5436",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "pixel"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 17,
+            "prevalence": 0.000233,
+            "cnames": []
         },
         {
             "rule": "everesttech\\.net\\/upi\\/pid\\/42ypLGPB",
-            "cookies": 0.000549,
+            "cookies": 0.000424,
             "fingerprinting": 0,
             "subdomains": [
                 "sync-tm"
             ],
             "apis": {},
-            "sites": 44,
-            "prevalence": 0.000895
-        },
-        {
-            "rule": "everesttech\\.net\\/upi\\/",
-            "cookies": 0.00214,
-            "fingerprinting": 0,
-            "subdomains": [
-                "rtd-tm"
-            ],
-            "apis": {},
-            "sites": 106,
-            "prevalence": 0.00216
+            "sites": 37,
+            "prevalence": 0.000506,
+            "cnames": []
         },
         {
             "rule": "everesttech\\.net\\/8660\\/t",
-            "cookies": 0.000061,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "pixel"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "everesttech\\.net\\/ct\\/upi\\/",
-            "cookies": 0.00122,
-            "fingerprinting": 0,
-            "subdomains": [
-                "rtd-tm"
-            ],
-            "apis": {},
-            "sites": 61,
-            "prevalence": 0.00124
-        },
-        {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/Mlpt2JaG\\/",
-            "cookies": 0.00185,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync-tm"
-            ],
-            "apis": {},
-            "sites": 133,
-            "prevalence": 0.00271
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "everesttech\\.net\\/cm",
-            "cookies": 0.000671,
+            "cookies": 0.00052,
             "fingerprinting": 0,
             "subdomains": [
                 "cm"
             ],
             "apis": {},
-            "sites": 33,
-            "prevalence": 0.000671
+            "sites": 39,
+            "prevalence": 0.000534,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/C7eGOU6r",
-            "cookies": 0.0000814,
+            "rule": "everesttech\\.net\\/ct\\/upi\\/",
+            "cookies": 0.00116,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtd-tm"
+            ],
+            "apis": {},
+            "sites": 86,
+            "prevalence": 0.00118,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/upi\\/pid\\/aUTuBPNf",
+            "cookies": 0.00104,
             "fingerprinting": 0,
             "subdomains": [
                 "sync-tm"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 88,
+            "prevalence": 0.0012,
+            "cnames": []
         },
         {
             "rule": "everesttech\\.net\\/ats\\/ats",
-            "cookies": 0.000061,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "ats"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "everesttech\\.net\\/px2\\/4737",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "pixel"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "everesttech\\.net\\/cm\\/yh",
-            "cookies": 0.00175,
+            "cookies": 0.00145,
             "fingerprinting": 0,
             "subdomains": [
                 "cm"
             ],
             "apis": {},
-            "sites": 87,
-            "prevalence": 0.00177
+            "sites": 107,
+            "prevalence": 0.00146,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/TgE5lmfi",
-            "cookies": 0.000631,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync-tm"
-            ],
-            "apis": {},
-            "sites": 34,
-            "prevalence": 0.000692
-        },
-        {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/gjIEMT18",
-            "cookies": 0.000183,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync-tm"
-            ],
-            "apis": {},
-            "sites": 55,
-            "prevalence": 0.00112
-        },
-        {
-            "rule": "everesttech\\.net\\/upi\\/extseg\\/pid\\/PYUnd1ve",
-            "cookies": 0.000427,
+            "rule": "everesttech\\.net\\/ct\\/upi\\/pid\\/dm4ha19W",
+            "cookies": 0.000274,
             "fingerprinting": 0,
             "subdomains": [
                 "rtd-tm"
             ],
             "apis": {},
-            "sites": 21,
-            "prevalence": 0.000427
-        },
-        {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/1491",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [
-                "rtd-tm"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/21616\\/3110",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "Navigator.prototype.appName": 1,
-                "HTMLCanvasElement.prototype.constructor": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/2j4ke5f0",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync-tm"
-            ],
-            "apis": {},
-            "sites": 9,
-            "prevalence": 0.000183
-        },
-        {
-            "rule": "everesttech\\.net\\/ads\\/cmp\\/s\\/2021\\/457933",
-            "cookies": 0.000142,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cmp-as-tm"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 6
-            },
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/20744\\/4249",
-            "cookies": 0.000061,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "Navigator.prototype.appName": 2,
-                "HTMLCanvasElement.prototype.constructor": 2
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "everesttech\\.net\\/ads\\/mts\\/14301\\/4249",
-            "cookies": 0.000142,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "Navigator.prototype.appName": 6,
-                "HTMLCanvasElement.prototype.constructor": 6,
-                "Date.prototype.getTime": 1
-            },
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "everesttech\\.net\\/9488\\/gr",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "pixel"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "everesttech\\.net\\/9488\\/t",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "pixel"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "everesttech\\.net\\/ads\\/cmp\\/s\\/2020\\/457933",
-            "cookies": 0.0000814,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cmp-as-tm"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 4
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/20688\\/4249",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "Navigator.prototype.appName": 1,
-                "HTMLCanvasElement.prototype.constructor": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/20686\\/4249",
-            "cookies": 0.0000814,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "Navigator.prototype.appName": 3,
-                "HTMLCanvasElement.prototype.constructor": 3
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 20,
+            "prevalence": 0.000274,
+            "cnames": []
         },
         {
             "rule": "everesttech\\.net\\/upi\\/pid\\/1488",
-            "cookies": 0.000529,
+            "cookies": 0.000397,
             "fingerprinting": 0,
             "subdomains": [
                 "sync-tm"
             ],
             "apis": {},
-            "sites": 44,
-            "prevalence": 0.000895
+            "sites": 52,
+            "prevalence": 0.000712,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/20973\\/3110",
-            "cookies": 0.000061,
-            "fingerprinting": 1,
+            "rule": "everesttech\\.net\\/upi\\/pid\\/gjIEMT18",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
             "subdomains": [
-                "ads"
+                "sync-tm"
             ],
-            "apis": {
-                "Navigator.prototype.appName": 2,
-                "HTMLCanvasElement.prototype.constructor": 2
-            },
-            "sites": 3,
-            "prevalence": 0.000061
+            "apis": {},
+            "sites": 72,
+            "prevalence": 0.000985,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/18243\\/3110",
-            "cookies": 0.000061,
-            "fingerprinting": 1,
+            "rule": "everesttech\\.net\\/feed\\/placement\\.js",
+            "cookies": 0.00157,
+            "fingerprinting": 0,
             "subdomains": [
-                "ads"
+                "displayf-tm"
             ],
-            "apis": {
-                "Navigator.prototype.appName": 2,
-                "HTMLCanvasElement.prototype.constructor": 2
-            },
-            "sites": 3,
-            "prevalence": 0.000061
+            "apis": {},
+            "sites": 115,
+            "prevalence": 0.00157,
+            "cnames": []
         },
         {
             "rule": "everesttech\\.net\\/ct\\/upi\\/pid\\/r7ifn0SL",
-            "cookies": 0.000142,
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
                 "rtd-tm",
@@ -748,36 +549,72 @@
             ],
             "apis": {},
             "sites": 8,
-            "prevalence": 0.000163
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/21574\\/3110",
-            "cookies": 0.000061,
-            "fingerprinting": 1,
+            "rule": "everesttech\\.net\\/upi\\/pid\\/cQZGoH6Q",
+            "cookies": 0.000328,
+            "fingerprinting": 0,
             "subdomains": [
-                "ads"
+                "sync-tm"
             ],
-            "apis": {
-                "Navigator.prototype.appName": 2,
-                "HTMLCanvasElement.prototype.constructor": 2
-            },
-            "sites": 3,
-            "prevalence": 0.000061
+            "apis": {},
+            "sites": 28,
+            "prevalence": 0.000383,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/px2\\/2519",
-            "cookies": 0.000061,
+            "rule": "everesttech\\.net\\/upi\\/pid\\/lons7jax",
+            "cookies": 0.000178,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-tm"
+            ],
+            "apis": {},
+            "sites": 54,
+            "prevalence": 0.000739,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/upi\\/pid\\/2j4ke5f0",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-tm"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.000205,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/5780\\/gr",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "pixel"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/21115\\/3110",
-            "cookies": 0.0000407,
+            "rule": "everesttech\\.net\\/5780\\/t",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/ads\\/mti\\/21823\\/3110",
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "ads"
@@ -787,75 +624,96 @@
                 "HTMLCanvasElement.prototype.constructor": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/ads\\/mts\\/17662\\/4249",
-            "cookies": 0.0000203,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "Navigator.prototype.appName": 2,
-                "HTMLCanvasElement.prototype.constructor": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "everesttech\\.net\\/ads\\/mts\\/15963\\/4249",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "Navigator.prototype.appName": 2,
-                "HTMLCanvasElement.prototype.constructor": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "everesttech\\.net\\/11208\\/gr",
-            "cookies": 0.0000407,
+            "rule": "everesttech\\.net\\/9488\\/gr",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "pixel"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "everesttech\\.net\\/11208\\/t",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "pixel"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "everesttech\\.net\\/ads\\/mts\\/15964\\/4249",
-            "cookies": 0.000061,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "Navigator.prototype.appName": 2,
-                "HTMLCanvasElement.prototype.constructor": 2
-            },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/20742\\/4249",
-            "cookies": 0.0000814,
+            "rule": "everesttech\\.net\\/9488\\/t",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/ads\\/mti\\/21978\\/3110",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 1,
+                "HTMLCanvasElement.prototype.constructor": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/ads\\/mti\\/21977\\/3110",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 1,
+                "HTMLCanvasElement.prototype.constructor": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/ads\\/mti\\/21992\\/3110",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 1,
+                "HTMLCanvasElement.prototype.constructor": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/ads\\/mti\\/21995\\/3110",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 2,
+                "HTMLCanvasElement.prototype.constructor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/ads\\/mti\\/21994\\/3110",
+            "cookies": 0.000041,
             "fingerprinting": 1,
             "subdomains": [
                 "ads"
@@ -864,154 +722,121 @@
                 "Navigator.prototype.appName": 3,
                 "HTMLCanvasElement.prototype.constructor": 3
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/5261\\/gr",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "pixel"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "everesttech\\.net\\/5261\\/v",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "pixel"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/21560\\/3110",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "Navigator.prototype.appName": 2,
-                "HTMLCanvasElement.prototype.constructor": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/21553\\/3110",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "Navigator.prototype.appName": 1,
-                "HTMLCanvasElement.prototype.constructor": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/cQZGoH6Q",
-            "cookies": 0.000224,
+            "rule": "everesttech\\.net\\/upi\\/pid\\/TgE5lmfi",
+            "cookies": 0.000205,
             "fingerprinting": 0,
             "subdomains": [
                 "sync-tm"
             ],
             "apis": {},
             "sites": 19,
-            "prevalence": 0.000386
+            "prevalence": 0.00026,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/21612\\/3110",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "Navigator.prototype.appName": 1,
-                "HTMLCanvasElement.prototype.constructor": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "everesttech\\.net\\/ads\\/mts\\/17661\\/4249",
-            "cookies": 0.0000814,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "Navigator.prototype.appName": 3,
-                "HTMLCanvasElement.prototype.constructor": 3
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/21092\\/3110",
-            "cookies": 0.0000407,
+            "rule": "everesttech\\.net\\/5208\\/gr",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "ads"
+                "pixel"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/18001\\/3110",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
+            "rule": "everesttech\\.net\\/5208\\/t",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
             "subdomains": [
-                "ads"
+                "pixel"
             ],
-            "apis": {
-                "Navigator.prototype.appName": 1,
-                "HTMLCanvasElement.prototype.constructor": 1
-            },
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/15321\\/3110",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
+            "rule": "everesttech\\.net\\/px2\\/5436",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
             "subdomains": [
-                "ads"
+                "pixel"
             ],
-            "apis": {
-                "Navigator.prototype.appName": 1,
-                "HTMLCanvasElement.prototype.constructor": 1
-            },
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/21603\\/3110",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
+            "rule": "everesttech\\.net\\/upi\\/pid\\/DuqQKWX7\\/",
+            "cookies": 0.0000821,
+            "fingerprinting": 0,
             "subdomains": [
-                "ads"
+                "sync-tm"
             ],
-            "apis": {
-                "Navigator.prototype.appName": 1,
-                "HTMLCanvasElement.prototype.constructor": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/21589\\/3110",
-            "cookies": 0.000061,
+            "rule": "everesttech\\.net\\/upi\\/pid\\/EhuOE4dM",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-tm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/11240\\/t",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/11208\\/gr",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/11208\\/t",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/ads\\/mti\\/21984\\/3110",
+            "cookies": 0.000041,
             "fingerprinting": 1,
             "subdomains": [
                 "ads"
@@ -1021,72 +846,102 @@
                 "HTMLCanvasElement.prototype.constructor": 2
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/6w7xg42b",
-            "cookies": 0.0000407,
+            "rule": "everesttech\\.net\\/ads\\/mti\\/22177\\/3110",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/ads\\/mti\\/22162\\/3110",
+            "cookies": 0.000041,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 2,
+                "HTMLCanvasElement.prototype.constructor": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/upi\\/pid\\/epROgTTp\\/",
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [
                 "sync-tm"
             ],
             "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "everesttech\\.net\\/ads\\/mti\\/21986\\/3110",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 1,
+                "HTMLCanvasElement.prototype.constructor": 1
+            },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "everesttech\\.net\\/px2\\/8236",
-            "cookies": 0.000061,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "pixel"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/20924\\/3110",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
+            "rule": "everesttech\\.net\\/1\\/gr",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
             "subdomains": [
-                "ads"
+                "pixel"
             ],
-            "apis": {
-                "Navigator.prototype.appName": 1,
-                "HTMLCanvasElement.prototype.constructor": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "everesttech\\.net\\/px2\\/8440",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "pixel"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/17997\\/3110",
-            "cookies": 0.000061,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "Navigator.prototype.appName": 1,
-                "HTMLCanvasElement.prototype.constructor": 1
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/21581\\/3110",
-            "cookies": 0.0000407,
+            "rule": "everesttech\\.net\\/ads\\/mti\\/21957\\/3110",
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "ads"
@@ -1096,11 +951,12 @@
                 "HTMLCanvasElement.prototype.constructor": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/21595\\/3110",
-            "cookies": 0.0000407,
+            "rule": "everesttech\\.net\\/ads\\/mti\\/21956\\/3110",
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "ads"
@@ -1110,117 +966,34 @@
                 "HTMLCanvasElement.prototype.constructor": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/18099\\/3110",
-            "cookies": 0.000061,
+            "rule": "everesttech\\.net\\/ads\\/mti\\/21752\\/3110",
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "ads"
             ],
             "apis": {
-                "Navigator.prototype.appName": 2,
-                "HTMLCanvasElement.prototype.constructor": 2
+                "Navigator.prototype.appName": 1
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "everesttech\\.net\\/upi\\/pid\\/byN59NcB",
-            "cookies": 0.0000407,
+            "rule": "everesttech\\.net\\/ads\\/mti\\/21751\\/3110",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "sync-tm"
+                "ads"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "everesttech\\.net\\/ads\\/mts\\/14287\\/4249",
-            "cookies": 0.000061,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "Navigator.prototype.appName": 2,
-                "HTMLCanvasElement.prototype.constructor": 2,
-                "Date.prototype.getTime": 1
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/18100\\/3110",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "Navigator.prototype.appName": 1,
-                "HTMLCanvasElement.prototype.constructor": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/21550\\/3110",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "Navigator.prototype.appName": 1,
-                "HTMLCanvasElement.prototype.constructor": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/21570\\/3110",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "Navigator.prototype.appName": 1,
-                "HTMLCanvasElement.prototype.constructor": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "everesttech\\.net\\/ads\\/mti\\/21598\\/3110",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "Navigator.prototype.appName": 1,
-                "HTMLCanvasElement.prototype.constructor": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "everesttech\\.net\\/ads\\/mts\\/15962\\/4249",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ads"
-            ],
-            "apis": {
-                "Navigator.prototype.appName": 1,
-                "HTMLCanvasElement.prototype.constructor": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -1233,5 +1006,10 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.169
+    "cookies": 0.141,
+    "types": {
+        "Image": 27940,
+        "Document": 2858,
+        "Script": 2131
+    }
 }

@@ -9,11 +9,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00116,
-    "sites": 57,
+    "prevalence": 0.000835,
+    "sites": 61,
     "subdomains": [
         "www"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -24,30 +25,48 @@
                 "www"
             ],
             "apis": {
-                "Date.prototype.getTime": 39,
-                "Navigator.prototype.userAgent": 20
+                "Navigator.prototype.userAgent": 34,
+                "Date.prototype.getTime": 34
             },
-            "sites": 39,
-            "prevalence": 0.000793
+            "sites": 34,
+            "prevalence": 0.000465,
+            "cnames": []
         },
         {
             "rule": "etracker\\.de\\/cntcc",
-            "cookies": 0.000875,
+            "cookies": 0.000561,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
-            "sites": 56,
-            "prevalence": 0.00114
+            "sites": 58,
+            "prevalence": 0.000794,
+            "cnames": []
+        },
+        {
+            "rule": "etracker\\.de\\/api\\/v6\\/tracking\\/webEvents",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
-        "cpu": 1,
-        "cache": 1
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
     },
-    "cookies": 0.000875
+    "cookies": 0.000561,
+    "types": {
+        "Script": 92,
+        "XHR": 2
+    }
 }

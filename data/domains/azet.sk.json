@@ -4,24 +4,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000061,
-    "sites": 3,
+    "prevalence": 0.0000684,
+    "sites": 5,
     "subdomains": [
-        "azetbutton",
         "tracker"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "azet\\.sk\\/",
-            "cookies": 0.0000407,
+            "rule": "azet\\.sk\\/redirect",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
-                "azetbutton"
+                "tracker"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "azet\\.sk\\/livemonitor\\/iframeTracker\\.html",
@@ -31,10 +32,11 @@
                 "tracker"
             ],
             "apis": {
-                "window.sessionStorage": 2
+                "window.sessionStorage": 3
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -42,7 +44,11 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000061
+    "cookies": 0.0000684,
+    "types": {
+        "Image": 3,
+        "Document": 3
+    }
 }

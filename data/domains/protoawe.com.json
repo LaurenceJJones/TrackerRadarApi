@@ -7,73 +7,76 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000203,
-    "sites": 10,
+    "prevalence": 0.000178,
+    "sites": 13,
     "subdomains": [
-        "pt",
-        "pto"
+        "pt"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "protoawe\\.com\\/cifra\\/script",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "pt"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
             "rule": "protoawe\\.com\\/cifra",
-            "cookies": 0.0000203,
+            "cookies": 0.000041,
             "fingerprinting": 1,
             "subdomains": [
                 "pt"
             ],
             "apis": {
-                "Date.prototype.getTime": 2
+                "Date.prototype.getTime": 5
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
-            "rule": "protoawe\\.com\\/api\\/model\\/feed",
-            "cookies": 0.000061,
+            "rule": "protoawe\\.com\\/cifra\\/script",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "pt"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
-            "rule": "protoawe\\.com\\/pu\\/",
-            "cookies": 0.0000203,
-            "fingerprinting": 2,
+            "rule": "protoawe\\.com\\/api\\/model\\/feed",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
             "subdomains": [
-                "pto"
+                "pt"
             ],
-            "apis": {
-                "Document.cookie getter": 1,
-                "Screen.prototype.availWidth": 1,
-                "Screen.prototype.availHeight": 1,
-                "Screen.prototype.width": 1,
-                "Screen.prototype.height": 1
-            },
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "protoawe\\.com\\/api\\/video-promotion\\/v1\\/client\\/list",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pt"
+            ],
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000163
+    "cookies": 0.000151,
+    "types": {
+        "Document": 5,
+        "Script": 5,
+        "XHR": 6
+    }
 }

@@ -3,12 +3,25 @@
     "displayName": "Campaign Monitor",
     "properties": [
         "campaignmonitor.com",
+        "cmail1.com",
+        "cmail2.com",
+        "cmail3.com",
+        "cmail4.com",
+        "cmail5.com",
+        "confirmsubscription.com",
+        "createsend.com",
         "createsend1.com",
+        "createsend2.com",
+        "createsend3.com",
+        "createsend4.com",
+        "createsend5.com",
+        "csd.io",
+        "forwardtomyfriend.com",
         "getfeedback.com"
     ],
     "prevalence": {
-        "tracking": 0.000346,
-        "nonTracking": 0.000468,
-        "total": 0.000814
+        "tracking": 0.000493,
+        "nonTracking": 0.000383,
+        "total": 0.000876
     }
 }

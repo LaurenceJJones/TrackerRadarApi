@@ -7,69 +7,57 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
-    "sites": 4,
+    "prevalence": 0.0000958,
+    "sites": 7,
     "subdomains": [
-        "kia",
-        "cdn"
+        "kia"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "klambt\\.services\\/delivery\\/asyncjs\\.php",
-            "cookies": 0.000061,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "kia"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "klambt\\.services\\/delivery\\/asyncspc\\.php",
-            "cookies": 0.000061,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "kia"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "klambt\\.services\\/delivery\\/lg\\.php",
-            "cookies": 0.000061,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "kia"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "klambt\\.services\\/cookieconsent\\/cookieconsent_202001\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
-                "Document.cookie getter": 2,
-                "Navigator.prototype.cookieEnabled": 2,
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 1
-    },
-    "cookies": 0.0000814
+    "performance": {},
+    "cookies": 0.0000821,
+    "types": {
+        "Script": 4,
+        "XHR": 5,
+        "Image": 5
+    }
 }

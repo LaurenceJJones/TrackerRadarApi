@@ -4,52 +4,61 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000285,
-    "sites": 14,
+    "prevalence": 0.000246,
+    "sites": 18,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
+            "rule": "d3js\\.org\\/d3\\.v4\\.min\\.js",
+            "cookies": 0.0000547,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "d3js\\.org\\/d3\\.v5\\.min\\.js",
+            "cookies": 0.000041,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
             "rule": "d3js\\.org\\/d3\\.v3\\.min\\.js",
-            "cookies": 0.000102,
+            "cookies": 0.0000547,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
                 "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 4,
-                "Navigator.prototype.userAgent": 3
+                "Navigator.prototype.userAgent": 4
             },
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "d3js\\.org\\/d3\\.v4\\.min\\.js",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
             "sites": 4,
-            "prevalence": 0.0000814
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "d3js\\.org\\/d3\\.v2\\.min\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000821,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 2,
-                "Navigator.prototype.userAgent": 2
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 6,
+                "Navigator.prototype.userAgent": 6
             },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "d3js\\.org\\/d3\\.v5\\.min\\.js",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -59,5 +68,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000285
+    "cookies": 0.000246,
+    "types": {
+        "Script": 17
+    }
 }

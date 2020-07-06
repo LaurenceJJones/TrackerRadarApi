@@ -4,48 +4,55 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000407,
-    "sites": 20,
+    "prevalence": 0.000342,
+    "sites": 25,
     "subdomains": [
         "sys"
     ],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "vidsrev\\.com\\/vast\\/vasts\\.min\\.js",
-            "cookies": 0.000386,
+            "cookies": 0.000342,
             "fingerprinting": 1,
             "subdomains": [
                 "sys"
             ],
             "apis": {
-                "window.localStorage": 17,
-                "Navigator.prototype.languages": 9
+                "window.localStorage": 25,
+                "Navigator.prototype.languages": 25
             },
-            "sites": 19,
-            "prevalence": 0.000386
+            "sites": 25,
+            "prevalence": 0.000342,
+            "cnames": []
         },
         {
             "rule": "vidsrev\\.com\\/vpaid\\/utils\\/getInfo\\.php",
-            "cookies": 0.000407,
+            "cookies": 0.000342,
             "fingerprinting": 0,
             "subdomains": [
                 "sys"
             ],
             "apis": {},
-            "sites": 20,
-            "prevalence": 0.000407
+            "sites": 25,
+            "prevalence": 0.000342,
+            "cnames": []
         },
         {
             "rule": "vidsrev\\.com\\/vast\\/vastt\\.min\\.js",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
+            "cookies": 0.0000684,
+            "fingerprinting": 1,
             "subdomains": [
                 "sys"
             ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -55,5 +62,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000407
+    "cookies": 0.000342,
+    "types": {
+        "Script": 30,
+        "Fetch": 25
+    }
 }

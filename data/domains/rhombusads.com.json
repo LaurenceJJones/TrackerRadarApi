@@ -4,12 +4,13 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00059,
-    "sites": 29,
+    "prevalence": 0.000438,
+    "sites": 32,
     "subdomains": [
         "cdn",
         "adserver"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -20,43 +21,37 @@
                 "cdn"
             ],
             "apis": {
-                "Date.prototype.getTime": 23,
-                "Navigator.prototype.userAgent": 23,
-                "window.matchMedia(\"prefers-reduced-motion\")": 23,
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 1
+                "Navigator.prototype.userAgent": 14,
+                "Date.prototype.getTime": 14,
+                "window.matchMedia(\"prefers-reduced-motion\")": 14
             },
-            "sites": 23,
-            "prevalence": 0.000468
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
         },
         {
             "rule": "rhombusads\\.com\\/udb\\/10093\\/sync\\/i\\.gif",
-            "cookies": 0.000468,
+            "cookies": 0.000178,
             "fingerprinting": 0,
             "subdomains": [
                 "adserver"
             ],
             "apis": {},
-            "sites": 23,
-            "prevalence": 0.000468
-        },
-        {
-            "rule": "rhombusads\\.com\\/i\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "adserver"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000468
+    "cookies": 0.000178,
+    "types": {
+        "Script": 14,
+        "Image": 13
+    }
 }

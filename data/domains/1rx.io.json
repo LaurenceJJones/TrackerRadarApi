@@ -9,45 +9,37 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.103,
-    "sites": 5062,
+    "prevalence": 0.0923,
+    "sites": 6746,
     "subdomains": [
         "sync"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "1rx\\.io\\/usersync2\\/emx",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync"
-            ],
-            "apis": {},
-            "sites": 348,
-            "prevalence": 0.00708
-        },
-        {
             "rule": "1rx\\.io\\/usersync2\\/sortable",
-            "cookies": 0.0000203,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "sync"
             ],
             "apis": {},
-            "sites": 138,
-            "prevalence": 0.00281
+            "sites": 289,
+            "prevalence": 0.00395,
+            "cnames": []
         },
         {
-            "rule": "1rx\\.io\\/usersync2\\/sonobi&gdpr=0&gdpr_consent=",
-            "cookies": 0.0000407,
+            "rule": "1rx\\.io\\/usersync2\\/emx",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "sync"
             ],
             "apis": {},
-            "sites": 597,
-            "prevalence": 0.0121
+            "sites": 360,
+            "prevalence": 0.00493,
+            "cnames": []
         }
     ],
     "categories": [
@@ -62,5 +54,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0000814
+    "cookies": 0.0000684,
+    "types": {
+        "Image": 649
+    }
 }

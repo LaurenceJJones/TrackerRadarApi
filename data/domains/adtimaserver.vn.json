@@ -1,73 +1,67 @@
 {
     "domain": "adtimaserver.vn",
     "owner": {
-        "name": "VNG CORPORATION",
+        "name": "VNG Corporation",
         "displayName": "VNG"
     },
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000462,
+    "prevalence": 0.0000274,
     "sites": 2,
     "subdomains": [
         "api"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "adtimaserver\\.vn\\/zad\\/zone\\/baomoiPR",
-            "cookies": 0.0000462,
-            "fingerprinting": 0,
-            "subdomains": [
-                "api"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000462
-        },
-        {
             "rule": "adtimaserver\\.vn\\/rtb\\/partners",
-            "cookies": 0.0000462,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "api"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000462
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adtimaserver\\.vn\\/rtb\\/prepareRTB",
-            "cookies": 0.0000462,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "api"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000462
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adtimaserver\\.vn\\/rtb\\/csync",
-            "cookies": 0.0000462,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "api"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000462
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adtimaserver\\.vn\\/rtb\\/csync",
-            "cookies": 0.0000462,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "api"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000462
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -77,5 +71,10 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0000462
+    "cookies": 0.0000274,
+    "types": {
+        "XHR": 4,
+        "Image": 2,
+        "Document": 2
+    }
 }

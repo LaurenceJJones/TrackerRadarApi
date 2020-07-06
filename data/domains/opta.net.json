@@ -7,14 +7,34 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000488,
-    "sites": 24,
+    "prevalence": 0.000287,
+    "sites": 21,
     "subdomains": [
         "secure.widget.cloud",
         "widget.cloud"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
+        {
+            "rule": "opta\\.net\\/2\\.0\\/js\\/widgets\\.opta\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure.widget.cloud"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Date.prototype.getTime": 4,
+                "window.devicePixelRatio": 4,
+                "window.matchMedia(\"prefers-reduced-motion\")": 4,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
         {
             "rule": "opta\\.net\\/v3\\/v3\\.opta-widgets\\.js",
             "cookies": 0,
@@ -24,44 +44,29 @@
                 "widget.cloud"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 16,
-                "window.localStorage": 18,
-                "window.devicePixelRatio": 18,
-                "window.matchMedia(\"prefers-reduced-motion\")": 17,
-                "Event.prototype.timeStamp": 17,
-                "Date.prototype.getTime": 1,
-                "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
-                "Element.prototype.getClientRects": 1
-            },
-            "sites": 18,
-            "prevalence": 0.000366
-        },
-        {
-            "rule": "opta\\.net\\/2\\.0\\/js\\/widgets\\.opta\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "secure.widget.cloud",
-                "widget.cloud"
-            ],
-            "apis": {
-                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 11,
+                "window.localStorage": 11,
+                "window.devicePixelRatio": 11,
+                "window.matchMedia(\"prefers-reduced-motion\")": 11,
+                "Event.prototype.timeStamp": 11,
                 "Date.prototype.getTime": 2,
-                "window.devicePixelRatio": 2,
-                "window.matchMedia(\"prefers-reduced-motion\")": 2,
-                "Navigator.prototype.userAgent": 1,
-                "Date.prototype.getTimezoneOffset": 1
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+                "Element.prototype.getClientRects": 2
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 17
+    }
 }

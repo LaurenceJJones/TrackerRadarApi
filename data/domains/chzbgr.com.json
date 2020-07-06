@@ -7,47 +7,52 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
+    "prevalence": 0.0000547,
     "sites": 4,
     "subdomains": [
         "s"
     ],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 2,
     "resources": [
         {
-            "rule": "chzbgr\\.com\\/s\\/release_20200305\\.787\\/js-built\\/main-moist\\.js",
-            "cookies": 0.0000407,
+            "rule": "chzbgr\\.com\\/s\\/release_20200609\\.44\\/js-built\\/main-moist\\.js",
+            "cookies": 0.000041,
             "fingerprinting": 1,
             "subdomains": [
                 "s"
             ],
             "apis": {
-                "Document.cookie getter": 3,
+                "Navigator.prototype.platform": 3,
                 "Date.prototype.getTime": 3,
-                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 3,
                 "PerformanceTiming.prototype.navigationStart": 3,
-                "Event.prototype.timeStamp": 3,
-                "Navigator.prototype.platform": 1,
-                "Navigator.prototype.userAgent": 1
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "chzbgr\\.com\\/s\\/release_20200305\\.787\\/js\\/libs\\/stipple\\.js",
-            "cookies": 0.000061,
-            "fingerprinting": 1,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {
                 "Document.cookie getter": 3,
                 "Document.cookie setter": 3,
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.language": 3
+                "Event.prototype.timeStamp": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "chzbgr\\.com\\/s\\/release_20200609\\.44\\/js\\/libs\\/stipple\\.js",
+            "cookies": 0.0000547,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.language": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -57,5 +62,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.000061
+    "cookies": 0.0000547,
+    "types": {
+        "Script": 7
+    }
 }

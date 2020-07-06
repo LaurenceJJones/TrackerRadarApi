@@ -7,31 +7,33 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
-    "sites": 2,
+    "prevalence": 0.000151,
+    "sites": 11,
     "subdomains": [
         "sftrack"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
             "rule": "searchforce\\.net\\/SFConversionTracking\\/sfct\\.js",
-            "cookies": 0,
-            "fingerprinting": 2,
+            "cookies": 0.000151,
+            "fingerprinting": 1,
             "subdomains": [
                 "sftrack"
             ],
             "apis": {
-                "Screen.prototype.width": 1,
-                "Screen.prototype.height": 1,
-                "Screen.prototype.colorDepth": 1,
-                "Navigator.prototype.plugins": 1,
-                "Navigator.prototype.language": 1,
-                "Navigator.prototype.userAgent": 1,
-                "Navigator.prototype.cookieEnabled": 1
+                "Screen.prototype.width": 11,
+                "Screen.prototype.height": 11,
+                "Screen.prototype.colorDepth": 11,
+                "Navigator.prototype.plugins": 11,
+                "Navigator.prototype.language": 11,
+                "Navigator.prototype.userAgent": 11,
+                "Navigator.prototype.cookieEnabled": 11
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -41,5 +43,8 @@
         "cpu": 0,
         "cache": 0
     },
-    "cookies": 0
+    "cookies": 0.000151,
+    "types": {
+        "Script": 11
+    }
 }

@@ -9,26 +9,14 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000407,
-    "sites": 20,
+    "prevalence": 0.00041,
+    "sites": 30,
     "subdomains": [
         "use"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
-        {
-            "rule": "fortawesome\\.com\\/4145d9db\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "use"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
         {
             "rule": "fortawesome\\.com\\/0609a1ab\\.js",
             "cookies": 0,
@@ -40,7 +28,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -50,5 +39,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 2
+    }
 }

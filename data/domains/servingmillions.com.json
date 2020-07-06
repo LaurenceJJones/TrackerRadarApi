@@ -4,156 +4,56 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000163,
-    "sites": 8,
+    "prevalence": 0.000178,
+    "sites": 13,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "servingmillions\\.com\\/servlet\\/view\\/banner\\/javascript\\/html\\/zone",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "servingmillions\\.com\\/js\\/browser\\.js",
-            "cookies": 0.000163,
+            "cookies": 0.000137,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Navigator.prototype.userAgent": 6,
-                "Navigator.prototype.appVersion": 6
+                "Date.prototype.getTime": 10
             },
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "servingmillions\\.com\\/js\\/png\\.js",
-            "cookies": 0.000163,
+            "rule": "servingmillions\\.com\\/js\\/interactive2\\.js",
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "servingmillions\\.com\\/js\\/gui\\.js",
-            "cookies": 0.000163,
+            "rule": "servingmillions\\.com\\/servlet\\/vast3\\/zone",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "servingmillions\\.com\\/css\\/base\\.css",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "servingmillions\\.com\\/css\\/tile\\.css",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "servingmillions\\.com\\/images\\/control\\/tile\\/topleft\\.gif",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "servingmillions\\.com\\/images\\/control\\/tile\\/topmiddle\\.gif",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "servingmillions\\.com\\/images\\/control\\/tile\\/topright\\.gif",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "servingmillions\\.com\\/images\\/invisible\\.gif",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "servingmillions\\.com\\/images\\/control\\/icons\\/48x48\\/shadow\\/error\\.png",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "servingmillions\\.com\\/images\\/control\\/tile\\/bottomleft\\.gif",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "servingmillions\\.com\\/images\\/control\\/tile\\/bottommiddle\\.gif",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "servingmillions\\.com\\/images\\/control\\/tile\\/bottomright\\.gif",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "servingmillions\\.com\\/images\\/control\\/tile\\/backing\\.gif",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000163
+    "cookies": 0.000164,
+    "types": {
+        "Document": 10,
+        "Script": 10,
+        "XHR": 2
+    }
 }

@@ -9,329 +9,108 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0145,
-    "sites": 715,
+    "prevalence": 0.00899,
+    "sites": 657,
     "subdomains": [
         "redirect.frontend",
         "rd.frontend",
         "cstatic",
+        "wf.frontend",
+        "wamfactory.solution",
+        "bsd.frontend",
+        "cr.frontend",
+        "idsync.frontend",
         "aifruanalytics.solution",
+        "movingupitanalytics.solution",
         "bper.solution",
         "groupelapostefranalytics.solution",
         "cofina2.solution",
-        "diacorporativo.solution",
         "metricsmonsteritanalytics.solution",
+        "globalmediaptanalytics.solution",
         "talksmediaanalytics.solution",
+        "digitalbeesanalytics.solution",
         "ilfattoquotidianoitanalytics.solution",
         "iviruanalytics.solution",
         "kinoteatrruanalytics.solution",
-        "movingupitanalytics.solution",
+        "glplaboutiquefranalytics.solution",
+        "gasnaturalesanalytics.solution",
+        "turismoptanalytics.solution",
         "hearstshkulevruanalytics.solution",
         "aimfar.solution",
+        "amc.solution",
+        "ignffr.solution",
         "bankiaes.solution",
         "casadellibro.solution",
+        "clickboat.solution",
         "wam.solution",
-        "supermercadosdia.solution",
         "fnac.solution",
+        "havaianasspain.solution",
         "groupelaposte.solution",
         "systemeu.solution",
         "masmoviles.solution",
-        "mhi.solution",
         "pepephonees.solution",
         "frpetzlactivationfr.solution",
         "phonehouse.solution",
+        "cofina.solution",
+        "essprinter.solution",
         "adv.solution",
+        "turismoportugal.solution",
         "volotea.solution",
         "yoigoes.solution",
-        "cr.frontend",
         "aimfr.solution",
-        "cafpifr.solution",
-        "idsync.frontend",
-        "bsd.frontend",
-        "cofidis2.solution",
+        "danajuntamemtbcn.solution",
+        "rtlnl.solution",
+        "eovimcdfr.solution",
+        "glocally.solution",
+        "dangeneralitatbcn.solution",
         "wcm-ru.frontend",
-        "cetelemportugal2.solution",
+        "wcm.solution",
         "ilfattoquotidianoit.solution",
         "lamoda.solution",
-        "weboes.solution",
-        "sport2000locationski.solution",
-        "energitit.solution",
-        "wf.frontend",
-        "wamfactory.solution"
+        "stoloto.solution",
+        "cofidis2.solution",
+        "espfx.solution"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "weborama\\.fr\\/redirect\\/standard",
-            "cookies": 0.00134,
+            "cookies": 0.00276,
             "fingerprinting": 0,
             "subdomains": [
                 "redirect.frontend"
             ],
             "apis": {},
-            "sites": 67,
-            "prevalence": 0.00136
+            "sites": 203,
+            "prevalence": 0.00278,
+            "cnames": []
         },
         {
             "rule": "weborama\\.fr\\/rd",
-            "cookies": 0.00161,
+            "cookies": 0.00122,
             "fingerprinting": 0,
             "subdomains": [
                 "rd.frontend"
             ],
             "apis": {},
-            "sites": 80,
-            "prevalence": 0.00163
+            "sites": 94,
+            "prevalence": 0.00129,
+            "cnames": []
         },
         {
-            "rule": "weborama\\.fr\\/rd",
-            "cookies": 0.00989,
-            "fingerprinting": 0,
-            "subdomains": [
-                "rd.frontend",
-                "redirect.frontend"
-            ],
-            "apis": {},
-            "sites": 486,
-            "prevalence": 0.00989
-        },
-        {
-            "rule": "weborama\\.fr\\/js\\/products\\.js",
-            "cookies": 0,
-            "fingerprinting": 2,
-            "subdomains": [
-                "cstatic"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 13,
-                "Date.prototype.getTimezoneOffset": 13,
-                "Navigator.prototype.appName": 12,
-                "Document.cookie getter": 12,
-                "Navigator.prototype.appVersion": 12,
-                "Screen.prototype.width": 11,
-                "Screen.prototype.height": 11,
-                "Screen.prototype.pixelDepth": 11,
-                "Navigator.prototype.userAgent": 12
-            },
-            "sites": 13,
-            "prevalence": 0.000264
-        },
-        {
-            "rule": "weborama\\.fr\\/iframe\\/external_all\\.html",
+            "rule": "weborama\\.fr\\/js\\/wam\\/customers\\/wamfactory_dpm\\.laposte\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "cstatic"
             ],
             "apis": {
-                "Date.prototype.getTime": 13
+                "Date.prototype.getTime": 4
             },
-            "sites": 13,
-            "prevalence": 0.000264
-        },
-        {
-            "rule": "weborama\\.fr\\/fcgi-bin\\/comptage_wreport\\.fcgi",
-            "cookies": 0.000346,
-            "fingerprinting": 0,
-            "subdomains": [
-                "aifruanalytics.solution",
-                "bper.solution",
-                "groupelapostefranalytics.solution",
-                "cofina2.solution",
-                "diacorporativo.solution",
-                "metricsmonsteritanalytics.solution",
-                "talksmediaanalytics.solution",
-                "ilfattoquotidianoitanalytics.solution",
-                "iviruanalytics.solution",
-                "kinoteatrruanalytics.solution",
-                "movingupitanalytics.solution",
-                "hearstshkulevruanalytics.solution"
-            ],
-            "apis": {},
-            "sites": 17,
-            "prevalence": 0.000346
-        },
-        {
-            "rule": "weborama\\.fr\\/iframe\\/external_libs\\.js",
-            "cookies": 0.0000407,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cstatic"
-            ],
-            "apis": {
-                "Navigator.prototype.cookieEnabled": 29,
-                "Navigator.prototype.userAgent": 29,
-                "Document.cookie getter": 2,
-                "Document.cookie setter": 2
-            },
-            "sites": 35,
-            "prevalence": 0.000712
-        },
-        {
-            "rule": "weborama\\.fr\\/fcgi-bin\\/dispatch\\.fcgi",
-            "cookies": 0.000549,
-            "fingerprinting": 1,
-            "subdomains": [
-                "aimfar.solution",
-                "bankiaes.solution",
-                "casadellibro.solution",
-                "wam.solution",
-                "supermercadosdia.solution",
-                "fnac.solution",
-                "groupelaposte.solution",
-                "systemeu.solution",
-                "masmoviles.solution",
-                "mhi.solution",
-                "pepephonees.solution",
-                "frpetzlactivationfr.solution",
-                "phonehouse.solution",
-                "adv.solution",
-                "volotea.solution",
-                "yoigoes.solution"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 1
-            },
-            "sites": 27,
-            "prevalence": 0.000549
-        },
-        {
-            "rule": "weborama\\.fr\\/cr",
-            "cookies": 0.000692,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cr.frontend"
-            ],
-            "apis": {},
-            "sites": 34,
-            "prevalence": 0.000692
-        },
-        {
-            "rule": "weborama\\.fr\\/fcgi-bin\\/dispatch\\.fcgi",
-            "cookies": 0.000346,
-            "fingerprinting": 0,
-            "subdomains": [
-                "wam.solution",
-                "aimfr.solution",
-                "aimfar.solution",
-                "cafpifr.solution"
-            ],
-            "apis": {},
-            "sites": 19,
-            "prevalence": 0.000386
-        },
-        {
-            "rule": "weborama\\.fr\\/cr",
-            "cookies": 0.000854,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cr.frontend"
-            ],
-            "apis": {},
-            "sites": 42,
-            "prevalence": 0.000854
-        },
-        {
-            "rule": "weborama\\.fr\\/ids",
-            "cookies": 0.00106,
-            "fingerprinting": 0,
-            "subdomains": [
-                "idsync.frontend"
-            ],
-            "apis": {},
-            "sites": 55,
-            "prevalence": 0.00112
-        },
-        {
-            "rule": "weborama\\.fr\\/bsd",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "bsd.frontend"
-            ],
-            "apis": {},
             "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "weborama\\.fr\\/fcgi-bin\\/dispatch\\.fcgi",
-            "cookies": 0.00057,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cofidis2.solution",
-                "aimfar.solution",
-                "wcm-ru.frontend",
-                "cetelemportugal2.solution",
-                "supermercadosdia.solution",
-                "ilfattoquotidianoit.solution",
-                "lamoda.solution",
-                "weboes.solution",
-                "sport2000locationski.solution",
-                "energitit.solution"
-            ],
-            "apis": {},
-            "sites": 28,
-            "prevalence": 0.00057
-        },
-        {
-            "rule": "weborama\\.fr\\/bsd",
-            "cookies": 0.000142,
-            "fingerprinting": 0,
-            "subdomains": [
-                "bsd.frontend"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "weborama\\.fr\\/js\\/wam\\/customers\\/wamfactory_dpm\\.lequipe\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cstatic"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "weborama\\.fr\\/streampixel\\/",
-            "cookies": 0.000325,
-            "fingerprinting": 0,
-            "subdomains": [
-                "wf.frontend"
-            ],
-            "apis": {},
-            "sites": 16,
-            "prevalence": 0.000325
-        },
-        {
-            "rule": "weborama\\.fr\\/js\\/wam\\/customers\\/wamfactory_dpm\\.wildcard\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cstatic"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 38
-            },
-            "sites": 38,
-            "prevalence": 0.000773
-        },
-        {
-            "rule": "weborama\\.fr\\/fcgi-bin\\/dispatch\\.fcgi",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "aimfar.solution",
-                "wam.solution"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "weborama\\.fr\\/iframe\\/external_ids_sync\\.html",
@@ -341,22 +120,252 @@
                 "cstatic"
             ],
             "apis": {
-                "Date.prototype.getTime": 29
+                "Date.prototype.getTime": 39
             },
-            "sites": 29,
-            "prevalence": 0.00059
+            "sites": 39,
+            "prevalence": 0.000534,
+            "cnames": []
         },
         {
             "rule": "weborama\\.fr\\/stream\\/",
-            "cookies": 0.000631,
+            "cookies": 0.000547,
             "fingerprinting": 0,
             "subdomains": [
                 "wf.frontend",
                 "wamfactory.solution"
             ],
             "apis": {},
-            "sites": 32,
-            "prevalence": 0.000651
+            "sites": 40,
+            "prevalence": 0.000547,
+            "cnames": []
+        },
+        {
+            "rule": "weborama\\.fr\\/bsd",
+            "cookies": 0.0000684,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bsd.frontend"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "weborama\\.fr\\/iframe\\/external_libs\\.js",
+            "cookies": 0.0000821,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cstatic"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 42,
+                "Navigator.prototype.userAgent": 42,
+                "Document.cookie getter": 6,
+                "Document.cookie setter": 6
+            },
+            "sites": 53,
+            "prevalence": 0.000725,
+            "cnames": []
+        },
+        {
+            "rule": "weborama\\.fr\\/cr",
+            "cookies": 0.000643,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cr.frontend"
+            ],
+            "apis": {},
+            "sites": 47,
+            "prevalence": 0.000643,
+            "cnames": []
+        },
+        {
+            "rule": "weborama\\.fr\\/cr",
+            "cookies": 0.000766,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cr.frontend"
+            ],
+            "apis": {},
+            "sites": 58,
+            "prevalence": 0.000794,
+            "cnames": []
+        },
+        {
+            "rule": "weborama\\.fr\\/rd",
+            "cookies": 0.00371,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rd.frontend",
+                "redirect.frontend"
+            ],
+            "apis": {},
+            "sites": 271,
+            "prevalence": 0.00371,
+            "cnames": []
+        },
+        {
+            "rule": "weborama\\.fr\\/ids",
+            "cookies": 0.00115,
+            "fingerprinting": 0,
+            "subdomains": [
+                "idsync.frontend"
+            ],
+            "apis": {},
+            "sites": 85,
+            "prevalence": 0.00116,
+            "cnames": []
+        },
+        {
+            "rule": "weborama\\.fr\\/js\\/products\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cstatic"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 23,
+                "Date.prototype.getTimezoneOffset": 23,
+                "Navigator.prototype.appName": 22,
+                "Document.cookie getter": 20,
+                "Navigator.prototype.appVersion": 22,
+                "Screen.prototype.width": 22,
+                "Screen.prototype.height": 22,
+                "Screen.prototype.pixelDepth": 22,
+                "Navigator.prototype.userAgent": 22
+            },
+            "sites": 24,
+            "prevalence": 0.000328,
+            "cnames": []
+        },
+        {
+            "rule": "weborama\\.fr\\/iframe\\/external_all\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cstatic"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 23
+            },
+            "sites": 24,
+            "prevalence": 0.000328,
+            "cnames": []
+        },
+        {
+            "rule": "weborama\\.fr\\/fcgi-bin\\/comptage_wreport\\.fcgi",
+            "cookies": 0.000383,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aifruanalytics.solution",
+                "movingupitanalytics.solution",
+                "bper.solution",
+                "groupelapostefranalytics.solution",
+                "cofina2.solution",
+                "metricsmonsteritanalytics.solution",
+                "globalmediaptanalytics.solution",
+                "talksmediaanalytics.solution",
+                "digitalbeesanalytics.solution",
+                "ilfattoquotidianoitanalytics.solution",
+                "iviruanalytics.solution",
+                "kinoteatrruanalytics.solution",
+                "glplaboutiquefranalytics.solution",
+                "gasnaturalesanalytics.solution",
+                "turismoptanalytics.solution",
+                "hearstshkulevruanalytics.solution"
+            ],
+            "apis": {},
+            "sites": 28,
+            "prevalence": 0.000383,
+            "cnames": []
+        },
+        {
+            "rule": "weborama\\.fr\\/fcgi-bin\\/dispatch\\.fcgi",
+            "cookies": 0.000561,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aimfar.solution",
+                "amc.solution",
+                "ignffr.solution",
+                "bankiaes.solution",
+                "casadellibro.solution",
+                "clickboat.solution",
+                "wam.solution",
+                "fnac.solution",
+                "havaianasspain.solution",
+                "groupelaposte.solution",
+                "systemeu.solution",
+                "masmoviles.solution",
+                "pepephonees.solution",
+                "frpetzlactivationfr.solution",
+                "phonehouse.solution",
+                "cofina.solution",
+                "essprinter.solution",
+                "adv.solution",
+                "turismoportugal.solution",
+                "volotea.solution",
+                "yoigoes.solution"
+            ],
+            "apis": {},
+            "sites": 41,
+            "prevalence": 0.000561,
+            "cnames": []
+        },
+        {
+            "rule": "weborama\\.fr\\/fcgi-bin\\/dispatch\\.fcgi",
+            "cookies": 0.000465,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wam.solution",
+                "aimfr.solution",
+                "danajuntamemtbcn.solution",
+                "aimfar.solution",
+                "rtlnl.solution",
+                "eovimcdfr.solution",
+                "bankiaes.solution",
+                "glocally.solution",
+                "dangeneralitatbcn.solution"
+            ],
+            "apis": {},
+            "sites": 34,
+            "prevalence": 0.000465,
+            "cnames": []
+        },
+        {
+            "rule": "weborama\\.fr\\/js\\/wam\\/customers\\/wamfactory_dpm\\.wildcard\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cstatic"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 48
+            },
+            "sites": 48,
+            "prevalence": 0.000657,
+            "cnames": []
+        },
+        {
+            "rule": "weborama\\.fr\\/fcgi-bin\\/dispatch\\.fcgi",
+            "cookies": 0.000369,
+            "fingerprinting": 0,
+            "subdomains": [
+                "amc.solution",
+                "wcm-ru.frontend",
+                "aimfar.solution",
+                "wcm.solution",
+                "rtlnl.solution",
+                "ilfattoquotidianoit.solution",
+                "lamoda.solution",
+                "stoloto.solution",
+                "cofidis2.solution",
+                "espfx.solution"
+            ],
+            "apis": {},
+            "sites": 28,
+            "prevalence": 0.000383,
+            "cnames": []
         },
         {
             "rule": "weborama\\.fr\\/js\\/advertiserv2\\/adperf_conversion\\.js",
@@ -366,67 +375,51 @@
                 "cstatic"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 12,
-                "Date.prototype.getTime": 12,
-                "Date.prototype.getTimezoneOffset": 12
+                "Navigator.prototype.userAgent": 17,
+                "Date.prototype.getTime": 18,
+                "Date.prototype.getTimezoneOffset": 18
             },
-            "sites": 13,
-            "prevalence": 0.000264
+            "sites": 18,
+            "prevalence": 0.000246,
+            "cnames": []
         },
         {
-            "rule": "weborama\\.fr\\/js\\/wreport_wcm\\.js",
-            "cookies": 0,
-            "fingerprinting": 2,
-            "subdomains": [
-                "cstatic"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 1,
-                "Date.prototype.getTimezoneOffset": 1,
-                "Navigator.prototype.appName": 1,
-                "Document.cookie getter": 1,
-                "Navigator.prototype.appVersion": 1,
-                "Screen.prototype.width": 1,
-                "Screen.prototype.height": 1,
-                "Screen.prototype.pixelDepth": 1,
-                "Navigator.prototype.userAgent": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "weborama\\.fr\\/wam\\/wfpd\\.min\\.js",
+            "rule": "weborama\\.fr\\/js\\/wam\\/customers\\/wamfactory_dpm\\.leparisien\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "cstatic"
             ],
             "apis": {
-                "Date.prototype.getTime": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "weborama\\.fr\\/js\\/wreport_wcm\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 2,
-            "subdomains": [
-                "cstatic"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2,
-                "Date.prototype.getTimezoneOffset": 2,
-                "Navigator.prototype.appName": 2,
-                "Document.cookie getter": 2,
-                "Navigator.prototype.appVersion": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Screen.prototype.pixelDepth": 2,
-                "Navigator.prototype.userAgent": 2
+                "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "weborama\\.fr\\/streampixel\\/",
+            "cookies": 0.000219,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wf.frontend"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
+        },
+        {
+            "rule": "weborama\\.fr\\/streampixel\\/",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wf.frontend"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "weborama\\.fr\\/js\\/advertiserv2\\/adperf_launch_1\\.0\\.0_scrambled\\.js",
@@ -436,16 +429,17 @@
                 "cstatic"
             ],
             "apis": {
-                "Navigator.prototype.appVersion": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.platform": 2,
-                "Navigator.prototype.mimeTypes": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Date.prototype.getTime": 2
+                "Navigator.prototype.appVersion": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.platform": 5,
+                "Navigator.prototype.mimeTypes": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "Date.prototype.getTime": 6
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "weborama\\.fr\\/js\\/advertiserv2\\/adperf_core_1\\.0\\.0_scrambled\\.js",
@@ -455,26 +449,50 @@
                 "cstatic"
             ],
             "apis": {
-                "Screen.prototype.availWidth": 2,
-                "window.devicePixelRatio": 2,
-                "Navigator.prototype.maxTouchPoints": 2,
-                "Navigator.prototype.cookieEnabled": 2,
-                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 2,
-                "Date.prototype.getTime": 2
+                "Screen.prototype.availWidth": 5,
+                "window.devicePixelRatio": 5,
+                "Navigator.prototype.maxTouchPoints": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 5,
+                "Date.prototype.getTime": 5
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "weborama\\.fr\\/fcgi-bin\\/dispatch\\.fcgi",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "cetelemportugal2.solution"
+                "aimfar.solution"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "weborama\\.fr\\/js\\/wreport_wcm\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cstatic"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 5,
+                "Date.prototype.getTimezoneOffset": 5,
+                "Navigator.prototype.appName": 5,
+                "Document.cookie getter": 5,
+                "Navigator.prototype.appVersion": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "Screen.prototype.pixelDepth": 5,
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [
@@ -485,8 +503,14 @@
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.014
+    "cookies": 0.00859,
+    "types": {
+        "Image": 717,
+        "Script": 299,
+        "Document": 151,
+        "XHR": 18
+    }
 }

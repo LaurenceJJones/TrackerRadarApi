@@ -9,486 +9,456 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.21,
-    "sites": 10326,
+    "prevalence": 0.185,
+    "sites": 13525,
     "subdomains": [
         "match",
+        "data",
         "insight",
         "use-tor",
-        "de1-bid",
         "use-va1",
-        "usw-ca2",
-        "s.update"
+        "html5"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "adsrvr\\.org\\/track\\/cmf\\/generic",
-            "cookies": 0.165,
+            "cookies": 0.15,
             "fingerprinting": 0,
             "subdomains": [
-                "match"
-            ],
-            "apis": {},
-            "sites": 8353,
-            "prevalence": 0.17
-        },
-        {
-            "rule": "adsrvr\\.org\\/track\\/cmb\\/generic",
-            "cookies": 0.108,
-            "fingerprinting": 0,
-            "subdomains": [
-                "match"
-            ],
-            "apis": {},
-            "sites": 5332,
-            "prevalence": 0.108
-        },
-        {
-            "rule": "adsrvr\\.org\\/track\\/rid",
-            "cookies": 0.0397,
-            "fingerprinting": 0,
-            "subdomains": [
-                "match"
-            ],
-            "apis": {},
-            "sites": 2197,
-            "prevalence": 0.0447
-        },
-        {
-            "rule": "adsrvr\\.org\\/track\\/rid",
-            "cookies": 0.00313,
-            "fingerprinting": 0,
-            "subdomains": [
-                "match"
-            ],
-            "apis": {},
-            "sites": 242,
-            "prevalence": 0.00492
-        },
-        {
-            "rule": "adsrvr\\.org\\/track\\/conv\\/",
-            "cookies": 0.00757,
-            "fingerprinting": 0,
-            "subdomains": [
+                "match",
+                "data",
                 "insight"
             ],
             "apis": {},
-            "sites": 390,
-            "prevalence": 0.00793
+            "sites": 11289,
+            "prevalence": 0.154,
+            "cnames": []
         },
         {
-            "rule": "adsrvr\\.org\\/track\\/cmf\\/google",
-            "cookies": 0.014,
+            "rule": "adsrvr\\.org\\/track\\/cmb\\/generic",
+            "cookies": 0.099,
             "fingerprinting": 0,
             "subdomains": [
                 "match"
             ],
             "apis": {},
-            "sites": 691,
-            "prevalence": 0.0141
+            "sites": 7304,
+            "prevalence": 0.0999,
+            "cnames": []
         },
         {
             "rule": "adsrvr\\.org\\/track\\/cmf\\/openx",
-            "cookies": 0.0712,
+            "cookies": 0.0625,
             "fingerprinting": 0,
             "subdomains": [
                 "match"
             ],
             "apis": {},
-            "sites": 3553,
-            "prevalence": 0.0723
+            "sites": 4631,
+            "prevalence": 0.0634,
+            "cnames": []
         },
         {
             "rule": "adsrvr\\.org\\/track\\/cmf\\/rubicon",
-            "cookies": 0.0865,
+            "cookies": 0.0611,
             "fingerprinting": 0,
             "subdomains": [
                 "match"
             ],
             "apis": {},
-            "sites": 4287,
-            "prevalence": 0.0872
-        },
-        {
-            "rule": "adsrvr\\.org\\/track\\/cmf\\/rightmedia",
-            "cookies": 0.00832,
-            "fingerprinting": 0,
-            "subdomains": [
-                "match"
-            ],
-            "apis": {},
-            "sites": 412,
-            "prevalence": 0.00838
-        },
-        {
-            "rule": "adsrvr\\.org\\/track\\/cmf\\/appnexus",
-            "cookies": 0.0133,
-            "fingerprinting": 0,
-            "subdomains": [
-                "match"
-            ],
-            "apis": {},
-            "sites": 657,
-            "prevalence": 0.0134
-        },
-        {
-            "rule": "adsrvr\\.org\\/track\\/cmb\\/openx",
-            "cookies": 0.0159,
-            "fingerprinting": 0,
-            "subdomains": [
-                "match"
-            ],
-            "apis": {},
-            "sites": 789,
-            "prevalence": 0.016
-        },
-        {
-            "rule": "adsrvr\\.org\\/track\\/cmb\\/rubicon",
-            "cookies": 0.014,
-            "fingerprinting": 0,
-            "subdomains": [
-                "match"
-            ],
-            "apis": {},
-            "sites": 690,
-            "prevalence": 0.014
-        },
-        {
-            "rule": "adsrvr\\.org\\/track\\/up",
-            "cookies": 0.0149,
-            "fingerprinting": 0,
-            "subdomains": [
-                "insight"
-            ],
-            "apis": {},
-            "sites": 768,
-            "prevalence": 0.0156
-        },
-        {
-            "rule": "adsrvr\\.org\\/track\\/cmf\\/google",
-            "cookies": 0.00814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "match"
-            ],
-            "apis": {},
-            "sites": 400,
-            "prevalence": 0.00814
-        },
-        {
-            "rule": "adsrvr\\.org\\/track\\/cmf\\/rubicon",
-            "cookies": 0.00793,
-            "fingerprinting": 0,
-            "subdomains": [
-                "match"
-            ],
-            "apis": {},
-            "sites": 390,
-            "prevalence": 0.00793
-        },
-        {
-            "rule": "adsrvr\\.org\\/track\\/cmf\\/generic",
-            "cookies": 0.041,
-            "fingerprinting": 0,
-            "subdomains": [
-                "match"
-            ],
-            "apis": {},
-            "sites": 2016,
-            "prevalence": 0.041
-        },
-        {
-            "rule": "adsrvr\\.org\\/track\\/cmb\\/generic",
-            "cookies": 0.00578,
-            "fingerprinting": 0,
-            "subdomains": [
-                "match"
-            ],
-            "apis": {},
-            "sites": 284,
-            "prevalence": 0.00578
-        },
-        {
-            "rule": "adsrvr\\.org\\/bid\\/feedback\\/google",
-            "cookies": 0.00161,
-            "fingerprinting": 0,
-            "subdomains": [
-                "use-tor",
-                "de1-bid"
-            ],
-            "apis": {},
-            "sites": 79,
-            "prevalence": 0.00161
-        },
-        {
-            "rule": "adsrvr\\.org\\/track\\/evnt\\/",
-            "cookies": 0.0124,
-            "fingerprinting": 0,
-            "subdomains": [
-                "insight"
-            ],
-            "apis": {},
-            "sites": 659,
-            "prevalence": 0.0134
-        },
-        {
-            "rule": "adsrvr\\.org\\/track\\/upb\\/",
-            "cookies": 0.00887,
-            "fingerprinting": 0,
-            "subdomains": [
-                "match"
-            ],
-            "apis": {},
-            "sites": 436,
-            "prevalence": 0.00887
-        },
-        {
-            "rule": "adsrvr\\.org\\/track\\/cmf\\/rightmedia",
-            "cookies": 0.00785,
-            "fingerprinting": 0,
-            "subdomains": [
-                "match"
-            ],
-            "apis": {},
-            "sites": 386,
-            "prevalence": 0.00785
-        },
-        {
-            "rule": "adsrvr\\.org\\/bid\\/feedback\\/rubicon",
-            "cookies": 0.000468,
-            "fingerprinting": 0,
-            "subdomains": [
-                "use-tor"
-            ],
-            "apis": {},
-            "sites": 23,
-            "prevalence": 0.000468
-        },
-        {
-            "rule": "adsrvr\\.org\\/track\\/cmf\\/generic",
-            "cookies": 0.00913,
-            "fingerprinting": 0,
-            "subdomains": [
-                "match"
-            ],
-            "apis": {},
-            "sites": 548,
-            "prevalence": 0.0111
-        },
-        {
-            "rule": "adsrvr\\.org\\/track\\/cmf\\/appnexus",
-            "cookies": 0.00828,
-            "fingerprinting": 0,
-            "subdomains": [
-                "match"
-            ],
-            "apis": {},
-            "sites": 407,
-            "prevalence": 0.00828
-        },
-        {
-            "rule": "adsrvr\\.org\\/track\\/pxl\\/",
-            "cookies": 0.00313,
-            "fingerprinting": 0,
-            "subdomains": [
-                "insight"
-            ],
-            "apis": {},
-            "sites": 163,
-            "prevalence": 0.00332
-        },
-        {
-            "rule": "adsrvr\\.org\\/bid\\/feedback\\/casale",
-            "cookies": 0.000753,
-            "fingerprinting": 0,
-            "subdomains": [
-                "use-va1"
-            ],
-            "apis": {},
-            "sites": 40,
-            "prevalence": 0.000814
+            "sites": 4538,
+            "prevalence": 0.0621,
+            "cnames": []
         },
         {
             "rule": "adsrvr\\.org\\/track\\/cmf\\/casale",
-            "cookies": 0.00706,
+            "cookies": 0.0455,
             "fingerprinting": 0,
             "subdomains": [
                 "match"
             ],
             "apis": {},
-            "sites": 355,
-            "prevalence": 0.00722
+            "sites": 3461,
+            "prevalence": 0.0474,
+            "cnames": []
         },
         {
-            "rule": "adsrvr\\.org\\/bid\\/feedback\\/appnexus",
-            "cookies": 0.000163,
+            "rule": "adsrvr\\.org\\/track\\/cmb\\/openx",
+            "cookies": 0.012,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 884,
+            "prevalence": 0.0121,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/track\\/rid",
+            "cookies": 0.0327,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 2873,
+            "prevalence": 0.0393,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/track\\/rid",
+            "cookies": 0.00248,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 295,
+            "prevalence": 0.00404,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/track\\/conv\\/",
+            "cookies": 0.00614,
+            "fingerprinting": 0,
+            "subdomains": [
+                "insight"
+            ],
+            "apis": {},
+            "sites": 485,
+            "prevalence": 0.00664,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/track\\/cmf\\/appnexus",
+            "cookies": 0.0134,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 982,
+            "prevalence": 0.0134,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/track\\/cmf\\/google",
+            "cookies": 0.0238,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 1857,
+            "prevalence": 0.0254,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/track\\/cmf\\/rightmedia",
+            "cookies": 0.00802,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 593,
+            "prevalence": 0.00811,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/track\\/cmf\\/generic",
+            "cookies": 0.0456,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 3337,
+            "prevalence": 0.0457,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/track\\/evnt\\/",
+            "cookies": 0.0122,
+            "fingerprinting": 0,
+            "subdomains": [
+                "insight"
+            ],
+            "apis": {},
+            "sites": 950,
+            "prevalence": 0.013,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/track\\/up",
+            "cookies": 0.0145,
+            "fingerprinting": 0,
+            "subdomains": [
+                "insight"
+            ],
+            "apis": {},
+            "sites": 1105,
+            "prevalence": 0.0151,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/track\\/cmf\\/rubicon",
+            "cookies": 0.00779,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 569,
+            "prevalence": 0.00779,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/track\\/cmf\\/google",
+            "cookies": 0.00788,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 576,
+            "prevalence": 0.00788,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/track\\/upb\\/",
+            "cookies": 0.00906,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 663,
+            "prevalence": 0.00907,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/track\\/pxl\\/",
+            "cookies": 0.00408,
+            "fingerprinting": 0,
+            "subdomains": [
+                "insight"
+            ],
+            "apis": {},
+            "sites": 307,
+            "prevalence": 0.0042,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/track\\/cmf\\/rightmedia",
+            "cookies": 0.00783,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 572,
+            "prevalence": 0.00783,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/track\\/cmf\\/appnexus",
+            "cookies": 0.0077,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 563,
+            "prevalence": 0.0077,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/track\\/cmb\\/generic",
+            "cookies": 0.00714,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 523,
+            "prevalence": 0.00716,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/track\\/cmb\\/rubicon",
+            "cookies": 0.00601,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 441,
+            "prevalence": 0.00603,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/track\\/cmb\\/casale",
+            "cookies": 0.00293,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 215,
+            "prevalence": 0.00294,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/track\\/cmf\\/generic",
+            "cookies": 0.00631,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 738,
+            "prevalence": 0.0101,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/track\\/cmb\\/google",
+            "cookies": 0.00334,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 244,
+            "prevalence": 0.00334,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/bid\\/feedback\\/google",
+            "cookies": 0.000903,
             "fingerprinting": 0,
             "subdomains": [
                 "use-tor"
             ],
             "apis": {},
-            "sites": 9,
-            "prevalence": 0.000183
+            "sites": 66,
+            "prevalence": 0.000903,
+            "cnames": []
         },
         {
             "rule": "adsrvr\\.org\\/track\\/cmb\\/generic",
-            "cookies": 0.00171,
+            "cookies": 0.00149,
             "fingerprinting": 0,
             "subdomains": [
                 "match"
             ],
             "apis": {},
-            "sites": 85,
-            "prevalence": 0.00173
+            "sites": 110,
+            "prevalence": 0.00151,
+            "cnames": []
         },
         {
-            "rule": "adsrvr\\.org\\/track\\/cmb\\/casale",
-            "cookies": 0.00193,
+            "rule": "adsrvr\\.org\\/track\\/cmb\\/generic",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "match"
             ],
             "apis": {},
-            "sites": 95,
-            "prevalence": 0.00193
-        },
-        {
-            "rule": "adsrvr\\.org\\/bid\\/feedback\\/federatedmedia",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "usw-ca2"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "adsrvr\\.org\\/2\\/357427\\/analytics\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "s.update"
-            ],
-            "apis": {
-                "window.name": 8,
-                "Date.prototype.getTime": 8
-            },
-            "sites": 9,
-            "prevalence": 0.000183
-        },
-        {
-            "rule": "adsrvr\\.org\\/2\\/4\\.59\\.0\\/main\\.js",
-            "cookies": 0,
-            "fingerprinting": 3,
-            "subdomains": [
-                "s.update"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 6,
-                "Navigator.prototype.permissions": 5,
-                "Screen.prototype.availHeight": 5,
-                "Screen.prototype.availWidth": 5,
-                "Screen.prototype.colorDepth": 5,
-                "Screen.prototype.pixelDepth": 5,
-                "Screen.prototype.height": 5,
-                "Screen.prototype.width": 5,
-                "Navigator.prototype.onLine": 5,
-                "PerformanceTiming.prototype.navigationStart": 5,
-                "Performance.prototype.memory": 5,
-                "window.devicePixelRatio": 5,
-                "window.name": 5,
-                "console.memory": 5,
-                "window.localStorage": 5,
-                "Navigator.prototype.connection": 5,
-                "Navigator.prototype.vendor": 5,
-                "Navigator.prototype.appCodeName": 5,
-                "Navigator.prototype.languages": 5,
-                "Navigator.prototype.mediaDevices": 5,
-                "Navigator.prototype.hardwareConcurrency": 5,
-                "Navigator.prototype.deviceMemory": 5,
-                "Navigator.prototype.plugins": 5,
-                "Screen.prototype.availLeft": 5,
-                "Screen.prototype.availTop": 5,
-                "Screen.prototype.orientation": 5,
-                "Navigator.prototype.platform": 5,
-                "Navigator.prototype.maxTouchPoints": 5,
-                "Date.prototype.getTime": 5,
-                "Date.prototype.getTimezoneOffset": 5,
-                "speechSynthesis.__proto__.getVoices": 5,
-                "Navigator.prototype.getBattery": 5,
-                "URL.createObjectURL": 5,
-                "Navigator.prototype.appVersion": 5
-            },
             "sites": 8,
-            "prevalence": 0.000163
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
-            "rule": "adsrvr\\.org\\/bid\\/feedback\\/gumgum",
-            "cookies": 0.000061,
+            "rule": "adsrvr\\.org\\/track\\/pxl\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "insight"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/bid\\/feedback\\/casale",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "use-va1"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adsrvr\\.org\\/track\\/evnt\\/",
-            "cookies": 0.000102,
+            "rule": "adsrvr\\.org\\/ba9b94jj\\/anz53wn\\/5meu3ula\\/gwd_webcomponents_min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "html5"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/ba9b94jj\\/anz53wn\\/5meu3ula\\/gwdgooglead_min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "html5"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adsrvr\\.org\\/track\\/imp\\/",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "insight"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "adsrvr\\.org\\/bid\\/feedback\\/yieldlab",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "de1-bid"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "adsrvr\\.org\\/track\\/up\\/",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "insight"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adsrvr\\.org\\/track\\/cmf\\/generic",
-            "cookies": 0.0000407,
+            "rule": "adsrvr\\.org\\/track\\/cmf\\/generic\\/",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "match"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "adsrvr\\.org\\/bid\\/feedback\\/sonobi",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "use-tor"
-            ],
-            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -501,5 +471,12 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.208
+    "cookies": 0.183,
+    "types": {
+        "Image": 38254,
+        "XHR": 2873,
+        "Script": 1147,
+        "Document": 7912,
+        "Fetch": 8
+    }
 }

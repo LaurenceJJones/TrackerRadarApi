@@ -2,8 +2,14 @@
     "name": "Avis Budget Group",
     "displayName": "Avis Budget Group",
     "properties": [
+        "abgemea.com",
         "avis.com",
         "budget.com",
         "budgettruck.com"
-    ]
+    ],
+    "prevalence": {
+        "tracking": 0.0000274,
+        "nonTracking": 0,
+        "total": 0.0000274
+    }
 }

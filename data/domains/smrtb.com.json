@@ -9,52 +9,44 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00502,
-    "sites": 247,
+    "prevalence": 0.00159,
+    "sites": 116,
     "subdomains": [
         "ssl-market-east",
-        "ssl-market-east-5",
         "ssl-market-east-4",
+        "ssl-market-east-5",
         "ssl-market-east-3",
         "market-global"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "smrtb\\.com\\/sync\\/all",
-            "cookies": 0.0048,
+            "cookies": 0.00155,
             "fingerprinting": 0,
             "subdomains": [
                 "ssl-market-east",
-                "ssl-market-east-5",
                 "ssl-market-east-4",
+                "ssl-market-east-5",
                 "ssl-market-east-3"
             ],
             "apis": {},
-            "sites": 238,
-            "prevalence": 0.00484
-        },
-        {
-            "rule": "smrtb\\.com\\/sync\\/all",
-            "cookies": 0.000244,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ssl-market-east"
-            ],
-            "apis": {},
-            "sites": 12,
-            "prevalence": 0.000244
+            "sites": 115,
+            "prevalence": 0.00157,
+            "cnames": []
         },
         {
             "rule": "smrtb\\.com\\/json\\/publisher\\/prebid",
-            "cookies": 0.0000814,
+            "cookies": 0.000109,
             "fingerprinting": 0,
             "subdomains": [
                 "market-global"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         }
     ],
     "categories": [
@@ -69,5 +61,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00496
+    "cookies": 0.00156,
+    "types": {
+        "Image": 115,
+        "XHR": 8
+    }
 }

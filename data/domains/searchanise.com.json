@@ -7,50 +7,57 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000895,
-    "sites": 44,
+    "prevalence": 0.00189,
+    "sites": 138,
     "subdomains": [
         "www"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "searchanise\\.com\\/lib\\/js\\/xdc\\/xdc\\.min\\.js",
-            "cookies": 0.000448,
+            "cookies": 0.00122,
             "fingerprinting": 1,
             "subdomains": [
                 "www"
             ],
             "apis": {
-                "Date.prototype.getTime": 22,
-                "Document.cookie getter": 22,
-                "Document.cookie setter": 22
+                "Date.prototype.getTime": 89,
+                "Document.cookie getter": 86,
+                "Document.cookie setter": 89
             },
-            "sites": 35,
-            "prevalence": 0.000712
+            "sites": 112,
+            "prevalence": 0.00153,
+            "cnames": []
         },
         {
             "rule": "searchanise\\.com\\/lib\\/js\\/xdc\\/xdc\\.html",
-            "cookies": 0.000285,
+            "cookies": 0.000575,
             "fingerprinting": 1,
             "subdomains": [
                 "www"
             ],
             "apis": {
-                "Date.prototype.getTime": 21,
-                "Document.cookie setter": 14,
-                "Document.cookie getter": 14
+                "Date.prototype.getTime": 83,
+                "Document.cookie setter": 42,
+                "Document.cookie getter": 42
             },
-            "sites": 22,
-            "prevalence": 0.000448
+            "sites": 89,
+            "prevalence": 0.00122,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.000448
+    "cookies": 0.00122,
+    "types": {
+        "Script": 112,
+        "Document": 89
+    }
 }

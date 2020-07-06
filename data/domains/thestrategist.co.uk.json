@@ -4,16 +4,17 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
+    "prevalence": 0.0000547,
     "sites": 4,
     "subdomains": [
         "client"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "thestrategist\\.co\\.uk\\/_nymcid",
-            "cookies": 0.0000814,
+            "cookies": 0.0000547,
             "fingerprinting": 1,
             "subdomains": [
                 "client"
@@ -23,7 +24,8 @@
                 "Document.cookie setter": 4
             },
             "sites": 4,
-            "prevalence": 0.0000814
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -33,5 +35,8 @@
         "cpu": 0,
         "cache": 0
     },
-    "cookies": 0.0000814
+    "cookies": 0.0000547,
+    "types": {
+        "Document": 4
+    }
 }

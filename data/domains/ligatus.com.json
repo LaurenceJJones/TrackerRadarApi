@@ -9,12 +9,10 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000224,
-    "sites": 11,
+    "prevalence": 0.000143,
+    "sites": 10,
     "subdomains": [
-        "ssl",
-        "i-ssl",
-        "i-l"
+        "ssl"
     ],
     "fingerprinting": 1,
     "resources": [
@@ -26,37 +24,21 @@
                 "ssl"
             ],
             "apis": {
-                "Navigator.prototype.cookieEnabled": 6,
-                "Navigator.prototype.language": 6,
-                "Navigator.prototype.userAgent": 6
+                "Navigator.prototype.cookieEnabled": 4,
+                "Navigator.prototype.language": 4,
+                "Navigator.prototype.userAgent": 4
             },
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "ligatus\\.com\\/script\\/slide\\/slide\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "i-ssl",
-                "i-l"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 4,
+            "prevalence": 0.000057
         }
     ],
     "categories": [
         "Ad Motivated Tracking",
         "Advertising"
     ],
-    "performance": {
-        "time": 1,
-        "size": 1,
-        "cpu": 0,
-        "cache": 1
-    },
-    "cookies": 0
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Script": 4
+    }
 }

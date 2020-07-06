@@ -4,31 +4,31 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
-    "sites": 2,
+    "prevalence": 0.000041,
+    "sites": 3,
     "subdomains": [
         "live"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "realtimewebstats\\.net\\/in\\.php",
-            "cookies": 0.0000407,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "live"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 0
-    },
-    "cookies": 0.0000407
+    "performance": {},
+    "cookies": 0.000041,
+    "types": {
+        "Script": 3
+    }
 }

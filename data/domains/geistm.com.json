@@ -4,23 +4,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00624,
-    "sites": 307,
+    "prevalence": 0.00494,
+    "sites": 361,
     "subdomains": [
         "i"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "geistm\\.com\\/x\\/Vivint",
-            "cookies": 0.0000203,
+            "rule": "geistm\\.com\\/x\\/FanduelTVG",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "i"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -30,5 +32,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00624
+    "cookies": 0.0049,
+    "types": {
+        "Image": 2
+    }
 }

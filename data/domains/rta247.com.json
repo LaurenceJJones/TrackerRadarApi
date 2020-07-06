@@ -4,36 +4,38 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000122,
-    "sites": 6,
+    "prevalence": 0.000137,
+    "sites": 10,
     "subdomains": [
         "cdn",
-        "pix",
-        "ipv4"
+        "pix"
     ],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 2,
     "resources": [
         {
-            "rule": "rta247\\.com\\/s\\/aa\\/aa\\.js",
-            "cookies": 0.000122,
+            "rule": "rta247\\.com\\/s\\/brc\\/aa\\.js",
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         },
         {
             "rule": "rta247\\.com\\/r\\.js",
-            "cookies": 0.000102,
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
             "rule": "rta247\\.com\\/cdnf\\.js",
@@ -43,33 +45,36 @@
                 "pix"
             ],
             "apis": {
-                "Date.prototype.getTimezoneOffset": 5,
-                "Navigator.prototype.userAgent": 5,
-                "Date.prototype.getTime": 5,
-                "Screen.prototype.width": 5,
-                "Screen.prototype.height": 5
+                "Date.prototype.getTimezoneOffset": 10,
+                "Navigator.prototype.userAgent": 10,
+                "Date.prototype.getTime": 10,
+                "Screen.prototype.width": 10,
+                "Screen.prototype.height": 10
             },
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
             "rule": "rta247\\.com\\/i",
-            "cookies": 0.000102,
+            "cookies": 0.000137,
             "fingerprinting": 0,
-            "subdomains": [
-                "ipv4"
-            ],
+            "subdomains": [],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 1
+        "cache": 3
     },
-    "cookies": 0.000122
+    "cookies": 0.000137,
+    "types": {
+        "Script": 40
+    }
 }

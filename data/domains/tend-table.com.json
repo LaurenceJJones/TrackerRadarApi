@@ -4,31 +4,31 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000462,
-    "sites": 2,
+    "prevalence": 0.0000547,
+    "sites": 4,
     "subdomains": [
         "engine"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "tend-table\\.com\\/cgi-bin\\/WebLog\\.dll",
-            "cookies": 0.0000462,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "engine"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000462
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 0
-    },
-    "cookies": 0.0000462
+    "performance": {},
+    "cookies": 0.0000547,
+    "types": {
+        "Script": 4
+    }
 }

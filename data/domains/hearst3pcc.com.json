@@ -4,23 +4,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000325,
-    "sites": 16,
+    "prevalence": 0.000233,
+    "sites": 17,
     "subdomains": [
         "realm"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "hearst3pcc\\.com\\/utility\\/C3P0_RealmCookie",
-            "cookies": 0.000346,
+            "cookies": 0.000233,
             "fingerprinting": 0,
             "subdomains": [
                 "realm"
             ],
             "apis": {},
-            "sites": 17,
-            "prevalence": 0.000346
+            "sites": 18,
+            "prevalence": 0.000246,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -28,7 +30,10 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000325
+    "cookies": 0.000233,
+    "types": {
+        "Script": 18
+    }
 }

@@ -4,38 +4,44 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000468,
-    "sites": 23,
+    "prevalence": 0.00026,
+    "sites": 19,
     "subdomains": [],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "edigitalsurvey\\.com\\/l\\.php",
-            "cookies": 0.000448,
+            "cookies": 0.000246,
             "fingerprinting": 1,
             "subdomains": [],
             "apis": {
-                "Date.prototype.getTime": 2
+                "Date.prototype.getTime": 3
             },
-            "sites": 23,
-            "prevalence": 0.000468
+            "sites": 19,
+            "prevalence": 0.00026,
+            "cnames": []
         },
         {
             "rule": "edigitalsurvey\\.com\\/log\\.php",
-            "cookies": 0.0000407,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000468
+    "cookies": 0.00026,
+    "types": {
+        "Document": 22
+    }
 }

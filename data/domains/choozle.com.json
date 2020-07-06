@@ -7,53 +7,72 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000651,
-    "sites": 32,
+    "prevalence": 0.000698,
+    "sites": 51,
     "subdomains": [
         "cs"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "choozle\\.com\\/sync",
-            "cookies": 0.000651,
+            "cookies": 0.000698,
             "fingerprinting": 0,
             "subdomains": [
                 "cs"
             ],
             "apis": {},
-            "sites": 32,
-            "prevalence": 0.000651
+            "sites": 51,
+            "prevalence": 0.000698,
+            "cnames": []
+        },
+        {
+            "rule": "choozle\\.com\\/dp\\/chz\\/16407",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "choozle\\.com\\/dp\\/chz\\/5450",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "cs"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "choozle\\.com\\/dp\\/chz\\/15083",
-            "cookies": 0.0000203,
+            "rule": "choozle\\.com\\/dp\\/chz\\/7064",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "cs"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000651
+    "cookies": 0.000698,
+    "types": {
+        "Image": 57
+    }
 }

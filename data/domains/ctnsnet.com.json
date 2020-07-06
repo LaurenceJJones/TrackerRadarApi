@@ -9,66 +9,72 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00248,
-    "sites": 122,
+    "prevalence": 0.0022,
+    "sites": 161,
     "subdomains": [
-        "ipac",
         "gcm",
         "cm",
-        "i"
+        "i",
+        "ipac"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "ctnsnet\\.com\\/int\\/cm",
-            "cookies": 0.000793,
+            "cookies": 0.000479,
             "fingerprinting": 0,
             "subdomains": [
-                "ipac",
-                "gcm"
+                "gcm",
+                "cm",
+                "i"
             ],
             "apis": {},
-            "sites": 39,
-            "prevalence": 0.000793
+            "sites": 37,
+            "prevalence": 0.000506,
+            "cnames": []
         },
         {
             "rule": "ctnsnet\\.com\\/int\\/cm",
-            "cookies": 0.00116,
+            "cookies": 0.00129,
             "fingerprinting": 0,
             "subdomains": [
                 "cm"
             ],
             "apis": {},
-            "sites": 57,
-            "prevalence": 0.00116
+            "sites": 94,
+            "prevalence": 0.00129,
+            "cnames": []
         },
         {
             "rule": "ctnsnet\\.com\\/int\\/integration",
-            "cookies": 0.000285,
+            "cookies": 0.000315,
             "fingerprinting": 1,
             "subdomains": [
                 "ipac",
                 "i"
             ],
             "apis": {
-                "Date.prototype.getTime": 12,
-                "Screen.prototype.width": 9,
-                "Screen.prototype.height": 9
+                "Screen.prototype.width": 19,
+                "Screen.prototype.height": 19,
+                "Date.prototype.getTime": 19
             },
-            "sites": 14,
-            "prevalence": 0.000285
+            "sites": 23,
+            "prevalence": 0.000315,
+            "cnames": []
         },
         {
             "rule": "ctnsnet\\.com\\/int\\/integration",
-            "cookies": 0.000264,
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [
-                "ipac",
-                "i"
+                "i",
+                "ipac"
             ],
             "apis": {},
-            "sites": 13,
-            "prevalence": 0.000264
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         }
     ],
     "categories": [
@@ -81,5 +87,10 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00248
+    "cookies": 0.00218,
+    "types": {
+        "Image": 46,
+        "Document": 94,
+        "Script": 23
+    }
 }

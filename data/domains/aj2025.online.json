@@ -4,10 +4,11 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
-    "sites": 2,
+    "prevalence": 0.000041,
+    "sites": 3,
     "subdomains": [],
-    "fingerprinting": 2,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "aj2025\\.online\\/262fa9da\\.js",
@@ -22,10 +23,19 @@
                 "Screen.prototype.height": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {},
-    "cookies": 0.0000407
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0.000041,
+    "types": {
+        "Script": 3
+    }
 }

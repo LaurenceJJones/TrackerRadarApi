@@ -7,86 +7,93 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000346,
-    "sites": 17,
+    "prevalence": 0.000246,
+    "sites": 18,
     "subdomains": [
         "www"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "booking\\.com\\/flexiproduct\\.html",
-            "cookies": 0.000142,
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
             "rule": "booking\\.com\\/affiliate\\/fp_view",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "booking\\.com\\/affiliatewidget\\.html",
-            "cookies": 0.0000814,
+            "cookies": 0.000109,
             "fingerprinting": 1,
             "subdomains": [
                 "www"
             ],
             "apis": {
                 "Date.prototype.getTime": 3,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3
             },
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "booking\\.com\\/_6e3fa1bbd409db2",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         },
         {
             "rule": "booking\\.com\\/load_times",
-            "cookies": 0.0000814,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "booking\\.com\\/_6e3fa1bbd409db2",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "booking\\.com\\/general\\.html",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "booking\\.com\\/searchbox\\.html",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "www"
@@ -97,26 +104,32 @@
                 "Navigator.prototype.appVersion": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "booking\\.com\\/_b309f3bc8e58d46c7",
-            "cookies": 0.0000203,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000346
+    "cookies": 0.000246,
+    "types": {
+        "Document": 26,
+        "XHR": 7
+    }
 }

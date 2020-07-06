@@ -4,31 +4,36 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000488,
-    "sites": 24,
+    "prevalence": 0.000301,
+    "sites": 22,
     "subdomains": [
         "www"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "thisav\\.com\\/error404",
-            "cookies": 0.000061,
+            "rule": "thisav\\.com\\/favicon\\.ico",
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 3,
-        "size": 2,
+        "time": 1,
+        "size": 1,
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.000061
+    "cookies": 0.000109,
+    "types": {
+        "Image": 10
+    }
 }

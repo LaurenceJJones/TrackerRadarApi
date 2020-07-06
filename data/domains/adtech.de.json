@@ -9,12 +9,13 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00348,
-    "sites": 171,
+    "prevalence": 0.000807,
+    "sites": 59,
     "subdomains": [
         "aka-cdn",
         "aka-cdn-ns"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -26,14 +27,29 @@
                 "aka-cdn-ns"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 8,
-                "Screen.prototype.width": 5,
-                "Screen.prototype.height": 5,
-                "window.devicePixelRatio": 5,
-                "Date.prototype.getTime": 4
+                "Navigator.prototype.userAgent": 9,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "window.devicePixelRatio": 3,
+                "Date.prototype.getTime": 3
             },
-            "sites": 16,
-            "prevalence": 0.000325
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
+        },
+        {
+            "rule": "adtech\\.de\\/dt\\/common\\/DACLoader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "aka-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -43,8 +59,11 @@
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 13
+    }
 }

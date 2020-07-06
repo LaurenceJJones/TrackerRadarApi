@@ -4,14 +4,15 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00287,
-    "sites": 141,
+    "prevalence": 0.00227,
+    "sites": 166,
     "subdomains": [
         "i",
         "cdn",
         "sync-eu",
         "e"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -22,137 +23,113 @@
                 "i"
             ],
             "apis": {},
-            "sites": 104,
-            "prevalence": 0.00212
+            "sites": 155,
+            "prevalence": 0.00212,
+            "cnames": []
         },
         {
             "rule": "connectad\\.io\\/connectmyusers\\.php",
-            "cookies": 0.000346,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {},
-            "sites": 17,
-            "prevalence": 0.000346
-        },
-        {
-            "rule": "connectad\\.io\\/connectmyusers\\.php",
-            "cookies": 0.000407,
+            "cookies": 0.00134,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "Date.prototype.getTime": 19
+                "Date.prototype.getTime": 81
             },
-            "sites": 20,
-            "prevalence": 0.000407
+            "sites": 98,
+            "prevalence": 0.00134,
+            "cnames": []
         },
         {
             "rule": "connectad\\.io\\/syncer\\/1",
-            "cookies": 0.000509,
+            "cookies": 0.00126,
             "fingerprinting": 0,
             "subdomains": [
                 "sync-eu"
             ],
             "apis": {},
-            "sites": 25,
-            "prevalence": 0.000509
+            "sites": 92,
+            "prevalence": 0.00126,
+            "cnames": []
         },
         {
             "rule": "connectad\\.io\\/pixel\\/1",
-            "cookies": 0.0000203,
+            "cookies": 0.000999,
             "fingerprinting": 0,
             "subdomains": [
                 "sync-eu"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 73,
+            "prevalence": 0.000999,
+            "cnames": []
         },
         {
             "rule": "connectad\\.io\\/syncer\\/1",
-            "cookies": 0.0000407,
+            "cookies": 0.00078,
             "fingerprinting": 0,
             "subdomains": [
                 "sync-eu"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 59,
+            "prevalence": 0.000807,
+            "cnames": []
         },
         {
             "rule": "connectad\\.io\\/connectmyusers\\.js",
-            "cookies": 0.000285,
+            "cookies": 0.000287,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "Document.cookie getter": 5,
-                "Date.prototype.getTime": 5,
-                "Document.cookie setter": 5
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
             },
-            "sites": 14,
-            "prevalence": 0.000285
+            "sites": 21,
+            "prevalence": 0.000287,
+            "cnames": []
         },
         {
-            "rule": "connectad\\.io\\/js\\/diss1\\.js",
-            "cookies": 0.000061,
+            "rule": "connectad\\.io\\/pixel\\/1",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-eu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "connectad\\.io\\/sync",
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "e"
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "connectad\\.io\\/server",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "e"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "connectad\\.io\\/connectmyuserse\\.php",
-            "cookies": 0.000224,
+            "cookies": 0.000041,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "Date.prototype.getTime": 5
+                "Date.prototype.getTime": 4
             },
-            "sites": 12,
-            "prevalence": 0.000244
-        },
-        {
-            "rule": "connectad\\.io\\/sync",
-            "cookies": 0.000285,
-            "fingerprinting": 0,
-            "subdomains": [
-                "e"
-            ],
-            "apis": {},
-            "sites": 15,
-            "prevalence": 0.000305
-        },
-        {
-            "rule": "connectad\\.io\\/pixel\\/1",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync-eu"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -162,5 +139,11 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00285
+    "cookies": 0.00226,
+    "types": {
+        "XHR": 155,
+        "Document": 267,
+        "Image": 62,
+        "Script": 25
+    }
 }

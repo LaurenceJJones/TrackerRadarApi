@@ -4,23 +4,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
-    "sites": 2,
+    "prevalence": 0.0000547,
+    "sites": 4,
     "subdomains": [
         "ip"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "lovely-app\\.com\\/",
-            "cookies": 0.0000407,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "ip"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -30,5 +32,8 @@
         "cpu": 0,
         "cache": 0
     },
-    "cookies": 0.0000407
+    "cookies": 0.0000547,
+    "types": {
+        "XHR": 4
+    }
 }

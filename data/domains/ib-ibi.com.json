@@ -9,56 +9,61 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0156,
-    "sites": 766,
+    "prevalence": 0.0115,
+    "sites": 839,
     "subdomains": [
         "global"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "ib-ibi\\.com\\/image\\.sbxx",
-            "cookies": 0.00824,
+            "cookies": 0.00679,
             "fingerprinting": 0,
             "subdomains": [
                 "global"
             ],
             "apis": {},
-            "sites": 486,
-            "prevalence": 0.00989
+            "sites": 559,
+            "prevalence": 0.00765,
+            "cnames": []
         },
         {
             "rule": "ib-ibi\\.com\\/image\\.sbmx",
-            "cookies": 0.00214,
+            "cookies": 0.00167,
             "fingerprinting": 0,
             "subdomains": [
                 "global"
             ],
             "apis": {},
-            "sites": 129,
-            "prevalence": 0.00262
+            "sites": 155,
+            "prevalence": 0.00212,
+            "cnames": []
         },
         {
             "rule": "ib-ibi\\.com\\/image\\.sbix",
-            "cookies": 0.00549,
+            "cookies": 0.00293,
             "fingerprinting": 0,
             "subdomains": [
                 "global"
             ],
             "apis": {},
-            "sites": 271,
-            "prevalence": 0.00551
+            "sites": 215,
+            "prevalence": 0.00294,
+            "cnames": []
         },
         {
             "rule": "ib-ibi\\.com\\/image\\.sbix",
-            "cookies": 0.000305,
+            "cookies": 0.000151,
             "fingerprinting": 0,
             "subdomains": [
                 "global"
             ],
             "apis": {},
-            "sites": 19,
-            "prevalence": 0.000386
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
         }
     ],
     "categories": [
@@ -72,5 +77,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0155
+    "cookies": 0.0114,
+    "types": {
+        "Image": 929,
+        "Script": 11
+    }
 }

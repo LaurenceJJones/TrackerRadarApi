@@ -7,23 +7,27 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000462,
-    "sites": 2,
+    "prevalence": 0.0000547,
+    "sites": 4,
     "subdomains": [
         "www"
     ],
-    "fingerprinting": 0,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "navistechnologies\\.info\\/JavascriptPhoneNumber\\/js\\.aspx",
-            "cookies": 0.0000462,
-            "fingerprinting": 0,
+            "cookies": 0.0000547,
+            "fingerprinting": 1,
             "subdomains": [
                 "www"
             ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000462
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -33,5 +37,8 @@
         "cpu": 0,
         "cache": 0
     },
-    "cookies": 0.0000462
+    "cookies": 0.0000547,
+    "types": {
+        "Script": 4
+    }
 }

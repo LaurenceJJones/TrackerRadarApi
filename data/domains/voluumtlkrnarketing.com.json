@@ -4,12 +4,13 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000061,
+    "prevalence": 0.000041,
     "sites": 3,
     "subdomains": [
         "engine"
     ],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "voluumtlkrnarketing\\.com\\/",
@@ -19,14 +20,16 @@
                 "engine"
             ],
             "apis": {
-                "Date.prototype.getTime": 2,
-                "window.devicePixelRatio": 2,
-                "Screen.prototype.width": 1,
-                "Screen.prototype.height": 1,
-                "window.localStorage": 2
+                "window.devicePixelRatio": 3,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "voluumtlkrnarketing\\.com\\/",
@@ -36,13 +39,11 @@
                 "engine"
             ],
             "apis": {
-                "Element.prototype.getClientRects": 2,
-                "Date.prototype.getTime": 1,
-                "window.localStorage": 1,
-                "window.devicePixelRatio": 1
+                "Element.prototype.getClientRects": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -50,7 +51,11 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 1
+        "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Document": 3,
+        "Script": 3
+    }
 }

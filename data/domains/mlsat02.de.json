@@ -7,42 +7,54 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
-    "sites": 4,
+    "prevalence": 0.000114,
+    "sites": 8,
     "subdomains": [
+        "tracking",
         "creative"
     ],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "mlsat02\\.de\\/telekom\\/aff\\/ads_media\\.php",
-            "cookies": 0.0000814,
+            "rule": "mlsat02\\.de\\/telekom\\/aff\\/ads\\.php",
+            "cookies": 0.0000856,
             "fingerprinting": 0,
             "subdomains": [
-                "creative"
+                "tracking"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 7,
+            "prevalence": 0.0000998
         },
         {
             "rule": "mlsat02\\.de\\/telekom\\/aff\\/ads_media\\.php",
-            "cookies": 0.000061,
+            "cookies": 0.0000143,
             "fingerprinting": 0,
             "subdomains": [
                 "creative"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000285
+        },
+        {
+            "rule": "mlsat02\\.de\\/telekom\\/aff\\/ads_media\\.php",
+            "cookies": 0.0000856,
+            "fingerprinting": 0,
+            "subdomains": [
+                "creative"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000856
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 1,
-        "size": 1,
-        "cpu": 0,
-        "cache": 3
-    },
-    "cookies": 0.0000814
+    "performance": {},
+    "cookies": 0.0000998,
+    "types": {
+        "Script": 7,
+        "Image": 2,
+        "Document": 6
+    }
 }

@@ -9,31 +9,33 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00653,
-    "sites": 321,
+    "prevalence": 0.00478,
+    "sites": 349,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
-            "rule": "emetriq\\.de\\/adp\\/profiling\\/0\\.2\\.25\\/p\\.min\\.js",
+            "rule": "emetriq\\.de\\/adp\\/profiling\\/0\\.2\\.29\\/p\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.appVersion": 293,
-                "Navigator.prototype.language": 293,
-                "Screen.prototype.colorDepth": 286,
-                "Navigator.prototype.platform": 293,
-                "Date.prototype.getTimezoneOffset": 318,
-                "Screen.prototype.availHeight": 286,
-                "Screen.prototype.availWidth": 286
+                "Navigator.prototype.appVersion": 324,
+                "Navigator.prototype.language": 324,
+                "Screen.prototype.colorDepth": 324,
+                "Navigator.prototype.platform": 324,
+                "Date.prototype.getTimezoneOffset": 324,
+                "Screen.prototype.availHeight": 324,
+                "Screen.prototype.availWidth": 324
             },
-            "sites": 319,
-            "prevalence": 0.00649
+            "sites": 347,
+            "prevalence": 0.00475,
+            "cnames": []
         }
     ],
     "categories": [
@@ -45,8 +47,11 @@
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 0,
         "cache": 1
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 347
+    }
 }

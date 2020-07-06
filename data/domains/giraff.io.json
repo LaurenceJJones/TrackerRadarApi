@@ -4,49 +4,25 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000346,
-    "sites": 17,
+    "prevalence": 0.000178,
+    "sites": 13,
     "subdomains": [
-        "www",
-        "code"
+        "a"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "giraff\\.io\\/data\\/widget-finamru\\.js",
-            "cookies": 0.0000203,
-            "fingerprinting": 1,
+            "rule": "giraff\\.io\\/winnotice\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
             "subdomains": [
-                "www",
-                "code"
+                "a"
             ],
-            "apis": {
-                "Document.cookie getter": 1,
-                "Document.cookie setter": 1,
-                "Date.prototype.getTime": 1,
-                "Navigator.prototype.userAgent": 1,
-                "Navigator.prototype.appVersion": 1
-            },
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "giraff\\.io\\/data\\/widget-vesti\\.js",
-            "cookies": 0.0000203,
-            "fingerprinting": 1,
-            "subdomains": [
-                "www",
-                "code"
-            ],
-            "apis": {
-                "Document.cookie getter": 1,
-                "Document.cookie setter": 1,
-                "Date.prototype.getTime": 1,
-                "Navigator.prototype.userAgent": 1,
-                "Navigator.prototype.appVersion": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -56,5 +32,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000346
+    "cookies": 0.000178,
+    "types": {
+        "Image": 2
+    }
 }

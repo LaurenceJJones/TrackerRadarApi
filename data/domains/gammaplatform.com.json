@@ -4,60 +4,29 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000244,
-    "sites": 12,
+    "prevalence": 0.000219,
+    "sites": 16,
     "subdomains": [
         "tag",
-        "cm-supply-web",
-        "hb",
         "stc",
-        "t"
+        "t",
+        "cm-supply-web",
+        "hb"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "gammaplatform\\.com\\/adx\\/request\\/",
-            "cookies": 0.000102,
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [
                 "tag"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "gammaplatform\\.com\\/adx\\/usersyncsupply",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cm-supply-web"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "gammaplatform\\.com\\/adx\\/request",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [
-                "hb"
-            ],
-            "apis": {},
             "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "gammaplatform\\.com\\/adx\\/usersync",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "hb"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "gammaplatform\\.com\\/tracker\\.js",
@@ -68,29 +37,73 @@
             ],
             "apis": {
                 "Document.cookie getter": 4,
-                "Navigator.prototype.userAgent": 4
+                "Navigator.prototype.userAgent": 5
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "gammaplatform\\.com\\/px",
-            "cookies": 0.0000814,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "t"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "gammaplatform\\.com\\/adx\\/usersyncsupply",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cm-supply-web"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "gammaplatform\\.com\\/adx\\/request",
+            "cookies": 0.0000958,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hb"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
+        },
+        {
+            "rule": "gammaplatform\\.com\\/adx\\/usersync",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hb"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 2,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000244
+    "cookies": 0.000219,
+    "types": {
+        "Script": 11,
+        "Image": 5,
+        "Document": 6,
+        "XHR": 8
+    }
 }

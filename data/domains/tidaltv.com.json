@@ -7,58 +7,63 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0182,
-    "sites": 893,
+    "prevalence": 0.0153,
+    "sites": 1119,
     "subdomains": [
         "sync",
         "set",
         "trk"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "tidaltv\\.com\\/genericusersync\\.ashx",
-            "cookies": 0.0175,
+            "rule": "tidaltv\\.com\\/GenericUserSync\\.ashx",
+            "cookies": 0.012,
             "fingerprinting": 0,
             "subdomains": [
                 "sync"
             ],
             "apis": {},
-            "sites": 879,
-            "prevalence": 0.0179
+            "sites": 882,
+            "prevalence": 0.0121,
+            "cnames": []
         },
         {
-            "rule": "tidaltv\\.com\\/GenericUserSync\\.ashx",
-            "cookies": 0.0146,
+            "rule": "tidaltv\\.com\\/genericusersync\\.ashx",
+            "cookies": 0.0148,
             "fingerprinting": 0,
             "subdomains": [
                 "sync"
             ],
             "apis": {},
-            "sites": 720,
-            "prevalence": 0.0146
+            "sites": 1107,
+            "prevalence": 0.0151,
+            "cnames": []
         },
         {
             "rule": "tidaltv\\.com\\/Pong\\.ashx",
-            "cookies": 0.000102,
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
                 "set"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
             "rule": "tidaltv\\.com\\/ILogger\\.aspx",
-            "cookies": 0.000142,
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
                 "trk"
             ],
             "apis": {},
             "sites": 7,
-            "prevalence": 0.000142
+            "prevalence": 0.0000958,
+            "cnames": []
         }
     ],
     "categories": [
@@ -71,5 +76,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.018
+    "cookies": 0.0152,
+    "types": {
+        "Image": 2006
+    }
 }

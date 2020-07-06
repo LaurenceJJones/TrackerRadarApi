@@ -9,13 +9,13 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.136,
-    "sites": 6666,
+    "prevalence": 0.116,
+    "sites": 8500,
     "subdomains": [
-        "sslwidget",
         "gum",
-        "cas",
+        "sslwidget",
         "widget",
+        "cas",
         "dis",
         "dynamic",
         "static",
@@ -23,167 +23,154 @@
         "dis.us",
         "b"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
+            "rule": "criteo\\.com\\/sync",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gum"
+            ],
+            "apis": {},
+            "sites": 769,
+            "prevalence": 0.0105,
+            "cnames": []
+        },
+        {
+            "rule": "criteo\\.com\\/sync",
+            "cookies": 0.00207,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gum"
+            ],
+            "apis": {},
+            "sites": 619,
+            "prevalence": 0.00847,
+            "cnames": []
+        },
+        {
             "rule": "criteo\\.com\\/event",
-            "cookies": 0.0248,
+            "cookies": 0.0241,
             "fingerprinting": 1,
             "subdomains": [
-                "sslwidget"
+                "sslwidget",
+                "widget"
             ],
             "apis": {
-                "Screen.prototype.width": 612,
-                "Screen.prototype.height": 612,
-                "Screen.prototype.colorDepth": 612,
-                "Document.cookie setter": 2,
-                "Document.cookie getter": 2
+                "Screen.prototype.width": 1052,
+                "Screen.prototype.height": 1052,
+                "Screen.prototype.colorDepth": 1052
             },
-            "sites": 1263,
-            "prevalence": 0.0257
-        },
-        {
-            "rule": "criteo\\.com\\/sync",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gum"
-            ],
-            "apis": {},
-            "sites": 676,
-            "prevalence": 0.0138
-        },
-        {
-            "rule": "criteo\\.com\\/sync",
-            "cookies": 0.00234,
-            "fingerprinting": 0,
-            "subdomains": [
-                "gum"
-            ],
-            "apis": {},
-            "sites": 339,
-            "prevalence": 0.0069
+            "sites": 1849,
+            "prevalence": 0.0253,
+            "cnames": []
         },
         {
             "rule": "criteo\\.com\\/delivery\\/ajs\\.php",
-            "cookies": 0.000936,
-            "fingerprinting": 1,
+            "cookies": 0.000643,
+            "fingerprinting": 0,
             "subdomains": [
                 "cas"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 1
-            },
-            "sites": 56,
-            "prevalence": 0.00114
+            "apis": {},
+            "sites": 52,
+            "prevalence": 0.000712,
+            "cnames": []
         },
         {
             "rule": "criteo\\.com\\/event",
-            "cookies": 0.000285,
+            "cookies": 0.00026,
             "fingerprinting": 0,
             "subdomains": [
                 "sslwidget",
                 "widget"
             ],
             "apis": {},
-            "sites": 17,
-            "prevalence": 0.000346
-        },
-        {
-            "rule": "criteo\\.com\\/dis\\/dis\\.aspx",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dis"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 23,
+            "prevalence": 0.000315,
+            "cnames": []
         },
         {
             "rule": "criteo\\.com\\/dis\\/usersync\\.aspx",
-            "cookies": 0.00327,
+            "cookies": 0.00209,
             "fingerprinting": 0,
             "subdomains": [
                 "dis"
             ],
             "apis": {},
-            "sites": 479,
-            "prevalence": 0.00974
+            "sites": 515,
+            "prevalence": 0.00705,
+            "cnames": []
         },
         {
             "rule": "criteo\\.com\\/js\\/ld\\/ld\\.js",
-            "cookies": 0.000102,
+            "cookies": 0.0000684,
             "fingerprinting": 1,
             "subdomains": [
                 "dynamic",
                 "static"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "window.localStorage": 5,
-                "Date.prototype.getTime": 5,
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6,
+                "Date.prototype.getTime": 6,
                 "Document.cookie setter": 5,
                 "Document.cookie getter": 5
             },
-            "sites": 27,
-            "prevalence": 0.000549
+            "sites": 28,
+            "prevalence": 0.000383,
+            "cnames": []
         },
         {
             "rule": "criteo\\.com\\/dis\\/dis\\.aspx",
-            "cookies": 0.0000203,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "widget.va.us",
                 "dis.us"
             ],
             "apis": {},
-            "sites": 15,
-            "prevalence": 0.000305
-        },
-        {
-            "rule": "criteo\\.com\\/beacon",
-            "cookies": 0.000142,
-            "fingerprinting": 0,
-            "subdomains": [
-                "b"
-            ],
-            "apis": {},
-            "sites": 13,
-            "prevalence": 0.000264
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
         },
         {
             "rule": "criteo\\.com\\/delivery\\/ajs\\.php",
-            "cookies": 0.000122,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "cas"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "criteo\\.com\\/sync",
-            "cookies": 0.0000407,
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "gum"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "criteo\\.com\\/delivery\\/0\\.1\\/napi\\.jsonp",
-            "cookies": 0.0000407,
+            "rule": "criteo\\.com\\/beacon",
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
-                "cas"
+                "b"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [
@@ -198,5 +185,12 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.0326
+    "cookies": 0.0296,
+    "types": {
+        "Script": 2698,
+        "Image": 1162,
+        "Document": 16,
+        "XHR": 3,
+        "Fetch": 2
+    }
 }

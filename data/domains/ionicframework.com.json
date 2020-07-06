@@ -7,34 +7,37 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00157,
-    "sites": 77,
+    "prevalence": 0.00179,
+    "sites": 131,
     "subdomains": [
         "code"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "ionicframework\\.com\\/ionicons\\/2\\.0\\.1\\/css\\/ionicons\\.min\\.css",
-            "cookies": 0.00132,
+            "cookies": 0.00125,
+            "fingerprinting": 0,
+            "subdomains": [
+                "code"
+            ],
+            "apis": {},
+            "sites": 109,
+            "prevalence": 0.00149,
+            "cnames": []
+        },
+        {
+            "rule": "ionicframework\\.com\\/ionicons\\/2\\.0\\.1\\/fonts\\/ionicons\\.ttf",
+            "cookies": 0.00101,
             "fingerprinting": 0,
             "subdomains": [
                 "code"
             ],
             "apis": {},
             "sites": 74,
-            "prevalence": 0.00151
-        },
-        {
-            "rule": "ionicframework\\.com\\/ionicons\\/2\\.0\\.1\\/fonts\\/ionicons\\.ttf",
-            "cookies": 0.000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "code"
-            ],
-            "apis": {},
-            "sites": 40,
-            "prevalence": 0.000814
+            "prevalence": 0.00101,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -44,5 +47,9 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.00146
+    "cookies": 0.00163,
+    "types": {
+        "Stylesheet": 109,
+        "Font": 74
+    }
 }

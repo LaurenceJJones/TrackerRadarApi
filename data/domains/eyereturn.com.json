@@ -9,91 +9,111 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0211,
-    "sites": 1036,
+    "prevalence": 0.0281,
+    "sites": 2056,
     "subdomains": [
         "cm",
         "o2",
         "p3"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "eyereturn\\.com\\/pubmatic",
-            "cookies": 0.019,
+            "cookies": 0.0184,
             "fingerprinting": 0,
             "subdomains": [
                 "cm"
             ],
             "apis": {},
-            "sites": 969,
-            "prevalence": 0.0197
+            "sites": 1455,
+            "prevalence": 0.0199,
+            "cnames": []
         },
         {
             "rule": "eyereturn\\.com\\/casale\\/",
-            "cookies": 0.00136,
+            "cookies": 0.00902,
             "fingerprinting": 0,
             "subdomains": [
                 "cm"
             ],
             "apis": {},
-            "sites": 74,
-            "prevalence": 0.00151
+            "sites": 699,
+            "prevalence": 0.00956,
+            "cnames": []
         },
         {
             "rule": "eyereturn\\.com\\/adobe",
-            "cookies": 0.000264,
+            "cookies": 0.000205,
             "fingerprinting": 0,
             "subdomains": [
                 "cm"
             ],
             "apis": {},
-            "sites": 13,
-            "prevalence": 0.000264
+            "sites": 15,
+            "prevalence": 0.000205,
+            "cnames": []
         },
         {
             "rule": "eyereturn\\.com\\/",
-            "cookies": 0.000203,
+            "cookies": 0.000301,
             "fingerprinting": 0,
             "subdomains": [
                 "o2"
             ],
             "apis": {},
-            "sites": 14,
-            "prevalence": 0.000285
+            "sites": 26,
+            "prevalence": 0.000356,
+            "cnames": []
+        },
+        {
+            "rule": "eyereturn\\.com\\/cminit2",
+            "cookies": 0.000246,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cm"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.000246,
+            "cnames": []
         },
         {
             "rule": "eyereturn\\.com\\/seg\\/",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "p3"
             ],
             "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
-        },
-        {
-            "rule": "eyereturn\\.com\\/cminit2",
-            "cookies": 0.000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cm"
-            ],
-            "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 19,
+            "prevalence": 0.00026,
+            "cnames": []
         },
         {
             "rule": "eyereturn\\.com\\/erguid",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "cm"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
+        },
+        {
+            "rule": "eyereturn\\.com\\/ggl-dmp\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cm"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         }
     ],
     "categories": [
@@ -110,5 +130,11 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0208
+    "cookies": 0.0279,
+    "types": {
+        "Document": 1455,
+        "Image": 742,
+        "Script": 44,
+        "XHR": 8
+    }
 }

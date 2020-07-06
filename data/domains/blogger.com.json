@@ -9,142 +9,83 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00207,
-    "sites": 102,
+    "prevalence": 0.00215,
+    "sites": 157,
     "subdomains": [
         "www"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "blogger\\.com\\/static\\/v1\\/widgets\\/1833189695-widgets\\.js",
+            "rule": "blogger\\.com\\/static\\/v1\\/widgets\\/307301000-widgets\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "www"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 66
+                "Navigator.prototype.userAgent": 109
             },
-            "sites": 82,
-            "prevalence": 0.00167
+            "sites": 114,
+            "prevalence": 0.00156,
+            "cnames": []
         },
         {
-            "rule": "blogger\\.com\\/static\\/v1\\/jsbin\\/2020502707-rx\\.js",
+            "rule": "blogger\\.com\\/static\\/v1\\/jsbin\\/4185991690-rx\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "www"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3
+                "Navigator.prototype.userAgent": 8
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
             "rule": "blogger\\.com\\/reviews\\/json\\/aggregates",
-            "cookies": 0.0000814,
+            "cookies": 0.000109,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
-            "rule": "blogger\\.com\\/static\\/v1\\/jsbin\\/3671941560-video_compiled\\.js",
+            "rule": "blogger\\.com\\/static\\/v1\\/widgets\\/211879618-widgets\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "www"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3
+                "Navigator.prototype.userAgent": 8
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
-            "rule": "blogger\\.com\\/static\\/v1\\/widgets\\/367476687-widgets\\.js",
+            "rule": "blogger\\.com\\/static\\/v1\\/jsbin\\/909596948-lbx\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "www"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 1
+                "Navigator.prototype.userAgent": 14,
+                "Navigator.prototype.plugins": 14,
+                "Navigator.prototype.mimeTypes": 14
             },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "blogger\\.com\\/static\\/v1\\/jsbin\\/3670824726-lbx\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 9,
-                "Navigator.prototype.plugins": 9,
-                "Navigator.prototype.mimeTypes": 9
-            },
-            "sites": 9,
-            "prevalence": 0.000183
-        },
-        {
-            "rule": "blogger\\.com\\/blogin\\.g",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "blogger\\.com\\/static\\/v1\\/jsbin\\/530446030-comment_from_post_iframe\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 4
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "blogger\\.com\\/comment-iframe\\.g",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "blogger\\.com\\/static\\/v1\\/jsbin\\/2637935310-cmt\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {
-                "Navigator.prototype.appName": 3,
-                "Navigator.prototype.userAgent": 3,
-                "Date.prototype.getTimezoneOffset": 1
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
         }
     ],
     "categories": [
@@ -158,5 +99,9 @@
         "cpu": 1,
         "cache": 1
     },
-    "cookies": 0.000142
+    "cookies": 0.0000958,
+    "types": {
+        "Script": 144,
+        "XHR": 8
+    }
 }

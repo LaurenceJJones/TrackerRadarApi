@@ -7,11 +7,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
-    "sites": 4,
+    "prevalence": 0.000109,
+    "sites": 8,
     "subdomains": [
         "rtb"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -24,16 +25,28 @@
             "apis": {
                 "Document.cookie getter": 3
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "loopa\\.net\\.au\\/Pixel\\/RecordAction",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 3
-    },
-    "cookies": 0.0000407
+    "performance": {},
+    "cookies": 0.000041,
+    "types": {
+        "Script": 7,
+        "Image": 2
+    }
 }

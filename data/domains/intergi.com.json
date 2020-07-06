@@ -8,10 +8,11 @@
         "DuckDuckGo"
     ],
     "prevalence": 0.00138,
-    "sites": 68,
+    "sites": 101,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -22,18 +23,19 @@
                 "cdn"
             ],
             "apis": {
-                "window.localStorage": 53,
-                "window.sessionStorage": 59,
-                "Navigator.prototype.userAgent": 55,
-                "Navigator.prototype.cookieEnabled": 58,
-                "Navigator.prototype.javaEnabled": 58,
-                "Screen.prototype.width": 58,
-                "Screen.prototype.height": 58,
-                "Navigator.prototype.connection": 11,
-                "window.matchMedia(\"prefers-reduced-motion\")": 34
+                "Navigator.prototype.userAgent": 67,
+                "window.localStorage": 67,
+                "window.sessionStorage": 67,
+                "window.matchMedia(\"prefers-reduced-motion\")": 65,
+                "Navigator.prototype.cookieEnabled": 67,
+                "Navigator.prototype.javaEnabled": 67,
+                "Screen.prototype.width": 67,
+                "Screen.prototype.height": 67,
+                "Navigator.prototype.connection": 3
             },
-            "sites": 59,
-            "prevalence": 0.0012
+            "sites": 67,
+            "prevalence": 0.000917,
+            "cnames": []
         },
         {
             "rule": "intergi\\.com\\/pageos\\/js\\/libs\\/aws-sdk-kinesis\\.min\\.js",
@@ -43,51 +45,55 @@
                 "cdn"
             ],
             "apis": {
-                "window.localStorage": 68,
-                "Date.prototype.getTime": 42
+                "window.localStorage": 101,
+                "Date.prototype.getTime": 52
             },
-            "sites": 68,
-            "prevalence": 0.00138
+            "sites": 101,
+            "prevalence": 0.00138,
+            "cnames": []
         },
         {
-            "rule": "intergi\\.com\\/hera\\/releases\\/4\\.3\\.40\\/vendor\\/npm\\.core-js\\.ffb4b0a70697fbafb4fe\\.js",
+            "rule": "intergi\\.com\\/hera\\/releases\\/4\\.3\\.49\\/vendor\\/npm\\.core-js\\.ffb4b0a70697fbafb4fe\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 61
+                "Navigator.prototype.userAgent": 96
             },
-            "sites": 61,
-            "prevalence": 0.00124
+            "sites": 96,
+            "prevalence": 0.00131,
+            "cnames": []
         },
         {
-            "rule": "intergi\\.com\\/hera\\/releases\\/4\\.3\\.40\\/lib\\/lib-main\\.aa0becec495b9d9b6de4\\.js",
+            "rule": "intergi\\.com\\/hera\\/releases\\/4\\.3\\.49\\/lib\\/lib-main\\.aa0becec495b9d9b6de4\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "window.matchMedia(\"prefers-reduced-motion\")": 61
+                "window.matchMedia(\"prefers-reduced-motion\")": 94
             },
-            "sites": 61,
-            "prevalence": 0.00124
+            "sites": 96,
+            "prevalence": 0.00131,
+            "cnames": []
         },
         {
-            "rule": "intergi\\.com\\/hera\\/releases\\/4\\.3\\.40\\/main\\.89374c86e480dee47a79\\.js",
+            "rule": "intergi\\.com\\/hera\\/releases\\/4\\.3\\.49\\/main\\.f7997f4b14ca8b1a2ba7\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 61,
-                "Navigator.prototype.connection": 61
+                "Navigator.prototype.userAgent": 96,
+                "Navigator.prototype.connection": 96
             },
-            "sites": 61,
-            "prevalence": 0.00124
+            "sites": 96,
+            "prevalence": 0.00131,
+            "cnames": []
         },
         {
             "rule": "intergi\\.com\\/prebid\\/prebid\\.js",
@@ -97,25 +103,26 @@
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 59,
-                "Navigator.prototype.cookieEnabled": 59,
-                "window.sessionStorage": 59,
-                "Document.cookie getter": 59,
-                "window.localStorage": 59,
-                "Navigator.prototype.appName": 59,
-                "Date.prototype.getTime": 57,
-                "Screen.prototype.width": 56,
-                "Screen.prototype.height": 56,
-                "Screen.prototype.colorDepth": 51,
-                "Date.prototype.getTimezoneOffset": 51,
-                "Navigator.prototype.language": 43,
-                "Navigator.prototype.doNotTrack": 43,
-                "Navigator.prototype.vendor": 24,
-                "window.devicePixelRatio": 38,
-                "Navigator.prototype.connection": 38
+                "Navigator.prototype.userAgent": 85,
+                "Navigator.prototype.cookieEnabled": 85,
+                "window.sessionStorage": 85,
+                "Document.cookie getter": 85,
+                "window.localStorage": 85,
+                "Navigator.prototype.appName": 85,
+                "Date.prototype.getTime": 81,
+                "Screen.prototype.width": 81,
+                "Screen.prototype.height": 81,
+                "Screen.prototype.colorDepth": 76,
+                "Date.prototype.getTimezoneOffset": 76,
+                "Navigator.prototype.language": 70,
+                "Navigator.prototype.doNotTrack": 70,
+                "Navigator.prototype.vendor": 29,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.connection": 2
             },
-            "sites": 59,
-            "prevalence": 0.0012
+            "sites": 85,
+            "prevalence": 0.00116,
+            "cnames": []
         },
         {
             "rule": "intergi\\.com\\/tyche-assets\\/report_ad\\/mail\\.html",
@@ -125,18 +132,23 @@
                 "cdn"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 32
+                "Navigator.prototype.userAgent": 41
             },
-            "sites": 47,
-            "prevalence": 0.000956
+            "sites": 52,
+            "prevalence": 0.000712,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 541,
+        "Document": 52
+    }
 }

@@ -4,13 +4,15 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000407,
-    "sites": 2,
+    "prevalence": 0.000041,
+    "sites": 3,
     "subdomains": [
         "foodrevolution",
-        "kodiforu"
+        "kodiforu",
+        "afrikmag"
     ],
-    "fingerprinting": 2,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "letreach\\.com\\/ask\\.html",
@@ -18,13 +20,15 @@
             "fingerprinting": 1,
             "subdomains": [
                 "foodrevolution",
-                "kodiforu"
+                "kodiforu",
+                "afrikmag"
             ],
             "apis": {
-                "window.localStorage": 2
+                "window.localStorage": 3
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -34,5 +38,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Document": 3
+    }
 }

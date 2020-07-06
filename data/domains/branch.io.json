@@ -9,11 +9,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0046,
-    "sites": 226,
+    "prevalence": 0.00408,
+    "sites": 298,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -24,48 +25,29 @@
                 "cdn"
             ],
             "apis": {
-                "window.sessionStorage": 186,
-                "window.localStorage": 191,
-                "window.devicePixelRatio": 191,
-                "Screen.prototype.height": 157,
-                "Screen.prototype.width": 157,
-                "Navigator.prototype.userAgent": 174,
-                "Navigator.prototype.language": 171,
-                "Navigator.prototype.languages": 171,
-                "PerformanceTiming.prototype.navigationStart": 101
+                "PerformanceTiming.prototype.navigationStart": 243,
+                "window.sessionStorage": 257,
+                "window.localStorage": 241,
+                "Navigator.prototype.userAgent": 240,
+                "Screen.prototype.height": 239,
+                "Screen.prototype.width": 239,
+                "Navigator.prototype.language": 239,
+                "window.devicePixelRatio": 240,
+                "Navigator.prototype.languages": 239
             },
-            "sites": 200,
-            "prevalence": 0.00407
+            "sites": 257,
+            "prevalence": 0.00352,
+            "cnames": []
         },
         {
-            "rule": "branch\\.io\\/branch-2\\.50\\.2\\.min\\.js",
+            "rule": "branch\\.io\\/branch-2\\.47\\.1\\.min\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
                 "cdn"
             ],
             "apis": {
-                "window.sessionStorage": 9,
-                "window.localStorage": 9,
-                "window.devicePixelRatio": 9,
-                "Navigator.prototype.userAgent": 9,
-                "PerformanceTiming.prototype.navigationStart": 5,
-                "Navigator.prototype.language": 6,
-                "Screen.prototype.width": 6,
-                "Screen.prototype.height": 6,
-                "Navigator.prototype.languages": 6
-            },
-            "sites": 9,
-            "prevalence": 0.000183
-        },
-        {
-            "rule": "branch\\.io\\/branch-2\\.47\\.1\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2,
                 "window.sessionStorage": 2,
                 "window.localStorage": 2,
                 "Navigator.prototype.userAgent": 2,
@@ -75,7 +57,8 @@
                 "Navigator.prototype.languages": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -90,5 +73,8 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 259
+    }
 }

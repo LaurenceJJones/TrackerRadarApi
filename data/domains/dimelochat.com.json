@@ -7,68 +7,78 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000244,
-    "sites": 12,
+    "prevalence": 0.000219,
+    "sites": 16,
     "subdomains": [
+        "fizz",
         "engie-dmpa",
         "support",
         "electro-depot",
         "enedis",
         "la-poste",
+        "m1",
         "mgen",
         "belgacom",
         "richemont"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "dimelochat\\.com\\/assets\\/chat-d9d6f17e4e6f4b28d721f2f5e1724a71196b738bfb395cb349416f0a6e893bc8\\.js",
+            "rule": "dimelochat\\.com\\/assets\\/chat-f77910edcbae762e49b85eef1c1d2be1fe831905a06155d2825625392d72a83b\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
+                "fizz",
                 "engie-dmpa",
                 "support",
                 "electro-depot",
                 "enedis",
                 "la-poste",
+                "m1",
                 "mgen",
                 "belgacom"
             ],
             "apis": {
-                "HTMLCanvasElement.prototype.constructor": 5,
-                "CanvasRenderingContext2D.prototype.getImageData": 8,
-                "Navigator.prototype.userAgent": 7,
-                "window.localStorage": 8,
-                "Date.prototype.getTime": 8,
+                "HTMLCanvasElement.prototype.constructor": 6,
+                "CanvasRenderingContext2D.prototype.getImageData": 10,
+                "Navigator.prototype.userAgent": 10,
+                "window.localStorage": 10,
+                "Date.prototype.getTime": 10,
                 "Event.prototype.timeStamp": 2
             },
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "dimelochat\\.com\\/assets\\/messaging-44be00e320cd73c5bca6461d8253845981282683b54f1e351d6d4432431f56f7\\.js",
+            "rule": "dimelochat\\.com\\/assets\\/messaging-64678707f0bbe8a3520b1364ee54592333765edfbb22f730ca3abd267957ec86\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "richemont"
             ],
             "apis": {
-                "CanvasRenderingContext2D.prototype.getImageData": 4,
-                "Navigator.prototype.userAgent": 4,
-                "window.localStorage": 4,
-                "Date.prototype.getTime": 4,
-                "Event.prototype.timeStamp": 3
+                "CanvasRenderingContext2D.prototype.getImageData": 5,
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 5,
+                "Date.prototype.getTime": 5,
+                "Event.prototype.timeStamp": 5
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 1
+        "cache": 0
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 15
+    }
 }

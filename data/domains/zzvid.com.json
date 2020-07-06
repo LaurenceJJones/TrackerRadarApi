@@ -4,108 +4,67 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000061,
+    "prevalence": 0.000041,
     "sites": 3,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "zzvid\\.com\\/images\\/tbook\\.png",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "zzvid\\.com\\/images\\/tshare\\.png",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "zzvid\\.com\\/images\\/select-arrow\\.png",
-            "cookies": 0.0000407,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "zzvid\\.com\\/images\\/flags\\/gb\\.png",
-            "cookies": 0.0000407,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "zzvid\\.com\\/images\\/social\\.png",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "zzvid\\.com\\/js\\/jquery\\.min\\.js",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "zzvid\\.com\\/js\\/jquery\\.cookie\\.min\\.js",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "zzvid\\.com\\/31\\/images\\/transparent\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "cdn"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 3
-    },
-    "cookies": 0.000061
+    "performance": {},
+    "cookies": 0.000041,
+    "types": {
+        "Image": 10
+    }
 }

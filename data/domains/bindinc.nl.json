@@ -4,26 +4,31 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000203,
-    "sites": 1,
+    "prevalence": 0.0000274,
+    "sites": 2,
     "subdomains": [
         "voorkeuren"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "bindinc\\.nl\\/",
-            "cookies": 0.0000407,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "voorkeuren"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.0000203
+    "cookies": 0.0000274,
+    "types": {
+        "XHR": 3
+    }
 }

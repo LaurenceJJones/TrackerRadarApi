@@ -9,56 +9,61 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000529,
-    "sites": 26,
+    "prevalence": 0.000575,
+    "sites": 42,
     "subdomains": [
         "a"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "volvelle\\.tech\\/sync",
-            "cookies": 0.000285,
+            "cookies": 0.000356,
             "fingerprinting": 0,
             "subdomains": [
                 "a"
             ],
             "apis": {},
-            "sites": 20,
-            "prevalence": 0.000407
+            "sites": 36,
+            "prevalence": 0.000493,
+            "cnames": []
         },
         {
             "rule": "volvelle\\.tech\\/ul_cb\\/sync",
-            "cookies": 0.000264,
+            "cookies": 0.000356,
             "fingerprinting": 0,
             "subdomains": [
                 "a"
             ],
             "apis": {},
-            "sites": 14,
-            "prevalence": 0.000285
+            "sites": 26,
+            "prevalence": 0.000356,
+            "cnames": []
         },
         {
             "rule": "volvelle\\.tech\\/pixel",
-            "cookies": 0.000224,
+            "cookies": 0.000192,
             "fingerprinting": 0,
             "subdomains": [
                 "a"
             ],
             "apis": {},
-            "sites": 12,
-            "prevalence": 0.000244
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
         },
         {
             "rule": "volvelle\\.tech\\/ul_cb\\/pixel",
-            "cookies": 0.000244,
+            "cookies": 0.000219,
             "fingerprinting": 0,
             "subdomains": [
                 "a"
             ],
             "apis": {},
-            "sites": 12,
-            "prevalence": 0.000244
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
         }
     ],
     "categories": [
@@ -66,10 +71,14 @@
         "Third-Party Analytics Marketing"
     ],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000529
+    "cookies": 0.000575,
+    "types": {
+        "Image": 62,
+        "Script": 32
+    }
 }

@@ -7,26 +7,27 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00169,
-    "sites": 83,
+    "prevalence": 0.00168,
+    "sites": 123,
     "subdomains": [
         "api2938",
-        "vid1021",
+        "api8772",
         "api9311",
-        "api6742",
         "vid0377",
+        "api4369",
+        "vid1021",
+        "api4301",
         "api3018",
-        "api4920",
         "api8103",
-        "vid5477",
         "vid1005",
+        "api3847",
+        "api8392",
         "ecf",
         "vid1043",
         "api7831",
         "api5152",
         "api2932",
         "api9761",
-        "api9865",
         "api4773",
         "api3132",
         "vid1374",
@@ -37,56 +38,74 @@
         "vid1008",
         "api8203",
         "api5039",
+        "api9865",
+        "api5482",
         "api5137",
-        "api4203",
-        "api7979",
+        "lat8504",
         "vid7474",
+        "lat4857",
         "api9251",
         "lat4241"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "d41\\.co\\/sync\\/",
-            "cookies": 0.000712,
+            "cookies": 0.000493,
             "fingerprinting": 0,
             "subdomains": [
                 "api2938",
-                "vid1021",
+                "api8772",
                 "api9311",
-                "api6742",
                 "vid0377",
+                "api4369",
+                "vid1021",
+                "api4301",
                 "api3018",
-                "api4920",
                 "api8103",
-                "vid5477",
                 "vid1005",
+                "api3847",
+                "api8392",
                 "ecf",
                 "vid1043",
                 "api7831",
                 "api5152",
                 "api2932",
                 "api9761",
-                "api9865",
                 "api4773",
                 "api3132",
                 "vid1374",
                 "api9191"
             ],
             "apis": {},
-            "sites": 36,
-            "prevalence": 0.000732
+            "sites": 39,
+            "prevalence": 0.000534,
+            "cnames": []
         },
         {
             "rule": "d41\\.co\\/sync\\/1",
-            "cookies": 0.000692,
+            "cookies": 0.000547,
             "fingerprinting": 0,
             "subdomains": [
                 "ecf"
             ],
             "apis": {},
-            "sites": 34,
-            "prevalence": 0.000692
+            "sites": 40,
+            "prevalence": 0.000547,
+            "cnames": []
+        },
+        {
+            "rule": "d41\\.co\\/sync\\/2",
+            "cookies": 0.000506,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ecf"
+            ],
+            "apis": {},
+            "sites": 37,
+            "prevalence": 0.000506,
+            "cnames": []
         },
         {
             "rule": "d41\\.co\\/tags\\/dnb_coretag_v4\\.min\\.js",
@@ -96,31 +115,32 @@
                 "cdn-0"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 14,
-                "window.sessionStorage": 1
+                "Navigator.prototype.userAgent": 19
             },
-            "sites": 17,
-            "prevalence": 0.000346
+            "sites": 23,
+            "prevalence": 0.000315,
+            "cnames": []
         },
         {
             "rule": "d41\\.co\\/api\\/",
-            "cookies": 0.000773,
+            "cookies": 0.000588,
             "fingerprinting": 0,
             "subdomains": [
                 "api2938",
-                "vid1021",
+                "api8772",
                 "vid9430",
                 "api9311",
-                "api6742",
                 "vid0377",
-                "api3018",
-                "api4920",
+                "api4369",
+                "vid1021",
+                "api4301",
                 "api8103",
-                "vid5477",
                 "api2196",
                 "vid1008",
                 "api8203",
                 "api5039",
+                "api3847",
+                "api8392",
                 "ecf",
                 "vid1043",
                 "api7831",
@@ -130,49 +150,58 @@
                 "api9865",
                 "api4773",
                 "api3132",
+                "api5482",
                 "vid1374",
                 "api9191"
             ],
             "apis": {},
-            "sites": 44,
-            "prevalence": 0.000895
+            "sites": 48,
+            "prevalence": 0.000657,
+            "cnames": []
         },
         {
             "rule": "d41\\.co\\/sync\\/img",
-            "cookies": 0.000854,
+            "cookies": 0.00111,
             "fingerprinting": 0,
             "subdomains": [
                 "api5137",
                 "vid9430",
-                "api4203",
                 "vid0377",
-                "api7979",
+                "lat8504",
                 "vid7474",
+                "lat4857",
                 "api9251",
                 "lat4241"
             ],
             "apis": {},
-            "sites": 43,
-            "prevalence": 0.000875
+            "sites": 82,
+            "prevalence": 0.00112,
+            "cnames": []
         },
         {
             "rule": "d41\\.co\\/sync\\/1",
-            "cookies": 0.000692,
+            "cookies": 0.000903,
             "fingerprinting": 0,
             "subdomains": [
                 "ecf"
             ],
             "apis": {},
-            "sites": 35,
-            "prevalence": 0.000712
+            "sites": 66,
+            "prevalence": 0.000903,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00155
+    "cookies": 0.00163,
+    "types": {
+        "Script": 139,
+        "XHR": 48,
+        "Image": 148
+    }
 }

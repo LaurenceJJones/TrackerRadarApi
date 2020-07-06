@@ -9,42 +9,129 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0122,
-    "sites": 599,
+    "prevalence": 0.0221,
+    "sites": 1618,
     "subdomains": [
         "s",
         "a",
         "d"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "adroll\\.com\\/j\\/roundtrip\\.js",
-            "cookies": 0.0095,
+            "cookies": 0.00951,
             "fingerprinting": 1,
             "subdomains": [
                 "s",
                 "a"
             ],
             "apis": {
-                "Document.cookie getter": 475,
-                "Date.prototype.getTime": 489,
-                "Document.cookie setter": 467,
-                "Navigator.prototype.userAgent": 447
+                "Document.cookie getter": 706,
+                "Date.prototype.getTime": 740,
+                "Document.cookie setter": 695,
+                "Navigator.prototype.userAgent": 735
             },
-            "sites": 497,
-            "prevalence": 0.0101
+            "sites": 756,
+            "prevalence": 0.0103,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/cm\\/r\\/out",
-            "cookies": 0.00974,
+            "rule": "adroll\\.com\\/cm\\/aol\\/out",
+            "cookies": 0.00461,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
-            "sites": 497,
-            "prevalence": 0.0101
+            "sites": 583,
+            "prevalence": 0.00798,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/index\\/out",
+            "cookies": 0.00587,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 583,
+            "prevalence": 0.00798,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/n\\/out",
+            "cookies": 0.00618,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 583,
+            "prevalence": 0.00798,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/outbrain\\/out",
+            "cookies": 0.00675,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 580,
+            "prevalence": 0.00794,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/pubmatic\\/out",
+            "cookies": 0.00686,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 579,
+            "prevalence": 0.00792,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/r\\/out",
+            "cookies": 0.00961,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 774,
+            "prevalence": 0.0106,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/taboola\\/out",
+            "cookies": 0.0077,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 581,
+            "prevalence": 0.00795,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/triplelift\\/out",
+            "cookies": 0.0078,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 582,
+            "prevalence": 0.00796,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/cm\\/b\\/out",
@@ -54,217 +141,244 @@
                 "d"
             ],
             "apis": {},
-            "sites": 481,
-            "prevalence": 0.00978
+            "sites": 732,
+            "prevalence": 0.01,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/cm\\/x\\/out",
-            "cookies": 0.00968,
+            "cookies": 0.0097,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
-            "sites": 481,
-            "prevalence": 0.00978
+            "sites": 731,
+            "prevalence": 0.01,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/cm\\/l\\/out",
-            "cookies": 0.0093,
+            "cookies": 0.00944,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
-            "sites": 464,
-            "prevalence": 0.00944
+            "sites": 710,
+            "prevalence": 0.00971,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/cm\\/o\\/out",
-            "cookies": 0.00966,
+            "cookies": 0.00973,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
-            "sites": 481,
-            "prevalence": 0.00978
+            "sites": 731,
+            "prevalence": 0.01,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/cm\\/g\\/out",
-            "cookies": 0.00978,
+            "cookies": 0.00985,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
-            "sites": 488,
-            "prevalence": 0.00993
+            "sites": 738,
+            "prevalence": 0.0101,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/cm\\/r\\/in",
+            "cookies": 0.0105,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 769,
+            "prevalence": 0.0105,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/g\\/in",
             "cookies": 0.01,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
-            "sites": 495,
-            "prevalence": 0.0101
-        },
-        {
-            "rule": "adroll\\.com\\/cm\\/g\\/in",
-            "cookies": 0.00989,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 486,
-            "prevalence": 0.00989
-        },
-        {
-            "rule": "adroll\\.com\\/cm\\/aol\\/out",
-            "cookies": 0.00578,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 382,
-            "prevalence": 0.00777
-        },
-        {
-            "rule": "adroll\\.com\\/cm\\/index\\/out",
-            "cookies": 0.00657,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 382,
-            "prevalence": 0.00777
-        },
-        {
-            "rule": "adroll\\.com\\/cm\\/n\\/out",
-            "cookies": 0.00702,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 382,
-            "prevalence": 0.00777
-        },
-        {
-            "rule": "adroll\\.com\\/cm\\/outbrain\\/out",
-            "cookies": 0.0071,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 380,
-            "prevalence": 0.00773
-        },
-        {
-            "rule": "adroll\\.com\\/cm\\/pubmatic\\/out",
-            "cookies": 0.00722,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 381,
-            "prevalence": 0.00775
-        },
-        {
-            "rule": "adroll\\.com\\/cm\\/taboola\\/out",
-            "cookies": 0.00765,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 380,
-            "prevalence": 0.00773
-        },
-        {
-            "rule": "adroll\\.com\\/cm\\/triplelift\\/out",
-            "cookies": 0.00769,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 382,
-            "prevalence": 0.00777
-        },
-        {
-            "rule": "adroll\\.com\\/fb\\/tr\\/",
-            "cookies": 0.00195,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 97,
-            "prevalence": 0.00197
-        },
-        {
-            "rule": "adroll\\.com\\/consent\\/check\\/UY7MT7IZEZCCNMR326AYUJ\\/",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/pixel\\/UY7MT7IZEZCCNMR326AYUJ\\/DCKO73N4U5HRLISY7O4Z7L",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 732,
+            "prevalence": 0.01,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/cm\\/index\\/ssp",
-            "cookies": 0.0000203,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
-            "sites": 53,
-            "prevalence": 0.00108
+            "sites": 684,
+            "prevalence": 0.00936,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/fb\\/tr\\/",
+            "cookies": 0.00198,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 157,
+            "prevalence": 0.00215,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/j\\/PFDCWBV6YZCUNBMYMXILSM\\/roundtrip\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/PFDCWBV6YZCUNBMYMXILSM\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/uev\\/PFDCWBV6YZCUNBMYMXILSM\\/TINEZU5I5JEVXKQD5AFJBE\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/XV2A3J2MJZGENK4YMVTEY7\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/XV2A3J2MJZGENK4YMVTEY7\\/N3VPQAOYK5DC3HZCANXKGM",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/onp\\/XV2A3J2MJZGENK4YMVTEY7\\/N3VPQAOYK5DC3HZCANXKGM",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/SQHBPA22ABH4RPJPCTQ7JR\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/SQHBPA22ABH4RPJPCTQ7JR\\/EJ57JHJFINDZDHCCAIM66O",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/SQHBPA22ABH4RPJPCTQ7JR\\/EJ57JHJFINDZDHCCAIM66O\\/F6ISQKH25ZH6LLHPBQSLUT\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/consent\\/check\\/Y7MJWT7SPBCL3HJTPALMLT\\/",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/Y7MJWT7SPBCL3HJTPALMLT\\/6SJELIXRUZHKVIFLGIPD74",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/Y7MJWT7SPBCL3HJTPALMLT\\/6SJELIXRUZHKVIFLGIPD74\\/U2WE5WXJX5F2BFERBFYD7I\\.js",
@@ -278,108 +392,80 @@
                 "Navigator.prototype.appVersion": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/onp\\/Y7MJWT7SPBCL3HJTPALMLT\\/6SJELIXRUZHKVIFLGIPD74",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/cm\\/aol,index\\/out",
-            "cookies": 0.0000814,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/cm\\/outbrain,pubmatic\\/out",
-            "cookies": 0.0000814,
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/cm\\/n,triplelift,r\\/out",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/consent\\/check\\/SQHBPA22ABH4RPJPCTQ7JR\\/",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/pixel\\/SQHBPA22ABH4RPJPCTQ7JR\\/EJ57JHJFINDZDHCCAIM66O",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/pixel\\/SQHBPA22ABH4RPJPCTQ7JR\\/EJ57JHJFINDZDHCCAIM66O\\/F6ISQKH25ZH6LLHPBQSLUT\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/consent\\/check\\/OSU6T4K5BNEFDBKAQHSKNI\\/",
-            "cookies": 0.000102,
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/OSU6T4K5BNEFDBKAQHSKNI\\/3T3E3J57XBHLNN2SF6MDM3",
-            "cookies": 0.000102,
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/OSU6T4K5BNEFDBKAQHSKNI\\/3T3E3J57XBHLNN2SF6MDM3\\/4RMH4B3GVNF6PPORXRHP7H\\.js",
@@ -389,237 +475,75 @@
                 "s"
             ],
             "apis": {
-                "Date.prototype.getTime": 4,
-                "Navigator.prototype.appVersion": 4
+                "Date.prototype.getTime": 6,
+                "Navigator.prototype.appVersion": 6
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/onp\\/OSU6T4K5BNEFDBKAQHSKNI\\/3T3E3J57XBHLNN2SF6MDM3",
-            "cookies": 0.0000814,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/consent\\/check\\/KVOQDTJN5BBKLGQ3XDRKZB\\/",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/pixel\\/KVOQDTJN5BBKLGQ3XDRKZB\\/UDPRFCNPWJAFHNBKMUSDPA",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/cm\\/aol,b\\/out",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/cm\\/index,l\\/out",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/cm\\/o,outbrain\\/out",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/cm\\/pubmatic,n\\/out",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/cm\\/taboola,triplelift,r\\/out",
-            "cookies": 0.000061,
+            "rule": "adroll\\.com\\/consent\\/check\\/Y4PIP46KWBFURCXJ5I5LU2\\/",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/consent\\/check\\/AWPYDAH5JJH2JGSUWJVDKM\\/",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/pixel\\/AWPYDAH5JJH2JGSUWJVDKM\\/BPNOSTJTQFA3HBFU5WDRCM",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/consent\\/check\\/F7QV6PFHB5AB5E4TDSVNVO\\/",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/pixel\\/F7QV6PFHB5AB5E4TDSVNVO\\/F3SQYB2XFBEHHNR4XIV7PN",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/pixel\\/F7QV6PFHB5AB5E4TDSVNVO\\/F3SQYB2XFBEHHNR4XIV7PN\\/DVCX3EVV6JFRDAZ7HFNIZX\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.appVersion": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/onp\\/F7QV6PFHB5AB5E4TDSVNVO\\/F3SQYB2XFBEHHNR4XIV7PN",
-            "cookies": 0.0000203,
+            "rule": "adroll\\.com\\/pixel\\/Y4PIP46KWBFURCXJ5I5LU2\\/6BKOL77QIJCHTELGKI47DR",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/consent\\/check\\/X7AGHV4DPFEGRDGZEXB4UZ\\/",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "adroll\\.com\\/pixel\\/X7AGHV4DPFEGRDGZEXB4UZ\\/7JK6C4TBKRFGBF3Q3VUWXJ",
-            "cookies": 0.0000407,
+            "rule": "adroll\\.com\\/cm\\/aol,index,outbrain,pubmatic,n,taboola,triplelift,r\\/out",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/consent\\/check\\/NIR6OL3P35GJJOLJTFJZQY\\/",
-            "cookies": 0.0000407,
+            "rule": "adroll\\.com\\/pixel\\/HWJCGDWMFJFOXIQNAOMO6A\\/6F4F4JNZI5CRTOO4ZRGIOT",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/pixel\\/NIR6OL3P35GJJOLJTFJZQY\\/WIYTP3QD3FA4ZLCPGTDHOI",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/consent\\/check\\/HGAM45IRB5GXVJPUZ3AIJV\\/",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/pixel\\/HGAM45IRB5GXVJPUZ3AIJV\\/CWCJVNECPVH55FDDSNFWB4",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/pixel\\/HGAM45IRB5GXVJPUZ3AIJV\\/CWCJVNECPVH55FDDSNFWB4\\/LYMS2JROHVD63FLBYRL4RH\\.js",
+            "rule": "adroll\\.com\\/pixel\\/HWJCGDWMFJFOXIQNAOMO6A\\/6F4F4JNZI5CRTOO4ZRGIOT\\/FJOE7BMZDBG63O4CTFCFSD\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -631,99 +555,449 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/onp\\/HGAM45IRB5GXVJPUZ3AIJV\\/CWCJVNECPVH55FDDSNFWB4",
-            "cookies": 0.0000203,
+            "rule": "adroll\\.com\\/onp\\/HWJCGDWMFJFOXIQNAOMO6A\\/6F4F4JNZI5CRTOO4ZRGIOT",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/onsite_personalization\\/production\\/0\\.1\\/static\\/js\\/main\\.6825eace\\.js",
+            "rule": "adroll\\.com\\/consent\\/check\\/AWPYDAH5JJH2JGSUWJVDKM\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/AWPYDAH5JJH2JGSUWJVDKM\\/BPNOSTJTQFA3HBFU5WDRCM",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/NTQRAI34UFEUXMSHJZWWXI\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/NTQRAI34UFEUXMSHJZWWXI\\/F7TBUHD7UZGLNICSVCTOFU",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/X7AGHV4DPFEGRDGZEXB4UZ\\/",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/X7AGHV4DPFEGRDGZEXB4UZ\\/7JK6C4TBKRFGBF3Q3VUWXJ",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/4ALY7JETOFFDNHKWNDIADM\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/4ALY7JETOFFDNHKWNDIADM\\/IYMMXP75ZRBDVERQKUHC2S",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/4ALY7JETOFFDNHKWNDIADM\\/IYMMXP75ZRBDVERQKUHC2S\\/Y5SHXITM4FBGZJJGQXMK3E\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "s"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 7,
-                "window.localStorage": 8,
-                "window.sessionStorage": 8
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.appVersion": 2
             },
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/cm\\/d\\/out",
-            "cookies": 0.0000203,
+            "rule": "adroll\\.com\\/consent\\/check\\/TPDO6TMJCZADRF5CNSTOR3\\/",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
-            "sites": 21,
-            "prevalence": 0.000427
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/TPDO6TMJCZADRF5CNSTOR3\\/XRVNHKO6QFGD3M2LEGKWSU",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/narrative\\/out",
+            "cookies": 0.0000821,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/cm\\/u\\/out",
-            "cookies": 0.000102,
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/ipixel\\/2UPINMZ2UNAZBMCJ4FGUZR\\/BQKN2OHVVJGSPM46HTP6WG",
-            "cookies": 0.0000407,
+            "rule": "adroll\\.com\\/cm\\/onevideo\\/out",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/S6JZM2NMHBATPNK6FIAZUB\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/S6JZM2NMHBATPNK6FIAZUB\\/QVWT5JQGNBB3BEDSXRGTWP",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/I7ORHTOOXJGB3CH3PN46Z6\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/I7ORHTOOXJGB3CH3PN46Z6\\/PEP4P42ECNESLPXMYOBNPG",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/I7ORHTOOXJGB3CH3PN46Z6\\/PEP4P42ECNESLPXMYOBNPG\\/BKOAYALZGZBJDBUAMTYDZH\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/IB42HGH34RDHZBBWSTEOUO\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/IB42HGH34RDHZBBWSTEOUO\\/GFXUWXKRA5G7VF2F553AGL",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/2BUUCJI5BNFA7IKVZL6RQK\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/2BUUCJI5BNFA7IKVZL6RQK\\/BNEVUHG7OVGBRPHZC4WPLX",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/QKP5O6R3GVGFVNM46NEPLU\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/QKP5O6R3GVGFVNM46NEPLU\\/3KHUZNZG4JDXNKSIZLHJQU",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/QKP5O6R3GVGFVNM46NEPLU\\/3KHUZNZG4JDXNKSIZLHJQU\\/R77H2NPPENARFDDPXBEPIA\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/mk\\/QKP5O6R3GVGFVNM46NEPLU\\/in",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/n,taboola,triplelift\\/out",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/ipixel\\/KE4GHGSOKBDLLN4P4HR2EK\\/CVADYJ3JUFCT5BEXNVFKMB",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/SZCOAJJI3VDOBPIZKOP4CG\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/SZCOAJJI3VDOBPIZKOP4CG\\/2V2ZLZCSM5GZ3MTH636GIV",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/SZCOAJJI3VDOBPIZKOP4CG\\/2V2ZLZCSM5GZ3MTH636GIV\\/FLLLQNYJMBF2HEK2KZO4UK\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/n,taboola,triplelift,r\\/out",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/consent\\/check\\/NQYD7WRCJ5A6FE4BKNPCTX\\/",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/NQYD7WRCJ5A6FE4BKNPCTX\\/MTFZJNP3SBHXTDXZU4R5HJ",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/NQYD7WRCJ5A6FE4BKNPCTX\\/MTFZJNP3SBHXTDXZU4R5HJ\\/H6ANZDLPZ5G5ZHNDKLBMFE\\.js",
@@ -736,40 +1010,56 @@
                 "Document.cookie getter": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/cm\\/narrative\\/out",
-            "cookies": 0.000102,
+            "rule": "adroll\\.com\\/consent\\/check\\/WYQJOJNHOFF4NBRZFJWTRE\\/",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/WYQJOJNHOFF4NBRZFJWTRE\\/YQS6MLUCTJCM3LPGF5TEYS",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/consent\\/check\\/MPS7LHIVXJGWJAZNUTTV26\\/",
-            "cookies": 0.000061,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/MPS7LHIVXJGWJAZNUTTV26\\/4R3HXQ32CVFV3ASQ6PYJRF",
-            "cookies": 0.000061,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/MPS7LHIVXJGWJAZNUTTV26\\/4R3HXQ32CVFV3ASQ6PYJRF\\/2L7UJS5DPJF7NG4HH6MYW5\\.js",
@@ -782,75 +1072,225 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/consent\\/check\\/ESH3BTCW3FH4NDTCPIM4AF\\/",
-            "cookies": 0.0000407,
+            "rule": "adroll\\.com\\/consent\\/check\\/E6AYZ56UHJAATKQZCQYFDP\\/",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/pixel\\/ESH3BTCW3FH4NDTCPIM4AF\\/NVT6IHV4FJGTNCB4LMV7EY",
-            "cookies": 0.0000407,
+            "rule": "adroll\\.com\\/pixel\\/E6AYZ56UHJAATKQZCQYFDP\\/ZZAYSB2OSFBCXOUZMWVOX7",
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/pixel\\/ESH3BTCW3FH4NDTCPIM4AF\\/NVT6IHV4FJGTNCB4LMV7EY\\/35VQH4BUNRH5ZF22VIFPI5\\.js",
+            "rule": "adroll\\.com\\/pixel\\/E6AYZ56UHJAATKQZCQYFDP\\/ZZAYSB2OSFBCXOUZMWVOX7\\/RSWWC5B46JDQTE7IKADY3D\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "s"
             ],
             "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Document.cookie getter": 2,
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/cm\\/rakuten\\/out",
-            "cookies": 0.0000407,
+            "rule": "adroll\\.com\\/onp\\/E6AYZ56UHJAATKQZCQYFDP\\/ZZAYSB2OSFBCXOUZMWVOX7",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/aol,x,b,index\\/out",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/o,outbrain,pubmatic,n\\/out",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/taboola,triplelift,u,r\\/out",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/mk\\/E6AYZ56UHJAATKQZCQYFDP\\/in",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/OTUCE2Z3VBGWFHOFWGQHTL\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/OTUCE2Z3VBGWFHOFWGQHTL\\/V5SJZXPENBCN7NX3FYVVIB",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/j\\/consent\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.languages": 5,
+                "Document.cookie getter": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/KO447SEF3VDTBMKJGPXRZS\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/KO447SEF3VDTBMKJGPXRZS\\/SEWQ5NEF2BGUDFSPDM5IOV",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/KO447SEF3VDTBMKJGPXRZS\\/SEWQ5NEF2BGUDFSPDM5IOV\\/BGMATRL4RVGXVC4LSPO7GG\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/onp\\/KO447SEF3VDTBMKJGPXRZS\\/SEWQ5NEF2BGUDFSPDM5IOV",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/consent\\/check\\/5L6ID4O3DZHI7CYRBGFT5L\\/",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/5L6ID4O3DZHI7CYRBGFT5L\\/XJI7QZEGTRELVC4S4DBT6T",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/5L6ID4O3DZHI7CYRBGFT5L\\/XJI7QZEGTRELVC4S4DBT6T\\/PNNQ35QNNRGVXDPS7LWZDY\\.js",
@@ -863,51 +1303,166 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/consent\\/check\\/LKQZXD5OZRHQFODVWGCQUL\\/",
-            "cookies": 0.0000407,
+            "rule": "adroll\\.com\\/consent\\/check\\/UA3X3TWJ3JA33GYCTRWIP6\\/",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/pixel\\/LKQZXD5OZRHQFODVWGCQUL\\/Q4TWOSW4OZGHREVOGUTODG",
-            "cookies": 0.0000407,
+            "rule": "adroll\\.com\\/pixel\\/UA3X3TWJ3JA33GYCTRWIP6\\/MK6WXELVRRBSFB456JHDQ3",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/NUEMRECMLVAATNHNFMTRX6\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/NUEMRECMLVAATNHNFMTRX6\\/O37SCF3KTFDCHKEGCW6XFQ",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/onp\\/NUEMRECMLVAATNHNFMTRX6\\/O37SCF3KTFDCHKEGCW6XFQ",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/mk\\/NUEMRECMLVAATNHNFMTRX6\\/in",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/UATVMEUC2ZE6JKTYOJTLGL\\/",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/UATVMEUC2ZE6JKTYOJTLGL\\/KS6YKI4XQNEUFJYQJIIWRI",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/UVSXSU26ZZHVFCJV76BPK7\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/UVSXSU26ZZHVFCJV76BPK7\\/PSV3T3USOBC4BMO4H4TISF",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/UVSXSU26ZZHVFCJV76BPK7\\/PSV3T3USOBC4BMO4H4TISF\\/5LVHICTK5RGO3HRCLT5RED\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/consent\\/check\\/6O7FU4JE6VGVRN2H76NJYW\\/",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/6O7FU4JE6VGVRN2H76NJYW\\/UR3IFN6JTFBGRDA6ENSDTG",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/6O7FU4JE6VGVRN2H76NJYW\\/UR3IFN6JTFBGRDA6ENSDTG\\/AFHBFCDOUVB6HOPYLCB7UF\\.js",
@@ -920,64 +1475,116 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/consent\\/check\\/2S3WB2YZRNAT3GWS6NGYER\\/",
-            "cookies": 0.0000407,
+            "rule": "adroll\\.com\\/consent\\/check\\/TXTTXV7EN5BPDDRPYM2KPO\\/",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/pixel\\/2S3WB2YZRNAT3GWS6NGYER\\/4EGYNYHL7ZCILGPMRY2WQE",
-            "cookies": 0.0000407,
+            "rule": "adroll\\.com\\/pixel\\/TXTTXV7EN5BPDDRPYM2KPO\\/PGUZUB7TRNBXFNO52WF46V",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/pixel\\/2S3WB2YZRNAT3GWS6NGYER\\/4EGYNYHL7ZCILGPMRY2WQE\\/BZENRMNMY5FMBEWRTDV7IC\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "rule": "adroll\\.com\\/onp\\/TXTTXV7EN5BPDDRPYM2KPO\\/PGUZUB7TRNBXFNO52WF46V",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
             "subdomains": [
-                "s"
+                "d"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2
-            },
+            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/URFYYWP7TRBZZDLQVLB3K7\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/URFYYWP7TRBZZDLQVLB3K7\\/P23AWSDPSZHSZBXCJ2YDR5",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/MDFNNTGZ5VBYZEQGZCKWIF\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/MDFNNTGZ5VBYZEQGZCKWIF\\/NIJYLMJIONGEPNF5J2SQWT",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/consent\\/check\\/6YG43M4EJVDQJJKGSQTW64\\/",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/6YG43M4EJVDQJJKGSQTW64\\/54A2SUKLJFEQLGNZJNGKRU",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/6YG43M4EJVDQJJKGSQTW64\\/54A2SUKLJFEQLGNZJNGKRU\\/3DWKY5TUGJHOZH3XRZEOY4\\.js",
@@ -991,65 +1598,44 @@
                 "Navigator.prototype.appVersion": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/consent\\/check\\/P3IHCONRLBGRVDC2DE4LNI\\/",
-            "cookies": 0.0000407,
+            "rule": "adroll\\.com\\/consent\\/check\\/TOXXN5KBKZBN7IFDGXHQ2U\\/",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/pixel\\/P3IHCONRLBGRVDC2DE4LNI\\/OPPNHUY3JFHEPD4ZWZMXRG",
-            "cookies": 0.0000407,
+            "rule": "adroll\\.com\\/pixel\\/TOXXN5KBKZBN7IFDGXHQ2U\\/5BW4OPVDYBEGFAPHWUXD7A",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/pixel\\/P3IHCONRLBGRVDC2DE4LNI\\/OPPNHUY3JFHEPD4ZWZMXRG\\/RQBNSKMZSZGPPPCWH7LKCQ\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {
-                "Document.cookie getter": 2,
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/cm\\/mk\\/P3IHCONRLBGRVDC2DE4LNI\\/in",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/6J6D4DZAZJB2DJWAON6FEK\\/RUQ4JGAXPFFKJLJHTDM2SA",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/6J6D4DZAZJB2DJWAON6FEK\\/RUQ4JGAXPFFKJLJHTDM2SA\\/K6GA7RVQ5JDHBLQ76QM5SU\\.js",
@@ -1062,177 +1648,212 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/pixel\\/PGANZPRR65CQTL5NVZ3GDF\\/LVCNOPAUMBBQ3KHPKNI7I4",
-            "cookies": 0.0000407,
+            "rule": "adroll\\.com\\/cm\\/aol,x,b,index,l,o,outbrain,pubmatic,n,taboola,triplelift,r\\/out",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/pixel\\/PGANZPRR65CQTL5NVZ3GDF\\/LVCNOPAUMBBQ3KHPKNI7I4\\/5LRJFCBSB5EP5C7V7V2LU7\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {
-                "Document.cookie getter": 2,
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/cm\\/mk\\/PGANZPRR65CQTL5NVZ3GDF\\/in",
-            "cookies": 0.0000203,
+            "rule": "adroll\\.com\\/consent\\/check\\/IXZC4QKE6BDSVNBBOX54JQ\\/",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/pixel\\/KQSNZBVBLJAM3BX2CPEMML\\/BMBNGXSSO5EARJWDN37NCP",
-            "cookies": 0.0000407,
+            "rule": "adroll\\.com\\/pixel\\/IXZC4QKE6BDSVNBBOX54JQ\\/3BQ2N447KNEODAIZTDTY2B",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/pixel\\/KQSNZBVBLJAM3BX2CPEMML\\/BMBNGXSSO5EARJWDN37NCP\\/DC5KNXCYZVDRBLO3BWZNLY\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "s"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/onp\\/6ZAEOMC4I5A75CF7OL7F4U\\/7SLPRWKO3BDFXKNNOA6L6G",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/consent\\/check\\/OIYPLQATH5BONH5TDO5SO2\\/",
-            "cookies": 0.0000407,
+            "rule": "adroll\\.com\\/onp\\/7363P3WEKVEY5ELME72236\\/7LVXHMTUYFAUJIPBUCKKMQ",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/pixel\\/OIYPLQATH5BONH5TDO5SO2\\/EJJQZB5OJRGH3OGRJUS3FE",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/consent\\/check\\/7HPIJKMO4ZA6XC7U4NDQ53\\/",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/7HPIJKMO4ZA6XC7U4NDQ53\\/S2JXKLKMFBAKDPSEZ3EO3X",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/UZ6KLH3SFFHGXARTYL3HIJ\\/VFUE7SHRNVHQLIXICLVR2X",
-            "cookies": 0.0000203,
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/ipixel\\/OAWX7PZTWZCELHM2DV67FF\\/LVRZDGR6ZVCJVA5O5MOMH6",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/FNMML3C2ZRAXTNYZAGTKZZ\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/FNMML3C2ZRAXTNYZAGTKZZ\\/MFXTMLZCQBDZPHVCIESZX5",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/NFWXEOP4KZBAZNBC5ORRVA\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/NFWXEOP4KZBAZNBC5ORRVA\\/5H4ZJZ746RDQLNZ7FYAHWM",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/consent\\/check\\/TQSV74R4GVCSJITSZC2MCP\\/",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/TQSV74R4GVCSJITSZC2MCP\\/ACPJ7LN56VBITNNAUDPDMG",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/consent\\/check\\/U3GTHGEVWRDSBMZGQALZBY\\/",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/U3GTHGEVWRDSBMZGQALZBY\\/EPITUWEBNBB7NOOSHIMDRK",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/U3GTHGEVWRDSBMZGQALZBY\\/EPITUWEBNBB7NOOSHIMDRK\\/P32ILXGGTZC2VNZDP3IJKM\\.js",
@@ -1247,18 +1868,20 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/H6QSRTNYTVH7HE3332AG6H\\/SLD62WUEQVGMFKFQ4GL5PT",
-            "cookies": 0.0000203,
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/H6QSRTNYTVH7HE3332AG6H\\/SLD62WUEQVGMFKFQ4GL5PT\\/RTVCN3E6NFBALMRCH2D3QM\\.js",
@@ -1272,58 +1895,77 @@
                 "Navigator.prototype.appVersion": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/onp\\/H6QSRTNYTVH7HE3332AG6H\\/SLD62WUEQVGMFKFQ4GL5PT",
-            "cookies": 0.0000407,
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/j\\/consent\\.js",
-            "cookies": 0,
+            "rule": "adroll\\.com\\/onp\\/K2NDTXMZWRG6JL7A3ZDWLK\\/YXUUS3DFURGCTCT3NOON4U",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/j\\/TAN6IAEBCRG4HI77A523U6\\/roundtrip\\.js",
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "s"
             ],
             "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
                 "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.languages": 2,
-                "Document.cookie getter": 2
+                "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/consent\\/check\\/RX2VF5MYI5H7FHIALPL5KM\\/",
-            "cookies": 0.0000407,
+            "rule": "adroll\\.com\\/uev\\/TAN6IAEBCRG4HI77A523U6\\/OB34G63TNVDBDFYXJK4QGM\\/",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/pixel\\/RX2VF5MYI5H7FHIALPL5KM\\/YBET2O2U7BHZTN7BN4RWCC",
-            "cookies": 0.0000407,
+            "rule": "adroll\\.com\\/pixel\\/NYUSSJVFHNEMDF7SEYLD53\\/VFWQVABT7NGM7NWHV2TQ3O",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/pixel\\/RX2VF5MYI5H7FHIALPL5KM\\/YBET2O2U7BHZTN7BN4RWCC\\/ANELZFAKWJA4DD5A5QMSGF\\.js",
+            "rule": "adroll\\.com\\/pixel\\/NYUSSJVFHNEMDF7SEYLD53\\/VFWQVABT7NGM7NWHV2TQ3O\\/6NISGRRFSFAMZPBWDXCJGK\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -1333,18 +1975,20 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/ZG3NHHOU3JEIBOEJTCSUFZ\\/AO3NS2WAOFEX3GAKROM6MS",
-            "cookies": 0.0000407,
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/ZG3NHHOU3JEIBOEJTCSUFZ\\/AO3NS2WAOFEX3GAKROM6MS\\/X65ROTIM25FPVJE6IQPVUR\\.js",
@@ -1359,165 +2003,274 @@
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/onp\\/ZG3NHHOU3JEIBOEJTCSUFZ\\/AO3NS2WAOFEX3GAKROM6MS",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/uev\\/YCWUPE3SIBGXZK6PO7HBAM\\/AEXUHWR6MBHA7LPLQ4TRZE\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/D7KBNFBO5JAEXBP536ONRR\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/D7KBNFBO5JAEXBP536ONRR\\/PF5BRJJXNJBGDOXMYCVPQA",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/mk\\/D7KBNFBO5JAEXBP536ONRR\\/in",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/consent\\/check\\/HOZIEY4RO5EKXIRFBOYAQC\\/",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/HOZIEY4RO5EKXIRFBOYAQC\\/7D4ETNN7A5EQTMXXSBSDVR",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/DK4VOYOMMJBNFB3VZIDRE5\\/2DVXUM2UHBACFEI2MQ4UTJ",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/p\\/DK4VOYOMMJBNFB3VZIDRE5\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/consent\\/check\\/Y4CSZ2JK3FHKZJS3KXCXK5\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/Y4CSZ2JK3FHKZJS3KXCXK5\\/6NZ5UUK5HNGORFBP63GDMI",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/onp\\/KWWH7SLZ35BT3IBI4ECVGF\\/SP2E3HMJINAOTOVNVIIZGJ",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/onp\\/CT4K4JB4MVGELBHTDF2553\\/SU7YUXKZFVEKHKP3MCSRDP",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/onp\\/PKEQVKMUXJHT3CR2LWE4UL\\/WYEUUBR4YZEVFKVHTP75JO",
-            "cookies": 0.0000407,
+            "rule": "adroll\\.com\\/pixel\\/YG45BXL2N5C7TCVFIDXIVO\\/EUWDF3PU6ZHIZHVSW2QNTA",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/consent\\/check\\/KCWOQFHKUZF3BJ4ARRVJFH\\/",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/pixel\\/KCWOQFHKUZF3BJ4ARRVJFH\\/GVVGIIR7PRESXB7GR5WLNB",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/consent\\/check\\/DTQVZ23GK5GL7FICZ2ROKZ\\/",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/pixel\\/DTQVZ23GK5GL7FICZ2ROKZ\\/TTNYNMMPNZFFZJ2FVX25R7",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/pixel\\/X2BUE4VVENBKFPLTTAEPVU\\/LLY3WYQ7VJFHTPG7NG6LA3",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/pixel\\/VO63OTEP4BELZEML2KNBGA\\/SJ33IKERC5FFNIQ7BCUMSO",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "d"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adroll\\.com\\/pixel\\/VO63OTEP4BELZEML2KNBGA\\/SJ33IKERC5FFNIQ7BCUMSO\\/XORC2Z4TPNGNJF3FAAL3J7\\.js",
+            "rule": "adroll\\.com\\/pixel\\/YG45BXL2N5C7TCVFIDXIVO\\/EUWDF3PU6ZHIZHVSW2QNTA\\/ZHCJ7DZHNJFBNPBUUO6ZNX\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "s"
             ],
             "apis": {
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.appVersion": 2,
                 "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "adroll\\.com\\/onp\\/VO63OTEP4BELZEML2KNBGA\\/SJ33IKERC5FFNIQ7BCUMSO",
-            "cookies": 0.0000203,
+            "rule": "adroll\\.com\\/pixel\\/JHCFOAP5XFCFFM4PJER7IL\\/5ZE24OFHNZEIVIJNRA3BXE",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/onp\\/GFWUL3EDYBEFPNWAYVLR2P\\/UK6UWG75DBC3NOCUSAKJXR",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/F6AEHQKVW5CGJHY2QK42AD\\/DNYPUUGCVFERLANLMQYTLT",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/X2BUE4VVENBKFPLTTAEPVU\\/LLY3WYQ7VJFHTPG7NG6LA3",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "adroll\\.com\\/pixel\\/E7I33KQGL5A6NJI5KINYUI\\/RLSAEGKZ4VCYFF4ZWXI5SU",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/consent\\/check\\/FUWIL5EFZFEYPPCU3W4D43\\/",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "adroll\\.com\\/pixel\\/FUWIL5EFZFEYPPCU3W4D43\\/TIPZGAD2UZB3LJMJGRO3BC",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "d"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -1530,5 +2283,9 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.0105
+    "cookies": 0.0111,
+    "types": {
+        "Script": 1029,
+        "Image": 10942
+    }
 }

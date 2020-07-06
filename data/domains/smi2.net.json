@@ -7,35 +7,26 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000427,
+    "prevalence": 0.000287,
     "sites": 21,
     "subdomains": [
         "target",
         "static"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "smi2\\.net\\/init\\/push\\/",
-            "cookies": 0.000244,
-            "fingerprinting": 0,
-            "subdomains": [
-                "target"
-            ],
-            "apis": {},
-            "sites": 12,
-            "prevalence": 0.000244
-        },
-        {
             "rule": "smi2\\.net\\/init\\/",
-            "cookies": 0.000163,
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
                 "target"
             ],
             "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
         },
         {
             "rule": "smi2\\.net\\/static\\/jsapi\\/jsapi\\.v1\\.18\\.0\\.ru_RU\\.js",
@@ -45,24 +36,11 @@
                 "static"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5
+                "Navigator.prototype.userAgent": 7
             },
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "smi2\\.net\\/static\\/jsapi\\/jsapi\\.v1\\.17\\.0\\.ru_RU\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "Date.prototype.getTime": 1
-            },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -72,5 +50,9 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.000407
+    "cookies": 0.0000137,
+    "types": {
+        "Image": 9,
+        "Script": 7
+    }
 }

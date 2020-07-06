@@ -9,12 +9,13 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0333,
-    "sites": 1637,
+    "prevalence": 0.0394,
+    "sites": 2881,
     "subdomains": [
         "js-sec"
     ],
-    "fingerprinting": 2,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
             "rule": "indexww\\.com\\/ht\\/p\\/187177-100482611063863\\.js",
@@ -24,85 +25,19 @@
                 "js-sec"
             ],
             "apis": {
-                "window.localStorage": 4,
-                "Date.prototype.getTime": 4,
-                "Screen.prototype.width": 4,
-                "Screen.prototype.height": 4,
-                "Navigator.prototype.doNotTrack": 4,
-                "Navigator.prototype.language": 4,
-                "Navigator.prototype.vendor": 4,
-                "Navigator.prototype.userAgent": 4,
-                "Date.prototype.getTimezoneOffset": 4
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6,
+                "Date.prototype.getTime": 6,
+                "Screen.prototype.height": 6,
+                "Screen.prototype.width": 6,
+                "Navigator.prototype.doNotTrack": 6,
+                "Navigator.prototype.language": 6,
+                "Navigator.prototype.vendor": 6,
+                "Date.prototype.getTimezoneOffset": 6
             },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/182496-52135363727691\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 321,
-                "window.localStorage": 427,
-                "Date.prototype.getTime": 427
-            },
-            "sites": 445,
-            "prevalence": 0.00905
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/185643-100517605785273\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 8,
-                "window.localStorage": 8,
-                "Date.prototype.getTime": 8
-            },
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/184003-120265096078396\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "window.localStorage": 3,
-                "Date.prototype.getTime": 3,
-                "Date.prototype.getTimezoneOffset": 3,
-                "Screen.prototype.width": 3,
-                "Screen.prototype.height": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/183649-131226622119371\\.js",
-            "cookies": 0,
-            "fingerprinting": 2,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 1,
-                "Screen.prototype.width": 1,
-                "Screen.prototype.height": 1,
-                "Navigator.prototype.doNotTrack": 1,
-                "Navigator.prototype.language": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/183734-166492037162020\\.js",
@@ -112,60 +47,215 @@
                 "js-sec"
             ],
             "apis": {
-                "window.localStorage": 34,
-                "Date.prototype.getTime": 34,
-                "Navigator.prototype.userAgent": 32
+                "Navigator.prototype.userAgent": 54,
+                "window.localStorage": 58,
+                "Date.prototype.getTime": 58
             },
-            "sites": 34,
-            "prevalence": 0.000692
+            "sites": 58,
+            "prevalence": 0.000794,
+            "cnames": []
         },
         {
-            "rule": "indexww\\.com\\/ht\\/p\\/183789-71940066017360\\.js",
+            "rule": "indexww\\.com\\/ht\\/p\\/182496-52135363727691\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js-sec"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 32,
-                "window.localStorage": 32,
-                "Date.prototype.getTime": 32
+                "Navigator.prototype.userAgent": 288,
+                "window.localStorage": 288,
+                "Date.prototype.getTime": 288
             },
-            "sites": 32,
-            "prevalence": 0.000651
+            "sites": 307,
+            "prevalence": 0.0042,
+            "cnames": []
         },
         {
-            "rule": "indexww\\.com\\/ht\\/p\\/183816-263227036570116\\.js",
+            "rule": "indexww\\.com\\/ht\\/p\\/184603-162081718941194\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 11,
+                "window.localStorage": 11,
+                "Date.prototype.getTime": 11,
+                "Navigator.prototype.doNotTrack": 11,
+                "Screen.prototype.height": 11,
+                "Screen.prototype.width": 11,
+                "Navigator.prototype.language": 11
+            },
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/184908-258782673964205\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js-sec"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 12,
+                "Navigator.prototype.userAgent": 9,
                 "window.localStorage": 12,
-                "Date.prototype.getTime": 12
+                "Date.prototype.getTime": 12,
+                "Screen.prototype.width": 12,
+                "Screen.prototype.height": 12
             },
             "sites": 12,
-            "prevalence": 0.000244
+            "prevalence": 0.000164,
+            "cnames": []
         },
         {
-            "rule": "indexww\\.com\\/ht\\/p\\/187614-56507003895081\\.js",
+            "rule": "indexww\\.com\\/ht\\/p\\/184603-188401571569454\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/185643-100517605785273\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js-sec"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 18,
-                "window.localStorage": 23,
-                "Date.prototype.getTime": 23
+                "Navigator.prototype.userAgent": 20,
+                "window.localStorage": 20,
+                "Date.prototype.getTime": 20
             },
-            "sites": 23,
-            "prevalence": 0.000468
+            "sites": 20,
+            "prevalence": 0.000274,
+            "cnames": []
         },
         {
-            "rule": "indexww\\.com\\/ht\\/p\\/185832-25695699476940\\.js",
+            "rule": "indexww\\.com\\/ht\\/p\\/184603-263168362046959\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/183085-60958966556836\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 44,
+                "window.localStorage": 47,
+                "Date.prototype.getTime": 47
+            },
+            "sites": 47,
+            "prevalence": 0.000643,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/184003-186290938447418\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "Navigator.prototype.language": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/186329-261067657875242\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 49,
+                "window.localStorage": 49,
+                "Date.prototype.getTime": 49
+            },
+            "sites": 49,
+            "prevalence": 0.00067,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/183649-131226622119371\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/184808-89514051626416\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 65,
+                "window.localStorage": 65,
+                "Date.prototype.getTime": 65
+            },
+            "sites": 65,
+            "prevalence": 0.000889,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/183973-93942139695505\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -177,23 +267,56 @@
                 "Date.prototype.getTime": 10
             },
             "sites": 10,
-            "prevalence": 0.000203
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
-            "rule": "indexww\\.com\\/ht\\/p\\/184795-45553530326378\\.js",
+            "rule": "indexww\\.com\\/ht\\/p\\/183816-263227036570116\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js-sec"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2,
-                "Document.cookie getter": 2
+                "Navigator.prototype.userAgent": 9,
+                "window.localStorage": 9,
+                "Date.prototype.getTime": 9
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/183789-71940066017360\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 36,
+                "window.localStorage": 36,
+                "Date.prototype.getTime": 36
+            },
+            "sites": 36,
+            "prevalence": 0.000493,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/191231-96143263832481\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "window.localStorage": 10,
+                "Date.prototype.getTime": 10
+            },
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/187822-206083581007264\\.js",
@@ -203,12 +326,13 @@
                 "js-sec"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 7,
-                "window.localStorage": 7,
-                "Date.prototype.getTime": 7
+                "Navigator.prototype.userAgent": 8,
+                "window.localStorage": 8,
+                "Date.prototype.getTime": 8
             },
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/185848-258791064588451\\.js",
@@ -218,132 +342,32 @@
                 "js-sec"
             ],
             "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 8,
+                "Date.prototype.getTime": 8,
+                "Date.prototype.getTimezoneOffset": 8,
+                "Screen.prototype.width": 8,
+                "Screen.prototype.height": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/184268-232459109157499\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 9,
                 "window.localStorage": 9,
-                "Date.prototype.getTime": 9,
-                "Date.prototype.getTimezoneOffset": 9,
-                "Screen.prototype.width": 9,
-                "Screen.prototype.height": 9,
-                "Navigator.prototype.userAgent": 4
+                "Date.prototype.getTime": 9
             },
             "sites": 9,
-            "prevalence": 0.000183
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/188123-254425063722634\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "window.localStorage": 3,
-                "Date.prototype.getTime": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/183623-32289396185049\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 3,
-                "Date.prototype.getTime": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/183623-280779024863820\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 4,
-                "Date.prototype.getTime": 4
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/183623-247793676261925\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/184603-162081718941194\\.js",
-            "cookies": 0,
-            "fingerprinting": 2,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "window.localStorage": 7,
-                "Date.prototype.getTime": 7,
-                "Navigator.prototype.userAgent": 7,
-                "Navigator.prototype.doNotTrack": 7,
-                "Screen.prototype.height": 7,
-                "Screen.prototype.width": 7,
-                "Navigator.prototype.language": 7
-            },
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/htw-complex-media\\.js",
-            "cookies": 0,
-            "fingerprinting": 2,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 10,
-                "window.localStorage": 10,
-                "Date.prototype.getTime": 10,
-                "Screen.prototype.width": 9,
-                "Screen.prototype.height": 9,
-                "Navigator.prototype.doNotTrack": 8,
-                "Navigator.prototype.language": 8,
-                "Document.cookie getter": 2
-            },
-            "sites": 10,
-            "prevalence": 0.000203
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/185605-87320253091490\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "window.localStorage": 3,
-                "Date.prototype.getTime": 3,
-                "Navigator.prototype.userAgent": 3,
-                "Screen.prototype.width": 3,
-                "Screen.prototype.height": 3,
-                "window.devicePixelRatio": 3,
-                "Navigator.prototype.connection": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000123,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/185796-232406335814192\\.js",
@@ -353,75 +377,51 @@
                 "js-sec"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 7,
-                "window.localStorage": 7,
-                "Date.prototype.getTime": 7,
-                "Document.cookie getter": 6
+                "Navigator.prototype.userAgent": 11,
+                "window.localStorage": 11,
+                "Date.prototype.getTime": 11,
+                "Document.cookie getter": 9
             },
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 11,
+            "prevalence": 0.000151,
+            "cnames": []
         },
         {
-            "rule": "indexww\\.com\\/ht\\/p\\/184808-89514051626416\\.js",
+            "rule": "indexww\\.com\\/ht\\/p\\/185640-252197778795886\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 63,
-                "window.localStorage": 63,
-                "Date.prototype.getTime": 63
-            },
-            "sites": 63,
-            "prevalence": 0.00128
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/183816-221446884420070\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/187923-146671730310953\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "js-sec"
             ],
             "apis": {
                 "window.localStorage": 3,
                 "Date.prototype.getTime": 3,
-                "Navigator.prototype.userAgent": 1,
-                "Screen.prototype.width": 1,
-                "Screen.prototype.height": 1
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.language": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "indexww\\.com\\/ht\\/p\\/183728-263247582760838\\.js",
+            "rule": "indexww\\.com\\/ht\\/p\\/183957-47751755686051\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js-sec"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "window.localStorage": 3,
-                "Date.prototype.getTime": 3
+                "Navigator.prototype.userAgent": 13,
+                "window.localStorage": 20,
+                "Date.prototype.getTime": 20
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 20,
+            "prevalence": 0.000274,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/185796-219213027941318\\.js",
@@ -437,76 +437,65 @@
                 "Document.cookie getter": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "indexww\\.com\\/ht\\/p\\/187177-85099826625633\\.js",
+            "rule": "indexww\\.com\\/ht\\/p\\/191952-274266505480418\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/184603-19076781082179\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
                 "js-sec"
             ],
             "apis": {
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2,
-                "Screen.prototype.width": 1,
-                "Screen.prototype.height": 1,
-                "Date.prototype.getTimezoneOffset": 1,
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.doNotTrack": 1,
-                "Navigator.prototype.language": 1,
-                "Navigator.prototype.vendor": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/185796-203819034025539\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
                 "Navigator.prototype.userAgent": 2,
                 "window.localStorage": 2,
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "indexww\\.com\\/htv\\/htv-jwplayer\\.min\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 3
-            },
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/184306-239011989430694\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "window.localStorage": 2,
                 "Date.prototype.getTime": 2,
-                "Screen.prototype.width": 2,
+                "Navigator.prototype.doNotTrack": 2,
                 "Screen.prototype.height": 2,
-                "Navigator.prototype.userAgent": 2
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.language": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/186905-129106728116453\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 13,
+                "window.localStorage": 13,
+                "Date.prototype.getTime": 13
+            },
+            "sites": 13,
+            "prevalence": 0.000178,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/184999-65336263944931\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -517,96 +506,139 @@
                 "window.localStorage": 6,
                 "Date.prototype.getTime": 6
             },
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
-            "rule": "indexww\\.com\\/ht\\/p\\/184031-126856402220676\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "window.localStorage": 4,
-                "Date.prototype.getTime": 4,
-                "Navigator.prototype.userAgent": 1,
-                "Screen.prototype.width": 1,
-                "Screen.prototype.height": 1
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/185640-252197778795886\\.js",
+            "rule": "indexww\\.com\\/ht\\/p\\/184056-184008355455774-stage\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
                 "js-sec"
             ],
             "apis": {
-                "window.localStorage": 3,
-                "Date.prototype.getTime": 3,
-                "Date.prototype.getTimezoneOffset": 3,
-                "Screen.prototype.width": 3,
-                "Screen.prototype.height": 3,
-                "Navigator.prototype.doNotTrack": 3,
-                "Navigator.prototype.userAgent": 3,
-                "Navigator.prototype.language": 3
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.language": 2,
+                "Date.prototype.getTimezoneOffset": 2
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "indexww\\.com\\/ht\\/htw-wapo\\.js",
+            "rule": "indexww\\.com\\/ht\\/p\\/184031-126856402220676\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 5,
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.doNotTrack": 5,
+                "Screen.prototype.height": 5,
+                "Screen.prototype.width": 5,
+                "Navigator.prototype.language": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/180447-192872210293780\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js-sec"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.userAgent": 3,
                 "window.localStorage": 3,
                 "Date.prototype.getTime": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
-            "rule": "indexww\\.com\\/ht\\/p\\/187089-115874910390705\\.js",
+            "rule": "indexww\\.com\\/ht\\/p\\/188610-14764350600421\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js-sec"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.userAgent": 20,
+                "window.localStorage": 20,
+                "Date.prototype.getTime": 20
+            },
+            "sites": 20,
+            "prevalence": 0.000274,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/183706-230280665431787\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
                 "window.localStorage": 2,
                 "Date.prototype.getTime": 2,
+                "Document.cookie getter": 1,
                 "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2
+                "Screen.prototype.height": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.connection": 2,
+                "Date.prototype.getTimezoneOffset": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "indexww\\.com\\/ht\\/p\\/182851-247776411096411\\.js",
+            "rule": "indexww\\.com\\/ht\\/p\\/188836-276462118897697\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js-sec"
             ],
             "apis": {
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2,
-                "Screen.prototype.width": 1,
-                "Screen.prototype.height": 1
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 5,
+                "Date.prototype.getTime": 5
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
-            "rule": "indexww\\.com\\/ht\\/p\\/184056-184008355455774\\.js",
+            "rule": "indexww\\.com\\/ht\\/p\\/190901-124716667027312\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/184003-157703636178201\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
@@ -623,51 +655,8 @@
                 "Date.prototype.getTimezoneOffset": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/184268-232459109157499\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 5,
-                "window.localStorage": 6,
-                "Date.prototype.getTime": 6
-            },
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/180447-192872210293780\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "window.localStorage": 3,
-                "Date.prototype.getTime": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/188610-14764350600421\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 16,
-                "window.localStorage": 16,
-                "Date.prototype.getTime": 16
-            },
-            "sites": 16,
-            "prevalence": 0.000325
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/186247-34549482148542\\.js",
@@ -677,15 +666,56 @@
                 "js-sec"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 5,
-                "window.localStorage": 5,
-                "Date.prototype.getTime": 5
+                "Navigator.prototype.userAgent": 7,
+                "window.localStorage": 7,
+                "Date.prototype.getTime": 7
             },
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
-            "rule": "indexww\\.com\\/ht\\/p\\/186025-168633605108708\\.js",
+            "rule": "indexww\\.com\\/ht\\/p\\/184603-113634444016125\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/184603-249973885821915\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/184603-47664082925492\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
@@ -701,7 +731,24 @@
                 "Navigator.prototype.language": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/186854-113710634486999\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6,
+                "Date.prototype.getTime": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/185246-89463658398018\\.js",
@@ -716,21 +763,8 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/190540-252270681542653\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/185796-36689253545932\\.js",
@@ -742,10 +776,12 @@
             "apis": {
                 "Navigator.prototype.userAgent": 2,
                 "window.localStorage": 2,
-                "Date.prototype.getTime": 2
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/184420-206061224758754\\.js",
@@ -762,24 +798,8 @@
                 "Screen.prototype.height": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/184420-129084536585916\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 1,
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/184908-241185131738393\\.js",
@@ -789,78 +809,47 @@
                 "js-sec"
             ],
             "apis": {
-                "window.localStorage": 1,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "indexww\\.com\\/ht\\/p\\/186854-113710634486999\\.js",
+            "rule": "indexww\\.com\\/ht\\/p\\/182851-247776411096411\\.js",
             "cookies": 0,
             "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "window.localStorage": 4,
-                "Date.prototype.getTime": 4
-            },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/183623-63075722073096\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 3,
-                "Date.prototype.getTime": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/183623-157633722289742\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 3,
-                "Date.prototype.getTime": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/186025-23498070352008\\.js",
-            "cookies": 0,
-            "fingerprinting": 2,
             "subdomains": [
                 "js-sec"
             ],
             "apis": {
                 "window.localStorage": 2,
                 "Date.prototype.getTime": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Navigator.prototype.doNotTrack": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.language": 2
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "indexww\\.com\\/ht\\/p\\/190901-124716667027312\\.js",
+            "rule": "indexww\\.com\\/htv\\/htv-jwplayer\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3
+            },
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/188123-254425063722634\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -872,7 +861,30 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/185274-56546406295497\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.vendor": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/184163-80734171996343\\.js",
@@ -882,30 +894,16 @@
                 "js-sec"
             ],
             "apis": {
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 1
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/189336-210459012582455\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/188607-104920660844159\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -917,10 +915,99 @@
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/187614-56507003895081\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 24,
+                "window.localStorage": 25,
+                "Date.prototype.getTime": 25
+            },
+            "sites": 25,
+            "prevalence": 0.000342,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/185497-164226995996356\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/183734-148898461760049\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/184635-54261326282952\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/htw-wapo\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/184603-186202549686371\\.js",
             "cookies": 0,
             "fingerprinting": 2,
             "subdomains": [
@@ -933,41 +1020,129 @@
                 "Navigator.prototype.doNotTrack": 2,
                 "Screen.prototype.height": 2,
                 "Screen.prototype.width": 2,
-                "Navigator.prototype.language": 2,
-                "Date.prototype.getTimezoneOffset": 2
+                "Navigator.prototype.language": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "indexww\\.com\\/ht\\/htw-wb\\.js",
+            "rule": "indexww\\.com\\/ht\\/p\\/184603-12479374043799\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "js-sec"
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 2,
                 "window.localStorage": 2,
-                "Date.prototype.getTime": 2
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.language": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "indexww\\.com\\/ht\\/p\\/184031-100468124791527\\.js",
+            "rule": "indexww\\.com\\/ht\\/p\\/184603-129027944107633\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/184603-280760548403365\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/184603-155416222999223\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/184603-74052362335812\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
             "subdomains": [
                 "js-sec"
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 2,
                 "window.localStorage": 2,
-                "Date.prototype.getTime": 2
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.language": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/184979-164251977320883\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 32,
+                "window.localStorage": 34,
+                "Date.prototype.getTime": 34,
+                "Screen.prototype.width": 34,
+                "Screen.prototype.height": 34
+            },
+            "sites": 34,
+            "prevalence": 0.000465,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/184315-245630868000145\\.js",
@@ -985,39 +1160,8 @@
                 "Screen.prototype.height": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/184979-164251977320883\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "window.localStorage": 49,
-                "Date.prototype.getTime": 49,
-                "Screen.prototype.width": 49,
-                "Screen.prototype.height": 49,
-                "Navigator.prototype.userAgent": 32
-            },
-            "sites": 49,
-            "prevalence": 0.000997
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/183973-93942139695505\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 4,
-                "window.localStorage": 6,
-                "Date.prototype.getTime": 6
-            },
-            "sites": 6,
-            "prevalence": 0.000122
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/htw-tenhome\\.js",
@@ -1028,30 +1172,30 @@
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 5,
-                "window.localStorage": 5,
-                "Date.prototype.getTime": 5,
-                "Screen.prototype.width": 3,
-                "Screen.prototype.height": 3
+                "window.localStorage": 7,
+                "Date.prototype.getTime": 7,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7
             },
-            "sites": 6,
-            "prevalence": 0.000122
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
-            "rule": "indexww\\.com\\/ht\\/htw-baltimore-sun\\.js",
+            "rule": "indexww\\.com\\/ht\\/p\\/191040-27970744739601\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "js-sec"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.userAgent": 2,
                 "window.localStorage": 2,
-                "Date.prototype.getTime": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2
+                "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/183763-221412910371223\\.js",
@@ -1061,14 +1205,15 @@
                 "js-sec"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 35,
-                "window.localStorage": 35,
-                "Date.prototype.getTime": 35,
-                "Screen.prototype.width": 35,
-                "Screen.prototype.height": 35
+                "Navigator.prototype.userAgent": 32,
+                "window.localStorage": 32,
+                "Date.prototype.getTime": 32,
+                "Screen.prototype.width": 32,
+                "Screen.prototype.height": 32
             },
-            "sites": 35,
-            "prevalence": 0.000712
+            "sites": 32,
+            "prevalence": 0.000438,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/184414-82921100256406\\.js",
@@ -1078,12 +1223,46 @@
                 "js-sec"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 8,
-                "window.localStorage": 8,
-                "Date.prototype.getTime": 8
+                "Navigator.prototype.userAgent": 9,
+                "window.localStorage": 9,
+                "Date.prototype.getTime": 9
             },
-            "sites": 8,
-            "prevalence": 0.000163
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/184613-247874563754827\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/184795-45553530326378\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/185707-192819229389900\\.js",
@@ -1093,16 +1272,17 @@
                 "js-sec"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 11,
-                "window.localStorage": 14,
-                "Date.prototype.getTime": 14,
-                "Navigator.prototype.doNotTrack": 11,
-                "Screen.prototype.height": 7,
-                "Screen.prototype.width": 7,
-                "Navigator.prototype.language": 11
+                "Navigator.prototype.userAgent": 10,
+                "window.localStorage": 10,
+                "Date.prototype.getTime": 10,
+                "Screen.prototype.width": 10,
+                "Screen.prototype.height": 10,
+                "Navigator.prototype.doNotTrack": 10,
+                "Navigator.prototype.language": 10
             },
-            "sites": 14,
-            "prevalence": 0.000285
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/185246-217006573922036\\.js",
@@ -1112,15 +1292,16 @@
                 "js-sec"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 19,
-                "window.localStorage": 19,
-                "Date.prototype.getTime": 19,
-                "Screen.prototype.width": 19,
-                "Screen.prototype.height": 19,
-                "Date.prototype.getTimezoneOffset": 19
+                "Navigator.prototype.userAgent": 12,
+                "window.localStorage": 12,
+                "Date.prototype.getTime": 12,
+                "Screen.prototype.width": 12,
+                "Screen.prototype.height": 12,
+                "Date.prototype.getTimezoneOffset": 12
             },
-            "sites": 19,
-            "prevalence": 0.000386
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/185598-69743361691179\\.js",
@@ -1130,12 +1311,13 @@
                 "js-sec"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 8,
-                "window.localStorage": 9,
-                "Date.prototype.getTime": 9
+                "Navigator.prototype.userAgent": 10,
+                "window.localStorage": 10,
+                "Date.prototype.getTime": 10
             },
-            "sites": 9,
-            "prevalence": 0.000183
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/186772-186243221999091\\.js",
@@ -1145,33 +1327,17 @@
                 "js-sec"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 12,
-                "window.localStorage": 12,
-                "Date.prototype.getTime": 12,
-                "Navigator.prototype.doNotTrack": 12,
-                "Screen.prototype.height": 12,
-                "Screen.prototype.width": 12,
-                "Navigator.prototype.language": 12
+                "Navigator.prototype.userAgent": 15,
+                "window.localStorage": 15,
+                "Date.prototype.getTime": 15,
+                "Screen.prototype.width": 15,
+                "Screen.prototype.height": 15,
+                "Navigator.prototype.doNotTrack": 15,
+                "Navigator.prototype.language": 15
             },
-            "sites": 12,
-            "prevalence": 0.000244
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/186432-278594325649166\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 3,
-                "window.localStorage": 3,
-                "Date.prototype.getTime": 3,
-                "Screen.prototype.width": 3,
-                "Screen.prototype.height": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 15,
+            "prevalence": 0.000205,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/184315-168664270883110\\.js",
@@ -1181,15 +1347,34 @@
                 "js-sec"
             ],
             "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 5,
+                "Date.prototype.getTime": 5,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/186432-278594325649166\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
                 "Navigator.prototype.userAgent": 4,
                 "window.localStorage": 4,
                 "Date.prototype.getTime": 4,
-                "Date.prototype.getTimezoneOffset": 1,
-                "Screen.prototype.width": 1,
-                "Screen.prototype.height": 1
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4
             },
             "sites": 4,
-            "prevalence": 0.0000814
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/185707-137843649619688\\.js",
@@ -1199,49 +1384,17 @@
                 "js-sec"
             ],
             "apis": {
-                "window.localStorage": 4,
-                "Date.prototype.getTime": 4,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Navigator.prototype.doNotTrack": 2,
-                "Navigator.prototype.userAgent": 2,
-                "Navigator.prototype.language": 2
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 5,
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.doNotTrack": 5,
+                "Screen.prototype.height": 5,
+                "Screen.prototype.width": 5,
+                "Navigator.prototype.language": 5
             },
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/191612-91743247598437\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.userAgent": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/185246-80671361353614\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 1,
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "Date.prototype.getTimezoneOffset": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/185246-267577554524813\\.js",
@@ -1251,18 +1404,19 @@
                 "js-sec"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 6,
-                "window.localStorage": 7,
-                "Date.prototype.getTime": 7,
-                "Date.prototype.getTimezoneOffset": 7,
-                "Screen.prototype.width": 7,
-                "Screen.prototype.height": 7
+                "Navigator.prototype.userAgent": 8,
+                "window.localStorage": 8,
+                "Date.prototype.getTime": 8,
+                "Date.prototype.getTimezoneOffset": 8,
+                "Screen.prototype.width": 8,
+                "Screen.prototype.height": 8
             },
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 8,
+            "prevalence": 0.000109,
+            "cnames": []
         },
         {
-            "rule": "indexww\\.com\\/ht\\/ls-tenauto\\.js",
+            "rule": "indexww\\.com\\/ht\\/p\\/184306-272001421946651\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -1270,10 +1424,14 @@
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 2,
-                "Date.prototype.getTime": 2
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/183560-142256617093748\\.js",
@@ -1283,28 +1441,13 @@
                 "js-sec"
             ],
             "apis": {
-                "window.localStorage": 3,
-                "Date.prototype.getTime": 3,
-                "Navigator.prototype.userAgent": 1
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4,
+                "Date.prototype.getTime": 4
             },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "indexww\\.com\\/ht\\/p\\/183706-19155680655941\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "js-sec"
-            ],
-            "apis": {
-                "window.localStorage": 1,
-                "Date.prototype.getTime": 1,
-                "window.devicePixelRatio": 1,
-                "Navigator.prototype.connection": 1
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/182970-203800257961387\\.js",
@@ -1322,10 +1465,31 @@
                 "Date.prototype.getTimezoneOffset": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/190116-151096874730217\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 5,
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.doNotTrack": 5,
+                "Screen.prototype.height": 5,
+                "Screen.prototype.width": 5,
+                "Navigator.prototype.language": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/183710-45570288205667\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -1333,32 +1497,27 @@
             ],
             "apis": {
                 "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 4,
-                "Date.prototype.getTime": 4,
-                "Screen.prototype.width": 4,
-                "Screen.prototype.height": 4
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "indexww\\.com\\/ht\\/htw-ib-classified\\.js",
+            "rule": "indexww\\.com\\/ht\\/ls-tenauto\\.js",
             "cookies": 0,
-            "fingerprinting": 2,
+            "fingerprinting": 1,
             "subdomains": [
                 "js-sec"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 2,
-                "window.localStorage": 2,
-                "Date.prototype.getTime": 2,
-                "Navigator.prototype.doNotTrack": 2,
-                "Screen.prototype.height": 2,
-                "Screen.prototype.width": 2,
-                "Navigator.prototype.language": 2
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "indexww\\.com\\/ht\\/p\\/181778-184057524023818\\.js",
@@ -1368,11 +1527,45 @@
                 "js-sec"
             ],
             "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/181778-181858500720169\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
                 "window.localStorage": 2,
                 "Date.prototype.getTime": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "indexww\\.com\\/ht\\/p\\/188774-280850109457058\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-sec"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [
@@ -1385,5 +1578,8 @@
         "cpu": 1,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 1049
+    }
 }

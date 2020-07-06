@@ -4,45 +4,37 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
-    "sites": 5,
+    "prevalence": 0.0000547,
+    "sites": 4,
     "subdomains": [
         "www"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "clickthruhost\\.com\\/delivery\\/spc\\.php",
-            "cookies": 0.000061,
+            "rule": "clickthruhost\\.com\\/delivery\\/asyncspc\\.php",
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
             "sites": 4,
-            "prevalence": 0.0000814
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "clickthruhost\\.com\\/delivery\\/lg\\.php",
-            "cookies": 0.000122,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "www"
             ],
             "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "clickthruhost\\.com\\/delivery\\/asyncspc\\.php",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "www"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -52,5 +44,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000102
+    "cookies": 0.0000547,
+    "types": {
+        "XHR": 4,
+        "Image": 5
+    }
 }

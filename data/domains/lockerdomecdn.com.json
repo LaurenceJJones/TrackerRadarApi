@@ -9,27 +9,15 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0012,
-    "sites": 59,
+    "prevalence": 0.000862,
+    "sites": 63,
     "subdomains": [
         "cdn2",
         "cdn1"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
-        {
-            "rule": "lockerdomecdn\\.com\\/_js\\/ajs\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn2"
-            ],
-            "apis": {
-                "window.name": 1
-            },
-            "sites": 39,
-            "prevalence": 0.000793
-        },
         {
             "rule": "lockerdomecdn\\.com\\/_js\\/dfp\\.js",
             "cookies": 0,
@@ -38,10 +26,11 @@
                 "cdn2"
             ],
             "apis": {
-                "window.name": 3
+                "window.name": 4
             },
             "sites": 4,
-            "prevalence": 0.0000814
+            "prevalence": 0.0000547,
+            "cnames": []
         },
         {
             "rule": "lockerdomecdn\\.com\\/_js\\/vendor\\/vendor\\.1504551280\\.js",
@@ -56,10 +45,11 @@
                 "Screen.prototype.width": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "lockerdomecdn\\.com\\/shards\\/client_app_1584658678\\.js",
+            "rule": "lockerdomecdn\\.com\\/shards\\/client_app_1592924405\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -68,89 +58,12 @@
             "apis": {
                 "Date.prototype.getTime": 2,
                 "Document.cookie getter": 2,
-                "Date.prototype.getTimezoneOffset": 2,
+                "Date.prototype.getTimezoneOffset": 1,
                 "Navigator.prototype.userAgent": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "lockerdomecdn\\.com\\/shards\\/1916_1584658678\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn1"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "lockerdomecdn\\.com\\/shards\\/1903_1584658678\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn1"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "lockerdomecdn\\.com\\/shards\\/1715_1584658678\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn1"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "lockerdomecdn\\.com\\/shards\\/1707_1584658678\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn1"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "lockerdomecdn\\.com\\/shards\\/1847_1584658678\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn1"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "lockerdomecdn\\.com\\/shards\\/1668_1584658678\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "cdn1"
-            ],
-            "apis": {
-                "Date.prototype.getTime": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -160,5 +73,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 8
+    }
 }

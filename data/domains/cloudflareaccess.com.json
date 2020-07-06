@@ -4,26 +4,31 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00203,
-    "sites": 100,
+    "prevalence": 0.0000274,
+    "sites": 2,
     "subdomains": [
-        "onetrust"
+        "dianomi"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "cloudflareaccess\\.com\\/cdn-cgi\\/access\\/login\\/geolocation\\.1trust\\.app",
-            "cookies": 0.00203,
+            "rule": "cloudflareaccess\\.com\\/cdn-cgi\\/access\\/login\\/dev\\.dianomi\\.com",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "onetrust"
+                "dianomi"
             ],
             "apis": {},
-            "sites": 100,
-            "prevalence": 0.00203
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {},
-    "cookies": 0.00203
+    "cookies": 0.0000274,
+    "types": {
+        "Script": 2
+    }
 }

@@ -4,215 +4,152 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000142,
-    "sites": 7,
-    "subdomains": [
-        "ajax"
-    ],
+    "prevalence": 0.0000274,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "gogocdn\\.net\\/cover\\/runway-de-waratte\\.png",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "gogocdn\\.net\\/cover\\/haikyuu-to-the-top\\.png",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "gogocdn\\.net\\/cover\\/oda-cinnamon-nobunaga\\.png",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "gogocdn\\.net\\/cover\\/kabukichou-sherlock\\.png",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "gogocdn\\.net\\/cover\\/darwins-game\\.png",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "gogocdn\\.net\\/cover\\/toaru-kagaku-no-railgun-t\\.png",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "gogocdn\\.net\\/cover\\/koisuru-asteroid\\.png",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "gogocdn\\.net\\/cover\\/azur-lane\\.png",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "gogocdn\\.net\\/cover\\/long-zhi-gu-jingling-wangzuo\\.png",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "gogocdn\\.net\\/cover\\/keroro-gunsou-mushakero-ohirome-sengoku-ranstar-dai-battle\\.png",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "gogocdn\\.net\\/cover\\/altered-carbon-resleeved\\.png",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "gogocdn\\.net\\/cover\\/beyblade-burst-gachi\\.png",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "gogocdn\\.net\\/cover\\/wan-jie-shen-zhu\\.png",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "gogocdn\\.net\\/cover\\/jibaku-shounen-hanako-kun\\.png",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "gogocdn\\.net\\/cover\\/oshi-ga-budoukan-ittekuretara-shinu\\.png",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "gogocdn\\.net\\/cover\\/uchi-tama-uchi-no-tama-shirimasen-ka\\.png",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "gogocdn\\.net\\/cover\\/housekishou-richard-shi-no-nazo-kantei\\.png",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "gogocdn\\.net\\/cover\\/somali-to-mori-no-kamisama\\.png",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "gogocdn\\.net\\/cover\\/infinite-dendrogram\\.png",
-            "cookies": 0.000122,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "gogocdn\\.net\\/cover\\/hatenaillusion\\.png",
-            "cookies": 0.000102,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
-        },
-        {
-            "rule": "gogocdn\\.net\\/ajax\\/page-recent-release-ongoing\\.html",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ajax"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "gogocdn\\.net\\/cover\\/super-dragon-ball-heroes-big-bang-mission\\.png",
-            "cookies": 0.0000407,
+            "rule": "gogocdn\\.net\\/cover\\/yoshinaga-sanchi-no-gargoyle\\.png",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "gogocdn\\.net\\/cover\\/yoshinaga-sanchi-no-gargoyle-specials\\.png",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "gogocdn\\.net\\/cover\\/shin-hurricane-polymar\\.png",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "gogocdn\\.net\\/cover\\/shadowverse-tv\\.png",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "gogocdn\\.net\\/cover\\/youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu\\.png",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "gogocdn\\.net\\/cover\\/super-fishing-grander-musashi\\.png",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "gogocdn\\.net\\/cover\\/princess-connect-redive\\.png",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "gogocdn\\.net\\/cover\\/fruits-basket-2nd-season\\.png",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "gogocdn\\.net\\/cover\\/ashita-e-attack\\.png",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "gogocdn\\.net\\/cover\\/figure-17-tsubasa-hikaru\\.png",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "gogocdn\\.net\\/cover\\/olympia-kyklos\\.png",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "gogocdn\\.net\\/cover\\/kitsutsuki-tanteidokoro\\.png",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "gogocdn\\.net\\/cover\\/shironeko-project-zero-chronicle\\.png",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {},
-    "cookies": 0.000142
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 1
+    },
+    "cookies": 0.0000274,
+    "types": {
+        "Image": 26
+    }
 }

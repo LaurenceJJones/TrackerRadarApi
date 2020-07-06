@@ -7,38 +7,65 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
-    "sites": 5,
+    "prevalence": 0.000109,
+    "sites": 8,
     "subdomains": [
         "cdn"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "knightlab\\.com\\/libs\\/juxtapose\\/latest\\/css\\/juxtapose\\.css",
-            "cookies": 0.0000407,
+            "rule": "knightlab\\.com\\/libs\\/timeline3\\/latest\\/css\\/timeline\\.css",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "knightlab\\.com\\/libs\\/soundcite\\/latest\\/css\\/player\\.css",
-            "cookies": 0.0000407,
+            "rule": "knightlab\\.com\\/libs\\/juxtapose\\/latest\\/js\\/juxtapose\\.min\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "knightlab\\.com\\/libs\\/juxtapose\\/latest\\/css\\/juxtapose\\.css",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn"
             ],
             "apis": {},
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "knightlab\\.com\\/libs\\/soundcite\\/latest\\/css\\/player\\.css",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "knightlab\\.com\\/libs\\/soundcite\\/latest\\/js\\/soundcite\\.min\\.js",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "cdn"
@@ -47,7 +74,8 @@
                 "Navigator.prototype.userAgent": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -55,7 +83,11 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.0000814
+    "cookies": 0.0000821,
+    "types": {
+        "Stylesheet": 8,
+        "Script": 5
+    }
 }

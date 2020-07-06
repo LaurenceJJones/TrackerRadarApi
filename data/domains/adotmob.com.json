@@ -9,102 +9,112 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00763,
-    "sites": 375,
+    "prevalence": 0.0131,
+    "sites": 956,
     "subdomains": [
         "sync",
         "dsp",
+        "sync-ayl",
         "tracker"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "adotmob\\.com\\/cookie\\/unruly",
-            "cookies": 0.00116,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync"
-            ],
-            "apis": {},
-            "sites": 57,
-            "prevalence": 0.00116
-        },
-        {
             "rule": "adotmob\\.com\\/cookie\\/smart",
-            "cookies": 0.0045,
+            "cookies": 0.0062,
             "fingerprinting": 0,
             "subdomains": [
                 "sync"
             ],
             "apis": {},
-            "sites": 222,
-            "prevalence": 0.00452
+            "sites": 458,
+            "prevalence": 0.00627,
+            "cnames": []
         },
         {
-            "rule": "adotmob\\.com\\/cookie\\/stickyads",
-            "cookies": 0.000854,
+            "rule": "adotmob\\.com\\/cookie\\/unruly",
+            "cookies": 0.00127,
             "fingerprinting": 0,
             "subdomains": [
                 "sync"
             ],
             "apis": {},
-            "sites": 42,
-            "prevalence": 0.000854
+            "sites": 94,
+            "prevalence": 0.00129,
+            "cnames": []
         },
         {
-            "rule": "adotmob\\.com\\/cookie\\/slimcutmedia",
-            "cookies": 0.000488,
+            "rule": "adotmob\\.com\\/cookie\\/outbrain",
+            "cookies": 0.00452,
             "fingerprinting": 0,
             "subdomains": [
                 "sync"
             ],
             "apis": {},
-            "sites": 24,
-            "prevalence": 0.000488
+            "sites": 339,
+            "prevalence": 0.00464,
+            "cnames": []
         },
         {
             "rule": "adotmob\\.com\\/headerbidding\\/bidrequest",
-            "cookies": 0.000366,
+            "cookies": 0.000219,
             "fingerprinting": 0,
             "subdomains": [
                 "dsp"
             ],
             "apis": {},
-            "sites": 18,
-            "prevalence": 0.000366
+            "sites": 17,
+            "prevalence": 0.000233,
+            "cnames": []
+        },
+        {
+            "rule": "adotmob\\.com\\/cookie\\/stickyads",
+            "cookies": 0.000588,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 43,
+            "prevalence": 0.000588,
+            "cnames": []
+        },
+        {
+            "rule": "adotmob\\.com\\/cookie\\/adyoulike",
+            "cookies": 0.0000821,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-ayl"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
+        },
+        {
+            "rule": "adotmob\\.com\\/millemercis\\/cookie",
+            "cookies": 0.000164,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
         },
         {
             "rule": "adotmob\\.com\\/user",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "sync"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "adotmob\\.com\\/millemercis\\/cookie",
-            "cookies": 0.000163,
-            "fingerprinting": 0,
-            "subdomains": [
-                "tracker"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "adotmob\\.com\\/cookie\\/nsight",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "sync"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -117,5 +127,10 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00761
+    "cookies": 0.0129,
+    "types": {
+        "Image": 858,
+        "Document": 94,
+        "XHR": 19
+    }
 }

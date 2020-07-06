@@ -7,15 +7,16 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000102,
+    "prevalence": 0.0000684,
     "sites": 5,
     "subdomains": [
         "songbird"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
-            "rule": "cardinalcommerce\\.com\\/edge\\/v1\\/9a3283498b0dee5e5091\\/1\\.9a3283498b0dee5e5091\\.songbird\\.js",
+            "rule": "cardinalcommerce\\.com\\/edge\\/v1\\/91ae5edca378ad3af82e\\/1\\.91ae5edca378ad3af82e\\.songbird\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
@@ -23,11 +24,12 @@
             ],
             "apis": {
                 "Date.prototype.getTime": 3,
-                "window.matchMedia(\"prefers-reduced-motion\")": 3,
-                "Navigator.prototype.userAgent": 1
+                "Navigator.prototype.userAgent": 3,
+                "window.matchMedia(\"prefers-reduced-motion\")": 2
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -37,5 +39,8 @@
         "cpu": 0,
         "cache": 0
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 3
+    }
 }

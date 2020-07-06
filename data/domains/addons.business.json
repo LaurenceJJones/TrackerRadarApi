@@ -4,29 +4,50 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
-    "sites": 4,
+    "prevalence": 0.000233,
+    "sites": 17,
     "subdomains": [
-        "cozygallery",
-        "cdncozygallerya"
+        "cdncozyvideogallerya",
+        "cdncozygallerya",
+        "cozygallery"
     ],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 2,
     "resources": [
         {
             "rule": "addons\\.business\\/embed\\/cziframeagent\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "cozygallery",
+                "cdncozyvideogallerya",
+                "cdncozygallerya",
+                "cozygallery"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 10,
+                "HTMLCanvasElement.prototype.toDataURL": 10,
+                "HTMLCanvasElement.prototype.constructor": 5
+            },
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
+        },
+        {
+            "rule": "addons\\.business\\/embed\\/CzIframeInnerAgent\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdncozyvideogallerya",
                 "cdncozygallerya"
             ],
             "apis": {
-                "HTMLCanvasElement.prototype.constructor": 1,
-                "HTMLCanvasElement.prototype.toDataURL": 2,
-                "Navigator.prototype.userAgent": 1
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 1
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -36,5 +57,8 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 12
+    }
 }

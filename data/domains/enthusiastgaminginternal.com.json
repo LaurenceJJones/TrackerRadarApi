@@ -4,26 +4,36 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000183,
-    "sites": 9,
+    "prevalence": 0.0000958,
+    "sites": 7,
     "subdomains": [
         "production-events-prebidjs"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "enthusiastgaminginternal\\.com\\/prebidjs",
-            "cookies": 0.000183,
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
                 "production-events-prebidjs"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {},
-    "cookies": 0.000163
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0.0000958,
+    "types": {
+        "XHR": 7
+    }
 }

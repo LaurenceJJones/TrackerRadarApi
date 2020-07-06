@@ -9,67 +9,137 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00142,
-    "sites": 70,
+    "prevalence": 0.0019,
+    "sites": 139,
     "subdomains": [
-        "cdn2"
+        "cdn2",
+        "4305976.group26.sites"
+    ],
+    "cnames": [
+        {
+            "original": "assets.openshift.com",
+            "resolved": "4305976.group26.sites.hubspot.net"
+        }
     ],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "hubspot\\.net\\/hub\\/-1\\/hub_generated\\/template_assets\\/1495141902003\\/hubspot_default\\/shared\\/responsive\\/layout\\.min\\.css",
-            "cookies": 0.000183,
+            "cookies": 0.000287,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn2"
             ],
             "apis": {},
-            "sites": 11,
-            "prevalence": 0.000224
+            "sites": 25,
+            "prevalence": 0.000342,
+            "cnames": []
         },
         {
-            "rule": "hubspot\\.net\\/hubfs\\/4305976\\/fonts\\/font-awesome\\/fontawesome-webfont\\.woff",
-            "cookies": 0.0000407,
+            "rule": "hubspot\\.net\\/hubfs\\/298890\\/Production\\/css\\/defaults\\.css",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn2"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "hubspot\\.net\\/hubfs\\/298890\\/Production\\/images\\/production--dropdown\\.png",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "hubspot\\.net\\/hubfs\\/images\\/logos\\/osh\\/Logo-Red_Hat-OpenShift-A-Reverse-RGB\\.svg",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "4305976.group26.sites"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "assets.openshift.com",
+                    "resolved": "4305976.group26.sites.hubspot.net"
+                }
+            ]
         },
         {
             "rule": "hubspot\\.net\\/hubfs\\/2224003\\/Hosted%20Images\\/flame-32\\.png",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn2"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "hubspot\\.net\\/hubfs\\/484866\\/May2016\\/WebsiteHeaderVideoCompressed1\\.5Mbps\\.mp4",
-            "cookies": 0.0000407,
+            "rule": "hubspot\\.net\\/hubfs\\/302700\\/hub_generated\\/resized\\/0c80fe11-c474-4b85-a60e-b03a62dbd171\\.jpeg",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn2"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "hubspot\\.net\\/hubfs\\/242200\\/Experience%20Optimization\\/178%20Vid%20Files\\/ESI-Hero-Header-compressed\\.webm",
-            "cookies": 0.0000407,
+            "rule": "hubspot\\.net\\/hubfs\\/484866\\/BoxCast_May2016\\/WebsiteHeaderVideoCompressed1\\.5Mbps\\.mp4",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "cdn2"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "hubspot\\.net\\/hubfs\\/images\\/openshift-legacy\\/logos\\/powered_by_openshift\\.png",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "4305976.group26.sites"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "assets.openshift.com",
+                    "resolved": "4305976.group26.sites.hubspot.net"
+                }
+            ]
+        },
+        {
+            "rule": "hubspot\\.net\\/hubfs\\/2094550\\/3rd%20edit%204_26-1\\.mp4",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -79,5 +149,10 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.00128
+    "cookies": 0.00178,
+    "types": {
+        "Stylesheet": 27,
+        "Image": 10,
+        "Media": 4
+    }
 }

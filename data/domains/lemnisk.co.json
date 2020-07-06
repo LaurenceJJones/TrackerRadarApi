@@ -7,29 +7,31 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000061,
-    "sites": 3,
+    "prevalence": 0.0000274,
+    "sites": 2,
     "subdomains": [
         "mu-pl-s",
         "mu-pl",
         "cdn12-s",
         "cdn12"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
             "rule": "lemnisk\\.co\\/analyze\\/analyze\\.php",
-            "cookies": 0.000061,
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "mu-pl-s",
                 "mu-pl"
             ],
             "apis": {
-                "Date.prototype.getTime": 3
+                "Date.prototype.getTime": 2
             },
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "lemnisk\\.co\\/onSiteNotification\\/GetJsFile\\.php",
@@ -40,29 +42,18 @@
                 "cdn12"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 3
+                "Navigator.prototype.userAgent": 2
             },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "lemnisk\\.co\\/analyze\\/lempixel",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "mu-pl"
-            ],
-            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 1
-    },
-    "cookies": 0.000061
+    "performance": {},
+    "cookies": 0.0000274,
+    "types": {
+        "Document": 2,
+        "Script": 2
+    }
 }

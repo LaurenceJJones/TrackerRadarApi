@@ -7,32 +7,35 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000163,
-    "sites": 8,
+    "prevalence": 0.000164,
+    "sites": 12,
     "subdomains": [
         "js"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "squareup\\.com\\/login",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
             "rule": "squareup\\.com\\/v2\\/paymentform",
-            "cookies": 0.0000814,
+            "cookies": 0.0000821,
             "fingerprinting": 0,
             "subdomains": [
                 "js"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
+        },
+        {
+            "rule": "squareup\\.com\\/login",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -40,7 +43,11 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000142
+    "cookies": 0.000123,
+    "types": {
+        "Script": 7,
+        "Image": 3
+    }
 }

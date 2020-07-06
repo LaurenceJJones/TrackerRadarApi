@@ -7,141 +7,169 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00193,
-    "sites": 95,
+    "prevalence": 0.0017,
+    "sites": 124,
     "subdomains": [
         "beacon"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "wikia-services\\.com\\/__track\\/special\\/gdpr_events",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "beacon"
-            ],
-            "apis": {},
-            "sites": 22,
-            "prevalence": 0.000448
-        },
-        {
             "rule": "wikia-services\\.com\\/__track\\/view",
-            "cookies": 0.000346,
+            "cookies": 0.000219,
             "fingerprinting": 0,
             "subdomains": [
                 "beacon"
             ],
             "apis": {},
-            "sites": 72,
-            "prevalence": 0.00146
-        },
-        {
-            "rule": "wikia-services\\.com\\/__track\\/special\\/adengbidders",
-            "cookies": 0.000305,
-            "fingerprinting": 0,
-            "subdomains": [
-                "beacon"
-            ],
-            "apis": {},
-            "sites": 67,
-            "prevalence": 0.00136
+            "sites": 102,
+            "prevalence": 0.0014,
+            "cnames": []
         },
         {
             "rule": "wikia-services\\.com\\/__track\\/special\\/trackingevent",
-            "cookies": 0.000875,
+            "cookies": 0.00026,
             "fingerprinting": 0,
             "subdomains": [
                 "beacon"
             ],
             "apis": {},
-            "sites": 66,
-            "prevalence": 0.00134
+            "sites": 92,
+            "prevalence": 0.00126,
+            "cnames": []
         },
         {
             "rule": "wikia-services\\.com\\/__track\\/special\\/adengadinfo",
-            "cookies": 0.000122,
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
                 "beacon"
             ],
             "apis": {},
-            "sites": 66,
-            "prevalence": 0.00134
+            "sites": 92,
+            "prevalence": 0.00126,
+            "cnames": []
         },
         {
-            "rule": "wikia-services\\.com\\/__track\\/special\\/adengviewability",
-            "cookies": 0.000203,
+            "rule": "wikia-services\\.com\\/__track\\/special\\/adengbidders",
+            "cookies": 0.000123,
             "fingerprinting": 0,
             "subdomains": [
                 "beacon"
             ],
             "apis": {},
             "sites": 57,
-            "prevalence": 0.00116
-        },
-        {
-            "rule": "wikia-services\\.com\\/__track\\/special\\/adengpageinfo_props",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "beacon"
-            ],
-            "apis": {},
-            "sites": 8,
-            "prevalence": 0.000163
-        },
-        {
-            "rule": "wikia-services\\.com\\/__track\\/special\\/adengbidders",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "beacon"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
-        },
-        {
-            "rule": "wikia-services\\.com\\/__track\\/special\\/trackingevent",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "beacon"
-            ],
-            "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
-        },
-        {
-            "rule": "wikia-services\\.com\\/__track\\/special\\/adengadinfo",
-            "cookies": 0.0000203,
-            "fingerprinting": 0,
-            "subdomains": [
-                "beacon"
-            ],
-            "apis": {},
-            "sites": 6,
-            "prevalence": 0.000122
+            "prevalence": 0.00078,
+            "cnames": []
         },
         {
             "rule": "wikia-services\\.com\\/__track\\/special\\/adengviewability",
-            "cookies": 0.0000203,
+            "cookies": 0.000151,
             "fingerprinting": 0,
             "subdomains": [
                 "beacon"
             ],
             "apis": {},
-            "sites": 5,
-            "prevalence": 0.000102
+            "sites": 30,
+            "prevalence": 0.00041,
+            "cnames": []
+        },
+        {
+            "rule": "wikia-services\\.com\\/__track\\/special\\/gdpr_events",
+            "cookies": 0.0000958,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00026,
+            "cnames": []
+        },
+        {
+            "rule": "wikia-services\\.com\\/__track\\/special\\/adengpageinfo_props",
+            "cookies": 0.000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.000192,
+            "cnames": []
+        },
+        {
+            "rule": "wikia-services\\.com\\/__track\\/special\\/adengbidders",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
+            "rule": "wikia-services\\.com\\/__track\\/special\\/trackingevent",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.000164,
+            "cnames": []
+        },
+        {
+            "rule": "wikia-services\\.com\\/__track\\/special\\/adengviewability",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000123,
+            "cnames": []
+        },
+        {
+            "rule": "wikia-services\\.com\\/__track\\/special\\/adengpageinfo_props",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "wikia-services\\.com\\/__track\\/special\\/adengplayerinfo",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 0,
+        "cpu": 1,
         "cache": 3
     },
-    "cookies": 0.00146
+    "cookies": 0.00138,
+    "types": {
+        "Script": 160,
+        "XHR": 276
+    }
 }

@@ -9,42 +9,48 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00108,
-    "sites": 53,
+    "prevalence": 0.000164,
+    "sites": 12,
     "subdomains": [
         "ak1s"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "abmr\\.net\\/is\\/atrack\\.allposters\\.com",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "ak1s"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "abmr\\.net\\/is\\/www\\.paypalobjects\\.com",
-            "cookies": 0.000814,
+            "rule": "abmr\\.net\\/is\\/www\\.landsend\\.com",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "ak1s"
             ],
             "apis": {},
-            "sites": 40,
-            "prevalence": 0.000814
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.00106
+    "cookies": 0.000137,
+    "types": {
+        "Image": 4
+    }
 }

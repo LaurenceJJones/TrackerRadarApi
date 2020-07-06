@@ -9,31 +9,36 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000386,
-    "sites": 19,
+    "prevalence": 0.000246,
+    "sites": 18,
     "subdomains": [
         "consent"
     ],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 0,
     "resources": [
         {
             "rule": "mediaforge\\.com\\/consent\\/v1\\/p",
-            "cookies": 0.000203,
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
                 "consent"
             ],
             "apis": {},
-            "sites": 10,
-            "prevalence": 0.000203
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 1,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
-        "cache": 3
+        "cache": 0
     },
-    "cookies": 0.000346
+    "cookies": 0.0000958,
+    "types": {
+        "Image": 7
+    }
 }

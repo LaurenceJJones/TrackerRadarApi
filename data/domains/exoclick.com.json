@@ -9,15 +9,16 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.013,
-    "sites": 638,
+    "prevalence": 0.00937,
+    "sites": 685,
     "subdomains": [
         "ads",
+        "a",
         "syndication",
         "main",
-        "secure",
-        "a"
+        "secure"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
@@ -25,54 +26,47 @@
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "ads"
+                "ads",
+                "a"
             ],
             "apis": {
-                "Date.prototype.getTime": 438,
-                "Screen.prototype.width": 224,
-                "Screen.prototype.height": 224
+                "Date.prototype.getTime": 471,
+                "Screen.prototype.width": 424,
+                "Screen.prototype.height": 424
             },
-            "sites": 459,
-            "prevalence": 0.00934
+            "sites": 471,
+            "prevalence": 0.00644,
+            "cnames": []
         },
         {
             "rule": "exoclick\\.com\\/ads-iframe-display\\.php",
-            "cookies": 0.00685,
+            "cookies": 0.00469,
             "fingerprinting": 0,
             "subdomains": [
                 "syndication"
             ],
             "apis": {},
-            "sites": 337,
-            "prevalence": 0.00685
+            "sites": 344,
+            "prevalence": 0.00471,
+            "cnames": []
         },
         {
             "rule": "exoclick\\.com\\/splash\\.php",
-            "cookies": 0.000997,
+            "cookies": 0.000643,
             "fingerprinting": 1,
             "subdomains": [
                 "syndication"
             ],
             "apis": {
-                "Document.cookie getter": 38,
-                "Date.prototype.getTime": 45,
-                "Navigator.prototype.userAgent": 29,
-                "Navigator.prototype.vendor": 28,
-                "Document.cookie setter": 45
+                "Date.prototype.getTime": 46,
+                "Navigator.prototype.userAgent": 46,
+                "Navigator.prototype.vendor": 46,
+                "Document.cookie setter": 46,
+                "Document.cookie getter": 36
             },
-            "sites": 81,
-            "prevalence": 0.00165
-        },
-        {
-            "rule": "exoclick\\.com\\/ads-priv\\.php",
-            "cookies": 0.00153,
-            "fingerprinting": 0,
-            "subdomains": [
-                "syndication"
-            ],
-            "apis": {},
-            "sites": 75,
-            "prevalence": 0.00153
+            "sites": 69,
+            "prevalence": 0.000944,
+            "cnames": []
         },
         {
             "rule": "exoclick\\.com\\/ads\\.php",
@@ -82,89 +76,95 @@
                 "syndication"
             ],
             "apis": {
-                "Date.prototype.getTime": 42
+                "Date.prototype.getTime": 56
             },
-            "sites": 45,
-            "prevalence": 0.000915
+            "sites": 58,
+            "prevalence": 0.000794,
+            "cnames": []
         },
         {
-            "rule": "exoclick\\.com\\/invideo\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
+            "rule": "exoclick\\.com\\/ads-priv\\.php",
+            "cookies": 0.000944,
+            "fingerprinting": 0,
             "subdomains": [
-                "ads"
+                "syndication"
             ],
-            "apis": {
-                "Navigator.prototype.userAgent": 9
-            },
-            "sites": 26,
-            "prevalence": 0.000529
+            "apis": {},
+            "sites": 69,
+            "prevalence": 0.000944,
+            "cnames": []
         },
         {
             "rule": "exoclick\\.com\\/tag\\.php",
-            "cookies": 0.000224,
+            "cookies": 0.000753,
             "fingerprinting": 0,
             "subdomains": [
                 "main",
                 "secure"
             ],
             "apis": {},
-            "sites": 18,
-            "prevalence": 0.000366
+            "sites": 56,
+            "prevalence": 0.000766,
+            "cnames": []
         },
         {
-            "rule": "exoclick\\.com\\/popunder1000\\.js",
-            "cookies": 0.000509,
-            "fingerprinting": 2,
+            "rule": "exoclick\\.com\\/splash\\.php",
+            "cookies": 0.000164,
+            "fingerprinting": 0,
             "subdomains": [
-                "a"
+                "syndication"
             ],
-            "apis": {
-                "Document.cookie getter": 25,
-                "Date.prototype.getTime": 31,
-                "Navigator.prototype.userAgent": 25,
-                "Navigator.prototype.vendor": 22,
-                "Navigator.prototype.mimeTypes": 25,
-                "window.localStorage": 31,
-                "Document.cookie setter": 25
-            },
-            "sites": 31,
-            "prevalence": 0.000631
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.000205,
+            "cnames": []
         },
         {
             "rule": "exoclick\\.com\\/nativeads\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
-                "ads"
+                "ads",
+                "a"
             ],
             "apis": {
                 "Document.cookie getter": 9
             },
             "sites": 14,
-            "prevalence": 0.000285
+            "prevalence": 0.000192,
+            "cnames": []
         },
         {
-            "rule": "exoclick\\.com\\/splash\\.php",
-            "cookies": 0.000224,
-            "fingerprinting": 0,
+            "rule": "exoclick\\.com\\/popunder1000\\.js",
+            "cookies": 0.000178,
+            "fingerprinting": 1,
             "subdomains": [
-                "syndication"
+                "a"
             ],
-            "apis": {},
-            "sites": 14,
-            "prevalence": 0.000285
+            "apis": {
+                "Date.prototype.getTime": 24,
+                "Navigator.prototype.userAgent": 24,
+                "Navigator.prototype.vendor": 23,
+                "Navigator.prototype.mimeTypes": 24,
+                "window.localStorage": 24,
+                "Document.cookie getter": 14,
+                "Document.cookie setter": 13
+            },
+            "sites": 24,
+            "prevalence": 0.000328,
+            "cnames": []
         },
         {
             "rule": "exoclick\\.com\\/ads-iframe-display\\.php",
-            "cookies": 0.0000203,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "syndication"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -177,5 +177,11 @@
         "cpu": 1,
         "cache": 1
     },
-    "cookies": 0.00787
+    "cookies": 0.00587,
+    "types": {
+        "Script": 705,
+        "Document": 344,
+        "Image": 58,
+        "XHR": 15
+    }
 }

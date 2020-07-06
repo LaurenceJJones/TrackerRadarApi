@@ -7,37 +7,27 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000116,
-    "sites": 5,
+    "prevalence": 0.000137,
+    "sites": 10,
     "subdomains": [
-        "embed",
-        "ht"
+        "www",
+        "jp"
     ],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 0,
     "resources": [
         {
-            "rule": "redtube\\.com\\/",
-            "cookies": 0.0000462,
-            "fingerprinting": 1,
-            "subdomains": [
-                "embed"
-            ],
-            "apis": {
-                "Navigator.prototype.mimeTypes": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000462
-        },
-        {
-            "rule": "redtube\\.com\\/js\\/eht\\.js",
-            "cookies": 0.0000462,
+            "rule": "redtube\\.com\\/favicon\\.ico",
+            "cookies": 0.0000547,
             "fingerprinting": 0,
             "subdomains": [
-                "ht"
+                "www",
+                "jp"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000462
+            "sites": 6,
+            "prevalence": 0.0000821,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -45,7 +35,10 @@
         "time": 1,
         "size": 1,
         "cpu": 0,
-        "cache": 1
+        "cache": 3
     },
-    "cookies": 0.0000462
+    "cookies": 0.0000958,
+    "types": {
+        "Image": 6
+    }
 }

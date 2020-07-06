@@ -9,14 +9,27 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000854,
-    "sites": 42,
+    "prevalence": 0.00103,
+    "sites": 75,
     "subdomains": [
-        "web-clients",
-        "hb"
+        "hb",
+        "web-clients"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
+        {
+            "rule": "mynativeplatform\\.com\\/pub2\\/web\\/v1\\.15\\.0\\/hbwidget\\.json",
+            "cookies": 0.000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hb"
+            ],
+            "apis": {},
+            "sites": 20,
+            "prevalence": 0.000274,
+            "cnames": []
+        },
         {
             "rule": "mynativeplatform\\.com\\/web-clients\\/core\\/production\\/mainSunMar082020104658GMT0200IsraelStandardTime\\.js",
             "cookies": 0,
@@ -25,24 +38,62 @@
                 "web-clients"
             ],
             "apis": {
-                "Navigator.prototype.platform": 12,
-                "Navigator.prototype.userAgent": 12,
-                "Date.prototype.getTime": 13,
-                "Event.prototype.timeStamp": 11
+                "Navigator.prototype.platform": 19,
+                "Navigator.prototype.userAgent": 19,
+                "Date.prototype.getTime": 20,
+                "Event.prototype.timeStamp": 17
             },
-            "sites": 13,
-            "prevalence": 0.000264
+            "sites": 21,
+            "prevalence": 0.000287,
+            "cnames": []
         },
         {
-            "rule": "mynativeplatform\\.com\\/pub2\\/web\\/v1\\.15\\.0\\/hbwidget\\.json",
-            "cookies": 0.0000407,
+            "rule": "mynativeplatform\\.com\\/pub2\\/itemwin\\.json",
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "hb"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "mynativeplatform\\.com\\/pub2\\/itemimpression\\.json",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hb"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "mynativeplatform\\.com\\/pub2\\/widgetLoadPixel\\.json",
+            "cookies": 0.0000684,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hb"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
+        },
+        {
+            "rule": "mynativeplatform\\.com\\/pub2\\/itemview\\.json",
+            "cookies": 0.0000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hb"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [
@@ -56,5 +107,10 @@
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.000061
+    "cookies": 0.000274,
+    "types": {
+        "XHR": 20,
+        "Script": 21,
+        "Image": 20
+    }
 }

@@ -7,11 +7,12 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000814,
-    "sites": 4,
+    "prevalence": 0.0000274,
+    "sites": 2,
     "subdomains": [
         "vcdn"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -22,62 +23,55 @@
                 "vcdn"
             ],
             "apis": {
-                "Date.prototype.getTime": 4,
-                "window.devicePixelRatio": 4,
-                "Element.prototype.getClientRects": 4
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.devicePixelRatio": 2,
+                "Element.prototype.getClientRects": 2
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "bergfex\\.at\\/include\\/jsmin\\/bergfex-libs-1582210283\\.jsmin\\.js",
+            "rule": "bergfex\\.at\\/include\\/jsmin\\/bergfex-libs-1592828275\\.jsmin\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "vcdn"
             ],
             "apis": {
-                "window.localStorage": 4,
-                "window.sessionStorage": 4
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.platform": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
             },
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
-            "rule": "bergfex\\.at\\/include\\/jsmin\\/leaflet-map-1582627589\\.jsmin\\.js",
+            "rule": "bergfex\\.at\\/include\\/jsmin\\/leaflet-map-1590417480\\.jsmin\\.js",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "vcdn"
             ],
             "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
                 "window.devicePixelRatio": 2,
                 "HTMLCanvasElement.prototype.constructor": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "bergfex\\.at\\/include\\/jsmin\\/leaflet-map-1583135238\\.jsmin\\.js",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "vcdn"
-            ],
-            "apis": {
-                "window.devicePixelRatio": 2,
-                "HTMLCanvasElement.prototype.constructor": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 1
-    },
-    "cookies": 0
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Script": 6
+    }
 }

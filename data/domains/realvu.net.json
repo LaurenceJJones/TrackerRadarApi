@@ -7,28 +7,14 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.011,
-    "sites": 540,
+    "prevalence": 0.0118,
+    "sites": 862,
     "subdomains": [
         "pr"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
-        {
-            "rule": "realvu\\.net\\/flip\\/2\\/c=E4KZ_f=site_si=1066",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "pr"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 65,
-                "Navigator.prototype.appVersion": 65,
-                "window.localStorage": 64
-            },
-            "sites": 65,
-            "prevalence": 0.00132
-        },
         {
             "rule": "realvu\\.net\\/flip\\/2\\/c=E4KZ_f=site_si=1167",
             "cookies": 0,
@@ -37,27 +23,29 @@
                 "pr"
             ],
             "apis": {
-                "window.localStorage": 393,
-                "Navigator.prototype.userAgent": 137,
-                "Navigator.prototype.appVersion": 137
+                "Navigator.prototype.userAgent": 697,
+                "Navigator.prototype.appVersion": 697,
+                "window.localStorage": 626
             },
-            "sites": 417,
-            "prevalence": 0.00848
+            "sites": 703,
+            "prevalence": 0.00962,
+            "cnames": []
         },
         {
-            "rule": "realvu\\.net\\/flip\\/2\\/c=E4MV_f=site_si=1049",
+            "rule": "realvu\\.net\\/flip\\/2\\/c=E4KZ_f=site_si=1066",
             "cookies": 0,
             "fingerprinting": 1,
             "subdomains": [
                 "pr"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 1,
-                "Navigator.prototype.appVersion": 1,
-                "window.localStorage": 1
+                "Navigator.prototype.userAgent": 90,
+                "Navigator.prototype.appVersion": 90,
+                "window.localStorage": 87
             },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 90,
+            "prevalence": 0.00123,
+            "cnames": []
         },
         {
             "rule": "realvu\\.net\\/flip\\/2\\/c=E4G8_f=site_si=1036",
@@ -69,10 +57,11 @@
             "apis": {
                 "Navigator.prototype.userAgent": 3,
                 "Navigator.prototype.appVersion": 3,
-                "window.localStorage": 2
+                "window.localStorage": 3
             },
             "sites": 3,
-            "prevalence": 0.000061
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "realvu\\.net\\/flip\\/2\\/c=E5DD_f=site_si=1218",
@@ -87,7 +76,8 @@
                 "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "realvu\\.net\\/flip\\/2\\/c=E4BI_f=site_si=963",
@@ -102,7 +92,8 @@
                 "window.localStorage": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "realvu\\.net\\/flip\\/2\\/c=E5X8_f=house",
@@ -112,12 +103,109 @@
                 "pr"
             ],
             "apis": {
-                "window.localStorage": 11,
-                "Navigator.prototype.userAgent": 10,
-                "Navigator.prototype.appVersion": 10
+                "Navigator.prototype.userAgent": 16,
+                "Navigator.prototype.appVersion": 16,
+                "window.localStorage": 16
             },
-            "sites": 15,
-            "prevalence": 0.000305
+            "sites": 23,
+            "prevalence": 0.000315,
+            "cnames": []
+        },
+        {
+            "rule": "realvu\\.net\\/flip\\/2\\/c=E3TI_f=site_si=906",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pr"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "realvu\\.net\\/flip\\/2\\/c=E3TI_f=site_si=909",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pr"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "realvu\\.net\\/flip\\/2\\/c=E3TI_f=site_si=910",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pr"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "realvu\\.net\\/flip\\/2\\/c=E3TI_f=site_si=913",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pr"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "realvu\\.net\\/flip\\/2\\/c=E3TI_f=site_si=912",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pr"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "realvu\\.net\\/flip\\/2\\/c=E3TI_f=site_si=915",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pr"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -129,8 +217,11 @@
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 0,
+        "cpu": 1,
         "cache": 3
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 835
+    }
 }

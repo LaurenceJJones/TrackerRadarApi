@@ -7,35 +7,53 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000061,
-    "sites": 3,
+    "prevalence": 0.000151,
+    "sites": 11,
     "subdomains": [
+        "www",
         "melidata",
         "analytics"
     ],
-    "fingerprinting": 0,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
+            "rule": "mercadolibre\\.com\\/jms\\/lgz\\/background",
+            "cookies": 0.0000547,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.localStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000547,
+            "cnames": []
+        },
+        {
             "rule": "mercadolibre\\.com\\/pixel\\.gif",
-            "cookies": 0.0000814,
+            "cookies": 0.0000958,
             "fingerprinting": 0,
             "subdomains": [
                 "melidata"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 7,
+            "prevalence": 0.0000958,
+            "cnames": []
         },
         {
             "rule": "mercadolibre\\.com\\/pixel",
-            "cookies": 0.000061,
+            "cookies": 0.0000684,
             "fingerprinting": 0,
             "subdomains": [
                 "analytics"
             ],
             "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
+            "sites": 5,
+            "prevalence": 0.0000684,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -45,5 +63,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000061
+    "cookies": 0.000137,
+    "types": {
+        "Document": 4,
+        "Image": 12
+    }
 }

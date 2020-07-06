@@ -4,323 +4,188 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000163,
-    "sites": 8,
+    "prevalence": 0.0000684,
+    "sites": 5,
     "subdomains": [
+        "aliendna",
         "cdnx",
         "montok",
         "anon"
     ],
+    "cnames": [],
     "fingerprinting": 1,
     "resources": [
         {
+            "rule": "wapsite\\.info\\/wp-content\\/uploads\\/ezgif-4-8e33c9bceb8d1\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aliendna"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
             "rule": "wapsite\\.info\\/style\\.css",
-            "cookies": 0.0000814,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "cdnx",
                 "montok"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "wapsite\\.info\\/xtubeid-style\\.css",
-            "cookies": 0.0000814,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "cdnx",
                 "montok"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "wapsite\\.info\\/logo\\.png",
-            "cookies": 0.0000814,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "cdnx",
                 "montok"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "wapsite\\.info\\/banner\\/ligapools\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "anon"
-            ],
-            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "wapsite\\.info\\/banner\\/pokerkiu\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "anon"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "wapsite\\.info\\/banner\\/space\\.png",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "anon"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "wapsite\\.info\\/banner\\/raja365-2020\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "anon"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "wapsite\\.info\\/banner\\/bandaqq-2020\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "anon"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "wapsite\\.info\\/banner\\/rev-olb365\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "anon"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "wapsite\\.info\\/banner\\/ituqq468\\.gif",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "anon"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "wapsite\\.info\\/banner\\/itugol468\\.gif",
-            "cookies": 0.0000814,
-            "fingerprinting": 0,
-            "subdomains": [
-                "anon"
-            ],
-            "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "wapsite\\.info\\/banner\\/cmd450x60\\.gif",
-            "cookies": 0.0000407,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "anon"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "wapsite\\.info\\/banner\\/itugol468\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "anon"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         },
         {
             "rule": "wapsite\\.info\\/banner\\/jayapoker\\.gif",
-            "cookies": 0.0000814,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "anon"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "wapsite\\.info\\/banner\\/totobet\\.gif",
-            "cookies": 0.0000814,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "anon"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "wapsite\\.info\\/banner\\/1pokerindox900\\.gif",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "anon"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "wapsite\\.info\\/banner\\/jayapoker450\\.gif",
-            "cookies": 0.0000814,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "anon"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "wapsite\\.info\\/banner\\/totobet450\\.gif",
-            "cookies": 0.0000814,
+            "cookies": 0.000041,
             "fingerprinting": 0,
             "subdomains": [
                 "anon"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
+        },
+        {
+            "rule": "wapsite\\.info\\/banner\\/1pokerindox450\\.gif",
+            "cookies": 0.000041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "anon"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         },
         {
             "rule": "wapsite\\.info\\/loading\\.gif",
-            "cookies": 0.0000814,
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "cdnx",
                 "montok"
             ],
             "apis": {},
-            "sites": 4,
-            "prevalence": 0.0000814
-        },
-        {
-            "rule": "wapsite\\.info\\/adsimontok\\/warnaqq\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "anon"
-            ],
-            "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "wapsite\\.info\\/adsimontok\\/liga88\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "anon"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "wapsite\\.info\\/adsimontok\\/capsaqq-2020\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "anon"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "wapsite\\.info\\/adsimontok\\/suhubola\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "anon"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "wapsite\\.info\\/adsimontok\\/tangkas2020\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "anon"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "wapsite\\.info\\/banner\\/togel88\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "anon"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "wapsite\\.info\\/adsimontok\\/ahabet900\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "anon"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "wapsite\\.info\\/adsimontok\\/indotogel900\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "anon"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "wapsite\\.info\\/adsimontok\\/ahabet450\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "anon"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "wapsite\\.info\\/adsimontok\\/indotogel450\\.gif",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "anon"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
     "performance": {
-        "time": 1,
-        "size": 3,
+        "time": 0,
+        "size": 0,
         "cpu": 0,
         "cache": 1
     },
-    "cookies": 0.000163
+    "cookies": 0.0000684,
+    "types": {
+        "Image": 28,
+        "Stylesheet": 4
+    }
 }

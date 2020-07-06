@@ -9,45 +9,49 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00342,
-    "sites": 168,
+    "prevalence": 0.000739,
+    "sites": 54,
     "subdomains": [
         "dat"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
+            "rule": "itsup\\.com\\/zone\\/4095\\/",
+            "cookies": 0.000424,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dat"
+            ],
+            "apis": {},
+            "sites": 31,
+            "prevalence": 0.000424,
+            "cnames": []
+        },
+        {
             "rule": "itsup\\.com\\/zone\\/3252\\/",
-            "cookies": 0.00309,
+            "cookies": 0.000383,
             "fingerprinting": 0,
             "subdomains": [
                 "dat"
             ],
             "apis": {},
-            "sites": 152,
-            "prevalence": 0.00309
+            "sites": 28,
+            "prevalence": 0.000383,
+            "cnames": []
         },
         {
-            "rule": "itsup\\.com\\/zone\\/16591\\/",
-            "cookies": 0.0000407,
+            "rule": "itsup\\.com\\/creative\\/aHR0cHM6Ly9jZG4uaXRzdXAuY29tL2NyZWF0aXZlcy8xLzMwMHgyNTBnYXloZHJvdGF0ZTMwMzVlNmY5ZjhjNTUwMWIuZ2lm",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
                 "dat"
             ],
             "apis": {},
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "itsup\\.com\\/zone\\/16588\\/",
-            "cookies": 0.0000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "dat"
-            ],
-            "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -63,5 +67,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00315
+    "cookies": 0.000725,
+    "types": {
+        "Document": 59,
+        "Image": 2
+    }
 }

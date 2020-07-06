@@ -7,12 +7,13 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000692,
-    "sites": 34,
+    "prevalence": 0.000397,
+    "sites": 29,
     "subdomains": [
         "ad",
         "tdameritrade"
     ],
+    "cnames": [],
     "fingerprinting": 2,
     "resources": [
         {
@@ -23,45 +24,14 @@
                 "ad"
             ],
             "apis": {
-                "Navigator.prototype.mimeTypes": 13,
-                "Screen.prototype.width": 11,
-                "Screen.prototype.height": 11,
-                "window.devicePixelRatio": 13
+                "Navigator.prototype.mimeTypes": 16,
+                "Screen.prototype.width": 16,
+                "Screen.prototype.height": 16,
+                "window.devicePixelRatio": 16
             },
-            "sites": 14,
-            "prevalence": 0.000285
-        },
-        {
-            "rule": "wsod\\.com\\/pub\\/9344781a98afc76efc86af58da31ccc3\\/0\\.0\\.async\\/",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ad"
-            ],
-            "apis": {
-                "Navigator.prototype.mimeTypes": 1,
-                "Screen.prototype.width": 1,
-                "Screen.prototype.height": 1,
-                "window.devicePixelRatio": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "wsod\\.com\\/pub\\/d270ad52d0e8a39449c32782950c8cc9\\/0\\.0\\.async\\/",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ad"
-            ],
-            "apis": {
-                "Navigator.prototype.mimeTypes": 2,
-                "Screen.prototype.width": 2,
-                "Screen.prototype.height": 2,
-                "window.devicePixelRatio": 2
-            },
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 16,
+            "prevalence": 0.000219,
+            "cnames": []
         },
         {
             "rule": "wsod\\.com\\/site\\/a5878a3d6f2be40db26311f6f8fb21a3\\/0\\.0\\.async\\/",
@@ -71,40 +41,43 @@
                 "tdameritrade"
             ],
             "apis": {
-                "Navigator.prototype.mimeTypes": 3,
-                "Screen.prototype.width": 3,
-                "Screen.prototype.height": 3,
-                "window.devicePixelRatio": 3
-            },
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "wsod\\.com\\/\\/pixel\\/lr\\.php",
-            "cookies": 0.000061,
-            "fingerprinting": 0,
-            "subdomains": [
-                "ad"
-            ],
-            "apis": {},
-            "sites": 3,
-            "prevalence": 0.000061
-        },
-        {
-            "rule": "wsod\\.com\\/pub\\/dffc64354445b947454450e472276b99\\/0\\.0\\.async\\/",
-            "cookies": 0,
-            "fingerprinting": 1,
-            "subdomains": [
-                "ad"
-            ],
-            "apis": {
                 "Navigator.prototype.mimeTypes": 2,
                 "Screen.prototype.width": 2,
                 "Screen.prototype.height": 2,
                 "window.devicePixelRatio": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "wsod\\.com\\/\\/pixel\\/lr\\.php",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "wsod\\.com\\/pub\\/dffc64354445b947454450e472276b99\\/0\\.0\\.async\\/",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {
+                "Navigator.prototype.mimeTypes": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "window.devicePixelRatio": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -114,5 +87,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000692
+    "cookies": 0.000397,
+    "types": {
+        "Script": 20,
+        "Image": 2
+    }
 }

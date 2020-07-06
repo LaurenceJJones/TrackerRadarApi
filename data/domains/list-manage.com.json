@@ -9,61 +9,78 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.00287,
-    "sites": 141,
+    "prevalence": 0.00378,
+    "sites": 276,
     "subdomains": [
+        "mc.us20",
+        "mc.us4",
         "mc.us10",
         "mc.us3",
-        "mc.us7",
-        "mc.us4",
-        "mc.us12",
-        "mc.us20",
-        "mc.us5",
-        "mc.us11",
-        "mc.us1",
-        "mc.us16",
-        "mc.us13",
-        "mc.us8",
-        "mc.us17",
-        "mc.us2",
-        "mc.us9",
-        "mc.us6",
-        "mc.us19",
         "mc.us18",
+        "mc.us7",
+        "mc.us16",
+        "mc.us11",
+        "mc.us19",
+        "mc.us17",
+        "mc.us8",
+        "mc.us5",
+        "mc.us1",
+        "mc.us13",
+        "mc.us14",
+        "mc.us2",
+        "mc.us12",
+        "mc.us9",
         "mc.us15",
-        "mc.us14"
+        "mc.us6",
+        "ogorod.us12",
+        "sweetgreen.us5"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "list-manage\\.com\\/subscribe\\/form-settings",
-            "cookies": 0.00273,
+            "cookies": 0.00357,
             "fingerprinting": 0,
             "subdomains": [
+                "mc.us20",
+                "mc.us4",
                 "mc.us10",
                 "mc.us3",
-                "mc.us7",
-                "mc.us4",
-                "mc.us12",
-                "mc.us20",
-                "mc.us5",
-                "mc.us11",
-                "mc.us1",
-                "mc.us16",
-                "mc.us13",
-                "mc.us8",
-                "mc.us17",
-                "mc.us2",
-                "mc.us9",
-                "mc.us6",
-                "mc.us19",
                 "mc.us18",
+                "mc.us7",
+                "mc.us16",
+                "mc.us11",
+                "mc.us19",
+                "mc.us17",
+                "mc.us8",
+                "mc.us5",
+                "mc.us1",
+                "mc.us13",
+                "mc.us14",
+                "mc.us2",
+                "mc.us12",
+                "mc.us9",
                 "mc.us15",
-                "mc.us14"
+                "mc.us6"
             ],
             "apis": {},
-            "sites": 140,
-            "prevalence": 0.00285
+            "sites": 273,
+            "prevalence": 0.00374,
+            "cnames": []
+        },
+        {
+            "rule": "list-manage\\.com\\/subscribe",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ogorod.us12",
+                "sweetgreen.us5"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [
@@ -73,8 +90,12 @@
     "performance": {
         "time": 1,
         "size": 1,
-        "cpu": 1,
+        "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.00275
+    "cookies": 0.00363,
+    "types": {
+        "Script": 273,
+        "Document": 2
+    }
 }

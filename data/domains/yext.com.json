@@ -7,26 +7,36 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000231,
-    "sites": 1,
+    "prevalence": 0.0000821,
+    "sites": 6,
     "subdomains": [
-        "liveapi"
+        "realtimeanalytics"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
-            "rule": "yext\\.com\\/v2\\/accounts\\/me\\/entities\\/geosearch",
-            "cookies": 0.0000462,
+            "rule": "yext\\.com\\/store_pagespixel",
+            "cookies": 0.0000274,
             "fingerprinting": 0,
             "subdomains": [
-                "liveapi"
+                "realtimeanalytics"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000462
+            "sites": 3,
+            "prevalence": 0.000041,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {},
-    "cookies": 0.0000231
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0.000041,
+    "types": {
+        "Image": 3
+    }
 }

@@ -7,27 +7,43 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000407,
+    "prevalence": 0.000274,
     "sites": 20,
     "subdomains": [
         "static"
     ],
-    "fingerprinting": 2,
+    "cnames": [],
+    "fingerprinting": 1,
     "resources": [
         {
-            "rule": "amp\\.services\\/clients\\/Euronews\\/Euronews\\.js",
-            "cookies": 0.0000407,
+            "rule": "amp\\.services\\/currency\\/conversion-rates\\.json",
+            "cookies": 0.00026,
             "fingerprinting": 0,
             "subdomains": [
                 "static"
             ],
             "apis": {},
-            "sites": 2,
-            "prevalence": 0.0000407
+            "sites": 19,
+            "prevalence": 0.00026,
+            "cnames": []
         },
         {
-            "rule": "amp\\.services\\/namespaced-bidders-2\\.24\\.js",
-            "cookies": 0.0000407,
+            "rule": "amp\\.services\\/clients\\/ArmyRumourServiceLimited\\/ARRSE2018\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
+        },
+        {
+            "rule": "amp\\.services\\/prebidLeya1\\.0\\.3\\.js",
+            "cookies": 0.0000274,
             "fingerprinting": 1,
             "subdomains": [
                 "static"
@@ -39,45 +55,8 @@
                 "Navigator.prototype.appName": 2
             },
             "sites": 2,
-            "prevalence": 0.0000407
-        },
-        {
-            "rule": "amp\\.services\\/currency\\/conversion-rates\\.json",
-            "cookies": 0.000407,
-            "fingerprinting": 0,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {},
-            "sites": 20,
-            "prevalence": 0.000407
-        },
-        {
-            "rule": "amp\\.services\\/prebidLeya1\\.0\\.3\\.js",
-            "cookies": 0.000285,
-            "fingerprinting": 2,
-            "subdomains": [
-                "static"
-            ],
-            "apis": {
-                "Navigator.prototype.userAgent": 16,
-                "Navigator.prototype.cookieEnabled": 13,
-                "window.sessionStorage": 15,
-                "Navigator.prototype.appName": 13,
-                "window.matchMedia(\"prefers-reduced-motion\")": 16,
-                "Date.prototype.getTime": 17,
-                "window.localStorage": 17,
-                "Screen.prototype.width": 14,
-                "Screen.prototype.height": 14,
-                "Screen.prototype.colorDepth": 13,
-                "Date.prototype.getTimezoneOffset": 16,
-                "Navigator.prototype.doNotTrack": 16,
-                "Navigator.prototype.language": 16,
-                "Document.cookie getter": 16,
-                "Navigator.prototype.vendor": 6
-            },
-            "sites": 17,
-            "prevalence": 0.000346
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -87,5 +66,9 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.000407
+    "cookies": 0.000274,
+    "types": {
+        "XHR": 19,
+        "Script": 4
+    }
 }

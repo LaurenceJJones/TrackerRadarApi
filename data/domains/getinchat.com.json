@@ -7,25 +7,28 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0000462,
+    "prevalence": 0.0000274,
     "sites": 2,
     "subdomains": [
         "client"
     ],
-    "fingerprinting": 1,
+    "cnames": [],
+    "fingerprinting": 2,
     "resources": [
         {
-            "rule": "getinchat\\.com\\/assets\\/widget\\.js",
+            "rule": "getinchat\\.com\\/v2\\/widget\\/widget\\.js",
             "cookies": 0,
-            "fingerprinting": 1,
+            "fingerprinting": 2,
             "subdomains": [
                 "client"
             ],
             "apis": {
-                "Navigator.prototype.userAgent": 1
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2
             },
             "sites": 2,
-            "prevalence": 0.0000462
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -33,7 +36,10 @@
         "time": 0,
         "size": 0,
         "cpu": 0,
-        "cache": 1
+        "cache": 0
     },
-    "cookies": 0
+    "cookies": 0,
+    "types": {
+        "Script": 2
+    }
 }

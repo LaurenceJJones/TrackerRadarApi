@@ -4,31 +4,31 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.000142,
-    "sites": 7,
+    "prevalence": 0.000151,
+    "sites": 11,
     "subdomains": [
         "server"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "smartsupp\\.com\\/chat\\/info",
-            "cookies": 0.000142,
+            "cookies": 0.000137,
             "fingerprinting": 0,
             "subdomains": [
                 "server"
             ],
             "apis": {},
-            "sites": 7,
-            "prevalence": 0.000142
+            "sites": 10,
+            "prevalence": 0.000137,
+            "cnames": []
         }
     ],
     "categories": [],
-    "performance": {
-        "time": 0,
-        "size": 0,
-        "cpu": 0,
-        "cache": 3
-    },
-    "cookies": 0.000142
+    "performance": {},
+    "cookies": 0.000137,
+    "types": {
+        "XHR": 10
+    }
 }

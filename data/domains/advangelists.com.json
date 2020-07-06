@@ -4,34 +4,38 @@
     "source": [
         "DuckDuckGo"
     ],
-    "prevalence": 0.0235,
-    "sites": 1153,
+    "prevalence": 0.0172,
+    "sites": 1258,
     "subdomains": [
-        "nep"
+        "nep",
+        "pixelb761285d009dabd"
     ],
+    "cnames": [],
     "fingerprinting": 0,
     "resources": [
         {
             "rule": "advangelists\\.com\\/xp\\/user-sync",
-            "cookies": 0.0231,
+            "cookies": 0.017,
             "fingerprinting": 0,
             "subdomains": [
                 "nep"
             ],
             "apis": {},
-            "sites": 1146,
-            "prevalence": 0.0233
+            "sites": 1249,
+            "prevalence": 0.0171,
+            "cnames": []
         },
         {
-            "rule": "advangelists\\.com\\/xp\\/user-sync",
-            "cookies": 0.000468,
+            "rule": "advangelists\\.com\\/v1\\/audiences",
+            "cookies": 0.0000137,
             "fingerprinting": 0,
             "subdomains": [
-                "nep"
+                "pixelb761285d009dabd"
             ],
             "apis": {},
-            "sites": 23,
-            "prevalence": 0.000468
+            "sites": 2,
+            "prevalence": 0.0000274,
+            "cnames": []
         }
     ],
     "categories": [],
@@ -41,5 +45,8 @@
         "cpu": 0,
         "cache": 3
     },
-    "cookies": 0.0233
+    "cookies": 0.017,
+    "types": {
+        "Image": 1251
+    }
 }
