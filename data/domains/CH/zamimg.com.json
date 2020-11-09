@@ -1,0 +1,80 @@
+{
+    "domain": "zamimg.com",
+    "owner": {
+        "name": "ZAM Network",
+        "displayName": "ZAM Network"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000508,
+    "sites": 5,
+    "subdomains": [
+        "wow"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "zamimg\\.com\\/widgets\\/power\\.js",
+            "cookies": 0.000203,
+            "fingerprinting": 1,
+            "subdomains": [
+                "wow"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "66eafa9cabff96b0a1777b3919ae5a3ebbc31473f3d95046d46f25e9ed031805"
+            ]
+        },
+        {
+            "rule": "zamimg\\.com\\/js\\/basic\\.js",
+            "cookies": 0.000508,
+            "fingerprinting": 1,
+            "subdomains": [
+                "wow"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000508,
+            "cnames": [],
+            "responseHashes": [
+                "4da71d430fd5b0a4d4250c9bf54e87893555aa9b9a58038c693acd60709ec938"
+            ]
+        },
+        {
+            "rule": "zamimg\\.com\\/css\\/basic\\.css",
+            "cookies": 0.000508,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wow"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000508,
+            "cnames": [],
+            "responseHashes": [
+                "ec48d227134eff715d64ec3bea42ac36563dd495652de61455e3ec6d41cfd5fd"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 3,
+        "cpu": 0,
+        "cache": 1
+    },
+    "cookies": 0.000508,
+    "types": {
+        "Script": 7,
+        "Stylesheet": 5
+    }
+}

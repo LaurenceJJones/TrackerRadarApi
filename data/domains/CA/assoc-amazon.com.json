@@ -1,0 +1,60 @@
+{
+    "domain": "assoc-amazon.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00102,
+    "sites": 10,
+    "subdomains": [
+        "ws-na",
+        "ws-eu"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "assoc-amazon\\.com\\/widgets\\/cm",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ws-na",
+                "ws-eu"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000716,
+            "cnames": [],
+            "responseHashes": [
+                "d317a4eb7d73cb6ea702f3d0fe8bcf4b409a033dff0062eb76613402b4a80a7e",
+                "ac1d228eb14a2bf061c4091e1f8c58b8b21aed621866e493b18fe85c68f1f7ec",
+                "fe9875e82f4a7c39d65794efc08ac5d61742d2811d8913886e3d656b805a7658",
+                "93bf18e5c7911e678a52fa66d85c02a5d5d1e4c16c0addd6aa0eecbde29c9368",
+                "a65e18c1f2c411b0643613c9e8e757dd4360c7c1f8b9ffed9f95e6bb3e5d22e7",
+                "4f6e900d40fb55c3c2623834708bbe98e7e133e686b66557c2b634b4295e8cf0"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Action Pixels"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Document": 7
+    }
+}

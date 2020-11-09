@@ -1,0 +1,46 @@
+{
+    "domain": "getdrip.com",
+    "owner": {
+        "name": "Avenue 81, Inc.",
+        "displayName": "Avenue 81"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000304,
+    "sites": 3,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "getdrip\\.com\\/client\\/events\\/visit",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "3860727569a17fe42a1e79f8c3f4bed2bc90ae4b31d3378b4a86d07a757ce195",
+                "11b8bd10909dd8cfb3ca0d8972f1807957ef4fb053b9da148aa4c6c8fd8bb7c8"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.000203,
+    "types": {
+        "Script": 3
+    }
+}

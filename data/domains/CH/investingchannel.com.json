@@ -1,0 +1,75 @@
+{
+    "domain": "investingchannel.com",
+    "owner": {
+        "name": "InvestingChannel, Inc.",
+        "displayName": "InvestingChannel"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000305,
+    "sites": 3,
+    "subdomains": [
+        "uat5"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "investingchannel\\.com\\/log\\/report\\/",
+            "cookies": 0.000407,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uat5"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000407,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "investingchannel\\.com\\/log\\/error\\/",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uat5"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "investingchannel\\.com\\/log\\/page\\/",
+            "cookies": 0.000305,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uat5"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000305,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 1
+    },
+    "cookies": 0.000305,
+    "types": {
+        "XHR": 9
+    }
+}

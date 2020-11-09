@@ -1,0 +1,111 @@
+{
+    "domain": "top100.ru",
+    "owner": {
+        "name": "Rambler Internet Holding, LLC",
+        "displayName": "Rambler Internet Holding"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00118,
+    "sites": 156,
+    "subdomains": [
+        "st"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "top100\\.ru\\/top100\\/top100\\.js",
+            "cookies": 0.000607,
+            "fingerprinting": 2,
+            "subdomains": [
+                "st"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 80,
+                "Navigator.prototype.plugins": 80,
+                "Navigator.prototype.mimeTypes": 80,
+                "Document.cookie getter": 75,
+                "Document.cookie setter": 75,
+                "Navigator.prototype.cookieEnabled": 79,
+                "Screen.prototype.width": 79,
+                "Screen.prototype.height": 79,
+                "Screen.prototype.colorDepth": 79,
+                "Navigator.prototype.language": 79,
+                "Navigator.prototype.javaEnabled": 77,
+                "Navigator.prototype.appCodeName": 79,
+                "Navigator.prototype.appName": 79,
+                "Navigator.prototype.platform": 79,
+                "Date.prototype.getTimezoneOffset": 79,
+                "Date.prototype.getTime": 79
+            },
+            "sites": 81,
+            "prevalence": 0.000615,
+            "cnames": [],
+            "responseHashes": [
+                "fb0601da73f3d87bf5853b84a3697b22e6f08c4c076d6a769dfab189f6d72947"
+            ]
+        },
+        {
+            "rule": "top100\\.ru\\/pack\\/pack\\.min\\.js",
+            "cookies": 0.0000228,
+            "fingerprinting": 2,
+            "subdomains": [
+                "st"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.plugins": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.javaEnabled": 3,
+                "Navigator.prototype.appCodeName": 3,
+                "Navigator.prototype.appName": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000228,
+            "cnames": [],
+            "responseHashes": [
+                "4576dc325f51a0f21d7e0d43149e0717e8ed5fda3813d43f90077cda1dca2fd1"
+            ]
+        },
+        {
+            "rule": "top100\\.ru\\/top100\\/1\\.8\\.0\\/usability\\.js",
+            "cookies": 0.0000304,
+            "fingerprinting": 1,
+            "subdomains": [
+                "st"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000304,
+            "cnames": [],
+            "responseHashes": [
+                "2bc3a43814f742f2ad33f32ef91747b28c42d4e53aa76cad6875a4255aff65da"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00118,
+    "types": {
+        "Script": 88
+    }
+}

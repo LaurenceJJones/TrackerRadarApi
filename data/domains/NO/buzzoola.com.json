@@ -1,0 +1,57 @@
+{
+    "domain": "buzzoola.com",
+    "owner": {
+        "name": "Buzzoola Inc.",
+        "displayName": "Buzzoola"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000811,
+    "sites": 8,
+    "subdomains": [
+        "exchange"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "buzzoola\\.com\\/cookiesync\\/ssp\\/rambler",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "exchange"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "buzzoola\\.com\\/ssp\\/adfox",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "exchange"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000406,
+    "types": {
+        "Image": 2,
+        "XHR": 2
+    }
+}

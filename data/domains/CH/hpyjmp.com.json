@@ -1,0 +1,52 @@
+{
+    "domain": "hpyjmp.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00102,
+    "sites": 10,
+    "subdomains": [
+        "go"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "hpyjmp\\.com\\/api\\/models\\/ts",
+            "cookies": 0.000305,
+            "fingerprinting": 0,
+            "subdomains": [
+                "go"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000305,
+            "cnames": [],
+            "responseHashes": [
+                "3cb90b481d8bb9ac510ffe3f4b4e1ed259905ed8ee8d404af889fedeab5356de",
+                "6e092bf34a0ba80777543d5e2f950ed1d351c0a5e08075f41bc801762d20ed79"
+            ]
+        },
+        {
+            "rule": "hpyjmp\\.com\\/smartpop\\/3b357d18be19452060cdcef511a0c7c72b9f87edbc90e40f2df90f03e1fb1800",
+            "cookies": 0.000305,
+            "fingerprinting": 0,
+            "subdomains": [
+                "go"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000305,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000915,
+    "types": {
+        "XHR": 3,
+        "Document": 3
+    }
+}

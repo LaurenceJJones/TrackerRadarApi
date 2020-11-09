@@ -1,0 +1,60 @@
+{
+    "domain": "pingdom.net",
+    "owner": {
+        "name": "Pingdom AB",
+        "displayName": "Pingdom",
+        "privacyPolicy": "https://www.pingdom.com/legal/cookie-policy/",
+        "url": "http://pingdom.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00911,
+    "sites": 89,
+    "subdomains": [
+        "rum-static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "pingdom\\.net\\/prum\\.min\\.js",
+            "cookies": 0.00368,
+            "fingerprinting": 2,
+            "subdomains": [
+                "rum-static"
+            ],
+            "apis": {
+                "window.localStorage": 36,
+                "PerformanceTiming.prototype.navigationStart": 36,
+                "Screen.prototype.availWidth": 35,
+                "Screen.prototype.availHeight": 35,
+                "Screen.prototype.pixelDepth": 35,
+                "window.devicePixelRatio": 35,
+                "Screen.prototype.orientation": 35,
+                "Navigator.prototype.appName": 35
+            },
+            "sites": 36,
+            "prevalence": 0.00368,
+            "cnames": [],
+            "responseHashes": [
+                "a0054cb907bee526169a8718932e3949ed5d5c6468342cf4daa7bd052c77b38c"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics",
+        "Audience Measurement",
+        "Action Pixels"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.00686,
+    "types": {
+        "Script": 36
+    }
+}

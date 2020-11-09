@@ -1,0 +1,79 @@
+{
+    "domain": "dotomi.com",
+    "owner": {
+        "name": "Conversant LLC",
+        "displayName": "Conversant",
+        "privacyPolicy": "https://www.conversantmedia.com/legal/privacy",
+        "url": "http://conversantmedia.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.022,
+    "sites": 217,
+    "subdomains": [
+        "pubmatic-match",
+        "aol-match",
+        "dclk-match",
+        "casale-match",
+        "triplelift-match",
+        "adobe-sync",
+        "medianet-match",
+        "prebid-match",
+        "login"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "dotomi\\.com\\/match\\/bounce\\/current",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pubmatic-match",
+                "aol-match",
+                "dclk-match",
+                "casale-match",
+                "triplelift-match",
+                "adobe-sync",
+                "medianet-match",
+                "prebid-match"
+            ],
+            "apis": {},
+            "sites": 157,
+            "prevalence": 0.0159,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "dotomi\\.com\\/ucm\\/UCMController",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000608,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000506,
+    "types": {
+        "Image": 157,
+        "Document": 6
+    }
+}

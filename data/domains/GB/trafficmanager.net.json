@@ -1,0 +1,86 @@
+{
+    "domain": "trafficmanager.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000913,
+    "sites": 9,
+    "subdomains": [
+        "nslc-prod-app",
+        "fps-namer"
+    ],
+    "cnames": [
+        {
+            "original": "login.norton.com",
+            "resolved": "nslc-prod-app.trafficmanager.net"
+        },
+        {
+            "original": "na.fps.ford.com",
+            "resolved": "fps-namer.trafficmanager.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "trafficmanager\\.net\\/sso\\/idp\\/SAML2",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nslc-prod-app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [
+                {
+                    "original": "login.norton.com",
+                    "resolved": "nslc-prod-app.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [
+                "0da75b03ea81215e49ddb7196e72f38a80493996ec1e0a7f8ff5a31de5294113",
+                "226b9081490b354ef6c4bdbfc0e1843834de75cc792691f6e1b9f7b38dc46659"
+            ]
+        },
+        {
+            "rule": "trafficmanager\\.net\\/fps\\/api\\/personalization_1_8\\/get",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fps-namer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [
+                {
+                    "original": "na.fps.ford.com",
+                    "resolved": "fps-namer.trafficmanager.net"
+                }
+            ],
+            "responseHashes": [
+                "936386cfd5527492ba131d2777c1ebb9215dad35eb0b61a001ee66697efdc368"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0.000608,
+    "types": {
+        "Document": 3,
+        "XHR": 2
+    }
+}

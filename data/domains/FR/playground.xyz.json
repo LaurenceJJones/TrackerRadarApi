@@ -1,0 +1,50 @@
+{
+    "domain": "playground.xyz",
+    "owner": {
+        "name": "PLAYGROUND XYZ",
+        "displayName": "PLAYGROUND XYZ",
+        "privacyPolicy": "https://playground.xyz/privacy/",
+        "url": "http://playground.xyz"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00699,
+    "sites": 69,
+    "subdomains": [
+        "ads"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "playground\\.xyz\\/usersync\\/apn",
+            "cookies": 0.00587,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 68,
+            "prevalence": 0.00689,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0.00597,
+    "types": {
+        "Image": 68
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "domain": "cookiebot.com",
+    "owner": {
+        "name": "Cybot ApS",
+        "displayName": "Cybot",
+        "privacyPolicy": "https://www.cybot.com/privacy-policy/",
+        "url": "http://cybot.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.0131,
+    "sites": 129,
+    "subdomains": [
+        "consentcdn",
+        "consent"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cookiebot\\.com\\/sdk\\/bc\\.min\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consentcdn"
+            ],
+            "apis": {
+                "window.localStorage": 126
+            },
+            "sites": 128,
+            "prevalence": 0.013,
+            "cnames": [],
+            "responseHashes": [
+                "6128438bd448fb790ddbccd8fa9ec66d7bd46fdb3a9126b44631751f00468b12"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.com\\/uc\\.js",
+            "cookies": 0.00781,
+            "fingerprinting": 2,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Document.cookie getter": 86,
+                "Document.cookie setter": 77,
+                "Navigator.prototype.languages": 92,
+                "Navigator.prototype.userAgent": 92,
+                "window.localStorage": 92,
+                "Navigator.prototype.doNotTrack": 92,
+                "Navigator.prototype.cookieEnabled": 92,
+                "Date.prototype.getTime": 19,
+                "Navigator.prototype.maxTouchPoints": 1,
+                "HTMLCanvasElement.prototype.toDataURL": 1
+            },
+            "sites": 93,
+            "prevalence": 0.00943,
+            "cnames": [],
+            "responseHashes": [
+                "fd4eb61edb4f54b4b6075ba089e3df32a69cfb36a81361673571aedc1f05d71b"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.com\\/Framework\\/IAB\\/consent-sdk-2\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 14,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 15,
+            "prevalence": 0.00152,
+            "cnames": [],
+            "responseHashes": [
+                "c19aa54d4b2b203e3448f73748a3618fcbf4613763c1ca55793bae810076b0a7"
+            ]
+        }
+    ],
+    "categories": [
+        "Embedded Content",
+        "Non-Tracking"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 3,
+        "cache": 3
+    },
+    "cookies": 0.00781,
+    "types": {
+        "Document": 128,
+        "Script": 108
+    }
+}

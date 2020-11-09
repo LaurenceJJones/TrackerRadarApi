@@ -1,0 +1,64 @@
+{
+    "domain": "advangelists.com",
+    "owner": {
+        "name": "Mobiquity Inc.",
+        "displayName": "Mobiquity"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.0293,
+    "sites": 286,
+    "subdomains": [
+        "nep"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "advangelists\\.com\\/xp\\/user-sync",
+            "cookies": 0.0283,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nep"
+            ],
+            "apis": {},
+            "sites": 283,
+            "prevalence": 0.029,
+            "cnames": [],
+            "responseHashes": [
+                "548f2d6f4d0d820c6c5ffbeffcbd7f0e73193e2932eefe542accc84762deec87",
+                "b1442e85b03bdcaf66dc58c7abb98745dd2687d86350be9a298a1d9382ac849b",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "aa03dc59bdca72631d2301e4297cfa030bd31b907dc138e7b973d12311c90a22"
+            ]
+        },
+        {
+            "rule": "advangelists\\.com\\/xp\\/get",
+            "cookies": 0.000307,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nep"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.029,
+    "types": {
+        "Image": 283,
+        "XHR": 3
+    }
+}

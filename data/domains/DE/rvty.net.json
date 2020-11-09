@@ -1,0 +1,113 @@
+{
+    "domain": "rvty.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000506,
+    "sites": 5,
+    "subdomains": [
+        "brain"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "rvty\\.net\\/RTB\\/Track",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "brain"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "a065920df8cc4016d67c3a464be90099c9d28ffe7c9e6ee3a18f257efc58cbd7"
+            ]
+        },
+        {
+            "rule": "rvty\\.net\\/RTB\\/Pxl",
+            "cookies": 0.000304,
+            "fingerprinting": 0,
+            "subdomains": [
+                "brain"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "fba9837dca5f5e6598bddc37e7d710f7ca038509d0ccefd8e720eae04aca045b"
+            ]
+        },
+        {
+            "rule": "rvty\\.net\\/RTB\\/Re",
+            "cookies": 0.000304,
+            "fingerprinting": 0,
+            "subdomains": [
+                "brain"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "a065920df8cc4016d67c3a464be90099c9d28ffe7c9e6ee3a18f257efc58cbd7"
+            ]
+        },
+        {
+            "rule": "rvty\\.net\\/RTB\\/GoogleMatch",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "brain"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "a065920df8cc4016d67c3a464be90099c9d28ffe7c9e6ee3a18f257efc58cbd7"
+            ]
+        },
+        {
+            "rule": "rvty\\.net\\/RTB\\/Match",
+            "cookies": 0.000304,
+            "fingerprinting": 0,
+            "subdomains": [
+                "brain"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "a065920df8cc4016d67c3a464be90099c9d28ffe7c9e6ee3a18f257efc58cbd7"
+            ]
+        },
+        {
+            "rule": "rvty\\.net\\/RTB\\/AdView",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "brain"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000506,
+    "types": {
+        "Image": 12,
+        "Document": 3
+    }
+}

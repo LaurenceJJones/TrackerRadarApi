@@ -1,0 +1,49 @@
+{
+    "domain": "concert.io",
+    "owner": {
+        "name": "Vox Media, Inc.",
+        "displayName": "Vox Media"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00113,
+    "sites": 11,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "concert\\.io\\/partner\\/straightdope\\.desktop\\.concert-delivery-system\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.matchMedia(\"prefers-reduced-motion\")": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "162e2b4c51d054b7f67c43f3a8ae0e4b459c0e2126756b8c3e5f14a5bc33b50a"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 2
+    }
+}

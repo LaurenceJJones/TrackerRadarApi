@@ -1,0 +1,78 @@
+{
+    "domain": "fwmrm.net",
+    "owner": {
+        "name": "FreeWheel",
+        "displayName": "FreeWheel",
+        "privacyPolicy": "http://freewheel.tv/privacy-policy/",
+        "url": "http://freewheel.tv"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00639,
+    "sites": 63,
+    "subdomains": [
+        "dmp.v",
+        "1f2e7.v",
+        "29773.v",
+        "2a7e9.v",
+        "5fd74.v"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "fwmrm\\.net\\/ad\\/u",
+            "cookies": 0.00629,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp.v",
+                "1f2e7.v",
+                "29773.v"
+            ],
+            "apis": {},
+            "sites": 62,
+            "prevalence": 0.00629,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "cf4724b2f736ed1a0ae6bc28f1ead963d9cd2c1fd87b6ef32e7799fc1c5c8bda"
+            ]
+        },
+        {
+            "rule": "fwmrm\\.net\\/ad\\/g\\/1",
+            "cookies": 0.000203,
+            "fingerprinting": 1,
+            "subdomains": [
+                "2a7e9.v",
+                "5fd74.v"
+            ],
+            "apis": {
+                "Navigator.prototype.appVersion": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "b140d9982a764d9a102b42fe686b225bca470adcd5f33d9bf8eef61b914c1eb8"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00639,
+    "types": {
+        "Image": 62,
+        "Script": 2
+    }
+}

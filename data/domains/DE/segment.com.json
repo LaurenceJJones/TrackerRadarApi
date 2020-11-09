@@ -1,0 +1,86 @@
+{
+    "domain": "segment.com",
+    "owner": {
+        "name": "Segment.io, Inc.",
+        "displayName": "Segment.io",
+        "privacyPolicy": "https://segment.io/privacy",
+        "url": "http://segment.io"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00415,
+    "sites": 41,
+    "subdomains": [
+        "atlassian-ihu9wbfxmn.xid",
+        "cdn"
+    ],
+    "cnames": [
+        {
+            "original": "xid.atlassian.com",
+            "resolved": "atlassian-ihu9wbfxmn.xid.segment.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "segment\\.com\\/v1\\/saveId",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "atlassian-ihu9wbfxmn.xid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [
+                {
+                    "original": "xid.atlassian.com",
+                    "resolved": "atlassian-ihu9wbfxmn.xid.segment.com"
+                }
+            ],
+            "responseHashes": [
+                "a12b7cb43c9d9134b5bb1b35e9096b66775d9e92e7611d1cc92b02edd6782a87"
+            ]
+        },
+        {
+            "rule": "segment\\.com\\/analytics\\.js\\/v1\\/4I2fAtE5IxTlczNT3F91OckHtI5wfR7g\\/analytics\\.min\\.js",
+            "cookies": 0.000203,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "dd4fe5f0738b4c98854a5e143e40f2c5b47d5d64c8d0538d32e4899f16ded972"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 2,
+        "cache": 3
+    },
+    "cookies": 0.00253,
+    "types": {
+        "XHR": 2,
+        "Script": 2
+    }
+}

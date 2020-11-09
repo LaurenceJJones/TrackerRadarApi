@@ -1,0 +1,73 @@
+{
+    "domain": "mirando.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000911,
+    "sites": 9,
+    "subdomains": [
+        "get"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mirando\\.de\\/mirando\\.js",
+            "cookies": 0.000608,
+            "fingerprinting": 2,
+            "subdomains": [
+                "get"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "window.localStorage": 6,
+                "Screen.prototype.availWidth": 6,
+                "Screen.prototype.availHeight": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000608,
+            "cnames": [],
+            "responseHashes": [
+                "a57ab0f290fda366a3fb8042bc0857ddde969739e674980879ade5fb3a596183"
+            ]
+        },
+        {
+            "rule": "mirando\\.de\\/track\\/224\\/4125\\/0c0f6c8d-cd57-faf2-a829-ad765ab358dc\\/view",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "get"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "63b98a0c8568c08fd01a6946a147bca65eff26c8085f1ccb5330aafe0f0dcd15"
+            ]
+        },
+        {
+            "rule": "mirando\\.de\\/track\\/1773\\/4125\\/091fca89-7db7-cd9a-0412-74f251ac5c62\\/view",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "get"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "63b98a0c8568c08fd01a6946a147bca65eff26c8085f1ccb5330aafe0f0dcd15"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000911,
+    "types": {
+        "Script": 6,
+        "Image": 4
+    }
+}

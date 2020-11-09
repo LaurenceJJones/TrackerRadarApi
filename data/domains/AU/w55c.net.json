@@ -1,0 +1,78 @@
+{
+    "domain": "w55c.net",
+    "owner": {
+        "name": "DataXu",
+        "displayName": "DataXu",
+        "privacyPolicy": "https://www.dataxu.com/about-us/privacy/data-collection-platform/",
+        "url": "http://dataxu.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0941,
+    "sites": 919,
+    "subdomains": [
+        "i",
+        "pm",
+        "tags"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "w55c\\.net\\/ping_match\\.gif",
+            "cookies": 0.0569,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i",
+                "pm"
+            ],
+            "apis": {},
+            "sites": 614,
+            "prevalence": 0.0629,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "w55c\\.net\\/ping_match\\.gif",
+            "cookies": 0.0484,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pm"
+            ],
+            "apis": {},
+            "sites": 525,
+            "prevalence": 0.0538,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "w55c\\.net\\/rs",
+            "cookies": 0.00225,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.00246,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.086,
+    "types": {
+        "Image": 638,
+        "Document": 525
+    }
+}

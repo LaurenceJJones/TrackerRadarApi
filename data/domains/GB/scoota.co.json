@@ -1,0 +1,48 @@
+{
+    "domain": "scoota.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.00274,
+    "sites": 27,
+    "subdomains": [
+        "r"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "scoota\\.co\\/sync",
+            "cookies": 0.00274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.00274,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "scoota\\.co\\/ul_cb\\/sync",
+            "cookies": 0.00264,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.00274,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00274,
+    "types": {
+        "Image": 54
+    }
+}

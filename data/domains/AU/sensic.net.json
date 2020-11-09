@@ -1,0 +1,66 @@
+{
+    "domain": "sensic.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00041,
+    "sites": 4,
+    "subdomains": [
+        "au-config"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sensic\\.net\\/s2s-web\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "au-config"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "370dd9b9d4f79df69a2c545956131c7f6418fd186d1703b38bb21efea09764e7"
+            ]
+        },
+        {
+            "rule": "sensic\\.net\\/sui\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "au-config"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "e9241d65ed2aa3c937d23e85af9b7d1cc3c383fc7f156550c953f6b633950961"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 3,
+        "Document": 3
+    }
+}

@@ -1,0 +1,191 @@
+{
+    "domain": "azureedge.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.00766,
+    "sites": 75,
+    "subdomains": [
+        "reversoprodcdn",
+        "nlo-portal-header",
+        "coreappsprod",
+        "cvweu-igs-pr-cdn-001",
+        "jabra-prod-cdn"
+    ],
+    "cnames": [
+        {
+            "original": "cdn.reverso.net",
+            "resolved": "reversoprodcdn.azureedge.net"
+        },
+        {
+            "original": "portal-header-cdn.nederlandseloterij.nl",
+            "resolved": "nlo-portal-header.azureedge.net"
+        },
+        {
+            "original": "www.fr.jabra.ca",
+            "resolved": "jabra-prod-cdn.azureedge.net"
+        },
+        {
+            "original": "www.it.jabra.com",
+            "resolved": "jabra-prod-cdn.azureedge.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "azureedge\\.net\\/ramjs\\/predib4\\.8\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "reversoprodcdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [
+                {
+                    "original": "cdn.reverso.net",
+                    "resolved": "reversoprodcdn.azureedge.net"
+                }
+            ],
+            "responseHashes": [
+                "580f8b935ed4de427239eead41fc2d3a4ae33fa88519235d089679a64c20f232"
+            ]
+        },
+        {
+            "rule": "azureedge\\.net\\/statics\\/nlportal-cookie-consent\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "nlo-portal-header"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000408,
+            "cnames": [
+                {
+                    "original": "portal-header-cdn.nederlandseloterij.nl",
+                    "resolved": "nlo-portal-header.azureedge.net"
+                }
+            ],
+            "responseHashes": [
+                "53002969f80e005c3342e9dc57bc4ba7de560f5e5c15db2943c5eed1d893fcd6"
+            ]
+        },
+        {
+            "rule": "azureedge\\.net\\/93840b2455318ba770dd\\/polyfills\\.chunk\\.647f9255c0e651a2655b\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "coreappsprod"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "7dc7cc402bd00a2b00c6fa3c57c1276f815698e9e13694d09e5e1abadccb9ead"
+            ]
+        },
+        {
+            "rule": "azureedge\\.net\\/93840b2455318ba770dd\\/2\\.chunk\\.fd57cffab440bd7cc4a6\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "coreappsprod"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "478d9e4fdba7ee1c9a55c164eac5edc4f187a958ca224af86ea7424fb1e8519a"
+            ]
+        },
+        {
+            "rule": "azureedge\\.net\\/chatbot-sc\\/54005\\/polyfills-es2015\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cvweu-igs-pr-cdn-001"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "98256a03fab6011d2cd2f1f1258c401e5095331a53a255ea2e880cbdb8438e19"
+            ]
+        },
+        {
+            "rule": "azureedge\\.net\\/chatbot-sc\\/54005\\/main-es2015\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cvweu-igs-pr-cdn-001"
+            ],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "9ef28e99c6bc6bbd76dd92a870e03a2321899ac1261db7cacdee2d3d1765374f"
+            ]
+        },
+        {
+            "rule": "azureedge\\.net\\/api\\/domaincookie\\/777545494",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jabra-prod-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [
+                {
+                    "original": "www.fr.jabra.ca",
+                    "resolved": "jabra-prod-cdn.azureedge.net"
+                },
+                {
+                    "original": "www.it.jabra.com",
+                    "resolved": "jabra-prod-cdn.azureedge.net"
+                }
+            ],
+            "responseHashes": [
+                "9c6d485ae01a594ef22b3c44e1eca5314259061faacdcdfc51569aba58a4fc2b"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 2,
+        "cpu": 2,
+        "cache": 1
+    },
+    "cookies": 0.000715,
+    "types": {
+        "Script": 15,
+        "Image": 2
+    }
+}

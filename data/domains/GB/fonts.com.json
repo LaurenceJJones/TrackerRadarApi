@@ -1,0 +1,48 @@
+{
+    "domain": "fonts.com",
+    "owner": {
+        "name": "Monotype Imaging Inc.",
+        "displayName": "Monotype Imaging",
+        "privacyPolicy": "https://www.monotype.com/legal/privacy-policy/",
+        "url": "http://monotype.com"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000507,
+    "sites": 5,
+    "subdomains": [
+        "api2"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "fonts\\.com\\/FontSubsetter\\.ashx",
+            "cookies": 0.000304,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "01f62d614fe6d48f75fb75418ce65331afd43dd0174656c6bfbe45a0e7731487",
+                "be1205306b51ba5493fc5d3d94062484dee31dec75c381233225a0350cf94eda"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 1
+    },
+    "cookies": 0.000203,
+    "types": {
+        "Font": 3
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "domain": "hlserve.com",
+    "owner": {
+        "name": "Criteo SA",
+        "displayName": "Criteo",
+        "privacyPolicy": "https://www.criteo.com/privacy/",
+        "url": "http://criteo.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000506,
+    "sites": 5,
+    "subdomains": [
+        "www",
+        "retail-eu.products",
+        "retail-eu.productads"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "hlserve\\.com\\/Delivery\\/ClientPaths\\/Library\\/onetag\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "ffaad5de8eaa51c181d57af527454fff80f74331eb2ae425bfd7b36672df9ffe"
+            ]
+        },
+        {
+            "rule": "hlserve\\.com\\/Delivery\\/ClientPaths\\/Library\\/hook\\.js",
+            "cookies": 0.000405,
+            "fingerprinting": 1,
+            "subdomains": [
+                "retail-eu.products",
+                "www",
+                "retail-eu.productads"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000405,
+            "cnames": [],
+            "responseHashes": [
+                "b7bc8b68197bfa076ce163c3cb3615fb70f30213a25e432842a628e58cdccdf1",
+                "825d78bc010fbbdcc7de40a540fc16ad9910d6ec6f206d741aa1e4d5da3a0dc6",
+                "0156a5a16672236f6346bf9cd611ebb97f61031ac6b03695910894a9ae06f991"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000405,
+    "types": {
+        "Script": 6
+    }
+}

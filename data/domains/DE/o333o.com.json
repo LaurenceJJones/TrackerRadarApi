@@ -1,0 +1,102 @@
+{
+    "domain": "o333o.com",
+    "owner": {
+        "name": "AdSpyglass",
+        "displayName": "AdSpyglass",
+        "privacyPolicy": "https://www.adspyglass.com/privacy_policy",
+        "url": "http://adspyglass.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00365,
+    "sites": 36,
+    "subdomains": [
+        "a",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "o333o\\.com\\/api\\/spots\\/44923",
+            "cookies": 0.00081,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.00081,
+            "cnames": [],
+            "responseHashes": [
+                "19909f4c7ddb0c79ad7297c17f01757c23377e30d9604a4452b29116d093591b"
+            ]
+        },
+        {
+            "rule": "o333o\\.com\\/api\\/spots\\/10515",
+            "cookies": 0.000405,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000405,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "bc42096569a3028de10ab23b8080b7235b39deb4687297b6b65fbfa50565d04e"
+            ]
+        },
+        {
+            "rule": "o333o\\.com\\/api\\/spots\\/10516",
+            "cookies": 0.000405,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000405,
+            "cnames": [],
+            "responseHashes": [
+                "56d997acc0211bfcf7f5442824ff09ecdb7f739d89d8e58bed7ccef503591d56"
+            ]
+        },
+        {
+            "rule": "o333o\\.com\\/asg_embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "cd03010027ada5168f613830833cbdf06d3e00361d4a7a4648c6438f7258ddc1"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 1
+    },
+    "cookies": 0.00172,
+    "types": {
+        "Document": 16,
+        "Script": 2
+    }
+}

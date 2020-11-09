@@ -1,0 +1,45 @@
+{
+    "domain": "3gl.net",
+    "owner": {
+        "name": "CatchPoint Systems Inc",
+        "displayName": "CatchPoint Systems"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00233,
+    "sites": 23,
+    "subdomains": [
+        "r"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "3gl\\.net\\/hawklogserver\\/r\\.p",
+            "cookies": 0.00081,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000911,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000911,
+    "types": {
+        "Other": 9
+    }
+}

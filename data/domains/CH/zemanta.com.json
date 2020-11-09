@@ -1,0 +1,94 @@
+{
+    "domain": "zemanta.com",
+    "owner": {
+        "name": "Outbrain",
+        "displayName": "Outbrain",
+        "privacyPolicy": "https://www.outbrain.com/legal/privacy",
+        "url": "http://outbrain.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0447,
+    "sites": 440,
+    "subdomains": [
+        "b1sync"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "zemanta\\.com\\/usersync\\/gumgum\\/",
+            "cookies": 0.00132,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b1sync"
+            ],
+            "apis": {},
+            "sites": 292,
+            "prevalence": 0.0297,
+            "cnames": [],
+            "responseHashes": [
+                "6adc3d4c1056996e4e8b765a62604c78b1f867cceb3b15d0b9bedb7c4857f992"
+            ]
+        },
+        {
+            "rule": "zemanta\\.com\\/usersync\\/triplelift",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b1sync"
+            ],
+            "apis": {},
+            "sites": 157,
+            "prevalence": 0.016,
+            "cnames": [],
+            "responseHashes": [
+                "bb229a48bee31f5d54ca12dc9bd960c63a671f0d4be86a054c1d324a44499d96"
+            ]
+        },
+        {
+            "rule": "zemanta\\.com\\/usersync\\/bluekai\\/callback\\/",
+            "cookies": 0.00173,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b1sync"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.00173,
+            "cnames": [],
+            "responseHashes": [
+                "6adc3d4c1056996e4e8b765a62604c78b1f867cceb3b15d0b9bedb7c4857f992"
+            ]
+        },
+        {
+            "rule": "zemanta\\.com\\/usersync\\/outbrain\\/",
+            "cookies": 0.00193,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b1sync"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00193,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00356,
+    "types": {
+        "Image": 485
+    }
+}

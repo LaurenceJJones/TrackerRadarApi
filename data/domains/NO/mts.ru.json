@@ -1,0 +1,57 @@
+{
+    "domain": "mts.ru",
+    "owner": {
+        "name": "Mobile TeleSystems Public Joint Stock Company",
+        "displayName": "Mobile TeleSystems Public Joint Stock Company"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000811,
+    "sites": 8,
+    "subdomains": [
+        "sm.rtb",
+        "tech.rtb"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "mts\\.ru\\/p",
+            "cookies": 0.000913,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sm.rtb"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000913,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "mts\\.ru\\/",
+            "cookies": 0.000913,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tech.rtb"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000913,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000811,
+    "types": {
+        "Image": 18
+    }
+}

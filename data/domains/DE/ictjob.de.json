@@ -1,0 +1,59 @@
+{
+    "domain": "ictjob.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000608,
+    "sites": 6,
+    "subdomains": [
+        "bitblokes.sites",
+        "computerwissen.sites",
+        "api"
+    ],
+    "cnames": [
+        {
+            "original": "jobs.bitblokes.de",
+            "resolved": "bitblokes.sites.ictjob.de"
+        },
+        {
+            "original": "jobs.computerwissen.de",
+            "resolved": "computerwissen.sites.ictjob.de"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ictjob\\.de\\/widget",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bitblokes.sites",
+                "computerwissen.sites",
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000608,
+            "cnames": [
+                {
+                    "original": "jobs.bitblokes.de",
+                    "resolved": "bitblokes.sites.ictjob.de"
+                },
+                {
+                    "original": "jobs.computerwissen.de",
+                    "resolved": "computerwissen.sites.ictjob.de"
+                }
+            ],
+            "responseHashes": [
+                "523c90e37f25e1d36f78003ba70a5881e5750be1480debdcc15888d40f708e27"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Document": 6
+    }
+}

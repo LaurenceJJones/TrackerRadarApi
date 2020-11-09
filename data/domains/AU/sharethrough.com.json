@@ -1,0 +1,180 @@
+{
+    "domain": "sharethrough.com",
+    "owner": {
+        "name": "Sharethrough, Inc.",
+        "displayName": "Sharethrough",
+        "privacyPolicy": "https://platform-cdn.sharethrough.com/privacy-policy",
+        "url": "http://sharethrough.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0307,
+    "sites": 300,
+    "subdomains": [
+        "native",
+        "match",
+        "sdk"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sharethrough\\.com\\/assets\\/sfp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "native"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 44
+            },
+            "sites": 47,
+            "prevalence": 0.00481,
+            "cnames": [],
+            "responseHashes": [
+                "1262d0cce3272ce7bb9f014270b46103277a0bc48f1a9571fba4243358fae19b"
+            ]
+        },
+        {
+            "rule": "sharethrough\\.com\\/E4rooAtA\\/v1",
+            "cookies": 0.00932,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 98,
+            "prevalence": 0.01,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "sharethrough\\.com\\/FGMrCMMc\\/v1",
+            "cookies": 0.000512,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000512,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "sharethrough\\.com\\/assets\\/tag\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "native"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000819,
+            "cnames": [],
+            "responseHashes": [
+                "1262d0cce3272ce7bb9f014270b46103277a0bc48f1a9571fba4243358fae19b",
+                "30440eac397994e34d658f670df15d44a1e5d25508eaa2f17f68e852afec247c"
+            ]
+        },
+        {
+            "rule": "sharethrough\\.com\\/assets\\/sfp-iframe-buster\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "native"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 4,
+            "prevalence": 0.00041,
+            "cnames": [],
+            "responseHashes": [
+                "0c730410ba6795205301910d63c170012c7b6cc0964f331c7b1ce95a2320f92c"
+            ]
+        },
+        {
+            "rule": "sharethrough\\.com\\/sync\\/v1",
+            "cookies": 0.00328,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 34,
+            "prevalence": 0.00348,
+            "cnames": [],
+            "responseHashes": [
+                "6019c3c9e47dc991f8d9937deafbb0740c2e61e321324798cb508773b0814824"
+            ]
+        },
+        {
+            "rule": "sharethrough\\.com\\/assets\\/sfp-set-targeting\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "native"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 6,
+            "prevalence": 0.000615,
+            "cnames": [],
+            "responseHashes": [
+                "0c730410ba6795205301910d63c170012c7b6cc0964f331c7b1ce95a2320f92c",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "sharethrough\\.com\\/gc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.devicePixelRatio": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "1262d0cce3272ce7bb9f014270b46103277a0bc48f1a9571fba4243358fae19b"
+            ]
+        },
+        {
+            "rule": "sharethrough\\.com\\/media\\.net\\/v1",
+            "cookies": 0.000819,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000819,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.0139,
+    "types": {
+        "Script": 68,
+        "Image": 145
+    }
+}

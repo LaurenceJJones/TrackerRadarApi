@@ -1,0 +1,68 @@
+{
+    "domain": "usemaxserver.de",
+    "owner": {
+        "name": "Emego GmbH",
+        "displayName": "Emego"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000759,
+    "sites": 10,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "usemaxserver\\.de\\/d\\.php",
+            "cookies": 0.0000304,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000304,
+            "cnames": [],
+            "responseHashes": [
+                "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                "5236e83ca71e7b3015dc35b0322f27d44678ec2872e69a26d104a1812fee6631",
+                "a6efb45c26d0ac2adc6f741d960f1f5558f81b5a5e7d2053b7143bb3e186effd"
+            ]
+        },
+        {
+            "rule": "usemaxserver\\.de\\/rt\\.php",
+            "cookies": 0.000038,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000683,
+            "cnames": [],
+            "responseHashes": [
+                "f7a8ec310532e6865be86320d82fc4e2bb251c8eb758f7492796bce270c8e267",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "69201d63a1566dd7ac9705619cc70796f9ca7beb5ac8df75b758adb61c44c7b6"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0.0000759,
+    "types": {
+        "Script": 4,
+        "Document": 9
+    }
+}

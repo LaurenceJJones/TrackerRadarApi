@@ -1,0 +1,131 @@
+{
+    "domain": "apester.com",
+    "owner": {
+        "name": "Daniel Zadok",
+        "displayName": "Daniel Zadok"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00234,
+    "sites": 23,
+    "subdomains": [
+        "static",
+        "renderer"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "apester\\.com\\/js\\/sdk\\/v2\\.0\\/apester-javascript-sdk\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 10,
+                "Date.prototype.getTime": 10,
+                "Navigator.prototype.language": 10,
+                "Screen.prototype.height": 10,
+                "Screen.prototype.width": 10
+            },
+            "sites": 10,
+            "prevalence": 0.00102,
+            "cnames": [],
+            "responseHashes": [
+                "77b73ab1819b4ac894de4baf026850ec0050905f1c0eebae474d70de9c6a8973"
+            ]
+        },
+        {
+            "rule": "apester\\.com\\/v2\\/static\\/main\\.5ee86819bfd48bf3e64a\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "renderer"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Screen.prototype.availHeight": 6,
+                "Screen.prototype.availWidth": 6,
+                "Navigator.prototype.language": 6,
+                "window.localStorage": 6,
+                "PerformanceTiming.prototype.navigationStart": 5
+            },
+            "sites": 6,
+            "prevalence": 0.00061,
+            "cnames": [],
+            "responseHashes": [
+                "6cd69b95e244b5eb24fd91dc9fcecc61e96f6fab8408b55e2cbcbfb0c6f45221"
+            ]
+        },
+        {
+            "rule": "apester\\.com\\/v2\\/static\\/vendor\\.5ee86819bfd48bf3e64a\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "renderer"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 6,
+            "prevalence": 0.00061,
+            "cnames": [],
+            "responseHashes": [
+                "bbf8864f62bfb8994e33278f74af514626aa88589def1cf26f0a0638cd9719e9"
+            ]
+        },
+        {
+            "rule": "apester\\.com\\/cookie\\/bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 6,
+                "Navigator.prototype.userAgent": 6
+            },
+            "sites": 6,
+            "prevalence": 0.00061,
+            "cnames": [],
+            "responseHashes": [
+                "d6f04d4b056f083e14ba65f8a11de2bfafe97e531bdaed5b5cae3c48b74adf3e"
+            ]
+        },
+        {
+            "rule": "apester\\.com\\/js\\/sdk\\/latest\\/apester-sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "Date.prototype.getTime": 7,
+                "Navigator.prototype.language": 7,
+                "Screen.prototype.height": 7,
+                "Screen.prototype.width": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000712,
+            "cnames": [],
+            "responseHashes": [
+                "77b73ab1819b4ac894de4baf026850ec0050905f1c0eebae474d70de9c6a8973"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 1
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 35
+    }
+}

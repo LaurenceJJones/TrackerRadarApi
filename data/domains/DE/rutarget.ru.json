@@ -1,0 +1,61 @@
+{
+    "domain": "rutarget.ru",
+    "owner": {
+        "name": "RuTarget LLC",
+        "displayName": "RuTarget",
+        "privacyPolicy": "https://segmento.ru/privacy",
+        "url": "http://segmento.ru"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00233,
+    "sites": 23,
+    "subdomains": [
+        "begun-sync",
+        "rambler-sync",
+        "google-sync",
+        "yandex-dmp-sync",
+        "instreamvideo-sync",
+        "sape-sync"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "rutarget\\.ru\\/sync",
+            "cookies": 0.00243,
+            "fingerprinting": 0,
+            "subdomains": [
+                "begun-sync",
+                "rambler-sync",
+                "google-sync",
+                "yandex-dmp-sync",
+                "instreamvideo-sync",
+                "sape-sync"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.00243,
+            "cnames": [],
+            "responseHashes": [
+                "0b8a20373c6dd04e091902226d922b3688143a8938afb9d283d889de7b55ceb5"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Audience Measurement",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00233,
+    "types": {
+        "Image": 24
+    }
+}

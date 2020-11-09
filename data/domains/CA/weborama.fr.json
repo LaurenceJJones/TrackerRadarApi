@@ -1,0 +1,117 @@
+{
+    "domain": "weborama.fr",
+    "owner": {
+        "name": "Weborama",
+        "displayName": "Weborama",
+        "privacyPolicy": "https://weborama.com/en/privacy_en/",
+        "url": "http://weborama.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00634,
+    "sites": 62,
+    "subdomains": [
+        "idsync.frontend",
+        "redirect.frontend",
+        "rd.frontend",
+        "bsd.frontend",
+        "frpetzlactivationfr.solution"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "weborama\\.fr\\/ids",
+            "cookies": 0.00276,
+            "fingerprinting": 0,
+            "subdomains": [
+                "idsync.frontend"
+            ],
+            "apis": {},
+            "sites": 29,
+            "prevalence": 0.00297,
+            "cnames": [],
+            "responseHashes": [
+                "3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517"
+            ]
+        },
+        {
+            "rule": "weborama\\.fr\\/redirect\\/standard",
+            "cookies": 0.00194,
+            "fingerprinting": 0,
+            "subdomains": [
+                "redirect.frontend"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00194,
+            "cnames": [],
+            "responseHashes": [
+                "8337212354871836e6763a41e615916c89bac5b3f1f0adf60ba43c7c806e1015",
+                "ef1955ae757c8b966c83248350331bd3a30f658ced11f387f8ebf05ab3368629"
+            ]
+        },
+        {
+            "rule": "weborama\\.fr\\/rd",
+            "cookies": 0.00133,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rd.frontend",
+                "redirect.frontend"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.00133,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "weborama\\.fr\\/bsd",
+            "cookies": 0.000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bsd.frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "33e91ef748f0af8ef6ee182576422ffdac615b0611a46823d2df553142755b7c"
+            ]
+        },
+        {
+            "rule": "weborama\\.fr\\/fcgi-bin\\/dispatch\\.fcgi",
+            "cookies": 0.000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frpetzlactivationfr.solution"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00593,
+    "types": {
+        "Image": 61,
+        "Script": 2,
+        "Document": 2
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "domain": "hs-banner.com",
+    "owner": {
+        "name": "HubSpot, Inc.",
+        "displayName": "HubSpot",
+        "privacyPolicy": "https://legal.hubspot.com/privacy-policy",
+        "url": "http://hubspot.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00791,
+    "sites": 78,
+    "subdomains": [
+        "js"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "hs-banner\\.com\\/533155\\.js",
+            "cookies": 0.000203,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "da1af8cd5afcb7e35a0f10aaa0dcd560d60fd3375d0e68e24d919c77e98b47dc"
+            ]
+        },
+        {
+            "rule": "hs-banner\\.com\\/5883348\\.js",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "a46ab7c8082f0c8a3015642327b5a156a28c08733956059cc7031831e7cbcdfd"
+            ]
+        },
+        {
+            "rule": "hs-banner\\.com\\/6512650\\.js",
+            "cookies": 0.000203,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.cookieEnabled": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "f5e9fdbc69bebdae5f67c67e477a40bdab4a8ee8eae717bedf23c1472c635734"
+            ]
+        },
+        {
+            "rule": "hs-banner\\.com\\/5154892\\.js",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "3f22a34e077df05e0a042749c8e382e0029bee11ebb39dc04adf62037d536bea"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.00791,
+    "types": {
+        "Script": 8
+    }
+}

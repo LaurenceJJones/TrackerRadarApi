@@ -1,0 +1,33 @@
+{
+    "domain": "hats-47b.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000203,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "hats-47b\\.com\\/resource",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "43238766899196c455faed4491336dad82d713e086a89298414f55bf8bac9d43"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000203,
+    "types": {
+        "XHR": 2
+    }
+}

@@ -1,0 +1,580 @@
+{
+    "domain": "semasio.net",
+    "owner": {
+        "name": "Semasio GmbH",
+        "displayName": "Semasio",
+        "privacyPolicy": "https://www.semasio.com/privacy",
+        "url": "http://semasio.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00404,
+    "sites": 532,
+    "subdomains": [
+        "uipglob",
+        "uipus",
+        "uip"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "semasio\\.net\\/tubemogul\\/1\\/info",
+            "cookies": 0.000273,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipglob"
+            ],
+            "apis": {},
+            "sites": 36,
+            "prevalence": 0.000273,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/tubemogul\\/1\\/info2",
+            "cookies": 0.000266,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipglob"
+            ],
+            "apis": {},
+            "sites": 35,
+            "prevalence": 0.000266,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/turn\\/1\\/info",
+            "cookies": 0.000251,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipus"
+            ],
+            "apis": {},
+            "sites": 34,
+            "prevalence": 0.000258,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/oath\\/1\\/info",
+            "cookies": 0.000402,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipglob"
+            ],
+            "apis": {},
+            "sites": 53,
+            "prevalence": 0.000402,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/adition\\/1\\/info",
+            "cookies": 0.000531,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uip"
+            ],
+            "apis": {},
+            "sites": 70,
+            "prevalence": 0.000531,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/adition\\/1\\/info2",
+            "cookies": 0.000524,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uip"
+            ],
+            "apis": {},
+            "sites": 69,
+            "prevalence": 0.000524,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/lotame\\/1\\/get",
+            "cookies": 0.0000911,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipus"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000911,
+            "cnames": [],
+            "responseHashes": [
+                "2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/lotame\\/1\\/get2",
+            "cookies": 0.0000911,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipus"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000911,
+            "cnames": [],
+            "responseHashes": [
+                "2f561b02a49376e3679acd5975e3790abdff09ecbadfa1e1858c7ba26e3ffcef"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/adform\\/1\\/info",
+            "cookies": 0.000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipglob"
+            ],
+            "apis": {},
+            "sites": 72,
+            "prevalence": 0.000547,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/adform\\/1\\/info2",
+            "cookies": 0.000547,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipglob"
+            ],
+            "apis": {},
+            "sites": 72,
+            "prevalence": 0.000547,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/oath\\/1\\/info2",
+            "cookies": 0.000159,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipglob"
+            ],
+            "apis": {},
+            "sites": 22,
+            "prevalence": 0.000167,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/sonobi\\/1\\/info",
+            "cookies": 0.000569,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipglob"
+            ],
+            "apis": {},
+            "sites": 75,
+            "prevalence": 0.000569,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/sonobi\\/1\\/info2",
+            "cookies": 0.000562,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipglob"
+            ],
+            "apis": {},
+            "sites": 74,
+            "prevalence": 0.000562,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/adelphic\\/1\\/info",
+            "cookies": 0.0000531,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipus"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000531,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/adelphic\\/1\\/info2",
+            "cookies": 0.0000531,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipus"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000531,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/mediamath\\/1\\/info",
+            "cookies": 0.000197,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipus",
+                "uipglob"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/mediamath\\/1\\/info2",
+            "cookies": 0.0000759,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipus"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000759,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/tradedesk\\/1\\/info",
+            "cookies": 0.000182,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipglob"
+            ],
+            "apis": {},
+            "sites": 25,
+            "prevalence": 0.00019,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/appnexusdata\\/1\\/info",
+            "cookies": 0.000182,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipus"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.000182,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/reset\\/1\\/info",
+            "cookies": 0.000182,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipus"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.000182,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/id5\\/1\\/get",
+            "cookies": 0.0000911,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipglob"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000911,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "semasio\\.net\\/id5\\/1\\/get2",
+            "cookies": 0.0000759,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipglob"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000759,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "semasio\\.net\\/dbm\\/1\\/info",
+            "cookies": 0.000182,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipglob"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.000182,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12",
+                "8d70b3e6badb6973663b398d297bb32eaedd08826a1af98d0a1cfce5324ffce0"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/omdtr\\/1\\/info",
+            "cookies": 0.0000304,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uip"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000038,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "semasio\\.net\\/omdtr\\/1\\/info2",
+            "cookies": 0.000038,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uip"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000038,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "semasio\\.net\\/handsuk\\/1\\/info",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uip"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/handsuk\\/1\\/info2",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uip"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/omdgr\\/1\\/info",
+            "cookies": 0.0000835,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uip"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000835,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/omdgr\\/1\\/info2",
+            "cookies": 0.0000911,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uip"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000911,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/phdnz\\/1\\/info",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipus"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "semasio\\.net\\/phdnz\\/1\\/info2",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipus"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/tradedesk\\/1\\/get",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipglob"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "semasio\\.net\\/tradedesk\\/1\\/get2",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipglob"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "semasio\\.net\\/omdseomg\\/1\\/info",
+            "cookies": 0.0000228,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uip"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000228,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/omdseomg\\/1\\/info2",
+            "cookies": 0.0000228,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uip"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000228,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        },
+        {
+            "rule": "semasio\\.net\\/omdnz\\/1\\/info",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipus"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "semasio\\.net\\/omdnz\\/1\\/info2",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uipus"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "99c2917ee5b2a01459a923bdd1c676f15ee73b62b87f696e6735312d26f51e12"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00402,
+    "types": {
+        "Image": 861
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "domain": "freshworksapi.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.00223,
+    "sites": 22,
+    "subdomains": [
+        "rts-static-prod"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "freshworksapi\\.com\\/us\\/rts\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "rts-static-prod"
+            ],
+            "apis": {
+                "window.localStorage": 18,
+                "Navigator.prototype.userAgent": 18
+            },
+            "sites": 18,
+            "prevalence": 0.00183,
+            "cnames": [],
+            "responseHashes": [
+                "e1e3f898eefd9887d53cf95d43a7b23b5ef835bb18aa33ea9701445313757f8e"
+            ]
+        },
+        {
+            "rule": "freshworksapi\\.com\\/euc\\/rts\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "rts-static-prod"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000406,
+            "cnames": [],
+            "responseHashes": [
+                "e1e3f898eefd9887d53cf95d43a7b23b5ef835bb18aa33ea9701445313757f8e"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 22
+    }
+}

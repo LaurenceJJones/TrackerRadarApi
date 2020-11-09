@@ -1,0 +1,87 @@
+{
+    "domain": "wbtrk.net",
+    "owner": {
+        "name": "Webtrekk GmbH",
+        "displayName": "Webtrekk",
+        "privacyPolicy": "https://www.webtrekk.com/en/why-webtrekk/data-protection/",
+        "url": "http://webtrekk.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00119,
+    "sites": 157,
+    "subdomains": [
+        "cdn",
+        "geid"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "wbtrk\\.net\\/js\\/geid\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 60
+            },
+            "sites": 61,
+            "prevalence": 0.000463,
+            "cnames": [],
+            "responseHashes": [
+                "5ef468e6b28f8232ff6dc2b54f48a016be6b2776a27b7e5191ab71393637dc57"
+            ]
+        },
+        {
+            "rule": "wbtrk\\.net\\/cc",
+            "cookies": 0.000463,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geid"
+            ],
+            "apis": {},
+            "sites": 62,
+            "prevalence": 0.000471,
+            "cnames": [],
+            "responseHashes": [
+                "6c179f21e6f62b629055d8ab40f454ed02e48b68563913473b857d3638e23b28"
+            ]
+        },
+        {
+            "rule": "wbtrk\\.net\\/cc",
+            "cookies": 0.00000759,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Audience Measurement",
+        "Embedded Content"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.000858,
+    "types": {
+        "Script": 123,
+        "Fetch": 2
+    }
+}

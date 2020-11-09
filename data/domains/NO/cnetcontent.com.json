@@ -1,0 +1,40 @@
+{
+    "domain": "cnetcontent.com",
+    "owner": {
+        "name": "ViacomCBS Inc.",
+        "displayName": "ViacomCBS"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [
+        "ws"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "cnetcontent\\.com\\/1def94fb\\/logoicons\\/6d55a8eda4",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "295c8830b39aee71dfbd9557a3a2fc56873f2e2b94f2e2807be4592165e4e85f"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000101,
+    "types": {
+        "XHR": 2
+    }
+}

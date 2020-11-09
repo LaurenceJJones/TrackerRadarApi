@@ -193,29 +193,23 @@ init(dirNames).then((value) => {
         path: '/api/graphql'
     });
     app.get('/api/REST/', (req, res) => {
-        res.json({
-            "data": REST.names()
-        })
+        res.json([...REST.names()])
     })
     app.get('/api/REST/:name', (req, res) => {
         let data = REST.findEntity(req.params.name);
         if (data.ERROR) {
-            res.json(data)
+            res.json({...data})
             return;
         }
-        res.json({
-            "data": data
-        })
+        res.json({...data})
     })
     app.get('/api/REST/:name/domains', (req, res) => {
         let data = REST.findDomains(req.params.name)
         if (data.ERROR) {
-            res.json(data);
+            res.json({...data});
             return;
         }
-        res.json({
-            "data": data
-        })
+        res.json([...data])
     })
     app.get('/api/REST/:name/combine', (req, res) => {
         //Added spread operator since it was causing a bug with the override data.properties down below
@@ -223,13 +217,11 @@ init(dirNames).then((value) => {
             ...REST.findEntity(req.params.name)
         };
         if (data.ERROR) {
-            res.json(data);
+            res.json({...data});
             return;
         }
         data.properties = [...REST.findDomains(req.params.name)]
-        res.json({
-            "data": data
-        })
+        res.json({...data})
     })
     app.get('/', (req, res) => {
         res.sendFile(path.join(__dirname + '/index.html'));

@@ -1,0 +1,45 @@
+{
+    "domain": "servedbyadbutler.com",
+    "owner": {
+        "name": "AdButler",
+        "displayName": "AdButler"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.00051,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "servedbyadbutler\\.com\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "87a498cd64915a266624e2dd28b3857529f0ffb0c2bc571061b99d1cdbf6badc"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 1
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 2
+    }
+}

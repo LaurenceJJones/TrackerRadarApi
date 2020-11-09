@@ -1,0 +1,52 @@
+{
+    "domain": "deepintent.com",
+    "owner": {
+        "name": "DeepIntent Inc",
+        "displayName": "DeepIntent",
+        "privacyPolicy": "https://www.deepintent.com/privacypolicy",
+        "url": "http://deepintent.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00233,
+    "sites": 23,
+    "subdomains": [
+        "match"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "deepintent\\.com\\/usersync\\/113",
+            "cookies": 0.00203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match"
+            ],
+            "apis": {},
+            "sites": 22,
+            "prevalence": 0.00223,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Audience Measurement"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00213,
+    "types": {
+        "Image": 22
+    }
+}

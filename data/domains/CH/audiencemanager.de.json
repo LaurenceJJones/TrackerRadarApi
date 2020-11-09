@@ -1,0 +1,234 @@
+{
+    "domain": "audiencemanager.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00183,
+    "sites": 18,
+    "subdomains": [
+        "ad",
+        "www",
+        "prf",
+        "anz"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "audiencemanager\\.de\\/hb",
+            "cookies": 0.000712,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.00153,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "audiencemanager\\.de\\/cm",
+            "cookies": 0.000915,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.00142,
+            "cnames": [],
+            "responseHashes": [
+                "4e0705327480ad2323cb03d9c450ffcae4a98bf3a5382fa0c7882145ed620e49"
+            ]
+        },
+        {
+            "rule": "audiencemanager\\.de\\/hb\\/cookieSync\\/5ef9bf190ae8992db92990f4",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "audiencemanager\\.de\\/log\\/profile\\/user-match",
+            "cookies": 0.000203,
+            "fingerprinting": 1,
+            "subdomains": [
+                "prf"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "c2c97d10e30dc68eac82b20ef49ae0cb3a24880b3bd75f726ace3f498ab79401"
+            ]
+        },
+        {
+            "rule": "audiencemanager\\.de\\/log\\/profile\\/br",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "4e0705327480ad2323cb03d9c450ffcae4a98bf3a5382fa0c7882145ed620e49"
+            ]
+        },
+        {
+            "rule": "audiencemanager\\.de\\/hb\\/cookieSync\\/5ba389ef0ae8995b1118fe03",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "audiencemanager\\.de\\/cm",
+            "cookies": 0.000305,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000305,
+            "cnames": [],
+            "responseHashes": [
+                "4e0705327480ad2323cb03d9c450ffcae4a98bf3a5382fa0c7882145ed620e49"
+            ]
+        },
+        {
+            "rule": "audiencemanager\\.de\\/log\\/ad\\/impression",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "anz"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "4e0705327480ad2323cb03d9c450ffcae4a98bf3a5382fa0c7882145ed620e49"
+            ]
+        },
+        {
+            "rule": "audiencemanager\\.de\\/hb\\/cookieSync\\/5ba38a0e0ae8995d04020d01",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "audiencemanager\\.de\\/log\\/profile\\/user-match\\/type\\/js\\/sec\\/524a800948bcc5fceb466577c2c97d17\\/advertiserId\\/5a1eaea2eb0a1973852262c2\\/pid\\/5a1eaea2eb0a1973852262c5",
+            "cookies": 0.000203,
+            "fingerprinting": 1,
+            "subdomains": [
+                "prf"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "258f5b0f1b1492a48b3eeb354c228d701b31b4c0580c154d5c85c27a5c3f6641"
+            ]
+        },
+        {
+            "rule": "audiencemanager\\.de\\/hb\\/cookieSync\\/5ba38a0d0ae8995cb979d43b",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "audiencemanager\\.de\\/hb\\/cookieSync\\/5ef9bf310ae8992dc5739d88",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "audiencemanager\\.de\\/hb\\/cookieSync\\/5ef9bf310ae8992dc5739d8a",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "audiencemanager\\.de\\/hb\\/cookieSync\\/5ef9bf310ae8992dc5739d8c",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00173,
+    "types": {
+        "XHR": 15,
+        "Image": 30,
+        "Script": 4,
+        "Fetch": 2,
+        "Document": 3
+    }
+}

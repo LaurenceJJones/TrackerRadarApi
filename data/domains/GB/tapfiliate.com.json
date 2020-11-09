@@ -1,0 +1,48 @@
+{
+    "domain": "tapfiliate.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.00112,
+    "sites": 11,
+    "subdomains": [
+        "script",
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "tapfiliate\\.com\\/tapfiliate\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "script",
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 9,
+                "Document.cookie getter": 2
+            },
+            "sites": 11,
+            "prevalence": 0.00112,
+            "cnames": [],
+            "responseHashes": [
+                "a3d05a5af6dace8754403780f0fedb9af611286acd49bb3193b58ffd44d7d9ad",
+                "75cdd0cd8782116ba8444dabd993758b1b349843584c9631f4f24a4295b98940"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 11
+    }
+}

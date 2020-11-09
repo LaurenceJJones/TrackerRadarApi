@@ -1,0 +1,48 @@
+{
+    "domain": "linguatec.org",
+    "owner": {
+        "name": "Linguatec GmbH",
+        "displayName": "Linguatec"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000709,
+    "sites": 7,
+    "subdomains": [
+        "vrweb15"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "linguatec\\.org\\/VoiceReaderWeb15User\\/player20\\/scripts\\/readpremium20\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "vrweb15"
+            ],
+            "apis": {
+                "HTMLMediaElement.prototype.canPlayType": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "6d700d466d3fad0d2c4ee799b8b55418e3f9e9fe5c6a9ce7e6bf11c216ad7531"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 3
+    }
+}

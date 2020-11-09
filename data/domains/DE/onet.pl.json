@@ -1,0 +1,56 @@
+{
+    "domain": "onet.pl",
+    "owner": {
+        "name": "Onet S.A.",
+        "displayName": "Onet"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000203,
+    "sites": 2,
+    "subdomains": [
+        "sgqcvfjvr"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "onet\\.pl\\/YnVpbGQvezlza2x0ZTM2fWRsQXBpL2RsLmxpYntOTWFzX0EwNn0ubWluLmpz",
+            "cookies": 0.000203,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sgqcvfjvr"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.getBattery": 2,
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "645ebdac8a2b7718df38824d27bb65a1c37732aa4345071a33e6d1e981d06d6a"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 1
+    },
+    "cookies": 0.000203,
+    "types": {
+        "Script": 2
+    }
+}

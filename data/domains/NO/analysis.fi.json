@@ -1,0 +1,47 @@
+{
+    "domain": "analysis.fi",
+    "owner": {
+        "name": "AppendAd LTD",
+        "displayName": "AppendAd"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000913,
+    "sites": 9,
+    "subdomains": [
+        "ecdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "analysis\\.fi\\/static\\/js\\/fab\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ecdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 9
+            },
+            "sites": 9,
+            "prevalence": 0.000913,
+            "cnames": [],
+            "responseHashes": [
+                "affd87461f2babd57a2f7aec75e9193e8e71a377e8249a02c95a5f43326e289e"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 9
+    }
+}

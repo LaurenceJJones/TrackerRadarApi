@@ -1,0 +1,76 @@
+{
+    "domain": "vasgenerete.site",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00577,
+    "sites": 57,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "vasgenerete\\.site\\/npc\\/sdk\\/cis\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 43,
+                "Navigator.prototype.userAgent": 43,
+                "Navigator.prototype.platform": 43
+            },
+            "sites": 43,
+            "prevalence": 0.00435,
+            "cnames": [],
+            "responseHashes": [
+                "1b5662f1515fbe8d78cef28b172e1f395b58d1aa8714de962ecd65447dba51d8"
+            ]
+        },
+        {
+            "rule": "vasgenerete\\.site\\/npc\\/sdk\\/cis1606\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.platform": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000709,
+            "cnames": [],
+            "responseHashes": [
+                "1b5662f1515fbe8d78cef28b172e1f395b58d1aa8714de962ecd65447dba51d8"
+            ]
+        },
+        {
+            "rule": "vasgenerete\\.site\\/npc\\/sdk\\/cis3006\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.platform": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000405,
+            "cnames": [],
+            "responseHashes": [
+                "9dba5a93ebed96ed1733482a7e3638ee555d56c6ef3a0d119fee304abeebf968"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 54
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "domain": "ow5a.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000152,
+    "sites": 2,
+    "subdomains": [
+        "norton"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ow5a\\.net\\/xur\\/4405",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "norton"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "c5ac63209a25520b743cf61ba499ffb45256b05d8fd8ab334fe55411475432eb"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0.0000152,
+    "types": {
+        "XHR": 2
+    }
+}

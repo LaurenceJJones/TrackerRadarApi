@@ -1,0 +1,37 @@
+{
+    "domain": "j-k-fischer-verlag.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000759,
+    "sites": 1,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "j-k-fischer-verlag\\.de\\/snip\\.php",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "e41ba88b0407d9ee33936a3b8fdfcb54bccbb258b074def6db68447bbd63f4b3"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000759,
+    "types": {
+        "Document": 2
+    }
+}

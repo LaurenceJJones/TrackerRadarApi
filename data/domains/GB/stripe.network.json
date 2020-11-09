@@ -1,0 +1,68 @@
+{
+    "domain": "stripe.network",
+    "owner": {
+        "name": "Stripe, Inc",
+        "displayName": "Stripe",
+        "privacyPolicy": "https://stripe.com/privacy",
+        "url": "http://stripe.com"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.0106,
+    "sites": 105,
+    "subdomains": [
+        "m"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "stripe\\.network\\/inner\\.html",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "m"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 104,
+                "Date.prototype.getTimezoneOffset": 104,
+                "window.sessionStorage": 104,
+                "window.localStorage": 104,
+                "Navigator.prototype.cookieEnabled": 67,
+                "Navigator.prototype.doNotTrack": 67,
+                "Navigator.prototype.languages": 67,
+                "Navigator.prototype.platform": 67,
+                "Navigator.prototype.plugins": 67,
+                "Screen.prototype.availWidth": 67,
+                "Screen.prototype.availHeight": 67,
+                "Screen.prototype.colorDepth": 67,
+                "CanvasRenderingContext2D.prototype.measureText": 64,
+                "Navigator.prototype.userAgent": 67,
+                "Navigator.prototype.mimeTypes": 67,
+                "HTMLCanvasElement.prototype.toDataURL": 65
+            },
+            "sites": 105,
+            "prevalence": 0.0106,
+            "cnames": [],
+            "responseHashes": [
+                "c455d5ccbcdf410e4bcd7d5a4edefab295d62ea9a0d838286f41744d4b151fdc"
+            ]
+        }
+    ],
+    "categories": [
+        "Online Payment",
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Document": 105
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "domain": "zencdn.net",
+    "owner": {
+        "name": "Brightcove, Inc.",
+        "displayName": "Brightcove",
+        "privacyPolicy": "https://www.brightcove.com/en/legal/privacy",
+        "url": "http://brightcove.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00456,
+    "sites": 45,
+    "subdomains": [
+        "vjs"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "zencdn\\.net\\/vttjs\\/0\\.12\\.5\\/vtt\\.global\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "vjs"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8
+            },
+            "sites": 26,
+            "prevalence": 0.00263,
+            "cnames": [],
+            "responseHashes": [
+                "aa706c43e8733a58224f514db36f253bed4ea01f56a90b66916c4aa6a656ec2d"
+            ]
+        },
+        {
+            "rule": "zencdn\\.net\\/ie8\\/1\\.1\\.2\\/videojs-ie8\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "vjs"
+            ],
+            "apis": {
+                "window.name": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "3cea9fd4486e2820f34fdeb7970fd29c4fa531e79a285bf58aaab1ecdadfa99a"
+            ]
+        },
+        {
+            "rule": "zencdn\\.net\\/5\\.12\\.6\\/video\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "vjs"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "4ab0e4a2865b86832a6326c8fc8d1ab81e332a0b4df973558ac11050b24b9a5d"
+            ]
+        }
+    ],
+    "categories": [
+        "Advertising",
+        "Analytics",
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 1
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 30
+    }
+}

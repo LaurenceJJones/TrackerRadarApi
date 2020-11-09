@@ -1,0 +1,49 @@
+{
+    "domain": "naiadsystems.com",
+    "owner": {
+        "name": "ICF Technology, Inc",
+        "displayName": "ICF"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000608,
+    "sites": 6,
+    "subdomains": [
+        "cdn.hybridclient"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "naiadsystems\\.com\\/dist\\/pure\\/2\\.4\\.1\\/pure\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.hybridclient"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "HTMLMediaElement.prototype.canPlayType": 6,
+                "MediaSource.isTypeSupported": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000608,
+            "cnames": [],
+            "responseHashes": [
+                "a7a855144cd619d8db391232437283f66d364257b6c5818daa7dea35028e96f9"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 6
+    }
+}

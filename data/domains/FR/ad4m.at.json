@@ -1,0 +1,142 @@
+{
+    "domain": "ad4m.at",
+    "owner": {
+        "name": "advanced STORE GmbH",
+        "displayName": "advanced STORE"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00081,
+    "sites": 8,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ad4m\\.at\\/r62eglto\\.js",
+            "cookies": 0.000203,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.doNotTrack": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "6d25c17e8f6785372e0a0a24aaa8fd00e9114f587624e5e4616a2119c5e7e8d0"
+            ]
+        },
+        {
+            "rule": "ad4m\\.at\\/r62eglto\\.js",
+            "cookies": 0.000203,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.doNotTrack": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "6d25c17e8f6785372e0a0a24aaa8fd00e9114f587624e5e4616a2119c5e7e8d0"
+            ]
+        },
+        {
+            "rule": "ad4m\\.at\\/frame\\.html",
+            "cookies": 0.00081,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 8
+            },
+            "sites": 8,
+            "prevalence": 0.00081,
+            "cnames": [],
+            "responseHashes": [
+                "d12a71cd626ac8f0fc91e6f1b98280cfb49fd724f2dcc118d192adff9a0154b4"
+            ]
+        },
+        {
+            "rule": "ad4m\\.at\\/rs",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "ad4m\\.at\\/rs",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "48b660cf7cd13f02206cc6ed77db4d30c7c049cca0f3eaecb10e793002ea6971"
+            ]
+        },
+        {
+            "rule": "ad4m\\.at\\/ad\\/rar",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "ad4m\\.at\\/ad\\/dst",
+            "cookies": 0.000608,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000608,
+            "cnames": [],
+            "responseHashes": [
+                "ef1955ae757c8b966c83248350331bd3a30f658ced11f387f8ebf05ab3368629"
+            ]
+        },
+        {
+            "rule": "ad4m\\.at\\/ad\\/dpe",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "ef1955ae757c8b966c83248350331bd3a30f658ced11f387f8ebf05ab3368629"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 1
+    },
+    "cookies": 0.00081,
+    "types": {
+        "Script": 2,
+        "Other": 4,
+        "Document": 10,
+        "XHR": 2,
+        "Image": 8
+    }
+}

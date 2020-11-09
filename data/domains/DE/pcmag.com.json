@@ -1,0 +1,47 @@
+{
+    "domain": "pcmag.com",
+    "owner": {
+        "name": "Ziff Davis LLC",
+        "displayName": "Ziff Davis"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000506,
+    "sites": 5,
+    "subdomains": [
+        "g"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "pcmag\\.com\\/geocc\\.js",
+            "cookies": 0.000304,
+            "fingerprinting": 1,
+            "subdomains": [
+                "g"
+            ],
+            "apis": {
+                "Document.cookie setter": 3
+            },
+            "sites": 5,
+            "prevalence": 0.000506,
+            "cnames": [],
+            "responseHashes": [
+                "99ecb14ec0a4e706ee386f1bde1a4684119fa8e100f24821f71f7fa75ccd481d"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000304,
+    "types": {
+        "Script": 5
+    }
+}

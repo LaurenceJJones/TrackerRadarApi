@@ -1,0 +1,37 @@
+{
+    "domain": "1000ps.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [
+        "images"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "1000ps\\.net\\/images\\/nopic-motorcycle\\.gif",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "ac27fe40f2542a57d82b9d132da3957f56bbdec1f77ff5b2b7376887656e237d"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000101,
+    "types": {
+        "Image": 2
+    }
+}

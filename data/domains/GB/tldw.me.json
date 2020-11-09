@@ -1,0 +1,61 @@
+{
+    "domain": "tldw.me",
+    "owner": {
+        "name": "spoteam.com",
+        "displayName": "spoteam.com"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000406,
+    "sites": 4,
+    "subdomains": [
+        "snippet"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "tldw\\.me\\/tv\\/0\\.35\\.6\\/tvp\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "snippet"
+            ],
+            "apis": {
+                "URL.createObjectURL": 4,
+                "window.localStorage": 4,
+                "window.sessionStorage": 4,
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.devicePixelRatio": 4,
+                "Navigator.prototype.language": 4,
+                "Navigator.prototype.languages": 4,
+                "Navigator.prototype.platform": 4,
+                "PerformanceTiming.prototype.navigationStart": 4,
+                "Navigator.prototype.connection": 4,
+                "window.name": 4,
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 3
+            },
+            "sites": 4,
+            "prevalence": 0.000406,
+            "cnames": [],
+            "responseHashes": [
+                "e44746380fb0f973aaccf294312581776e64d4126b59a427c009a13b36fe5191"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 4
+    }
+}

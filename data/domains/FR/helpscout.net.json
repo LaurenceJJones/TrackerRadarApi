@@ -1,0 +1,67 @@
+{
+    "domain": "helpscout.net",
+    "owner": {
+        "name": "Help Scout Inc.",
+        "displayName": "Help Scout"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000608,
+    "sites": 6,
+    "subdomains": [
+        "beacon-v2"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "helpscout\\.net\\/static\\/js\\/vendor\\.5fd362e8\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "beacon-v2"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 6,
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6,
+                "Event.prototype.timeStamp": 4
+            },
+            "sites": 6,
+            "prevalence": 0.000608,
+            "cnames": [],
+            "responseHashes": [
+                "4446cef27ecd97c1c784b328f7acc8eda22dccfe773f5b8365451c9f3910baaf"
+            ]
+        },
+        {
+            "rule": "helpscout\\.net\\/static\\/js\\/main\\.21659289\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "beacon-v2"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000608,
+            "cnames": [],
+            "responseHashes": [
+                "c2d33d7d56f3153426c2fb53d1b7c742375951cb35f0b418381cfa1f5913ca9c"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 1
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 12
+    }
+}

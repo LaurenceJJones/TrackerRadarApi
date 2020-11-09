@@ -1,0 +1,45 @@
+{
+    "domain": "acint.net",
+    "owner": {
+        "name": "Poshibalov Evgeny Vasilyevich",
+        "displayName": "Poshibalov Evgeny Vasilyevich"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "acint\\.net\\/mc\\/",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "782764ed327dfd473514ce6556be9468105d94d019ac517754cce64f831ae61f"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000101,
+    "types": {
+        "Document": 2
+    }
+}

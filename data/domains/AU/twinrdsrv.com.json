@@ -1,0 +1,63 @@
+{
+    "domain": "twinrdsrv.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000205,
+    "sites": 2,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "twinrdsrv\\.com\\/Scripts\\/infinity\\.js\\.aspx",
+            "cookies": 0.000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "1c3a7ac426aa08fe2a24e8ed8be6621fdd84a9403d1a359ad9a9762f7966f30a"
+            ]
+        },
+        {
+            "rule": "twinrdsrv\\.com\\/Tag\\.engine",
+            "cookies": 0.000205,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "8925a39b79521bc30cf9ea3ee989ed2ec927d2b18d44dd07fb75e88cae702dfa"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000205,
+    "types": {
+        "Script": 4
+    }
+}

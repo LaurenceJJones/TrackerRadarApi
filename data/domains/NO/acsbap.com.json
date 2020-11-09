@@ -1,0 +1,55 @@
+{
+    "domain": "acsbap.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00112,
+    "sites": 11,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "acsbap\\.com\\/apps\\/app\\/assets\\/js\\/acsb\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 8,
+                "Navigator.prototype.userAgent": 8,
+                "Navigator.prototype.appVersion": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000811,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "acsbap\\.com\\/api\\/app\\/assets\\/js\\/acsb\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.appVersion": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 2,
+        "cache": 1
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 11
+    }
+}

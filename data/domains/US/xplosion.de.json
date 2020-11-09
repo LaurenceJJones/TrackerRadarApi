@@ -1,0 +1,76 @@
+{
+    "domain": "xplosion.de",
+    "owner": {
+        "name": "emetriq GmbH",
+        "displayName": "emetriq",
+        "privacyPolicy": "https://www.emetriq.com/datenschutz/",
+        "url": "http://emetriq.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0022,
+    "sites": 290,
+    "subdomains": [
+        "cdn",
+        "uss"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "xplosion\\.de\\/adp\\/profiling\\/0\\.2\\.68\\/p\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.appVersion": 96,
+                "Navigator.prototype.language": 96,
+                "Screen.prototype.colorDepth": 95,
+                "Navigator.prototype.platform": 96,
+                "Date.prototype.getTimezoneOffset": 96,
+                "Screen.prototype.availHeight": 95,
+                "Screen.prototype.availWidth": 95
+            },
+            "sites": 154,
+            "prevalence": 0.00117,
+            "cnames": [],
+            "responseHashes": [
+                "12b545ba8ec738538426fee411cf45788a539a6332baea682257b1e2f371e54d"
+            ]
+        },
+        {
+            "rule": "xplosion\\.de\\/usersync",
+            "cookies": 0.00044,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uss"
+            ],
+            "apis": {},
+            "sites": 58,
+            "prevalence": 0.00044,
+            "cnames": [],
+            "responseHashes": [
+                "ef1955ae757c8b966c83248350331bd3a30f658ced11f387f8ebf05ab3368629",
+                "548f2d6f4d0d820c6c5ffbeffcbd7f0e73193e2932eefe542accc84762deec87"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000774,
+    "types": {
+        "Script": 154,
+        "Image": 58
+    }
+}

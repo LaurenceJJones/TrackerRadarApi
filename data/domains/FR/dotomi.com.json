@@ -1,0 +1,81 @@
+{
+    "domain": "dotomi.com",
+    "owner": {
+        "name": "Conversant LLC",
+        "displayName": "Conversant",
+        "privacyPolicy": "https://www.conversantmedia.com/legal/privacy",
+        "url": "http://conversantmedia.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.0268,
+    "sites": 265,
+    "subdomains": [
+        "amazon-tam-match",
+        "pubmatic-match",
+        "casale-match",
+        "eyeota-match",
+        "prebid-match",
+        "dclk-match",
+        "aol-match",
+        "adobe-sync",
+        "openx2-match",
+        "medianet-match"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "dotomi\\.com\\/match\\/bounce\\/current",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "amazon-tam-match"
+            ],
+            "apis": {},
+            "sites": 75,
+            "prevalence": 0.00759,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "dotomi\\.com\\/match\\/bounce\\/current",
+            "cookies": 0.000709,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pubmatic-match",
+                "casale-match",
+                "eyeota-match",
+                "prebid-match",
+                "dclk-match",
+                "aol-match",
+                "adobe-sync",
+                "openx2-match",
+                "medianet-match"
+            ],
+            "apis": {},
+            "sites": 194,
+            "prevalence": 0.0196,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00182,
+    "types": {
+        "Document": 75,
+        "Image": 194
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "domain": "adultfriendfinder.com",
+    "owner": {
+        "name": "FriendFinder Networks Inc.",
+        "displayName": "FriendFinder Networks",
+        "privacyPolicy": "https://www.friendfinder.com/go/page/privacy#ff?{}",
+        "url": "http://friendfinder.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000506,
+    "sites": 5,
+    "subdomains": [
+        "banners"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "adultfriendfinder\\.com\\/piclist",
+            "cookies": 0.000506,
+            "fingerprinting": 0,
+            "subdomains": [
+                "banners"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000506,
+            "cnames": [],
+            "responseHashes": [
+                "8c3828ee7f130fc8cf95d7fcb2fe0b0743184d8db22df268572fdafe388745fb",
+                "af655cfd7cf5986a00c64aa94b43f645c94af1edd5c97416dfae384245e7f5a7",
+                "04b9496cf3721acb74459d470d7ce4fda310d1c8c8e605764468ba5adfd759a4",
+                "5987b6968663732e20c0e72dde08b55d711f25c791ee96e2d673ae380b5285fe"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.000506,
+    "types": {
+        "Document": 5
+    }
+}

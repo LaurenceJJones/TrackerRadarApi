@@ -1,0 +1,49 @@
+{
+    "domain": "wootric.com",
+    "owner": {
+        "name": "Wootric",
+        "displayName": "Wootric"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000182,
+    "sites": 24,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "wootric\\.com\\/wootric-sdk\\.js",
+            "cookies": 0.0000152,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 10,
+            "prevalence": 0.0000759,
+            "cnames": [],
+            "responseHashes": [
+                "7bc0ae273a238e240775873d9c1ba2f7da0acfb7c922f02509b3e079d26c825a"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.0000228,
+    "types": {
+        "Script": 10
+    }
+}

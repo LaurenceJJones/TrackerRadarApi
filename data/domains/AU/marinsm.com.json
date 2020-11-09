@@ -1,0 +1,50 @@
+{
+    "domain": "marinsm.com",
+    "owner": {
+        "name": "Sharpspring Inc",
+        "displayName": "Sharpspring"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00174,
+    "sites": 17,
+    "subdomains": [
+        "tracker"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "marinsm\\.com\\/tp",
+            "cookies": 0.000717,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000717,
+            "cnames": [],
+            "responseHashes": [
+                "be4f754acf2dd33169add8976c1264f647470efdc993927040e23c4d310a835f"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.000717,
+    "types": {
+        "Image": 7
+    }
+}

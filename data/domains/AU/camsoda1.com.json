@@ -1,0 +1,42 @@
+{
+    "domain": "camsoda1.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000307,
+    "sites": 3,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "camsoda1\\.com\\/promos\\/mem\\/",
+            "cookies": 0.000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "59c2a07e329f4d4424f17338ccd79cac2272578dbbfe9e05b1fe9874ad15d626"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0.000307,
+    "types": {
+        "Document": 2
+    }
+}

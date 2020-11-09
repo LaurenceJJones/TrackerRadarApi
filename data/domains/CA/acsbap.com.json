@@ -1,0 +1,60 @@
+{
+    "domain": "acsbap.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00307,
+    "sites": 30,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "acsbap\\.com\\/apps\\/app\\/assets\\/js\\/acsb\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 25,
+                "Navigator.prototype.userAgent": 23,
+                "Navigator.prototype.appVersion": 23
+            },
+            "sites": 25,
+            "prevalence": 0.00256,
+            "cnames": [],
+            "responseHashes": [
+                "eb5c0d5d57b0114029d562eb20b2c802dd0872e425e7176f00b5f1d923e5c8fa",
+                "0a9219eefbb4f635f1bd8ceb060b31ee82ae58e8dea4c76276c6b022c98e9b5d"
+            ]
+        },
+        {
+            "rule": "acsbap\\.com\\/api\\/app\\/assets\\/js\\/acsb\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.appVersion": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000409,
+            "cnames": [],
+            "responseHashes": [
+                "eb5c0d5d57b0114029d562eb20b2c802dd0872e425e7176f00b5f1d923e5c8fa"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 2,
+        "cache": 1
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 29
+    }
+}

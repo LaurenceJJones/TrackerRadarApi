@@ -1,0 +1,40 @@
+{
+    "domain": "chocolateplatform.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00183,
+    "sites": 18,
+    "subdomains": [
+        "cs"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "chocolateplatform\\.com\\/pub",
+            "cookies": 0.00172,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cs"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.00183,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00172,
+    "types": {
+        "Image": 18
+    }
+}

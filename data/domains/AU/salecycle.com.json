@@ -1,0 +1,45 @@
+{
+    "domain": "salecycle.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00205,
+    "sites": 20,
+    "subdomains": [
+        "s"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "salecycle\\.com\\/iframe_receiver\\/bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "window.localStorage": 20,
+                "Date.prototype.getTime": 20
+            },
+            "sites": 20,
+            "prevalence": 0.00205,
+            "cnames": [],
+            "responseHashes": [
+                "1fd264d67637e3f2de02f9560747f1dbfd7ae4d3d51607b09e2ce3adc73077c9"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 20
+    }
+}

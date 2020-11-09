@@ -1,0 +1,37 @@
+{
+    "domain": "opensourcefonts.org",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [
+        "free"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "opensourcefonts\\.org\\/fonts\\/index\\.php",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "free"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "068c68bb1a6719752551a5a1b9c8ea19efbff910291c656369d73d92ebd25e10"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000101,
+    "types": {
+        "Document": 2
+    }
+}

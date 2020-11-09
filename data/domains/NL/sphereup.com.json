@@ -1,0 +1,66 @@
+{
+    "domain": "sphereup.com",
+    "owner": {
+        "name": "SphereUp, Inc",
+        "displayName": "SphereUp"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "zdwidget3-bs"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sphereup\\.com\\/zoomd\\/SearchUi\\/Script",
+            "cookies": 0.000204,
+            "fingerprinting": 1,
+            "subdomains": [
+                "zdwidget3-bs"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "0809da79a7b71e0587dd167d8c45fbc3853c93da94b8e2fe46a9c90983043a1e"
+            ]
+        },
+        {
+            "rule": "sphereup\\.com\\/zoomd\\/SearchUi\\/GetToken",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zdwidget3-bs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "93dc827cb54ed05e2a66e5e2cc3e694cd563e850806197a8ac7fb0d613e258b1"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000204,
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "domain": "sndcdn.com",
+    "owner": {
+        "name": "SoundCloud Ltd.",
+        "displayName": "SoundCloud",
+        "privacyPolicy": "https://soundcloud.com/pages/privacy",
+        "url": "http://soundcloud.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000407,
+    "sites": 4,
+    "subdomains": [
+        "widget"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sndcdn\\.com\\/widget-0dad0be-c375d55c\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.sessionStorage": 4,
+                "window.localStorage": 4,
+                "window.devicePixelRatio": 4,
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.languages": 4,
+                "Event.prototype.timeStamp": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000407,
+            "cnames": [],
+            "responseHashes": [
+                "928afc8cab88be056f162c62508b1fbcf02b1bd305fdf268e7739bf35bea5f18"
+            ]
+        },
+        {
+            "rule": "sndcdn\\.com\\/visual-multi-sounds-e46091c-c375d55c\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 2,
+                "CanvasRenderingContext2D.prototype.getImageData": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "6094df6fe9e95456bf6bba58e7c43418f9841f3234d7bdf9fcf4feb30ee0c8a4"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 2,
+        "cpu": 2,
+        "cache": 1
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 6
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "domain": "convertflow.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000203,
+    "sites": 2,
+    "subdomains": [
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "convertflow\\.co\\/websites\\/2355\\/events\\/create",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "a0c8490648172efb1c60d5905a55b3ad6c45fff0ef3bd084fdf3749883945feb"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000203,
+    "types": {
+        "Script": 2
+    }
+}

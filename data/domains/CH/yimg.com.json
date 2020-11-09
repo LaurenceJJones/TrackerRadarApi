@@ -1,0 +1,78 @@
+{
+    "domain": "yimg.com",
+    "owner": {
+        "name": "Verizon Media",
+        "displayName": "Verizon Media",
+        "privacyPolicy": "https://www.verizon.com/about/privacy/privacy-policy-summary",
+        "url": "http://verizon.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00763,
+    "sites": 75,
+    "subdomains": [
+        "s"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "yimg\\.com\\/wi\\/ytc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Document.cookie getter": 51,
+                "window.localStorage": 63,
+                "Date.prototype.getTimezoneOffset": 63,
+                "Date.prototype.getTime": 63
+            },
+            "sites": 64,
+            "prevalence": 0.00651,
+            "cnames": [],
+            "responseHashes": [
+                "63896532a7015ab5b7288359c02124980a5075e9267f0ba3fbfc7c3f5038b478"
+            ]
+        },
+        {
+            "rule": "yimg\\.com\\/rq\\/iv\\/inside\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 7,
+                "Navigator.prototype.platform": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Date.prototype.getTime": 7,
+                "Navigator.prototype.connection": 7,
+                "Navigator.prototype.permissions": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000712,
+            "cnames": [],
+            "responseHashes": [
+                "78a22f586e214f9dac9d8dc486ec41cd724d534b54cf334150f3eefc24160c31"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "CDN"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 2,
+        "cache": 1
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 71
+    }
+}

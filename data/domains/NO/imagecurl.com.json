@@ -1,0 +1,90 @@
+{
+    "domain": "imagecurl.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000304,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "imagecurl\\.com\\/images\\/02596712243923392932_thumb\\.jpg",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "2af9cc815ba10cf04a998358fabeb73de3bd95a6d46723825d36931bf86a1381"
+            ]
+        },
+        {
+            "rule": "imagecurl\\.com\\/images\\/69840033977955059713_thumb\\.jpg",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "33dbd1ca73b0b1ebf6f74f8845b38d945ab08d434f995c5b3a03bdb20b84b8d8"
+            ]
+        },
+        {
+            "rule": "imagecurl\\.com\\/images\\/58391471791393110676_thumb\\.jpg",
+            "cookies": 0.000304,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "d56072d76eb68eff89322a8d6054d135909aec98b9845b6ca32c7af630310efe"
+            ]
+        },
+        {
+            "rule": "imagecurl\\.com\\/images\\/35332892546767177123_thumb\\.jpg",
+            "cookies": 0.000304,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "d75e26af6e3dff89f421484494e582d187f7643652daaf24591cf15a202ddba8"
+            ]
+        },
+        {
+            "rule": "imagecurl\\.com\\/images\\/51096769270692351833_thumb\\.jpg",
+            "cookies": 0.000304,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "319540f8395651be16188eb8ec29fa15de00fd477e692266809e545e56c88440"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0.000304,
+    "types": {
+        "Image": 13
+    }
+}

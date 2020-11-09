@@ -1,0 +1,64 @@
+{
+    "domain": "wistia.net",
+    "owner": {
+        "name": "Wistia",
+        "displayName": "Wistia",
+        "privacyPolicy": "https://wistia.com/privacy",
+        "url": "http://wistia.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000304,
+    "sites": 3,
+    "subdomains": [
+        "fast"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "wistia\\.net\\/assets\\/external\\/E-v1\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "fast"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.vendor": 3,
+                "Navigator.prototype.platform": 3,
+                "window.devicePixelRatio": 3,
+                "window.matchMedia(\"prefers-reduced-motion\")": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "HTMLMediaElement.prototype.canPlayType": 3,
+                "MediaSource.isTypeSupported": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.languages": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "af5cdc72cc0e539f6dae7babef239c6d8edf9765c8ac5081d851ac8a23dd00f8"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 3
+    }
+}

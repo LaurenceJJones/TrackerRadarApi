@@ -1,0 +1,154 @@
+{
+    "domain": "hwcdn.net",
+    "owner": {
+        "name": "StackPath, LLC",
+        "displayName": "StackPath",
+        "privacyPolicy": "https://www.stackpath.com/legal/privacy-statement/",
+        "url": "http://stackpath.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00547,
+    "sites": 54,
+    "subdomains": [
+        "p4k7u4x7.ssl",
+        "k5x5n5g8.ssl",
+        "p4y9n2n4.ssl",
+        "cds.s5h5u2i2",
+        "r6d6y7a4.ssl",
+        "cds.m5z7v9q9"
+    ],
+    "cnames": [
+        {
+            "original": "cdn.curvyerotic.com",
+            "resolved": "cds.s5h5u2i2.hwcdn.net"
+        },
+        {
+            "original": "cdn2.hegre.com",
+            "resolved": "cds.m5z7v9q9.hwcdn.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "hwcdn\\.net\\/wp-content\\/themes\\/rwd\\/javascript\\/v11\\/scripts\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "p4k7u4x7.ssl",
+                "k5x5n5g8.ssl",
+                "p4y9n2n4.ssl"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "e99473c832ae8b8ede386d58cff5c1558f339476390849c956596ed030b8e394"
+            ]
+        },
+        {
+            "rule": "hwcdn\\.net\\/wp-content\\/themes\\/rwd\\/javascript\\/v11\\/wp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "p4k7u4x7.ssl",
+                "k5x5n5g8.ssl",
+                "p4y9n2n4.ssl"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.languages": 3,
+                "Event.prototype.timeStamp": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "1ae824ecaf9dfe298d63b0f793d05a81e88026dcd891da9eaa03f8dd57e59e2d"
+            ]
+        },
+        {
+            "rule": "hwcdn\\.net\\/wp-includes\\/js\\/wp-embed\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cds.s5h5u2i2",
+                "r6d6y7a4.ssl"
+            ],
+            "apis": {
+                "Navigator.prototype.appVersion": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [
+                {
+                    "original": "cdn.curvyerotic.com",
+                    "resolved": "cds.s5h5u2i2.hwcdn.net"
+                }
+            ],
+            "responseHashes": [
+                "6ebcda7a3a41ef97f0b4071160ceb1020e540fdc0f790079a5c2ef01ab654fe0"
+            ]
+        },
+        {
+            "rule": "hwcdn\\.net\\/assets\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cds.m5z7v9q9"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [
+                {
+                    "original": "cdn2.hegre.com",
+                    "resolved": "cds.m5z7v9q9.hwcdn.net"
+                }
+            ],
+            "responseHashes": [
+                "dbf714e36be3548fb71221d110e7da9bc8061e8eca1442fd937bced8830c4c90"
+            ]
+        },
+        {
+            "rule": "hwcdn\\.net\\/assets\\/search\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cds.m5z7v9q9"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [
+                {
+                    "original": "cdn2.hegre.com",
+                    "resolved": "cds.m5z7v9q9.hwcdn.net"
+                }
+            ],
+            "responseHashes": [
+                "e02e2ae3de63f13f2b03031b1eedaaf3a500a855f2e1e2b6179c1611cfb799ba"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 3,
+        "cpu": 0,
+        "cache": 1
+    },
+    "cookies": 0.000304,
+    "types": {
+        "Script": 12
+    }
+}

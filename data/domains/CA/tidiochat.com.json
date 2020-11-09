@@ -1,0 +1,86 @@
+{
+    "domain": "tidiochat.com",
+    "owner": {
+        "name": "Tidio Poland Sp. z.o.o.",
+        "displayName": "Tidio Poland"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000205,
+    "sites": 2,
+    "subdomains": [
+        "widget-v4"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "tidiochat\\.com\\/1_41_0\\/static\\/js\\/render\\.a478aa31d5aa269539da\\.js",
+            "cookies": 0.000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget-v4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "a027acda8e5cdb3d11e4f358b67c6efb45d57bcc72da159cbc77948efcc44c3a"
+            ]
+        },
+        {
+            "rule": "tidiochat\\.com\\/\\/1_41_0\\/static\\/js\\/widget\\.a478aa31d5aa269539da\\.js",
+            "cookies": 0.000205,
+            "fingerprinting": 2,
+            "subdomains": [
+                "widget-v4"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Event.prototype.timeStamp": 2,
+                "Navigator.prototype.vendor": 2,
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 2,
+                "Navigator.prototype.appName": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "e57387fa7f99a85b55dffbfc0ff4c9ceda8a009a526c4db9513f5f1fc0798b65"
+            ]
+        },
+        {
+            "rule": "tidiochat\\.com\\/\\/tururu\\.mp3",
+            "cookies": 0.000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget-v4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "12c7687514ca85ba2157ed61914ac526bb9dd15cb5a2a2d9e4d88f919349284f"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 1
+    },
+    "cookies": 0.000205,
+    "types": {
+        "Script": 4,
+        "Media": 2
+    }
+}

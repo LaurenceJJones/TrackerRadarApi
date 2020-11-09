@@ -1,0 +1,51 @@
+{
+    "domain": "adfox.ru",
+    "owner": {
+        "name": "Yandex LLC",
+        "displayName": "Yandex",
+        "privacyPolicy": "https://yandex.com/legal/privacy/",
+        "url": "http://yandex.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000813,
+    "sites": 8,
+    "subdomains": [
+        "ads"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "adfox\\.ru\\/getid",
+            "cookies": 0.000305,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000305,
+            "cnames": [],
+            "responseHashes": [
+                "f777dc2484b4d9227455ec387ce9746d81e889ca7690093615808a740fa4382c",
+                "67feb2dd407d8b60ece086e239b5c962b4ad91560161ab5477d7a08c5b03a743"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000712,
+    "types": {
+        "Script": 3
+    }
+}

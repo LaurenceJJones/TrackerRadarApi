@@ -1,0 +1,49 @@
+{
+    "domain": "stickamvids.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000305,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "stickamvids\\.net\\/favicon\\.ico",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "stickamvids\\.net\\/favicon\\.ico\\/",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "862fe320deb669e26e88ee4fdadd1edfd308e2c13b5c2d9b16706c15bd64cd55"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 1
+    },
+    "cookies": 0.000203,
+    "types": {
+        "Image": 4
+    }
+}

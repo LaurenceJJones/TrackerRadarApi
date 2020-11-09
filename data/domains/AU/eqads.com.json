@@ -1,0 +1,43 @@
+{
+    "domain": "eqads.com",
+    "owner": {
+        "name": "EQ Works",
+        "displayName": "EQ Works"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0151,
+    "sites": 147,
+    "subdomains": [
+        "um2"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "eqads\\.com\\/um\\/cs",
+            "cookies": 0.0138,
+            "fingerprinting": 0,
+            "subdomains": [
+                "um2"
+            ],
+            "apis": {},
+            "sites": 146,
+            "prevalence": 0.015,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.0138,
+    "types": {
+        "Document": 146
+    }
+}

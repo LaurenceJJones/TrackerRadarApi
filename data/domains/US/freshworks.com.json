@@ -1,0 +1,53 @@
+{
+    "domain": "freshworks.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000524,
+    "sites": 69,
+    "subdomains": [
+        "widget",
+        "euc-widget",
+        "ind-widget"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "freshworks\\.com\\/widgetBase\\/widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget",
+                "euc-widget",
+                "ind-widget"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 45,
+                "Event.prototype.timeStamp": 45,
+                "Navigator.prototype.userAgent": 17,
+                "Navigator.prototype.languages": 17
+            },
+            "sites": 45,
+            "prevalence": 0.000342,
+            "cnames": [],
+            "responseHashes": [
+                "a0ec26c403279110431751bd5a4fc9bade3090e7d010bf8fef0e7145df6f684b",
+                "21b70e41fceab776d007b7b66d01a3b85827aa22fbc200d47bcfc95b5cab116b",
+                "65635b410ab78881a8ddb51a45ab147683d7a49be08bc1b0b2e098b8f444fa7b"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 45
+    }
+}

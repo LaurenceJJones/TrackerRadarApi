@@ -1,0 +1,124 @@
+{
+    "domain": "bf-ad.net",
+    "owner": {
+        "name": "BurdaForward GmbH",
+        "displayName": "BurdaForward"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000167,
+    "sites": 22,
+    "subdomains": [
+        "a"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bf-ad\\.net\\/adengine\\/chip\\/adengine\\.js",
+            "cookies": 0.00000759,
+            "fingerprinting": 1,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "window.sessionStorage": 5,
+                "Navigator.prototype.appName": 5,
+                "window.localStorage": 5,
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000038,
+            "cnames": [],
+            "responseHashes": [
+                "8a446fccee9831628bffe50c4b4189334ce5018b2853cdfc07d81edff2926be5"
+            ]
+        },
+        {
+            "rule": "bf-ad\\.net\\/adengine\\/focus\\/adengine\\.js",
+            "cookies": 0.0000152,
+            "fingerprinting": 1,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "window.sessionStorage": 5,
+                "Navigator.prototype.appName": 5,
+                "window.localStorage": 5,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 2
+            },
+            "sites": 5,
+            "prevalence": 0.000038,
+            "cnames": [],
+            "responseHashes": [
+                "da3751ef8de7faac0143b48e49bd168a380f818a1146eacd3b0a9d765e8e9e96"
+            ]
+        },
+        {
+            "rule": "bf-ad\\.net\\/adengine\\/netmoms\\/adengine\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.appName": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "25a65be085912b1aade64687286d2d7ceb9874bf5861ad2d96f21c012040c855"
+            ]
+        },
+        {
+            "rule": "bf-ad\\.net\\/adengine\\/netdoktor\\/adengine\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.appName": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "a065d4bc0a2cd1dd91d93e801d2b3180db7b9f567af95cf30190cd9cd2f9573a"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000038,
+    "types": {
+        "Script": 14
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "domain": "myvisualiq.net",
+    "owner": {
+        "name": "The Nielsen Company",
+        "displayName": "The Nielsen Company",
+        "privacyPolicy": "http://www.nielsen.com/us/en/privacy-statement/digital-measurement.html",
+        "url": "http://nielsen.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00425,
+    "sites": 42,
+    "subdomains": [
+        "t"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "myvisualiq\\.net\\/impression_pixel",
+            "cookies": 0.00243,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.00263,
+            "cnames": [],
+            "responseHashes": [
+                "548f2d6f4d0d820c6c5ffbeffcbd7f0e73193e2932eefe542accc84762deec87"
+            ]
+        },
+        {
+            "rule": "myvisualiq\\.net\\/ul_cb\\/impression_pixel",
+            "cookies": 0.00243,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.00243,
+            "cnames": [],
+            "responseHashes": [
+                "548f2d6f4d0d820c6c5ffbeffcbd7f0e73193e2932eefe542accc84762deec87"
+            ]
+        },
+        {
+            "rule": "myvisualiq\\.net\\/sync",
+            "cookies": 0.00192,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 22,
+            "prevalence": 0.00223,
+            "cnames": [],
+            "responseHashes": [
+                "548f2d6f4d0d820c6c5ffbeffcbd7f0e73193e2932eefe542accc84762deec87"
+            ]
+        },
+        {
+            "rule": "myvisualiq\\.net\\/ul_cb\\/sync",
+            "cookies": 0.00203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 20,
+            "prevalence": 0.00203,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Audience Measurement"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00425,
+    "types": {
+        "Image": 92
+    }
+}

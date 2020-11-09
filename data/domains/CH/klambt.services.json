@@ -1,0 +1,75 @@
+{
+    "domain": "klambt.services",
+    "owner": {
+        "name": "Klambt-Verlag GmbH & Co.KG",
+        "displayName": "Klambt-Verlag"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00061,
+    "sites": 6,
+    "subdomains": [
+        "kia"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "klambt\\.services\\/delivery\\/asyncjs\\.php",
+            "cookies": 0.000508,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kia"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000508,
+            "cnames": [],
+            "responseHashes": [
+                "56ab122adcce0b078de78707fdc6479bfc10cb69429bb13e99dbf3669b28bec1"
+            ]
+        },
+        {
+            "rule": "klambt\\.services\\/delivery\\/asyncspc\\.php",
+            "cookies": 0.000508,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kia"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000508,
+            "cnames": [],
+            "responseHashes": [
+                "367a6bbc23291efbec0499a519554e7a2bca3ee7db0a683fbbe311cfcb1f1958",
+                "c2e1f4aef2c6e014ec64b09e79537960fba4515178ca6d940dedaeb28fc07348",
+                "40321efc37b048c6bcb690e31cef1941f872fa35a80806a8c5b512d1aaa37c5a",
+                "350c958029b7d4da1af55225aedcdfac5b599d29f686369215e656976f29116c"
+            ]
+        },
+        {
+            "rule": "klambt\\.services\\/delivery\\/lg\\.php",
+            "cookies": 0.00061,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kia"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.00061,
+            "cnames": [],
+            "responseHashes": [
+                "4e0705327480ad2323cb03d9c450ffcae4a98bf3a5382fa0c7882145ed620e49"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00061,
+    "types": {
+        "Script": 5,
+        "XHR": 5,
+        "Image": 6
+    }
+}

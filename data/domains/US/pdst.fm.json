@@ -1,0 +1,71 @@
+{
+    "domain": "pdst.fm",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00159,
+    "sites": 210,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "pdst\\.fm\\/ping\\.min\\.js",
+            "cookies": 0.000752,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 99,
+                "Date.prototype.getTime": 112,
+                "Document.cookie setter": 99,
+                "window.sessionStorage": 112,
+                "Date.prototype.getTimezoneOffset": 112,
+                "window.localStorage": 111
+            },
+            "sites": 112,
+            "prevalence": 0.00085,
+            "cnames": [],
+            "responseHashes": [
+                "4a405f02a3a7d40426db85769f1e6c8ac96d4f5580600d2f906334e7b95eddbc"
+            ]
+        },
+        {
+            "rule": "pdst\\.fm\\/ping\\.3b097c1a5d7817a936bb194406c5d06a\\.js",
+            "cookies": 0.0000152,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "fa1c91d0a8aa76112db906d3162f39c7ea18acc3845b53d457479531b664289e"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00133,
+    "types": {
+        "Script": 114
+    }
+}

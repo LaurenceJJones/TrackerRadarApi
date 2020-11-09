@@ -1,0 +1,73 @@
+{
+    "domain": "fastly-insights.com",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.0165,
+    "sites": 163,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "fastly-insights\\.com\\/static\\/scout\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 70,
+                "Navigator.prototype.connection": 70
+            },
+            "sites": 152,
+            "prevalence": 0.0154,
+            "cnames": [],
+            "responseHashes": [
+                "cbd3583d60c2e2e24eaa463fe239f3517ffac4279b74bf8de9dfbf98110f7d53",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "3931bf8ad86b7d88c2e2ea48011d9992ebea19e87ca0582ba3b71085d0d77928",
+                "5540e3545798b126421bd006fc9681902759419b1081a975914d3b21ca15c5aa"
+            ]
+        },
+        {
+            "rule": "fastly-insights\\.com\\/insights\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.connection": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "cbd3583d60c2e2e24eaa463fe239f3517ffac4279b74bf8de9dfbf98110f7d53"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 154
+    }
+}

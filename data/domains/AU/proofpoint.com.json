@@ -1,0 +1,67 @@
+{
+    "domain": "proofpoint.com",
+    "owner": {
+        "name": "Proofpoint, Inc.",
+        "displayName": "Proofpoint"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.00102,
+    "sites": 10,
+    "subdomains": [
+        "urldefense"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "proofpoint\\.com\\/v2\\/url",
+            "cookies": 0.00041,
+            "fingerprinting": 1,
+            "subdomains": [
+                "urldefense"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.appVersion": 2,
+                "Date.prototype.getTime": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.appName": 1,
+                "Navigator.prototype.language": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.colorDepth": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000512,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "proofpoint\\.com\\/v2\\/url",
+            "cookies": 0.000717,
+            "fingerprinting": 0,
+            "subdomains": [
+                "urldefense"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000717,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0.000922,
+    "types": {
+        "Script": 5,
+        "Image": 7
+    }
+}

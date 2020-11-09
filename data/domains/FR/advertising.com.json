@@ -1,0 +1,416 @@
+{
+    "domain": "advertising.com",
+    "owner": {
+        "name": "Verizon Media",
+        "displayName": "Verizon Media",
+        "privacyPolicy": "https://www.verizon.com/about/privacy/privacy-policy-summary",
+        "url": "http://verizon.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.0251,
+    "sites": 248,
+    "subdomains": [
+        "pixel",
+        "ads.adaptv",
+        "sync.adaptv",
+        "adserver-us.adtech"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "advertising\\.com\\/ups\\/57304\\/sync",
+            "cookies": 0.00365,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 36,
+            "prevalence": 0.00365,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "advertising\\.com\\/ups\\/55986\\/sync",
+            "cookies": 0.000911,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 35,
+            "prevalence": 0.00354,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "advertising\\.com\\/a\\/h\\/88k_nHSg_6XSp1263gyM+iSSVC+nZNMH",
+            "cookies": 0.000506,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads.adaptv"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000506,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "advertising\\.com\\/a\\/h\\/88k_nHSg_6XSp1263gyM+rBJnqbGxDqsAEHMK88FGSM=",
+            "cookies": 0.000506,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads.adaptv"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000506,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "advertising\\.com\\/a\\/h\\/LyoDzRX0cOv8KcvlY2oOQnb1IeL0zelHxk7bKbXb_mQ=",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads.adaptv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "advertising\\.com\\/ups\\/58202\\/sync",
+            "cookies": 0.00324,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 32,
+            "prevalence": 0.00324,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "advertising\\.com\\/ups\\/57628\\/sync",
+            "cookies": 0.00101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00101,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "advertising\\.com\\/ups\\/55946\\/sync",
+            "cookies": 0.00213,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 41,
+            "prevalence": 0.00415,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "advertising\\.com\\/ups\\/55939\\/sync",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 21,
+            "prevalence": 0.00213,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "advertising\\.com\\/ups\\/57439\\/occ",
+            "cookies": 0.00081,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.00081,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "advertising\\.com\\/ups\\/56466\\/sync",
+            "cookies": 0.00162,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.00162,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "advertising\\.com\\/ups\\/56621\\/occ",
+            "cookies": 0.000709,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000709,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "advertising\\.com\\/a\\/h\\/LyoDzRX0cOv8KcvlY2oOQnb1IeL0zelHuEXTfdKx9AY=",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads.adaptv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "advertising\\.com\\/a\\/h\\/TDYlzzAUQWj2nZxq8eoHb7xLDWJOoJ85oOt0lqLFswM=",
+            "cookies": 0.000506,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads.adaptv"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000506,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "advertising\\.com\\/a\\/h\\/LyoDzRX0cOv8KcvlY2oOQnb1IeL0zelHZZQf70KjSEs=",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads.adaptv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "advertising\\.com\\/a\\/h\\/LyoDzRX0cOv8KcvlY2oOQnb1IeL0zelH9MRL4b0Zbrc=",
+            "cookies": 0.000405,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads.adaptv"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000506,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "advertising\\.com\\/ups\\/56465\\/sync",
+            "cookies": 0.000506,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000506,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "advertising\\.com\\/ups\\/28\\/sync",
+            "cookies": 0.00162,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.00162,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "advertising\\.com\\/ups\\/55944\\/sync",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "advertising\\.com\\/ups\\/58237\\/sync",
+            "cookies": 0.000304,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "advertising\\.com\\/demdex_user_sync",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync.adaptv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "advertising\\.com\\/ups\\/58293\\/sync",
+            "cookies": 0.000304,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "advertising\\.com\\/ups\\/56613\\/sync",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "advertising\\.com\\/ups\\/55856\\/sync",
+            "cookies": 0.00111,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.00111,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "advertising\\.com\\/pubapi\\/3\\.0\\/9485\\.1\\/3993582\\/0\\/0\\/ADTECH;v=2;cmd=bid;cors=yes;alias=3993582;misc=1603128468924;",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adserver-us.adtech"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "advertising\\.com\\/pubapi\\/3\\.0\\/9485\\.1\\/3993582\\/0\\/0\\/ADTECH;cfp=1;rndc=1603128469;v=2;cmd=bid;cors=yes;alias=3993582;misc=1603128468924",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adserver-us.adtech"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "1e76f939fd56410d6a12025352514888e214e077ec6cac737ad7a728b310ef5f"
+            ]
+        },
+        {
+            "rule": "advertising\\.com\\/ups\\/55982\\/sync",
+            "cookies": 0.00081,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.00081,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "advertising\\.com\\/ups\\/58222\\/sync",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.0203,
+    "types": {
+        "Image": 247,
+        "XHR": 35,
+        "Document": 8
+    }
+}

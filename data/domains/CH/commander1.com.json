@@ -1,0 +1,170 @@
+{
+    "domain": "commander1.com",
+    "owner": {
+        "name": "Fjord Technologies",
+        "displayName": "Fjord",
+        "privacyPolicy": "https://www.commandersact.com/en/privacy/",
+        "url": "http://commandersact.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00275,
+    "sites": 27,
+    "subdomains": [
+        "engage",
+        "tag",
+        "axa-ch",
+        "conforamawebch",
+        "conforama",
+        "vertbaudet",
+        "windeln",
+        "privacy",
+        "prismashop",
+        "prv"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "commander1\\.com\\/reach",
+            "cookies": 0.00112,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engage"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": [
+                "b1442e85b03bdcaf66dc58c7abb98745dd2687d86350be9a298a1d9382ac849b"
+            ]
+        },
+        {
+            "rule": "commander1\\.com\\/tagsperf",
+            "cookies": 0.000407,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000407,
+            "cnames": [],
+            "responseHashes": [
+                "b1442e85b03bdcaf66dc58c7abb98745dd2687d86350be9a298a1d9382ac849b"
+            ]
+        },
+        {
+            "rule": "commander1\\.com\\/dc3\\/",
+            "cookies": 0.00061,
+            "fingerprinting": 0,
+            "subdomains": [
+                "axa-ch",
+                "conforamawebch",
+                "conforama",
+                "vertbaudet",
+                "windeln"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.00061,
+            "cnames": [],
+            "responseHashes": [
+                "546c5cf136073615afda5cab173feff341171a26a848cf7ce09bb8bd8b07ce89"
+            ]
+        },
+        {
+            "rule": "commander1\\.com\\/dms",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "b1442e85b03bdcaf66dc58c7abb98745dd2687d86350be9a298a1d9382ac849b"
+            ]
+        },
+        {
+            "rule": "commander1\\.com\\/privacy-consent\\/",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "privacy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "b1442e85b03bdcaf66dc58c7abb98745dd2687d86350be9a298a1d9382ac849b"
+            ]
+        },
+        {
+            "rule": "commander1\\.com\\/v3\\/",
+            "cookies": 0.000712,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prismashop",
+                "prv"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000712,
+            "cnames": [],
+            "responseHashes": [
+                "546c5cf136073615afda5cab173feff341171a26a848cf7ce09bb8bd8b07ce89"
+            ]
+        },
+        {
+            "rule": "commander1\\.com\\/privacy-consent\\/",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "privacy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "commander1\\.com\\/cs3\\/",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vertbaudet"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "546c5cf136073615afda5cab173feff341171a26a848cf7ce09bb8bd8b07ce89"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics",
+        "Audience Measurement",
+        "Third-Party Analytics Marketing",
+        "Action Pixels"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00275,
+    "types": {
+        "Image": 31,
+        "Other": 6
+    }
+}

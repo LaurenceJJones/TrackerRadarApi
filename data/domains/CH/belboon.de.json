@@ -1,0 +1,45 @@
+{
+    "domain": "belboon.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000305,
+    "sites": 3,
+    "subdomains": [
+        "containertags"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "belboon\\.de\\/belboonTag\\.js\\.php",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "containertags"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000305,
+            "cnames": [],
+            "responseHashes": [
+                "dbd7c7590a7a480917a7cc9cf76704e686eca296cff8cc66073c056f55feb758",
+                "40d5c2869e39cbc8bdd9dcb0e404c3ebee16ace54afea68356c0bd6f31980ff5"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 3
+    }
+}

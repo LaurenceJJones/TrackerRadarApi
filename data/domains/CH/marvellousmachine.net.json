@@ -1,0 +1,49 @@
+{
+    "domain": "marvellousmachine.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000305,
+    "sites": 3,
+    "subdomains": [
+        "maytrics",
+        "s"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "marvellousmachine\\.net\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "maytrics",
+                "s"
+            ],
+            "apis": {
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Navigator.prototype.plugins": 1
+            },
+            "sites": 3,
+            "prevalence": 0.000305,
+            "cnames": [],
+            "responseHashes": [
+                "d93daea18da777e5a52f41f18ef04a38b65105626fc2ce9ea7709da40378be42",
+                "b7c2cbe914ea5f2e66746bd3e063a31f1fb9f84182366310d2a466eec09fef7e"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0.000102,
+    "types": {
+        "Script": 3
+    }
+}

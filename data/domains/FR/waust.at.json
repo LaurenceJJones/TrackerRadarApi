@@ -1,0 +1,83 @@
+{
+    "domain": "waust.at",
+    "owner": {
+        "name": "whos.amung.us Inc",
+        "displayName": "whos.amung.us",
+        "privacyPolicy": "https://whos.amung.us/legal/privacy/",
+        "url": "http://amung.us"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00294,
+    "sites": 29,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "waust\\.at\\/s\\.js",
+            "cookies": 0.00152,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 15,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 15,
+                "window.localStorage": 15,
+                "PerformanceTiming.prototype.navigationStart": 14,
+                "Navigator.prototype.appVersion": 15
+            },
+            "sites": 15,
+            "prevalence": 0.00152,
+            "cnames": [],
+            "responseHashes": [
+                "0298a25db873588e37945ece2b90e9f573dda86bfc84ae9f3efb8c3fbdcbce84"
+            ]
+        },
+        {
+            "rule": "waust\\.at\\/co\\.js",
+            "cookies": 0.000304,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3,
+                "window.localStorage": 3,
+                "PerformanceTiming.prototype.navigationStart": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "b957ea339d35a0f04ef914c475611606e5b3b326cf08cb9d68bf78bca23a6521"
+            ]
+        },
+        {
+            "rule": "waust\\.at\\/d\\.js",
+            "cookies": 0.00081,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 8,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 8
+            },
+            "sites": 8,
+            "prevalence": 0.00081,
+            "cnames": [],
+            "responseHashes": [
+                "8fb1850e00c24b83e04ea4f41fe5774cff1d476a293fa7b35cba97827eb194cd"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.00294,
+    "types": {
+        "Script": 26
+    }
+}

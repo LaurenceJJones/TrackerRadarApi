@@ -1,0 +1,37 @@
+{
+    "domain": "adc-srv.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000228,
+    "sites": 3,
+    "subdomains": [
+        "r"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "adc-srv\\.net\\/retargetingpx\\.php",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "6a842ea462daca2a0b5a0f5f25bcfc8e0059ac811ca6c6a1bc54e4d9119621c3"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000228,
+    "types": {
+        "Image": 2
+    }
+}

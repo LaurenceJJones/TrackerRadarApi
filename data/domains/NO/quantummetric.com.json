@@ -1,0 +1,59 @@
+{
+    "domain": "quantummetric.com",
+    "owner": {
+        "name": "Quantum Metric Inc.",
+        "displayName": "Quantum Metric"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00071,
+    "sites": 7,
+    "subdomains": [
+        "norton-app",
+        "eadvance-app",
+        "stockx-app",
+        "att-app",
+        "homedepot-app",
+        "comcast-app"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "quantummetric\\.com\\/",
+            "cookies": 0.000507,
+            "fingerprinting": 0,
+            "subdomains": [
+                "norton-app",
+                "eadvance-app",
+                "stockx-app",
+                "att-app",
+                "homedepot-app",
+                "comcast-app"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.00071,
+            "cnames": [],
+            "responseHashes": [
+                "3a9500533243d99e2df6fa9dad8ff56dd59f4ff851bffa0921d21bc67a1e8b54",
+                "16562b9c0ec26f2365545a91a573841296bec39c9cffdec0933fea53fcee1a55",
+                "a0cf0c24fe1892b57842910e09a810298f047e76dc2fa1428f244f50939e1f8c",
+                "d0c7f6d118cf26599cee4cced70cbad28b81af00990425ee4602f1ee75a10d88",
+                "7409250c122b5afe948e98760c493d761392c0c13246d9562763e45604219a1d"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00071,
+    "types": {
+        "XHR": 7
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "domain": "pingdom.net",
+    "owner": {
+        "name": "Pingdom AB",
+        "displayName": "Pingdom",
+        "privacyPolicy": "https://www.pingdom.com/legal/cookie-policy/",
+        "url": "http://pingdom.com"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.00674,
+    "sites": 66,
+    "subdomains": [
+        "rum-static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "pingdom\\.net\\/prum\\.min\\.js",
+            "cookies": 0.00225,
+            "fingerprinting": 2,
+            "subdomains": [
+                "rum-static"
+            ],
+            "apis": {
+                "window.localStorage": 20,
+                "PerformanceTiming.prototype.navigationStart": 20,
+                "Screen.prototype.availWidth": 20,
+                "Screen.prototype.availHeight": 20,
+                "Screen.prototype.pixelDepth": 20,
+                "window.devicePixelRatio": 20,
+                "Screen.prototype.orientation": 20,
+                "Navigator.prototype.appName": 20
+            },
+            "sites": 23,
+            "prevalence": 0.00235,
+            "cnames": [],
+            "responseHashes": [
+                "a0054cb907bee526169a8718932e3949ed5d5c6468342cf4daa7bd052c77b38c"
+            ]
+        },
+        {
+            "rule": "pingdom\\.net\\/pa-5afe86de29ccc50006000149\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 2,
+            "subdomains": [
+                "rum-static"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "Screen.prototype.availWidth": 1,
+                "Screen.prototype.availHeight": 1,
+                "Screen.prototype.pixelDepth": 1,
+                "window.devicePixelRatio": 1,
+                "Screen.prototype.orientation": 1,
+                "Navigator.prototype.appName": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "3cd13f0174ffd7e6ac861047ed6e274f356f3ae20f7a8419f76039d930430784"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics",
+        "Audience Measurement",
+        "Action Pixels"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.00572,
+    "types": {
+        "Script": 25
+    }
+}

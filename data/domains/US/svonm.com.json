@@ -1,0 +1,53 @@
+{
+    "domain": "svonm.com",
+    "owner": {
+        "name": "schnee von morgen webTV GmbH",
+        "displayName": "schnee von morgen webTV"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000137,
+    "sites": 18,
+    "subdomains": [
+        "hgc-cf-cache-1"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "svonm\\.com\\/hd-main\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "hgc-cf-cache-1"
+            ],
+            "apis": {
+                "Navigator.prototype.appCodeName": 13,
+                "Navigator.prototype.appName": 13,
+                "Navigator.prototype.appVersion": 13,
+                "Navigator.prototype.userAgent": 13,
+                "Navigator.prototype.platform": 13,
+                "Navigator.prototype.language": 13,
+                "Date.prototype.getTime": 13
+            },
+            "sites": 13,
+            "prevalence": 0.0000987,
+            "cnames": [],
+            "responseHashes": [
+                "ff0988414489f639e75308cd68870907f74cf69845f9be6ffa4caf7d52c9e980"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 13
+    }
+}

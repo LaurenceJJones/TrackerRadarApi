@@ -1,0 +1,108 @@
+{
+    "domain": "video-cdn.net",
+    "owner": {
+        "name": "movingimage EVP GmbH",
+        "displayName": "movingimage EVP"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000987,
+    "sites": 13,
+    "subdomains": [
+        "e"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "video-cdn\\.net\\/v2\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {
+                "window.localStorage": 11,
+                "Navigator.prototype.userAgent": 9,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 11,
+            "prevalence": 0.0000835,
+            "cnames": [],
+            "responseHashes": [
+                "bfa5c2174e782d22968d1fb16894cbe82527c05e389194df095eb01a934746ff"
+            ]
+        },
+        {
+            "rule": "video-cdn\\.net\\/video",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "video-cdn\\.net\\/v2\\/bitmovin-plugin\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.appName": 3,
+                "Navigator.prototype.plugins": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "MediaSource.isTypeSupported": 3,
+                "HTMLMediaElement.prototype.canPlayType": 3,
+                "Date.prototype.getTime": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000228,
+            "cnames": [],
+            "responseHashes": [
+                "24331c2f57de5b2500e5fccbc23bf401a4f66053515cb4366bf3a97d3ad946fb"
+            ]
+        },
+        {
+            "rule": "video-cdn\\.net\\/v2\\/overlay-plugin\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000304,
+            "cnames": [],
+            "responseHashes": [
+                "46ad092f64203031fb6e98717cc3ae911b66ab34371a51d952c543c1c4e7233b"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0.00000759,
+    "types": {
+        "Script": 18,
+        "Document": 2
+    }
+}

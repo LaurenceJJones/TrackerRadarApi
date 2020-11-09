@@ -1,0 +1,35 @@
+{
+    "domain": "taptapnetworks.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.00142,
+    "sites": 14,
+    "subdomains": [
+        "sonata-notifications"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "taptapnetworks\\.com\\/web\\/cookie\\/bidswitch\\/sync",
+            "cookies": 0.00132,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sonata-notifications"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.00142,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00132,
+    "types": {
+        "Image": 14
+    }
+}

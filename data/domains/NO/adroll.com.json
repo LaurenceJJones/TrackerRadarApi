@@ -1,0 +1,293 @@
+{
+    "domain": "adroll.com",
+    "owner": {
+        "name": "AdRoll, Inc.",
+        "displayName": "AdRoll",
+        "privacyPolicy": "https://www.adroll.com/about/privacy",
+        "url": "http://adroll.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.0113,
+    "sites": 111,
+    "subdomains": [
+        "s",
+        "a",
+        "d"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "adroll\\.com\\/j\\/roundtrip\\.js",
+            "cookies": 0.00294,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s",
+                "a"
+            ],
+            "apis": {
+                "Document.cookie getter": 36,
+                "Date.prototype.getTime": 33,
+                "Document.cookie setter": 29,
+                "Navigator.prototype.userAgent": 12
+            },
+            "sites": 41,
+            "prevalence": 0.00416,
+            "cnames": [],
+            "responseHashes": [
+                "c248f8404721d961fff789b4916e8b2f3ac975ffde32bb370374814712055d59"
+            ]
+        },
+        {
+            "rule": "adroll\\.com\\/j\\/consent_tcfv2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 10,
+                "Navigator.prototype.languages": 10,
+                "window.localStorage": 10,
+                "Date.prototype.getTime": 10
+            },
+            "sites": 10,
+            "prevalence": 0.00101,
+            "cnames": [],
+            "responseHashes": [
+                "c59b3c983337f152323c7f05ec118a026030fe007e168bf8cc64aedf78c181b3"
+            ]
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/aol\\/out",
+            "cookies": 0.00101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00101,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/index\\/out",
+            "cookies": 0.00101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00101,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/n\\/out",
+            "cookies": 0.00101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00101,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/outbrain\\/out",
+            "cookies": 0.00101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00101,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/pubmatic\\/out",
+            "cookies": 0.00101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00101,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/r\\/out",
+            "cookies": 0.00122,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/taboola\\/out",
+            "cookies": 0.00101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00101,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/triplelift\\/out",
+            "cookies": 0.00101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00101,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/b\\/out",
+            "cookies": 0.00122,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/x\\/out",
+            "cookies": 0.00122,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/o\\/out",
+            "cookies": 0.00122,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/g\\/out",
+            "cookies": 0.00132,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.00132,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/g\\/in",
+            "cookies": 0.00132,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.00132,
+            "cnames": [],
+            "responseHashes": [
+                "ef1955ae757c8b966c83248350331bd3a30f658ced11f387f8ebf05ab3368629"
+            ]
+        },
+        {
+            "rule": "adroll\\.com\\/cm\\/r\\/in",
+            "cookies": 0.00122,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": [
+                "ef1955ae757c8b966c83248350331bd3a30f658ced11f387f8ebf05ab3368629"
+            ]
+        },
+        {
+            "rule": "adroll\\.com\\/fb\\/tr\\/",
+            "cookies": 0.000507,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000507,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "adroll\\.com\\/onp\\/L6HHQDMV7FEUZDE63PJAYF\\/YXUYJBQHONEQ3KNKGECH6J",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "ef1955ae757c8b966c83248350331bd3a30f658ced11f387f8ebf05ab3368629"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.00345,
+    "types": {
+        "Script": 51,
+        "Image": 163
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "domain": "optmstr.com",
+    "owner": {
+        "name": "Retyp LLC",
+        "displayName": "Retyp",
+        "privacyPolicy": "https://optinmonster.com/privacy/",
+        "url": "http://optinmonster.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00162,
+    "sites": 16,
+    "subdomains": [
+        "a"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "optmstr\\.com\\/app\\/js\\/api\\.min\\.js",
+            "cookies": 0.00132,
+            "fingerprinting": 1,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 16,
+                "Date.prototype.getTime": 16,
+                "Document.cookie getter": 13,
+                "Document.cookie setter": 13,
+                "window.localStorage": 15,
+                "window.sessionStorage": 14,
+                "Navigator.prototype.cookieEnabled": 8
+            },
+            "sites": 16,
+            "prevalence": 0.00162,
+            "cnames": [],
+            "responseHashes": [
+                "b9aa1dcca82a18cd13fc5144fe0b6de9e79a3fc744eacf52136c0eb10c3798bf"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 1
+    },
+    "cookies": 0.00132,
+    "types": {
+        "Script": 16
+    }
+}

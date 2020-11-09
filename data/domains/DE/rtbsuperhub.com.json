@@ -1,0 +1,43 @@
+{
+    "domain": "rtbsuperhub.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000304,
+    "sites": 3,
+    "subdomains": [
+        "eu-adsrv"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "rtbsuperhub\\.com\\/ir\\/",
+            "cookies": 0.000304,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu-adsrv"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "5b2709c5ac58e0bec59042c4641a5fcc0aa6524057bc747b42f014fbdf27c0ee",
+                "17fb0f60d16dfaaaa4e8118c3ee086f4263542aea98ca5c9d1f42d34e5e39957"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0.000304,
+    "types": {
+        "Document": 3
+    }
+}

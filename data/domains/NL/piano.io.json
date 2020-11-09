@@ -1,0 +1,51 @@
+{
+    "domain": "piano.io",
+    "owner": {
+        "name": "Piano Software",
+        "displayName": "Piano Software",
+        "privacyPolicy": "https://piano.io/privacy-policy/",
+        "url": "http://piano.io"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000817,
+    "sites": 8,
+    "subdomains": [
+        "api-esp"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "piano\\.io\\/public\\/sdk\\/v04\\/sdk\\.js",
+            "cookies": 0.000817,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api-esp"
+            ],
+            "apis": {
+                "Document.cookie getter": 8,
+                "window.localStorage": 8,
+                "Document.cookie setter": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000817,
+            "cnames": [],
+            "responseHashes": [
+                "671b69efb7d7b7424b6f6d4657b5e537587b3412f44710a4d3ec0a24ff9e2a89"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 1
+    },
+    "cookies": 0.000817,
+    "types": {
+        "Script": 8
+    }
+}

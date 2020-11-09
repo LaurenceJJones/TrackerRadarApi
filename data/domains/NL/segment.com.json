@@ -1,0 +1,78 @@
+{
+    "domain": "segment.com",
+    "owner": {
+        "name": "Segment.io, Inc.",
+        "displayName": "Segment.io",
+        "privacyPolicy": "https://segment.io/privacy",
+        "url": "http://segment.io"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.00521,
+    "sites": 51,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "segment\\.com\\/analytics\\.js\\/v1\\/i1rOaVUFUcTNybqh631glUNsBFb9rP1I\\/analytics\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "733f400624853b0ac1d8cd88e1bb9bf9f14ed2df30b56f691029e85aa7f1407b"
+            ]
+        },
+        {
+            "rule": "segment\\.com\\/analytics\\.js\\/v1\\/kMettuB218zyYLIzUsT2ptxdGiEtWYT2\\/analytics\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "4e85080d471dca037bff2ee1fa3bc118f9e2c4ddc83350a83d8047a2ca964dbc"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 2,
+        "cache": 3
+    },
+    "cookies": 0.00276,
+    "types": {
+        "Script": 4
+    }
+}

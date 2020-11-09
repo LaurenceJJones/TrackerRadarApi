@@ -1,0 +1,47 @@
+{
+    "domain": "podigee.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000813,
+    "sites": 8,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "podigee\\.com\\/podcast-player\\/podigee-podcast-player\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.appVersion": 7,
+                "Navigator.prototype.language": 7,
+                "HTMLMediaElement.prototype.canPlayType": 7,
+                "Event.prototype.timeStamp": 7
+            },
+            "sites": 8,
+            "prevalence": 0.000813,
+            "cnames": [],
+            "responseHashes": [
+                "eac1271cdf19cdeecd3b8789d4e5483e8f784538c3f1602045f3b56355541c13"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 1
+    },
+    "cookies": 0,
+    "types": {
+        "Document": 8
+    }
+}

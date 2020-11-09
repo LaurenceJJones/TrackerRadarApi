@@ -1,0 +1,56 @@
+{
+    "domain": "sitepark.com",
+    "owner": {
+        "name": "SitePark GmbH",
+        "displayName": "SitePark"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000683,
+    "sites": 9,
+    "subdomains": [
+        "piwik",
+        "mz-piwik"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sitepark\\.com\\/piwik\\.js",
+            "cookies": 0.00000759,
+            "fingerprinting": 2,
+            "subdomains": [
+                "piwik",
+                "mz-piwik"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.mimeTypes": 5,
+                "Navigator.prototype.javaEnabled": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.platform": 4,
+                "Document.cookie setter": 1,
+                "window.name": 5,
+                "Navigator.prototype.doNotTrack": 2
+            },
+            "sites": 5,
+            "prevalence": 0.000038,
+            "cnames": [],
+            "responseHashes": [
+                "9e282a1a6fc13d3f400d49260d5bac86836ed14ed25a9a7734cdc7c0a6a8c1d4",
+                "b52608eb90130f261d38507f7445e73f9c54fde9b481d23f1987bafd1ed5090a"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000304,
+    "types": {
+        "Script": 5
+    }
+}

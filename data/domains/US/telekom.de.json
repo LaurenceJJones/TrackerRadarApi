@@ -1,0 +1,133 @@
+{
+    "domain": "telekom.de",
+    "owner": {
+        "name": "Deutsche Telekom AG",
+        "displayName": "Deutsche Telekom"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000304,
+    "sites": 40,
+    "subdomains": [
+        "ebs08",
+        "pix"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "telekom\\.de\\/affiliates\\/gotoview\\.php",
+            "cookies": 0.000121,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ebs08"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.000121,
+            "cnames": [],
+            "responseHashes": [
+                "73e88dfcd0f3a535341fb641c5400fcf772ffe36c628241104f829d3cf48e29b"
+            ]
+        },
+        {
+            "rule": "telekom\\.de\\/196380495960676\\/wt",
+            "cookies": 0.0000228,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pix"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000228,
+            "cnames": [],
+            "responseHashes": [
+                "b1442e85b03bdcaf66dc58c7abb98745dd2687d86350be9a298a1d9382ac849b"
+            ]
+        },
+        {
+            "rule": "telekom\\.de\\/934572687138961\\/wt",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pix"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "b1442e85b03bdcaf66dc58c7abb98745dd2687d86350be9a298a1d9382ac849b"
+            ]
+        },
+        {
+            "rule": "telekom\\.de\\/196380495960676\\/cc",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pix"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "telekom\\.de\\/affiliates\\/view\\.php",
+            "cookies": 0.0000531,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ebs08"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000531,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "telekom\\.de\\/affiliates\\/view\\.php",
+            "cookies": 0.0000683,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ebs08"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000683,
+            "cnames": [],
+            "responseHashes": [
+                "73e88dfcd0f3a535341fb641c5400fcf772ffe36c628241104f829d3cf48e29b"
+            ]
+        },
+        {
+            "rule": "telekom\\.de\\/178656360427853\\/wt",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pix"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "b1442e85b03bdcaf66dc58c7abb98745dd2687d86350be9a298a1d9382ac849b"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0.000304,
+    "types": {
+        "Image": 34,
+        "Document": 7
+    }
+}

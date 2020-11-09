@@ -1,0 +1,78 @@
+{
+    "domain": "digidip.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00133,
+    "sites": 13,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "digidip\\.net\\/journaldesfemmesfr\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "4a1ca178736e44538201efba5ac31c52dd97164f71702e0ad6fb83892926c77a"
+            ]
+        },
+        {
+            "rule": "digidip\\.net\\/commentcamarche\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "a1924a77b0223a5b92bbc44dd5697663238ab71d960659680edfbd9d31764947"
+            ]
+        },
+        {
+            "rule": "digidip\\.net\\/linternaute\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "ef0b816e67f495b650a0a0310e5508b3fb14a97404b4de2acd95989e726a223a"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 6
+    }
+}

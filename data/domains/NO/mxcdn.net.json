@@ -1,0 +1,312 @@
+{
+    "domain": "mxcdn.net",
+    "owner": {
+        "name": "Meetrics GmbH",
+        "displayName": "Meetrics",
+        "privacyPolicy": "https://www.meetrics.com/en/data-privacy/",
+        "url": "http://meetrics.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00446,
+    "sites": 44,
+    "subdomains": [
+        "s407",
+        "s372",
+        "s400",
+        "s240",
+        "s79"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "mxcdn\\.net\\/bb-mx\\/serve\\/mtrcs_103334\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "s407"
+            ],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 24,
+                "Navigator.prototype.appVersion": 24,
+                "Navigator.prototype.userAgent": 24,
+                "Navigator.prototype.getBattery": 24,
+                "Screen.prototype.width": 24,
+                "Screen.prototype.height": 24,
+                "Date.prototype.getTimezoneOffset": 24,
+                "PerformanceTiming.prototype.navigationStart": 24,
+                "Navigator.prototype.languages": 24,
+                "window.devicePixelRatio": 24,
+                "window.name": 4,
+                "Screen.prototype.availWidth": 24,
+                "Screen.prototype.colorDepth": 24,
+                "Screen.prototype.pixelDepth": 24,
+                "Navigator.prototype.onLine": 24,
+                "Screen.prototype.availHeight": 24,
+                "Navigator.prototype.hardwareConcurrency": 24,
+                "Navigator.prototype.deviceMemory": 24
+            },
+            "sites": 24,
+            "prevalence": 0.00243,
+            "cnames": [],
+            "responseHashes": [
+                "cecf415916fed0ff7d3c780a2b847bf64a5e2887fabcc0c83fff75fe5e7c6d09"
+            ]
+        },
+        {
+            "rule": "mxcdn\\.net\\/bb-mx\\/serve\\/mtrcs_103334\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "s407"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.maxTouchPoints": 7,
+                "Navigator.prototype.appVersion": 7,
+                "Navigator.prototype.getBattery": 7,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7,
+                "Date.prototype.getTimezoneOffset": 7,
+                "PerformanceTiming.prototype.navigationStart": 7,
+                "Navigator.prototype.languages": 7,
+                "window.devicePixelRatio": 7,
+                "Screen.prototype.availWidth": 7,
+                "Screen.prototype.colorDepth": 7,
+                "Screen.prototype.pixelDepth": 7,
+                "Navigator.prototype.onLine": 7,
+                "Screen.prototype.availHeight": 7,
+                "Navigator.prototype.hardwareConcurrency": 7,
+                "Navigator.prototype.deviceMemory": 7
+            },
+            "sites": 10,
+            "prevalence": 0.00101,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "mxcdn\\.net\\/bb-mx\\/serve\\/mtrcs_313130\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "s407"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.getBattery": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.languages": 2,
+                "window.devicePixelRatio": 2,
+                "window.name": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Navigator.prototype.onLine": 2,
+                "Screen.prototype.availHeight": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Navigator.prototype.deviceMemory": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "92dcf238e8170267140126b1d57e7058c26a3ae96168db0a19d770d2276240a4"
+            ]
+        },
+        {
+            "rule": "mxcdn\\.net\\/bb-mx\\/serve\\/mtrcs_343838\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "s372"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.maxTouchPoints": 4,
+                "Navigator.prototype.appVersion": 4,
+                "Navigator.prototype.getBattery": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "Date.prototype.getTimezoneOffset": 4,
+                "PerformanceTiming.prototype.navigationStart": 4,
+                "Navigator.prototype.languages": 4,
+                "window.devicePixelRatio": 4,
+                "Screen.prototype.availWidth": 4,
+                "Screen.prototype.colorDepth": 4,
+                "Screen.prototype.pixelDepth": 4,
+                "Navigator.prototype.onLine": 4,
+                "Screen.prototype.availHeight": 4,
+                "Navigator.prototype.hardwareConcurrency": 4,
+                "Navigator.prototype.deviceMemory": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000406,
+            "cnames": [],
+            "responseHashes": [
+                "e9463ca7a0c6780c68eb9ec6b13e4c6c81173fd84e89196750d4f20d5a9ae052"
+            ]
+        },
+        {
+            "rule": "mxcdn\\.net\\/bb-mx\\/serve\\/mtrcs_679600\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "s400"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.maxTouchPoints": 5,
+                "Navigator.prototype.appVersion": 5,
+                "Navigator.prototype.getBattery": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "Date.prototype.getTimezoneOffset": 5,
+                "PerformanceTiming.prototype.navigationStart": 5,
+                "Navigator.prototype.languages": 5,
+                "window.devicePixelRatio": 5,
+                "window.name": 5,
+                "Screen.prototype.availWidth": 5,
+                "Screen.prototype.colorDepth": 5,
+                "Screen.prototype.pixelDepth": 5,
+                "Navigator.prototype.onLine": 5,
+                "Screen.prototype.availHeight": 5,
+                "Navigator.prototype.hardwareConcurrency": 5,
+                "Navigator.prototype.deviceMemory": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000507,
+            "cnames": [],
+            "responseHashes": [
+                "7708831bd81f4abba0f7758daac36a3902d4aef5338dab473843923e4b8661c5"
+            ]
+        },
+        {
+            "rule": "mxcdn\\.net\\/bb-mx\\/serve\\/mtrcs_886118\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "s240"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.maxTouchPoints": 6,
+                "Navigator.prototype.appVersion": 6,
+                "Navigator.prototype.getBattery": 6,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.height": 6,
+                "Date.prototype.getTimezoneOffset": 6,
+                "PerformanceTiming.prototype.navigationStart": 6,
+                "Navigator.prototype.languages": 6,
+                "window.devicePixelRatio": 6,
+                "window.name": 5,
+                "Screen.prototype.availWidth": 6,
+                "Screen.prototype.colorDepth": 6,
+                "Screen.prototype.pixelDepth": 6,
+                "Navigator.prototype.onLine": 6,
+                "Screen.prototype.availHeight": 6,
+                "Navigator.prototype.hardwareConcurrency": 6,
+                "Navigator.prototype.deviceMemory": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000608,
+            "cnames": [],
+            "responseHashes": [
+                "d0dc12a022ab0c08121e70a58614ffdb012116236850cf3a381749f8f5db5215"
+            ]
+        },
+        {
+            "rule": "mxcdn\\.net\\/bb-mx\\/serve\\/mtrcs_874468\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "s407"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.getBattery": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.languages": 2,
+                "window.devicePixelRatio": 2,
+                "window.name": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Navigator.prototype.onLine": 2,
+                "Screen.prototype.availHeight": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Navigator.prototype.deviceMemory": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "a468af8df0ac7fedc55aba3a2782639aad805bdafad198ae19b13ba11861d864"
+            ]
+        },
+        {
+            "rule": "mxcdn\\.net\\/bb-mx\\/serve\\/mtrcs_509914\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "s79"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.getBattery": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.languages": 2,
+                "window.devicePixelRatio": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Navigator.prototype.onLine": 2,
+                "Screen.prototype.availHeight": 2,
+                "Navigator.prototype.hardwareConcurrency": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "bc22da801f886819e0173d8c300e211db2a9e7c4130c8c5e357aa562e74364f3"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Ad Fraud",
+        "Analytics",
+        "Audience Measurement",
+        "CDN"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 45,
+        "Image": 10
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "domain": "wemfbox.ch",
+    "owner": {
+        "name": "NET-Metrix AG",
+        "displayName": "NET-Metrix"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00182,
+    "sites": 18,
+    "subdomains": [
+        "az-ssl",
+        "20minde-ssl",
+        "beob-ssl",
+        "blue-ssl",
+        "blickonl-ssl",
+        "nzz-ssl",
+        "si-ssl",
+        "tagesanz-ssl",
+        "watson-ssl",
+        "nachhalt-ssl",
+        "swissmom-ssl",
+        "idgpctip-ssl",
+        "tagi-ssl",
+        "newsnetz-ssl"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "wemfbox\\.ch\\/2004\\/01\\/survey\\.js",
+            "cookies": 0.00081,
+            "fingerprinting": 0,
+            "subdomains": [
+                "az-ssl",
+                "20minde-ssl",
+                "beob-ssl",
+                "blue-ssl",
+                "blickonl-ssl",
+                "nzz-ssl",
+                "si-ssl",
+                "tagesanz-ssl",
+                "watson-ssl"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000911,
+            "cnames": [],
+            "responseHashes": [
+                "4e233a3a613ff1b208f6e54673b5be56f4f9d549dc52d3de994f425bc06a4609"
+            ]
+        },
+        {
+            "rule": "wemfbox\\.ch\\/cgi-bin\\/ivw\\/CP\\/home",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nachhalt-ssl",
+                "swissmom-ssl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "wemfbox\\.ch\\/cgi-bin\\/ivw\\/CP\\/",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "idgpctip-ssl",
+                "si-ssl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "wemfbox\\.ch\\/cgi-bin\\/ivw\\/CP\\/tagesanzeiger\\/frontpage",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagi-ssl",
+                "newsnetz-ssl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00182,
+    "types": {
+        "Script": 9,
+        "Image": 6
+    }
+}

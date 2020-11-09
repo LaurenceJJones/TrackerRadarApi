@@ -1,0 +1,81 @@
+{
+    "domain": "w55c.net",
+    "owner": {
+        "name": "DataXu",
+        "displayName": "DataXu",
+        "privacyPolicy": "https://www.dataxu.com/about-us/privacy/data-collection-platform/",
+        "url": "http://dataxu.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.0383,
+    "sites": 378,
+    "subdomains": [
+        "pm",
+        "i",
+        "tags"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "w55c\\.net\\/ping_match\\.gif",
+            "cookies": 0.0282,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pm",
+                "i"
+            ],
+            "apis": {},
+            "sites": 294,
+            "prevalence": 0.0298,
+            "cnames": [],
+            "responseHashes": [
+                "548f2d6f4d0d820c6c5ffbeffcbd7f0e73193e2932eefe542accc84762deec87",
+                "8337212354871836e6763a41e615916c89bac5b3f1f0adf60ba43c7c806e1015"
+            ]
+        },
+        {
+            "rule": "w55c\\.net\\/ping_match\\.gif",
+            "cookies": 0.0172,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pm"
+            ],
+            "apis": {},
+            "sites": 175,
+            "prevalence": 0.0177,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "w55c\\.net\\/rs",
+            "cookies": 0.00122,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.00132,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.0365,
+    "types": {
+        "Image": 307,
+        "Document": 175
+    }
+}

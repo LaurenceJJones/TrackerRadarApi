@@ -1,0 +1,72 @@
+{
+    "domain": "awin1.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0146,
+    "sites": 144,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "awin1\\.com\\/cshow\\.php",
+            "cookies": 0.0112,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 112,
+            "prevalence": 0.0114,
+            "cnames": [],
+            "responseHashes": [
+                "2dfe28cbdb83f01c940de6a88ab86200154fd772d568035ac568664e52068363"
+            ]
+        },
+        {
+            "rule": "awin1\\.com\\/cshow\\.php",
+            "cookies": 0.0144,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 144,
+            "prevalence": 0.0146,
+            "cnames": [],
+            "responseHashes": [
+                "2dfe28cbdb83f01c940de6a88ab86200154fd772d568035ac568664e52068363",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "awin1\\.com\\/cawshow\\.php",
+            "cookies": 0.000915,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000915,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.0144,
+    "types": {
+        "Document": 112,
+        "Image": 153
+    }
+}

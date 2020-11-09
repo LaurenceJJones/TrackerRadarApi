@@ -1,0 +1,100 @@
+{
+    "domain": "yimg.com",
+    "owner": {
+        "name": "Verizon Media",
+        "displayName": "Verizon Media",
+        "privacyPolicy": "https://www.verizon.com/about/privacy/privacy-policy-summary",
+        "url": "http://verizon.com"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.0135,
+    "sites": 133,
+    "subdomains": [
+        "s"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "yimg\\.com\\/wi\\/ytc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Document.cookie getter": 83,
+                "window.localStorage": 105,
+                "Date.prototype.getTimezoneOffset": 105,
+                "Date.prototype.getTime": 105
+            },
+            "sites": 109,
+            "prevalence": 0.0111,
+            "cnames": [],
+            "responseHashes": [
+                "63896532a7015ab5b7288359c02124980a5075e9267f0ba3fbfc7c3f5038b478"
+            ]
+        },
+        {
+            "rule": "yimg\\.com\\/rq\\/iv\\/inside-20\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 6,
+                "Navigator.prototype.platform": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Date.prototype.getTime": 6,
+                "Navigator.prototype.connection": 6,
+                "Navigator.prototype.permissions": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000608,
+            "cnames": [],
+            "responseHashes": [
+                "caf095af35753a7183ea46057bf2ca19570da753b5e4e6f42566058f3fe4aebb"
+            ]
+        },
+        {
+            "rule": "yimg\\.com\\/rq\\/iv\\/inside\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 14,
+                "Navigator.prototype.platform": 14,
+                "Navigator.prototype.userAgent": 14,
+                "Date.prototype.getTime": 14,
+                "Navigator.prototype.connection": 14,
+                "Navigator.prototype.permissions": 14
+            },
+            "sites": 14,
+            "prevalence": 0.00142,
+            "cnames": [],
+            "responseHashes": [
+                "78a22f586e214f9dac9d8dc486ec41cd724d534b54cf334150f3eefc24160c31"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "CDN"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 2,
+        "cache": 1
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 129
+    }
+}

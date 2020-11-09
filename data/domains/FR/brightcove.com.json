@@ -1,0 +1,56 @@
+{
+    "domain": "brightcove.com",
+    "owner": {
+        "name": "Brightcove, Inc.",
+        "displayName": "Brightcove",
+        "privacyPolicy": "https://www.brightcove.com/en/legal/privacy",
+        "url": "http://brightcove.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00385,
+    "sites": 38,
+    "subdomains": [
+        "sadmin"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "brightcove\\.com\\/js\\/BrightcoveExperiences\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sadmin"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.plugins": 7,
+                "HTMLMediaElement.prototype.canPlayType": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000709,
+            "cnames": [],
+            "responseHashes": [
+                "c9408cf5d8e0d12fb2b1d5ad6b4489be392384a4687962a0fc2a2877a57775c8"
+            ]
+        }
+    ],
+    "categories": [
+        "Advertising",
+        "Analytics",
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000101,
+    "types": {
+        "Script": 7
+    }
+}

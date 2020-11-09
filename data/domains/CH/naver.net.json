@@ -1,0 +1,58 @@
+{
+    "domain": "naver.net",
+    "owner": {
+        "name": "NAVER Corp",
+        "displayName": "NAVER"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000305,
+    "sites": 3,
+    "subdomains": [
+        "wcs"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "naver\\.net\\/wcslog\\.js",
+            "cookies": 0.000203,
+            "fingerprinting": 2,
+            "subdomains": [
+                "wcs"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.language": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Navigator.prototype.javaEnabled": 3,
+                "Navigator.prototype.appVersion": 3,
+                "Navigator.prototype.appName": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000305,
+            "cnames": [],
+            "responseHashes": [
+                "058b9fa9956a6ad48729ddd5fc99d6f637fb1f5ef24428480982582a7adc1de2"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000203,
+    "types": {
+        "Script": 3
+    }
+}

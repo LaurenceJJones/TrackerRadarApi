@@ -1,0 +1,65 @@
+{
+    "domain": "bidfilter.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000911,
+    "sites": 9,
+    "subdomains": [
+        "cdn",
+        "x"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bidfilter\\.com\\/bidfilter\\.js",
+            "cookies": 0.000911,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 9,
+                "window.sessionStorage": 9,
+                "Navigator.prototype.userAgent": 9,
+                "Date.prototype.getTime": 9
+            },
+            "sites": 9,
+            "prevalence": 0.000911,
+            "cnames": [],
+            "responseHashes": [
+                "9e61e03a6ee8599fd31c01a8bca6f146b329d49031de47f9edf6eddd9e1b885e"
+            ]
+        },
+        {
+            "rule": "bidfilter\\.com\\/b",
+            "cookies": 0.000911,
+            "fingerprinting": 0,
+            "subdomains": [
+                "x"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000911,
+            "cnames": [],
+            "responseHashes": [
+                "debc1249fe53c8a56f6986e81d0eb70dbd9bb29829b8faae14578aaaadc959b3",
+                "2ec20d88d85cdca45be657a46f6baa8e19f27902d5952ce19bda3aa918587038"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000911,
+    "types": {
+        "Script": 9,
+        "XHR": 9
+    }
+}

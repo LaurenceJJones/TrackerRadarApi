@@ -1,0 +1,90 @@
+{
+    "domain": "sndcdn.com",
+    "owner": {
+        "name": "SoundCloud Ltd.",
+        "displayName": "SoundCloud",
+        "privacyPolicy": "https://soundcloud.com/pages/privacy",
+        "url": "http://soundcloud.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00122,
+    "sites": 12,
+    "subdomains": [
+        "widget"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sndcdn\\.com\\/widget-0dad0be-c375d55c\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 12,
+                "window.sessionStorage": 12,
+                "window.localStorage": 12,
+                "window.devicePixelRatio": 12,
+                "Date.prototype.getTime": 12,
+                "Navigator.prototype.languages": 12,
+                "Event.prototype.timeStamp": 11
+            },
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": [
+                "928afc8cab88be056f162c62508b1fbcf02b1bd305fdf268e7739bf35bea5f18"
+            ]
+        },
+        {
+            "rule": "sndcdn\\.com\\/visual-single-sound-d890ecf-c375d55c\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 6,
+                "CanvasRenderingContext2D.prototype.getImageData": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000608,
+            "cnames": [],
+            "responseHashes": [
+                "61055d1c60558cbd2354a12839d96c33a650bdfb4efe7eff398153a9f8d8543c"
+            ]
+        },
+        {
+            "rule": "sndcdn\\.com\\/multi-sounds-b05fc7f-c375d55c\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000507,
+            "cnames": [],
+            "responseHashes": [
+                "925bd5b1f343599a8d8a70e72aa8f63bb763cb4c7b249fce2388af9df7c3768c"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 2,
+        "cpu": 2,
+        "cache": 1
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 23
+    }
+}

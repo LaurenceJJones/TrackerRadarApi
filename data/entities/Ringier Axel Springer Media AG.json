@@ -1,0 +1,21 @@
+{
+    "name": "Ringier Axel Springer Media AG",
+    "displayName": "Ringier Axel Springer",
+    "properties": [
+        "auto-swiat.pl",
+        "blikk.hu",
+        "ewydania.pl",
+        "komputerswiat.pl",
+        "newsweek.pl",
+        "nk.pl",
+        "ocdn.eu",
+        "schweizer-illustrierte.ch",
+        "skapiec.pl",
+        "zumi.pl"
+    ],
+    "prevalence": {
+        "tracking": 0.000387,
+        "nonTracking": 0.00000759,
+        "total": 0.000395
+    }
+}

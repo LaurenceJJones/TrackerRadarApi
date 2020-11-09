@@ -1,0 +1,74 @@
+{
+    "domain": "trafficfabrik.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000405,
+    "sites": 4,
+    "subdomains": [
+        "delivery",
+        "cdas-01"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "trafficfabrik\\.com\\/cpanel\\/b\\.php",
+            "cookies": 0.000304,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delivery"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "trafficfabrik\\.com\\/cpanel\\/f\\.php",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delivery"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "e46496c05b3507131b0e3ce8fcf6805aa9ea0d0caa5cb3683105dbd78d7d646b"
+            ]
+        },
+        {
+            "rule": "trafficfabrik\\.com\\/assets\\/75\\/75234\\.gif",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdas-01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "93d52bfdb0f8253e326655458dce0095e8e1d06aa130cfdeda9122771b9b2585"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 1
+    },
+    "cookies": 0.000405,
+    "types": {
+        "XHR": 5,
+        "Image": 2
+    }
+}

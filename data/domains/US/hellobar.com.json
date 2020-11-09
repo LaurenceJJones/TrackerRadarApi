@@ -1,0 +1,114 @@
+{
+    "domain": "hellobar.com",
+    "owner": {
+        "name": "Crazy Egg, Inc.",
+        "displayName": "Crazy Egg",
+        "privacyPolicy": "https://www.crazyegg.com/privacy",
+        "url": "http://crazyegg.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00231,
+    "sites": 304,
+    "subdomains": [
+        "my"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "hellobar\\.com\\/modules-v60\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {
+                "window.localStorage": 164,
+                "Date.prototype.getTime": 164,
+                "Navigator.prototype.userAgent": 161
+            },
+            "sites": 164,
+            "prevalence": 0.00125,
+            "cnames": [],
+            "responseHashes": [
+                "3661bde0404473b362b4ce5ac6ba980422e82714d808be044ebb59f9473c5a09"
+            ]
+        },
+        {
+            "rule": "hellobar\\.com\\/modules-v59\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000304,
+            "cnames": [],
+            "responseHashes": [
+                "d8864e7496ed23664cdd8decb8628c1f73e177f59aa550b9751137d44d225a0f"
+            ]
+        },
+        {
+            "rule": "hellobar\\.com\\/modules-bc1e8e26398f9a3b9d27d9d118507e3be1fbb719ca4e8cd028efee84f406f08c\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000228,
+            "cnames": [],
+            "responseHashes": [
+                "bc1e8e26398f9a3b9d27d9d118507e3be1fbb719ca4e8cd028efee84f406f08c"
+            ]
+        },
+        {
+            "rule": "hellobar\\.com\\/bda1b84681966749f3ce812a2688e7e5727fe4fc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "18539759f26d4bc7df3ea4b44386e35ee6d341d50236979e4d9b94208d999851"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Action Pixels",
+        "Session Replay"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 1
+    },
+    "cookies": 0.0000152,
+    "types": {
+        "Script": 173
+    }
+}

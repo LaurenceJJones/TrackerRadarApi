@@ -1,0 +1,44 @@
+{
+    "domain": "schemaapp.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000676,
+    "sites": 89,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "schemaapp\\.com\\/javascript\\/highlight\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 36
+            },
+            "sites": 36,
+            "prevalence": 0.000273,
+            "cnames": [],
+            "responseHashes": [
+                "f24fe6022adfa7582a8a57511206f71b0088c97921c8dafeee5f8970f1982ccc"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 36
+    }
+}

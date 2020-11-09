@@ -1,0 +1,55 @@
+{
+    "domain": "digitalriver.com",
+    "owner": {
+        "name": "Digital River, Inc.",
+        "displayName": "Digital River"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000304,
+    "sites": 3,
+    "subdomains": [
+        "buy-logitech-com.wip"
+    ],
+    "cnames": [
+        {
+            "original": "buy.logitech.com",
+            "resolved": "buy-logitech-com.wip.digitalriver.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "digitalriver\\.com\\/store\\/logib2c\\/SessionToken",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buy-logitech-com.wip"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [
+                {
+                    "original": "buy.logitech.com",
+                    "resolved": "buy-logitech-com.wip.digitalriver.com"
+                }
+            ],
+            "responseHashes": [
+                "7f624ba565c48034a14ae4ca605b489b4c01c46b82eaefb5205cf669b5d7aebf"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000203,
+    "types": {
+        "Script": 2
+    }
+}

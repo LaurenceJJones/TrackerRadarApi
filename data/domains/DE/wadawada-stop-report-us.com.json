@@ -1,0 +1,33 @@
+{
+    "domain": "wadawada-stop-report-us.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "wadawada-stop-report-us\\.com\\/resource",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "7df0f3c455548dc19e58dc50d39b22850e7d2476d1901642c9b63f95b5ea5edb"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000101,
+    "types": {
+        "XHR": 2
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "domain": "amazon.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000608,
+    "sites": 6,
+    "subdomains": [
+        "payments-de"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "amazon\\.com\\/gp\\/widgets\\/sessionstabilizer",
+            "cookies": 0.000405,
+            "fingerprinting": 0,
+            "subdomains": [
+                "payments-de"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000405,
+            "cnames": [],
+            "responseHashes": [
+                "b10d55ec28c9c66a1c1e1e78ac44d3e6642bf540cc9ca6194665c1d5a6369f35",
+                "8d13fa46c732f6f6b35927ab5d136c74b33873a5170125267510ec50d5719af2",
+                "dd58ef82783e10fee6bda05ef8442e96372b965593ca8db21e40904ebc98b374"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Analytics",
+        "SSO",
+        "Third-Party Analytics Marketing",
+        "Online Payment",
+        "Embedded Content"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000506,
+    "types": {
+        "XHR": 4
+    }
+}

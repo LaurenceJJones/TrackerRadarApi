@@ -1,0 +1,59 @@
+{
+    "domain": "travelaudience.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000203,
+    "sites": 2,
+    "subdomains": [
+        "ads"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "travelaudience\\.com\\/js\\/ta\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "1b76f63323fef628d5628b88587ff9d7a7f2eba797f34cf37be2d004a29d89b9"
+            ]
+        },
+        {
+            "rule": "travelaudience\\.com\\/uuid\\.ashx",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "8a759c4609e744f631aeff4df513418c136cbed94d27de9501c9593f1a8b9a57"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0.000101,
+    "types": {
+        "Script": 4
+    }
+}

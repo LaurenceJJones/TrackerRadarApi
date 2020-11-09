@@ -1,0 +1,160 @@
+{
+    "domain": "getflowbox.com",
+    "owner": {
+        "name": "cyon GmbH",
+        "displayName": "cyon"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00264,
+    "sites": 26,
+    "subdomains": [
+        "connect"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "getflowbox\\.com\\/flowbox\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 19
+            },
+            "sites": 19,
+            "prevalence": 0.00193,
+            "cnames": [],
+            "responseHashes": [
+                "d68577ce9db0237f9d1dcbb0b2bac78b9d7ed07cad96a749b6682450eee6c195",
+                "fbf5e2e2c3cb7bcbb5d8684f07a9f02c51b373abcd65884f0ef34896071e9324"
+            ]
+        },
+        {
+            "rule": "getflowbox\\.com\\/be4d19d9\\/flowbox-flow-embed\\.js",
+            "cookies": 0.000203,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 19,
+                "window.localStorage": 19,
+                "window.sessionStorage": 4,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 19,
+            "prevalence": 0.00193,
+            "cnames": [],
+            "responseHashes": [
+                "fc1db12543e82c00157019f77ca3a83a40ae0496b2ba971f06725f19c1f53d5e",
+                "cd040fe1b9aa27eddd195e0af8a92eb01089128754ebc72ee177834a70c2d6dc"
+            ]
+        },
+        {
+            "rule": "getflowbox\\.com\\/be4d19d9\\/vendors~cards~carousel~grid~single\\.652e470ba6aa16e4977c\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000406,
+            "cnames": [],
+            "responseHashes": [
+                "1571fb419bdbedc72d58c7cc8b624f9dd660f2800eba0dc6904cbb2e25f443bd"
+            ]
+        },
+        {
+            "rule": "getflowbox\\.com\\/be4d19d9\\/grid\\.f3c7ce2bda35758fd5ed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "c01972568982f73a277f6ce4274a97f0feb93bc38b67b779bb5644958067f492"
+            ]
+        },
+        {
+            "rule": "getflowbox\\.com\\/be4d19d9\\/carousel\\.786391cbbbe8d2fbed0c\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "window.matchMedia(\"prefers-reduced-motion\")": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "96dfd54f5340429cce6eec6c39a21e91f4c2be56fffcc0ab5ae571a6bbb598fd"
+            ]
+        },
+        {
+            "rule": "getflowbox\\.com\\/bzfy\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7
+            },
+            "sites": 7,
+            "prevalence": 0.00071,
+            "cnames": [],
+            "responseHashes": [
+                "e6b48dad35b44ec0c5a5b431965cbd0c579fd288fc90501ad9d856a06a3754e7"
+            ]
+        },
+        {
+            "rule": "getflowbox\\.com\\/be4d19d9\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "window.localStorage": 7
+            },
+            "sites": 7,
+            "prevalence": 0.00071,
+            "cnames": [],
+            "responseHashes": [
+                "b91e27a44eb651725e99966a2ff28d41455f0d4d6fa18789e89f749988c04bb4"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 1
+    },
+    "cookies": 0.000203,
+    "types": {
+        "Script": 61
+    }
+}

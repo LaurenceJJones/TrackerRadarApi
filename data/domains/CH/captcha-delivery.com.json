@@ -1,0 +1,52 @@
+{
+    "domain": "captcha-delivery.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00102,
+    "sites": 10,
+    "subdomains": [
+        "geo"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "captcha-delivery\\.com\\/captcha\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.language": 6
+            },
+            "sites": 10,
+            "prevalence": 0.00102,
+            "cnames": [],
+            "responseHashes": [
+                "50ea73646aa6ba29e65158ef6560a960945d9f3192dc30dc91ea851c56366f59",
+                "9877940f12524a4445b4d21e8ca6cd0f2d3717dcabe34023d058f7d594acacf8",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "1248ebc40191111a4f4beda4098d27b21f1cf8880557c567085bfbcc5a72ef1f",
+                "27a75521f8d1b0d99ae1e6c1dd69aa7febfdd5737db7b1633bffdfbff5286467",
+                "6c8711e1433e758144e54204ca22f2c31af9daaf5c4950e0bc838ff71995d755",
+                "41c041d08e2e92bee9ffc3852ee151aa52d39b8adfe1592ad42166ea88e159c4"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Document": 10
+    }
+}

@@ -1,0 +1,152 @@
+{
+    "domain": "tapad.com",
+    "owner": {
+        "name": "Tapad, Inc.",
+        "displayName": "Tapad",
+        "privacyPolicy": "https://www.tapad.com/privacy-policy",
+        "url": "http://tapad.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.0399,
+    "sites": 394,
+    "subdomains": [
+        "pixel",
+        "tapestry"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "tapad\\.com\\/idsync\\/ex\\/push",
+            "cookies": 0.0268,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 267,
+            "prevalence": 0.0271,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "tapad\\.com\\/idsync\\/ex\\/push\\/check",
+            "cookies": 0.0241,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 239,
+            "prevalence": 0.0242,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "tapad\\.com\\/idsync\\/ex\\/receive",
+            "cookies": 0.0074,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 170,
+            "prevalence": 0.0172,
+            "cnames": [],
+            "responseHashes": [
+                "3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517"
+            ]
+        },
+        {
+            "rule": "tapad\\.com\\/idsync\\/ex\\/push",
+            "cookies": 0.0074,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 73,
+            "prevalence": 0.0074,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "tapad\\.com\\/idsync\\/ex\\/receive",
+            "cookies": 0.00689,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 70,
+            "prevalence": 0.0071,
+            "cnames": [],
+            "responseHashes": [
+                "3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517"
+            ]
+        },
+        {
+            "rule": "tapad\\.com\\/idsync\\/ex\\/receive\\/check",
+            "cookies": 0.00639,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 64,
+            "prevalence": 0.00649,
+            "cnames": [],
+            "responseHashes": [
+                "3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517"
+            ]
+        },
+        {
+            "rule": "tapad\\.com\\/idsync\\/ex\\/push\\/check",
+            "cookies": 0.00233,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.00233,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "tapad\\.com\\/tapestry\\/1",
+            "cookies": 0.000608,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tapestry"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000608,
+            "cnames": [],
+            "responseHashes": [
+                "3eb10792d1f0c7e07e7248273540f1952d9a5a2996f4b5df70ab026cd9f05517",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.0393,
+    "types": {
+        "Image": 646,
+        "Document": 266
+    }
+}

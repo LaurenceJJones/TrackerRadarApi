@@ -1,0 +1,44 @@
+{
+    "domain": "fiduciagad.de",
+    "owner": {
+        "name": "FIDUCIA & GAD IT AG",
+        "displayName": "FIDUCIA & GAD IT"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000608,
+    "sites": 6,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "fiduciagad\\.de\\/content\\/dam\\/f8998-4\\/dtm\\/7780bfea0c47\\/e0d22f41f4a9\\/launch-fe3d2026ffea\\.min\\.js",
+            "cookies": 0.000608,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6,
+                "Navigator.prototype.appVersion": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000608,
+            "cnames": [],
+            "responseHashes": [
+                "221fff0cfd3ebc345458118d590590b5c05aaa0feb10a20c8d3b96ee01823fee"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000608,
+    "types": {
+        "Script": 6
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "domain": "mfadsrvr.com",
+    "owner": {
+        "name": "IPONWEB GmbH",
+        "displayName": "IPONWEB",
+        "privacyPolicy": "https://www.iponweb.com/privacy-policy/",
+        "url": "http://iponweb.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.0244,
+    "sites": 241,
+    "subdomains": [
+        "rtb"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "mfadsrvr\\.com\\/sync",
+            "cookies": 0.0228,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtb"
+            ],
+            "apis": {},
+            "sites": 241,
+            "prevalence": 0.0244,
+            "cnames": [],
+            "responseHashes": [
+                "548f2d6f4d0d820c6c5ffbeffcbd7f0e73193e2932eefe542accc84762deec87"
+            ]
+        },
+        {
+            "rule": "mfadsrvr\\.com\\/ul_cb\\/sync",
+            "cookies": 0.0225,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtb"
+            ],
+            "apis": {},
+            "sites": 226,
+            "prevalence": 0.0229,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Ad Fraud"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.023,
+    "types": {
+        "Image": 467
+    }
+}

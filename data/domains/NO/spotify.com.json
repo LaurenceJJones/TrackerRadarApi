@@ -1,0 +1,49 @@
+{
+    "domain": "spotify.com",
+    "owner": {
+        "name": "Spotify AB",
+        "displayName": "Spotify"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00112,
+    "sites": 11,
+    "subdomains": [
+        "open"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "spotify\\.com\\/get_access_token",
+            "cookies": 0.000507,
+            "fingerprinting": 0,
+            "subdomains": [
+                "open"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000507,
+            "cnames": [],
+            "responseHashes": [
+                "7fd7a02a5c18dbbdb410777d7488bd30172c7695afa9f468025bc8f8565d2f9d",
+                "308dffc23c72f54dc56dbf071719da9603569c7830c0e445a4e192587eea00a3"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00112,
+    "types": {
+        "Fetch": 5
+    }
+}

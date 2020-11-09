@@ -1,0 +1,44 @@
+{
+    "domain": "c-i.as",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00275,
+    "sites": 27,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "c-i\\.as\\/c\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 23
+            },
+            "sites": 27,
+            "prevalence": 0.00275,
+            "cnames": [],
+            "responseHashes": [
+                "fd92f27c6500d2021ec72646a49d1592043da95a3804523e5d41a7bb54280d8c"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 27
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "domain": "fastly-insights.com",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00813,
+    "sites": 80,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "fastly-insights\\.com\\/static\\/scout\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 37,
+                "Navigator.prototype.connection": 37
+            },
+            "sites": 73,
+            "prevalence": 0.00742,
+            "cnames": [],
+            "responseHashes": [
+                "cbd3583d60c2e2e24eaa463fe239f3517ffac4279b74bf8de9dfbf98110f7d53",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 73
+    }
+}

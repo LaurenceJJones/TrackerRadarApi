@@ -1,0 +1,80 @@
+{
+    "domain": "siftscience.com",
+    "owner": {
+        "name": "Sift Science, Inc.",
+        "displayName": "Sift Science",
+        "privacyPolicy": "https://sift.com/service-privacy",
+        "url": "http://sift.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00266,
+    "sites": 26,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "siftscience\\.com\\/s\\.js",
+            "cookies": 0.00184,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 25,
+                "Navigator.prototype.userAgent": 25,
+                "Navigator.prototype.vendor": 25,
+                "Navigator.prototype.product": 25,
+                "Date.prototype.getTime": 25,
+                "Document.cookie getter": 18,
+                "Document.cookie setter": 18,
+                "window.sessionStorage": 24,
+                "window.localStorage": 24,
+                "window.indexedDB": 24,
+                "Screen.prototype.height": 24,
+                "Screen.prototype.width": 24,
+                "Screen.prototype.colorDepth": 24,
+                "Navigator.prototype.language": 24,
+                "Navigator.prototype.cookieEnabled": 24,
+                "Navigator.prototype.doNotTrack": 24,
+                "Navigator.prototype.maxTouchPoints": 24,
+                "Navigator.prototype.onLine": 24,
+                "Navigator.prototype.productSub": 24,
+                "Navigator.prototype.vendorSub": 24,
+                "Navigator.prototype.hardwareConcurrency": 24,
+                "Navigator.prototype.javaEnabled": 22,
+                "Date.prototype.getTimezoneOffset": 24,
+                "Navigator.prototype.mimeTypes": 24,
+                "Navigator.prototype.plugins": 24,
+                "Navigator.prototype.languages": 24,
+                "Screen.prototype.availWidth": 24,
+                "Screen.prototype.availHeight": 24,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 24,
+                "HTMLCanvasElement.prototype.toDataURL": 24
+            },
+            "sites": 25,
+            "prevalence": 0.00256,
+            "cnames": [],
+            "responseHashes": [
+                "7921df86278b7fa9be0cbd78d9990071763ec4e9e88aaff2c3d466723090b8ae"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Fraud"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00184,
+    "types": {
+        "Script": 25
+    }
+}

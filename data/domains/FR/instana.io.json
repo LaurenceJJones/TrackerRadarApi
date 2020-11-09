@@ -1,0 +1,75 @@
+{
+    "domain": "instana.io",
+    "owner": {
+        "name": "Instana, Inc.",
+        "displayName": "Instana"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00284,
+    "sites": 28,
+    "subdomains": [
+        "eum-eu-west-1",
+        "eum-blue-saas",
+        "eum",
+        "eum-us-west-2"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "instana\\.io\\/",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eum-eu-west-1",
+                "eum-blue-saas",
+                "eum",
+                "eum-us-west-2"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.00263,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "158f66e524e9465bd53af835e4c7a34ca0fb6ea8b99d901a4bd19a7fcdfad8c0"
+            ]
+        },
+        {
+            "rule": "instana\\.io\\/eum\\.min\\.js",
+            "cookies": 0.00233,
+            "fingerprinting": 2,
+            "subdomains": [
+                "eum",
+                "eum-blue-saas"
+            ],
+            "apis": {
+                "window.localStorage": 24,
+                "Date.prototype.getTime": 24,
+                "Navigator.prototype.languages": 24,
+                "PerformanceTiming.prototype.navigationStart": 24,
+                "Navigator.prototype.connection": 23
+            },
+            "sites": 25,
+            "prevalence": 0.00253,
+            "cnames": [],
+            "responseHashes": [
+                "713695d49b59e0d89b1b471813448fa835e896b2846220880ed2e51bd53ea832"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00233,
+    "types": {
+        "Other": 26,
+        "Script": 25
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "domain": "akamai.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00164,
+    "sites": 16,
+    "subdomains": [
+        "a248.e"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "akamai\\.net\\/chartbeat\\.download\\.akamai\\.com\\/102508\\/js\\/chartbeat\\.js",
+            "cookies": 0.00113,
+            "fingerprinting": 2,
+            "subdomains": [
+                "a248.e"
+            ],
+            "apis": {
+                "Document.cookie getter": 11,
+                "Date.prototype.getTime": 11,
+                "window.localStorage": 11,
+                "Document.cookie setter": 11,
+                "Navigator.prototype.userAgent": 11,
+                "Navigator.prototype.platform": 11,
+                "Date.prototype.getTimezoneOffset": 11,
+                "Screen.prototype.width": 11,
+                "Screen.prototype.height": 11,
+                "Screen.prototype.colorDepth": 11,
+                "Navigator.prototype.plugins": 11,
+                "PerformanceTiming.prototype.navigationStart": 11
+            },
+            "sites": 12,
+            "prevalence": 0.00123,
+            "cnames": [],
+            "responseHashes": [
+                "d5132eb4775fe5c85d515453cb238727620936adc84e5f727d495f8fefa2eba3"
+            ]
+        },
+        {
+            "rule": "akamai\\.net\\/chartbeat\\.download\\.akamai\\.com\\/102508\\/js\\/chartbeat_video\\.js",
+            "cookies": 0.000205,
+            "fingerprinting": 2,
+            "subdomains": [
+                "a248.e"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.plugins": 2,
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "ba607af2c8d414ab6d4bac90c526d90a939cb0adf507b6ba063265347479159d"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00133,
+    "types": {
+        "Script": 14
+    }
+}

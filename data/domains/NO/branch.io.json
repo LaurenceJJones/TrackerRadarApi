@@ -1,0 +1,62 @@
+{
+    "domain": "branch.io",
+    "owner": {
+        "name": "Branch Metrics, Inc.",
+        "displayName": "Branch Metrics",
+        "privacyPolicy": "https://branch.io/policies/",
+        "url": "http://branch.io"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00436,
+    "sites": 43,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "branch\\.io\\/branch-latest\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 35,
+                "window.sessionStorage": 35,
+                "window.localStorage": 34,
+                "Navigator.prototype.userAgent": 34,
+                "Screen.prototype.height": 34,
+                "Screen.prototype.width": 34,
+                "Navigator.prototype.language": 34,
+                "window.devicePixelRatio": 33,
+                "Navigator.prototype.languages": 34
+            },
+            "sites": 36,
+            "prevalence": 0.00365,
+            "cnames": [],
+            "responseHashes": [
+                "880a547225c6b901caf46243406f9db062bdf00763c3351021c9279bce36bf3d"
+            ]
+        }
+    ],
+    "categories": [
+        "Advertising",
+        "Analytics",
+        "Audience Measurement",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 36
+    }
+}

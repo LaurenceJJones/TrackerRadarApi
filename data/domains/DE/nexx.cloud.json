@@ -1,0 +1,64 @@
+{
+    "domain": "nexx.cloud",
+    "owner": {
+        "name": "nexx.tv GmbH",
+        "displayName": "nexx.tv"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00192,
+    "sites": 19,
+    "subdomains": [
+        "arc"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "nexx\\.cloud\\/sdk\\/11720\\.play",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "arc"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.platform": 5,
+                "Navigator.prototype.connection": 5,
+                "Navigator.prototype.maxTouchPoints": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "window.localStorage": 5,
+                "Navigator.prototype.storage": 5,
+                "HTMLMediaElement.prototype.canPlayType": 5,
+                "window.matchMedia(\"prefers-reduced-motion\")": 5,
+                "Navigator.prototype.mediaDevices": 5,
+                "window.devicePixelRatio": 5,
+                "Navigator.prototype.hardwareConcurrency": 5,
+                "Navigator.prototype.deviceMemory": 5,
+                "Screen.prototype.orientation": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "window.indexedDB": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000506,
+            "cnames": [],
+            "responseHashes": [
+                "f9f8eeba68442a5fa2ea6e46d1c0541937075e2e4e4c5e998d9b43a57fe633ec"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0.000911,
+    "types": {
+        "Script": 5
+    }
+}

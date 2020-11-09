@@ -1,0 +1,33 @@
+{
+    "domain": "hats-47b.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.000205,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "hats-47b\\.com\\/resource",
+            "cookies": 0.000205,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "419f9258dd6272ebeba53eccf0fa19454df94e0518a988e30a71d56665f3afbe"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000205,
+    "types": {
+        "XHR": 2
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "domain": "mxpnl.com",
+    "owner": {
+        "name": "Mixpanel, Inc.",
+        "displayName": "Mixpanel",
+        "privacyPolicy": "https://mixpanel.com/privacy/",
+        "url": "http://mixpanel.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00173,
+    "sites": 17,
+    "subdomains": [
+        "cdn",
+        "cdn4"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mxpnl\\.com\\/libs\\/mixpanel-2-latest\\.min\\.js",
+            "cookies": 0.00061,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn",
+                "cdn4"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 15,
+                "Date.prototype.getTime": 15,
+                "window.localStorage": 15,
+                "Navigator.prototype.doNotTrack": 15,
+                "Screen.prototype.height": 15,
+                "Screen.prototype.width": 15,
+                "window.sessionStorage": 15,
+                "Navigator.prototype.vendor": 9,
+                "Document.cookie getter": 5,
+                "Document.cookie setter": 6
+            },
+            "sites": 15,
+            "prevalence": 0.00153,
+            "cnames": [],
+            "responseHashes": [
+                "4232e3c12b3860ed86f62ab38ee1a711ba7393218593d61cefa8100c28afdd6f"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics",
+        "Audience Measurement",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "Session Replay"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 1
+    },
+    "cookies": 0.000813,
+    "types": {
+        "Script": 15
+    }
+}

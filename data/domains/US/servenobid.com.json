@@ -1,0 +1,81 @@
+{
+    "domain": "servenobid.com",
+    "owner": {
+        "name": "Prebid.org",
+        "displayName": "Prebid.org"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0155,
+    "sites": 2044,
+    "subdomains": [
+        "ads",
+        "public"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "servenobid\\.com\\/sync",
+            "cookies": 0.00767,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 1019,
+            "prevalence": 0.00774,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "servenobid\\.com\\/nobidtag\\/nobidtag\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "public"
+            ],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 10,
+                "Navigator.prototype.languages": 10
+            },
+            "sites": 20,
+            "prevalence": 0.000152,
+            "cnames": [],
+            "responseHashes": [
+                "117c603e09e870464cef5a64d7b3b01f483aef446f9663dc08697f7317f27b19"
+            ]
+        },
+        {
+            "rule": "servenobid\\.com\\/sync",
+            "cookies": 0.000167,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 22,
+            "prevalence": 0.000167,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.0144,
+    "types": {
+        "Image": 1019,
+        "Script": 20,
+        "Document": 22
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "domain": "lrcontent.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000614,
+    "sites": 6,
+    "subdomains": [
+        "auth",
+        "config"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "lrcontent\\.com\\/v2\\/LoginRadiusV2\\.js",
+            "cookies": 0.000307,
+            "fingerprinting": 1,
+            "subdomains": [
+                "auth"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "e68894d0c51c990a2086b49b1a3844287ee78d89b8456cd551eb799e8ba3f3de"
+            ]
+        },
+        {
+            "rule": "lrcontent\\.com\\/ciam\\/appInfo",
+            "cookies": 0.000614,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000614,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "lrcontent\\.com\\/ciam\\/appInfo",
+            "cookies": 0.000614,
+            "fingerprinting": 0,
+            "subdomains": [
+                "config"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000614,
+            "cnames": [],
+            "responseHashes": [
+                "cefd7426f55e2cc0f41e1f40c9fb635252d3d0c5d7ce0a406ed099093a8c504a",
+                "dfc5cfca7ad135c91abd9084f6fa94700f23ab4bfe69efd7d78158a687ee2763",
+                "1f019549cf275175d58403525e886daaf50616bfd0a74ae4db9d97866287fc5d",
+                "08c704168896dacb682240090e5b6cc04b9a1fc571931b4057a8dc2eb891c396"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000614,
+    "types": {
+        "Script": 3,
+        "Other": 6,
+        "XHR": 6
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "domain": "daa.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000456,
+    "sites": 6,
+    "subdomains": [
+        "hub"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "daa\\.net\\/js\\/hub\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "hub"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000228,
+            "cnames": [],
+            "responseHashes": [
+                "daf2b0fff61c57c822ef96fe01037f920183b2e2e862a571d80881a32430fb9b"
+            ]
+        },
+        {
+            "rule": "daa\\.net\\/client\\/portale\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "hub"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000228,
+            "cnames": [],
+            "responseHashes": [
+                "ec13956775992ad8c507371f9dd66288da7ddb70f86390b3f11642857123a838"
+            ]
+        },
+        {
+            "rule": "daa\\.net\\/api\\/translations",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hub"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "fcf366fcd8074337e29d013cfca36488dc1fcf42bd077595c19e32b1b233e45a"
+            ]
+        },
+        {
+            "rule": "daa\\.net\\/embed\\/6fb6e2568aa34b9b9c4f7857a7e8588a",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hub"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "930af879f185f0efad4692217a312594dfb15243855c16e59d5b884c21af2a2a"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000304,
+    "types": {
+        "Script": 6,
+        "Fetch": 2,
+        "Document": 2
+    }
+}

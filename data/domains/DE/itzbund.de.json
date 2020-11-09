@@ -1,0 +1,49 @@
+{
+    "domain": "itzbund.de",
+    "owner": {
+        "name": "Informationstechnikzentrum Bund (ITZBund)",
+        "displayName": "Informationstechnikzentrum Bund (ITZBund)"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000709,
+    "sites": 7,
+    "subdomains": [
+        "piwik"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "itzbund\\.de\\/js\\/",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "piwik"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.mimeTypes": 7,
+                "Navigator.prototype.javaEnabled": 7,
+                "Navigator.prototype.cookieEnabled": 7,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7,
+                "Date.prototype.getTime": 7,
+                "window.name": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000709,
+            "cnames": [],
+            "responseHashes": [
+                "e05cfc8ee6c159882251c45f74d6bdab570f14ed43ece74e2153b77c2dde277f"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Script": 7
+    }
+}

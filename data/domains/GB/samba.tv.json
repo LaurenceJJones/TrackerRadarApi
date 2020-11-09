@@ -1,0 +1,60 @@
+{
+    "domain": "samba.tv",
+    "owner": {
+        "name": "Free Stream Media Corp",
+        "displayName": "Free Stream Media"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.00395,
+    "sites": 39,
+    "subdomains": [
+        "ads",
+        "pixel.mtrcs"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "samba\\.tv\\/cookie_sync",
+            "cookies": 0.00335,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {},
+            "sites": 33,
+            "prevalence": 0.00335,
+            "cnames": [],
+            "responseHashes": [
+                "c21e2c1246fe45a6750ae6208db2b5965ff6ed63eb80d2ecec3be9c83813428e"
+            ]
+        },
+        {
+            "rule": "samba\\.tv\\/v2\\/vtr\\/dwa\\/centurylink091520\\/mitdfp\\/impression",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel.mtrcs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.00395,
+    "types": {
+        "Image": 33,
+        "Fetch": 2
+    }
+}

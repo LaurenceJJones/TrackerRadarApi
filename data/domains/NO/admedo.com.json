@@ -1,0 +1,88 @@
+{
+    "domain": "admedo.com",
+    "owner": {
+        "name": "Admedo",
+        "displayName": "Admedo",
+        "privacyPolicy": "https://www.admedo.com/privacy-policy",
+        "url": "http://admedo.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00791,
+    "sites": 78,
+    "subdomains": [
+        "pool"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "admedo\\.com\\/sync",
+            "cookies": 0.007,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pool"
+            ],
+            "apis": {},
+            "sites": 71,
+            "prevalence": 0.0072,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "admedo\\.com\\/ul_cb\\/sync",
+            "cookies": 0.00679,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pool"
+            ],
+            "apis": {},
+            "sites": 68,
+            "prevalence": 0.00689,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "admedo\\.com\\/sync",
+            "cookies": 0.000507,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pool"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000608,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "admedo\\.com\\/ul_cb\\/sync",
+            "cookies": 0.000507,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pool"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000507,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.0076,
+    "types": {
+        "Image": 139,
+        "Document": 11
+    }
+}

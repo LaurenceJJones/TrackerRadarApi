@@ -1,0 +1,88 @@
+{
+    "domain": "dyntrk.com",
+    "owner": {
+        "name": "DynAdmic",
+        "displayName": "DynAdmic"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00892,
+    "sites": 88,
+    "subdomains": [
+        "c.eu1",
+        "gu"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "dyntrk\\.com\\/adx\\/ga\\/us\\.php",
+            "cookies": 0.00122,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c.eu1"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "dyntrk\\.com\\/adx\\/lkqd\\/us\\.php",
+            "cookies": 0.00152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gu"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.00152,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "dyntrk\\.com\\/adx\\/ox\\/us\\.php",
+            "cookies": 0.000811,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gu"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000811,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "dyntrk\\.com\\/adx\\/sma\\/us\\.php",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Ad Fraud",
+        "Audience Measurement"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00345,
+    "types": {
+        "Image": 37
+    }
+}

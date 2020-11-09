@@ -1,0 +1,55 @@
+{
+    "domain": "netcatx.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000911,
+    "sites": 12,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "netcatx\\.com\\/adxchange\\/px\\.html",
+            "cookies": 0.0000531,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000531,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "netcatx\\.com\\/bid\\/async\\.js",
+            "cookies": 0.0000152,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "379429fb5012e4008b53c0c2906adffe1c6452757413d6f975a841aad30d8fc9"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000911,
+    "types": {
+        "Document": 7,
+        "Script": 2
+    }
+}

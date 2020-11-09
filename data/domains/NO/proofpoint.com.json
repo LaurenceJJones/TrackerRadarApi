@@ -1,0 +1,43 @@
+{
+    "domain": "proofpoint.com",
+    "owner": {
+        "name": "Proofpoint, Inc.",
+        "displayName": "Proofpoint"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000406,
+    "sites": 4,
+    "subdomains": [
+        "urldefense"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "proofpoint\\.com\\/v2\\/url",
+            "cookies": 0.000304,
+            "fingerprinting": 0,
+            "subdomains": [
+                "urldefense"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0.000406,
+    "types": {
+        "Image": 3
+    }
+}

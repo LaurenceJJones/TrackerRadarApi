@@ -1,0 +1,81 @@
+{
+    "domain": "ntv.io",
+    "owner": {
+        "name": "Nativo, Inc",
+        "displayName": "Nativo",
+        "privacyPolicy": "https://www.nativo.com/privacy-policy",
+        "url": "http://nativo.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00517,
+    "sites": 51,
+    "subdomains": [
+        "s"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ntv\\.io\\/serve\\/load\\.js",
+            "cookies": 0.00395,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 49,
+                "window.sessionStorage": 49,
+                "window.localStorage": 49,
+                "PerformanceTiming.prototype.navigationStart": 49,
+                "Document.cookie setter": 39,
+                "Event.prototype.timeStamp": 22,
+                "Document.cookie getter": 39,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 50,
+            "prevalence": 0.00507,
+            "cnames": [],
+            "responseHashes": [
+                "aacca82c28b9d3baee211c8cc956d348c53bc64fde6744ddc6b3c3e4f05ceed0"
+            ]
+        },
+        {
+            "rule": "ntv\\.io\\/js\\/prebid3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "window.sessionStorage": 5,
+                "Date.prototype.getTime": 5,
+                "Screen.prototype.width": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000507,
+            "cnames": [],
+            "responseHashes": [
+                "b90a9e3b7aa1108c2351d4eaeab68304aeb938eb3c266995bbb48e7647143ad5"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.00395,
+    "types": {
+        "Script": 55
+    }
+}

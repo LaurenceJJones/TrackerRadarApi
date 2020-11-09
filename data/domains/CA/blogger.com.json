@@ -1,0 +1,71 @@
+{
+    "domain": "blogger.com",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00153,
+    "sites": 15,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "blogger\\.com\\/static\\/v1\\/widgets\\/104323843-widgets\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000716,
+            "cnames": [],
+            "responseHashes": [
+                "dc5fb78e69a3c5598dd4ddbc332991fe141ed2c6d42503d4e86cecb93d5b06cf"
+            ]
+        },
+        {
+            "rule": "blogger\\.com\\/blogin\\.g",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "6807170ff3d5d4373d54afd4a636383b2716902f4c92b39f9999e75c3e94c228"
+            ]
+        }
+    ],
+    "categories": [
+        "Social - Share",
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 1
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 7,
+        "Document": 2
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "domain": "dyntrk.com",
+    "owner": {
+        "name": "DynAdmic",
+        "displayName": "DynAdmic"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00456,
+    "sites": 45,
+    "subdomains": [
+        "c.eu1",
+        "gu"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "dyntrk\\.com\\/adx\\/ga\\/us\\.php",
+            "cookies": 0.00132,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c.eu1"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.00142,
+            "cnames": [],
+            "responseHashes": [
+                "0b8a20373c6dd04e091902226d922b3688143a8938afb9d283d889de7b55ceb5"
+            ]
+        },
+        {
+            "rule": "dyntrk\\.com\\/adx\\/sma\\/us\\.php",
+            "cookies": 0.000304,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gu"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Ad Fraud",
+        "Audience Measurement"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00162,
+    "types": {
+        "Image": 17
+    }
+}

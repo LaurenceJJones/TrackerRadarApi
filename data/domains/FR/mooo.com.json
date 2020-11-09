@@ -1,0 +1,44 @@
+{
+    "domain": "mooo.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [
+        "cahf4eed"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mooo\\.com\\/current\\/resources\\/pl\\.php",
+            "cookies": 0.000101,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cahf4eed"
+            ],
+            "apis": {
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "4f082189fc39070d00a9f90694161cce3efb063a2150f479927e1f80bad8efba"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 1
+    },
+    "cookies": 0.000101,
+    "types": {
+        "Script": 2
+    }
+}

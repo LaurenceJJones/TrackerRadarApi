@@ -1,0 +1,65 @@
+{
+    "domain": "scdn.co",
+    "owner": {
+        "name": "Spotify AB",
+        "displayName": "Spotify"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000307,
+    "sites": 3,
+    "subdomains": [
+        "open"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "scdn\\.co\\/cdn\\/js\\/boot\\.69ede18d\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "open"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "53dc3fa7c76ef370ccd923be7e21f1a219b71e6838f5d039b111553630eaeb93"
+            ]
+        },
+        {
+            "rule": "scdn\\.co\\/cdn\\/build\\/embed\\/vendor~embed\\.1e7492fa\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "open"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "c1837781f34a000027744f6555e191983b8abe3417ed53a9556e11d6c7f4958f"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 2,
+        "cpu": 0,
+        "cache": 1
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 5
+    }
+}

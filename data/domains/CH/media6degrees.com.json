@@ -1,0 +1,84 @@
+{
+    "domain": "media6degrees.com",
+    "owner": {
+        "name": "Dstillery Inc.",
+        "displayName": "Dstillery",
+        "privacyPolicy": "https://dstillery.com/privacy-policy/",
+        "url": "http://dstillery.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00173,
+    "sites": 17,
+    "subdomains": [
+        "idpix",
+        "action"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "media6degrees\\.com\\/orbserv\\/hbpix",
+            "cookies": 0.00102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "idpix"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00102,
+            "cnames": [],
+            "responseHashes": [
+                "4abdc5bae3773141e85e6bed6c09953d57aded7ef98b1d304c42807f2229474f"
+            ]
+        },
+        {
+            "rule": "media6degrees\\.com\\/orbserv\\/nsjs",
+            "cookies": 0.000305,
+            "fingerprinting": 0,
+            "subdomains": [
+                "action"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000305,
+            "cnames": [],
+            "responseHashes": [
+                "7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3"
+            ]
+        },
+        {
+            "rule": "media6degrees\\.com\\/orbserv\\/nspix",
+            "cookies": 0.000407,
+            "fingerprinting": 0,
+            "subdomains": [
+                "action"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000407,
+            "cnames": [],
+            "responseHashes": [
+                "b1442e85b03bdcaf66dc58c7abb98745dd2687d86350be9a298a1d9382ac849b"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Audience Measurement"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00173,
+    "types": {
+        "Image": 14,
+        "Script": 3
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "domain": "firstimpression.io",
+    "owner": {
+        "name": "AppendAd LTD",
+        "displayName": "AppendAd"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000709,
+    "sites": 7,
+    "subdomains": [
+        "ecdn",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "firstimpression\\.io\\/fi_client\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ecdn"
+            ],
+            "apis": {
+                "window.localStorage": 7,
+                "window.sessionStorage": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.cookieEnabled": 7,
+                "Navigator.prototype.appName": 7,
+                "Date.prototype.getTime": 3,
+                "Event.prototype.timeStamp": 3
+            },
+            "sites": 7,
+            "prevalence": 0.000709,
+            "cnames": [],
+            "responseHashes": [
+                "be526c5eb7d04dd972b173e67c7ee697b7334959124b1a1521d6e20d7306d88a",
+                "238dacaa3ec15a15cb0f3830786e0201b4f34e5ad04b95f953643c3c99ab9d95",
+                "532c17549673538d1d84755fa683d4ba272f50afd2f22a9458ce834858a9333f"
+            ]
+        },
+        {
+            "rule": "firstimpression\\.io\\/static\\/sw\\/tracking-sw-index\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ecdn"
+            ],
+            "apis": {
+                "window.name": 7
+            },
+            "sites": 7,
+            "prevalence": 0.000709,
+            "cnames": [],
+            "responseHashes": [
+                "388b3a8f64b4cc21ec18437b0448eab5c74274a2ddcdd9945d4f739613353916"
+            ]
+        },
+        {
+            "rule": "firstimpression\\.io\\/delivery\\/spc_fi\\.php",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "52a1a39ca999e666904996455d7499dc844af6b1db56cabb44b0f4936d1f9ef1",
+                "bf24d72f3d32f2533925404a41a3f67109e79e6f8ce93d2498f58ed5e5f2292f"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000203,
+    "types": {
+        "Script": 10,
+        "Document": 7
+    }
+}

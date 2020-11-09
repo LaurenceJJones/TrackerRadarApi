@@ -1,0 +1,74 @@
+{
+    "domain": "owneriq.net",
+    "owner": {
+        "name": "Inmar, Inc.",
+        "displayName": "Inmar"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.00852,
+    "sites": 84,
+    "subdomains": [
+        "px"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "owneriq\\.net\\/eucm\\/p\\/lc",
+            "cookies": 0.00223,
+            "fingerprinting": 0,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {},
+            "sites": 22,
+            "prevalence": 0.00223,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "owneriq\\.net\\/eucm\\/p\\/cc",
+            "cookies": 0.00436,
+            "fingerprinting": 0,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {},
+            "sites": 45,
+            "prevalence": 0.00456,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "owneriq\\.net\\/eucm\\/p\\/adpq",
+            "cookies": 0.000811,
+            "fingerprinting": 0,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000811,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Ad Fraud",
+        "Audience Measurement"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.0075,
+    "types": {
+        "Image": 75
+    }
+}

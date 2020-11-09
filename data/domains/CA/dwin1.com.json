@@ -1,0 +1,70 @@
+{
+    "domain": "dwin1.com",
+    "owner": {
+        "name": "Awin AG",
+        "displayName": "Awin",
+        "privacyPolicy": "https://www.awin.com/gb/legal/privacy-policy",
+        "url": "http://awin.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00368,
+    "sites": 36,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "dwin1\\.com\\/19038\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000409,
+            "cnames": [],
+            "responseHashes": [
+                "94ff0ed2a21c97326c0d0d7b694b8d93becfee3f12ca03c13b8269571f5ce627"
+            ]
+        },
+        {
+            "rule": "dwin1\\.com\\/20200\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 3
+            },
+            "sites": 4,
+            "prevalence": 0.000409,
+            "cnames": [],
+            "responseHashes": [
+                "36b01c41e2307ced4540201cf2c64634b946ba441f3d7a1ec4f4d31f67f8dcb0"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 8
+    }
+}

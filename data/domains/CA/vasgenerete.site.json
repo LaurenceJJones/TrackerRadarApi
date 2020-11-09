@@ -1,0 +1,59 @@
+{
+    "domain": "vasgenerete.site",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00389,
+    "sites": 38,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "vasgenerete\\.site\\/npc\\/sdk\\/cis\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 28,
+                "Navigator.prototype.userAgent": 28,
+                "Navigator.prototype.platform": 28
+            },
+            "sites": 28,
+            "prevalence": 0.00287,
+            "cnames": [],
+            "responseHashes": [
+                "1b5662f1515fbe8d78cef28b172e1f395b58d1aa8714de962ecd65447dba51d8"
+            ]
+        },
+        {
+            "rule": "vasgenerete\\.site\\/npc\\/sdk\\/cis1606\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 7,
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.platform": 6
+            },
+            "sites": 7,
+            "prevalence": 0.000716,
+            "cnames": [],
+            "responseHashes": [
+                "1b5662f1515fbe8d78cef28b172e1f395b58d1aa8714de962ecd65447dba51d8"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 35
+    }
+}

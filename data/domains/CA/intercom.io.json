@@ -1,0 +1,50 @@
+{
+    "domain": "intercom.io",
+    "owner": {
+        "name": "Intercom",
+        "displayName": "Intercom",
+        "privacyPolicy": "https://www.intercom.com/terms-and-policies#terms",
+        "url": "http://intercom.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.00194,
+    "sites": 19,
+    "subdomains": [
+        "widget"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "intercom\\.io\\/widget\\/f1hy57h7",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "66cd8bda2de9c3cec3e63ee72cfb5184776f5e3a6ddf291ae2561fa56fdc97aa",
+                "8461e669b63398db8ea68bc5ec4309e7bf4c3c4d1243c8663b4cae87f0df6dd4"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 3
+    }
+}

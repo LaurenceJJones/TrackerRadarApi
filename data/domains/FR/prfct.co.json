@@ -1,0 +1,88 @@
+{
+    "domain": "prfct.co",
+    "owner": {
+        "name": "Sharpspring Inc",
+        "displayName": "Sharpspring"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000506,
+    "sites": 5,
+    "subdomains": [
+        "pixel-geo",
+        "pixel"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "prfct\\.co\\/tagjs",
+            "cookies": 0.000506,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel-geo"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000506,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "prfct\\.co\\/cs\\/",
+            "cookies": 0.000405,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel-geo"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000405,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "prfct\\.co\\/seg\\/",
+            "cookies": 0.000405,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel-geo"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000405,
+            "cnames": [],
+            "responseHashes": [
+                "a065920df8cc4016d67c3a464be90099c9d28ffe7c9e6ee3a18f257efc58cbd7"
+            ]
+        },
+        {
+            "rule": "prfct\\.co\\/cb",
+            "cookies": 0.000405,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000405,
+            "cnames": [],
+            "responseHashes": [
+                "a065920df8cc4016d67c3a464be90099c9d28ffe7c9e6ee3a18f257efc58cbd7"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.000506,
+    "types": {
+        "Script": 5,
+        "Image": 12
+    }
+}

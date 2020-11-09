@@ -1,0 +1,47 @@
+{
+    "domain": "u-on.eu",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.00172,
+    "sites": 17,
+    "subdomains": [
+        "cs"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "u-on\\.eu\\/js\\.php",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cs"
+            ],
+            "apis": {
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5
+            },
+            "sites": 8,
+            "prevalence": 0.00081,
+            "cnames": [],
+            "responseHashes": [
+                "8562ef3dd9e9ed6d040dd4c2d55a12c53228b700a4edd2fc76bc2d154773613b",
+                "ce10159455941750f7a55e85f5dea3b88f61231622f01b0a3fbe5a363973f73a",
+                "7d6c88729dde2fd4582b265cccdf8331dcaef18826fc8c46e20d3f355112c9fa"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 8
+    }
+}

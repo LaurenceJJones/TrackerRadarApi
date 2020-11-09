@@ -1,0 +1,164 @@
+{
+    "domain": "simpli.fi",
+    "owner": {
+        "name": "Simplifi Holdings Inc.",
+        "displayName": "Simplifi Holdings",
+        "privacyPolicy": "https://www.simpli.fi/site-privacy-policy2/",
+        "url": "http://simpli.fi"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.0435,
+    "sites": 429,
+    "subdomains": [
+        "um",
+        "i",
+        "tag"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "simpli\\.fi\\/lj_match",
+            "cookies": 0.0122,
+            "fingerprinting": 0,
+            "subdomains": [
+                "um"
+            ],
+            "apis": {},
+            "sites": 171,
+            "prevalence": 0.0173,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "simpli\\.fi\\/pm_match",
+            "cookies": 0.00385,
+            "fingerprinting": 0,
+            "subdomains": [
+                "um"
+            ],
+            "apis": {},
+            "sites": 56,
+            "prevalence": 0.00568,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "simpli\\.fi\\/pubmatic",
+            "cookies": 0.0244,
+            "fingerprinting": 0,
+            "subdomains": [
+                "um"
+            ],
+            "apis": {},
+            "sites": 352,
+            "prevalence": 0.0357,
+            "cnames": [],
+            "responseHashes": [
+                "cf4724b2f736ed1a0ae6bc28f1ead963d9cd2c1fd87b6ef32e7799fc1c5c8bda"
+            ]
+        },
+        {
+            "rule": "simpli\\.fi\\/pm_match",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "um"
+            ],
+            "apis": {},
+            "sites": 119,
+            "prevalence": 0.0121,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "simpli\\.fi\\/gp_match",
+            "cookies": 0.00253,
+            "fingerprinting": 0,
+            "subdomains": [
+                "um"
+            ],
+            "apis": {},
+            "sites": 51,
+            "prevalence": 0.00517,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "simpli\\.fi\\/p",
+            "cookies": 0.000304,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "96f1d8a7a5731258e603f033703a12ca20cce06f3733077f6d0abbad00e6b6d7",
+                "2bcf4b5833fedb8a5f355256627766e343375f5285a5effa4a3de1837113c542"
+            ]
+        },
+        {
+            "rule": "simpli\\.fi\\/crwdcntrl",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "um"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000507,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "simpli\\.fi\\/ox_match",
+            "cookies": 0.000406,
+            "fingerprinting": 0,
+            "subdomains": [
+                "um"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.00162,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "simpli\\.fi\\/sifitag\\/ae8e03d0-2f18-0138-6d0f-067f653fa718",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "de3e62eea3d8ce417cd7d88eff0f1c0864dd0865df26f2fc8fae4d43adb80e0c"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.0422,
+    "types": {
+        "Image": 651,
+        "Document": 119,
+        "Script": 5
+    }
+}

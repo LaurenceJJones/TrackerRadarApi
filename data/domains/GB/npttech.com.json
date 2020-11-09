@@ -1,0 +1,59 @@
+{
+    "domain": "npttech.com",
+    "owner": {
+        "name": "Piano Software",
+        "displayName": "Piano Software",
+        "privacyPolicy": "https://piano.io/privacy-policy/",
+        "url": "http://piano.io"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.0069,
+    "sites": 68,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "npttech\\.com\\/advertising\\.js",
+            "cookies": 0.0069,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.localStorage": 68,
+                "Date.prototype.getTime": 68,
+                "Document.cookie setter": 56
+            },
+            "sites": 68,
+            "prevalence": 0.0069,
+            "cnames": [],
+            "responseHashes": [
+                "7538e8f23fac8278c6027d8865bd1240514a3ff64b2c0af3b8ed3583e8ecce6b"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Audience Measurement",
+        "SSO",
+        "Third-Party Analytics Marketing",
+        "Embedded Content"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.0069,
+    "types": {
+        "Script": 68
+    }
+}

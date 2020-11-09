@@ -1,0 +1,61 @@
+{
+    "domain": "volvelle.tech",
+    "owner": {
+        "name": "Optomaton UG (haftungsbeschränkt)",
+        "displayName": "Optomaton UG (haftungsbeschränkt)",
+        "privacyPolicy": "http://optomaton.com/privacy.html",
+        "url": "http://optomaton.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00578,
+    "sites": 57,
+    "subdomains": [
+        "a"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "volvelle\\.tech\\/sync",
+            "cookies": 0.00568,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 57,
+            "prevalence": 0.00578,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "volvelle\\.tech\\/ul_cb\\/sync",
+            "cookies": 0.00558,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 55,
+            "prevalence": 0.00558,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00568,
+    "types": {
+        "Image": 112
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "domain": "elasticad.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000304,
+    "sites": 3,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "elasticad\\.net\\/native\\/serve\\/js\\/quantx\\/nativeEmbed\\.gz\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "c95726fda18ae16a771f19e4e9e7c4ebbd752034ec6f13e4844a28cc4a111069",
+                "60c7126451f2858a0cdf80e5346d138e06cdd5d95e0f30d8495e9bfc5426f05a"
+            ]
+        },
+        {
+            "rule": "elasticad\\.net\\/native\\/serve\\/js\\/quantx\\/prebid\\.gz\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "window.sessionStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "0a1a55b40ab3867c459e4e4428d2b9325fa40ab19c753b08404a46496510075b",
+                "266010587b8b7d35e2a12291c7f2290e1d02c4071a7de00d86fde4a5a720270a"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 6
+    }
+}

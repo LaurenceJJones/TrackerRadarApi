@@ -1,0 +1,87 @@
+{
+    "domain": "4finance.com",
+    "owner": {
+        "name": "4FINANCE AS",
+        "displayName": "4FINANCE",
+        "privacyPolicy": "https://www.4finance.com/privacypolicy/",
+        "url": "http://4finance.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.014,
+    "sites": 138,
+    "subdomains": [
+        "rtb"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "4finance\\.com\\/sync",
+            "cookies": 0.0121,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtb"
+            ],
+            "apis": {},
+            "sites": 120,
+            "prevalence": 0.0122,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "4finance\\.com\\/ul_cb\\/sync",
+            "cookies": 0.00956,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtb"
+            ],
+            "apis": {},
+            "sites": 96,
+            "prevalence": 0.00976,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "4finance\\.com\\/sync",
+            "cookies": 0.00183,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtb"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00193,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "4finance\\.com\\/ul_cb\\/sync",
+            "cookies": 0.00142,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtb"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.00142,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0.0138,
+    "types": {
+        "Image": 216,
+        "Document": 33
+    }
+}

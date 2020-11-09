@@ -1,0 +1,68 @@
+{
+    "domain": "twincdn.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000311,
+    "sites": 41,
+    "subdomains": [
+        "static2",
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "twincdn\\.com\\/special\\/special_script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static2"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 20,
+                "Navigator.prototype.mimeTypes": 20,
+                "Date.prototype.getTime": 20,
+                "window.localStorage": 20
+            },
+            "sites": 20,
+            "prevalence": 0.000152,
+            "cnames": [],
+            "responseHashes": [
+                "d4fdb01c5f7e40eabcd864f2db09ed4ee73a0a72f3651f3c7456d8d1f3b28615"
+            ]
+        },
+        {
+            "rule": "twincdn\\.com\\/special\\/script\\.packed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "d9c0659b701cd4b58067aeb16d3f3fe095a50684f790f9d4d589cda54ffb25ed"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 22
+    }
+}

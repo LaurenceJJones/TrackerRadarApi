@@ -1,0 +1,39 @@
+{
+    "domain": "edigitalsurvey.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00071,
+    "sites": 7,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "edigitalsurvey\\.com\\/l\\.php",
+            "cookies": 0.00071,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.00071,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "cbcd3ccccfe574ca3c8bd08dc6cc8dbc88e7500f61934f2e81bcb3dae6160e82"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0.00071,
+    "types": {
+        "Document": 7
+    }
+}

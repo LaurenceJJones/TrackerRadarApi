@@ -1,0 +1,62 @@
+{
+    "domain": "printfriendly.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00183,
+    "sites": 18,
+    "subdomains": [
+        "cdn",
+        "pf-cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "printfriendly\\.com\\/printfriendly\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.name": 16,
+                "Navigator.prototype.appVersion": 16
+            },
+            "sites": 18,
+            "prevalence": 0.00183,
+            "cnames": [],
+            "responseHashes": [
+                "88b4099b24d32705d1c737aaf6245d44e087029dba5ebffd9b0896e2929b530a"
+            ]
+        },
+        {
+            "rule": "printfriendly\\.com\\/ssl\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pf-cdn"
+            ],
+            "apis": {
+                "window.name": 2,
+                "Navigator.prototype.appVersion": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 20
+    }
+}

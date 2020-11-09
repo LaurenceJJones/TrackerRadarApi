@@ -1,0 +1,71 @@
+{
+    "domain": "ftd.agency",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000304,
+    "sites": 3,
+    "subdomains": [
+        "z.cdn",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ftd\\.agency\\/load",
+            "cookies": 0.000304,
+            "fingerprinting": 1,
+            "subdomains": [
+                "z.cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "1d9dba3e084d691da66b7d41b7bfa3b332a06d90add822b47d266986bf3a52db",
+                "9efeaf14142ef8886429e310b0c6c50b9d77d7746d0d7de000c4978362f7dd63"
+            ]
+        },
+        {
+            "rule": "ftd\\.agency\\/libs\\/e\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.deviceMemory": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "dbde787befd05399997159250298503a1ec727b2115919a814e603994df9e9f8"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000304,
+    "types": {
+        "Script": 5
+    }
+}

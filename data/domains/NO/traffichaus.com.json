@@ -1,0 +1,68 @@
+{
+    "domain": "traffichaus.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00101,
+    "sites": 10,
+    "subdomains": [
+        "syndication",
+        "cdn1ht"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "traffichaus\\.com\\/adserve\\/index\\.php",
+            "cookies": 0.00101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "syndication"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00101,
+            "cnames": [],
+            "responseHashes": [
+                "ffe791c1afee858485b9b9fd995fdc4bf1a9150a3fc45faefa72cfad0df64856",
+                "f2b8f6dcf2878d92483ee32ed941f4ff8ac692cf89a65a05544388c2715837cc",
+                "398e8c24007a04935d08212fe87ff8a3eb6eafd0b8a735f2298a93b2588d85f7",
+                "584da77589ed56c5774e4f39b0a9d4cd879322a48f625b9dd6fd00f783ef80b6",
+                "43d957bed8f331e667738029ed13eaf44518ba9ca5101ab11cedee85f468687e",
+                "df8be86e539c73da0a5c5e670d0eb1f31a484f02d3501f2d1ca3327461d7632a",
+                "5858f45104eceb6b04e809f415ff89fdde547edfd847c2bb4f169483f40bedb7",
+                "f2b8d26a27d5e25013f2c80877c1d6ee89f2fc7d90cb9b7b54663ba1bb43ac21"
+            ]
+        },
+        {
+            "rule": "traffichaus\\.com\\/scripts\\/serve\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn1ht"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "b9d1fca7fc3b4063a47a18918bd4a654beee8019ba4b8ce3156d94640531033f"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 2,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.000913,
+    "types": {
+        "Document": 10,
+        "Script": 2
+    }
+}

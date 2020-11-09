@@ -1,0 +1,50 @@
+{
+    "domain": "atdmt.com",
+    "owner": {
+        "name": "Facebook, Inc.",
+        "displayName": "Facebook",
+        "privacyPolicy": "https://www.facebook.com/privacy/explanation",
+        "url": "http://facebook.com"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.019,
+    "sites": 188,
+    "subdomains": [
+        "cx"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "atdmt\\.com\\/",
+            "cookies": 0.0152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cx"
+            ],
+            "apis": {},
+            "sites": 152,
+            "prevalence": 0.0154,
+            "cnames": [],
+            "responseHashes": [
+                "548f2d6f4d0d820c6c5ffbeffcbd7f0e73193e2932eefe542accc84762deec87"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.0189,
+    "types": {
+        "Image": 152
+    }
+}

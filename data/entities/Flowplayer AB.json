@@ -2,11 +2,12 @@
     "name": "Flowplayer AB",
     "displayName": "Flowplayer",
     "properties": [
-        "flowplayer.com"
+        "flowplayer.com",
+        "flowplayer.org"
     ],
     "prevalence": {
-        "tracking": 0.000151,
-        "nonTracking": 0.0000274,
-        "total": 0.000178
+        "tracking": 0.000281,
+        "nonTracking": 0.0000531,
+        "total": 0.000334
     }
 }

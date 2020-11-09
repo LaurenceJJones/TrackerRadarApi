@@ -1,0 +1,61 @@
+{
+    "domain": "2020mustang.com",
+    "owner": {
+        "name": "ICF Technology, Inc",
+        "displayName": "ICF"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000307,
+    "sites": 3,
+    "subdomains": [
+        "as"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "2020mustang\\.com\\/as\\/if",
+            "cookies": 0.000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "as"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "4ab693e6e8769268b3583d7d869d2982862c9827b0595f39668add33802af97f"
+            ]
+        },
+        {
+            "rule": "2020mustang\\.com\\/px\\.gif",
+            "cookies": 0.000307,
+            "fingerprinting": 0,
+            "subdomains": [
+                "as"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "6a842ea462daca2a0b5a0f5f25bcfc8e0059ac811ca6c6a1bc54e4d9119621c3"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.000205,
+    "types": {
+        "Document": 2,
+        "Image": 3
+    }
+}

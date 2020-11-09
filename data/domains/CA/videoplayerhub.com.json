@@ -1,0 +1,179 @@
+{
+    "domain": "videoplayerhub.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.016,
+    "sites": 156,
+    "subdomains": [
+        "freestar-io",
+        "kinja-com",
+        "zam",
+        "fortnitetracker-com",
+        "americanmediainc-com",
+        "pubgalaxy-com",
+        "pmc-com",
+        "areavibes-com",
+        "m2n-co-uk",
+        "zam-com",
+        "cdn-kongregate-com",
+        "orangeclickmedia-com",
+        "urbandictionary-com",
+        "obox-group",
+        "theeighth-net",
+        "townsquaremedia-com",
+        "oko-uk",
+        "publift-com",
+        "voranda-com",
+        "longitudeads-com",
+        "ft-com",
+        "literally-media",
+        "nypost-com",
+        "lovetoknow-com",
+        "complex-com",
+        "idmgroup-com",
+        "snigelweb-com",
+        "slickdeals-net",
+        "saymedia-com",
+        "warnermediagroup-com",
+        "hearst-com",
+        "hometalk-com",
+        "mediatradecraft-com",
+        "warnerbros-com"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "videoplayerhub\\.com\\/gallery\\.js",
+            "cookies": 0.00952,
+            "fingerprinting": 1,
+            "subdomains": [
+                "freestar-io",
+                "kinja-com",
+                "zam",
+                "fortnitetracker-com",
+                "americanmediainc-com",
+                "pubgalaxy-com",
+                "pmc-com",
+                "areavibes-com",
+                "m2n-co-uk",
+                "zam-com",
+                "cdn-kongregate-com",
+                "orangeclickmedia-com",
+                "urbandictionary-com"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 93,
+                "Date.prototype.getTime": 91
+            },
+            "sites": 94,
+            "prevalence": 0.00962,
+            "cnames": [],
+            "responseHashes": [
+                "f468dfa9035448eee06b817c3b141c607a06d05893450c55ebbd53f20b6c8e48"
+            ]
+        },
+        {
+            "rule": "videoplayerhub\\.com\\/videoplayer\\.js",
+            "cookies": 0.00102,
+            "fingerprinting": 1,
+            "subdomains": [
+                "obox-group",
+                "theeighth-net",
+                "townsquaremedia-com",
+                "oko-uk"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 10,
+                "Date.prototype.getTime": 10
+            },
+            "sites": 10,
+            "prevalence": 0.00102,
+            "cnames": [],
+            "responseHashes": [
+                "f468dfa9035448eee06b817c3b141c607a06d05893450c55ebbd53f20b6c8e48"
+            ]
+        },
+        {
+            "rule": "videoplayerhub\\.com\\/galleryplayer\\.js",
+            "cookies": 0.00194,
+            "fingerprinting": 1,
+            "subdomains": [
+                "publift-com",
+                "voranda-com",
+                "longitudeads-com",
+                "ft-com",
+                "literally-media",
+                "nypost-com",
+                "lovetoknow-com",
+                "complex-com"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 18,
+                "Date.prototype.getTime": 19
+            },
+            "sites": 19,
+            "prevalence": 0.00194,
+            "cnames": [],
+            "responseHashes": [
+                "f468dfa9035448eee06b817c3b141c607a06d05893450c55ebbd53f20b6c8e48"
+            ]
+        },
+        {
+            "rule": "videoplayerhub\\.com\\/videoloader\\.js",
+            "cookies": 0.00113,
+            "fingerprinting": 1,
+            "subdomains": [
+                "idmgroup-com",
+                "snigelweb-com",
+                "slickdeals-net",
+                "saymedia-com"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 11,
+                "Date.prototype.getTime": 11
+            },
+            "sites": 11,
+            "prevalence": 0.00113,
+            "cnames": [],
+            "responseHashes": [
+                "f468dfa9035448eee06b817c3b141c607a06d05893450c55ebbd53f20b6c8e48"
+            ]
+        },
+        {
+            "rule": "videoplayerhub\\.com\\/galleryloader\\.js",
+            "cookies": 0.00205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "warnermediagroup-com",
+                "hearst-com",
+                "hometalk-com",
+                "mediatradecraft-com",
+                "warnerbros-com"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 20,
+                "Date.prototype.getTime": 20
+            },
+            "sites": 20,
+            "prevalence": 0.00205,
+            "cnames": [],
+            "responseHashes": [
+                "f468dfa9035448eee06b817c3b141c607a06d05893450c55ebbd53f20b6c8e48"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.0158,
+    "types": {
+        "Script": 154
+    }
+}

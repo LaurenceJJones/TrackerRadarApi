@@ -1,0 +1,119 @@
+{
+    "domain": "sb-cd.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00101,
+    "sites": 10,
+    "subdomains": [
+        "assets",
+        "tb"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sb-cd\\.com\\/static\\/desktop\\/Images\\/RTA\\.png",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "a3bb64da6fd050b30477e7e6bf283e538cbe355e3d98a628f1437c94dc4f5841"
+            ]
+        },
+        {
+            "rule": "sb-cd\\.com\\/static\\/desktop\\/gen\\/universal\\.master\\.4\\.91\\.dbeab4de\\.svg",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "80812e58db32bb07ae813a7fffa18bd6e78d42613de5b4a7adf9e0abb5355742"
+            ]
+        },
+        {
+            "rule": "sb-cd\\.com\\/t\\/7513476\\/7\\/5\\/w:300\\/t6-enh\\/all-day-i-fuck-oldmen\\.jpg",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "d752829b419f466a7d4f7b32c48c1d7324224d5a0baacbe9befb4fce54b7f5b6"
+            ]
+        },
+        {
+            "rule": "sb-cd\\.com\\/static\\/desktop\\/Images\\/Flags\\/yt\\.png",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "1b5b4138a4d603ae3d02854f98c1d25c50f5f9c489e6d6113e4e5bd6656d6248"
+            ]
+        },
+        {
+            "rule": "sb-cd\\.com\\/static\\/desktop\\/Images\\/Flags\\/ca\\.png",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "e4c7bf3c9cc3ca0de833c929883f60275801a659be19eeac456f47dd2d3546e3"
+            ]
+        },
+        {
+            "rule": "sb-cd\\.com\\/static\\/desktop\\/Images\\/Flags\\/us\\.png",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "94558865f8f37bdbebb62fbb8c8cf7c62aca70732e07d102391a6b05307c8e74"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 1
+    },
+    "cookies": 0.00071,
+    "types": {
+        "Image": 10,
+        "XHR": 2
+    }
+}

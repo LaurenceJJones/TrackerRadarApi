@@ -1,0 +1,139 @@
+{
+    "domain": "serving-sys.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00415,
+    "sites": 41,
+    "subdomains": [
+        "bs",
+        "secure-ds"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "serving-sys\\.com\\/Serving",
+            "cookies": 0.00122,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bs"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "serving-sys\\.com\\/serving",
+            "cookies": 0.00101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bs"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00101,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/SemiCachedScripts\\/ebOneTag\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-ds"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 13,
+                "window.localStorage": 8
+            },
+            "sites": 13,
+            "prevalence": 0.00132,
+            "cnames": [],
+            "responseHashes": [
+                "cd8c08a3770800c33b33ff489691deaad11b4860fd32b7fd0df42b51011b253e"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/Serving",
+            "cookies": 0.00111,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bs"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.00111,
+            "cnames": [],
+            "responseHashes": [
+                "04b6ad1658c53cbc5c4f71232d9968f5ccd27af4ae00bc2fa892520ce5798239",
+                "d29e99f51f58211ec052f8f57f4eb1e02b4bd4ae49b54c14266932c3ecff5ff3",
+                "30c0a5a986b1d66bb55f5f384cafe02ae71f6b174c8e18bd1847f7db74ba99eb",
+                "a051a83dd90a62cb2cde1ba78a755c09ff6d6ab9d2e227de9e8431fbe1fc5fe6",
+                "9aaa0b81f781d268bbcef7f4160444a4b15e9217d3e0875043741f7ca1576a60",
+                "15e58751beefcd20c6a876a2858160c4c2d713b95db6fb42285f38b17c4a5f3a",
+                "f50383ea2194af8c6f219f7379b3fcb5f2ffe30852008518674070a13dc30cea",
+                "7c1fd182120572591e2d505c0031a35f7d5a0a12e9b24823c2248462e19ef794",
+                "64c606aaefb5d29eb4a36b3adbccca6fddbaa9640aaf7144866efa6a5e987583",
+                "3260dddfb0f74c192984f2ba8cc4bcea87a6ca2c6c41f22d5560c51a0eb12a21"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/Serving\\/adServer\\.bs",
+            "cookies": 0.000405,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bs"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000911,
+            "cnames": [],
+            "responseHashes": [
+                "47043e4823a6c21a8881de789b4185355330b5804629d23f6b43dd93f5265292"
+            ]
+        },
+        {
+            "rule": "serving-sys\\.com\\/Serving\\/ActivityServer\\.bs",
+            "cookies": 0.000304,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bs"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "CDN"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 1
+    },
+    "cookies": 0.00354,
+    "types": {
+        "Image": 34,
+        "Script": 24
+    }
+}

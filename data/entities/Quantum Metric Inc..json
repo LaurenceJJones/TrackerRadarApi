@@ -1,0 +1,12 @@
+{
+    "name": "Quantum Metric Inc.",
+    "displayName": "Quantum Metric",
+    "properties": [
+        "quantummetric.com"
+    ],
+    "prevalence": {
+        "tracking": 0.00174,
+        "nonTracking": 0,
+        "total": 0.00174
+    }
+}

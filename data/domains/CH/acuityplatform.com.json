@@ -1,0 +1,72 @@
+{
+    "domain": "acuityplatform.com",
+    "owner": {
+        "name": "AcuityAds",
+        "displayName": "AcuityAds",
+        "privacyPolicy": "https://acuityscheduling.com/privacy.php",
+        "url": "http://acuityscheduling.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.0238,
+    "sites": 234,
+    "subdomains": [
+        "ums"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "acuityplatform\\.com\\/tum",
+            "cookies": 0.0181,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ums"
+            ],
+            "apis": {},
+            "sites": 188,
+            "prevalence": 0.0191,
+            "cnames": [],
+            "responseHashes": [
+                "b1442e85b03bdcaf66dc58c7abb98745dd2687d86350be9a298a1d9382ac849b"
+            ]
+        },
+        {
+            "rule": "acuityplatform\\.com\\/Adserver\\/atds",
+            "cookies": 0.00234,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.00234,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "acuityplatform\\.com\\/Adserver\\/bswds",
+            "cookies": 0.00376,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 38,
+            "prevalence": 0.00386,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.0227,
+    "types": {
+        "Image": 249
+    }
+}

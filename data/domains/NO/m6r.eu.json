@@ -1,0 +1,91 @@
+{
+    "domain": "m6r.eu",
+    "owner": {
+        "name": "Ströer Group",
+        "displayName": "Ströer Group"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00558,
+    "sites": 55,
+    "subdomains": [
+        "tracking"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "m6r\\.eu\\/sync\\/adxRedirect",
+            "cookies": 0.00507,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 51,
+            "prevalence": 0.00517,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "m6r\\.eu\\/sync\\/adscaleRedirect",
+            "cookies": 0.000304,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "m6r\\.eu\\/consent\\/pixel",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "821e2efd660f6b759d561cd5cd194670e51ecebcbc06055cdcbebcd91ec94a56"
+            ]
+        },
+        {
+            "rule": "m6r\\.eu\\/pixel\\/container",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "8610e45d3f49566c981ff345161638623677ade7f5784b7b7f25d21e87f7433c"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00548,
+    "types": {
+        "Image": 53,
+        "Script": 5
+    }
+}

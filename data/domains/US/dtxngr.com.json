@@ -1,0 +1,90 @@
+{
+    "domain": "dtxngr.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000152,
+    "sites": 2,
+    "subdomains": [
+        "cdn",
+        "tags",
+        "dmp"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "dtxngr\\.com\\/6257\\/routing\\.min\\.js",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "8d63eb30feea20fce9b6d38554c203180d0fbf40762f6cc8e01e5dd731974446"
+            ]
+        },
+        {
+            "rule": "dtxngr\\.com\\/6257\\/tags\\.min\\.js",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "b210481e71a62f72594c43a5e87895a9c78c8775225d8f5e9028aa6d7bbaf8d3"
+            ]
+        },
+        {
+            "rule": "dtxngr\\.com\\/v1\\/load\\.dtx",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "dtxngr\\.com\\/6257\\/match\\.js",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "75d2844dd262524b8d0df43670687428076c85650f6955633c9cfc35c3b495dd"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.0000152,
+    "types": {
+        "Script": 6,
+        "Image": 2
+    }
+}

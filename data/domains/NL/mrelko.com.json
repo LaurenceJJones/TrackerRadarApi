@@ -1,0 +1,89 @@
+{
+    "domain": "mrelko.com",
+    "owner": {
+        "name": "Vettor Corporation",
+        "displayName": "Vettor"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.000204,
+    "sites": 2,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mrelko\\.com\\/j\\/w\\.php",
+            "cookies": 0.000204,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "9614aced86c2716707e53de05d4d3cdd144626c06b7afddb221340fc242b859d"
+            ]
+        },
+        {
+            "rule": "mrelko\\.com\\/j\\/f\\.php",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "a551031c766c67ba2e13701e9cd7cca035cf699d351cab60f5d2878a9bb27cd7"
+            ]
+        },
+        {
+            "rule": "mrelko\\.com\\/j\\/s\\.php",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "c2a3a8960e897c5ae4a7fc5f1d3c1d39f6745cd6e2c66a5f7080a351fba1bada"
+            ]
+        },
+        {
+            "rule": "mrelko\\.com\\/bnrs\\/h5\\/158842\\/index\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "529e7fba2d6685e41b96f35d74fc21df02c6ad04b9ac508602b83c22c0f4cbe8"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0.000204,
+    "types": {
+        "Script": 4,
+        "Document": 4
+    }
+}

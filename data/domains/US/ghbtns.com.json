@@ -1,0 +1,38 @@
+{
+    "domain": "ghbtns.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000251,
+    "sites": 33,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ghbtns\\.com\\/github-btn\\.html",
+            "cookies": 0.000167,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.000175,
+            "cnames": [],
+            "responseHashes": [
+                "66a8df7713c837c6c72b0f4a8d7c30603d7ec4a0d4b88c128c0aac6fadf3d0a0"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.000251,
+    "types": {
+        "Document": 23
+    }
+}

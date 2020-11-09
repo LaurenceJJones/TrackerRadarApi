@@ -1,0 +1,89 @@
+{
+    "domain": "datadome.co",
+    "owner": {
+        "name": "DATADOME",
+        "displayName": "DATADOME"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00183,
+    "sites": 18,
+    "subdomains": [
+        "js",
+        "sslgen-nyt"
+    ],
+    "cnames": [
+        {
+            "original": "dd.nytimes.com",
+            "resolved": "sslgen-nyt.datadome.co"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "datadome\\.co\\/tags\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "js",
+                "sslgen-nyt"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 16,
+                "Document.cookie getter": 9,
+                "Screen.prototype.height": 16,
+                "Screen.prototype.width": 16,
+                "Screen.prototype.colorDepth": 16,
+                "Navigator.prototype.language": 16,
+                "window.devicePixelRatio": 16,
+                "Navigator.prototype.hardwareConcurrency": 16,
+                "Screen.prototype.availWidth": 16,
+                "Screen.prototype.availHeight": 16,
+                "Date.prototype.getTimezoneOffset": 16,
+                "window.sessionStorage": 16,
+                "window.localStorage": 16,
+                "window.indexedDB": 16,
+                "Navigator.prototype.plugins": 16,
+                "Navigator.prototype.productSub": 16,
+                "Navigator.prototype.platform": 16,
+                "Navigator.prototype.maxTouchPoints": 16,
+                "Navigator.prototype.vendor": 16,
+                "Navigator.prototype.mimeTypes": 16,
+                "Navigator.prototype.mediaDevices": 16,
+                "HTMLMediaElement.prototype.canPlayType": 16,
+                "MediaSource.isTypeSupported": 16,
+                "Navigator.prototype.deviceMemory": 16,
+                "Screen.prototype.orientation": 16,
+                "Navigator.prototype.languages": 16,
+                "WebGLRenderingContext.prototype.getExtension": 16,
+                "WebGLRenderingContext.prototype.getParameter": 16,
+                "Navigator.prototype.permissions": 16,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 16,
+                "Notification.permission": 16
+            },
+            "sites": 17,
+            "prevalence": 0.00173,
+            "cnames": [
+                {
+                    "original": "dd.nytimes.com",
+                    "resolved": "sslgen-nyt.datadome.co"
+                }
+            ],
+            "responseHashes": [
+                "527fb6a17560887bcaa28ac07abd4d53c65b727d34f60d8cc059f44d31cb252e"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 17
+    }
+}

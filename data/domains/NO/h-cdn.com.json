@@ -1,0 +1,75 @@
+{
+    "domain": "h-cdn.com",
+    "owner": {
+        "name": "Hola Networks Ltd.",
+        "displayName": "Hola Networks"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00071,
+    "sites": 7,
+    "subdomains": [
+        "player"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "h-cdn\\.com\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "window.localStorage": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.product": 1,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.maxTouchPoints": 1,
+                "window.sessionStorage": 1,
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "window.devicePixelRatio": 1
+            },
+            "sites": 8,
+            "prevalence": 0.000811,
+            "cnames": [],
+            "responseHashes": [
+                "743477f7ba6fe17075f7d351d69688e9af50e5c9fed396424a334d2ba5d76baa",
+                "78f43631fca9adbf83b771dab0e2bd4df60dda46c554334196d263eb83e15750",
+                "dbeaaaa50654ffe971ff018b376eab78244a13da7188a20246023a7c15231256",
+                "94dfb0a66d12baf091c9ad35ac9653088c163e4ba6f76b738bdfdf47c21393f3"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000507,
+            "cnames": [],
+            "responseHashes": [
+                "e0ffb4423cd1c32a111dd5264c8881793d0338c3dfa75a1a91774a8d58f46e47",
+                "dd649c61ea581175b8a93d9ab49eb1612aaf78ea21762b45af35e83d62256fb8"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 1
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 13
+    }
+}

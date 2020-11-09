@@ -1,0 +1,89 @@
+{
+    "domain": "licdn.com",
+    "owner": {
+        "name": "LinkedIn Corporation",
+        "displayName": "LinkedIn",
+        "privacyPolicy": "https://www.linkedin.com/legal/privacy-policy",
+        "url": "http://linkedin.com"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.0428,
+    "sites": 418,
+    "subdomains": [
+        "snap"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "licdn\\.com\\/li\\.lms-analytics\\/insight\\.beta\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "snap"
+            ],
+            "apis": {
+                "Document.cookie getter": 252,
+                "Date.prototype.getTime": 297
+            },
+            "sites": 302,
+            "prevalence": 0.0309,
+            "cnames": [],
+            "responseHashes": [
+                "a8431bfe4316cdc20de936e824f735c9478bbc9ce3d3a51c774eca45faff637f"
+            ]
+        },
+        {
+            "rule": "licdn\\.com\\/li\\.lms-analytics\\/insight\\.old\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "snap"
+            ],
+            "apis": {
+                "Document.cookie getter": 94,
+                "Date.prototype.getTime": 107
+            },
+            "sites": 107,
+            "prevalence": 0.0109,
+            "cnames": [],
+            "responseHashes": [
+                "41dd5e421fe221a7d2921d6fa2b36e8b01a9f2c054aaef5fad866fe896c1d1e0"
+            ]
+        },
+        {
+            "rule": "licdn\\.com\\/li\\.lms-analytics\\/insight\\.beta\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "snap"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [
+        "Analytics",
+        "Audience Measurement",
+        "CDN"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 1
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 409,
+        "XHR": 2
+    }
+}

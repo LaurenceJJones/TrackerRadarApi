@@ -1,0 +1,93 @@
+{
+    "domain": "unpkg.com",
+    "owner": {
+        "name": "unpkg",
+        "displayName": "unpkg"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.0133,
+    "sites": 130,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "unpkg\\.com\\/axios\\/dist\\/axios\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.product": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "2b26394aac8199778cd337d8046535b6ea9cb2dc698e4102029ca963e080e19f"
+            ]
+        },
+        {
+            "rule": "unpkg\\.com\\/react-dom@16\\.13\\.1\\/umd\\/react-dom\\.production\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "bc5b7797e8a595e365c1385b0d47683d3a85f3533c58d499659b771c48ec6d25"
+            ]
+        },
+        {
+            "rule": "unpkg\\.com\\/leaflet@1\\.4\\.0\\/dist\\/leaflet\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3,
+                "window.devicePixelRatio": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000306,
+            "cnames": [],
+            "responseHashes": [
+                "e8165148436ade4c48e186010ea276df1834af51b04c7129be9de891d688a81c"
+            ]
+        },
+        {
+            "rule": "unpkg\\.com\\/vast-client@1\\.8\\.3\\/vast-client\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "31077b67a02492ed4893b0655408440eb00191cc5885f74e0365dcfed721a241"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 1
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 11
+    }
+}

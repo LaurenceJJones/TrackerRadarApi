@@ -1,0 +1,146 @@
+{
+    "domain": "connectad.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00243,
+    "sites": 320,
+    "subdomains": [
+        "i",
+        "cdn",
+        "sync-eu",
+        "e"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "connectad\\.io\\/api\\/v2",
+            "cookies": 0.00108,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 173,
+            "prevalence": 0.00131,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "connectad\\.io\\/connectmyusers\\.php",
+            "cookies": 0.000797,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 105,
+            "prevalence": 0.000797,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "connectad\\.io\\/api\\/v2",
+            "cookies": 0.000243,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 32,
+            "prevalence": 0.000243,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "connectad\\.io\\/connectmyusers\\.js",
+            "cookies": 0.000281,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 37,
+            "prevalence": 0.000281,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "connectad\\.io\\/pixel\\/1",
+            "cookies": 0.0000304,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-eu"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000304,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "connectad\\.io\\/api\\/v2",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "connectad\\.io\\/sync",
+            "cookies": 0.0000228,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000228,
+            "cnames": [],
+            "responseHashes": [
+                "61b6e022e3cc518396a0b75855f9e8666c11d5f46ef055a2a73e469bc86a6194",
+                "6101fc05df4aebecf3590903ce9094d47634f188f179718fcd4988cec2c4a12b"
+            ]
+        },
+        {
+            "rule": "connectad\\.io\\/connectmyuserse\\.php",
+            "cookies": 0.0000228,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000228,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00243,
+    "types": {
+        "XHR": 173,
+        "Document": 108,
+        "Other": 32,
+        "Script": 40,
+        "Image": 4,
+        "Fetch": 2
+    }
+}

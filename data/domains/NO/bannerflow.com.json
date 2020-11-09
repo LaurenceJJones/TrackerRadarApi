@@ -1,0 +1,255 @@
+{
+    "domain": "bannerflow.com",
+    "owner": {
+        "name": "BannerFlow AB",
+        "displayName": "BannerFlow",
+        "privacyPolicy": "https://www.bannerflow.com/privacy",
+        "url": "http://bannerflow.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00243,
+    "sites": 24,
+    "subdomains": [
+        "cdn",
+        "5ae2c4c00305cc1fd00e579b.tracker",
+        "5addfbec890ac04cccdb0933.tracker",
+        "55c858df581f0912cca6a4dd.tracker",
+        "59f9d7478a10ae1bf8a6b80a.tracker",
+        "582092255a4e86163c84e271.tracker",
+        "55634380f50b9613805936af.tracker",
+        "scripts.host"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "bannerflow\\.com\\/scripts\\/1\\.5\\.17\\/render\\.min\\.js",
+            "cookies": 0.000608,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Date.prototype.getTime": 6,
+                "Navigator.prototype.appVersion": 6,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.height": 6,
+                "Date.prototype.getTimezoneOffset": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000608,
+            "cnames": [],
+            "responseHashes": [
+                "46ab19458f30ef96463fbabfff680bcf0f5f582ca7190652c15476eef60654e4"
+            ]
+        },
+        {
+            "rule": "bannerflow\\.com\\/api\\/tr\\/v1\\/pixel",
+            "cookies": 0.00122,
+            "fingerprinting": 0,
+            "subdomains": [
+                "5ae2c4c00305cc1fd00e579b.tracker",
+                "5addfbec890ac04cccdb0933.tracker",
+                "55c858df581f0912cca6a4dd.tracker",
+                "59f9d7478a10ae1bf8a6b80a.tracker",
+                "582092255a4e86163c84e271.tracker",
+                "55634380f50b9613805936af.tracker"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": [
+                "853b983923a033223e4f391790e6e86619b31d542b40e7e1e8221fb0d6957ab1"
+            ]
+        },
+        {
+            "rule": "bannerflow\\.com\\/scripts\\/1\\.5\\.18\\/bf\\.min\\.js",
+            "cookies": 0.000203,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.platform": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "6d0016f5120d31b112f33f3108028739bee87928d65ee5d82760945a4a733def"
+            ]
+        },
+        {
+            "rule": "bannerflow\\.com\\/scripts\\/1\\.5\\.19\\/bf\\.min\\.js",
+            "cookies": 0.000913,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 9,
+                "Navigator.prototype.vendor": 9,
+                "Navigator.prototype.platform": 2
+            },
+            "sites": 9,
+            "prevalence": 0.000913,
+            "cnames": [],
+            "responseHashes": [
+                "8022cf718a91333368b5a25937dc874ddd460eebafc9c696413587d3e84276da"
+            ]
+        },
+        {
+            "rule": "bannerflow\\.com\\/scripts\\/1\\.5\\.24\\/render\\.min\\.js",
+            "cookies": 0.000507,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.appVersion": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "Date.prototype.getTimezoneOffset": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000507,
+            "cnames": [],
+            "responseHashes": [
+                "465909b0130fad6ae6ed2b7911110808e5d1051484d4cee598d778046a85e8b0"
+            ]
+        },
+        {
+            "rule": "bannerflow\\.com\\/resources\\/extra-9b045efb-bb80-4e6f-b92f-b81eadff6bd1\\.svg",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "4416cacc91e8b47317836ebe41b427aeb1c69202fd9c60673c3c80b3367d9a9e"
+            ]
+        },
+        {
+            "rule": "bannerflow\\.com\\/resources\\/fiskeboller-fiskakeker-882bbcaf-52d9-45ba-9db8-cb8321600371-138oB9\\.png",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "772e3dc8d7ab2efc94bf2c5b710c5c47c7e123ad4153113e5a3eccbf63aa0134"
+            ]
+        },
+        {
+            "rule": "bannerflow\\.com\\/resources\\/sj-mat-2b94519e-edfe-4e54-8194-89bfdbd6da5b-131oC1\\.png",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "4e8345a248b506d0f255e61ebcb1ae4bf40aade0cad4cb095dc1c0c94d98e4d9"
+            ]
+        },
+        {
+            "rule": "bannerflow\\.com\\/resources\\/lapskaus-df15aa2b-4126-4820-9cd3-6741bf254e60-134oC2\\.png",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "25f93a7bb8033527ba4e00f4dd454c90032bbed764025997ddfd393192be8a29"
+            ]
+        },
+        {
+            "rule": "bannerflow\\.com\\/resources\\/friele-4ec8319a-ecff-4f94-8a71-6f5514741ec0-132oAC\\.png",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "36717daec3d547e2f2561901bd38e4926c65a42d5886a1e4a2a9ccd772a5fe13"
+            ]
+        },
+        {
+            "rule": "bannerflow\\.com\\/resources\\/7wj8ldV_5Ti37rHa0m1DDw--3267578559879685692-subset\\.woff",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "7d59dc5d09562d918e9a6a0e6bba4afd4839ef06feddfa930fafc691c2fccf1e"
+            ]
+        },
+        {
+            "rule": "bannerflow\\.com\\/1\\.0\\.4\\/bf\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts.host"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "90c80efd7412a6230c07af29b429fd0cd28e308082852857098251d1f31a1307"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Action Pixels"
+    ],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 1
+    },
+    "cookies": 0.00152,
+    "types": {
+        "Script": 24,
+        "XHR": 12,
+        "Image": 10,
+        "Font": 2
+    }
+}

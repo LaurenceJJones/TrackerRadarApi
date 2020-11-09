@@ -23,8 +23,7 @@
                 Combine
             </b-radio>
             <b-field label="Find a tracker name">
-                <b-autocomplete rounded v-model="name" :data="filteredDataArray" :loading="loading" @typing="getNames"
-                    clearable @select="selectName">
+                <b-autocomplete rounded v-model="name" :data="filteredDataArray" :loading="loading" clearable @select="selectName">
                     <template slot="empty">No results found</template>
                 </b-autocomplete>
             </b-field>
@@ -52,13 +51,9 @@
             },
             methods: {
                 async getNames(name) {
-                    if (name.length < 1) {
-                        this.data = []
-                        return
-                    }
                     this.loading = true;
                     await axios.get('/api/rest').then((res) => {
-                            this.data = [...res.data.data];
+                            this.data = [...res.data];
                         })
                         .catch((error) => {
                             console.error(error)
@@ -79,7 +74,7 @@
                     axios.get(this.fetchUrl)
                         .then((res) => {
                             console.dir(res)
-                            this.selectData = res.data.data;
+                            this.selectData = res.data;
                             this.fetchUrl =
                                 `/api/rest/${option}${this.checkOption === 'None' ? `` : `/${this.checkOption}`}`
                         })
@@ -100,7 +95,9 @@
                     })
                 }
             },
-            created() {}
+            beforeMount() {
+                this.getNames();
+            }
         })
     </script>
 </body>

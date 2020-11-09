@@ -1,0 +1,70 @@
+{
+    "domain": "everestjs.net",
+    "owner": {
+        "name": "Adobe Inc.",
+        "displayName": "Adobe",
+        "privacyPolicy": "https://www.adobe.com/privacy/marketing-cloud.html",
+        "url": "http://adobe.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00336,
+    "sites": 33,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "everestjs\\.net\\/static\\/amo-conversion-mapper\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Navigator.prototype.userAgent": 9
+            },
+            "sites": 9,
+            "prevalence": 0.000915,
+            "cnames": [],
+            "responseHashes": [
+                "922c40c779d3cba6cfeb66dd7ba07d47771cfe9e536f490f18f2de361334f164"
+            ]
+        },
+        {
+            "rule": "everestjs\\.net\\/static\\/le\\/last-event-tag-latest\\.min\\.js",
+            "cookies": 0.000915,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 9,
+                "Document.cookie setter": 9
+            },
+            "sites": 24,
+            "prevalence": 0.00244,
+            "cnames": [],
+            "responseHashes": [
+                "55b84a29e9e7af4178c55c680bc855777b8ac216bdc554989d16b3584a4c71be"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.000915,
+    "types": {
+        "Script": 33
+    }
+}

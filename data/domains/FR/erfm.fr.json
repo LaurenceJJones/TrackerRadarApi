@@ -1,0 +1,45 @@
+{
+    "domain": "erfm.fr",
+    "owner": {
+        "name": "DCC",
+        "displayName": "DCC"
+    },
+    "source": [
+        "DuckDuckGo-FR"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [
+        "radio"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "erfm\\.fr\\/cover\\.17136\\.png",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "radio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "8d6de9e91d7579b6d1d9a07031afa708b49b0afbed50976eaabc5fb463eb41b9"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000101,
+    "types": {
+        "Image": 2
+    }
+}

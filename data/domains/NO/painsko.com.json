@@ -1,0 +1,36 @@
+{
+    "domain": "painsko.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000406,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "painsko\\.com\\/na\\/waWQiOjEwNDkyODksInNpZCI6MTA1MzkxMSwid2lkIjoxMjQ4MjUsInNyYyI6Mn0=eyJ\\.js",
+            "cookies": 0.000203,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 2,
+                "CSSStyleDeclaration.setProperty(\"fontFamily\",…)": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "8533430e3fd67db65f3918520952df04081e0b05fc693c18e8630a0f640833a9"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000406,
+    "types": {
+        "Script": 2
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "domain": "sndcdn.com",
+    "owner": {
+        "name": "SoundCloud Ltd.",
+        "displayName": "SoundCloud",
+        "privacyPolicy": "https://soundcloud.com/pages/privacy",
+        "url": "http://soundcloud.com"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.00112,
+    "sites": 11,
+    "subdomains": [
+        "widget"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sndcdn\\.com\\/widget-0dad0be-c375d55c\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 11,
+                "window.sessionStorage": 11,
+                "window.localStorage": 11,
+                "window.devicePixelRatio": 11,
+                "Date.prototype.getTime": 11,
+                "Navigator.prototype.languages": 11,
+                "Event.prototype.timeStamp": 10
+            },
+            "sites": 11,
+            "prevalence": 0.00112,
+            "cnames": [],
+            "responseHashes": [
+                "928afc8cab88be056f162c62508b1fbcf02b1bd305fdf268e7739bf35bea5f18"
+            ]
+        },
+        {
+            "rule": "sndcdn\\.com\\/visual-single-sound-d890ecf-c375d55c\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 3,
+                "CanvasRenderingContext2D.prototype.getImageData": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "61055d1c60558cbd2354a12839d96c33a650bdfb4efe7eff398153a9f8d8543c"
+            ]
+        },
+        {
+            "rule": "sndcdn\\.com\\/single-sound-587771a-c375d55c\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "1c88fad0c14252a0f32d86511497aa5985f26abceef40984528053bf89b993f5"
+            ]
+        },
+        {
+            "rule": "sndcdn\\.com\\/multi-sounds-b05fc7f-c375d55c\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000507,
+            "cnames": [],
+            "responseHashes": [
+                "925bd5b1f343599a8d8a70e72aa8f63bb763cb4c7b249fce2388af9df7c3768c"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 2,
+        "cpu": 2,
+        "cache": 1
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 22
+    }
+}

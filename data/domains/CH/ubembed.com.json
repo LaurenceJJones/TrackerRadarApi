@@ -1,0 +1,57 @@
+{
+    "domain": "ubembed.com",
+    "owner": {
+        "name": "Unbounce",
+        "displayName": "Unbounce",
+        "privacyPolicy": "https://unbounce.com/privacy/",
+        "url": "http://unbounce.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00254,
+    "sites": 25,
+    "subdomains": [
+        "assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ubembed\\.com\\/universalscript\\/releases\\/v0\\.178\\.1\\/bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 24,
+                "window.localStorage": 24,
+                "Screen.prototype.width": 24,
+                "Screen.prototype.height": 24,
+                "Document.cookie getter": 8
+            },
+            "sites": 25,
+            "prevalence": 0.00254,
+            "cnames": [],
+            "responseHashes": [
+                "df25786bc3951d78d0f763a2a75a1f33b01b8ae2a5157831d2cf4d0348c2ede7"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics",
+        "Action Pixels",
+        "Embedded Content"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 1
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 25
+    }
+}

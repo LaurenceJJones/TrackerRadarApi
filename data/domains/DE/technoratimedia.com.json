@@ -1,0 +1,119 @@
+{
+    "domain": "technoratimedia.com",
+    "owner": {
+        "name": "Synacor, Inc.",
+        "displayName": "Synacor"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.00496,
+    "sites": 49,
+    "subdomains": [
+        "sync",
+        "prebid",
+        "ad-cdn",
+        "uat-net"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "technoratimedia\\.com\\/services",
+            "cookies": 0.00375,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 37,
+            "prevalence": 0.00375,
+            "cnames": [],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "technoratimedia\\.com\\/openrtb\\/bids\\/newor",
+            "cookies": 0.000608,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prebid"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000608,
+            "cnames": [],
+            "responseHashes": [
+                "3ded61a8af3f1d5213a8233de819566543ccaebdf73563aa51da949f6fbc6ac3",
+                "869f1aefcd289d14fa401b99a115ae0ca04252c702ca483fbb11c273ef686d44"
+            ]
+        },
+        {
+            "rule": "technoratimedia\\.com\\/html\\/usersync\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ad-cdn"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": [
+                "3f40aefcb6a414b15a69054892f35336f97d5158f08c0651bfcf91d4ad0d699a"
+            ]
+        },
+        {
+            "rule": "technoratimedia\\.com\\/services",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync",
+                "uat-net"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "technoratimedia\\.com\\/openrtb\\/bids\\/urbandictionary",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prebid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "3ded61a8af3f1d5213a8233de819566543ccaebdf73563aa51da949f6fbc6ac3"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Ad Fraud"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00496,
+    "types": {
+        "Document": 49,
+        "XHR": 8,
+        "Image": 2
+    }
+}

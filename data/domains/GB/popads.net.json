@@ -1,0 +1,60 @@
+{
+    "domain": "popads.net",
+    "owner": {
+        "name": "Tomksoft S.A.",
+        "displayName": "Tomksoft",
+        "privacyPolicy": "https://www.popads.net/privacy-policy.html",
+        "url": "http://popads.net"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000913,
+    "sites": 9,
+    "subdomains": [
+        "c1"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "popads\\.net\\/pop\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c1"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "window.localStorage": 8,
+                "Navigator.prototype.userAgent": 8,
+                "window.devicePixelRatio": 8,
+                "Screen.prototype.width": 8,
+                "Screen.prototype.height": 8
+            },
+            "sites": 8,
+            "prevalence": 0.000811,
+            "cnames": [],
+            "responseHashes": [
+                "a6f6f915735dc972ccf1173136f278e4e7dd53505fd99d94a4292676dc7bfa35"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Ad Fraud",
+        "Analytics",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 3,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 8
+    }
+}

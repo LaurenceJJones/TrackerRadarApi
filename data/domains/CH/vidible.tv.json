@@ -1,0 +1,76 @@
+{
+    "domain": "vidible.tv",
+    "owner": {
+        "name": "Verizon Media",
+        "displayName": "Verizon Media",
+        "privacyPolicy": "https://www.verizon.com/about/privacy/privacy-policy-summary",
+        "url": "http://verizon.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00061,
+    "sites": 6,
+    "subdomains": [
+        "acds.prod",
+        "cdn-ssl"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "vidible\\.tv\\/o2shim",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "acds.prod"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000407,
+            "cnames": [],
+            "responseHashes": [
+                "e41bc3b8ff01cf6d08cb8612246f3b4dfda0eebdd41d6accb602c0833a0f6812",
+                "9e53975deac60e38848d6f4fbd04632fb4a01e5776a235230c29eba3ad47cdcd",
+                "fd98e562f23d3706f0fc5a706cb7ff1dd4abfb5ef9e521250b89e53cf715ff1b"
+            ]
+        },
+        {
+            "rule": "vidible\\.tv\\/prod\\/ad-client\\/js\\/10\\.2\\.57\\/0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-ssl"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.platform": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000407,
+            "cnames": [],
+            "responseHashes": [
+                "368a329bdcc94b2b01734ae64224f1ae18820ac9d888eca66a9144133bb6bef6"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Embedded Content"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000102,
+    "types": {
+        "Script": 8
+    }
+}

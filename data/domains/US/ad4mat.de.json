@@ -1,0 +1,43 @@
+{
+    "domain": "ad4mat.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000456,
+    "sites": 6,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ad4mat\\.de\\/ads\\/js\\/ck_tracker\\.php",
+            "cookies": 0.00000759,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000304,
+            "cnames": [],
+            "responseHashes": [
+                "ca77dde54c1e1ad860a110847a8e22622c9e7ad96eb51127fc6f9b3070916836",
+                "347b96aa939abb5aa394c74df704fc3855fc4600731e85f9d712c6a29205d457"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0.0000152,
+    "types": {
+        "Script": 4
+    }
+}

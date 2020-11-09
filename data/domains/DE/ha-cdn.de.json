@@ -1,0 +1,73 @@
+{
+    "domain": "ha-cdn.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000405,
+    "sites": 4,
+    "subdomains": [
+        "uim-tifbs",
+        "t-uimserv-net"
+    ],
+    "cnames": [
+        {
+            "original": "t.uimserv.net",
+            "resolved": "t-uimserv-net.ha-cdn.de"
+        },
+        {
+            "original": "uim.tifbs.net",
+            "resolved": "uim-tifbs.ha-cdn.de"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ha-cdn\\.de\\/js\\/41425\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "uim-tifbs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [
+                {
+                    "original": "uim.tifbs.net",
+                    "resolved": "uim-tifbs.ha-cdn.de"
+                }
+            ],
+            "responseHashes": [
+                "9beadb98873e9466276be6dbd88033c61bc7a16856381e93ec0f438797ecb9de"
+            ]
+        },
+        {
+            "rule": "ha-cdn\\.de\\/traffic_p\\/",
+            "cookies": 0.000304,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t-uimserv-net"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [
+                {
+                    "original": "t.uimserv.net",
+                    "resolved": "t-uimserv-net.ha-cdn.de"
+                }
+            ],
+            "responseHashes": [
+                "ef1955ae757c8b966c83248350331bd3a30f658ced11f387f8ebf05ab3368629"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000405,
+    "types": {
+        "Script": 2,
+        "Image": 3
+    }
+}

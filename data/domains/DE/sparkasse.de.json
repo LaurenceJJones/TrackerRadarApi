@@ -1,0 +1,40 @@
+{
+    "domain": "sparkasse.de",
+    "owner": {
+        "name": "Sparkassen-Finanzportal GmbH",
+        "displayName": "Sparkassen-Finanzportal"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000709,
+    "sites": 7,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "sparkasse\\.de\\/frontend\\/setTrackingCookie\\.html",
+            "cookies": 0.000709,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000709,
+            "cnames": [],
+            "responseHashes": [
+                "b1442e85b03bdcaf66dc58c7abb98745dd2687d86350be9a298a1d9382ac849b"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000709,
+    "types": {
+        "Image": 7
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "domain": "urbanairship.com",
+    "owner": {
+        "name": "Urban Airship, Inc.",
+        "displayName": "Urban Airship"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000608,
+    "sites": 6,
+    "subdomains": [
+        "web-sdk"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "urbanairship\\.com\\/notify\\/v1\\/ua-sdk\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web-sdk"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Notification.permission": 6,
+                "window.localStorage": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000608,
+            "cnames": [],
+            "responseHashes": [
+                "ebc8419821dd4d9a2cd710ea02fd413bded2fe931609c77b35997471a2c0bd21"
+            ]
+        },
+        {
+            "rule": "urbanairship\\.com\\/notify\\/v1\\/ua-sdk\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web-sdk"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Notification.permission": 6,
+                "window.localStorage": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000608,
+            "cnames": [],
+            "responseHashes": [
+                "ebc8419821dd4d9a2cd710ea02fd413bded2fe931609c77b35997471a2c0bd21"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 6,
+        "Other": 6
+    }
+}

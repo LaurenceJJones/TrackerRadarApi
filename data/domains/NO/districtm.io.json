@@ -1,0 +1,92 @@
+{
+    "domain": "districtm.io",
+    "owner": {
+        "name": "District M Inc.",
+        "displayName": "District M",
+        "privacyPolicy": "https://districtm.net/en/page/platforms-data-and-privacy-policy/",
+        "url": "http://districtm.net"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.0102,
+    "sites": 101,
+    "subdomains": [
+        "dmx",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "districtm\\.io\\/b\\/v1",
+            "cookies": 0.000304,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "districtm\\.io\\/b\\/v1",
+            "cookies": 0.00842,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmx"
+            ],
+            "apis": {},
+            "sites": 86,
+            "prevalence": 0.00872,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "districtm\\.io\\/ids\\/index\\.html",
+            "cookies": 0.00365,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 36,
+            "prevalence": 0.00365,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "districtm\\.io\\/ids\\/",
+            "cookies": 0.00132,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.00142,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.0101,
+    "types": {
+        "Other": 3,
+        "XHR": 86,
+        "Document": 50
+    }
+}

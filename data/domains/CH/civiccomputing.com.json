@@ -1,0 +1,50 @@
+{
+    "domain": "civiccomputing.com",
+    "owner": {
+        "name": "Civic Computing Limited",
+        "displayName": "Civic Computing"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00112,
+    "sites": 11,
+    "subdomains": [
+        "cc.cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "civiccomputing\\.com\\/9\\/cookieControl-9\\.x\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cc.cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.product": 2,
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "49f5e5e6b0a95e6f9db4345822d450d3cc8b52b1d7bd1417606fa5dae5fdde9a"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 2,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 2
+    }
+}

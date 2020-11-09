@@ -1,0 +1,107 @@
+{
+    "domain": "adition.com",
+    "owner": {
+        "name": "Virtual Minds AG",
+        "displayName": "Virtual Minds",
+        "privacyPolicy": "https://www.virtualminds.de/en/",
+        "url": "http://virtualminds.de"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.0334,
+    "sites": 329,
+    "subdomains": [
+        "dsp.adfarm1",
+        "ad11.adfarm1",
+        "ad4.adfarm1",
+        "ad2.adfarm1"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "adition\\.com\\/cookie\\/",
+            "cookies": 0.028,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dsp.adfarm1"
+            ],
+            "apis": {},
+            "sites": 280,
+            "prevalence": 0.0284,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "adition\\.com\\/cookie\\/",
+            "cookies": 0.0071,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dsp.adfarm1"
+            ],
+            "apis": {},
+            "sites": 72,
+            "prevalence": 0.0073,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "adition\\.com\\/tagging",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad11.adfarm1",
+                "ad4.adfarm1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "adition\\.com\\/track",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad4.adfarm1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "adition\\.com\\/banner",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad2.adfarm1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "5fb3bdb7f966c852579fb6b0574517445d5b2d171c804d66227ee67b1bffca9c"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 2,
+        "cache": 3
+    },
+    "cookies": 0.0325,
+    "types": {
+        "Document": 282,
+        "Image": 77
+    }
+}

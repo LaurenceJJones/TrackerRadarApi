@@ -1,0 +1,162 @@
+{
+    "domain": "criteo.net",
+    "owner": {
+        "name": "Criteo SA",
+        "displayName": "Criteo",
+        "privacyPolicy": "https://www.criteo.com/privacy/",
+        "url": "http://criteo.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.0423,
+    "sites": 417,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "criteo\\.net\\/js\\/ld\\/publishertag\\.prebid\\.js",
+            "cookies": 0.0199,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 200,
+                "Date.prototype.getTime": 200,
+                "Document.cookie setter": 196,
+                "Document.cookie getter": 196,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 205,
+            "prevalence": 0.0208,
+            "cnames": [],
+            "responseHashes": [
+                "f72423823b8aca3ed7719ec83f569fa6936c398c486a48206226f817f60f0542"
+            ]
+        },
+        {
+            "rule": "criteo\\.net\\/js\\/ld\\/publishertag\\.prebid\\.js",
+            "cookies": 0.0199,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 200,
+                "Date.prototype.getTime": 200,
+                "Document.cookie setter": 196,
+                "Document.cookie getter": 196,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 200,
+            "prevalence": 0.0203,
+            "cnames": [],
+            "responseHashes": [
+                "f72423823b8aca3ed7719ec83f569fa6936c398c486a48206226f817f60f0542"
+            ]
+        },
+        {
+            "rule": "criteo\\.net\\/js\\/ld\\/ld\\.js",
+            "cookies": 0.00811,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 126,
+                "window.localStorage": 126,
+                "Date.prototype.getTime": 126,
+                "Document.cookie setter": 80,
+                "Document.cookie getter": 84
+            },
+            "sites": 127,
+            "prevalence": 0.0129,
+            "cnames": [],
+            "responseHashes": [
+                "0f6204713c11eeb6d7648e3401617e22f8e88f96cd517a538dc018ac2ab7bdf2"
+            ]
+        },
+        {
+            "rule": "criteo\\.net\\/js\\/ld\\/publishertag\\.js",
+            "cookies": 0.00811,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 85,
+                "Date.prototype.getTime": 85,
+                "Document.cookie setter": 80,
+                "Document.cookie getter": 80,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3
+            },
+            "sites": 85,
+            "prevalence": 0.00862,
+            "cnames": [],
+            "responseHashes": [
+                "6f1d7d418d1f561064b1d14af8a2aac97ab2d43471b04a54aebecbd22774cdde"
+            ]
+        },
+        {
+            "rule": "criteo\\.net\\/js\\/ld\\/publishertag\\.standalone\\.js",
+            "cookies": 0.000203,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000406,
+            "cnames": [],
+            "responseHashes": [
+                "2a8346de9cbad80be174b46507ceaa654af56d69ec79196e5f65e6979520f835"
+            ]
+        },
+        {
+            "rule": "criteo\\.net\\/js\\/ld\\/publishertag\\.standalone\\.js",
+            "cookies": 0.000203,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "2a8346de9cbad80be174b46507ceaa654af56d69ec79196e5f65e6979520f835"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 1
+    },
+    "cookies": 0.0356,
+    "types": {
+        "Script": 421,
+        "XHR": 203
+    }
+}

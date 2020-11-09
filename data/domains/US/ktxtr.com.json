@@ -1,0 +1,49 @@
+{
+    "domain": "ktxtr.com",
+    "owner": {
+        "name": "kontextR GmbH",
+        "displayName": "kontextR"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000114,
+    "sites": 15,
+    "subdomains": [
+        "s"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ktxtr\\.com\\/kx\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Document.cookie getter": 10,
+                "Navigator.prototype.userAgent": 10,
+                "Date.prototype.getTime": 10
+            },
+            "sites": 10,
+            "prevalence": 0.0000759,
+            "cnames": [],
+            "responseHashes": [
+                "3c458b6f500759812ef65c0bce9b225a648eeac5105e056e5879fae8cecba4b8"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 10
+    }
+}

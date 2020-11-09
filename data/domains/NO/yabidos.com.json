@@ -1,0 +1,89 @@
+{
+    "domain": "yabidos.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000507,
+    "sites": 5,
+    "subdomains": [
+        "pixel"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "yabidos\\.com\\/fltiu\\.js",
+            "cookies": 0.000507,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {
+                "Navigator.prototype.doNotTrack": 5,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000507,
+            "cnames": [],
+            "responseHashes": [
+                "87ce4cc30530348882f7ec9e07ca8a24e704140aef3ef8260c3272598081c99b"
+            ]
+        },
+        {
+            "rule": "yabidos\\.com\\/flimpobj\\.js",
+            "cookies": 0.000507,
+            "fingerprinting": 3,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 5,
+                "Navigator.prototype.appName": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.cookieEnabled": 5,
+                "Navigator.prototype.productSub": 5,
+                "Navigator.prototype.maxTouchPoints": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.availWidth": 5,
+                "Screen.prototype.height": 5,
+                "Screen.prototype.availHeight": 5,
+                "Navigator.prototype.languages": 5,
+                "Navigator.prototype.language": 5,
+                "Navigator.prototype.doNotTrack": 5,
+                "Navigator.prototype.platform": 5,
+                "window.indexedDB": 5,
+                "window.sessionStorage": 5,
+                "Screen.prototype.colorDepth": 5,
+                "Screen.prototype.pixelDepth": 5,
+                "Date.prototype.getTimezoneOffset": 5,
+                "window.localStorage": 5,
+                "window.devicePixelRatio": 5,
+                "Navigator.prototype.plugins": 5,
+                "Navigator.prototype.connection": 5,
+                "WebGLRenderingContext.prototype.getExtension": 5,
+                "WebGLRenderingContext.prototype.getParameter": 5,
+                "Navigator.prototype.vendor": 5,
+                "RTCPeerConnection.prototype.constructor": 5,
+                "RTCPeerConnectionIceEvent.prototype.candidate": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000507,
+            "cnames": [],
+            "responseHashes": [
+                "d9a8724cbe0638bb95c39ae623ce8c2f1b5a97b5c061414e72f0bd922ac6e518"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000507,
+    "types": {
+        "Script": 10
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "domain": "lr-ingest.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000409,
+    "sites": 4,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "lr-ingest\\.io\\/logger-1\\.min\\.js",
+            "cookies": 0.000307,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 3,
+                "window.localStorage": 3,
+                "URL.createObjectURL": 3
+            },
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "52ee3fdfe9f5ff262900e266a6f4d63136f3f012ded56cdc6b910c58bd83a54c"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000409,
+    "types": {
+        "Script": 3
+    }
+}

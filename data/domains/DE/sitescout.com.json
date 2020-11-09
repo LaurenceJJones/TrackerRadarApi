@@ -1,0 +1,74 @@
+{
+    "domain": "sitescout.com",
+    "owner": {
+        "name": "Centro, Inc.",
+        "displayName": "Centro"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.016,
+    "sites": 158,
+    "subdomains": [
+        "pixel-sync"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "sitescout\\.com\\/connectors\\/lotame\\/usersync",
+            "cookies": 0.000709,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel-sync"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000709,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "sitescout\\.com\\/connectors\\/krux\\/usersync",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel-sync"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "sitescout\\.com\\/connectors\\/adobe\\/usersync",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel-sync"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Action Pixels"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.00111,
+    "types": {
+        "Image": 11
+    }
+}

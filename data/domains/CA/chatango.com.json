@@ -1,0 +1,74 @@
+{
+    "domain": "chatango.com",
+    "owner": {
+        "name": "Chatango LLC.",
+        "displayName": "Chatango"
+    },
+    "source": [
+        "DuckDuckGo-CA"
+    ],
+    "prevalence": 0.000819,
+    "sites": 8,
+    "subdomains": [
+        "st"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "chatango\\.com\\/js\\/gz\\/emb\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "st"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.appVersion": 5,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 7,
+            "prevalence": 0.000716,
+            "cnames": [],
+            "responseHashes": [
+                "240d9290559cef34dea6a60a39c0390e5df5ac5b620016dc2876c557e51a0d2c"
+            ]
+        },
+        {
+            "rule": "chatango\\.com\\/h5\\/gz\\/r1018202256\\/id\\.html",
+            "cookies": 0.000614,
+            "fingerprinting": 1,
+            "subdomains": [
+                "st"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.appVersion": 4,
+                "Navigator.prototype.language": 4,
+                "window.localStorage": 6,
+                "Date.prototype.getTime": 6,
+                "Navigator.prototype.cookieEnabled": 4,
+                "Document.cookie getter": 6,
+                "Document.cookie setter": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000614,
+            "cnames": [],
+            "responseHashes": [
+                "91008af6a1ebbdbca86937f188f6ac5edca316236c0322dcda9738a2048ea842"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 3,
+        "cache": 1
+    },
+    "cookies": 0.000614,
+    "types": {
+        "Script": 7,
+        "Document": 6
+    }
+}

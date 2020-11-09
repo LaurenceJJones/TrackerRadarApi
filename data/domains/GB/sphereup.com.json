@@ -1,0 +1,46 @@
+{
+    "domain": "sphereup.com",
+    "owner": {
+        "name": "SphereUp, Inc",
+        "displayName": "SphereUp"
+    },
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000304,
+    "sites": 3,
+    "subdomains": [
+        "zdwidget3-bs"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "sphereup\\.com\\/zoomd\\/SearchUi\\/GetToken",
+            "cookies": 0.000304,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zdwidget3-bs"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "50af114c0ff3f86f9f9be965223fc84fce8064dd057fd7488fb327c23a1afd44",
+                "4729d3b68253af351288be3dff61bf1ff07734f1cbe27e8f9afeb2ef1729910e"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000304,
+    "types": {
+        "XHR": 3
+    }
+}

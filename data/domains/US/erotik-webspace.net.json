@@ -1,0 +1,53 @@
+{
+    "domain": "erotik-webspace.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000152,
+    "sites": 2,
+    "subdomains": [
+        "123"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "erotik-webspace\\.net\\/asyncspc\\.php",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "123"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "3f7d3332cb22ffb1e1f870af9956c3eee9ed6002aae7b3ff3eb919201babd3c9"
+            ]
+        },
+        {
+            "rule": "erotik-webspace\\.net\\/lg\\.php",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "123"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "4e0705327480ad2323cb03d9c450ffcae4a98bf3a5382fa0c7882145ed620e49"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000152,
+    "types": {
+        "XHR": 2,
+        "Image": 2
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "domain": "tru.am",
+    "owner": {
+        "name": "trueAnthem Corp",
+        "displayName": "trueAnthem"
+    },
+    "source": [
+        "DuckDuckGo-NL"
+    ],
+    "prevalence": 0.00194,
+    "sites": 19,
+    "subdomains": [
+        "beacon"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "tru\\.am\\/scripts\\/custom\\/meredith\\.js",
+            "cookies": 0.000817,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000817,
+            "cnames": [],
+            "responseHashes": [
+                "e59e1e84b023fab921d5317e8f97e4e7d838de3e7497dd32f52c58a90d238610"
+            ]
+        },
+        {
+            "rule": "tru\\.am\\/scripts\\/ta-pagesocial-sdk\\.js",
+            "cookies": 0.00174,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 17
+            },
+            "sites": 17,
+            "prevalence": 0.00174,
+            "cnames": [],
+            "responseHashes": [
+                "2b8d8ef7fec86e16424f0c6be7f0471a0c29256e074e1336d92876ddb4bc09ff"
+            ]
+        },
+        {
+            "rule": "tru\\.am\\/beacon",
+            "cookies": 0.00112,
+            "fingerprinting": 0,
+            "subdomains": [
+                "beacon"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.00112,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "tru\\.am\\/scripts\\/1\\/ranker\\.js",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "0a0ce6a65a9ebdb04d440a6e716b0c32a50ed030fdbf63f5eb60cd5b57be8939"
+            ]
+        },
+        {
+            "rule": "tru\\.am\\/scripts\\/custom\\/ziffmedia\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "945ddb03c4b747c86bfd3dcbde2db8bd41f3dd49d5e7cd97877c16e6d673bf01"
+            ]
+        },
+        {
+            "rule": "tru\\.am\\/scripts\\/custom\\/time\\.js",
+            "cookies": 0.000204,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000204,
+            "cnames": [],
+            "responseHashes": [
+                "f9bcc85298c6e1091834be2ba2b795cb90e0d9eec834f5c963cb0ea192fffd90"
+            ]
+        }
+    ],
+    "categories": [
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 1
+    },
+    "cookies": 0.00184,
+    "types": {
+        "Script": 31,
+        "Fetch": 11
+    }
+}

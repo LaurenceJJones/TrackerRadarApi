@@ -1,0 +1,100 @@
+{
+    "domain": "dc-storm.com",
+    "owner": {
+        "name": "Rakuten, Inc.",
+        "displayName": "Rakuten",
+        "privacyPolicy": "https://rakutenmarketing.com/legal-notices/services-privacy-policy",
+        "url": "http://rakutenmarketing.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00552,
+    "sites": 727,
+    "subdomains": [
+        "nypi",
+        "consent",
+        "nyt2"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "dc-storm\\.com\\/t",
+            "cookies": 0.00307,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nypi"
+            ],
+            "apis": {},
+            "sites": 404,
+            "prevalence": 0.00307,
+            "cnames": [],
+            "responseHashes": [
+                "bb229a48bee31f5d54ca12dc9bd960c63a671f0d4be86a054c1d324a44499d96"
+            ]
+        },
+        {
+            "rule": "dc-storm\\.com\\/consent\\/v1\\/p",
+            "cookies": 0.0000911,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000911,
+            "cnames": [],
+            "responseHashes": [
+                "bb229a48bee31f5d54ca12dc9bd960c63a671f0d4be86a054c1d324a44499d96"
+            ]
+        },
+        {
+            "rule": "dc-storm\\.com\\/dcv4\\/lqs\\.aspx",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nyt2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "bb229a48bee31f5d54ca12dc9bd960c63a671f0d4be86a054c1d324a44499d96"
+            ]
+        },
+        {
+            "rule": "dc-storm\\.com\\/consent\\/v2\\/p",
+            "cookies": 0.000038,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000038,
+            "cnames": [],
+            "responseHashes": [
+                "bb229a48bee31f5d54ca12dc9bd960c63a671f0d4be86a054c1d324a44499d96"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Audience Measurement",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00552,
+    "types": {
+        "Image": 423
+    }
+}

@@ -1,0 +1,337 @@
+{
+    "domain": "bidr.io",
+    "owner": {
+        "name": "Beeswax",
+        "displayName": "Beeswax",
+        "privacyPolicy": "https://www.beeswax.com/privacy.html",
+        "url": "http://beeswax.com"
+    },
+    "source": [
+        "DuckDuckGo-AU"
+    ],
+    "prevalence": 0.0613,
+    "sites": 599,
+    "subdomains": [
+        "match.prod",
+        "segment.prod",
+        "cnv.event.prod"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "bidr\\.io\\/cookie-sync\\/svr",
+            "cookies": 0.0113,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match.prod"
+            ],
+            "apis": {},
+            "sites": 180,
+            "prevalence": 0.0184,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "bidr\\.io\\/cookie-sync\\/ie",
+            "cookies": 0.0203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match.prod"
+            ],
+            "apis": {},
+            "sites": 209,
+            "prevalence": 0.0214,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "bidr\\.io\\/cookie-sync\\/demandbase",
+            "cookies": 0.00369,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match.prod"
+            ],
+            "apis": {},
+            "sites": 36,
+            "prevalence": 0.00369,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "bidr\\.io\\/cookie-sync\\/adobe",
+            "cookies": 0.000717,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match.prod"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000717,
+            "cnames": [],
+            "responseHashes": [
+                "fc717e326ce1bed0e59a7d915ab7dd72ecee5ea9b63884d98b9b35f5aab7bca5"
+            ]
+        },
+        {
+            "rule": "bidr\\.io\\/cookie-sync\\/lkq",
+            "cookies": 0.000819,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match.prod"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.00113,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "bidr\\.io\\/cookie-sync\\/syn",
+            "cookies": 0.00287,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match.prod"
+            ],
+            "apis": {},
+            "sites": 37,
+            "prevalence": 0.00379,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "bidr\\.io\\/cookie-sync\\/pm&gdpr=0&gdpr_consent=",
+            "cookies": 0.0146,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match.prod"
+            ],
+            "apis": {},
+            "sites": 184,
+            "prevalence": 0.0188,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "bidr\\.io\\/cookie-sync",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match.prod"
+            ],
+            "apis": {},
+            "sites": 136,
+            "prevalence": 0.0139,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "bidr\\.io\\/associate-segment",
+            "cookies": 0.00041,
+            "fingerprinting": 0,
+            "subdomains": [
+                "segment.prod"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.00041,
+            "cnames": [],
+            "responseHashes": [
+                "dcecab1355b5c2b9ecef281322bf265ac5840b4688748586e9632b473a5fe56b"
+            ]
+        },
+        {
+            "rule": "bidr\\.io\\/cookie-sync\\/spiceworks2",
+            "cookies": 0.00205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match.prod"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.00246,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "bidr\\.io\\/cookie-sync\\/unr",
+            "cookies": 0.000819,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match.prod"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.00154,
+            "cnames": [],
+            "responseHashes": [
+                "64efdf33ff487ad815c53fe5f819454efd9364a0382e5f410972cfaa918fb66a"
+            ]
+        },
+        {
+            "rule": "bidr\\.io\\/cookie-sync\\/rtk",
+            "cookies": 0.00184,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match.prod"
+            ],
+            "apis": {},
+            "sites": 21,
+            "prevalence": 0.00215,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "bidr\\.io\\/cookie-sync\\/spiceworks2",
+            "cookies": 0.000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match.prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "bidr\\.io\\/cookie-sync\\/spiceworks",
+            "cookies": 0.000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match.prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "bidr\\.io\\/cookie-sync\\/pp",
+            "cookies": 0.00205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match.prod"
+            ],
+            "apis": {},
+            "sites": 22,
+            "prevalence": 0.00225,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "bidr\\.io\\/cookie-sync\\/krux",
+            "cookies": 0.000307,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match.prod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "bidr\\.io\\/cookie-sync\\/audigent",
+            "cookies": 0.000717,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match.prod"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.000717,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "bidr\\.io\\/log\\/cnv",
+            "cookies": 0.000819,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cnv.event.prod"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000819,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "bidr\\.io\\/cookie-sync\\/anomaly",
+            "cookies": 0.000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match.prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "dd156d31c54ead94a5a367f584b5c33da3ca9d32718906fdb1f17d3388c49039"
+            ]
+        },
+        {
+            "rule": "bidr\\.io\\/cookie-sync\\/dm",
+            "cookies": 0.000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match.prod"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.00041,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "bidr\\.io\\/cookie-sync\\/deseret",
+            "cookies": 0.000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match.prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "73da3b369596f2ea8e701ec80155bf93c638eb66f1de5eac9a88f2eb8e565fd8"
+            ]
+        },
+        {
+            "rule": "bidr\\.io\\/cookie-sync\\/tbw",
+            "cookies": 0.000307,
+            "fingerprinting": 0,
+            "subdomains": [
+                "match.prod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000307,
+            "cnames": [],
+            "responseHashes": [
+                "959b6d1c76975852e911025d4f1419895b4fb17be54d3fb80db74bb001539750"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.0551,
+    "types": {
+        "Image": 558,
+        "Document": 356,
+        "Script": 5
+    }
+}

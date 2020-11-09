@@ -1,0 +1,62 @@
+{
+    "domain": "aswpsdkus.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000506,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "aswpsdkus\\.com\\/notify\\/v1\\/ua-sdk\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Notification.permission": 5,
+                "window.localStorage": 4,
+                "window.indexedDB": 1
+            },
+            "sites": 5,
+            "prevalence": 0.000506,
+            "cnames": [],
+            "responseHashes": [
+                "ebc8419821dd4d9a2cd710ea02fd413bded2fe931609c77b35997471a2c0bd21"
+            ]
+        },
+        {
+            "rule": "aswpsdkus\\.com\\/notify\\/v1\\/ua-sdk\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Notification.permission": 3,
+                "window.indexedDB": 1,
+                "window.localStorage": 2
+            },
+            "sites": 4,
+            "prevalence": 0.000405,
+            "cnames": [],
+            "responseHashes": [
+                "ebc8419821dd4d9a2cd710ea02fd413bded2fe931609c77b35997471a2c0bd21"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 5,
+        "Other": 4
+    }
+}

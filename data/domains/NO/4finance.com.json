@@ -1,0 +1,83 @@
+{
+    "domain": "4finance.com",
+    "owner": {
+        "name": "4FINANCE AS",
+        "displayName": "4FINANCE",
+        "privacyPolicy": "https://www.4finance.com/privacypolicy/",
+        "url": "http://4finance.com"
+    },
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.00933,
+    "sites": 92,
+    "subdomains": [
+        "rtb"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "4finance\\.com\\/sync",
+            "cookies": 0.0072,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtb"
+            ],
+            "apis": {},
+            "sites": 73,
+            "prevalence": 0.0074,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "4finance\\.com\\/ul_cb\\/sync",
+            "cookies": 0.00629,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtb"
+            ],
+            "apis": {},
+            "sites": 62,
+            "prevalence": 0.00629,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "4finance\\.com\\/sync",
+            "cookies": 0.00183,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtb"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00193,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "4finance\\.com\\/ul_cb\\/sync",
+            "cookies": 0.00142,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtb"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.00142,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0.00902,
+    "types": {
+        "Image": 135,
+        "Document": 33
+    }
+}

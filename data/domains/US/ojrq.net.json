@@ -1,0 +1,62 @@
+{
+    "domain": "ojrq.net",
+    "owner": {
+        "name": "Impact",
+        "displayName": "Impact"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00124,
+    "sites": 163,
+    "subdomains": [
+        "www",
+        "uniquevintage"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ojrq\\.net\\/p\\/",
+            "cookies": 0.00082,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 109,
+            "prevalence": 0.000828,
+            "cnames": [],
+            "responseHashes": [
+                "ec34cd386427fe6deacf99f4fdbeea4b1d1ed25f505411650d7ceaa843a7fc63"
+            ]
+        },
+        {
+            "rule": "ojrq\\.net\\/xc\\/116360\\/159959\\/834",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uniquevintage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "ef85ec5e52dab6feffdfc059f338477aeb7319e9dd14dd99263ccaad7b17e322"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00122,
+    "types": {
+        "Image": 109,
+        "XHR": 2
+    }
+}

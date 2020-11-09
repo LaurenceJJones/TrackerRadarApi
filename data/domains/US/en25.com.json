@@ -1,0 +1,97 @@
+{
+    "domain": "en25.com",
+    "owner": {
+        "name": "Oracle Corporation",
+        "displayName": "Oracle",
+        "privacyPolicy": "https://www.oracle.com/legal/privacy/privacy-policy.html",
+        "url": "http://oracle.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00443,
+    "sites": 584,
+    "subdomains": [
+        "img06",
+        "img",
+        "img04",
+        "img03",
+        "img07"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "en25\\.com\\/i\\/elqCfg\\.min\\.js",
+            "cookies": 0.0000456,
+            "fingerprinting": 1,
+            "subdomains": [
+                "img06",
+                "img",
+                "img04",
+                "img03",
+                "img07"
+            ],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 346,
+                "Document.cookie getter": 106,
+                "Document.cookie setter": 6
+            },
+            "sites": 349,
+            "prevalence": 0.00265,
+            "cnames": [],
+            "responseHashes": [
+                "6b4ebd6049c806e3eef1bd770b2d8b4fdd75803861ead3584ee753e41988efae"
+            ]
+        },
+        {
+            "rule": "en25\\.com\\/Web\\/BusinessDevelopmentBankOfCanada\\/%7B12eb01b1-6d43-4a01-aeeb-dda246a2ec08%7D_fpc-final\\.min\\.js",
+            "cookies": 0.0000152,
+            "fingerprinting": 1,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "7a69dbe2c388e28d31b1f0d539a01d8f66f658c839b83f6576101d676dca9d6d"
+            ]
+        },
+        {
+            "rule": "en25\\.com\\/i\\/elqCfg\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": []
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.0000759,
+    "types": {
+        "Script": 351,
+        "XHR": 2
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "domain": "headerlift.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000203,
+    "sites": 2,
+    "subdomains": [
+        "pub"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "headerlift\\.com\\/opphb",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pub"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "9112c4b26296128f419e3a4078d4e059c52cf0cceaf4e98307a120330f1e8365"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000203,
+    "types": {
+        "Fetch": 2
+    }
+}

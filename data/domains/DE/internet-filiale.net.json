@@ -1,0 +1,127 @@
+{
+    "domain": "internet-filiale.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000911,
+    "sites": 9,
+    "subdomains": [
+        "li076-4-module-bw-bank",
+        "hs030-6-module-frankfurter-sparkasse",
+        "hh001-7-module-haspa",
+        "bb098-6-module-mbs-potsdam",
+        "sn113-5-module-ostsaechsische-sparkasse-dresden",
+        "ni021-4-module-sparkasse-hannover",
+        "by058-1-module-sparkasse-nuernberg",
+        "rl101-7-module-sparkasse-koelnbonn",
+        "by001-6-module-sskm"
+    ],
+    "cnames": [
+        {
+            "original": "module.bw-bank.de",
+            "resolved": "li076-4-module-bw-bank.internet-filiale.net"
+        },
+        {
+            "original": "module.frankfurter-sparkasse.de",
+            "resolved": "hs030-6-module-frankfurter-sparkasse.internet-filiale.net"
+        },
+        {
+            "original": "module.haspa.de",
+            "resolved": "hh001-7-module-haspa.internet-filiale.net"
+        },
+        {
+            "original": "module.mbs.de",
+            "resolved": "bb098-6-module-mbs-potsdam.internet-filiale.net"
+        },
+        {
+            "original": "module.ostsaechsische-sparkasse-dresden.de",
+            "resolved": "sn113-5-module-ostsaechsische-sparkasse-dresden.internet-filiale.net"
+        },
+        {
+            "original": "module.sparkasse-hannover.de",
+            "resolved": "ni021-4-module-sparkasse-hannover.internet-filiale.net"
+        },
+        {
+            "original": "module.sparkasse-nuernberg.de",
+            "resolved": "by058-1-module-sparkasse-nuernberg.internet-filiale.net"
+        },
+        {
+            "original": "module.sskm.de",
+            "resolved": "by001-6-module-sskm.internet-filiale.net"
+        },
+        {
+            "original": "services.sparkasse-koelnbonn.de",
+            "resolved": "rl101-7-module-sparkasse-koelnbonn.internet-filiale.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "internet-filiale\\.net\\/if\\/services\\/tdg",
+            "cookies": 0.000911,
+            "fingerprinting": 0,
+            "subdomains": [
+                "li076-4-module-bw-bank",
+                "hs030-6-module-frankfurter-sparkasse",
+                "hh001-7-module-haspa",
+                "bb098-6-module-mbs-potsdam",
+                "sn113-5-module-ostsaechsische-sparkasse-dresden",
+                "ni021-4-module-sparkasse-hannover",
+                "by058-1-module-sparkasse-nuernberg",
+                "rl101-7-module-sparkasse-koelnbonn",
+                "by001-6-module-sskm"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.000911,
+            "cnames": [
+                {
+                    "original": "module.bw-bank.de",
+                    "resolved": "li076-4-module-bw-bank.internet-filiale.net"
+                },
+                {
+                    "original": "module.frankfurter-sparkasse.de",
+                    "resolved": "hs030-6-module-frankfurter-sparkasse.internet-filiale.net"
+                },
+                {
+                    "original": "module.haspa.de",
+                    "resolved": "hh001-7-module-haspa.internet-filiale.net"
+                },
+                {
+                    "original": "module.mbs.de",
+                    "resolved": "bb098-6-module-mbs-potsdam.internet-filiale.net"
+                },
+                {
+                    "original": "module.ostsaechsische-sparkasse-dresden.de",
+                    "resolved": "sn113-5-module-ostsaechsische-sparkasse-dresden.internet-filiale.net"
+                },
+                {
+                    "original": "module.sparkasse-hannover.de",
+                    "resolved": "ni021-4-module-sparkasse-hannover.internet-filiale.net"
+                },
+                {
+                    "original": "module.sparkasse-nuernberg.de",
+                    "resolved": "by058-1-module-sparkasse-nuernberg.internet-filiale.net"
+                },
+                {
+                    "original": "services.sparkasse-koelnbonn.de",
+                    "resolved": "rl101-7-module-sparkasse-koelnbonn.internet-filiale.net"
+                },
+                {
+                    "original": "module.sskm.de",
+                    "resolved": "by001-6-module-sskm.internet-filiale.net"
+                }
+            ],
+            "responseHashes": [
+                "62cfb054088e29a0e576b434030c236c6101af0599e6f55cfe89b35a6186fba4"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000911,
+    "types": {
+        "Image": 9
+    }
+}

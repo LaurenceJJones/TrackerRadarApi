@@ -1,0 +1,70 @@
+{
+    "domain": "getyourguide.com",
+    "owner": {
+        "name": "GetYourGuide AG",
+        "displayName": "GetYourGuide"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000137,
+    "sites": 18,
+    "subdomains": [
+        "widget"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "getyourguide\\.com\\/dist\\/pa-main\\.1597220624382_dd8448b901eef6dc7b3bce8b228fc497bb564121\\.umd\\.production\\.min\\.js",
+            "cookies": 0.0000835,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "window.localStorage": 13,
+                "Navigator.prototype.language": 12,
+                "Document.cookie getter": 11,
+                "Document.cookie setter": 11,
+                "Navigator.prototype.userAgent": 12,
+                "Navigator.prototype.appVersion": 12,
+                "PerformanceTiming.prototype.navigationStart": 12
+            },
+            "sites": 13,
+            "prevalence": 0.0000987,
+            "cnames": [],
+            "responseHashes": [
+                "ecbd30b6e13067096b0897c0e2a5f725107338f7915115e2f6740a2160ca4b1b"
+            ]
+        },
+        {
+            "rule": "getyourguide\\.com\\/v2\\/widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "window.localStorage": 9
+            },
+            "sites": 9,
+            "prevalence": 0.0000683,
+            "cnames": [],
+            "responseHashes": [
+                "07327e6e4a58edf73ffbea5dc555ff0f31ed3dcfd5d2c7493b8d6ae1144a218b"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000121,
+    "types": {
+        "Script": 22
+    }
+}

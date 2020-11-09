@@ -1,0 +1,33 @@
+{
+    "domain": "actionnetwork.org",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000101,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "actionnetwork\\.org\\/widgets\\/v3\\/form\\/jetzt-moria-evakuieren",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "27c9fd6cf21fe63a56c0dc33103a40abf1c91e403f7b0b45554afb84d9bd5e32"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000101,
+    "types": {
+        "Script": 2
+    }
+}

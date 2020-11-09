@@ -1,0 +1,256 @@
+{
+    "domain": "spotxchange.com",
+    "owner": {
+        "name": "SpotX, Inc.",
+        "displayName": "SpotX",
+        "privacyPolicy": "https://www.spotx.tv/privacy-policy/",
+        "url": "http://spotx.tv"
+    },
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.017,
+    "sites": 168,
+    "subdomains": [
+        "sync.search",
+        "search"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "spotxchange\\.com\\/partner",
+            "cookies": 0.00101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync.search"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.00101,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "spotxchange\\.com\\/vast\\/2\\.0\\/218945",
+            "cookies": 0.000608,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000608,
+            "cnames": [],
+            "responseHashes": [
+                "78e958d620d6e40a19e424eee3a9b23932cd9bfa4d7f736442048777d203052d"
+            ]
+        },
+        {
+            "rule": "spotxchange\\.com\\/partner",
+            "cookies": 0.0116,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync.search"
+            ],
+            "apis": {},
+            "sites": 117,
+            "prevalence": 0.0118,
+            "cnames": [],
+            "responseHashes": [
+                "0b8a20373c6dd04e091902226d922b3688143a8938afb9d283d889de7b55ceb5",
+                "e586a84d8523747f42e510d78e141015b6424cf67d612854e892a7bcedc8ec9e"
+            ]
+        },
+        {
+            "rule": "spotxchange\\.com\\/partner",
+            "cookies": 0.00122,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync.search"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.00122,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "spotxchange\\.com\\/openrtb\\/2\\.3\\/dados\\/218945",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "spotxchange\\.com\\/vast\\/2\\.00\\/281124",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "78e958d620d6e40a19e424eee3a9b23932cd9bfa4d7f736442048777d203052d"
+            ]
+        },
+        {
+            "rule": "spotxchange\\.com\\/openrtb\\/2\\.3\\/dados\\/299971",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "spotxchange\\.com\\/openrtb\\/2\\.3\\/dados\\/287573",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "spotxchange\\.com\\/audience_sync\\/9",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync.search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "spotxchange\\.com\\/openrtb\\/2\\.3\\/dados\\/297052",
+            "cookies": 0.000405,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.000405,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "spotxchange\\.com\\/openrtb\\/2\\.3\\/dados\\/301175",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "spotxchange\\.com\\/audience_sync\\/13",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync.search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "spotxchange\\.com\\/audience_sync\\/7",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync.search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": []
+        },
+        {
+            "rule": "spotxchange\\.com\\/openrtb\\/2\\.3\\/dados\\/257437",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        },
+        {
+            "rule": "spotxchange\\.com\\/openrtb\\/2\\.3\\/dados\\/257073",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.016,
+    "types": {
+        "Document": 10,
+        "XHR": 24,
+        "Image": 123,
+        "Script": 12
+    }
+}

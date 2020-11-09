@@ -1,0 +1,62 @@
+{
+    "domain": "nmrodam.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-DE"
+    ],
+    "prevalence": 0.000709,
+    "sites": 7,
+    "subdomains": [
+        "cdn-gl"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "nmrodam\\.com\\/novms\\/html\\/ls\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-gl"
+            ],
+            "apis": {
+                "window.sessionStorage": 7,
+                "window.localStorage": 7,
+                "Navigator.prototype.cookieEnabled": 3
+            },
+            "sites": 7,
+            "prevalence": 0.000709,
+            "cnames": [],
+            "responseHashes": [
+                "c1ca15aa8598ac972f25c8812a1c189cd22f8926ec7b890bc8ea6a70a7779fd1"
+            ]
+        },
+        {
+            "rule": "nmrodam\\.com\\/novms\\/js\\/2\\/nlsSDK600\\.eu\\.bundle\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-gl"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Date.prototype.getTime": 6,
+                "Navigator.prototype.cookieEnabled": 6,
+                "window.localStorage": 6
+            },
+            "sites": 6,
+            "prevalence": 0.000608,
+            "cnames": [],
+            "responseHashes": [
+                "48c1ec9aa17d57208c95da419c6f8744249980f31c8f8c62a092e8fe192fc44e"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Document": 7,
+        "Script": 6
+    }
+}

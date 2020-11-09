@@ -1,0 +1,78 @@
+{
+    "domain": "cpmstar.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000811,
+    "sites": 8,
+    "subdomains": [
+        "server"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "cpmstar\\.com\\/view\\.aspx",
+            "cookies": 0.000507,
+            "fingerprinting": 0,
+            "subdomains": [
+                "server"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.000608,
+            "cnames": [],
+            "responseHashes": [
+                "69d0eac193ac974ea9403668d08edc70e6af1c4ac9282976809795cca4b29a2a",
+                "85c49c951663c24e69568c625ba64dcd10eb465790254906a4ea849c17c5dd08",
+                "0b8c5b48bbc3150eb2c77a29859a98edb3b0cffabb39c299020143cfef3b4538",
+                "a7b6061f31eafd7635fca94c40c25bff068ef8d26b4343ec1f47d33afd4c4784"
+            ]
+        },
+        {
+            "rule": "cpmstar\\.com\\/view\\.aspx",
+            "cookies": 0.000101,
+            "fingerprinting": 0,
+            "subdomains": [
+                "server"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "193fdc7a48ae60adfa28663712b68539bead2a82033545589d0d97565c6e983b"
+            ]
+        },
+        {
+            "rule": "cpmstar\\.com\\/cached\\/js\\/siteskin_v100\\.pack\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "server"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.000406,
+            "cnames": [],
+            "responseHashes": [
+                "3070fbc8812d0832aa6e96dd781895a318722c147ac65248b1ec485185cd4a40"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.00071,
+    "types": {
+        "Script": 10,
+        "XHR": 2
+    }
+}

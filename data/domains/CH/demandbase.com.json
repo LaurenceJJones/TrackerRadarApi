@@ -1,0 +1,89 @@
+{
+    "domain": "demandbase.com",
+    "owner": {
+        "name": "Demandbase, Inc.",
+        "displayName": "Demandbase",
+        "privacyPolicy": "http://www.demandbase.com/privacy-policy/",
+        "url": "http://demandbase.com"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.00336,
+    "sites": 33,
+    "subdomains": [
+        "scripts"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "demandbase\\.com\\/qQQxkRp0\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6
+            },
+            "sites": 6,
+            "prevalence": 0.00061,
+            "cnames": [],
+            "responseHashes": [
+                "29520038d9e4b8683f4dbc0c230d68c363df4198d8ee6135df8659e7fde1180d"
+            ]
+        },
+        {
+            "rule": "demandbase\\.com\\/ab057a07\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "0df78351a8a97ef5ed2e0bcd01d6bcac316bbea80605a945147302853d699dae"
+            ]
+        },
+        {
+            "rule": "demandbase\\.com\\/HWyTnY16\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "009035425552e482b1ae9c4a5431aa53ca93b842120959703c8a7277a06a336f"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels"
+    ],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 1,
+        "cache": 3
+    },
+    "cookies": 0.000102,
+    "types": {
+        "Script": 10
+    }
+}

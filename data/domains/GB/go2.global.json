@@ -1,0 +1,43 @@
+{
+    "domain": "go2.global",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-GB"
+    ],
+    "prevalence": 0.000304,
+    "sites": 3,
+    "subdomains": [
+        "t"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "go2\\.global\\/tag\\/impress_v2",
+            "cookies": 0.000304,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000304,
+            "cnames": [],
+            "responseHashes": [
+                "dc733651c9a12e842b2cb7db70b367c900f404a577a3491c0b83da9f4d10c245",
+                "0411bc1e0c57c86ab659ccdd24bbc689cef68762ce14a5246fd11db1d72789f7"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 0,
+        "size": 0,
+        "cpu": 0,
+        "cache": 0
+    },
+    "cookies": 0.000304,
+    "types": {
+        "Script": 3
+    }
+}

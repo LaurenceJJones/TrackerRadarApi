@@ -1,0 +1,55 @@
+{
+    "domain": "hats-47b.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-NO"
+    ],
+    "prevalence": 0.000203,
+    "sites": 2,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "hats-47b\\.com\\/renderer\\/renderer\\.js",
+            "cookies": 0.000203,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "cb67b85bf6307b4a4347c9f1d418b5e9abec228a2390db5e78fd5df3404e41c1"
+            ]
+        },
+        {
+            "rule": "hats-47b\\.com\\/resource",
+            "cookies": 0.000203,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "2a88afa180bc78574e445939f07ec087831b240f3641171566f218031c637f3e"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000203,
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    }
+}

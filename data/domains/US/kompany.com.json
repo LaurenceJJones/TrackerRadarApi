@@ -1,0 +1,40 @@
+{
+    "domain": "kompany.com",
+    "owner": {
+        "name": "360kompany GmbH",
+        "displayName": "360kompany"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000152,
+    "sites": 2,
+    "subdomains": [
+        "socket"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "kompany\\.com\\/socket\\.io\\/",
+            "cookies": 0.0000152,
+            "fingerprinting": 0,
+            "subdomains": [
+                "socket"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000152,
+            "cnames": [],
+            "responseHashes": [
+                "e49089fb7d028d2c956334d5afd85e19af480e2ecbd1a7a74eacff9d337f767a"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000152,
+    "types": {
+        "XHR": 2
+    }
+}

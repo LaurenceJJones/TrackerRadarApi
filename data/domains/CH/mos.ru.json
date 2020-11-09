@@ -1,0 +1,45 @@
+{
+    "domain": "mos.ru",
+    "owner": {
+        "name": "Department of Information Technology of Moscow",
+        "displayName": "Department of Information Technology of Moscow"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000813,
+    "sites": 8,
+    "subdomains": [
+        "stats"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "mos\\.ru\\/gc\\/ynd\\/",
+            "cookies": 0.000813,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stats"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.000813,
+            "cnames": [],
+            "responseHashes": [
+                "548f2d6f4d0d820c6c5ffbeffcbd7f0e73193e2932eefe542accc84762deec87"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000813,
+    "types": {
+        "Image": 8
+    }
+}

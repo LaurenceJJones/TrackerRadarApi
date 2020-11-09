@@ -1,0 +1,58 @@
+{
+    "domain": "capranger.jp",
+    "owner": {
+        "name": "capranger.jp",
+        "displayName": "capranger.jp"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000508,
+    "sites": 5,
+    "subdomains": [
+        "img"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "capranger\\.jp\\/zipang\\/detail_21926\\/large\\.jpg",
+            "cookies": 0.000102,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.000203,
+            "cnames": [],
+            "responseHashes": [
+                "36b2858e6dc3fae21151b2d662ad24fea12739320da5a6022831ddf9bf65e4c0"
+            ]
+        },
+        {
+            "rule": "capranger\\.jp\\/favicon\\.ico",
+            "cookies": 0.000305,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.000305,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0.000305,
+    "types": {
+        "Image": 5
+    }
+}

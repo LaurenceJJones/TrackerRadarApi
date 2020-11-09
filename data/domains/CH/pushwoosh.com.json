@@ -1,0 +1,55 @@
+{
+    "domain": "pushwoosh.com",
+    "owner": {
+        "name": "Arello Mobile",
+        "displayName": "Arello Mobile"
+    },
+    "source": [
+        "DuckDuckGo-CH"
+    ],
+    "prevalence": 0.000508,
+    "sites": 5,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "pushwoosh\\.com\\/webpush\\/v3\\/pushwoosh-web-notifications\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.vendor": 5,
+                "Navigator.prototype.platform": 5,
+                "window.localStorage": 5,
+                "window.indexedDB": 5,
+                "Navigator.prototype.language": 5,
+                "Date.prototype.getTimezoneOffset": 5,
+                "Notification.permission": 5,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 5,
+            "prevalence": 0.000508,
+            "cnames": [],
+            "responseHashes": [
+                "5734bab3686369faa2c3fbfdf4e8b90c165656b10ffed11361ecdeafbde655db"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {
+        "time": 1,
+        "size": 1,
+        "cpu": 0,
+        "cache": 3
+    },
+    "cookies": 0,
+    "types": {
+        "Script": 5
+    }
+}

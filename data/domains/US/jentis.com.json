@@ -1,0 +1,70 @@
+{
+    "domain": "jentis.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000987,
+    "sites": 13,
+    "subdomains": [
+        "push.cheapism",
+        "push.hervis",
+        "push.refurbed"
+    ],
+    "cnames": [
+        {
+            "original": "jtsp.cheapism.com",
+            "resolved": "push.cheapism.jentis.com"
+        },
+        {
+            "original": "jtsp.hervis.at",
+            "resolved": "push.hervis.jentis.com"
+        },
+        {
+            "original": "jtsp.refurbed.de",
+            "resolved": "push.refurbed.jentis.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "jentis\\.com\\/",
+            "cookies": 0.000038,
+            "fingerprinting": 0,
+            "subdomains": [
+                "push.cheapism",
+                "push.hervis",
+                "push.refurbed"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.000038,
+            "cnames": [
+                {
+                    "original": "jtsp.cheapism.com",
+                    "resolved": "push.cheapism.jentis.com"
+                },
+                {
+                    "original": "jtsp.hervis.at",
+                    "resolved": "push.hervis.jentis.com"
+                },
+                {
+                    "original": "jtsp.refurbed.de",
+                    "resolved": "push.refurbed.jentis.com"
+                }
+            ],
+            "responseHashes": [
+                "7043b5082dc7ba66f867bdfd0353fcde24114d6e58a10d6b359e0c5bfbf0ff53",
+                "bbdd36ef9f3db9eec9d5679334f6e88f43dbd8e63947bd6a0bd3a10da3cf7020",
+                "84b06dbc7e5c2db5216bf251577f9ecfa8d9e76a381bb89ab19c42bfb9e07afb",
+                "224ad6344b0b2a0b9731b883f4f56ad722d413569575aaadc4152f278dd84a7b"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000531,
+    "types": {
+        "XHR": 5
+    }
+}
