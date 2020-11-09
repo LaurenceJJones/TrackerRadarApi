@@ -11,7 +11,11 @@ function dirRead(dir) {
             let arr = [];
             for (let i = 0; i < dirValue.length; i++) {
                 const element = dirValue[i];
-                arr.push(await syncFile(dir + element, 'utf-8').then((value) => JSON.parse(value)))
+                try {
+                    arr.push(await syncFile(dir + element, 'utf-8').then((value) => JSON.parse(value)))
+                } catch (error) {
+                    console.error(error)
+                }
             }
             resolve(arr);
         }).catch((err) => reject(err));
