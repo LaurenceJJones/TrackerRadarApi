@@ -1,5 +1,7 @@
 ## REST and GraphQL API based on DuckDuckGo Tracker Radar Data
 
+### Full Atrribution For The Source Data Goes To DuckDuckGo [#Link](https://github.com/duckduckgo/tracker-radar)
+
 #### ***GraphQL*** Example Data
 Endpoint for all GraphQL /api/graphql
 
